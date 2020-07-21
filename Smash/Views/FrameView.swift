@@ -10,8 +10,8 @@ import SwiftUI
 
 struct FrameView: View {
     var body: some View {
-        Text("Hello, World!")
-            .background(Color.orange)
+
+        Color.red
     }
 }
 

@@ -10,8 +10,7 @@ import SwiftUI
 
 struct AnalysisView: View {
     var body: some View {
-        Text("Hello, World!")
-            .background(Color.red)
+        Color.yellow
     }
 }
 

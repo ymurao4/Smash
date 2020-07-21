@@ -11,6 +11,7 @@ import SwiftUI
 struct ContentView: View {
 
     @State var index = 0
+    @State var isSheet: Bool = false
 
     var body: some View {
         VStack(spacing: 0) {
@@ -25,8 +26,11 @@ struct ContentView: View {
                     NoteView()
                 }
             }
+            .sheet(isPresented: $isSheet) {
+                AddRecordView()
+            }
             .padding(.bottom, -35)
-            CustomTabs(index: $index)
+            CustomTabs(index: $index, isSheet: $isSheet)
         }
         .background(Color(UIColor.tertiarySystemGroupedBackground).edgesIgnoringSafeArea(.bottom))
     }
@@ -48,6 +52,7 @@ struct CustomTabs: View {
 
     @Environment (\.colorScheme) var colorScheme:ColorScheme
     @Binding var index: Int
+    @Binding var isSheet: Bool
 
     var body: some View {
 
@@ -84,7 +89,7 @@ struct CustomTabs: View {
 
             // 追加
             Button(action: {
-
+                self.isSheet.toggle()
             }) {
                 Image(systemName: "plus")
                     .font(.system(size: 25))

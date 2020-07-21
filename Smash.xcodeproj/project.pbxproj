@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,16 @@
 		0409E4C024C574BA000038E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0409E4BE24C574BA000038E1 /* LaunchScreen.storyboard */; };
 		0409E4CC24C57582000038E1 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E4CB24C57582000038E1 /* RecordView.swift */; };
 		0409E4CE24C57588000038E1 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E4CD24C57588000038E1 /* NoteView.swift */; };
+		049239A624C6608B009F301E /* RecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239A524C6608B009F301E /* RecordViewModel.swift */; };
+		049239A824C660E3009F301E /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239A724C660E3009F301E /* Record.swift */; };
+		049239AB24C66AFB009F301E /* FighterPDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239AA24C66AFB009F301E /* FighterPDF.swift */; };
+		049239AD24C67B84009F301E /* StagePDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239AC24C67B84009F301E /* StagePDF.swift */; };
+		049239AF24C68146009F301E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239AE24C68146009F301E /* Constants.swift */; };
+		049239B124C68882009F301E /* EdgeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239B024C68882009F301E /* EdgeBorder.swift */; };
+		049239B324C6A306009F301E /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239B224C6A306009F301E /* AnalysisView.swift */; };
+		049239B524C6A3AF009F301E /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239B424C6A3AF009F301E /* FrameView.swift */; };
+		049239B724C6C0A5009F301E /* AddRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239B624C6C0A5009F301E /* AddRecordView.swift */; };
+		48E073D721060F2734D25D25 /* Pods_Smash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C2B775041D29DF66221E7D /* Pods_Smash.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +38,18 @@
 		0409E4C124C574BA000038E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0409E4CB24C57582000038E1 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
 		0409E4CD24C57588000038E1 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		049239A524C6608B009F301E /* RecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecordViewModel.swift; path = Smash/Models/RecordViewModel.swift; sourceTree = SOURCE_ROOT; };
+		049239A724C660E3009F301E /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		049239AA24C66AFB009F301E /* FighterPDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterPDF.swift; sourceTree = "<group>"; };
+		049239AC24C67B84009F301E /* StagePDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StagePDF.swift; sourceTree = "<group>"; };
+		049239AE24C68146009F301E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		049239B024C68882009F301E /* EdgeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeBorder.swift; sourceTree = "<group>"; };
+		049239B224C6A306009F301E /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
+		049239B424C6A3AF009F301E /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		049239B624C6C0A5009F301E /* AddRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecordView.swift; sourceTree = "<group>"; };
+		4AC027C60C1B5F94053909E2 /* Pods-Smash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smash.release.xcconfig"; path = "Target Support Files/Pods-Smash/Pods-Smash.release.xcconfig"; sourceTree = "<group>"; };
+		64853352686FFC6A5060929B /* Pods-Smash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smash.debug.xcconfig"; path = "Target Support Files/Pods-Smash/Pods-Smash.debug.xcconfig"; sourceTree = "<group>"; };
+		88C2B775041D29DF66221E7D /* Pods_Smash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48E073D721060F2734D25D25 /* Pods_Smash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +69,8 @@
 			children = (
 				0409E4B224C574B9000038E1 /* Smash */,
 				0409E4B124C574B9000038E1 /* Products */,
+				6DA842E88DDE30E34BE8AC52 /* Pods */,
+				79E7A372309743DA948D7EDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +89,7 @@
 				0409E4C724C574C1000038E1 /* Models */,
 				0409E4C824C574CA000038E1 /* Views */,
 				0409E4C924C574CF000038E1 /* ViewModels */,
+				049239A924C66AE9009F301E /* Components */,
 				0409E4B924C574BA000038E1 /* Assets.xcassets */,
 				0409E4BE24C574BA000038E1 /* LaunchScreen.storyboard */,
 				0409E4C124C574BA000038E1 /* Info.plist */,
@@ -83,6 +109,7 @@
 		0409E4C724C574C1000038E1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				049239A724C660E3009F301E /* Record.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -92,6 +119,9 @@
 			children = (
 				0409E4B724C574B9000038E1 /* ContentView.swift */,
 				0409E4CB24C57582000038E1 /* RecordView.swift */,
+				049239B624C6C0A5009F301E /* AddRecordView.swift */,
+				049239B424C6A3AF009F301E /* FrameView.swift */,
+				049239B224C6A306009F301E /* AnalysisView.swift */,
 				0409E4CD24C57588000038E1 /* NoteView.swift */,
 			);
 			path = Views;
@@ -100,6 +130,7 @@
 		0409E4C924C574CF000038E1 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				049239A524C6608B009F301E /* RecordViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -113,6 +144,34 @@
 			path = Apps;
 			sourceTree = "<group>";
 		};
+		049239A924C66AE9009F301E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				049239AA24C66AFB009F301E /* FighterPDF.swift */,
+				049239AC24C67B84009F301E /* StagePDF.swift */,
+				049239AE24C68146009F301E /* Constants.swift */,
+				049239B024C68882009F301E /* EdgeBorder.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		6DA842E88DDE30E34BE8AC52 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64853352686FFC6A5060929B /* Pods-Smash.debug.xcconfig */,
+				4AC027C60C1B5F94053909E2 /* Pods-Smash.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		79E7A372309743DA948D7EDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88C2B775041D29DF66221E7D /* Pods_Smash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -120,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0409E4C424C574BA000038E1 /* Build configuration list for PBXNativeTarget "Smash" */;
 			buildPhases = (
+				EAA147E247DC8383B239DBA1 /* [CP] Check Pods Manifest.lock */,
 				0409E4AC24C574B9000038E1 /* Sources */,
 				0409E4AD24C574B9000038E1 /* Frameworks */,
 				0409E4AE24C574B9000038E1 /* Resources */,
+				44F97EA83450D0A6D09A7384 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,6 +240,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44F97EA83450D0A6D09A7384 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smash/Pods-Smash-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Smash/Pods-Smash-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Smash/Pods-Smash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAA147E247DC8383B239DBA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Smash-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0409E4AC24C574B9000038E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -186,9 +289,18 @@
 			files = (
 				0409E4B424C574B9000038E1 /* AppDelegate.swift in Sources */,
 				0409E4CE24C57588000038E1 /* NoteView.swift in Sources */,
+				049239B524C6A3AF009F301E /* FrameView.swift in Sources */,
+				049239B124C68882009F301E /* EdgeBorder.swift in Sources */,
 				0409E4CC24C57582000038E1 /* RecordView.swift in Sources */,
+				049239B324C6A306009F301E /* AnalysisView.swift in Sources */,
 				0409E4B624C574B9000038E1 /* SceneDelegate.swift in Sources */,
+				049239B724C6C0A5009F301E /* AddRecordView.swift in Sources */,
+				049239A824C660E3009F301E /* Record.swift in Sources */,
+				049239AF24C68146009F301E /* Constants.swift in Sources */,
 				0409E4B824C574B9000038E1 /* ContentView.swift in Sources */,
+				049239AD24C67B84009F301E /* StagePDF.swift in Sources */,
+				049239AB24C66AFB009F301E /* FighterPDF.swift in Sources */,
+				049239A624C6608B009F301E /* RecordViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +434,7 @@
 		};
 		0409E4C524C574BA000038E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64853352686FFC6A5060929B /* Pods-Smash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -342,6 +455,7 @@
 		};
 		0409E4C624C574BA000038E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC027C60C1B5F94053909E2 /* Pods-Smash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

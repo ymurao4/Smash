@@ -10,7 +10,7 @@ import SwiftUI
 
 struct NoteView: View {
     var body: some View {
-        Text("Hello, World!")
+        Color.blue
     }
 }
 

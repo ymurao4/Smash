@@ -29,7 +29,8 @@ let testDatas = [
     Record(result: "win", myFighter: "king_k_rool", opponentFighter: "daisy", stage: "syuten"),
     Record(result: "lose", myFighter: "ike", opponentFighter: "sonic", stage: "sumamura"),
     Record(result: "win", myFighter: "lucario", opponentFighter: "dr_mario", stage: "pokesuta2"),
-    Record(result: "win", myFighter: "ness", opponentFighter: "luigi", stage: "pokesuta2")
+    Record(result: "win", myFighter: "ness", opponentFighter: "luigi", stage: "pokesuta2"),
+    Record(result: "lose", myFighter: "banjo_and_kazooie", opponentFighter: "banjo_and_kazooie", stage: "syuten")
 ]
 #endif
 

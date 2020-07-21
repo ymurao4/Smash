@@ -1,5 +1,5 @@
 //
-//  PDF.swift
+//  StagePDF.swift
 //  Smash
 //
 //  Created by 村尾慶伸 on 2020/07/21.
@@ -9,7 +9,7 @@
 import Foundation
 import SwiftUI
 
-struct FighterPDF: UIViewRepresentable {
+struct StagePDF: UIViewRepresentable {
 
     var name: String
 
@@ -21,9 +21,9 @@ struct FighterPDF: UIViewRepresentable {
 
     func updateUIView(_ uiView: UIImageView, context: Context) {
         uiView.contentMode = .scaleAspectFit
-
+        
         if let image = UIImage(named: name) {
-            uiView.image = image.withAlignmentRectInsets(UIEdgeInsets(top: 100, left: 100, bottom: 100, right: 100))
+            uiView.image = image.withAlignmentRectInsets(UIEdgeInsets(top: 50, left: 50, bottom: 50, right: 50))
         }
     }
 

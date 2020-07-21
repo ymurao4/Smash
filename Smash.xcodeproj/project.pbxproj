@@ -17,7 +17,10 @@
 		0409E4CE24C57588000038E1 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E4CD24C57588000038E1 /* NoteView.swift */; };
 		049239A624C6608B009F301E /* RecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239A524C6608B009F301E /* RecordViewModel.swift */; };
 		049239A824C660E3009F301E /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239A724C660E3009F301E /* Record.swift */; };
-		049239AB24C66AFB009F301E /* PDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239AA24C66AFB009F301E /* PDF.swift */; };
+		049239AB24C66AFB009F301E /* FighterPDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239AA24C66AFB009F301E /* FighterPDF.swift */; };
+		049239AD24C67B84009F301E /* StagePDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239AC24C67B84009F301E /* StagePDF.swift */; };
+		049239AF24C68146009F301E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239AE24C68146009F301E /* Constants.swift */; };
+		049239B124C68882009F301E /* EdgeBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239B024C68882009F301E /* EdgeBorder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,7 +36,10 @@
 		0409E4CD24C57588000038E1 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
 		049239A524C6608B009F301E /* RecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecordViewModel.swift; path = Smash/Models/RecordViewModel.swift; sourceTree = SOURCE_ROOT; };
 		049239A724C660E3009F301E /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
-		049239AA24C66AFB009F301E /* PDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDF.swift; sourceTree = "<group>"; };
+		049239AA24C66AFB009F301E /* FighterPDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterPDF.swift; sourceTree = "<group>"; };
+		049239AC24C67B84009F301E /* StagePDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StagePDF.swift; sourceTree = "<group>"; };
+		049239AE24C68146009F301E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		049239B024C68882009F301E /* EdgeBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdgeBorder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +131,10 @@
 		049239A924C66AE9009F301E /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				049239AA24C66AFB009F301E /* PDF.swift */,
+				049239AA24C66AFB009F301E /* FighterPDF.swift */,
+				049239AC24C67B84009F301E /* StagePDF.swift */,
+				049239AE24C68146009F301E /* Constants.swift */,
+				049239B024C68882009F301E /* EdgeBorder.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -203,11 +212,14 @@
 			files = (
 				0409E4B424C574B9000038E1 /* AppDelegate.swift in Sources */,
 				0409E4CE24C57588000038E1 /* NoteView.swift in Sources */,
+				049239B124C68882009F301E /* EdgeBorder.swift in Sources */,
 				0409E4CC24C57582000038E1 /* RecordView.swift in Sources */,
 				0409E4B624C574B9000038E1 /* SceneDelegate.swift in Sources */,
 				049239A824C660E3009F301E /* Record.swift in Sources */,
+				049239AF24C68146009F301E /* Constants.swift in Sources */,
 				0409E4B824C574B9000038E1 /* ContentView.swift in Sources */,
-				049239AB24C66AFB009F301E /* PDF.swift in Sources */,
+				049239AD24C67B84009F301E /* StagePDF.swift in Sources */,
+				049239AB24C66AFB009F301E /* FighterPDF.swift in Sources */,
 				049239A624C6608B009F301E /* RecordViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

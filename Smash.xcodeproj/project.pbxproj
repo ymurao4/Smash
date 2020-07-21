@@ -15,6 +15,9 @@
 		0409E4C024C574BA000038E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0409E4BE24C574BA000038E1 /* LaunchScreen.storyboard */; };
 		0409E4CC24C57582000038E1 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E4CB24C57582000038E1 /* RecordView.swift */; };
 		0409E4CE24C57588000038E1 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E4CD24C57588000038E1 /* NoteView.swift */; };
+		049239A624C6608B009F301E /* RecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239A524C6608B009F301E /* RecordViewModel.swift */; };
+		049239A824C660E3009F301E /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239A724C660E3009F301E /* Record.swift */; };
+		049239AB24C66AFB009F301E /* PDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239AA24C66AFB009F301E /* PDF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		0409E4C124C574BA000038E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0409E4CB24C57582000038E1 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
 		0409E4CD24C57588000038E1 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
+		049239A524C6608B009F301E /* RecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecordViewModel.swift; path = Smash/Models/RecordViewModel.swift; sourceTree = SOURCE_ROOT; };
+		049239A724C660E3009F301E /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		049239AA24C66AFB009F301E /* PDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,7 @@
 				0409E4C724C574C1000038E1 /* Models */,
 				0409E4C824C574CA000038E1 /* Views */,
 				0409E4C924C574CF000038E1 /* ViewModels */,
+				049239A924C66AE9009F301E /* Components */,
 				0409E4B924C574BA000038E1 /* Assets.xcassets */,
 				0409E4BE24C574BA000038E1 /* LaunchScreen.storyboard */,
 				0409E4C124C574BA000038E1 /* Info.plist */,
@@ -83,6 +90,7 @@
 		0409E4C724C574C1000038E1 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				049239A724C660E3009F301E /* Record.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -100,6 +108,7 @@
 		0409E4C924C574CF000038E1 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				049239A524C6608B009F301E /* RecordViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -111,6 +120,14 @@
 				0409E4B524C574B9000038E1 /* SceneDelegate.swift */,
 			);
 			path = Apps;
+			sourceTree = "<group>";
+		};
+		049239A924C66AE9009F301E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				049239AA24C66AFB009F301E /* PDF.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,7 +205,10 @@
 				0409E4CE24C57588000038E1 /* NoteView.swift in Sources */,
 				0409E4CC24C57582000038E1 /* RecordView.swift in Sources */,
 				0409E4B624C574B9000038E1 /* SceneDelegate.swift in Sources */,
+				049239A824C660E3009F301E /* Record.swift in Sources */,
 				0409E4B824C574B9000038E1 /* ContentView.swift in Sources */,
+				049239AB24C66AFB009F301E /* PDF.swift in Sources */,
+				049239A624C6608B009F301E /* RecordViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

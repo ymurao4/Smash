@@ -1,0 +1,15 @@
+{
+  "images" : [
+    {
+      "filename" : "wii_fit_trainer.pdf",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "preserves-vector-representation" : true
+  }
+}

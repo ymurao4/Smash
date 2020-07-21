@@ -9,8 +9,28 @@
 import SwiftUI
 
 struct RecordView: View {
+
+    let testData = testDatas
+
     var body: some View {
-        Text("Hello, World!")
+        NavigationView{
+            List{
+                ForEach(testData) { data in
+                    HStack(spacing: 30) {
+                        Text(data.result)
+                            .frame(maxWidth: .infinity)
+                        PDF(name: data.myFighter)
+                            .frame(width: 40, height: 40)
+                        Text("vs")
+                        PDF(name: data.opponentFighter)
+                            .frame(width: 40, height: 40)
+                        Text(data.stage)
+                            .frame(maxWidth: .infinity)
+                    }
+                }
+            }
+            .navigationBarTitle("Record")
+        }
     }
 }
 

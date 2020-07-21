@@ -20,15 +20,16 @@ struct AddRecordView: View {
     @State var opponentFighterName: String = "mario"
     @State var stageName: String = "syuten"
 
+    
     var body: some View {
         NavigationView {
             VStack {
                 FormCell(myFighterName: $myFighterName, opponentFighterName: $opponentFighterName, stageName: $stageName, result: $result, isMyFighterView: $isMyFighterView, isOpponentFighterView: $isOpponentFighterView, isStageView: $isStagViwe)
                 if isMyFighterView {
-                    myFighterView(isMyFighterView: $isMyFighterView, myFighterName: $myFighterName)
+                    MyFighterView(isMyFighterView: $isMyFighterView, fighterName: $myFighterName)
                 }
                 else if isOpponentFighterView {
-                    opponentFighterView(isOpponentFighterView: $isOpponentFighterView, opponentFighterName: $opponentFighterName)
+                    OpponentFighterView(isOpponentFighterView: $isOpponentFighterView, opponentFighterName: $opponentFighterName)
                 }
                 else if isStagViwe {
                     StageView(isStageView: $isStagViwe, stageName: $stageName)
@@ -55,11 +56,15 @@ struct AddRecordView: View {
     }
 }
 
+
+#if DEBUG
 struct AddRecordView_Previews: PreviewProvider {
     static var previews: some View {
         AddRecordView()
     }
 }
+#endif
+
 
 struct FormCell: View {
 
@@ -77,8 +82,12 @@ struct FormCell: View {
                 Text("自分")
                 Spacer()
                 Button(action: {
-                    self.hideView()
                     self.isMyFighterView.toggle()
+                    // 他のViewをfalseに
+                    if self.isOpponentFighterView || self.isStageView {
+                        self.isOpponentFighterView = false
+                        self.isStageView = false
+                    }
                 }) {
                     FighterPDF(name: myFighterName)
                         .frame(width: 50, height: 50)
@@ -91,8 +100,12 @@ struct FormCell: View {
                 Text("相手")
                 Spacer()
                 Button(action: {
-                    self.hideView()
                     self.isOpponentFighterView.toggle()
+                    // 他のViewをfalseに
+                    if self.isMyFighterView || self.isStageView {
+                        self.isMyFighterView = false
+                        self.isStageView = false
+                    }
                 }) {
                     FighterPDF(name: opponentFighterName)
                         .frame(width: 50, height: 50)
@@ -105,8 +118,12 @@ struct FormCell: View {
                 Text("ステージ")
                 Spacer()
                 Button(action: {
-                    self.hideView()
                     self.isStageView.toggle()
+                    // 他のViewをfalseに
+                    if self.isMyFighterView || self.isOpponentFighterView {
+                        self.isMyFighterView = false
+                        self.isOpponentFighterView = false
+                    }
                 }) {
                     StagePDF(name: stageName)
                         .frame(width: 60, height: 40)
@@ -118,7 +135,6 @@ struct FormCell: View {
                 Spacer()
                 Button(action: {
                     self.result.toggle()
-                    print("to")
                 }) {
                     Text("Win").padding(7)
                 }
@@ -137,28 +153,23 @@ struct FormCell: View {
         }
     }
 
-    func hideView() {
-        isMyFighterView = false
-        isOpponentFighterView = false
-        isStageView = false
-    }
 }
 
-struct myFighterView: View {
+// waterFallGrid
+struct MyFighterView: View {
 
     @Binding var isMyFighterView: Bool
-    @Binding var myFighterName: String
+    @Binding var fighterName: String
 
     var body: some View {
         WaterfallGrid((0..<S.fightersArray.count), id: \.self) { index in
             Button(action: {
                 self.isMyFighterView = false
-                self.myFighterName = S.fightersArray[index][1]
+                self.fighterName = S.fightersArray[index][1]
             }) {
                 FighterPDF(name: S.fightersArray[index][1])
                 .frame(width: 40, height: 40)
                 .background(Color.orange)
-                .border(Color.orange, width: 2)
                 .cornerRadius(20)
             }
         }
@@ -174,7 +185,7 @@ struct myFighterView: View {
     }
 }
 
-struct opponentFighterView: View {
+struct OpponentFighterView: View {
 
     @Binding var isOpponentFighterView: Bool
     @Binding var opponentFighterName: String
@@ -188,7 +199,6 @@ struct opponentFighterView: View {
                 FighterPDF(name: S.fightersArray[index][1])
                 .frame(width: 40, height: 40)
                 .background(Color.accentColor)
-                .border(Color.accentColor, width: 2)
                 .cornerRadius(20)
             }
         }

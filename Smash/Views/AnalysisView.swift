@@ -1,22 +1,22 @@
 //
-//  NoteView.swift
+//  AnalysisView.swift
 //  Smash
 //
-//  Created by 村尾慶伸 on 2020/07/20.
+//  Created by 村尾慶伸 on 2020/07/21.
 //  Copyright © 2020 村尾慶伸. All rights reserved.
 //
 
 import SwiftUI
 
-struct NoteView: View {
+struct AnalysisView: View {
     var body: some View {
         Text("Hello, World!")
-            .background(Color.green)
+            .background(Color.red)
     }
 }
 
-struct NoteView_Previews: PreviewProvider {
+struct AnalysisView_Previews: PreviewProvider {
     static var previews: some View {
-        NoteView()
+        AnalysisView()
     }
 }

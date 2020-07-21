@@ -19,7 +19,7 @@ struct RecordView: View {
                     ResultCell(data: data)
                 }
             }
-            .navigationBarTitle("Record")
+            .navigationBarTitle("対戦記録")
         }
     }
 }
@@ -29,6 +29,7 @@ struct RecordVIew_Previews: PreviewProvider {
         RecordView()
     }
 }
+
 
 struct ResultCell: View {
 

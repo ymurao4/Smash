@@ -1,0 +1,430 @@
+,Character Name,Move name,Start up,Advantage,Active frames
+0,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Jab 1
+		","
+		3
+		","
+		-13
+		","
+		3—4
+		"
+1,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Jab 2
+		","
+		3
+		","
+		-13
+		","
+		3—4
+		"
+2,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Forward Tilt
+		","
+		7
+		","
+		-18
+		","
+		7—9
+		"
+3,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Up Tilt
+		","
+		4/6
+		","
+		-14
+		","
+		4—5/6—7
+		"
+4,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Down Tilt
+		","
+		3
+		","
+		-5
+		","
+		3
+		"
+5,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Dash Attack
+		","
+		7
+		","
+		-17
+		","
+		7—8
+		"
+6,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Forward Smash
+		","
+		16
+		","
+		-28/-30/-33
+		","
+		16—17
+		"
+7,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Up Smash
+		","
+		10/14
+		","
+		-35/-24
+		","
+		10—11/14—18
+		"
+8,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Down Smash
+		","
+		7/11/16
+		","
+		-25
+		","
+		7—8/11—12/16
+		"
+9,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Neutral Air
+		","
+		14
+		","
+		-4/-3
+		","
+		14—32
+		"
+10,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Forward Air
+		","
+		6
+		","
+		-6
+		","
+		6—8
+		"
+11,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Back Air
+		","
+		19
+		","
+		-8/-9
+		","
+		19—23/24—32
+		"
+12,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Up Air
+		","
+		7/9/13/17/23
+		","
+		-11/-10
+		","
+		7/9/13/17/23—24
+		"
+13,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Down Air
+		","
+		20
+		","
+		-44/-45/-46
+		","
+		20—21/20—26/22—26
+		"
+14,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Neutral B (Robo Beam)
+		","
+		25
+		","
+		-17/-16/-17, -17/-6/-10
+		","
+		25—27 (melee), 25—43 (small beam), 25—66 (large beam)
+		"
+15,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Side B (Arm Rotor)
+		","
+		13/18/23/28/33/44
+		","
+		-37
+		","
+		13—**
+		"
+16,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Side B (Arm Rotor, Mashing)
+		","
+		13/18/23/28/33/38/ 43/48/53/58/66
+		","
+		-37
+		","
+		--
+		"
+17,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Up B (Robo Burner)
+		","
+		--
+		","
+		--
+		","
+		--
+		"
+18,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Down B (Gyro)
+		","
+		3(+6), 9
+		","
+		-26 to -21, -21
+		","
+		--
+		"
+19,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Grab
+		","
+		6
+		","
+		-26 to -21, -21
+		","
+		6—7
+		"
+20,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Dash Grab
+		","
+		9
+		","
+		-26 to -21, -21
+		","
+		9—10
+		"
+21,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Pivot Grab
+		","
+		10
+		","
+		-26 to -21, -21
+		","
+		10—11
+		"
+22,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Pummel
+		","
+		1
+		","
+		-26 to -21, -21
+		","
+		10—11
+		"
+23,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Forward Throw
+		","
+		11
+		","
+		-26 to -21, -21
+		","
+		10—11
+		"
+24,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Backward Throw
+		","
+		12
+		","
+		-26 to -21, -21
+		","
+		10—11
+		"
+25,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Up Throw
+		","
+		58
+		","
+		-26 to -21, -21
+		","
+		10—11
+		"
+26,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Down Throw
+		","
+		50
+		","
+		-26 to -21, -21
+		","
+		10—11
+		"
+27,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Spot Dodge
+		","
+		50
+		","
+		-26 to -21, -21
+		","
+		10—11
+		"
+28,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Forward Roll
+		","
+		50
+		","
+		-26 to -21, -21
+		","
+		10—11
+		"
+29,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Backward Roll
+		","
+		50
+		","
+		-26 to -21, -21
+		","
+		10—11
+		"
+30,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Neutral Air Dodge
+		","
+		50
+		","
+		-26 to -21, -21
+		","
+		10—11
+		"
+31,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Air Dodge, Down
+		","
+		50
+		","
+		-26 to -21, -21
+		","
+		10—11
+		"
+32,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		50
+		","
+		-26 to -21, -21
+		","
+		10—11
+		"
+33,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Air Dodge, Left/Right
+		","
+		50
+		","
+		-26 to -21, -21
+		","
+		10—11
+		"
+34,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		50
+		","
+		-26 to -21, -21
+		","
+		10—11
+		"
+35,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+		Air Dodge, Up
+		","
+		50
+		","
+		-26 to -21, -21
+		","
+		10—11
+		"
+36,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+			Ledge Grab
+		","
+		50
+		","
+		-26 to -21, -21
+		","
+		10—11
+		"
+37,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+			Ledge Grab
+		","
+		50
+		","
+		-26 to -21, -21
+		","
+		10—11
+		"
+38,"<h1 class=""charactername"">
+R.O.B.
+</h1>","
+				Ledge Hang
+			","
+		50
+		","
+		-26 to -21, -21
+		","
+		10—11
+		"

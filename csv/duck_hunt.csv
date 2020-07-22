@@ -1,0 +1,518 @@
+,Character Name,Move name,Start up,Advantage,Active frames
+0,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Jab 1
+		","
+		4
+		","
+		-18
+		","
+		4
+		"
+1,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Jab 2
+		","
+		5
+		","
+		-19
+		","
+		5—6
+		"
+2,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Jab 3
+		","
+		6
+		","
+		-21
+		","
+		6—7
+		"
+3,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Rapid Jab
+		","
+		5/7/9/...
+		","
+		--
+		","
+		**
+		"
+4,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Rapid Jab Finisher
+		","
+		5
+		","
+		-36
+		","
+		5
+		"
+5,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Forward Tilt
+		","
+		8
+		","
+		-15
+		","
+		8—11
+		"
+6,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Up Tilt
+		","
+		7
+		","
+		-13
+		","
+		7—11
+		"
+7,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Down Tilt
+		","
+		6
+		","
+		-13
+		","
+		6—7
+		"
+8,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Dash Attack
+		","
+		10
+		","
+		-23
+		","
+		10—13(14—19)
+		"
+9,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Forward Smash
+		","
+		17/23/29
+		","
+		-30
+		","
+		17—18/23—24/29—30
+		"
+10,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Up Smash
+		","
+		12/20/28
+		","
+		-22
+		","
+		12—13/20—21/28—29
+		"
+11,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Down Smash
+		","
+		12/20/28
+		","
+		-24
+		","
+		12—13/20—21/28—29
+		"
+12,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Neutral Air
+		","
+		6
+		","
+		-6/-7
+		","
+		6—8(9—37)
+		"
+13,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Forward Air
+		","
+		7
+		","
+		-5/-6/-6
+		","
+		7(8—9/10—11)
+		"
+14,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Back Air
+		","
+		7
+		","
+		-9/-10
+		","
+		7—8(9—10)
+		"
+15,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Up Air
+		","
+		6/12/20
+		","
+		-9/-8
+		","
+		6—7/12—13/20—21
+		"
+16,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Down Air
+		","
+		14/20
+		","
+		-12/-11
+		","
+		14—15/20—21
+		"
+17,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Neutral B (Trick Shot)
+		","
+		1 / 16 / 1—2
+		","
+		--
+		","
+		1 / 16—** / 1—2
+		"
+18,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Side B (Clay Shooting)
+		","
+		17
+		","
+		--
+		","
+		17—**
+		"
+19,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Clay Shooting, Detonate
+		","
+		4/5/14/23
+		","
+		--
+		","
+		**
+		"
+20,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Up B (Duck Jump)
+		","
+		--
+		","
+		--
+		","
+		**
+		"
+21,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Down B (Wild Gunman)
+		","
+		--
+		","
+		--
+		","
+		**
+		"
+22,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Wild Gunman, Leader in brown coat
+		","
+		55
+		","
+		--
+		","
+		**
+		"
+23,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Wild Gunman, Black suit
+		","
+		67
+		","
+		--
+		","
+		**
+		"
+24,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Wild Gunman, Sombrero guy
+		","
+		73
+		","
+		--
+		","
+		**
+		"
+25,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Wild Gunman, Short cowboy
+		","
+		79
+		","
+		--
+		","
+		**
+		"
+26,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Wild Gunman, Tall cowboy
+		","
+		91
+		","
+		--
+		","
+		**
+		"
+27,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Grab
+		","
+		6
+		","
+		--
+		","
+		6—7
+		"
+28,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Dash Grab
+		","
+		9
+		","
+		--
+		","
+		9—10
+		"
+29,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Pivot Grab
+		","
+		10
+		","
+		--
+		","
+		10—11
+		"
+30,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Pummel
+		","
+		1
+		","
+		--
+		","
+		10—11
+		"
+31,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Forward Throw
+		","
+		18
+		","
+		--
+		","
+		10—11
+		"
+32,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Backward Throw
+		","
+		15
+		","
+		--
+		","
+		10—11
+		"
+33,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Up Throw
+		","
+		18
+		","
+		--
+		","
+		10—11
+		"
+34,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Down Throw
+		","
+		23/24
+		","
+		--
+		","
+		10—11
+		"
+35,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Spot Dodge
+		","
+		23/24
+		","
+		--
+		","
+		10—11
+		"
+36,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Forward Roll
+		","
+		23/24
+		","
+		--
+		","
+		10—11
+		"
+37,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Backward Roll
+		","
+		23/24
+		","
+		--
+		","
+		10—11
+		"
+38,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Neutral Air Dodge
+		","
+		23/24
+		","
+		--
+		","
+		10—11
+		"
+39,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Air Dodge, Down
+		","
+		23/24
+		","
+		--
+		","
+		10—11
+		"
+40,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		23/24
+		","
+		--
+		","
+		10—11
+		"
+41,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Air Dodge, Left/Right
+		","
+		23/24
+		","
+		--
+		","
+		10—11
+		"
+42,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		23/24
+		","
+		--
+		","
+		10—11
+		"
+43,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+		Air Dodge, Up
+		","
+		23/24
+		","
+		--
+		","
+		10—11
+		"
+44,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+			Ledge Grab
+		","
+		23/24
+		","
+		--
+		","
+		10—11
+		"
+45,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+			Ledge Grab
+		","
+		23/24
+		","
+		--
+		","
+		10—11
+		"
+46,"<h1 class=""charactername"">
+Duck Hunt
+</h1>","
+				Ledge Hang
+			","
+		23/24
+		","
+		--
+		","
+		10—11
+		"

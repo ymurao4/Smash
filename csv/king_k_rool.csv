@@ -1,0 +1,474 @@
+,Character Name,Move name,Start up,Advantage,Active frames
+0,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+				Ledge Hang
+			","
+		33
+		","
+		**
+		","
+		14—15
+		"
+1,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Jab 1
+		","
+		4
+		","
+		-16
+		","
+		4—5
+		"
+2,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Jab 2
+		","
+		3
+		","
+		-20
+		","
+		3—4
+		"
+3,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Jab 3
+		","
+		5
+		","
+		-21
+		","
+		5—8
+		"
+4,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Forward Tilt
+		","
+		12
+		","
+		-20/-18
+		","
+		12—13
+		"
+5,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Up Tilt
+		","
+		5
+		","
+		-21
+		","
+		5—6/7—13
+		"
+6,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Down Tilt
+		","
+		13
+		","
+		-17
+		","
+		13/14—15
+		"
+7,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Dash Attack
+		","
+		7
+		","
+		-38
+		","
+		7—14/15—25
+		"
+8,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Forward Smash
+		","
+		19
+		","
+		-29/--/-29/--/-29/-30
+		","
+		19—20
+		"
+9,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Up Smash
+		","
+		6/19/22
+		","
+		-55/-42
+		","
+		(6—9/10—11)(19/20/21—23)(22—23)
+		"
+10,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Down Smash
+		","
+		22
+		","
+		-29/-34
+		","
+		22—24/25
+		"
+11,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Neutral Air
+		","
+		7
+		","
+		-4/-5
+		","
+		7—8/9—30
+		"
+12,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Forward Air
+		","
+		11
+		","
+		-5/-6/-7/-7
+		","
+		11/12—14/15—17
+		"
+13,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Back Air
+		","
+		18
+		","
+		-7/-9
+		","
+		18—20
+		"
+14,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Up Air
+		","
+		7
+		","
+		-8/-9
+		","
+		7—13/14—19
+		"
+15,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Down Air
+		","
+		14
+		","
+		-9/-10
+		","
+		14—15/16—21
+		"
+16,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Neutral B (Blunderbuss Kannonball)
+		","
+		25
+		","
+		-25
+		","
+		30—150
+		"
+17,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Blunderbuss, Vacuum
+		","
+		7
+		","
+		--
+		","
+		7—36
+		"
+18,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Blunderbuss, Second Shot
+		","
+		35
+		","
+		+7/-4
+		","
+		**
+		"
+19,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Side B (Crownerang)
+		","
+		27
+		","
+		-26
+		","
+		27—64/65—...
+		"
+20,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Up B (Propellerpack)
+		","
+		11
+		","
+		**
+		","
+		11/26/41/56/71/...108
+		"
+21,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Down B (Gut Check)
+		","
+		5 (Start of Counter)
+		","
+		**
+		","
+		**
+		"
+22,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Gut Check, Counterattack
+		","
+		3, 9
+		","
+		--
+		","
+		3—6, 9—12
+		"
+23,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Grab
+		","
+		8
+		","
+		--
+		","
+		8—10
+		"
+24,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Dash Grab
+		","
+		11
+		","
+		--
+		","
+		11—13
+		"
+25,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Pivot Grab
+		","
+		12
+		","
+		--
+		","
+		12—14
+		"
+26,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Pummel
+		","
+		**
+		","
+		--
+		","
+		12—14
+		"
+27,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Forward Throw
+		","
+		28
+		","
+		--
+		","
+		12—14
+		"
+28,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Backward Throw
+		","
+		32
+		","
+		--
+		","
+		12—14
+		"
+29,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Up Throw
+		","
+		67
+		","
+		--
+		","
+		12—14
+		"
+30,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Down Throw
+		","
+		40
+		","
+		--
+		","
+		12—14
+		"
+31,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Spot Dodge
+		","
+		40
+		","
+		--
+		","
+		12—14
+		"
+32,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Forward Roll
+		","
+		40
+		","
+		--
+		","
+		12—14
+		"
+33,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Backward Roll
+		","
+		40
+		","
+		--
+		","
+		12—14
+		"
+34,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Neutral Air Dodge
+		","
+		40
+		","
+		--
+		","
+		12—14
+		"
+35,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Air Dodge, Down
+		","
+		40
+		","
+		--
+		","
+		12—14
+		"
+36,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		40
+		","
+		--
+		","
+		12—14
+		"
+37,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Air Dodge, Left/Right
+		","
+		40
+		","
+		--
+		","
+		12—14
+		"
+38,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		40
+		","
+		--
+		","
+		12—14
+		"
+39,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+		Air Dodge, Up
+		","
+		40
+		","
+		--
+		","
+		12—14
+		"
+40,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+			Ledge Grab
+		","
+		40
+		","
+		--
+		","
+		12—14
+		"
+41,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+			Ledge Grab
+		","
+		40
+		","
+		--
+		","
+		12—14
+		"
+42,"<h1 class=""charactername"">
+king k. rool
+</h1>","
+				Ledge Hang
+			","
+		40
+		","
+		--
+		","
+		12—14
+		"

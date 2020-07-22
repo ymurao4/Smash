@@ -1,0 +1,551 @@
+,Character Name,Move name,Start up,Advantage,Active frames
+0,"<h1 class=""charactername"">
+ryu
+</h1>","
+				Ledge Hang
+			","
+		23/24
+		","
+		--
+		","
+		10—11
+		"
+1,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Jab 1 (Light)
+		","
+		2
+		","
+		-10
+		","
+		2—3
+		"
+2,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Jab (Heavy, Close)
+		","
+		7
+		","
+		**
+		","
+		7(8—11)
+		"
+3,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Jab (Heavy, Far)
+		","
+		9
+		","
+		-13
+		","
+		9—10
+		"
+4,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Jab 2
+		","
+		3
+		","
+		-21
+		","
+		3—4
+		"
+5,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Jab 3
+		","
+		8
+		","
+		-21
+		","
+		8—10
+		"
+6,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Forward Tilt (Light, Close)
+		","
+		3
+		","
+		-20
+		","
+		3—4
+		"
+7,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Forward Tilt (Light, Far)
+		","
+		8
+		","
+		-8
+		","
+		8—11
+		"
+8,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Forward Tilt (Heavy)
+		","
+		16/18
+		","
+		-13
+		","
+		16/18—19
+		"
+9,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Up Tilt (Light)
+		","
+		3
+		","
+		-8
+		","
+		3—6
+		"
+10,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Up Tilt (Heavy)
+		","
+		7
+		","
+		-19
+		","
+		7(8—11)
+		"
+11,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Down Tilt (Light)
+		","
+		2
+		","
+		-9
+		","
+		2—3
+		"
+12,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Down Tilt (Heavy)
+		","
+		6
+		","
+		-14
+		","
+		6—7
+		"
+13,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Dash Attack
+		","
+		7
+		","
+		-22
+		","
+		7—9(10—15)
+		"
+14,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Forward Smash
+		","
+		15
+		","
+		-19/-18
+		","
+		15—17
+		"
+15,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Up Smash
+		","
+		9
+		","
+		-24
+		","
+		9(10—12)
+		"
+16,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Down Smash
+		","
+		5
+		","
+		-25
+		","
+		5—6
+		"
+17,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Neutral Air
+		","
+		4
+		","
+		-1/-2
+		","
+		4—6(7—31)
+		"
+18,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Forward Air
+		","
+		8
+		","
+		-7/-6, -7/-6
+		","
+		8—9(10—14)
+		"
+19,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Back Air
+		","
+		8
+		","
+		-4/-5
+		","
+		8—9
+		"
+20,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Up Air
+		","
+		6/9
+		","
+		-8/-8
+		","
+		6—7/9—11
+		"
+21,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Down Air
+		","
+		8
+		","
+		-10
+		","
+		8—12
+		"
+22,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Neutral B (Hadouken)
+		","
+		12
+		","
+		-27/-26, -24/-23
+		","
+		12—18(19—82) / 12—17(18—67) / 12—16(17—50)
+		"
+23,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Shakunetsu Hadouken
+		","
+		12
+		","
+		-17
+		","
+		12—21(22—77) / 12—20(21—61) / 12—19(20—46)
+		"
+24,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Side B (Tatsumaki Senpukyaku)
+		","
+		8
+		","
+		-41 to -72, -41 to -70
+		","
+		8—9/**
+		"
+25,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Side B, Air (Tatsumaki Senpukyaku, Air)
+		","
+		8
+		","
+		-62 to -61, -61 to -60
+		","
+		8—9/**
+		"
+26,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Up B (Shoryuken)
+		","
+		6
+		","
+		**
+		","
+		6(7—8/9—19)
+		"
+27,"<h1 class=""charactername"">
+ryu
+</h1>","
+		True Shoryuken
+		","
+		6
+		","
+		**
+		","
+		6(7—8/9—19)
+		"
+28,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Down B (Focus Attack)
+		","
+		11 (+21), 11(+31), 11(+59)
+		","
+		-33, -34, unblockable
+		","
+		32—33/42—43/70—71
+		"
+29,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Focus Attack, Dash Cancel 
+		","
+		--
+		","
+		-8/-9
+		","
+		**
+		"
+30,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Grab
+		","
+		6
+		","
+		-8/-9
+		","
+		6—7
+		"
+31,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Dash Grab
+		","
+		9
+		","
+		-8/-9
+		","
+		9—10
+		"
+32,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Pivot Grab
+		","
+		10
+		","
+		-8/-9
+		","
+		10—11
+		"
+33,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Pummel
+		","
+		1
+		","
+		-8/-9
+		","
+		10—11
+		"
+34,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Forward Throw
+		","
+		16
+		","
+		-8/-9
+		","
+		10—11
+		"
+35,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Backward Throw
+		","
+		23
+		","
+		-8/-9
+		","
+		10—11
+		"
+36,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Up Throw
+		","
+		18/25
+		","
+		-8/-9
+		","
+		10—11
+		"
+37,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Down Throw
+		","
+		18/19
+		","
+		-8/-9
+		","
+		10—11
+		"
+38,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Spot Dodge
+		","
+		18/19
+		","
+		-8/-9
+		","
+		10—11
+		"
+39,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Forward Roll
+		","
+		18/19
+		","
+		-8/-9
+		","
+		10—11
+		"
+40,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Backward Roll
+		","
+		18/19
+		","
+		-8/-9
+		","
+		10—11
+		"
+41,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Neutral Air Dodge
+		","
+		18/19
+		","
+		-8/-9
+		","
+		10—11
+		"
+42,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Air Dodge, Down
+		","
+		18/19
+		","
+		-8/-9
+		","
+		10—11
+		"
+43,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		18/19
+		","
+		-8/-9
+		","
+		10—11
+		"
+44,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Air Dodge, Left/Right
+		","
+		18/19
+		","
+		-8/-9
+		","
+		10—11
+		"
+45,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		18/19
+		","
+		-8/-9
+		","
+		10—11
+		"
+46,"<h1 class=""charactername"">
+ryu
+</h1>","
+		Air Dodge, Up
+		","
+		18/19
+		","
+		-8/-9
+		","
+		10—11
+		"
+47,"<h1 class=""charactername"">
+ryu
+</h1>","
+			Ledge Grab
+		","
+		18/19
+		","
+		-8/-9
+		","
+		10—11
+		"
+48,"<h1 class=""charactername"">
+ryu
+</h1>","
+			Ledge Grab
+		","
+		18/19
+		","
+		-8/-9
+		","
+		10—11
+		"
+49,"<h1 class=""charactername"">
+ryu
+</h1>","
+				Ledge Hang
+			","
+		18/19
+		","
+		-8/-9
+		","
+		10—11
+		"

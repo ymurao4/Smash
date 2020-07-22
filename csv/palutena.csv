@@ -1,0 +1,441 @@
+,Character Name,Move name,Start up,Advantage,Active frames
+0,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Jab 1
+		","
+		8
+		","
+		-12
+		","
+		8—9
+		"
+1,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Rapid Jab
+		","
+		4/7/10...
+		","
+		--
+		","
+		4/7/10...
+		"
+2,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Rapid Jab Finisher
+		","
+		3
+		","
+		-32
+		","
+		3
+		"
+3,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Forward Tilt
+		","
+		14/24
+		","
+		-28
+		","
+		14—23/24—35
+		"
+4,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Up Tilt
+		","
+		8...
+		","
+		-27
+		","
+		8—22/24—25 (rehit: 3)
+		"
+5,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Down Tilt
+		","
+		14
+		","
+		-17
+		","
+		14—27
+		"
+6,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Dash Attack
+		","
+		6
+		","
+		-21
+		","
+		6—9/10—17
+		"
+7,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Forward Smash
+		","
+		18
+		","
+		-34/-36
+		","
+		18—20
+		"
+8,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Up Smash
+		","
+		18
+		","
+		-34/-37
+		","
+		18—35
+		"
+9,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Down Smash
+		","
+		17
+		","
+		-41/-42
+		","
+		17—19
+		"
+10,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Neutral Air
+		","
+		5...
+		","
+		-10/-9
+		","
+		5—27/29—30 (rehit: 4)
+		"
+11,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Forward Air
+		","
+		9
+		","
+		-3
+		","
+		9—11
+		"
+12,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Back Air
+		","
+		8
+		","
+		-5
+		","
+		8—10
+		"
+13,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Up Air
+		","
+		10...
+		","
+		-12/-11
+		","
+		10—22/24—25 (rehit: 3)
+		"
+14,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Down Air
+		","
+		10
+		","
+		-7
+		","
+		10—11
+		"
+15,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Neutral B (Autoreticle)
+		","
+		24/30/36
+		","
+		-24
+		","
+		24/30/36
+		"
+16,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Side B (Explosive Flame)
+		","
+		28/33/38/43/48/53/57
+		","
+		-2
+		","
+		28/33/38/43/48/53/57
+		"
+17,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Up B (Warp)
+		","
+		**
+		","
+		--
+		","
+		**
+		"
+18,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Down B (Counter)
+		","
+		7 (Start of Counter/Reflect)
+		","
+		--
+		","
+		**
+		"
+19,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Counter, Attack/Reflect
+		","
+		4/--
+		","
+		--
+		","
+		4—6
+		"
+20,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Grab
+		","
+		7
+		","
+		--
+		","
+		7—8
+		"
+21,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Dash Grab
+		","
+		10
+		","
+		--
+		","
+		10—11
+		"
+22,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Pivot Grab
+		","
+		11
+		","
+		--
+		","
+		11—12
+		"
+23,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Pummel
+		","
+		1
+		","
+		--
+		","
+		11—12
+		"
+24,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Forward Throw
+		","
+		20
+		","
+		--
+		","
+		11—12
+		"
+25,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Backward Throw
+		","
+		20
+		","
+		--
+		","
+		11—12
+		"
+26,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Up Throw
+		","
+		17
+		","
+		--
+		","
+		11—12
+		"
+27,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Down Throw
+		","
+		25
+		","
+		--
+		","
+		11—12
+		"
+28,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Spot Dodge
+		","
+		25
+		","
+		--
+		","
+		11—12
+		"
+29,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Forward Roll
+		","
+		25
+		","
+		--
+		","
+		11—12
+		"
+30,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Backward Roll
+		","
+		25
+		","
+		--
+		","
+		11—12
+		"
+31,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Neutral Air Dodge
+		","
+		25
+		","
+		--
+		","
+		11—12
+		"
+32,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Air Dodge, Down
+		","
+		25
+		","
+		--
+		","
+		11—12
+		"
+33,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		25
+		","
+		--
+		","
+		11—12
+		"
+34,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Air Dodge, Left/Right
+		","
+		25
+		","
+		--
+		","
+		11—12
+		"
+35,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		25
+		","
+		--
+		","
+		11—12
+		"
+36,"<h1 class=""charactername"">
+palutena
+</h1>","
+		Air Dodge, Up
+		","
+		25
+		","
+		--
+		","
+		11—12
+		"
+37,"<h1 class=""charactername"">
+palutena
+</h1>","
+			Ledge Grab
+		","
+		25
+		","
+		--
+		","
+		11—12
+		"
+38,"<h1 class=""charactername"">
+palutena
+</h1>","
+			Ledge Grab
+		","
+		25
+		","
+		--
+		","
+		11—12
+		"
+39,"<h1 class=""charactername"">
+palutena
+</h1>","
+				Ledge Hang
+			","
+		25
+		","
+		--
+		","
+		11—12
+		"

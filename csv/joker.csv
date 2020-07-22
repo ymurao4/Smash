@@ -1,0 +1,639 @@
+,Character Name,Move name,Start up,Advantage,Active frames
+0,"<h1 class=""charactername"">
+joker
+</h1>","
+				Ledge Hang
+			","
+		20/30/31
+		","
+		--
+		","
+		9—10
+		"
+1,"<h1 class=""charactername"">
+joker
+</h1>","
+		Jab 1
+		","
+		4
+		","
+		-16
+		","
+		4—5(4—5)
+		"
+2,"<h1 class=""charactername"">
+joker
+</h1>","
+		Jab 2
+		","
+		3
+		","
+		-17
+		","
+		3—4(3—4)
+		"
+3,"<h1 class=""charactername"">
+joker
+</h1>","
+		Jab 3
+		","
+		3
+		","
+		-26
+		","
+		3—4(3—4)
+		"
+4,"<h1 class=""charactername"">
+joker
+</h1>","
+		Forward Tilt
+		","
+		8/13
+		","
+		**/-15(**/-11)
+		","
+		8—9/13—15(8—9/13—19)
+		"
+5,"<h1 class=""charactername"">
+joker
+</h1>","
+		Up Tilt
+		","
+		8/11/14/17/20
+		","
+		-27
+		","
+		8/9(11—19) [Final Hit: 20—23(20—23)]
+		"
+6,"<h1 class=""charactername"">
+joker
+</h1>","
+		Down Tilt
+		","
+		8
+		","
+		-22(-19)
+		","
+		8—9/10—11/12—14(8—9/10—11/12—14)
+		"
+7,"<h1 class=""charactername"">
+joker
+</h1>","
+		Dash Attack
+		","
+		6/15
+		","
+		**/-23
+		","
+		6—7/15—21(--/15—21)
+		"
+8,"<h1 class=""charactername"">
+joker
+</h1>","
+		Forward Smash
+		","
+		16
+		","
+		-21
+		","
+		16—18(16—19)
+		"
+9,"<h1 class=""charactername"">
+joker
+</h1>","
+		Up Smash
+		","
+		10
+		","
+		-32(-30)
+		","
+		10—14(10—14)
+		"
+10,"<h1 class=""charactername"">
+joker
+</h1>","
+		Down Smash
+		","
+		12/16
+		","
+		-24/-20(--/-18)
+		","
+		12—13/16—17(12—13/16—17)
+		"
+11,"<h1 class=""charactername"">
+joker
+</h1>","
+		Neutral Air
+		","
+		12
+		","
+		-5
+		","
+		12—27(12—27)
+		"
+12,"<h1 class=""charactername"">
+joker
+</h1>","
+		Forward Air
+		","
+		7/12
+		","
+		-10/-9
+		","
+		7—8/12—14(--/12—14)
+		"
+13,"<h1 class=""charactername"">
+joker
+</h1>","
+		Back Air
+		","
+		7
+		","
+		-5
+		","
+		7—8(7—8)
+		"
+14,"<h1 class=""charactername"">
+joker
+</h1>","
+		Up Air
+		","
+		5...
+		","
+		-12
+		","
+		5—18/20—21 (rehit: 4)
+		"
+15,"<h1 class=""charactername"">
+joker
+</h1>","
+		Down Air
+		","
+		13
+		","
+		-7
+		","
+		13—16(15—16)
+		"
+16,"<h1 class=""charactername"">
+joker
+</h1>","
+		Neutral B (Gun)
+		","
+		12/37/65
+		","
+		**
+		","
+		12
+		"
+17,"<h1 class=""charactername"">
+joker
+</h1>","
+		Gun, Dash Forward
+		","
+		20
+		","
+		**
+		","
+		20
+		"
+18,"<h1 class=""charactername"">
+joker
+</h1>","
+		Gun, Dash Back
+		","
+		22
+		","
+		**
+		","
+		22
+		"
+19,"<h1 class=""charactername"">
+joker
+</h1>","
+		Gun, Jump (From Ground Only)
+		","
+		10/17/24/31
+		","
+		**
+		","
+		10/17/24/31
+		"
+20,"<h1 class=""charactername"">
+joker
+</h1>","
+		Gun, Spiral (From Air Only)
+		","
+		12/15/18/24/27/30/ 36/39/42/48/51/54
+		","
+		**
+		","
+		12/15/18/24/27/30/ 36/39/42/48/51/54
+		"
+21,"<h1 class=""charactername"">
+joker
+</h1>","
+		Gun, Shoot Below (From Air Only)
+		","
+		7/21/35/44
+		","
+		**
+		","
+		7/21/35/44
+		"
+22,"<h1 class=""charactername"">
+joker
+</h1>","
+		Neutral B, Arsene (Gun Special, Arsene)
+		","
+		12/18/24
+		","
+		**
+		","
+		12/18/24
+		"
+23,"<h1 class=""charactername"">
+joker
+</h1>","
+		Gun Special, Dash Forward
+		","
+		21/27/33
+		","
+		**
+		","
+		21/27/33
+		"
+24,"<h1 class=""charactername"">
+joker
+</h1>","
+		Gun Special, Dash Back
+		","
+		23/29/35
+		","
+		**
+		","
+		23/29/35
+		"
+25,"<h1 class=""charactername"">
+joker
+</h1>","
+		Gun Special, Jump (From Ground Only)
+		","
+		10/13/17/20/24/27/31
+		","
+		**
+		","
+		10/13/17/20/24/27/31
+		"
+26,"<h1 class=""charactername"">
+joker
+</h1>","
+		Gun Special, Spiral (From Air Only)
+		","
+		12/15/18/24/27/30/ 36/39/42/48/51/54
+		","
+		**
+		","
+		12/15/18/24/27/30/ 36/39/42/48/51/54
+		"
+27,"<h1 class=""charactername"">
+joker
+</h1>","
+		Gun Special, Shoot Below (From Air Only)
+		","
+		7/14/21/28/35/44
+		","
+		**
+		","
+		7/14/21/28/35/44
+		"
+28,"<h1 class=""charactername"">
+joker
+</h1>","
+		Side B (Eiha)
+		","
+		16
+		","
+		-27
+		","
+		16—42/1—19
+		"
+29,"<h1 class=""charactername"">
+joker
+</h1>","
+		Side B, Arsene (Eigaon)
+		","
+		16 (1/6/11/16)
+		","
+		**
+		","
+		16—32(1—15/16—27)
+		"
+30,"<h1 class=""charactername"">
+joker
+</h1>","
+		Up B (Grappling Hook)
+		","
+		20
+		","
+		**
+		","
+		20—26
+		"
+31,"<h1 class=""charactername"">
+joker
+</h1>","
+		Air, Grappling Attack
+		","
+		5
+		","
+		--
+		","
+		5
+		"
+32,"<h1 class=""charactername"">
+joker
+</h1>","
+		Up B, Arsene (Wings of Rebellion)
+		","
+		**
+		","
+		--
+		","
+		**
+		"
+33,"<h1 class=""charactername"">
+joker
+</h1>","
+		Down B (Rebel's Guard)
+		","
+		3 (Start of Block)
+		","
+		--
+		","
+		--
+		"
+34,"<h1 class=""charactername"">
+joker
+</h1>","
+		Rebel's Guard, Counterattack
+		","
+		8
+		","
+		--
+		","
+		8—9
+		"
+35,"<h1 class=""charactername"">
+joker
+</h1>","
+		Down B, Arsene (Tetrakarn/Makarakarn)
+		","
+		4 (Start of Counter)
+		","
+		--
+		","
+		4—31(Counter/Reflect active)
+		"
+36,"<h1 class=""charactername"">
+joker
+</h1>","
+		Arsene, Tetrakarn Counterattack
+		","
+		4
+		","
+		--
+		","
+		5—7
+		"
+37,"<h1 class=""charactername"">
+joker
+</h1>","
+		Arsene, Makarakarn Reflect
+		","
+		--
+		","
+		--
+		","
+		1—29
+		"
+38,"<h1 class=""charactername"">
+joker
+</h1>","
+		Grab
+		","
+		6
+		","
+		--
+		","
+		6—7
+		"
+39,"<h1 class=""charactername"">
+joker
+</h1>","
+		Dash Grab
+		","
+		8
+		","
+		--
+		","
+		8—9
+		"
+40,"<h1 class=""charactername"">
+joker
+</h1>","
+		Pivot Grab
+		","
+		9
+		","
+		--
+		","
+		9—10
+		"
+41,"<h1 class=""charactername"">
+joker
+</h1>","
+		Pummel
+		","
+		1
+		","
+		--
+		","
+		9—10
+		"
+42,"<h1 class=""charactername"">
+joker
+</h1>","
+		Forward Throw
+		","
+		9
+		","
+		--
+		","
+		9—10
+		"
+43,"<h1 class=""charactername"">
+joker
+</h1>","
+		Backward Throw
+		","
+		14
+		","
+		--
+		","
+		9—10
+		"
+44,"<h1 class=""charactername"">
+joker
+</h1>","
+		Up Throw
+		","
+		16
+		","
+		--
+		","
+		9—10
+		"
+45,"<h1 class=""charactername"">
+joker
+</h1>","
+		Down Throw
+		","
+		23
+		","
+		--
+		","
+		9—10
+		"
+46,"<h1 class=""charactername"">
+joker
+</h1>","
+		Spot Dodge
+		","
+		23
+		","
+		--
+		","
+		9—10
+		"
+47,"<h1 class=""charactername"">
+joker
+</h1>","
+		Forward Roll
+		","
+		23
+		","
+		--
+		","
+		9—10
+		"
+48,"<h1 class=""charactername"">
+joker
+</h1>","
+		Backward Roll
+		","
+		23
+		","
+		--
+		","
+		9—10
+		"
+49,"<h1 class=""charactername"">
+joker
+</h1>","
+		Neutral Air Dodge
+		","
+		23
+		","
+		--
+		","
+		9—10
+		"
+50,"<h1 class=""charactername"">
+joker
+</h1>","
+		Air Dodge, Down
+		","
+		23
+		","
+		--
+		","
+		9—10
+		"
+51,"<h1 class=""charactername"">
+joker
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		23
+		","
+		--
+		","
+		9—10
+		"
+52,"<h1 class=""charactername"">
+joker
+</h1>","
+		Air Dodge, Left/Right
+		","
+		23
+		","
+		--
+		","
+		9—10
+		"
+53,"<h1 class=""charactername"">
+joker
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		23
+		","
+		--
+		","
+		9—10
+		"
+54,"<h1 class=""charactername"">
+joker
+</h1>","
+		Air Dodge, Up
+		","
+		23
+		","
+		--
+		","
+		9—10
+		"
+55,"<h1 class=""charactername"">
+joker
+</h1>","
+			Ledge Grab
+		","
+		23
+		","
+		--
+		","
+		9—10
+		"
+56,"<h1 class=""charactername"">
+joker
+</h1>","
+			Ledge Grab
+		","
+		23
+		","
+		--
+		","
+		9—10
+		"
+57,"<h1 class=""charactername"">
+joker
+</h1>","
+				Ledge Hang
+			","
+		23
+		","
+		--
+		","
+		9—10
+		"

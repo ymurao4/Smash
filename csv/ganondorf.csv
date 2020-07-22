@@ -1,0 +1,474 @@
+,Character Name,Move name,Start up,Advantage,Active frames
+0,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Jab
+		","
+		7
+		","
+		-8
+		","
+		7—8
+		"
+1,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Forward Tilt
+		","
+		10
+		","
+		-17/-16
+		","
+		10—12
+		"
+2,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Up Tilt
+		","
+		60
+		","
+		-14
+		","
+		60—61(62—63) / Windboxes 6—52
+		"
+3,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Down Tilt
+		","
+		10
+		","
+		-12
+		","
+		10—12
+		"
+4,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Dash Attack
+		","
+		10
+		","
+		-9
+		","
+		10—12/13—19
+		"
+5,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Forward Smash
+		","
+		29
+		","
+		-24
+		","
+		29—31
+		"
+6,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Up Smash
+		","
+		20
+		","
+		-25
+		","
+		20—25
+		"
+7,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Down Smash
+		","
+		15/35
+		","
+		-39/-13
+		","
+		15—18/35—38
+		"
+8,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Neutral Air
+		","
+		7/17
+		","
+		(-7/-7)(-5/-6)
+		","
+		(7—8/9—12)(17—18/19—26)
+		"
+9,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Forward Air
+		","
+		14
+		","
+		-7/-7
+		","
+		14—19
+		"
+10,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Back Air
+		","
+		10
+		","
+		-4/-4
+		","
+		10—12
+		"
+11,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Up Air
+		","
+		8
+		","
+		-6/-6/-6/-7/-7/-8
+		","
+		8—10/11—13/14—16 (Close/Early/Late)
+		"
+12,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Down Air
+		","
+		16
+		","
+		-9/-10
+		","
+		16—18
+		"
+13,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Neutral B (Warlock Punch)
+		","
+		70/80
+		","
+		-20/-14
+		","
+		70—73/80—83
+		"
+14,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Neutral B, Air (Warlock Punch, Air)
+		","
+		70/80
+		","
+		-14/-12
+		","
+		70—73/80—83
+		"
+15,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Side B (Flame Choke)
+		","
+		16
+		","
+		--
+		","
+		16—30
+		"
+16,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Flame Choke, Success
+		","
+		31
+		","
+		--
+		","
+		32
+		"
+17,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Side B, Air (Flame Choke, Air)
+		","
+		16
+		","
+		--
+		","
+		16—28
+		"
+18,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Side B, Air Success (Flame Choke, Air Success)
+		","
+		--
+		","
+		--
+		","
+		1 (Landing)
+		"
+19,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Up B (Dark Dive)
+		","
+		14
+		","
+		--
+		","
+		14—28(Grab)/34—36(Attack)
+		"
+20,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Dark Dive, Grab Success
+		","
+		4/8/12/16/17
+		","
+		--
+		","
+		**
+		"
+21,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Down B (Wizard's Foot)
+		","
+		16
+		","
+		-29
+		","
+		16—35
+		"
+22,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Down B, Air (Wizard's Foot, Air)
+		","
+		16
+		","
+		-34
+		","
+		16—18/19—29/2—3
+		"
+23,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Grab
+		","
+		8
+		","
+		-34
+		","
+		8—10
+		"
+24,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Dash Grab
+		","
+		11
+		","
+		-34
+		","
+		11—13
+		"
+25,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Pivot Grab
+		","
+		12
+		","
+		-34
+		","
+		12—14
+		"
+26,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Pummel
+		","
+		2
+		","
+		-34
+		","
+		12—14
+		"
+27,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Forward Throw
+		","
+		11/13
+		","
+		-34
+		","
+		12—14
+		"
+28,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Backward Throw
+		","
+		12/14
+		","
+		-34
+		","
+		12—14
+		"
+29,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Up Throw
+		","
+		11/13
+		","
+		-34
+		","
+		12—14
+		"
+30,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Down Throw
+		","
+		23
+		","
+		-34
+		","
+		12—14
+		"
+31,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Spot Dodge
+		","
+		23
+		","
+		-34
+		","
+		12—14
+		"
+32,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Forward Roll
+		","
+		23
+		","
+		-34
+		","
+		12—14
+		"
+33,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Backward Roll
+		","
+		23
+		","
+		-34
+		","
+		12—14
+		"
+34,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Neutral Air Dodge
+		","
+		23
+		","
+		-34
+		","
+		12—14
+		"
+35,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Air Dodge, Down
+		","
+		23
+		","
+		-34
+		","
+		12—14
+		"
+36,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		23
+		","
+		-34
+		","
+		12—14
+		"
+37,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Air Dodge, Left/Right
+		","
+		23
+		","
+		-34
+		","
+		12—14
+		"
+38,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		23
+		","
+		-34
+		","
+		12—14
+		"
+39,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+		Air Dodge, Up
+		","
+		23
+		","
+		-34
+		","
+		12—14
+		"
+40,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+			Ledge Grab
+		","
+		23
+		","
+		-34
+		","
+		12—14
+		"
+41,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+			Ledge Grab
+		","
+		23
+		","
+		-34
+		","
+		12—14
+		"
+42,"<h1 class=""charactername"">
+ganondorf
+</h1>","
+				Ledge Hang
+			","
+		23
+		","
+		-34
+		","
+		12—14
+		"

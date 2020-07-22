@@ -1,0 +1,485 @@
+,Character Name,Move name,Start up,Advantage,Active frames
+0,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Jab 1
+		","
+		2
+		","
+		-9
+		","
+		2
+		"
+1,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Jab 2
+		","
+		3
+		","
+		-9
+		","
+		3
+		"
+2,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Rapid Jab
+		","
+		5/7/9/11...
+		","
+		--
+		","
+		5/7/9/11...
+		"
+3,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Rapid Jab Finisher 
+		","
+		3
+		","
+		-32
+		","
+		3—4
+		"
+4,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Forward Tilt
+		","
+		5
+		","
+		-10/-11
+		","
+		5—8
+		"
+5,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Up Tilt
+		","
+		4
+		","
+		-10/-9
+		","
+		4—5/6—10
+		"
+6,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Down Tilt
+		","
+		4
+		","
+		-9
+		","
+		4—6
+		"
+7,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Dash Attack
+		","
+		9
+		","
+		-31
+		","
+		9—17/18—26/27—34
+		"
+8,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Forward Smash
+		","
+		13
+		","
+		-23
+		","
+		13—15/16—19
+		"
+9,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Up Smash
+		","
+		12
+		","
+		-23/-24
+		","
+		12—14/15—16/17
+		"
+10,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Down Smash
+		","
+		7
+		","
+		-33
+		","
+		7—11/12—19
+		"
+11,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Neutral Air
+		","
+		8
+		","
+		-2/-3
+		","
+		8—9/10—13/14—18/19—32
+		"
+12,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Forward Air
+		","
+		10/17/25
+		","
+		-5/-6/-5
+		","
+		10—11/17—18/25—27
+		"
+13,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Back Air
+		","
+		6
+		","
+		-5/-6
+		","
+		6—8/9—12
+		"
+14,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Up Air
+		","
+		8
+		","
+		-3
+		","
+		8—13
+		"
+15,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Down Air
+		","
+		18/21/24/27/30/34
+		","
+		-12
+		","
+		18—19/21—22/24—25/27—28/30—31/34
+		"
+16,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Neutral B (Inhale)
+		","
+		10
+		","
+		--
+		","
+		10—44 (longer if held)
+		"
+17,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Inhale, Copy/Spit
+		","
+		8/8
+		","
+		**
+		","
+		**
+		"
+18,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Side B (Hammer)
+		","
+		11(+15)
+		","
+		-26 to -18
+		","
+		26—27 (11—12 from charge)
+		"
+19,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Hammer, Full Charge
+		","
+		11
+		","
+		-18
+		","
+		11—12
+		"
+20,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Hammer (Air)
+		","
+		28/42
+		","
+		**/**
+		","
+		28—29/42—43
+		"
+21,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Up B (Final Cutter)
+		","
+		23/(41/50...)/**/**
+		","
+		--/--/-21/**
+		","
+		23—26/(41—49/50...)/1—2/1—16
+		"
+22,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Down B (Stone)
+		","
+		11
+		","
+		-35
+		","
+		**
+		"
+23,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Down B, Air (Stone, Air)
+		","
+		29
+		","
+		-17
+		","
+		29—47 (**)
+		"
+24,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Grab
+		","
+		6
+		","
+		-17
+		","
+		6—7
+		"
+25,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Dash Grab
+		","
+		9
+		","
+		-17
+		","
+		9—10
+		"
+26,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Pivot Grab
+		","
+		10
+		","
+		-17
+		","
+		10—11
+		"
+27,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Pummel
+		","
+		1
+		","
+		-17
+		","
+		10—11
+		"
+28,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Forward Throw
+		","
+		45
+		","
+		-17
+		","
+		10—11
+		"
+29,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Backward Throw
+		","
+		41
+		","
+		-17
+		","
+		10—11
+		"
+30,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Up Throw
+		","
+		58
+		","
+		-17
+		","
+		10—11
+		"
+31,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Down Throw
+		","
+		9
+		","
+		-17
+		","
+		10—11
+		"
+32,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Spot Dodge
+		","
+		9
+		","
+		-17
+		","
+		10—11
+		"
+33,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Forward Roll
+		","
+		9
+		","
+		-17
+		","
+		10—11
+		"
+34,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Backward Roll
+		","
+		9
+		","
+		-17
+		","
+		10—11
+		"
+35,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Neutral Air Dodge
+		","
+		9
+		","
+		-17
+		","
+		10—11
+		"
+36,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Air Dodge, Down
+		","
+		9
+		","
+		-17
+		","
+		10—11
+		"
+37,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		9
+		","
+		-17
+		","
+		10—11
+		"
+38,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Air Dodge, Left/Right
+		","
+		9
+		","
+		-17
+		","
+		10—11
+		"
+39,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		9
+		","
+		-17
+		","
+		10—11
+		"
+40,"<h1 class=""charactername"">
+kirby
+</h1>","
+		Air Dodge, Up
+		","
+		9
+		","
+		-17
+		","
+		10—11
+		"
+41,"<h1 class=""charactername"">
+kirby
+</h1>","
+			Ledge Grab
+		","
+		9
+		","
+		-17
+		","
+		10—11
+		"
+42,"<h1 class=""charactername"">
+kirby
+</h1>","
+			Ledge Grab
+		","
+		9
+		","
+		-17
+		","
+		10—11
+		"
+43,"<h1 class=""charactername"">
+kirby
+</h1>","
+				Ledge Hang
+			","
+		9
+		","
+		-17
+		","
+		10—11
+		"

@@ -1,0 +1,430 @@
+,Character Name,Move name,Start up,Advantage,Active frames
+0,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Jab 1
+		","
+		2
+		","
+		-11
+		","
+		2—3
+		"
+1,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Jab 2
+		","
+		4
+		","
+		-17
+		","
+		4—5
+		"
+2,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Jab 3
+		","
+		5
+		","
+		-21
+		","
+		5—6
+		"
+3,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Forward Tilt
+		","
+		5
+		","
+		-6
+		","
+		5—6
+		"
+4,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Up Tilt
+		","
+		5
+		","
+		-8
+		","
+		5—6
+		"
+5,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Down Tilt
+		","
+		8
+		","
+		-12
+		","
+		8—13
+		"
+6,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Dash Attack
+		","
+		8
+		","
+		-16
+		","
+		8—11/12—17
+		"
+7,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Forward Smash
+		","
+		20
+		","
+		-19
+		","
+		20—21
+		"
+8,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Up Smash
+		","
+		19/21
+		","
+		-35
+		","
+		19/21—22/(22—23/24—25)
+		"
+9,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Down Smash
+		","
+		18
+		","
+		-13
+		","
+		18—19/24—25
+		"
+10,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Neutral Air
+		","
+		4
+		","
+		-4/-5
+		","
+		4—6/7—26
+		"
+11,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Forward Air
+		","
+		5
+		","
+		-3/-3
+		","
+		5—6/7—14
+		"
+12,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Back Air
+		","
+		5...
+		","
+		-15
+		","
+		5—14/15—16 (rehit: 2)
+		"
+13,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Up Air
+		","
+		5
+		","
+		-3
+		","
+		5—9
+		"
+14,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Down Air
+		","
+		6...
+		","
+		-14/-13
+		","
+		6—20/22 (rehit: 3)
+		"
+15,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Neutral B (Watergun)
+		","
+		26
+		","
+		--
+		","
+		24—**
+		"
+16,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Side B (Withdraw)
+		","
+		23
+		","
+		-18
+		","
+		22—41/22—61
+		"
+17,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Up B (Waterfall)
+		","
+		9...
+		","
+		--
+		","
+		9—41/43—44 (rehit: 5)
+		"
+18,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Down B (Pokemon Change)
+		","
+		--
+		","
+		--
+		","
+		**
+		"
+19,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Grab
+		","
+		6
+		","
+		--
+		","
+		6—7
+		"
+20,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Dash Grab
+		","
+		8
+		","
+		--
+		","
+		8—9
+		"
+21,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Pivot Grab
+		","
+		9
+		","
+		--
+		","
+		9—10
+		"
+22,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Pummel
+		","
+		1
+		","
+		--
+		","
+		9—10
+		"
+23,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Forward Throw
+		","
+		11/13
+		","
+		--
+		","
+		9—10
+		"
+24,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Backward Throw
+		","
+		27
+		","
+		--
+		","
+		9—10
+		"
+25,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Up Throw
+		","
+		16/18
+		","
+		--
+		","
+		9—10
+		"
+26,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Down Throw
+		","
+		22/30
+		","
+		--
+		","
+		9—10
+		"
+27,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Spot Dodge
+		","
+		22/30
+		","
+		--
+		","
+		9—10
+		"
+28,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Forward Roll
+		","
+		22/30
+		","
+		--
+		","
+		9—10
+		"
+29,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Backward Roll
+		","
+		22/30
+		","
+		--
+		","
+		9—10
+		"
+30,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Neutral Air Dodge
+		","
+		22/30
+		","
+		--
+		","
+		9—10
+		"
+31,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Air Dodge, Down
+		","
+		22/30
+		","
+		--
+		","
+		9—10
+		"
+32,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		22/30
+		","
+		--
+		","
+		9—10
+		"
+33,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Air Dodge, Left/Right
+		","
+		22/30
+		","
+		--
+		","
+		9—10
+		"
+34,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		22/30
+		","
+		--
+		","
+		9—10
+		"
+35,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Air Dodge, Up
+		","
+		22/30
+		","
+		--
+		","
+		9—10
+		"
+36,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+			Ledge Grab
+		","
+		22/30
+		","
+		--
+		","
+		9—10
+		"
+37,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+			Ledge Grab
+		","
+		22/30
+		","
+		--
+		","
+		9—10
+		"
+38,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+				Ledge Hang
+			","
+		22/30
+		","
+		--
+		","
+		9—10
+		"

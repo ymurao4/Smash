@@ -1,0 +1,529 @@
+,Character Name,Move name,Start up,Advantage,Active frames
+0,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Jab 1
+		","
+		5
+		","
+		-19/-18
+		","
+		5—6
+		"
+1,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Jab 2
+		","
+		4
+		","
+		-22
+		","
+		4—5
+		"
+2,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Jab 3
+		","
+		6
+		","
+		-20/-19
+		","
+		6—7
+		"
+3,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Rapid Jab
+		","
+		12/16/20...
+		","
+		**
+		","
+		**
+		"
+4,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Rapid Jab Finisher
+		","
+		3
+		","
+		-32
+		","
+		3—4
+		"
+5,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Forward Tilt
+		","
+		8
+		","
+		-16
+		","
+		8—9
+		"
+6,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Up Tilt
+		","
+		7
+		","
+		-19
+		","
+		7—8(9—16)
+		"
+7,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Down Tilt
+		","
+		5
+		","
+		-17
+		","
+		5—7
+		"
+8,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Dash Attack
+		","
+		12/14/16/18/20/23
+		","
+		-22
+		","
+		12/14/16/18/20/23
+		"
+9,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Forward Smash
+		","
+		12/17
+		","
+		-26/-26/-22
+		","
+		12—**/17—18
+		"
+10,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Up Smash
+		","
+		13
+		","
+		-31/-29/-28
+		","
+		13—17
+		"
+11,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Down Smash
+		","
+		13
+		","
+		-27/-28/-25
+		","
+		13—15
+		"
+12,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Neutral Air
+		","
+		6
+		","
+		-7/-7
+		","
+		6—7(8—19)
+		"
+13,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Forward Air
+		","
+		9
+		","
+		-4
+		","
+		9—12
+		"
+14,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Back Air
+		","
+		13
+		","
+		-8/-9
+		","
+		13(14—16)
+		"
+15,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Up Air
+		","
+		7
+		","
+		-5
+		","
+		7—12
+		"
+16,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Down Air
+		","
+		12...
+		","
+		-21
+		","
+		12—28(rehit: 2)/1—5
+		"
+17,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Neutral B (Dragon Fang Shot)
+		","
+		17—47
+		","
+		**
+		","
+		17—71
+		"
+18,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Dragon Fang Shot (chomp)
+		","
+		24-54-85
+		","
+		-31 to -19
+		","
+		24—25/**/85—86
+		"
+19,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Side B (Dragon Lunge, Pin)
+		","
+		4
+		","
+		-6
+		","
+		**
+		"
+20,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Side B (Dragon Lunge, Air)
+		","
+		10
+		","
+		--
+		","
+		10
+		"
+21,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Dragon Lunge, Pin Cancel
+		","
+		--
+		","
+		--
+		","
+		**
+		"
+22,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Dragon Lunge, Pin Jump
+		","
+		--
+		","
+		--
+		","
+		**
+		"
+23,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Dragon Lunge, Pin Kick
+		","
+		10
+		","
+		-35
+		","
+		10—17(18—24)
+		"
+24,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Dragon Lunge, Back Kick
+		","
+		6
+		","
+		-48
+		","
+		6/14—21(22—28)
+		"
+25,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Up B (Dragon Ascent)
+		","
+		18...
+		","
+		--
+		","
+		18—19/20—28(rehit: 2)/29—30
+		"
+26,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Down B (Counter Surge)
+		","
+		7 (Start of Counter)
+		","
+		--
+		","
+		7—26 (counter)
+		"
+27,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Counter Surge, Attack
+		","
+		27
+		","
+		--
+		","
+		27—31
+		"
+28,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Grab
+		","
+		7
+		","
+		--
+		","
+		7—8
+		"
+29,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Dash Grab
+		","
+		10
+		","
+		--
+		","
+		10—11
+		"
+30,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Pivot Grab
+		","
+		11
+		","
+		--
+		","
+		11—12
+		"
+31,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Pummel
+		","
+		--
+		","
+		--
+		","
+		11—12
+		"
+32,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Forward Throw
+		","
+		14/15
+		","
+		--
+		","
+		11—12
+		"
+33,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Backward Throw
+		","
+		12/13
+		","
+		--
+		","
+		11—12
+		"
+34,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Up Throw
+		","
+		12/13
+		","
+		--
+		","
+		11—12
+		"
+35,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Down Throw
+		","
+		26/27
+		","
+		--
+		","
+		11—12
+		"
+36,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Spot Dodge
+		","
+		26/27
+		","
+		--
+		","
+		11—12
+		"
+37,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Forward Roll
+		","
+		26/27
+		","
+		--
+		","
+		11—12
+		"
+38,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Backward Roll
+		","
+		26/27
+		","
+		--
+		","
+		11—12
+		"
+39,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Neutral Air Dodge
+		","
+		26/27
+		","
+		--
+		","
+		11—12
+		"
+40,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Air Dodge, Down
+		","
+		26/27
+		","
+		--
+		","
+		11—12
+		"
+41,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		26/27
+		","
+		--
+		","
+		11—12
+		"
+42,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Air Dodge, Left/Right
+		","
+		26/27
+		","
+		--
+		","
+		11—12
+		"
+43,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		26/27
+		","
+		--
+		","
+		11—12
+		"
+44,"<h1 class=""charactername"">
+corrin
+</h1>","
+		Air Dodge, Up
+		","
+		26/27
+		","
+		--
+		","
+		11—12
+		"
+45,"<h1 class=""charactername"">
+corrin
+</h1>","
+			Ledge Grab
+		","
+		26/27
+		","
+		--
+		","
+		11—12
+		"
+46,"<h1 class=""charactername"">
+corrin
+</h1>","
+			Ledge Grab
+		","
+		26/27
+		","
+		--
+		","
+		11—12
+		"
+47,"<h1 class=""charactername"">
+corrin
+</h1>","
+				Ledge Hang
+			","
+		26/27
+		","
+		--
+		","
+		11—12
+		"

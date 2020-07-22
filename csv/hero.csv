@@ -1,0 +1,672 @@
+,Character Name,Move name,Start up,Advantage,Active frames
+0,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Jab 1
+		","
+		6
+		","
+		-15
+		","
+		6—7
+		"
+1,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Jab 2
+		","
+		6
+		","
+		-15
+		","
+		6—7
+		"
+2,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Jab 3
+		","
+		7
+		","
+		-25
+		","
+		7—9
+		"
+3,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Forward Tilt 1
+		","
+		9
+		","
+		-21
+		","
+		9—11
+		"
+4,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Forward Tilt 2
+		","
+		8
+		","
+		-31
+		","
+		8—9
+		"
+5,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Up Tilt
+		","
+		8
+		","
+		-23
+		","
+		8—9/10—11
+		"
+6,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Down Tilt
+		","
+		6
+		","
+		-19
+		","
+		6—10
+		"
+7,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Dash Attack
+		","
+		21
+		","
+		-16
+		","
+		21/22—23
+		"
+8,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Forward Smash
+		","
+		17
+		","
+		-36 (-26)
+		","
+		17—19
+		"
+9,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Up Smash
+		","
+		13
+		","
+		-29 (-19)
+		","
+		13—17
+		"
+10,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Down Smash
+		","
+		9/20
+		","
+		-37/-26 (-29/-18)
+		","
+		9—10/20—21
+		"
+11,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Neutral Air
+		","
+		8
+		","
+		-6
+		","
+		8—16
+		"
+12,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Forward Air
+		","
+		14
+		","
+		-7
+		","
+		14—17
+		"
+13,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Back Air
+		","
+		18
+		","
+		-9
+		","
+		18—20
+		"
+14,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Up Air
+		","
+		6
+		","
+		-5
+		","
+		6—10
+		"
+15,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Down Air
+		","
+		16
+		","
+		-12
+		","
+		16—18/19—24
+		"
+16,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Neutral B (Frizz/Frizzle/Kafrizz)
+		","
+		[10(+7)]  [11(+25)]  [16(2/8/14/20)]
+		","
+		-22/-28/-24
+		","
+		[10—65]  [11—56]  [16—73]
+		"
+17,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Side B, (Zap/Zapple/Kazap)
+		","
+		[9/13(+7)]  [10/15(+16)]  [43/50/72/75/81]
+		","
+		-12/-25/-29
+		","
+		[9—13/1—8]  [10—15/1—8]  [43—49/50/72/75/81—83/1—8]
+		"
+18,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Up B (Woosh/Swoosh/Kaswoosh)
+		","
+		[4(+3)]  [6/13/20/27(+13)]  [39/49/59/69/79/89]
+		","
+		**
+		","
+		**
+		"
+19,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Down B (Menu/Select)
+		","
+		--
+		","
+		--
+		","
+		--
+		"
+20,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Bang
+		","
+		5
+		","
+		-16
+		","
+		5—39/1—21
+		"
+21,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Kaboom
+		","
+		6
+		","
+		+2
+		","
+		6—27/1—16/17—40
+		"
+22,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Sizz
+		","
+		6
+		","
+		-26
+		","
+		6—19/1—24
+		"
+23,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Sizzle
+		","
+		6
+		","
+		-30
+		","
+		6—17/1—24
+		"
+24,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Whack
+		","
+		6
+		","
+		-29
+		","
+		6—125
+		"
+25,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Thwack
+		","
+		23
+		","
+		-28
+		","
+		22—33
+		"
+26,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Kamikazee
+		","
+		44/50
+		","
+		--
+		","
+		44—49/50
+		"
+27,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Magic Burst
+		","
+		23/33/43/53/63/73/83/93/101
+		","
+		-36 — -24
+		","
+		23/33/43/53/63/73/83/93/101
+		"
+28,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Snooze
+		","
+		6
+		","
+		--
+		","
+		**
+		"
+29,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Heal
+		","
+		**
+		","
+		--
+		","
+		--
+		"
+30,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Oomph
+		","
+		**
+		","
+		--
+		","
+		**
+		"
+31,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Acceleratle
+		","
+		**
+		","
+		--
+		","
+		**
+		"
+32,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Bounce
+		","
+		**
+		","
+		--
+		","
+		**
+		"
+33,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Kaclang
+		","
+		**
+		","
+		--
+		","
+		**
+		"
+34,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Zoom
+		","
+		**
+		","
+		--
+		","
+		**
+		"
+35,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Hocus Pocus
+		","
+		**
+		","
+		--
+		","
+		**
+		"
+36,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Flame Slash
+		","
+		6
+		","
+		-13
+		","
+		6—8
+		"
+37,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Kacrackle Slash
+		","
+		6
+		","
+		-12
+		","
+		6—8
+		"
+38,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Hatchet Man
+		","
+		37
+		","
+		Shield Breaks
+		","
+		37—40
+		"
+39,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Metal Slash
+		","
+		11
+		","
+		-26
+		","
+		11—12
+		"
+40,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Psych Up
+		","
+		**
+		","
+		--
+		","
+		--
+		"
+41,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Grab
+		","
+		6
+		","
+		--
+		","
+		6—7
+		"
+42,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Dash Grab
+		","
+		9
+		","
+		--
+		","
+		9—10
+		"
+43,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Pivot Grab
+		","
+		10
+		","
+		--
+		","
+		10—11
+		"
+44,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Pummel
+		","
+		**
+		","
+		--
+		","
+		10—11
+		"
+45,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Forward Throw
+		","
+		16
+		","
+		--
+		","
+		10—11
+		"
+46,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Backward Throw
+		","
+		18
+		","
+		--
+		","
+		10—11
+		"
+47,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Up Throw
+		","
+		17
+		","
+		--
+		","
+		10—11
+		"
+48,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Down Throw
+		","
+		19
+		","
+		--
+		","
+		10—11
+		"
+49,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Spot Dodge
+		","
+		19
+		","
+		--
+		","
+		10—11
+		"
+50,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Forward Roll
+		","
+		19
+		","
+		--
+		","
+		10—11
+		"
+51,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Backward Roll
+		","
+		19
+		","
+		--
+		","
+		10—11
+		"
+52,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Neutral Air Dodge
+		","
+		19
+		","
+		--
+		","
+		10—11
+		"
+53,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Air Dodge, Down
+		","
+		19
+		","
+		--
+		","
+		10—11
+		"
+54,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		19
+		","
+		--
+		","
+		10—11
+		"
+55,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Air Dodge, Left/Right
+		","
+		19
+		","
+		--
+		","
+		10—11
+		"
+56,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		19
+		","
+		--
+		","
+		10—11
+		"
+57,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Air Dodge, Up
+		","
+		19
+		","
+		--
+		","
+		10—11
+		"
+58,"<h1 class=""charactername"">
+Hero
+</h1>","
+			Ledge Grab
+		","
+		19
+		","
+		--
+		","
+		10—11
+		"
+59,"<h1 class=""charactername"">
+Hero
+</h1>","
+			Ledge Grab
+		","
+		19
+		","
+		--
+		","
+		10—11
+		"
+60,"<h1 class=""charactername"">
+Hero
+</h1>","
+				Ledge Hang
+			","
+		19
+		","
+		--
+		","
+		10—11
+		"

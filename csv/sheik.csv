@@ -1,0 +1,452 @@
+,Character Name,Move name,Start up,Advantage,Active frames
+0,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Jab 1
+		","
+		2
+		","
+		-12
+		","
+		2
+		"
+1,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Jab 2
+		","
+		3
+		","
+		-11
+		","
+		3
+		"
+2,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Rapid Jab
+		","
+		5/4/9...
+		","
+		--
+		","
+		**
+		"
+3,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Rapid Jab Finisher
+		","
+		5
+		","
+		-27
+		","
+		5—6
+		"
+4,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Forward Tilt
+		","
+		5
+		","
+		-15
+		","
+		5—8
+		"
+5,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Up Tilt
+		","
+		5/16
+		","
+		-11
+		","
+		5—8/16—23
+		"
+6,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Down Tilt
+		","
+		5
+		","
+		-16
+		","
+		5—6
+		"
+7,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Dash Attack
+		","
+		5
+		","
+		-19
+		","
+		5—6(7—8)
+		"
+8,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Forward Smash
+		","
+		12/20
+		","
+		-18
+		","
+		12/20—21
+		"
+9,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Up Smash
+		","
+		11/14
+		","
+		-30
+		","
+		11/14—15
+		"
+10,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Down Smash
+		","
+		8/15
+		","
+		-28
+		","
+		8—9/15—16
+		"
+11,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Neutral Air
+		","
+		3
+		","
+		-3/-3
+		","
+		3—6(7—30)
+		"
+12,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Forward Air
+		","
+		5
+		","
+		-2/-2
+		","
+		5—7
+		"
+13,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Back Air
+		","
+		4
+		","
+		-4/-4
+		","
+		4—6(7—14)
+		"
+14,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Up Air
+		","
+		4...
+		","
+		-11/-10
+		","
+		4—15/23—24 (rehit: 4)
+		"
+15,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Down Air
+		","
+		15
+		","
+		-18
+		","
+		15—18/19—33/1—2
+		"
+16,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Neutral B (Needle Storm)
+		","
+		4/7/10/13/16 (+7)
+		","
+		-18
+		","
+		**
+		"
+17,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Needle Storm, Full Charge
+		","
+		11/14/17/20/23/26
+		","
+		-15
+		","
+		**
+		"
+18,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Side B (Burst Grenade)
+		","
+		13/67/70/73/76/79/82/88
+		","
+		+28
+		","
+		**
+		"
+19,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Up B (Vanish)
+		","
+		36/55
+		","
+		-33
+		","
+		36—38/55—57
+		"
+20,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Down B (Bouncing Fish)
+		","
+		18/26
+		","
+		-39
+		","
+		**
+		"
+21,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Grab
+		","
+		6
+		","
+		-39
+		","
+		6—7
+		"
+22,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Dash Grab
+		","
+		9
+		","
+		-39
+		","
+		9—10
+		"
+23,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Pivot Grab
+		","
+		11
+		","
+		-39
+		","
+		11—12
+		"
+24,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Pummel
+		","
+		1
+		","
+		-39
+		","
+		11—12
+		"
+25,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Forward Throw
+		","
+		20/22
+		","
+		-39
+		","
+		11—12
+		"
+26,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Backward Throw
+		","
+		15/17
+		","
+		-39
+		","
+		11—12
+		"
+27,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Up Throw
+		","
+		19/21
+		","
+		-39
+		","
+		11—12
+		"
+28,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Down Throw
+		","
+		26/30
+		","
+		-39
+		","
+		11—12
+		"
+29,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Spot Dodge
+		","
+		26/30
+		","
+		-39
+		","
+		11—12
+		"
+30,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Forward Roll
+		","
+		26/30
+		","
+		-39
+		","
+		11—12
+		"
+31,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Backward Roll
+		","
+		26/30
+		","
+		-39
+		","
+		11—12
+		"
+32,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Neutral Air Dodge
+		","
+		26/30
+		","
+		-39
+		","
+		11—12
+		"
+33,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Air Dodge, Down
+		","
+		26/30
+		","
+		-39
+		","
+		11—12
+		"
+34,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		26/30
+		","
+		-39
+		","
+		11—12
+		"
+35,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Air Dodge, Left/Right
+		","
+		26/30
+		","
+		-39
+		","
+		11—12
+		"
+36,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		26/30
+		","
+		-39
+		","
+		11—12
+		"
+37,"<h1 class=""charactername"">
+sheik
+</h1>","
+		Air Dodge, Up
+		","
+		26/30
+		","
+		-39
+		","
+		11—12
+		"
+38,"<h1 class=""charactername"">
+sheik
+</h1>","
+			Ledge Grab
+		","
+		26/30
+		","
+		-39
+		","
+		11—12
+		"
+39,"<h1 class=""charactername"">
+sheik
+</h1>","
+			Ledge Grab
+		","
+		26/30
+		","
+		-39
+		","
+		11—12
+		"
+40,"<h1 class=""charactername"">
+sheik
+</h1>","
+				Ledge Hang
+			","
+		26/30
+		","
+		-39
+		","
+		11—12
+		"

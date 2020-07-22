@@ -1,0 +1,408 @@
+,Character Name,Move name,Start up,Advantage,Active frames
+0,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Jab
+		","
+		2
+		","
+		-12/-13
+		","
+		2—3
+		"
+1,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Forward Tilt
+		","
+		6
+		","
+		-14/-15/-13
+		","
+		6—8
+		"
+2,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Up Tilt
+		","
+		7
+		","
+		-13
+		","
+		7—13
+		"
+3,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Down Tilt
+		","
+		7
+		","
+		-5
+		","
+		7—8
+		"
+4,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Dash Attack
+		","
+		6
+		","
+		-12
+		","
+		6—8(9—12)
+		"
+5,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Forward Smash
+		","
+		15
+		","
+		-29
+		","
+		15—16/17—19/20—29
+		"
+6,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Up Smash
+		","
+		10
+		","
+		-24
+		","
+		10—12/13—14/15—17
+		"
+7,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Down Smash
+		","
+		8/11/14/17/20/23
+		","
+		-39
+		","
+		8—9/11—12/14—15/17—18/20—21
+		"
+8,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Neutral Air
+		","
+		3/9/15/21
+		","
+		-7
+		","
+		3—6/9—12/15—18/21—22
+		"
+9,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Forward Air
+		","
+		11...
+		","
+		-10/-9
+		","
+		11—25/27 (rehit: 3)
+		"
+10,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Back Air
+		","
+		4/8/12/16/20/24
+		","
+		-12
+		","
+		4—5/8—9/12—13/16—17/20—21/24—25/1—2
+		"
+11,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Up Air
+		","
+		4
+		","
+		-11/-11
+		","
+		4—6/7—8
+		"
+12,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Down Air
+		","
+		14
+		","
+		-16
+		","
+		14—15/16—26/1—2
+		"
+13,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Neutral B (Thunderjolt)
+		","
+		19
+		","
+		-20
+		","
+		19—52(53—85/86—114)
+		"
+14,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Side B (Skull Bash)
+		","
+		18/18
+		","
+		-11 to -2
+		","
+		18—52
+		"
+15,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Up B (Quick Attack)
+		","
+		15/29
+		","
+		-33
+		","
+		15—19/29—33
+		"
+16,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Down B (Thunder)
+		","
+		13/**
+		","
+		-26
+		","
+		13—15(16—85): Early // 21—23(24—93): Late // 1-2: Contact
+		"
+17,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Grab
+		","
+		7
+		","
+		-26
+		","
+		7—8
+		"
+18,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Dash Grab
+		","
+		11
+		","
+		-26
+		","
+		11—12
+		"
+19,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Pivot Grab
+		","
+		12
+		","
+		-26
+		","
+		12—13
+		"
+20,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Pummel
+		","
+		1
+		","
+		-26
+		","
+		12—13
+		"
+21,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Forward Throw
+		","
+		11/15/19/23/30
+		","
+		-26
+		","
+		12—13
+		"
+22,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Backward Throw
+		","
+		26
+		","
+		-26
+		","
+		12—13
+		"
+23,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Up Throw
+		","
+		14/16
+		","
+		-26
+		","
+		12—13
+		"
+24,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Down Throw
+		","
+		29
+		","
+		-26
+		","
+		12—13
+		"
+25,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Spot Dodge
+		","
+		29
+		","
+		-26
+		","
+		12—13
+		"
+26,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Forward Roll
+		","
+		29
+		","
+		-26
+		","
+		12—13
+		"
+27,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Backward Roll
+		","
+		29
+		","
+		-26
+		","
+		12—13
+		"
+28,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Neutral Air Dodge
+		","
+		29
+		","
+		-26
+		","
+		12—13
+		"
+29,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Air Dodge, Down
+		","
+		29
+		","
+		-26
+		","
+		12—13
+		"
+30,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		29
+		","
+		-26
+		","
+		12—13
+		"
+31,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Air Dodge, Left/Right
+		","
+		29
+		","
+		-26
+		","
+		12—13
+		"
+32,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		29
+		","
+		-26
+		","
+		12—13
+		"
+33,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Air Dodge, Up
+		","
+		29
+		","
+		-26
+		","
+		12—13
+		"
+34,"<h1 class=""charactername"">
+pikachu
+</h1>","
+			Ledge Grab
+		","
+		29
+		","
+		-26
+		","
+		12—13
+		"
+35,"<h1 class=""charactername"">
+pikachu
+</h1>","
+			Ledge Grab
+		","
+		29
+		","
+		-26
+		","
+		12—13
+		"
+36,"<h1 class=""charactername"">
+pikachu
+</h1>","
+				Ledge Hang
+			","
+		29
+		","
+		-26
+		","
+		12—13
+		"

@@ -1,0 +1,430 @@
+,Character Name,Move name,Start up,Advantage,Active frames
+0,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Jab 1
+		","
+		4
+		","
+		-14
+		","
+		4
+		"
+1,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Jab 2
+		","
+		4
+		","
+		-17
+		","
+		4
+		"
+2,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Jab 3
+		","
+		4
+		","
+		-25
+		","
+		4
+		"
+3,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Forward Tilt
+		","
+		8/9
+		","
+		-19
+		","
+		8/9—10
+		"
+4,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Up Tilt
+		","
+		7
+		","
+		-18
+		","
+		7—11
+		"
+5,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Down Tilt
+		","
+		5
+		","
+		-16
+		","
+		5—6
+		"
+6,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Dash Attack
+		","
+		11
+		","
+		-16
+		","
+		11—14/15—18
+		"
+7,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Forward Smash
+		","
+		20
+		","
+		-10
+		","
+		20—23
+		"
+8,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Up Smash
+		","
+		13/20
+		","
+		-29/-19
+		","
+		13—15/20—23
+		"
+9,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Down Smash
+		","
+		14/21
+		","
+		-19/-18/-14/-12
+		","
+		14—15/21—22
+		"
+10,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Neutral Air
+		","
+		7
+		","
+		-4/-5
+		","
+		7—9/10—26
+		"
+11,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Forward Air
+		","
+		7
+		","
+		-6
+		","
+		7—9
+		"
+12,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Back Air
+		","
+		13
+		","
+		-10/-11
+		","
+		13—15
+		"
+13,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Up Air
+		","
+		7
+		","
+		-5
+		","
+		7—9
+		"
+14,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Down Air
+		","
+		16
+		","
+		-14/-14
+		","
+		16—17
+		"
+15,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Neutral B (Blaster)
+		","
+		15/16
+		","
+		-24
+		","
+		15—19/16—50
+		"
+16,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Side B (Wolf Flash)
+		","
+		18
+		","
+		**
+		","
+		**
+		"
+17,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Up B (Fire Wolf)
+		","
+		18...
+		","
+		-24
+		","
+		18—20/27—32(Rehit :2)/37—38
+		"
+18,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Down B (Reflector)
+		","
+		6
+		","
+		-19
+		","
+		**
+		"
+19,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Grab
+		","
+		6
+		","
+		-19
+		","
+		**
+		"
+20,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Dash Grab
+		","
+		8
+		","
+		-19
+		","
+		**
+		"
+21,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Pivot Grab
+		","
+		9
+		","
+		-19
+		","
+		**
+		"
+22,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Pummel
+		","
+		1
+		","
+		-19
+		","
+		**
+		"
+23,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Forward Throw
+		","
+		10/11
+		","
+		-19
+		","
+		**
+		"
+24,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Backward Throw
+		","
+		23/24
+		","
+		-19
+		","
+		**
+		"
+25,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Up Throw
+		","
+		26/27
+		","
+		-19
+		","
+		**
+		"
+26,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Down Throw
+		","
+		26
+		","
+		-19
+		","
+		**
+		"
+27,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Spot Dodge
+		","
+		26
+		","
+		-19
+		","
+		**
+		"
+28,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Forward Roll
+		","
+		26
+		","
+		-19
+		","
+		**
+		"
+29,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Backward Roll
+		","
+		26
+		","
+		-19
+		","
+		**
+		"
+30,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Neutral Air Dodge
+		","
+		26
+		","
+		-19
+		","
+		**
+		"
+31,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Air Dodge, Down
+		","
+		26
+		","
+		-19
+		","
+		**
+		"
+32,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		26
+		","
+		-19
+		","
+		**
+		"
+33,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Air Dodge, Left/Right
+		","
+		26
+		","
+		-19
+		","
+		**
+		"
+34,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		26
+		","
+		-19
+		","
+		**
+		"
+35,"<h1 class=""charactername"">
+wolf
+</h1>","
+		Air Dodge, Up
+		","
+		26
+		","
+		-19
+		","
+		**
+		"
+36,"<h1 class=""charactername"">
+wolf
+</h1>","
+			Ledge Grab
+		","
+		26
+		","
+		-19
+		","
+		**
+		"
+37,"<h1 class=""charactername"">
+wolf
+</h1>","
+			Ledge Grab
+		","
+		26
+		","
+		-19
+		","
+		**
+		"
+38,"<h1 class=""charactername"">
+wolf
+</h1>","
+				Ledge Hang
+			","
+		26
+		","
+		-19
+		","
+		**
+		"

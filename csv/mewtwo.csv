@@ -1,0 +1,441 @@
+,Character Name,Move name,Start up,Advantage,Active frames
+0,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Jab
+		","
+		5
+		","
+		-12
+		","
+		5—6
+		"
+1,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Rapid Jab
+		","
+		5/8/11...
+		","
+		--
+		","
+		**
+		"
+2,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Rapid Jab Finisher
+		","
+		6
+		","
+		-30
+		","
+		6—7
+		"
+3,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Forward Tilt
+		","
+		10
+		","
+		-15/-15/-16
+		","
+		10—11
+		"
+4,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Up Tilt
+		","
+		8
+		","
+		-14/-15/-15
+		","
+		8(9—13)
+		"
+5,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Down Tilt
+		","
+		6
+		","
+		-11/-12/-12
+		","
+		6—7
+		"
+6,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Dash Attack
+		","
+		10
+		","
+		-14
+		","
+		10—11(12—20)
+		"
+7,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Forward Smash
+		","
+		19
+		","
+		-20/-18
+		","
+		19—22
+		"
+8,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Up Smash
+		","
+		9/14/18/22
+		","
+		-39
+		","
+		9(10—11)/14—15/18—19/22—25
+		"
+9,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Down Smash
+		","
+		21
+		","
+		-11
+		","
+		21—23
+		"
+10,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Neutral Air
+		","
+		7/11/15/19/23/27
+		","
+		-8/-7
+		","
+		7—8/11—12/15—16/19—20/23—24/27—28
+		"
+11,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Forward Air
+		","
+		7
+		","
+		-3
+		","
+		7—9
+		"
+12,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Back Air
+		","
+		13
+		","
+		-5/-6/-6
+		","
+		13—17
+		"
+13,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Up Air
+		","
+		10
+		","
+		-3/-4/-4
+		","
+		10—14
+		"
+14,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Down Air
+		","
+		15
+		","
+		-6
+		","
+		15—18
+		"
+15,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Neutral B (Shadow Ball)
+		","
+		9(+12)
+		","
+		-16 to -2
+		","
+		**
+		"
+16,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Shadow Ball, Fully Charged
+		","
+		18
+		","
+		-2
+		","
+		18—98
+		"
+17,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Side B (Confusion)
+		","
+		10 (21/23/25/27/29/31/33/39)
+		","
+		--
+		","
+		10—13
+		"
+18,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Up B (Teleport)
+		","
+		**
+		","
+		--
+		","
+		--
+		"
+19,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Down B (Disable)
+		","
+		16
+		","
+		-30
+		","
+		16—23
+		"
+20,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Grab
+		","
+		7
+		","
+		-30
+		","
+		7—8
+		"
+21,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Dash Grab
+		","
+		10
+		","
+		-30
+		","
+		10—11
+		"
+22,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Pivot Grab
+		","
+		11
+		","
+		-30
+		","
+		11—12
+		"
+23,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Pummel
+		","
+		1
+		","
+		-30
+		","
+		11—12
+		"
+24,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Forward Throw
+		","
+		19/33/40/47/54/61
+		","
+		-30
+		","
+		11—12
+		"
+25,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Backward Throw
+		","
+		30
+		","
+		-30
+		","
+		11—12
+		"
+26,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Up Throw
+		","
+		43
+		","
+		-30
+		","
+		11—12
+		"
+27,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Down Throw
+		","
+		16/18
+		","
+		-30
+		","
+		11—12
+		"
+28,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Spot Dodge
+		","
+		16/18
+		","
+		-30
+		","
+		11—12
+		"
+29,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Forward Roll
+		","
+		16/18
+		","
+		-30
+		","
+		11—12
+		"
+30,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Backward Roll
+		","
+		16/18
+		","
+		-30
+		","
+		11—12
+		"
+31,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Neutral Air Dodge
+		","
+		16/18
+		","
+		-30
+		","
+		11—12
+		"
+32,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Air Dodge, Down
+		","
+		16/18
+		","
+		-30
+		","
+		11—12
+		"
+33,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		16/18
+		","
+		-30
+		","
+		11—12
+		"
+34,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Air Dodge, Left/Right
+		","
+		16/18
+		","
+		-30
+		","
+		11—12
+		"
+35,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		16/18
+		","
+		-30
+		","
+		11—12
+		"
+36,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Air Dodge, Up
+		","
+		16/18
+		","
+		-30
+		","
+		11—12
+		"
+37,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+			Ledge Grab
+		","
+		16/18
+		","
+		-30
+		","
+		11—12
+		"
+38,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+			Ledge Grab
+		","
+		16/18
+		","
+		-30
+		","
+		11—12
+		"
+39,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+				Ledge Hang
+			","
+		16/18
+		","
+		-30
+		","
+		11—12
+		"

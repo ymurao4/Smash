@@ -1,0 +1,485 @@
+,Character Name,Move name,Start up,Advantage,Active frames
+0,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Jab 1
+		","
+		4
+		","
+		-16
+		","
+		4—5
+		"
+1,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Jab 2
+		","
+		5
+		","
+		-18
+		","
+		5—6
+		"
+2,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Jab 3
+		","
+		4
+		","
+		-25
+		","
+		4—5
+		"
+3,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Rapid Jab
+		","
+		4/7/10...
+		","
+		**
+		","
+		**
+		"
+4,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Rapid Jab Finisher
+		","
+		4
+		","
+		-38
+		","
+		4—5
+		"
+5,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Forward Tilt
+		","
+		10
+		","
+		-12/-10
+		","
+		10—11
+		"
+6,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Up Tilt
+		","
+		8
+		","
+		-14/-12
+		","
+		8—12
+		"
+7,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Down Tilt
+		","
+		9
+		","
+		-15/-12
+		","
+		9—11
+		"
+8,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Dash Attack
+		","
+		12
+		","
+		-16
+		","
+		12—13
+		"
+9,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Forward Smash
+		","
+		18
+		","
+		-22
+		","
+		18—21
+		"
+10,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Up Smash
+		","
+		12
+		","
+		-24
+		","
+		12—17
+		"
+11,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Down Smash
+		","
+		24
+		","
+		-22
+		","
+		24—27
+		"
+12,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Neutral Air
+		","
+		8
+		","
+		-8/-7/-9
+		","
+		8—14/15—20
+		"
+13,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Forward Air
+		","
+		10/13/16
+		","
+		(-14/-13)/(-13/-13)
+		","
+		10—11/13—14/16—17
+		"
+14,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Back Air
+		","
+		10
+		","
+		-12
+		","
+		10—12
+		"
+15,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Up Air
+		","
+		11
+		","
+		-9/-9
+		","
+		11—13
+		"
+16,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Down Air
+		","
+		11
+		","
+		-27/-27
+		","
+		11—18/19—40
+		"
+17,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Neutral B (Plasma Breath)
+		","
+		29 | 56/65/73/84/92
+		","
+		-23 // -1
+		","
+		29—58/59—78 | ***
+		"
+18,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Side B (Space Pirate Rush)
+		","
+		22
+		","
+		**
+		","
+		22—34
+		"
+19,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Side B (Space Pirate Rush, Air)
+		","
+		22
+		","
+		**
+		","
+		22—34
+		"
+20,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Side B (Space Pirate Rush, Success)
+		","
+		10/24/28/32...
+		","
+		**
+		","
+		**
+		"
+21,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Space Pirate Rush, Manual/Ledge/Air Release
+		","
+		2/7/2
+		","
+		**
+		","
+		**
+		"
+22,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Up B (Wing Blitz)
+		","
+		34/36/37
+		","
+		-28
+		","
+		34—57/36—55/37—59
+		"
+23,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Down B (Skewer)
+		","
+		30
+		","
+		-29
+		","
+		30—31
+		"
+24,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Grab
+		","
+		8
+		","
+		-29
+		","
+		8—10
+		"
+25,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Dash Grab
+		","
+		11
+		","
+		-29
+		","
+		11—13
+		"
+26,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Pivot Grab
+		","
+		12
+		","
+		-29
+		","
+		12—14
+		"
+27,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Pummel
+		","
+		**
+		","
+		-29
+		","
+		12—14
+		"
+28,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Forward Throw
+		","
+		13
+		","
+		-29
+		","
+		12—14
+		"
+29,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Backward Throw
+		","
+		18
+		","
+		-29
+		","
+		12—14
+		"
+30,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Up Throw
+		","
+		14/19
+		","
+		-29
+		","
+		12—14
+		"
+31,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Down Throw
+		","
+		25
+		","
+		-29
+		","
+		12—14
+		"
+32,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Spot Dodge
+		","
+		25
+		","
+		-29
+		","
+		12—14
+		"
+33,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Forward Roll
+		","
+		25
+		","
+		-29
+		","
+		12—14
+		"
+34,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Backward Roll
+		","
+		25
+		","
+		-29
+		","
+		12—14
+		"
+35,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Neutral Air Dodge
+		","
+		25
+		","
+		-29
+		","
+		12—14
+		"
+36,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Air Dodge, Down
+		","
+		25
+		","
+		-29
+		","
+		12—14
+		"
+37,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		25
+		","
+		-29
+		","
+		12—14
+		"
+38,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Air Dodge, Left/Right
+		","
+		25
+		","
+		-29
+		","
+		12—14
+		"
+39,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		25
+		","
+		-29
+		","
+		12—14
+		"
+40,"<h1 class=""charactername"">
+ridley
+</h1>","
+		Air Dodge, Up
+		","
+		25
+		","
+		-29
+		","
+		12—14
+		"
+41,"<h1 class=""charactername"">
+ridley
+</h1>","
+			Ledge Grab
+		","
+		25
+		","
+		-29
+		","
+		12—14
+		"
+42,"<h1 class=""charactername"">
+ridley
+</h1>","
+			Ledge Grab
+		","
+		25
+		","
+		-29
+		","
+		12—14
+		"
+43,"<h1 class=""charactername"">
+ridley
+</h1>","
+				Ledge Hang
+			","
+		25
+		","
+		-29
+		","
+		12—14
+		"

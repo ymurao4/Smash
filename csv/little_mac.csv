@@ -1,0 +1,496 @@
+,Character Name,Move name,Start up,Advantage,Active frames
+0,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Jab 1
+		","
+		1
+		","
+		-12
+		","
+		1
+		"
+1,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Jab 2
+		","
+		1
+		","
+		-12
+		","
+		1
+		"
+2,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Jab 3
+		","
+		4
+		","
+		-19
+		","
+		4—5
+		"
+3,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Rapid Jab
+		","
+		4/6/8...
+		","
+		--
+		","
+		**
+		"
+4,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Rapid Jab Finisher
+		","
+		5
+		","
+		-25
+		","
+		5
+		"
+5,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Forward Tilt
+		","
+		4/12
+		","
+		-17
+		","
+		4—5/12—13
+		"
+6,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Up Tilt
+		","
+		4
+		","
+		-18
+		","
+		4—10
+		"
+7,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Down Tilt
+		","
+		3
+		","
+		-14
+		","
+		3—4
+		"
+8,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Dash Attack
+		","
+		7
+		","
+		-16
+		","
+		7—9
+		"
+9,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Forward Smash
+		","
+		14/14/15
+		","
+		-16/-16/-13
+		","
+		14—15/14—15/15
+		"
+10,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Up Smash
+		","
+		10
+		","
+		-23
+		","
+		10(11—13)
+		"
+11,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Down Smash
+		","
+		10/17
+		","
+		-23/-16
+		","
+		10—11/17—18
+		"
+12,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Neutral Air
+		","
+		2
+		","
+		-8
+		","
+		2
+		"
+13,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Forward Air
+		","
+		10
+		","
+		-10
+		","
+		10—12
+		"
+14,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Back Air
+		","
+		11
+		","
+		-13
+		","
+		11—12
+		"
+15,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Up Air
+		","
+		5
+		","
+		-10
+		","
+		5—8
+		"
+16,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Down Air
+		","
+		7
+		","
+		-15/-15
+		","
+		7—10
+		"
+17,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Neutral B, Partial Charge (Straight Lunge, Partial Charge)
+		","
+		4(+32)
+		","
+		-34 to -19
+		","
+		**
+		"
+18,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Neutral B, Full Charge (Straight Lunge, Full Charge)
+		","
+		123
+		","
+		-82
+		","
+		**
+		"
+19,"<h1 class=""charactername"">
+little mac
+</h1>","
+		K.O. Punch
+		","
+		9
+		","
+		Unblockable/-54
+		","
+		9—11
+		"
+20,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Side B (Jolt Haymaker)
+		","
+		8/25
+		","
+		-39 to -36
+		","
+		8—14/25—31 (windbox: 7—17)
+		"
+21,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Side B, Air (Jolt Haymaker, Air)
+		","
+		8/25
+		","
+		-32 to -31
+		","
+		8—14/25—31
+		"
+22,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Up B (Rising Uppercut)
+		","
+		3...
+		","
+		**
+		","
+		3/6—21(rehit: 4)/26
+		"
+23,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Down B (Slip Counter)
+		","
+		5 (Start of Counter)
+		","
+		--
+		","
+		5—27 (counter)
+		"
+24,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Slip Counter, Counterattack
+		","
+		16
+		","
+		--
+		","
+		16—21
+		"
+25,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Grab
+		","
+		9
+		","
+		--
+		","
+		9—10
+		"
+26,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Dash Grab
+		","
+		13
+		","
+		--
+		","
+		13—14
+		"
+27,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Pivot Grab
+		","
+		14
+		","
+		--
+		","
+		14—15
+		"
+28,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Pummel
+		","
+		1
+		","
+		--
+		","
+		14—15
+		"
+29,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Forward Throw
+		","
+		15/17
+		","
+		--
+		","
+		14—15
+		"
+30,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Backward Throw
+		","
+		17/19
+		","
+		--
+		","
+		14—15
+		"
+31,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Up Throw
+		","
+		10/12
+		","
+		--
+		","
+		14—15
+		"
+32,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Down Throw
+		","
+		14/16
+		","
+		--
+		","
+		14—15
+		"
+33,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Spot Dodge
+		","
+		14/16
+		","
+		--
+		","
+		14—15
+		"
+34,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Forward Roll
+		","
+		14/16
+		","
+		--
+		","
+		14—15
+		"
+35,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Backward Roll
+		","
+		14/16
+		","
+		--
+		","
+		14—15
+		"
+36,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Neutral Air Dodge
+		","
+		14/16
+		","
+		--
+		","
+		14—15
+		"
+37,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Air Dodge, Down
+		","
+		14/16
+		","
+		--
+		","
+		14—15
+		"
+38,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		14/16
+		","
+		--
+		","
+		14—15
+		"
+39,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Air Dodge, Left/Right
+		","
+		14/16
+		","
+		--
+		","
+		14—15
+		"
+40,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		14/16
+		","
+		--
+		","
+		14—15
+		"
+41,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Air Dodge, Up
+		","
+		14/16
+		","
+		--
+		","
+		14—15
+		"
+42,"<h1 class=""charactername"">
+little mac
+</h1>","
+			Ledge Grab
+		","
+		14/16
+		","
+		--
+		","
+		14—15
+		"
+43,"<h1 class=""charactername"">
+little mac
+</h1>","
+			Ledge Grab
+		","
+		14/16
+		","
+		--
+		","
+		14—15
+		"
+44,"<h1 class=""charactername"">
+little mac
+</h1>","
+				Ledge Hang
+			","
+		14/16
+		","
+		--
+		","
+		14—15
+		"

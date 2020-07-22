@@ -1,0 +1,430 @@
+,Character Name,Move name,Start up,Advantage,Active frames
+0,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Jab 1
+		","
+		2
+		","
+		-13
+		","
+		2—3
+		"
+1,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Jab 2
+		","
+		2
+		","
+		-16
+		","
+		2—3
+		"
+2,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Jab 3
+		","
+		3
+		","
+		-25
+		","
+		3—4
+		"
+3,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Forward Tilt
+		","
+		5
+		","
+		-12
+		","
+		5—7
+		"
+4,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Up Tilt
+		","
+		5
+		","
+		-17
+		","
+		5—11
+		"
+5,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Down Tilt
+		","
+		5
+		","
+		-14/-16
+		","
+		5—7
+		"
+6,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Dash Attack
+		","
+		6
+		","
+		-12
+		","
+		6—9/10—25
+		"
+7,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Forward Smash
+		","
+		15
+		","
+		-18/-20
+		","
+		15—17
+		"
+8,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Up Smash
+		","
+		9
+		","
+		-19
+		","
+		9—13
+		"
+9,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Down Smash
+		","
+		5/14
+		","
+		-30/-19
+		","
+		5—6/14
+		"
+10,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Neutral Air
+		","
+		3
+		","
+		-4/-3
+		","
+		3—10/11—27
+		"
+11,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Forward Air
+		","
+		16
+		","
+		-11/-12
+		","
+		16/17—20/21
+		"
+12,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Back Air
+		","
+		6
+		","
+		-5/-6
+		","
+		6—8/9—13
+		"
+13,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Up Air
+		","
+		4
+		","
+		-4
+		","
+		4—7
+		"
+14,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Down Air
+		","
+		16
+		","
+		-8
+		","
+		16—19
+		"
+15,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Neutral B (Megavitamin Pill)
+		","
+		17
+		","
+		-23
+		","
+		17—46/47—86
+		"
+16,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Side B (Super Sheet)
+		","
+		12
+		","
+		-15
+		","
+		12—14
+		"
+17,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Up B (Super Jump Punch)
+		","
+		3/7/9/11/13/15/17
+		","
+		--
+		","
+		3—5/6—19
+		"
+18,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Down B (Dr. Tornado)
+		","
+		10/14/18/22/26/30/40
+		","
+		-30
+		","
+		10/14/18/22/26/30/40—41
+		"
+19,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Grab
+		","
+		6
+		","
+		-30
+		","
+		6—7
+		"
+20,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Dash Grab
+		","
+		9
+		","
+		-30
+		","
+		9—10
+		"
+21,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Pivot Grab
+		","
+		10
+		","
+		-30
+		","
+		10—11
+		"
+22,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Pummel
+		","
+		1
+		","
+		-30
+		","
+		10—11
+		"
+23,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Forward Throw
+		","
+		13
+		","
+		-30
+		","
+		10—11
+		"
+24,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Backward Throw
+		","
+		40
+		","
+		-30
+		","
+		10—11
+		"
+25,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Up Throw
+		","
+		18
+		","
+		-30
+		","
+		10—11
+		"
+26,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Down Throw
+		","
+		18
+		","
+		-30
+		","
+		10—11
+		"
+27,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Spot Dodge
+		","
+		18
+		","
+		-30
+		","
+		10—11
+		"
+28,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Forward Roll
+		","
+		18
+		","
+		-30
+		","
+		10—11
+		"
+29,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Backward Roll
+		","
+		18
+		","
+		-30
+		","
+		10—11
+		"
+30,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Neutral Air Dodge
+		","
+		18
+		","
+		-30
+		","
+		10—11
+		"
+31,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Air Dodge, Down
+		","
+		18
+		","
+		-30
+		","
+		10—11
+		"
+32,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		18
+		","
+		-30
+		","
+		10—11
+		"
+33,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Air Dodge, Left/Right
+		","
+		18
+		","
+		-30
+		","
+		10—11
+		"
+34,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		18
+		","
+		-30
+		","
+		10—11
+		"
+35,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+		Air Dodge, Up
+		","
+		18
+		","
+		-30
+		","
+		10—11
+		"
+36,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+			Ledge Grab
+		","
+		18
+		","
+		-30
+		","
+		10—11
+		"
+37,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+			Ledge Grab
+		","
+		18
+		","
+		-30
+		","
+		10—11
+		"
+38,"<h1 class=""charactername"">
+Dr. Mario
+</h1>","
+				Ledge Hang
+			","
+		18
+		","
+		-30
+		","
+		10—11
+		"

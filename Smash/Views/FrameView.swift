@@ -9,12 +9,29 @@
 import SwiftUI
 
 struct FrameView: View {
+
+    @ObservedObject var frameVM = FrameViewModel()
+
     var body: some View {
 
-        Color.red
+        NavigationView {
+            VStack {
+                List() {
+                    HStack {
+                        Spacer()
+                        FighterPNG(name: "wario")
+                            .frame(width: 200, height: 200)
+                        Spacer()
+                    }
+                }
+                .onAppear {
+                    self.frameVM.loadData()
+                }
+                .navigationBarTitle("wario")
+            }
+        }
     }
 }
-
 struct FrameView_Previews: PreviewProvider {
     static var previews: some View {
         FrameView()

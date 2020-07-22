@@ -25,6 +25,10 @@
 		049239B324C6A306009F301E /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239B224C6A306009F301E /* AnalysisView.swift */; };
 		049239B524C6A3AF009F301E /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239B424C6A3AF009F301E /* FrameView.swift */; };
 		049239B724C6C0A5009F301E /* AddRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239B624C6C0A5009F301E /* AddRecordView.swift */; };
+		04F4F24E24C831BF006C2F20 /* FighterPNG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4F24D24C831BF006C2F20 /* FighterPNG.swift */; };
+		04F4F25024C84288006C2F20 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4F24F24C84288006C2F20 /* Frame.swift */; };
+		04F4F25224C8443F006C2F20 /* csv in Resources */ = {isa = PBXBuildFile; fileRef = 04F4F25124C8443E006C2F20 /* csv */; };
+		04F4F25424C8445C006C2F20 /* FrameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4F25324C8445C006C2F20 /* FrameViewModel.swift */; };
 		48E073D721060F2734D25D25 /* Pods_Smash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C2B775041D29DF66221E7D /* Pods_Smash.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +53,10 @@
 		049239B224C6A306009F301E /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
 		049239B424C6A3AF009F301E /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
 		049239B624C6C0A5009F301E /* AddRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecordView.swift; sourceTree = "<group>"; };
+		04F4F24D24C831BF006C2F20 /* FighterPNG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterPNG.swift; sourceTree = "<group>"; };
+		04F4F24F24C84288006C2F20 /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
+		04F4F25124C8443E006C2F20 /* csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = csv; sourceTree = SOURCE_ROOT; };
+		04F4F25324C8445C006C2F20 /* FrameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameViewModel.swift; sourceTree = "<group>"; };
 		4AC027C60C1B5F94053909E2 /* Pods-Smash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smash.release.xcconfig"; path = "Target Support Files/Pods-Smash/Pods-Smash.release.xcconfig"; sourceTree = "<group>"; };
 		64853352686FFC6A5060929B /* Pods-Smash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smash.debug.xcconfig"; path = "Target Support Files/Pods-Smash/Pods-Smash.debug.xcconfig"; sourceTree = "<group>"; };
 		88C2B775041D29DF66221E7D /* Pods_Smash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,6 +102,7 @@
 				0409E4C924C574CF000038E1 /* ViewModels */,
 				049239A924C66AE9009F301E /* Components */,
 				0409E4B924C574BA000038E1 /* Assets.xcassets */,
+				04F4F25124C8443E006C2F20 /* csv */,
 				0409E4BE24C574BA000038E1 /* LaunchScreen.storyboard */,
 				0409E4C124C574BA000038E1 /* Info.plist */,
 				0409E4BB24C574BA000038E1 /* Preview Content */,
@@ -113,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				049239A724C660E3009F301E /* Record.swift */,
+				04F4F24F24C84288006C2F20 /* Frame.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -135,6 +145,7 @@
 			children = (
 				049239A524C6608B009F301E /* RecordListViewMdoel.swift */,
 				04149A4724C7C63400F2AD6F /* RecordCellViewModel.swift */,
+				04F4F25324C8445C006C2F20 /* FrameViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -160,6 +171,7 @@
 			children = (
 				049239AA24C66AFB009F301E /* FighterPDF.swift */,
 				049239AC24C67B84009F301E /* StagePDF.swift */,
+				04F4F24D24C831BF006C2F20 /* FighterPNG.swift */,
 				049239AE24C68146009F301E /* Constants.swift */,
 				049239B024C68882009F301E /* EdgeBorder.swift */,
 			);
@@ -246,6 +258,7 @@
 				0409E4C024C574BA000038E1 /* LaunchScreen.storyboard in Resources */,
 				0409E4BD24C574BA000038E1 /* Preview Assets.xcassets in Resources */,
 				0409E4BA24C574BA000038E1 /* Assets.xcassets in Resources */,
+				04F4F25224C8443F006C2F20 /* csv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,11 +320,14 @@
 				0409E4B624C574B9000038E1 /* SceneDelegate.swift in Sources */,
 				049239B724C6C0A5009F301E /* AddRecordView.swift in Sources */,
 				049239A824C660E3009F301E /* Record.swift in Sources */,
+				04F4F25024C84288006C2F20 /* Frame.swift in Sources */,
+				04F4F24E24C831BF006C2F20 /* FighterPNG.swift in Sources */,
 				04149A4824C7C63400F2AD6F /* RecordCellViewModel.swift in Sources */,
 				049239AF24C68146009F301E /* Constants.swift in Sources */,
 				0409E4B824C574B9000038E1 /* ContentView.swift in Sources */,
 				049239AD24C67B84009F301E /* StagePDF.swift in Sources */,
 				049239AB24C66AFB009F301E /* FighterPDF.swift in Sources */,
+				04F4F25424C8445C006C2F20 /* FrameViewModel.swift in Sources */,
 				049239A624C6608B009F301E /* RecordListViewMdoel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

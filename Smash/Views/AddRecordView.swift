@@ -12,28 +12,36 @@ import WaterfallGrid
 struct AddRecordView: View {
 
     @Environment(\.presentationMode) var presentatinoMode
-    @State var result: Bool = true
-    @State var isMyFighterView: Bool = false
-    @State var isOpponentFighterView: Bool = false
-    @State var isStagViwe: Bool = false
+    @State var selectedIndex: Int = 0
     @State var myFighterName: String = "mario"
     @State var opponentFighterName: String = "mario"
     @State var stageName: String = "syuten"
+    @State var result: Bool = true
 
+    private let pickerNames = ["自分", "相手", "ステージ"]
     
     var body: some View {
         NavigationView {
             VStack {
-                FormCell(myFighterName: $myFighterName, opponentFighterName: $opponentFighterName, stageName: $stageName, result: $result, isMyFighterView: $isMyFighterView, isOpponentFighterView: $isOpponentFighterView, isStageView: $isStagViwe)
-                if isMyFighterView {
-                    MyFighterView(isMyFighterView: $isMyFighterView, fighterName: $myFighterName)
+                FormCell(myFighterName: $myFighterName, opponentFighterName: $opponentFighterName, stageName: $stageName, result: $result, selectedIndex: $selectedIndex)
+                Spacer()
+                    .frame(height: 20)
+                Picker("", selection: $selectedIndex) {
+                    ForEach(0..<self.pickerNames.count) { index in
+                        Text(self.pickerNames[index])
+                            .tag(index)
+                    }
                 }
-                else if isOpponentFighterView {
-                    OpponentFighterView(isOpponentFighterView: $isOpponentFighterView, opponentFighterName: $opponentFighterName)
+                .pickerStyle(SegmentedPickerStyle())
+
+                if selectedIndex == 0 {
+                    MyFighterView(fighterName: $myFighterName)
+                } else if selectedIndex == 1 {
+                    OpponentFighterView(opponentFighterName: $opponentFighterName)
+                } else if selectedIndex == 2 {
+                    StageView(stageName: $stageName)
                 }
-                else if isStagViwe {
-                    StageView(isStageView: $isStagViwe, stageName: $stageName)
-                }
+
                 Spacer()
             }
             .padding(20)
@@ -72,105 +80,90 @@ struct FormCell: View {
     @Binding var opponentFighterName: String
     @Binding var stageName: String
     @Binding var result: Bool
-    @Binding var isMyFighterView: Bool
-    @Binding var isOpponentFighterView: Bool
-    @Binding var isStageView: Bool
+    @Binding var selectedIndex: Int
 
     var body: some View {
-        VStack(spacing: 20) {
-            HStack {
+        HStack(alignment: .top, spacing: 35) {
+            VStack {
                 Text("自分")
-                Spacer()
+
                 Button(action: {
-                    self.isMyFighterView.toggle()
-                    // 他のViewをfalseに
-                    if self.isOpponentFighterView || self.isStageView {
-                        self.isOpponentFighterView = false
-                        self.isStageView = false
-                    }
+                    self.selectedIndex = 0
                 }) {
                     FighterPDF(name: myFighterName)
                         .frame(width: 50, height: 50)
+                        .background(Color.orange)
+                        .cornerRadius(25)
                 }
-                .background(Color.orange)
-                .border(Color.orange, width: 2)
-                .cornerRadius(25)
             }
-            HStack {
+            VStack {
                 Text("相手")
-                Spacer()
                 Button(action: {
-                    self.isOpponentFighterView.toggle()
-                    // 他のViewをfalseに
-                    if self.isMyFighterView || self.isStageView {
-                        self.isMyFighterView = false
-                        self.isStageView = false
-                    }
+                    self.selectedIndex = 1
                 }) {
                     FighterPDF(name: opponentFighterName)
                         .frame(width: 50, height: 50)
+                        .background(Color.accentColor)
+                        .cornerRadius(25)
                 }
-                .background(Color.accentColor)
-                .border(Color.accentColor, width: 2)
-                .cornerRadius(25)
             }
-            HStack {
+            VStack {
                 Text("ステージ")
-                Spacer()
+                    .padding(.bottom, 8)
                 Button(action: {
-                    self.isStageView.toggle()
-                    // 他のViewをfalseに
-                    if self.isMyFighterView || self.isOpponentFighterView {
-                        self.isMyFighterView = false
-                        self.isOpponentFighterView = false
-                    }
+                    self.selectedIndex = 2
                 }) {
                     StagePDF(name: stageName)
                         .frame(width: 60, height: 40)
                         .cornerRadius(3)
                 }
             }
-            HStack {
+            VStack {
                 Text("勝敗")
-                Spacer()
-                Button(action: {
-                    self.result.toggle()
-                }) {
-                    Text("Win").padding(7)
+                    .padding(.bottom, 30)
+                HStack {
+                    Button(action: { self.result.toggle() }) {
+                        Text("Win")
+                            .font(.subheadline)
+                    }
+                    .frame(width: 40, height: 30)
+                    .background(result ? Color.accentColor : nil)
+                    .foregroundColor(result ? .white : Color.primary)
+                    .cornerRadius(5)
+                    .padding(.trailing, 7)
+
+                    Button(action: { self.result.toggle() }) {
+                        Text("Lose")
+                            .font(.subheadline)
+                    }
+                    .frame(width: 40, height: 30)
+                    .background(!result ? Color.accentColor : nil)
+                    .foregroundColor(!result ? .white : Color.primary)
+                    .cornerRadius(5)
+                    .padding(.trailing, 7)
                 }
-                .background(result ? Color.accentColor : nil)
-                .foregroundColor(Color(UIColor.label))
-                .cornerRadius(7)
-                Button(action: {
-                    self.result.toggle()
-                }) {
-                    Text("lose").padding(7)
-                }
-                .background(!result ? Color.accentColor : nil)
-                .foregroundColor(Color(UIColor.label))
-                .cornerRadius(7)
             }
+
         }
     }
 
 }
 
+
 // waterFallGrid
 struct MyFighterView: View {
 
-    @Binding var isMyFighterView: Bool
     @Binding var fighterName: String
 
     var body: some View {
         WaterfallGrid((0..<S.fightersArray.count), id: \.self) { index in
             Button(action: {
-                self.isMyFighterView = false
                 self.fighterName = S.fightersArray[index][1]
             }) {
                 FighterPDF(name: S.fightersArray[index][1])
-                .frame(width: 40, height: 40)
-                .background(Color.orange)
-                .cornerRadius(20)
+                    .frame(width: 40, height: 40)
+                    .background(Color.orange)
+                    .cornerRadius(20)
             }
         }
         .gridStyle(
@@ -178,28 +171,26 @@ struct MyFighterView: View {
             spacing: 5,
             animation: .easeInOut(duration: 0.5)
         )
-        .scrollOptions(
-            direction: .vertical,
-            showsIndicators: false
+            .scrollOptions(
+                direction: .vertical,
+                showsIndicators: false
         )
     }
 }
 
 struct OpponentFighterView: View {
 
-    @Binding var isOpponentFighterView: Bool
     @Binding var opponentFighterName: String
 
     var body: some View {
         WaterfallGrid((0..<S.fightersArray.count), id: \.self) { index in
             Button(action: {
-                self.isOpponentFighterView = false
                 self.opponentFighterName = S.fightersArray[index][1]
             }) {
                 FighterPDF(name: S.fightersArray[index][1])
-                .frame(width: 40, height: 40)
-                .background(Color.accentColor)
-                .cornerRadius(20)
+                    .frame(width: 40, height: 40)
+                    .background(Color.accentColor)
+                    .cornerRadius(20)
             }
         }
         .gridStyle(
@@ -207,27 +198,25 @@ struct OpponentFighterView: View {
             spacing: 5,
             animation: .easeInOut(duration: 0.5)
         )
-        .scrollOptions(
-            direction: .vertical,
-            showsIndicators: false
+            .scrollOptions(
+                direction: .vertical,
+                showsIndicators: false
         )
     }
 }
 
 struct StageView: View {
 
-    @Binding var isStageView: Bool
     @Binding var stageName: String
 
     var body: some View {
         WaterfallGrid((0..<S.stageArray.count), id: \.self) { index in
             Button(action: {
-                self.isStageView = false
                 self.stageName = S.stageArray[index][1]
             }) {
                 StagePDF(name: S.stageArray[index][1])
-                .frame(width: 60, height: 40)
-                .cornerRadius(3)
+                    .frame(width: 60, height: 40)
+                    .cornerRadius(3)
             }
         }
         .gridStyle(
@@ -236,3 +225,5 @@ struct StageView: View {
             animation: .easeInOut(duration: 0.5))
     }
 }
+
+

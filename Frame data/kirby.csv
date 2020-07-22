@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 kirby
 </h1>","
 		Jab 1
 		","
 		2
-		","
-		14
-		","
-		--
-		","
-		Transitions to Jab 2 as early as frame 4 
-		","
-		1.8
-		","
-		8
-		","
-		3
-		","
-		--
 		","
 		-9
 		","
@@ -30,20 +16,6 @@ kirby
 		Jab 2
 		","
 		3
-		","
-		15
-		","
-		--
-		","
-		Transitions to Rapid Jab as early as frame 5 
-		","
-		1.6
-		","
-		5
-		","
-		3
-		","
-		--
 		","
 		-9
 		","
@@ -58,20 +30,6 @@ kirby
 		","
 		--
 		","
-		--
-		","
-		--
-		","
-		0.2
-		","
-		4
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		5/7/9/11...
 		"
 3,"<h1 class=""charactername"">
@@ -80,20 +38,6 @@ kirby
 		Rapid Jab Finisher 
 		","
 		3
-		","
-		39
-		","
-		--
-		","
-		--
-		","
-		3.0
-		","
-		15
-		","
-		4
-		","
-		--
 		","
 		-32
 		","
@@ -106,20 +50,6 @@ kirby
 		","
 		5
 		","
-		23
-		","
-		--
-		","
-		--
-		","
-		8.0/7.0
-		","
-		7/7
-		","
-		8/4
-		","
-		Close/Far
-		","
 		-10/-11
 		","
 		5—8
@@ -130,20 +60,6 @@ kirby
 		Up Tilt
 		","
 		4
-		","
-		20
-		","
-		--
-		","
-		Leg intangibility on frame 4-10. Tipper deals reduced knockback. 
-		","
-		5.0/4.0
-		","
-		6/5
-		","
-		6/5
-		","
-		Early/Late
 		","
 		-10/-9
 		","
@@ -156,20 +72,6 @@ kirby
 		","
 		4
 		","
-		20
-		","
-		--
-		","
-		--
-		","
-		6.0
-		","
-		6
-		","
-		6
-		","
-		--
-		","
 		-9
 		","
 		4—6
@@ -180,20 +82,6 @@ kirby
 		Dash Attack
 		","
 		9
-		","
-		51
-		","
-		--
-		","
-		--
-		","
-		12.0/9.0/6.0
-		","
-		**
-		","
-		**
-		","
-		Early/Late/Latest
 		","
 		-31
 		","
@@ -206,20 +94,6 @@ kirby
 		","
 		13
 		","
-		47
-		","
-		--
-		","
-		Charge hold is frame 4
-		","
-		15.0/11.0
-		","
-		12/8
-		","
-		10/8
-		","
-		Early/Late
-		","
 		-23
 		","
 		13—15/16—19
@@ -230,20 +104,6 @@ kirby
 		Up Smash
 		","
 		12
-		","
-		45
-		","
-		--
-		","
-		Leg intangibility on frame 12-17. Charge hold is frame 8.
-		","
-		15.0/14.0/12.0
-		","
-		10/9/9
-		","
-		10/9/8
-		","
-		close/far/late
 		","
 		-23/-24
 		","
@@ -256,20 +116,6 @@ kirby
 		","
 		7
 		","
-		50
-		","
-		--
-		","
-		Leg intangibility on frame 3-11. Charge hold is frame 2.
-		","
-		14.0/10.0
-		","
-		10
-		","
-		10
-		","
-		--
-		","
 		-33
 		","
 		7—11/12—19
@@ -280,20 +126,6 @@ kirby
 		Neutral Air
 		","
 		8
-		","
-		52
-		","
-		6
-		","
-		Autocancels on frame 1-3 and 49 onward.
-		","
-		10.0/8.0/6.0/4.0
-		","
-		8/5
-		","
-		4/3
-		","
-		Early/Late
 		","
 		-2/-3
 		","
@@ -306,20 +138,6 @@ kirby
 		","
 		10/17/25
 		","
-		47
-		","
-		8
-		","
-		Autocancels on frame 1-9 and 41 onward
-		","
-		4.0/3.0/5.0
-		","
-		5/5/7
-		","
-		3/2/3
-		","
-		--
-		","
 		-5/-6/-5
 		","
 		10—11/17—18/25—27
@@ -330,20 +148,6 @@ kirby
 		Back Air
 		","
 		6
-		","
-		40
-		","
-		10
-		","
-		Autocancels on frame 1-2 and 32 onward
-		","
-		13.0/8.0
-		","
-		11/7
-		","
-		5/4
-		","
-		Early/Late
 		","
 		-5/-6
 		","
@@ -356,20 +160,6 @@ kirby
 		","
 		8
 		","
-		35
-		","
-		7
-		","
-		Autocancels on frame 1-7 and 20 onward.
-		","
-		9.0
-		","
-		7
-		","
-		4
-		","
-		--
-		","
 		-3
 		","
 		8—13
@@ -380,20 +170,6 @@ kirby
 		Down Air
 		","
 		18/21/24/27/30/34
-		","
-		54
-		","
-		16
-		","
-		Landing hit on frame 1. Autocancels on frame 1-17 and 48 onward
-		","
-		1.2/2.0/2.0
-		","
-		4/4/4
-		","
-		2/3/3
-		","
-		multi/final/landing
 		","
 		-12
 		","
@@ -406,20 +182,6 @@ kirby
 		","
 		10
 		","
-		67
-		","
-		--
-		","
-		Minimum total frames is 67. Endlag is 19 frames upon release. Can eat projectiles. Projectile eat animation is 51 frames long
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		10—44 (longer if held)
@@ -430,20 +192,6 @@ kirby
 		Inhale, Copy/Spit
 		","
 		8/8
-		","
-		20/30
-		","
-		--
-		","
-		--
-		","
-		10.0(Swallow)/6.0(Spit)
-		","
-		**
-		","
-		**
-		","
-		--
 		","
 		**
 		","
@@ -456,20 +204,6 @@ kirby
 		","
 		11(+15)
 		","
-		54
-		","
-		--
-		","
-		Startup is 11 from charging state. Takes 15 frames to enter charging state.
-		","
-		19.0—28.8
-		","
-		14—16
-		","
-		17—25
-		","
-		--
-		","
 		-26 to -18
 		","
 		26—27 (11—12 from charge)
@@ -480,20 +214,6 @@ kirby
 		Hammer, Full Charge
 		","
 		11
-		","
-		59
-		","
-		--
-		","
-		If on the ground, invulnerable on frame 2-10 and Super armor on frame 11-17. Reaches full charge on frame 135.
-		","
-		35.0
-		","
-		18
-		","
-		30
-		","
-		--
 		","
 		-18
 		","
@@ -506,20 +226,6 @@ kirby
 		","
 		28/42
 		","
-		71
-		","
-		--
-		","
-		--
-		","
-		16.0
-		","
-		10/10
-		","
-		14/14
-		","
-		--
-		","
 		**/**
 		","
 		28—29/42—43
@@ -530,20 +236,6 @@ kirby
 		Up B (Final Cutter)
 		","
 		23/(41/50...)/**/**
-		","
-		--
-		","
-		30
-		","
-		Projectile appears on frame 1 of landing and disappears on 16.
-		","
-		5.0/2.0/(5.0/2.0)/6.0
-		","
-		6/4/6/**
-		","
-		6/3/3/**
-		","
-		Rising/Falling/Landing/Projectile
 		","
 		--/--/-21/**
 		","
@@ -556,20 +248,6 @@ kirby
 		","
 		11
 		","
-		--
-		","
-		--
-		","
-		Emerging from stone is a 31 frame animation. Stone armor begins on frame 11. On Shield data assumes release immediately after hit.
-		","
-		14.0
-		","
-		10
-		","
-		13
-		","
-		--
-		","
 		-35
 		","
 		**
@@ -580,20 +258,6 @@ kirby
 		Down B, Air (Stone, Air)
 		","
 		29
-		","
-		--
-		","
-		--
-		","
-		Stone armor begins on frame 19. Active frames can be longer depending on release timing. On Shield data assumes release immediately after hit.
-		","
-		18.0
-		","
-		11
-		","
-		16
-		","
-		--
 		","
 		-17
 		","
@@ -606,20 +270,6 @@ kirby
 		","
 		6
 		","
-		34
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		11
-		","
-		16
-		","
-		--
-		","
 		-17
 		","
 		6—7
@@ -630,20 +280,6 @@ kirby
 		Dash Grab
 		","
 		9
-		","
-		41
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		11
-		","
-		16
-		","
-		--
 		","
 		-17
 		","
@@ -656,20 +292,6 @@ kirby
 		","
 		10
 		","
-		36
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		11
-		","
-		16
-		","
-		--
-		","
 		-17
 		","
 		10—11
@@ -680,20 +302,6 @@ kirby
 		Pummel
 		","
 		1
-		","
-		15
-		","
-		--
-		","
-		Total frames includes 10 frames of hitlag
-		","
-		1.0
-		","
-		11
-		","
-		16
-		","
-		--
 		","
 		-17
 		","
@@ -706,20 +314,6 @@ kirby
 		","
 		45
 		","
-		58
-		","
-		--
-		","
-		--		
-		","
-		2.0/5.0
-		","
-		11
-		","
-		16
-		","
-		--
-		","
 		-17
 		","
 		10—11
@@ -730,20 +324,6 @@ kirby
 		Backward Throw
 		","
 		41
-		","
-		49
-		","
-		--
-		","
-		--		
-		","
-		8.0
-		","
-		11
-		","
-		16
-		","
-		--
 		","
 		-17
 		","
@@ -756,20 +336,6 @@ kirby
 		","
 		58
 		","
-		86
-		","
-		--
-		","
-		Startup and total frames assume level ground. Endlag is always 30 after landing.	Deals 7.0 damage and knockback to anyone near Kirby on frames 45—53.	
-		","
-		10.0
-		","
-		11
-		","
-		16
-		","
-		--
-		","
 		-17
 		","
 		10—11
@@ -780,20 +346,6 @@ kirby
 		Down Throw
 		","
 		9
-		","
-		79
-		","
-		--
-		","
-		Throw releases on 58. Active: 9—10/13—14/17—18/21—22/25—26/29—30/33—34/37—38/41—42/56—57.
-		","
-		1.0/2.0
-		","
-		11
-		","
-		16
-		","
-		--
 		","
 		-17
 		","
@@ -806,20 +358,6 @@ kirby
 		","
 		9
 		","
-		21/26
-		","
-		--
-		","
-		Invulnerable on frame 3-17
-		","
-		1.0/2.0
-		","
-		11
-		","
-		16
-		","
-		--
-		","
 		-17
 		","
 		10—11
@@ -830,20 +368,6 @@ kirby
 		Forward Roll
 		","
 		9
-		","
-		30
-		","
-		--
-		","
-		Invulnerable on frame 4-15
-		","
-		1.0/2.0
-		","
-		11
-		","
-		16
-		","
-		--
 		","
 		-17
 		","
@@ -856,20 +380,6 @@ kirby
 		","
 		9
 		","
-		35
-		","
-		--
-		","
-		Invulnerable on frame 5-16
-		","
-		1.0/2.0
-		","
-		11
-		","
-		16
-		","
-		--
-		","
 		-17
 		","
 		10—11
@@ -880,20 +390,6 @@ kirby
 		Neutral Air Dodge
 		","
 		9
-		","
-		62
-		","
-		10
-		","
-		Invulnerable on frame 3-29
-		","
-		1.0/2.0
-		","
-		11
-		","
-		16
-		","
-		--
 		","
 		-17
 		","
@@ -906,20 +402,6 @@ kirby
 		","
 		9
 		","
-		82
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21		
-		","
-		1.0/2.0
-		","
-		11
-		","
-		16
-		","
-		--
-		","
 		-17
 		","
 		10—11
@@ -930,20 +412,6 @@ kirby
 		Air Dodge, Diagonally Down
 		","
 		9
-		","
-		91
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		1.0/2.0
-		","
-		11
-		","
-		16
-		","
-		--
 		","
 		-17
 		","
@@ -956,20 +424,6 @@ kirby
 		","
 		9
 		","
-		102
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		1.0/2.0
-		","
-		11
-		","
-		16
-		","
-		--
-		","
 		-17
 		","
 		10—11
@@ -980,20 +434,6 @@ kirby
 		Air Dodge, Diagonally Up
 		","
 		9
-		","
-		134
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		1.0/2.0
-		","
-		11
-		","
-		16
-		","
-		--
 		","
 		-17
 		","
@@ -1006,20 +446,6 @@ kirby
 		","
 		9
 		","
-		141
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		1.0/2.0
-		","
-		11
-		","
-		16
-		","
-		--
-		","
 		-17
 		","
 		10—11
@@ -1030,20 +456,6 @@ kirby
 			Ledge Grab
 		","
 		9
-		","
-		141
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		1.0/2.0
-		","
-		11
-		","
-		16
-		","
-		--
 		","
 		-17
 		","
@@ -1056,20 +468,6 @@ kirby
 		","
 		9
 		","
-		141
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		1.0/2.0
-		","
-		11
-		","
-		16
-		","
-		--
-		","
 		-17
 		","
 		10—11
@@ -1080,20 +478,6 @@ kirby
 				Ledge Hang
 			","
 		9
-		","
-		141
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		1.0/2.0
-		","
-		11
-		","
-		16
-		","
-		--
 		","
 		-17
 		","

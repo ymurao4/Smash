@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 yoshi
 </h1>","
 		Jab 1
 		","
 		3
-		","
-		17
-		","
-		--
-		","
-		Transitions to Jab 2 as early as frame 6 
-		","
-		3.0
-		","
-		7
-		","
-		4
-		","
-		--
 		","
 		-10
 		","
@@ -31,20 +17,6 @@ yoshi
 		","
 		3
 		","
-		19
-		","
-		--
-		","
-		--
-		","
-		4.0
-		","
-		11
-		","
-		5
-		","
-		--
-		","
 		-11
 		","
 		3—4
@@ -55,20 +27,6 @@ yoshi
 		Forward Tilt
 		","
 		5
-		","
-		29
-		","
-		--
-		","
-		--
-		","
-		8.0
-		","
-		7
-		","
-		8
-		","
-		--
 		","
 		-16
 		","
@@ -81,20 +39,6 @@ yoshi
 		","
 		8
 		","
-		31
-		","
-		--
-		","
-		--
-		","
-		7.0
-		","
-		7
-		","
-		7
-		","
-		--
-		","
 		-16
 		","
 		8—15
@@ -105,20 +49,6 @@ yoshi
 		Down Tilt
 		","
 		8
-		","
-		23
-		","
-		--
-		","
-		--
-		","
-		5.0/4.5/4.0
-		","
-		6/6/5
-		","
-		6/6/5
-		","
-		Close/Middle/Far
 		","
 		-9/-9/-10
 		","
@@ -131,20 +61,6 @@ yoshi
 		","
 		10
 		","
-		40
-		","
-		--
-		","
-		--
-		","
-		11.0/8.0
-		","
-		8/7
-		","
-		10/8
-		","
-		Early/Late
-		","
 		-20
 		","
 		10—12/13—20
@@ -155,20 +71,6 @@ yoshi
 		Forward Smash
 		","
 		14
-		","
-		52
-		","
-		--
-		","
-		Head intangibility on frame 12-16. Charge hold is frame 7
-		","
-		15.5
-		","
-		10
-		","
-		10
-		","
-		--
 		","
 		-28
 		","
@@ -181,20 +83,6 @@ yoshi
 		","
 		11
 		","
-		46
-		","
-		--
-		","
-		Leg intangibility on frame 11-13. Charge hold is frame 7
-		","
-		14.0/12.0
-		","
-		10/9
-		","
-		10/8
-		","
-		Early/Late
-		","
 		-24
 		","
 		11—13/14—16
@@ -205,20 +93,6 @@ yoshi
 		Down Smash
 		","
 		7/22
-		","
-		49
-		","
-		--
-		","
-		Charge hold is frame 3
-		","
-		12.0/10.0
-		","
-		9/8
-		","
-		8/7
-		","
-		First/Second
 		","
 		-34/-19
 		","
@@ -231,20 +105,6 @@ yoshi
 		","
 		3
 		","
-		44
-		","
-		7
-		","
-		Autocancels on frame 1-2 and 38 onward
-		","
-		10.0/7.0/5.0
-		","
-		8/7/6
-		","
-		4/3/3
-		","
-		Early/Late/Latest
-		","
 		-3/-4/-4
 		","
 		3—4(5—11/12—25)
@@ -255,20 +115,6 @@ yoshi
 		Forward Air
 		","
 		16
-		","
-		43
-		","
-		12
-		","
-		Autocancels on frame 1-3 and 40 onward
-		","
-		15.0/14.0
-		","
-		10/10
-		","
-		5/5
-		","
-		Close/meteor
 		","
 		-7/-7
 		","
@@ -281,20 +127,6 @@ yoshi
 		","
 		11/14/18
 		","
-		55
-		","
-		11
-		","
-		Autocancels on frame 1-5 and 44 onward 
-		","
-		3.5/5.5
-		","
-		5/9
-		","
-		2/3
-		","
-		Multihit/Final 
-		","
 		-9/-8
 		","
 		11/14/18—19
@@ -305,20 +137,6 @@ yoshi
 		Up Air
 		","
 		5
-		","
-		36
-		","
-		8
-		","
-		Autocancels on frame 1-4 and 31 onward
-		","
-		12.0
-		","
-		9
-		","
-		5
-		","
-		--
 		","
 		-3
 		","
@@ -331,20 +149,6 @@ yoshi
 		","
 		16/18/20/22/24/26/28/30/32/34/36/38/41
 		","
-		56
-		","
-		17
-		","
-		Landing hit generates on frame 1. Autocancels on frame 50 onward
-		","
-		2.2/1.9/2.7/1.0
-		","
-		5/4/7/4
-		","
-		-/2/2/2
-		","
-		Early multi/Late multi/final/landing
-		","
 		-14
 		","
 		16/18/20/22/24/26/28/30/32/34/36/38/41
@@ -355,20 +159,6 @@ yoshi
 		Neutral B (Egg Lay)
 		","
 		19
-		","
-		49/41
-		","
-		--
-		","
-		Egg appears on frame 33 when successful. Total frames when successful is 62. Total frames is 41 on whiff.
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -381,20 +171,6 @@ yoshi
 		","
 		32
 		","
-		--
-		","
-		--
-		","
-		Takes 39 frames to emerge. 
-		","
-		10.8—12.8
-		","
-		8—9
-		","
-		10—12
-		","
-		--
-		","
 		-29 to -27
 		","
 		**
@@ -405,20 +181,6 @@ yoshi
 		Up B (Egg Throw)
 		","
 		16
-		","
-		55
-		","
-		--
-		","
-		Eggs explode automatically on frame 60.
-		","
-		6.0
-		","
-		6
-		","
-		3
-		","
-		--
 		","
 		-30
 		","
@@ -431,20 +193,6 @@ yoshi
 		","
 		7/27, 19
 		","
-		77, --
-		","
-		39, 39
-		","
-		Total frames assumes level ground. Passes through platforms, voluntarily if you fall long enough. Stars appear on frame 4 of landing. 
-		","
-		4.0/15.0/4.0, 12.0/4.0
-		","
-		5/10/3, 9/3
-		","
-		5/14/0, 11/0
-		","
-		Rising/falling/star, falling/star
-		","
 		-32, -32
 		","
 		7/27/*, 19/*
@@ -455,20 +203,6 @@ yoshi
 		Grab
 		","
 		14
-		","
-		48
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		5/10/3, 9/3
-		","
-		5/14/0, 11/0
-		","
-		Rising/falling/star, falling/star
 		","
 		-32, -32
 		","
@@ -481,20 +215,6 @@ yoshi
 		","
 		16
 		","
-		56
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		5/10/3, 9/3
-		","
-		5/14/0, 11/0
-		","
-		Rising/falling/star, falling/star
-		","
 		-32, -32
 		","
 		16—23
@@ -505,20 +225,6 @@ yoshi
 		Pivot Grab
 		","
 		17
-		","
-		51
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		5/10/3, 9/3
-		","
-		5/14/0, 11/0
-		","
-		Rising/falling/star, falling/star
 		","
 		-32, -32
 		","
@@ -531,20 +237,6 @@ yoshi
 		","
 		1
 		","
-		19
-		","
-		--
-		","
-		Total frames includes 14 frames of hitlag
-		","
-		1.3
-		","
-		5/10/3, 9/3
-		","
-		5/14/0, 11/0
-		","
-		Rising/falling/star, falling/star
-		","
 		-32, -32
 		","
 		17—24
@@ -555,20 +247,6 @@ yoshi
 		Forward Throw
 		","
 		15
-		","
-		39
-		","
-		--
-		","
-		--		
-		","
-		9.0
-		","
-		5/10/3, 9/3
-		","
-		5/14/0, 11/0
-		","
-		Rising/falling/star, falling/star
 		","
 		-32, -32
 		","
@@ -581,20 +259,6 @@ yoshi
 		","
 		20
 		","
-		43
-		","
-		--
-		","
-		--		
-		","
-		9.0
-		","
-		5/10/3, 9/3
-		","
-		5/14/0, 11/0
-		","
-		Rising/falling/star, falling/star
-		","
 		-32, -32
 		","
 		17—24
@@ -605,20 +269,6 @@ yoshi
 		Up Throw
 		","
 		13
-		","
-		43
-		","
-		--
-		","
-		--		
-		","
-		5.0
-		","
-		5/10/3, 9/3
-		","
-		5/14/0, 11/0
-		","
-		Rising/falling/star, falling/star
 		","
 		-32, -32
 		","
@@ -631,20 +281,6 @@ yoshi
 		","
 		25
 		","
-		50
-		","
-		--
-		","
-		--		
-		","
-		4.0
-		","
-		5/10/3, 9/3
-		","
-		5/14/0, 11/0
-		","
-		Rising/falling/star, falling/star
-		","
 		-32, -32
 		","
 		17—24
@@ -655,20 +291,6 @@ yoshi
 		Spot Dodge
 		","
 		25
-		","
-		21/26
-		","
-		--
-		","
-		Invulnerable on frame 3-17
-		","
-		4.0
-		","
-		5/10/3, 9/3
-		","
-		5/14/0, 11/0
-		","
-		Rising/falling/star, falling/star
 		","
 		-32, -32
 		","
@@ -681,20 +303,6 @@ yoshi
 		","
 		25
 		","
-		30
-		","
-		--
-		","
-		Invulnerable on frame 4-15
-		","
-		4.0
-		","
-		5/10/3, 9/3
-		","
-		5/14/0, 11/0
-		","
-		Rising/falling/star, falling/star
-		","
 		-32, -32
 		","
 		17—24
@@ -705,20 +313,6 @@ yoshi
 		Backward Roll
 		","
 		25
-		","
-		35
-		","
-		--
-		","
-		Invulnerable on frame 5-16
-		","
-		4.0
-		","
-		5/10/3, 9/3
-		","
-		5/14/0, 11/0
-		","
-		Rising/falling/star, falling/star
 		","
 		-32, -32
 		","
@@ -731,20 +325,6 @@ yoshi
 		","
 		25
 		","
-		58
-		","
-		10
-		","
-		Invulnerable on frame 3-30
-		","
-		4.0
-		","
-		5/10/3, 9/3
-		","
-		5/14/0, 11/0
-		","
-		Rising/falling/star, falling/star
-		","
 		-32, -32
 		","
 		17—24
@@ -755,20 +335,6 @@ yoshi
 		Air Dodge, Down
 		","
 		25
-		","
-		79
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		4.0
-		","
-		5/10/3, 9/3
-		","
-		5/14/0, 11/0
-		","
-		Rising/falling/star, falling/star
 		","
 		-32, -32
 		","
@@ -781,20 +347,6 @@ yoshi
 		","
 		25
 		","
-		89
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		4.0
-		","
-		5/10/3, 9/3
-		","
-		5/14/0, 11/0
-		","
-		Rising/falling/star, falling/star
-		","
 		-32, -32
 		","
 		17—24
@@ -805,20 +357,6 @@ yoshi
 		Air Dodge, Left/Right
 		","
 		25
-		","
-		107
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.0
-		","
-		5/10/3, 9/3
-		","
-		5/14/0, 11/0
-		","
-		Rising/falling/star, falling/star
 		","
 		-32, -32
 		","
@@ -831,20 +369,6 @@ yoshi
 		","
 		25
 		","
-		116
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.0
-		","
-		5/10/3, 9/3
-		","
-		5/14/0, 11/0
-		","
-		Rising/falling/star, falling/star
-		","
 		-32, -32
 		","
 		17—24
@@ -855,20 +379,6 @@ yoshi
 		Air Dodge, Up
 		","
 		25
-		","
-		130
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.0
-		","
-		5/10/3, 9/3
-		","
-		5/14/0, 11/0
-		","
-		Rising/falling/star, falling/star
 		","
 		-32, -32
 		","
@@ -881,20 +391,6 @@ yoshi
 		","
 		25
 		","
-		130
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.0
-		","
-		5/10/3, 9/3
-		","
-		5/14/0, 11/0
-		","
-		Rising/falling/star, falling/star
-		","
 		-32, -32
 		","
 		17—24
@@ -906,20 +402,6 @@ yoshi
 		","
 		25
 		","
-		130
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.0
-		","
-		5/10/3, 9/3
-		","
-		5/14/0, 11/0
-		","
-		Rising/falling/star, falling/star
-		","
 		-32, -32
 		","
 		17—24
@@ -930,20 +412,6 @@ yoshi
 				Ledge Hang
 			","
 		25
-		","
-		130
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.0
-		","
-		5/10/3, 9/3
-		","
-		5/14/0, 11/0
-		","
-		Rising/falling/star, falling/star
 		","
 		-32, -32
 		","

@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 marth
 </h1>","
 		Jab 1
 		","
 		5
-		","
-		25
-		","
-		--
-		","
-		Transitions to Jab 2 as early as frame 11.
-		","
-		3.0/5.0
-		","
-		6/10
-		","
-		4/6
-		","
-		Close/tipper
 		","
 		-16/-14
 		","
@@ -31,20 +17,6 @@ marth
 		","
 		4
 		","
-		28
-		","
-		--
-		","
-		--
-		","
-		4.0/6.0
-		","
-		7/11
-		","
-		5/6
-		","
-		Close/tipper
-		","
 		-19/-18
 		","
 		4—5
@@ -55,20 +27,6 @@ marth
 		Forward Tilt
 		","
 		8
-		","
-		33
-		","
-		--
-		","
-		--
-		","
-		9.0/12.0
-		","
-		7/11
-		","
-		9/11
-		","
-		Close/tipper
 		","
 		-16/-14
 		","
@@ -81,20 +39,6 @@ marth
 		","
 		6
 		","
-		33
-		","
-		--
-		","
-		--
-		","
-		5.0/6.0/9.0/
-		","
-		6/9
-		","
-		6/9
-		","
-		Closest/Close/Tipper
-		","
 		-21/-18
 		","
 		6—8/9—12
@@ -105,20 +49,6 @@ marth
 		Down Tilt
 		","
 		7
-		","
-		23
-		","
-		--
-		","
-		--
-		","
-		7.0/10.0
-		","
-		7/10
-		","
-		7/10
-		","
-		Close/tipper
 		","
 		-9/-6
 		","
@@ -131,20 +61,6 @@ marth
 		","
 		13
 		","
-		49
-		","
-		--
-		","
-		--
-		","
-		9.0/10.0/12.0
-		","
-		8/14
-		","
-		14/16
-		","
-		Closest/Close/Tipper
-		","
 		-22/-20
 		","
 		13—16
@@ -155,20 +71,6 @@ marth
 		Forward Smash
 		","
 		10
-		","
-		51
-		","
-		--
-		","
-		Charge hold is frame 3.
-		","
-		13.0/18.0
-		","
-		9/15
-		","
-		9/12
-		","
-		Close/tipper
 		","
 		-32/-29
 		","
@@ -181,20 +83,6 @@ marth
 		","
 		13
 		","
-		58
-		","
-		--
-		","
-		Launcher and sword hits generate on the same frame. Charge hold is frame 5
-		","
-		3.0/13.0/17.0
-		","
-		0/9/?
-		","
-		4/9/?
-		","
-		Body Launcher/Close/Tipper
-		","
 		-41/-36
 		","
 		13—14/13—17
@@ -205,20 +93,6 @@ marth
 		Down Smash
 		","
 		6/21
-		","
-		55
-		","
-		--
-		","
-		Charge hold is frame 4.
-		","
-		8.0/12.0/12.0/17.0
-		","
-		7/13/9/15
-		","
-		6/8/8/11
-		","
-		Close/tipper, close/tipper
 		","
 		-43/-41/-26/-23
 		","
@@ -231,20 +105,6 @@ marth
 		","
 		6/15
 		","
-		49
-		","
-		7
-		","
-		Autocancels on frame 47 onward
-		","
-		3.5/5.0/7.0/9.5
-		","
-		5/7/7/10
-		","
-		2/3/3/4
-		","
-		close/tipper/close/tipper
-		","
 		-5/-4/-4/-3
 		","
 		6—7/15—21
@@ -255,20 +115,6 @@ marth
 		Forward Air
 		","
 		6
-		","
-		37
-		","
-		10
-		","
-		Autocancels on frame 36 onward
-		","
-		8.0/11.5
-		","
-		7/11
-		","
-		4/5
-		","
-		Close/tipper
 		","
 		-6/-5
 		","
@@ -281,20 +127,6 @@ marth
 		","
 		7
 		","
-		39
-		","
-		10
-		","
-		Autocancels on frame 1-2 and 32 onward
-		","
-		9.0/12.5
-		","
-		7/11
-		","
-		4/5
-		","
-		Close/tipper
-		","
 		-6/-5
 		","
 		7—11
@@ -305,20 +137,6 @@ marth
 		Up Air
 		","
 		5
-		","
-		45
-		","
-		8
-		","
-		Autocancels on frame 1-2 and 38 onward
-		","
-		9.5/13.0
-		","
-		8/12
-		","
-		4/5
-		","
-		Close/tipper
 		","
 		-4/-3
 		","
@@ -331,20 +149,6 @@ marth
 		","
 		9/11
 		","
-		59
-		","
-		14
-		","
-		Autocancels on frame 1-2 and 55 onward
-		","
-		12.0/15.0/14.0
-		","
-		9/13/12
-		","
-		5/5/5
-		","
-		Close/meteor/tipper
-		","
 		-9/-9/-9
 		","
 		9—13/11
@@ -355,20 +159,6 @@ marth
 		Neutral B (Shield Breaker)
 		","
 		19—78
-		","
-		50—109
-		","
-		--
-		","
-		On release, startup is 8 and total frames is 39
-		","
-		8.0—24.0
-		","
-		10—18
-		","
-		8—Shieldbreak
-		","
-		--
 		","
 		-23 to Shieldbreak
 		","
@@ -381,20 +171,6 @@ marth
 		","
 		9
 		","
-		39/29
-		","
-		--
-		","
-		Second total frames is the air version. Can transition to next slash on frame 12-30
-		","
-		2.5/3.0
-		","
-		5/5
-		","
-		4/4
-		","
-		Close/Tipper
-		","
 		-26/-16
 		","
 		9—11
@@ -405,20 +181,6 @@ marth
 		Dancing Blade 2 Neutral
 		","
 		5
-		","
-		38
-		","
-		--
-		","
-		Can transition to next slash on frame 8-29
-		","
-		2.5/3.0
-		","
-		5/5
-		","
-		4/4
-		","
-		Close/Tipper
 		","
 		-29/-29
 		","
@@ -431,20 +193,6 @@ marth
 		","
 		4
 		","
-		43
-		","
-		--
-		","
-		Can transition to next slash on frame 7-24
-		","
-		3.0/4.0
-		","
-		5/5
-		","
-		4/5
-		","
-		Close/Tipper
-		","
 		-35/-34
 		","
 		4—6
@@ -455,20 +203,6 @@ marth
 		Dancing Blade 4 Neutral
 		","
 		7
-		","
-		55
-		","
-		--
-		","
-		--
-		","
-		4.0/6.0
-		","
-		5/9
-		","
-		5/6
-		","
-		Close/Tipper
 		","
 		-43/-42
 		","
@@ -481,20 +215,6 @@ marth
 		","
 		4
 		","
-		38
-		","
-		--
-		","
-		Can transition to next slash on frame 8-29
-		","
-		2.5/3.0
-		","
-		5/5
-		","
-		4/4
-		","
-		Close/Tipper
-		","
 		-30/-30
 		","
 		4—7
@@ -505,20 +225,6 @@ marth
 		Dancing Blade 3 Up
 		","
 		5
-		","
-		43
-		","
-		--
-		","
-		Can transition to next slash on frame 8-24
-		","
-		3.0/4.0
-		","
-		5/5
-		","
-		4/5
-		","
-		Close/Tipper
 		","
 		-34/-33
 		","
@@ -531,20 +237,6 @@ marth
 		","
 		6
 		","
-		44
-		","
-		--
-		","
-		--
-		","
-		5.0/7.0
-		","
-		6/7
-		","
-		6/7
-		","
-		Close/Tipper
-		","
 		-32/-31
 		","
 		6—10
@@ -556,20 +248,6 @@ marth
 		","
 		5
 		","
-		43
-		","
-		--
-		","
-		Can transition to next slash on frame 8-24
-		","
-		3.0/4.0
-		","
-		5/
-		","
-		4/5
-		","
-		Close/Tipper
-		","
 		-34/-32
 		","
 		5—7
@@ -580,20 +258,6 @@ marth
 		Dancing Blade 4 Down
 		","
 		7
-		","
-		74
-		","
-		--
-		","
-		--
-		","
-		2.0/4.0/5.0
-		","
-		4/5/6
-		","
-		-/5/6
-		","
-		Multi/Final/Final Tipper
 		","
 		-50/-49
 		","
@@ -608,20 +272,6 @@ marth
 		","
 		--
 		","
-		24
-		","
-		Intangible on frame 4-5. 1-5 in the air.
-		","
-		11.0/7.0
-		","
-		8/7
-		","
-		10/7
-		","
-		Early/Late
-		","
-		--
-		","
 		5—6/6—11
 		"
 25,"<h1 class=""charactername"">
@@ -630,20 +280,6 @@ marth
 		Down B (Counter)
 		","
 		6 (Start of Counter)
-		","
-		64
-		","
-		--
-		","
-		Intangibility on 5-6 when detecting. Counter window 6-27.
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -656,20 +292,6 @@ marth
 		","
 		4
 		","
-		40
-		","
-		--
-		","
-		Intangible on frame 1-7 in addition to counter freeze frames. 8% Minimum base damage, x1.2 enemy's attack.
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		4—6
@@ -680,20 +302,6 @@ marth
 		Grab
 		","
 		6
-		","
-		34
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -706,20 +314,6 @@ marth
 		","
 		9
 		","
-		42
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		9—10
@@ -730,20 +324,6 @@ marth
 		Pivot Grab
 		","
 		10
-		","
-		37
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -756,20 +336,6 @@ marth
 		","
 		1
 		","
-		19
-		","
-		--
-		","
-		Total frames includes 13 frames of hitlag
-		","
-		1.3
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		10—11
@@ -780,20 +346,6 @@ marth
 		Forward Throw
 		","
 		18
-		","
-		34
-		","
-		--
-		","
-		Visualization does not linclude hitlag
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -806,20 +358,6 @@ marth
 		","
 		19
 		","
-		47
-		","
-		--
-		","
-		Visualization does not include hitlag
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		10—11
@@ -830,20 +368,6 @@ marth
 		Up Throw
 		","
 		13
-		","
-		44
-		","
-		--
-		","
-		--		
-		","
-		5.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -856,20 +380,6 @@ marth
 		","
 		20
 		","
-		46
-		","
-		--
-		","
-		Visualization does not include hitlag
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		10—11
@@ -880,20 +390,6 @@ marth
 		Spot Dodge
 		","
 		20
-		","
-		20/25
-		","
-		--
-		","
-		Invulnerable on frame 3-17
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -906,20 +402,6 @@ marth
 		","
 		20
 		","
-		29
-		","
-		--
-		","
-		Invulnerable on frame 4-15
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		10—11
@@ -930,20 +412,6 @@ marth
 		Backward Roll
 		","
 		20
-		","
-		34
-		","
-		--
-		","
-		Invulnerable on frame 5-16
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -956,20 +424,6 @@ marth
 		","
 		20
 		","
-		52
-		","
-		10
-		","
-		Invulnerable on frame 3-29
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		10—11
@@ -980,20 +434,6 @@ marth
 		Air Dodge, Down
 		","
 		20
-		","
-		69
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21		
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -1006,20 +446,6 @@ marth
 		","
 		20
 		","
-		79
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		10—11
@@ -1030,20 +456,6 @@ marth
 		Air Dodge, Left/Right
 		","
 		20
-		","
-		85
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -1056,20 +468,6 @@ marth
 		","
 		20
 		","
-		99
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		10—11
@@ -1080,20 +478,6 @@ marth
 		Air Dodge, Up
 		","
 		20
-		","
-		116
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -1106,20 +490,6 @@ marth
 		","
 		20
 		","
-		116
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		10—11
@@ -1131,20 +501,6 @@ marth
 		","
 		20
 		","
-		116
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		10—11
@@ -1155,20 +511,6 @@ marth
 				Ledge Hang
 			","
 		20
-		","
-		116
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","

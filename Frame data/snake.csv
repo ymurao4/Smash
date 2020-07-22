@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 snake
 </h1>","
 		Jab 1
 		","
 		3
-		","
-		15
-		","
-		--
-		","
-		Transitions to jab 2 as early as frame 6
-		","
-		2.5
-		","
-		8
-		","
-		4
-		","
-		--
 		","
 		-8
 		","
@@ -31,20 +17,6 @@ snake
 		","
 		4
 		","
-		24
-		","
-		--
-		","
-		Transitions to jab 3 as early as frame 7
-		","
-		2.5
-		","
-		8
-		","
-		4
-		","
-		--
-		","
 		-16
 		","
 		4—5
@@ -55,20 +27,6 @@ snake
 		Jab 3
 		","
 		8
-		","
-		46
-		","
-		--
-		","
-		--
-		","
-		6.0
-		","
-		11
-		","
-		6
-		","
-		--
 		","
 		-32
 		","
@@ -81,20 +39,6 @@ snake
 		","
 		4
 		","
-		31
-		","
-		--
-		","
-		Transitions to Ftilt 2 as early as frame 10
-		","
-		4.0
-		","
-		9
-		","
-		5
-		","
-		--
-		","
 		-22
 		","
 		4—5
@@ -105,20 +49,6 @@ snake
 		Forward Tilt 2
 		","
 		8
-		","
-		39
-		","
-		--
-		","
-		--
-		","
-		9.0/10.0/11.0
-		","
-		7/7/8
-		","
-		9/9/10
-		","
-		Close/Far/Farther
 		","
 		-22/-22/-21
 		","
@@ -131,20 +61,6 @@ snake
 		","
 		6
 		","
-		37
-		","
-		--
-		","
-		--
-		","
-		14.5/13.5
-		","
-		10/9
-		","
-		13/12
-		","
-		Early/Late
-		","
 		-18/**
 		","
 		6—8/9—13
@@ -155,20 +71,6 @@ snake
 		Down Tilt
 		","
 		6
-		","
-		30
-		","
-		--
-		","
-		--
-		","
-		12.0
-		","
-		9
-		","
-		11
-		","
-		--
 		","
 		-13
 		","
@@ -181,20 +83,6 @@ snake
 		","
 		5
 		","
-		41
-		","
-		--
-		","
-		Arm intangibility on frame 5-12
-		","
-		11.0/9.0/8.0/6.0
-		","
-		8/7
-		","
-		10/8
-		","
-		Early/Late
-		","
 		-26/**
 		","
 		5—8/9—12
@@ -205,20 +93,6 @@ snake
 		Forward Smash
 		","
 		41
-		","
-		73
-		","
-		--
-		","
-		Charge hold is frame 38
-		","
-		22.0
-		","
-		13
-		","
-		14
-		","
-		--
 		","
 		-18
 		","
@@ -231,20 +105,6 @@ snake
 		","
 		11/35
 		","
-		54
-		","
-		--
-		","
-		Charge hold is frame 24. Projectile generated on frame 35. Projectile explosion is active for 5 frames.
-		","
-		4.0/14.0
-		","
-		5/10
-		","
-		4/10
-		","
-		Initial/Projectile
-		","
 		-39/+1
 		","
 		11—12/35—**
@@ -255,20 +115,6 @@ snake
 		Down Smash
 		","
 		8/20
-		","
-		44
-		","
-		--
-		","
-		Charge hold is frame 5
-		","
-		12.0/14.0
-		","
-		9/10
-		","
-		8/10
-		","
-		--
 		","
 		-28/-14
 		","
@@ -281,20 +127,6 @@ snake
 		","
 		10/18/26/36
 		","
-		59
-		","
-		16
-		","
-		Autocancels on frame 1-3 and 50 onward
-		","
-		3.0/12.0
-		","
-		5/9
-		","
-		2/5
-		","
-		Multi/Final
-		","
 		-14/-11
 		","
 		10—11/18—19/26—27/36—38
@@ -305,20 +137,6 @@ snake
 		Forward Air
 		","
 		23
-		","
-		69
-		","
-		19
-		","
-		Autocancels on frame 1-3 and 63 onward
-		","
-		14.0/15.0
-		","
-		10/10
-		","
-		5/5
-		","
-		Close/Far
 		","
 		-14/-14
 		","
@@ -331,20 +149,6 @@ snake
 		","
 		7
 		","
-		42
-		","
-		19
-		","
-		Autocancels on frame 40 onward
-		","
-		16.0/14.0/10.0/9.0
-		","
-		10/10/8/7
-		","
-		6/5/4/4
-		","
-		Early far/close, Late far/close
-		","
 		-13/-14/-15/-15
 		","
 		7—9/10—26
@@ -355,20 +159,6 @@ snake
 		Up Air
 		","
 		10
-		","
-		47
-		","
-		15
-		","
-		Autocancels on frame 1-4 and 36 onward
-		","
-		14.0/10.0
-		","
-		10/8
-		","
-		5/4
-		","
-		Far/Close
 		","
 		-10/-11
 		","
@@ -381,20 +171,6 @@ snake
 		","
 		3/10/17/25
 		","
-		59
-		","
-		20
-		","
-		Autocancels on frame 54 onward
-		","
-		4.0/3.0/10.0
-		","
-		5/5/8
-		","
-		3/2/4
-		","
-		First/Multi/Final
-		","
 		-17/-18/-16
 		","
 		3—4/10—11/17—18/25—26
@@ -405,20 +181,6 @@ snake
 		Neutral B (Grenade)
 		","
 		1 (Grenade Pull)
-		","
-		21
-		","
-		--
-		","
-		Pull Pin animation takes 21 frames before you can throw or shield/dodge. Grenades explode on roughly frame 150. Grenade generates on frame 1. Grenade lasts 2.5 seconds until it blows up on its own.
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -431,20 +193,6 @@ snake
 		","
 		8, 10, 9
 		","
-		27, 31, 25
-		","
-		--
-		","
-		Grenade collision and explosion vary slightly in damage
-		","
-		2.0—3.1/8.9—9.9
-		","
-		5/8
-		","
-		2/4
-		","
-		Collide/Explosion
-		","
 		**
 		","
 		**
@@ -455,20 +203,6 @@ snake
 		Side B (Nikita)
 		","
 		41
-		","
-		--
-		","
-		--
-		","
-		Takes 27 frames to cancel with shield. 29 frame fist pump animation after a hit.
-		","
-		7.0/14.0
-		","
-		7/10
-		","
-		3/5
-		","
-		Early/Late
 		","
 		-19/-14
 		","
@@ -483,20 +217,6 @@ snake
 		","
 		--
 		","
-		--
-		","
-		Damage-based armor on frame 7—94. Frame 47 is the earliest you can cancel the move. To knock Snake off of Cypher you need to do 7% damage in doubles or 8.4% damage in singles with a single hit. To destroy the Cypher with multiple hits, it takes 13% in doubles and 15.6% in singles. 
-		","
-		6.0
-		","
-		6
-		","
-		3
-		","
-		--
-		","
-		--
-		","
 		**
 		"
 20,"<h1 class=""charactername"">
@@ -505,20 +225,6 @@ snake
 		Down B (C4)
 		","
 		9
-		","
-		24
-		","
-		-
-		","
-		Lasts 26.6 seconds until it blows up on its own. 
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -531,20 +237,6 @@ snake
 		","
 		25
 		","
-		32
-		","
-		-
-		","
-		--
-		","
-		17.0
-		","
-		11/11
-		","
-		15/6
-		","
-		Sticky/Non-Sticky
-		","
 		+20 / +11
 		","
 		25—27
@@ -555,20 +247,6 @@ snake
 		Grab
 		","
 		8
-		","
-		34
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		11/11
-		","
-		15/6
-		","
-		Sticky/Non-Sticky
 		","
 		+20 / +11
 		","
@@ -581,20 +259,6 @@ snake
 		","
 		11
 		","
-		42
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		11/11
-		","
-		15/6
-		","
-		Sticky/Non-Sticky
-		","
 		+20 / +11
 		","
 		11—12
@@ -605,20 +269,6 @@ snake
 		Pivot Grab
 		","
 		9
-		","
-		37
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		11/11
-		","
-		15/6
-		","
-		Sticky/Non-Sticky
 		","
 		+20 / +11
 		","
@@ -631,20 +281,6 @@ snake
 		","
 		1
 		","
-		19
-		","
-		Total frames includes 13 frames of hitlag.
-		","
-		--		
-		","
-		1.3
-		","
-		11/11
-		","
-		15/6
-		","
-		Sticky/Non-Sticky
-		","
 		+20 / +11
 		","
 		9—10
@@ -655,20 +291,6 @@ snake
 		Forward Throw
 		","
 		21
-		","
-		39
-		","
-		--
-		","
-		--
-		","
-		9.0
-		","
-		11/11
-		","
-		15/6
-		","
-		Sticky/Non-Sticky
 		","
 		+20 / +11
 		","
@@ -681,20 +303,6 @@ snake
 		","
 		20
 		","
-		30
-		","
-		--
-		","
-		--		
-		","
-		9.0
-		","
-		11/11
-		","
-		15/6
-		","
-		Sticky/Non-Sticky
-		","
 		+20 / +11
 		","
 		9—10
@@ -705,20 +313,6 @@ snake
 		Up Throw
 		","
 		22/23
-		","
-		47
-		","
-		--
-		","
-		--		
-		","
-		7.0/4.0
-		","
-		11/11
-		","
-		15/6
-		","
-		Sticky/Non-Sticky
 		","
 		+20 / +11
 		","
@@ -731,20 +325,6 @@ snake
 		","
 		35
 		","
-		41
-		","
-		--
-		","
-		--		
-		","
-		9.0
-		","
-		11/11
-		","
-		15/6
-		","
-		Sticky/Non-Sticky
-		","
 		+20 / +11
 		","
 		9—10
@@ -755,20 +335,6 @@ snake
 		Spot Dodge
 		","
 		35
-		","
-		21/26
-		","
-		--
-		","
-		Invulnerable on frame 3-17	
-		","
-		9.0
-		","
-		11/11
-		","
-		15/6
-		","
-		Sticky/Non-Sticky
 		","
 		+20 / +11
 		","
@@ -781,20 +347,6 @@ snake
 		","
 		35
 		","
-		30
-		","
-		--
-		","
-		Invulnerable on frame 4-15	
-		","
-		9.0
-		","
-		11/11
-		","
-		15/6
-		","
-		Sticky/Non-Sticky
-		","
 		+20 / +11
 		","
 		9—10
@@ -805,20 +357,6 @@ snake
 		Backward Roll
 		","
 		35
-		","
-		35
-		","
-		--
-		","
-		Invulnerable on frame 5-16
-		","
-		9.0
-		","
-		11/11
-		","
-		15/6
-		","
-		Sticky/Non-Sticky
 		","
 		+20 / +11
 		","
@@ -831,20 +369,6 @@ snake
 		","
 		35
 		","
-		47
-		","
-		10
-		","
-		Invulnerable on frame 4-28	
-		","
-		9.0
-		","
-		11/11
-		","
-		15/6
-		","
-		Sticky/Non-Sticky
-		","
 		+20 / +11
 		","
 		9—10
@@ -855,20 +379,6 @@ snake
 		Air Dodge, Down
 		","
 		35
-		","
-		64
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22
-		","
-		9.0
-		","
-		11/11
-		","
-		15/6
-		","
-		Sticky/Non-Sticky
 		","
 		+20 / +11
 		","
@@ -881,20 +391,6 @@ snake
 		","
 		35
 		","
-		75
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22
-		","
-		9.0
-		","
-		11/11
-		","
-		15/6
-		","
-		Sticky/Non-Sticky
-		","
 		+20 / +11
 		","
 		9—10
@@ -905,20 +401,6 @@ snake
 		Air Dodge, Left/Right
 		","
 		35
-		","
-		81
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22
-		","
-		9.0
-		","
-		11/11
-		","
-		15/6
-		","
-		Sticky/Non-Sticky
 		","
 		+20 / +11
 		","
@@ -931,20 +413,6 @@ snake
 		","
 		35
 		","
-		99
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22
-		","
-		9.0
-		","
-		11/11
-		","
-		15/6
-		","
-		Sticky/Non-Sticky
-		","
 		+20 / +11
 		","
 		9—10
@@ -955,20 +423,6 @@ snake
 		Air Dodge, Up
 		","
 		35
-		","
-		108
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22
-		","
-		9.0
-		","
-		11/11
-		","
-		15/6
-		","
-		Sticky/Non-Sticky
 		","
 		+20 / +11
 		","
@@ -981,20 +435,6 @@ snake
 		","
 		35
 		","
-		108
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22
-		","
-		9.0
-		","
-		11/11
-		","
-		15/6
-		","
-		Sticky/Non-Sticky
-		","
 		+20 / +11
 		","
 		9—10
@@ -1006,20 +446,6 @@ snake
 		","
 		35
 		","
-		108
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22
-		","
-		9.0
-		","
-		11/11
-		","
-		15/6
-		","
-		Sticky/Non-Sticky
-		","
 		+20 / +11
 		","
 		9—10
@@ -1030,20 +456,6 @@ snake
 				Ledge Hang
 			","
 		35
-		","
-		108
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22
-		","
-		9.0
-		","
-		11/11
-		","
-		15/6
-		","
-		Sticky/Non-Sticky
 		","
 		+20 / +11
 		","

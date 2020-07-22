@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 mega man
 </h1>","
 		Jab
 		","
 		7/19/31
-		","
-		35/47/59
-		","
-		--
-		","
-		Cannon and projectile hits generate on same frame.
-		","
-		3.0/4.0/2.0
-		","
-		4/4/4
-		","
-		3/2/2
-		","
-		Cannon/Projectiles
 		","
 		-25/-23/-20
 		","
@@ -31,20 +17,6 @@ mega man
 		","
 		7/19/31
 		","
-		33/45/57
-		","
-		--
-		","
-		Does not have a hitbox before the projectile comes out.
-		","
-		3.0/4.0/2.0
-		","
-		4/4/4
-		","
-		3/2/2
-		","
-		Cannon/Projectiles
-		","
 		-25/-23/-20
 		","
 		7—9(10—13/14—30) / 19—22(23—26/27—42) / 31—34(35—38/39—54)
@@ -55,20 +27,6 @@ mega man
 		Up Tilt
 		","
 		6
-		","
-		70/52/54
-		","
-		--
-		","
-		Total frames refer to use on level ground/over an edge/under a platform. Invulnerable on frame 5-7
-		","
-		17.0/12.0/8.0
-		","
-		15/9/7
-		","
-		15/11/8
-		","
-		Early/late/later
 		","
 		-49/-31/-33
 		","
@@ -81,20 +39,6 @@ mega man
 		","
 		5
 		","
-		46
-		","
-		--
-		","
-		Leg intangibility on frame 3-12
-		","
-		8.0/5.0
-		","
-		7/6
-		","
-		8/6
-		","
-		Early/late 
-		","
 		-33
 		","
 		5—8(9—21)
@@ -105,20 +49,6 @@ mega man
 		Dash Attack
 		","
 		8/11/14/17/20/23/26/36
-		","
-		60
-		","
-		--
-		","
-		--
-		","
-		1.2/4.0
-		","
-		4/5
-		","
-		2/8
-		","
-		Multi/final
 		","
 		-16
 		","
@@ -131,20 +61,6 @@ mega man
 		","
 		19
 		","
-		54
-		","
-		--
-		","
-		Charge hold is frame 9
-		","
-		11.5
-		","
-		13
-		","
-		4
-		","
-		--
-		","
 		-18
 		","
 		19—42(79—108/199—222)
@@ -155,20 +71,6 @@ mega man
 		Up Smash
 		","
 		8/11/15/19/23/27/31
-		","
-		68
-		","
-		--
-		","
-		Charge hold is frame 4
-		","
-		2.0/1.5/6.0
-		","
-		-/3/9
-		","
-		-/0/5
-		","
-		First/multi/final
 		","
 		-32
 		","
@@ -181,20 +83,6 @@ mega man
 		","
 		17
 		","
-		78
-		","
-		--
-		","
-		Charge hold is frame 4
-		","
-		17.0
-		","
-		11
-		","
-		11
-		","
-		--
-		","
 		-50
 		","
 		17(18—19/20—33)
@@ -205,20 +93,6 @@ mega man
 		Neutral Air
 		","
 		7/19/31
-		","
-		33/45/57
-		","
-		--
-		","
-		Cannon and projectile hits generate on same frame.
-		","
-		3.0/4.0/2.0
-		","
-		4/4/4
-		","
-		3/2/2
-		","
-		Cannon/Cannon(air)/Projectile
 		","
 		-25/-23/-20
 		","
@@ -231,20 +105,6 @@ mega man
 		","
 		9
 		","
-		40
-		","
-		11
-		","
-		Autocancels on frame 1-2 and 39 onward
-		","
-		8.5/8.0/5.0
-		","
-		7/7/6
-		","
-		4/4/3
-		","
-		Far/Close/Late
-		","
 		-7/-7/-8
 		","
 		9—11(12—17)
@@ -255,20 +115,6 @@ mega man
 		Back Air
 		","
 		4/7/10
-		","
-		44
-		","
-		20
-		","
-		Autocancels on frame 1-3 and 40 onward
-		","
-		3.0/4.0/5.0
-		","
-		5/5/6
-		","
-		2/3/3
-		","
-		--
 		","
 		-18/-17/-17
 		","
@@ -281,20 +127,6 @@ mega man
 		","
 		11...
 		","
-		53
-		","
-		20
-		","
-		Autocancels on frame 51 onward
-		","
-		3.0/1.0/2.0
-		","
-		-/4/4
-		","
-		-/2/2
-		","
-		Early/late/final
-		","
 		--
 		","
 		11—17/18—31/32—54/55—61 (rehit: 3/5/5/5)
@@ -305,20 +137,6 @@ mega man
 		Down Air
 		","
 		23
-		","
-		64
-		","
-		14
-		","
-		Autocancels on frame 1-4 and 55 onward
-		","
-		14.0/12.0
-		","
-		10/9
-		","
-		5/5
-		","
-		Early/Meteor
 		","
 		+1/+0
 		","
@@ -331,20 +149,6 @@ mega man
 		","
 		16
 		","
-		42
-		","
-		--
-		","
-		Projectile hits every 6 frames. Add 2 to startup and total frames when throwing backward
-		","
-		5.0
-		","
-		6
-		","
-		3
-		","
-		--
-		","
 		-17
 		","
 		**
@@ -356,20 +160,6 @@ mega man
 		","
 		19
 		","
-		44
-		","
-		--
-		","
-		Does not attach to shields. Explosion occurs about 2.5 seconds later and hits on frame 1/6/11/16/21
-		","
-		1.0/4.0
-		","
-		4/5
-		","
-		-/2
-		","
-		Multi/Final
-		","
 		**
 		","
 		19—69
@@ -378,20 +168,6 @@ mega man
 mega man
 </h1>","
 		Up B (Rush Coil)
-		","
-		--
-		","
-		41
-		","
-		--
-		","
-		Invulnerable on frame 7-10. Rush dissapears at Frame ~130
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -406,20 +182,6 @@ mega man
 		","
 		9—**
 		","
-		35
-		","
-		--
-		","
-		Hits every 11 frames. Leaves do not disappear after hitting something. Hold the button to move with the shield. Can delay 40 frames before an automatic throw.
-		","
-		1.5
-		","
-		4
-		","
-		3
-		","
-		--
-		","
 		**
 		","
 		9—**
@@ -428,20 +190,6 @@ mega man
 mega man
 </h1>","
 		Leaf Shield, Throw
-		","
-		--
-		","
-		55
-		","
-		--
-		","
-		Hits every 11 frames.  
-		","
-		3.8
-		","
-		5
-		","
-		2
 		","
 		--
 		","
@@ -456,20 +204,6 @@ mega man
 		","
 		6
 		","
-		37
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		5
-		","
-		2
-		","
-		--
-		","
 		**
 		","
 		6—7
@@ -480,20 +214,6 @@ mega man
 		Dash Grab
 		","
 		9
-		","
-		45
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		5
-		","
-		2
-		","
-		--
 		","
 		**
 		","
@@ -506,20 +226,6 @@ mega man
 		","
 		10
 		","
-		40
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		5
-		","
-		2
-		","
-		--
-		","
 		**
 		","
 		10—11
@@ -530,20 +236,6 @@ mega man
 		Pummel
 		","
 		1
-		","
-		19
-		","
-		--
-		","
-		Total frames includes 13 frames of hitlag
-		","
-		1.3
-		","
-		5
-		","
-		2
-		","
-		--
 		","
 		**
 		","
@@ -556,20 +248,6 @@ mega man
 		","
 		10
 		","
-		32
-		","
-		--
-		","
-		--		
-		","
-		8.0
-		","
-		5
-		","
-		2
-		","
-		--
-		","
 		**
 		","
 		10—11
@@ -580,20 +258,6 @@ mega man
 		Backward Throw
 		","
 		18
-		","
-		43
-		","
-		--
-		","
-		--		
-		","
-		11.0
-		","
-		5
-		","
-		2
-		","
-		--
 		","
 		**
 		","
@@ -606,20 +270,6 @@ mega man
 		","
 		12
 		","
-		39
-		","
-		--
-		","
-		--		
-		","
-		7.0
-		","
-		5
-		","
-		2
-		","
-		--
-		","
 		**
 		","
 		10—11
@@ -630,20 +280,6 @@ mega man
 		Down Throw
 		","
 		17
-		","
-		39
-		","
-		--
-		","
-		--		
-		","
-		4.5
-		","
-		5
-		","
-		2
-		","
-		--
 		","
 		**
 		","
@@ -656,20 +292,6 @@ mega man
 		","
 		17
 		","
-		20/25
-		","
-		--
-		","
-		Invulnerable on frame 3-17
-		","
-		4.5
-		","
-		5
-		","
-		2
-		","
-		--
-		","
 		**
 		","
 		10—11
@@ -680,20 +302,6 @@ mega man
 		Forward Roll
 		","
 		17
-		","
-		29
-		","
-		--
-		","
-		Invulnerable on frame 4-15
-		","
-		4.5
-		","
-		5
-		","
-		2
-		","
-		--
 		","
 		**
 		","
@@ -706,20 +314,6 @@ mega man
 		","
 		17
 		","
-		34
-		","
-		--
-		","
-		Invulnerable on frame 5-16
-		","
-		4.5
-		","
-		5
-		","
-		2
-		","
-		--
-		","
 		**
 		","
 		10—11
@@ -730,20 +324,6 @@ mega man
 		Neutral Air Dodge
 		","
 		17
-		","
-		45
-		","
-		10
-		","
-		Invulnerable on frame 3-30
-		","
-		4.5
-		","
-		5
-		","
-		2
-		","
-		--
 		","
 		**
 		","
@@ -756,20 +336,6 @@ mega man
 		","
 		17
 		","
-		63
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21		
-		","
-		4.5
-		","
-		5
-		","
-		2
-		","
-		--
-		","
 		**
 		","
 		10—11
@@ -780,20 +346,6 @@ mega man
 		Air Dodge, Diagonally Down
 		","
 		17
-		","
-		70
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		4.5
-		","
-		5
-		","
-		2
-		","
-		--
 		","
 		**
 		","
@@ -806,20 +358,6 @@ mega man
 		","
 		17
 		","
-		76
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.5
-		","
-		5
-		","
-		2
-		","
-		--
-		","
 		**
 		","
 		10—11
@@ -830,20 +368,6 @@ mega man
 		Air Dodge, Diagonally Up
 		","
 		17
-		","
-		84
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.5
-		","
-		5
-		","
-		2
-		","
-		--
 		","
 		**
 		","
@@ -856,20 +380,6 @@ mega man
 		","
 		17
 		","
-		98
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.5
-		","
-		5
-		","
-		2
-		","
-		--
-		","
 		**
 		","
 		10—11
@@ -880,20 +390,6 @@ mega man
 			Ledge Grab
 		","
 		17
-		","
-		98
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.5
-		","
-		5
-		","
-		2
-		","
-		--
 		","
 		**
 		","
@@ -906,20 +402,6 @@ mega man
 		","
 		17
 		","
-		98
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.5
-		","
-		5
-		","
-		2
-		","
-		--
-		","
 		**
 		","
 		10—11
@@ -930,20 +412,6 @@ mega man
 				Ledge Hang
 			","
 		17
-		","
-		98
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.5
-		","
-		5
-		","
-		2
-		","
-		--
 		","
 		**
 		","

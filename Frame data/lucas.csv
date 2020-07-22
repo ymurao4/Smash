@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 lucas
 </h1>","
 		Jab 1
 		","
 		2
-		","
-		19
-		","
-		--
-		","
-		Transitions to Jab 2 as early as frame 5
-		","
-		2.5
-		","
-		8
-		","
-		4
-		","
-		--
 		","
 		-13
 		","
@@ -31,20 +17,6 @@ lucas
 		","
 		3
 		","
-		19
-		","
-		--
-		","
-		Transitions to Jab 3 as early as frame 5
-		","
-		1.5
-		","
-		8
-		","
-		3
-		","
-		--
-		","
 		-13
 		","
 		3
@@ -55,20 +27,6 @@ lucas
 		Jab 3
 		","
 		6
-		","
-		29
-		","
-		--
-		","
-		--
-		","
-		3.5
-		","
-		11
-		","
-		4
-		","
-		--
 		","
 		-19
 		","
@@ -81,20 +39,6 @@ lucas
 		","
 		7
 		","
-		25
-		","
-		--
-		","
-		--
-		","
-		7.5/11.0
-		","
-		7/13
-		","
-		8/10
-		","
-		Cose/far
-		","
 		-10/-8
 		","
 		7—9
@@ -105,20 +49,6 @@ lucas
 		Up Tilt
 		","
 		4/7
-		","
-		33
-		","
-		--
-		","
-		--
-		","
-		1.5/8.0/5.0
-		","
-		7/11/9
-		","
-		-/8/6
-		","
-		first/second/late
 		","
 		-18
 		","
@@ -131,20 +61,6 @@ lucas
 		","
 		3
 		","
-		15
-		","
-		--
-		","
-		--
-		","
-		5.0
-		","
-		6
-		","
-		6
-		","
-		--
-		","
 		-6
 		","
 		3—4
@@ -155,20 +71,6 @@ lucas
 		Dash Attack
 		","
 		13
-		","
-		37
-		","
-		--
-		","
-		--
-		","
-		9.0/13.0
-		","
-		11/15
-		","
-		9/12
-		","
-		Close/Far
 		","
 		-15/-12
 		","
@@ -181,20 +83,6 @@ lucas
 		","
 		14
 		","
-		45
-		","
-		--
-		","
-		Reflects on frame 11-20. Charge hold is frame 7
-		","
-		14.0/15.0
-		","
-		10/12
-		","
-		10/10
-		","
-		Close/far
-		","
 		-21
 		","
 		14—15
@@ -205,20 +93,6 @@ lucas
 		Up Smash
 		","
 		28/30
-		","
-		98
-		","
-		--
-		","
-		Invincible on frame 1-7. Head intangibility on frame 15-29. Charge hold is frame 4. **Invincibility during the first 4 frames of charging (but goes away after the initial 4), upon release you gain the other 3 frames immediately.
-		","
-		2.0/21.0
-		","
-		4/16
-		","
-		-/14
-		","
-		--
 		","
 		-54
 		","
@@ -231,20 +105,6 @@ lucas
 		","
 		20/29/39
 		","
-		59
-		","
-		--
-		","
-		Charge hold is frame 5. Shield damage: -10.0/-8.0/-6.0.
-		","
-		17.0/14.0/11.0
-		","
-		15/15/13
-		","
-		-/-/8
-		","
-		--
-		","
 		-12
 		","
 		20—22/29—31/39—41
@@ -255,20 +115,6 @@ lucas
 		Neutral Air
 		","
 		7.../26
-		","
-		44
-		","
-		12
-		","
-		Autocancels on frame 37 onward
-		","
-		2.0/4.0
-		","
-		7/10
-		","
-		2/3
-		","
-		Multi/Final
 		","
 		-10/-9
 		","
@@ -281,20 +127,6 @@ lucas
 		","
 		9
 		","
-		41
-		","
-		7
-		","
-		Autocancels on frame 34 onward
-		","
-		9.0/12.5
-		","
-		7/15
-		","
-		4/5
-		","
-		Close/Far
-		","
 		-3/-2
 		","
 		9—10/11—12
@@ -305,20 +137,6 @@ lucas
 		Back Air
 		","
 		15
-		","
-		39
-		","
-		9
-		","
-		Autocancels on frame 1-2 and 34 onward
-		","
-		9.0 / 12.0 / 7.0
-		","
-		11/13/10
-		","
-		4/5/3
-		","
-		Close/medium/far
 		","
 		-5/-4/-6
 		","
@@ -331,20 +149,6 @@ lucas
 		","
 		7
 		","
-		31
-		","
-		7
-		","
-		Autocancels on frame 34 onward
-		","
-		11.0
-		","
-		9
-		","
-		4
-		","
-		--
-		","
 		-3
 		","
 		7—10
@@ -355,20 +159,6 @@ lucas
 		Down Air
 		","
 		10/18/26/34
-		","
-		56
-		","
-		16
-		","
-		Autocancels on frame 47 onward
-		","
-		3.5/5.0
-		","
-		8/9
-		","
-		2/3
-		","
-		Multi/Final
 		","
 		-14/-13
 		","
@@ -381,20 +171,6 @@ lucas
 		","
 		9
 		","
-		51
-		","
-		8
-		","
-		Tethers on frame 7.
-		","
-		5.0
-		","
-		6
-		","
-		6
-		","
-		--
-		","
 		-2
 		","
 		9—12(13—21)
@@ -406,20 +182,6 @@ lucas
 		","
 		40-92
 		","
-		66-118
-		","
-		--
-		","
-		From charge release, startup is 5 and total frames is 31
-		","
-		10.0—23.0
-		","
-		8—14
-		","
-		4—7
-		","
-		--
-		","
 		-14 to -5
 		","
 		40—43(92—95)
@@ -430,20 +192,6 @@ lucas
 		Side B (PK Fire)
 		","
 		21
-		","
-		52
-		","
-		19
-		","
-		Explosion 1 frame after projectile hits something. Does not erupt on shields. PK Fire Burst is frames 1-20.
-		","
-		3.0/7.0
-		","
-		5
-		","
-		2
-		","
-		Spark/explosion
 		","
 		-24
 		","
@@ -458,20 +206,6 @@ lucas
 		","
 		--
 		","
-		--
-		","
-		Hits every six frames as it passes through somebody. 44 endlag when projectile ends
-		","
-		2.5/0.7
-		","
-		5
-		","
-		2
-		","
-		Head/Tail
-		","
-		--
-		","
 		20—**
 		"
 19,"<h1 class=""charactername"">
@@ -480,20 +214,6 @@ lucas
 		Up B, Self-hit (PK Thunder 2)
 		","
 		1/4/6/8/10/12/14/17/20/23/26/29
-		","
-		60
-		","
-		30
-		","
-		Total frames refers to travel along the ground.
-		","
-		5.0/2.0/1.5/10.0
-		","
-		9/7/7/15
-		","
-		-/-/-10
-		","
-		First/early/late/final
 		","
 		-21
 		","
@@ -506,20 +226,6 @@ lucas
 		","
 		19 (7 is start of absorb)
 		","
-		27
-		","
-		--
-		","
-		Absorbs as early as frame 7. On release, startup is 1 with 9 total frames
-		","
-		8.0
-		","
-		11
-		","
-		8
-		","
-		--
-		","
 		+0
 		","
 		19
@@ -530,20 +236,6 @@ lucas
 		Grab
 		","
 		12
-		","
-		46
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		11
-		","
-		8
-		","
-		--
 		","
 		+0
 		","
@@ -556,20 +248,6 @@ lucas
 		","
 		14
 		","
-		54
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		11
-		","
-		8
-		","
-		--
-		","
 		+0
 		","
 		14—19
@@ -580,20 +258,6 @@ lucas
 		Pivot Grab
 		","
 		15
-		","
-		49
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		11
-		","
-		8
-		","
-		--
 		","
 		+0
 		","
@@ -606,20 +270,6 @@ lucas
 		","
 		1
 		","
-		19
-		","
-		--
-		","
-		Total frames includes 13 frames of hitlag
-		","
-		1.3
-		","
-		11
-		","
-		8
-		","
-		--
-		","
 		+0
 		","
 		15—20
@@ -630,20 +280,6 @@ lucas
 		Forward Throw
 		","
 		23
-		","
-		52
-		","
-		--
-		","
-		--		
-		","
-		10.0
-		","
-		11
-		","
-		8
-		","
-		--
 		","
 		+0
 		","
@@ -656,20 +292,6 @@ lucas
 		","
 		20
 		","
-		52
-		","
-		--
-		","
-		--		
-		","
-		10.0
-		","
-		11
-		","
-		8
-		","
-		--
-		","
 		+0
 		","
 		15—20
@@ -680,20 +302,6 @@ lucas
 		Up Throw
 		","
 		25
-		","
-		55
-		","
-		--
-		","
-		--		
-		","
-		10.0
-		","
-		11
-		","
-		8
-		","
-		--
 		","
 		+0
 		","
@@ -706,20 +314,6 @@ lucas
 		","
 		41
 		","
-		57
-		","
-		--
-		","
-		--		
-		","
-		11.0
-		","
-		11
-		","
-		8
-		","
-		--
-		","
 		+0
 		","
 		15—20
@@ -730,20 +324,6 @@ lucas
 		Spot Dodge
 		","
 		41
-		","
-		20/25
-		","
-		--
-		","
-		Invulnerable on frame 3-17
-		","
-		11.0
-		","
-		11
-		","
-		8
-		","
-		--
 		","
 		+0
 		","
@@ -756,20 +336,6 @@ lucas
 		","
 		41
 		","
-		29
-		","
-		--
-		","
-		Invulnerable on frame 4-15
-		","
-		11.0
-		","
-		11
-		","
-		8
-		","
-		--
-		","
 		+0
 		","
 		15—20
@@ -780,20 +346,6 @@ lucas
 		Backward Roll
 		","
 		41
-		","
-		34
-		","
-		--
-		","
-		Invulnerable on frame 5-16
-		","
-		11.0
-		","
-		11
-		","
-		8
-		","
-		--
 		","
 		+0
 		","
@@ -806,20 +358,6 @@ lucas
 		","
 		41
 		","
-		56
-		","
-		10
-		","
-		Invulnerable on frame 3-30
-		","
-		11.0
-		","
-		11
-		","
-		8
-		","
-		--
-		","
 		+0
 		","
 		15—20
@@ -830,20 +368,6 @@ lucas
 		Air Dodge, Down
 		","
 		41
-		","
-		75
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21		
-		","
-		11.0
-		","
-		11
-		","
-		8
-		","
-		--
 		","
 		+0
 		","
@@ -856,20 +380,6 @@ lucas
 		","
 		41
 		","
-		85
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		11.0
-		","
-		11
-		","
-		8
-		","
-		--
-		","
 		+0
 		","
 		15—20
@@ -880,20 +390,6 @@ lucas
 		Air Dodge, Left/Right
 		","
 		41
-		","
-		95
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		11.0
-		","
-		11
-		","
-		8
-		","
-		--
 		","
 		+0
 		","
@@ -906,20 +402,6 @@ lucas
 		","
 		41
 		","
-		117
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		11.0
-		","
-		11
-		","
-		8
-		","
-		--
-		","
 		+0
 		","
 		15—20
@@ -930,20 +412,6 @@ lucas
 		Air Dodge, Up
 		","
 		41
-		","
-		126
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		11.0
-		","
-		11
-		","
-		8
-		","
-		--
 		","
 		+0
 		","
@@ -956,20 +424,6 @@ lucas
 		","
 		41
 		","
-		126
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		11.0
-		","
-		11
-		","
-		8
-		","
-		--
-		","
 		+0
 		","
 		15—20
@@ -981,20 +435,6 @@ lucas
 		","
 		41
 		","
-		126
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		11.0
-		","
-		11
-		","
-		8
-		","
-		--
-		","
 		+0
 		","
 		15—20
@@ -1005,20 +445,6 @@ lucas
 				Ledge Hang
 			","
 		41
-		","
-		126
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		11.0
-		","
-		11
-		","
-		8
-		","
-		--
 		","
 		+0
 		","

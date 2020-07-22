@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 palutena
 </h1>","
 		Jab 1
 		","
 		8
-		","
-		24
-		","
-		--
-		","
-		Transitions to rapid jab as early as frame 13
-		","
-		3.0
-		","
-		8
-		","
-		4
-		","
-		--
 		","
 		-12
 		","
@@ -33,20 +19,6 @@ palutena
 		","
 		--
 		","
-		--
-		","
-		--
-		","
-		0.6
-		","
-		4
-		","
-		-
-		","
-		--
-		","
-		--
-		","
 		4/7/10...
 		"
 2,"<h1 class=""charactername"">
@@ -55,20 +27,6 @@ palutena
 		Rapid Jab Finisher
 		","
 		3
-		","
-		39
-		","
-		--
-		","
-		--
-		","
-		3.5
-		","
-		11
-		","
-		4
-		","
-		--
 		","
 		-32
 		","
@@ -81,20 +39,6 @@ palutena
 		","
 		14/24
 		","
-		59
-		","
-		--
-		","
-		Right-arm intangible 14—35
-		","
-		6.0/7.0
-		","
-		6/7
-		","
-		6/7
-		","
-		--
-		","
 		-28
 		","
 		14—23/24—35
@@ -105,20 +49,6 @@ palutena
 		Up Tilt
 		","
 		8...
-		","
-		55
-		","
-		--
-		","
-		--
-		","
-		1.4/4.5
-		","
-		4/7
-		","
-		3/4
-		","
-		Multi/Final
 		","
 		-27
 		","
@@ -131,20 +61,6 @@ palutena
 		","
 		14
 		","
-		39
-		","
-		--
-		","
-		--
-		","
-		8.5 (grounded opponents) // 5.0 (aerial opponents)
-		","
-		7
-		","
-		8
-		","
-		--
-		","
 		-17
 		","
 		14—27
@@ -155,20 +71,6 @@ palutena
 		Dash Attack
 		","
 		6
-		","
-		37
-		","
-		--
-		","
-		Head, torso, and arm invincibility on frame 5-6. Arm invincibility continues frame 7-16
-		","
-		11.0/7.0
-		","
-		8/7
-		","
-		10/7
-		","
-		Early/Late
 		","
 		-21
 		","
@@ -181,20 +83,6 @@ palutena
 		","
 		18
 		","
-		63
-		","
-		--
-		","
-		Charge hold is frame 10
-		","
-		16.0/13.0
-		","
-		10/9
-		","
-		11/9
-		","
-		Close/Far
-		","
 		-34/-36
 		","
 		18—20
@@ -205,20 +93,6 @@ palutena
 		Up Smash
 		","
 		18
-		","
-		63
-		","
-		--
-		","
-		Charge hold is frame 12
-		","
-		16.0/9.0
-		","
-		10/9
-		","
-		11/8
-		","
-		Close/Far
 		","
 		-34/-37
 		","
@@ -231,20 +105,6 @@ palutena
 		","
 		17
 		","
-		68
-		","
-		--
-		","
-		Charge hold is frame 13
-		","
-		15.0/13.0
-		","
-		14/9
-		","
-		10/9
-		","
-		Close/Far
-		","
 		-41/-42
 		","
 		17—19
@@ -255,20 +115,6 @@ palutena
 		Neutral Air
 		","
 		5...
-		","
-		51
-		","
-		12
-		","
-		Autocancels on frame 1-3 and 40 onward. Final hitbox has an inner and outer circle as of 7.0.0 -- inner circle only hits aerial opponents, outer circle only hits grounded opponents. 
-		","
-		1.4/5.0
-		","
-		4/9
-		","
-		2/3
-		","
-		Multi/Final
 		","
 		-10/-9
 		","
@@ -281,20 +127,6 @@ palutena
 		","
 		9
 		","
-		44
-		","
-		7
-		","
-		Autocancels on frame 1-3 and 24 onward
-		","
-		10.0
-		","
-		8
-		","
-		4
-		","
-		--
-		","
 		-3
 		","
 		9—11
@@ -305,20 +137,6 @@ palutena
 		Back Air
 		","
 		8
-		","
-		49
-		","
-		10
-		","
-		Arm invinicibility on frame 7-10. Autocancels on frame 1-2 and 35 onward
-		","
-		12.0
-		","
-		11
-		","
-		5
-		","
-		--
 		","
 		-5
 		","
@@ -331,20 +149,6 @@ palutena
 		","
 		10...
 		","
-		51
-		","
-		14
-		","
-		Autocancels on frame 1-2 and 42 onward
-		","
-		1.0/5.0
-		","
-		4/9
-		","
-		2/3
-		","
-		Multi/Final
-		","
 		-12/-11
 		","
 		10—22/24—25 (rehit: 3)
@@ -355,20 +159,6 @@ palutena
 		Down Air
 		","
 		10
-		","
-		58
-		","
-		11
-		","
-		Autocancels on frame 1-2 and 48 onward
-		","
-		11.0
-		","
-		13
-		","
-		4
-		","
-		--
 		","
 		-7
 		","
@@ -381,20 +171,6 @@ palutena
 		","
 		24/30/36
 		","
-		67
-		","
-		--
-		","
-		Targets on frame 8
-		","
-		3.5
-		","
-		5
-		","
-		2
-		","
-		--
-		","
 		-24
 		","
 		24/30/36
@@ -405,20 +181,6 @@ palutena
 		Side B (Explosive Flame)
 		","
 		28/33/38/43/48/53/57
-		","
-		71
-		","
-		--
-		","
-		Area of explosion dictated on frame 1. Smash input for farther distance
-		","
-		1.5/5.5
-		","
-		4/9
-		","
-		-/3
-		","
-		Multi/Final
 		","
 		-2
 		","
@@ -431,20 +193,6 @@ palutena
 		","
 		**
 		","
-		67
-		","
-		22
-		","
-		Invulnerable on frame 16-32. Total frames refers to ending on the ground. 
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		**
@@ -455,20 +203,6 @@ palutena
 		Down B (Counter)
 		","
 		7 (Start of Counter/Reflect)
-		","
-		70
-		","
-		--
-		","
-		Invulnerable on frame 6. Counters/Reflects on frame 7-34
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -481,21 +215,6 @@ palutena
 		","
 		4/--
 		","
-		36/34
-		","
-		--
-		","
-		Attack: Invulnerable on frame 1-5 in addition to counter freeze frames.
-		Reflect: Barrier lasts until frame 40 for additional reflects.
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		Attack/Reflect
-		","
 		--
 		","
 		4—6
@@ -506,20 +225,6 @@ palutena
 		Grab
 		","
 		7
-		","
-		39
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		Attack/Reflect
 		","
 		--
 		","
@@ -532,20 +237,6 @@ palutena
 		","
 		10
 		","
-		47
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		Attack/Reflect
-		","
 		--
 		","
 		10—11
@@ -556,20 +247,6 @@ palutena
 		Pivot Grab
 		","
 		11
-		","
-		42
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		Attack/Reflect
 		","
 		--
 		","
@@ -582,20 +259,6 @@ palutena
 		","
 		1
 		","
-		19
-		","
-		--
-		","
-		Total frames includes 13 frames of hitlag
-		","
-		1.3
-		","
-		--
-		","
-		--
-		","
-		Attack/Reflect
-		","
 		--
 		","
 		11—12
@@ -606,20 +269,6 @@ palutena
 		Forward Throw
 		","
 		20
-		","
-		44
-		","
-		--
-		","
-		--		
-		","
-		9.0
-		","
-		--
-		","
-		--
-		","
-		Attack/Reflect
 		","
 		--
 		","
@@ -632,20 +281,6 @@ palutena
 		","
 		20
 		","
-		54
-		","
-		--
-		","
-		--		
-		","
-		10.0
-		","
-		--
-		","
-		--
-		","
-		Attack/Reflect
-		","
 		--
 		","
 		11—12
@@ -656,20 +291,6 @@ palutena
 		Up Throw
 		","
 		17
-		","
-		54
-		","
-		--
-		","
-		--	
-		","
-		8.0
-		","
-		--
-		","
-		--
-		","
-		Attack/Reflect
 		","
 		--
 		","
@@ -682,20 +303,6 @@ palutena
 		","
 		25
 		","
-		45
-		","
-		--
-		","
-		--	
-		","
-		5.0
-		","
-		--
-		","
-		--
-		","
-		Attack/Reflect
-		","
 		--
 		","
 		11—12
@@ -706,20 +313,6 @@ palutena
 		Spot Dodge
 		","
 		25
-		","
-		20/25
-		","
-		--
-		","
-		Invulnerable on frame 3-17
-		","
-		5.0
-		","
-		--
-		","
-		--
-		","
-		Attack/Reflect
 		","
 		--
 		","
@@ -732,20 +325,6 @@ palutena
 		","
 		25
 		","
-		29
-		","
-		--
-		","
-		Invulnerable on frame 4-15
-		","
-		5.0
-		","
-		--
-		","
-		--
-		","
-		Attack/Reflect
-		","
 		--
 		","
 		11—12
@@ -756,20 +335,6 @@ palutena
 		Backward Roll
 		","
 		25
-		","
-		34
-		","
-		--
-		","
-		Invulnerable on frame 5-16
-		","
-		5.0
-		","
-		--
-		","
-		--
-		","
-		Attack/Reflect
 		","
 		--
 		","
@@ -782,20 +347,6 @@ palutena
 		","
 		25
 		","
-		49
-		","
-		10
-		","
-		Invulnerable on frame 3-30
-		","
-		5.0
-		","
-		--
-		","
-		--
-		","
-		Attack/Reflect
-		","
 		--
 		","
 		11—12
@@ -806,20 +357,6 @@ palutena
 		Air Dodge, Down
 		","
 		25
-		","
-		70
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21		
-		","
-		5.0
-		","
-		--
-		","
-		--
-		","
-		Attack/Reflect
 		","
 		--
 		","
@@ -832,20 +369,6 @@ palutena
 		","
 		25
 		","
-		77
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		5.0
-		","
-		--
-		","
-		--
-		","
-		Attack/Reflect
-		","
 		--
 		","
 		11—12
@@ -856,20 +379,6 @@ palutena
 		Air Dodge, Left/Right
 		","
 		25
-		","
-		82
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		5.0
-		","
-		--
-		","
-		--
-		","
-		Attack/Reflect
 		","
 		--
 		","
@@ -882,20 +391,6 @@ palutena
 		","
 		25
 		","
-		93
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		5.0
-		","
-		--
-		","
-		--
-		","
-		Attack/Reflect
-		","
 		--
 		","
 		11—12
@@ -906,20 +401,6 @@ palutena
 		Air Dodge, Up
 		","
 		25
-		","
-		105
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		5.0
-		","
-		--
-		","
-		--
-		","
-		Attack/Reflect
 		","
 		--
 		","
@@ -932,20 +413,6 @@ palutena
 		","
 		25
 		","
-		105
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		5.0
-		","
-		--
-		","
-		--
-		","
-		Attack/Reflect
-		","
 		--
 		","
 		11—12
@@ -957,20 +424,6 @@ palutena
 		","
 		25
 		","
-		105
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		5.0
-		","
-		--
-		","
-		--
-		","
-		Attack/Reflect
-		","
 		--
 		","
 		11—12
@@ -981,20 +434,6 @@ palutena
 				Ledge Hang
 			","
 		25
-		","
-		105
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		5.0
-		","
-		--
-		","
-		--
-		","
-		Attack/Reflect
 		","
 		--
 		","

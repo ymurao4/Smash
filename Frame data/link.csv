@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 link
 </h1>","
 		Jab 1
 		","
 		8
-		","
-		24
-		","
-		--
-		","
-		Transitions to Jab 2 as early as frame 12
-		","
-		3.0
-		","
-		8
-		","
-		4
-		","
-		--
 		","
 		-12
 		","
@@ -31,20 +17,6 @@ link
 		","
 		5
 		","
-		25
-		","
-		--
-		","
-		Transitions to Jab 3 as early as frame 8.
-		","
-		3.0
-		","
-		6
-		","
-		4
-		","
-		--
-		","
 		-16
 		","
 		5—6
@@ -55,20 +27,6 @@ link
 		Jab 3
 		","
 		6
-		","
-		34
-		","
-		--
-		","
-		--
-		","
-		4.0
-		","
-		11
-		","
-		5
-		","
-		--
 		","
 		-23
 		","
@@ -81,20 +39,6 @@ link
 		","
 		15
 		","
-		39
-		","
-		--
-		","
-		Hits targets above him on frame 15
-		","
-		13.0
-		","
-		9
-		","
-		12
-		","
-		--
-		","
 		-12
 		","
 		15(16—19)
@@ -105,20 +49,6 @@ link
 		Up Tilt
 		","
 		8
-		","
-		35
-		","
-		--
-		","
-		--
-		","
-		11.0
-		","
-		8
-		","
-		10
-		","
-		--
 		","
 		-17
 		","
@@ -131,20 +61,6 @@ link
 		","
 		10
 		","
-		30
-		","
-		--
-		","
-		--
-		","
-		9.0
-		","
-		7
-		","
-		9
-		","
-		--
-		","
 		-11
 		","
 		10—11
@@ -155,20 +71,6 @@ link
 		Dash Attack
 		","
 		20
-		","
-		56
-		","
-		--
-		","
-		--
-		","
-		14.0
-		","
-		9
-		","
-		15
-		","
-		--
 		","
 		-21
 		","
@@ -181,20 +83,6 @@ link
 		","
 		17
 		","
-		50
-		","
-		--
-		","
-		Transitions to second swing as early as frame 22. Sword Sword Beam is active 17-48 when at minimum charge and 17-56 when at maximum charge (only when Link is at 0%). Charge hold frame is 9.
-		","
-		7.0/14.0/5.0
-		","
-		7/10/6
-		","
-		6/10/4
-		","
-		Close/Tipper/projectile
-		","
 		-27/-23/**
 		","
 		17—18
@@ -205,20 +93,6 @@ link
 		Forward Smash 2
 		","
 		10
-		","
-		60
-		","
-		--
-		","
-		--
-		","
-		13.0
-		","
-		14
-		","
-		9
-		","
-		--
 		","
 		-41
 		","
@@ -231,20 +105,6 @@ link
 		","
 		10/25/41
 		","
-		77
-		","
-		--
-		","
-		Charge hold frame is 5.
-		","
-		4.0/3.0/10.0
-		","
-		5/5/8
-		","
-		4/3/8
-		","
-		--
-		","
 		-28
 		","
 		10—13(14—15) / 25—28(29—30) / 41—45
@@ -255,20 +115,6 @@ link
 		Down Smash
 		","
 		12/24
-		","
-		56
-		","
-		--
-		","
-		Charge hold frame is 4
-		","
-		16.0/12.0
-		","
-		10/9
-		","
-		11/8
-		","
-		--
 		","
 		-33/-24
 		","
@@ -281,20 +127,6 @@ link
 		","
 		7
 		","
-		38
-		","
-		6
-		","
-		Autocancels on frame 1-3 and 36 onward
-		","
-		11.0/6.0
-		","
-		8/6
-		","
-		4/3
-		","
-		Early/Late
-		","
 		-2/-3
 		","
 		7—8(9—31)
@@ -305,20 +137,6 @@ link
 		Forward Air
 		","
 		16/24
-		","
-		51
-		","
-		11
-		","
-		Autocancels on frame 53 onward
-		","
-		8.0/10.0
-		","
-		7/10
-		","
-		4/4
-		","
-		--
 		","
 		-7/-7
 		","
@@ -331,20 +149,6 @@ link
 		","
 		6/15
 		","
-		30
-		","
-		6
-		","
-		Autocancels on frame 29 onward
-		","
-		5.0/7.0
-		","
-		6/7
-		","
-		3/3
-		","
-		First/Second
-		","
 		-3/-3
 		","
 		6—8/15—17
@@ -355,20 +159,6 @@ link
 		Up Air
 		","
 		11
-		","
-		59
-		","
-		14
-		","
-		Autocancels on frame 1-10 and 43 onward
-		","
-		15.0/13.0
-		","
-		12/11
-		","
-		5/5
-		","
-		Early/Late
 		","
 		-9
 		","
@@ -381,20 +171,6 @@ link
 		","
 		14
 		","
-		79
-		","
-		19
-		","
-		Autocancels on frame 1-9 and 65 onward. Can hit same target once again after 30 frames due to pogo effect.
-		","
-		18.0/15.0
-		","
-		14/12
-		","
-		6/5
-		","
-		Early/Late
-		","
 		**
 		","
 		14—19(20—64)
@@ -405,20 +181,6 @@ link
 		Neutral B (Hero's Bow)
 		","
 		16-52
-		","
-		44-80
-		","
-		--
-		","
-		Reaches full charge on frame 52. Arrows travel for 46 frames after being fired. Arrows will stick into the ground for 3 seconds and can be picked up to either item-throw or fire two arrows. When firing two arrows at once, the second one generates three frames after the first.
-		","
-		4.0—12.0
-		","
-		5—9
-		","
-		2—4
-		","
-		Uncharged—Full Charge
 		","
 		-21 to -15
 		","
@@ -431,20 +193,6 @@ link
 		","
 		27
 		","
-		45
-		","
-		--
-		","
-		9 frame animation of catching boomerang if no other action is being performed.
-		","
-		8.0/9.6
-		","
-		7/8
-		","
-		3/4
-		","
-		Clean/Late/Returning
-		","
 		-8/-6
 		","
 		27—35(36—63/64—155)
@@ -455,20 +203,6 @@ link
 		Up B (Spin Attack)
 		","
 		7
-		","
-		76
-		","
-		--
-		","
-		Can charge attack for an additional 60 frames. Startup is 4 from charge state. 7f startup is only the front hit. Damage drops from 14% down to 7% gradually as active frames progress. 
-		","
-		14.0
-		","
-		14
-		","
-		13
-		","
-		--
 		","
 		-56
 		","
@@ -483,40 +217,12 @@ link
 		","
 		--
 		","
-		30
-		","
-		--
-		","
-		4.0/2.0/4.0
-		","
-		5/4/11
-		","
-		5/3/5
-		","
-		First/multi/Final
-		","
-		--
-		","
 		8—9/12—13/16—17/19—20/22—23/26—27/31—32/38—39/47—49
 		"
 20,"<h1 class=""charactername"">
 link
 </h1>","
 		Down B (Remote Bomb, Pull)
-		","
-		--
-		","
-		39
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -531,20 +237,6 @@ link
 		","
 		12
 		","
-		39
-		","
-		--
-		","
-		Can self-damage
-		","
-		7.0
-		","
-		7
-		","
-		3
-		","
-		--
-		","
 		-19
 		","
 		12—13
@@ -555,20 +247,6 @@ link
 		Grab
 		","
 		6
-		","
-		34
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		7
-		","
-		3
-		","
-		--
 		","
 		-19
 		","
@@ -581,20 +259,6 @@ link
 		","
 		9
 		","
-		42
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		7
-		","
-		3
-		","
-		--
-		","
 		-19
 		","
 		9—10
@@ -605,20 +269,6 @@ link
 		Pivot Grab
 		","
 		10
-		","
-		37
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		7
-		","
-		3
-		","
-		--
 		","
 		-19
 		","
@@ -631,20 +281,6 @@ link
 		","
 		1
 		","
-		18
-		","
-		--
-		","
-		Total frames includes 13 frames of hitlag
-		","
-		1.3
-		","
-		7
-		","
-		3
-		","
-		--
-		","
 		-19
 		","
 		10—11
@@ -655,20 +291,6 @@ link
 		Forward Throw
 		","
 		12/13
-		","
-		37
-		","
-		--
-		","
-		--		
-		","
-		3.0/2.5
-		","
-		7
-		","
-		3
-		","
-		--
 		","
 		-19
 		","
@@ -681,20 +303,6 @@ link
 		","
 		12/14
 		","
-		38
-		","
-		--
-		","
-		--		
-		","
-		3.0/2.5
-		","
-		7
-		","
-		3
-		","
-		--
-		","
 		-19
 		","
 		10—11
@@ -705,20 +313,6 @@ link
 		Up Throw
 		","
 		26/28
-		","
-		49
-		","
-		--
-		","
-		--		
-		","
-		5.0/2.0
-		","
-		7
-		","
-		3
-		","
-		--
 		","
 		-19
 		","
@@ -731,20 +325,6 @@ link
 		","
 		22/24
 		","
-		48
-		","
-		--
-		","
-		--		
-		","
-		3.0/3.0
-		","
-		7
-		","
-		3
-		","
-		--
-		","
 		-19
 		","
 		10—11
@@ -755,20 +335,6 @@ link
 		Spot Dodge
 		","
 		22/24
-		","
-		21/26
-		","
-		--
-		","
-		Invulnerable on frame 3-17
-		","
-		3.0/3.0
-		","
-		7
-		","
-		3
-		","
-		--
 		","
 		-19
 		","
@@ -781,20 +347,6 @@ link
 		","
 		22/24
 		","
-		30
-		","
-		--
-		","
-		Invulnerable on frame 4-15
-		","
-		3.0/3.0
-		","
-		7
-		","
-		3
-		","
-		--
-		","
 		-19
 		","
 		10—11
@@ -805,20 +357,6 @@ link
 		Backward Roll
 		","
 		22/24
-		","
-		35
-		","
-		--
-		","
-		Invulnerable on frame 5-16
-		","
-		3.0/3.0
-		","
-		7
-		","
-		3
-		","
-		--
 		","
 		-19
 		","
@@ -831,20 +369,6 @@ link
 		","
 		22/24
 		","
-		49
-		","
-		10
-		","
-		Invulnerable on frame 3-30
-		","
-		3.0/3.0
-		","
-		7
-		","
-		3
-		","
-		--
-		","
 		-19
 		","
 		10—11
@@ -855,20 +379,6 @@ link
 		Air Dodge, Down
 		","
 		22/24
-		","
-		69
-		","
-		11-19
-		","
-		Invulnerable on frame 4-21		
-		","
-		3.0/3.0
-		","
-		7
-		","
-		3
-		","
-		--
 		","
 		-19
 		","
@@ -881,20 +391,6 @@ link
 		","
 		22/24
 		","
-		74
-		","
-		11-19
-		","
-		Invulnerable on frame 4-21	
-		","
-		3.0/3.0
-		","
-		7
-		","
-		3
-		","
-		--
-		","
 		-19
 		","
 		10—11
@@ -905,20 +401,6 @@ link
 		Air Dodge, Left/Right
 		","
 		22/24
-		","
-		82
-		","
-		11-19
-		","
-		Invulnerable on frame 4-21
-		","
-		3.0/3.0
-		","
-		7
-		","
-		3
-		","
-		--
 		","
 		-19
 		","
@@ -931,20 +413,6 @@ link
 		","
 		22/24
 		","
-		95
-		","
-		11-19
-		","
-		Invulnerable on frame 4-21
-		","
-		3.0/3.0
-		","
-		7
-		","
-		3
-		","
-		--
-		","
 		-19
 		","
 		10—11
@@ -955,20 +423,6 @@ link
 		Air Dodge, Up
 		","
 		22/24
-		","
-		108
-		","
-		11-19
-		","
-		Invulnerable on frame 4-21
-		","
-		3.0/3.0
-		","
-		7
-		","
-		3
-		","
-		--
 		","
 		-19
 		","
@@ -981,20 +435,6 @@ link
 		","
 		22/24
 		","
-		108
-		","
-		11-19
-		","
-		Invulnerable on frame 4-21
-		","
-		3.0/3.0
-		","
-		7
-		","
-		3
-		","
-		--
-		","
 		-19
 		","
 		10—11
@@ -1006,20 +446,6 @@ link
 		","
 		22/24
 		","
-		108
-		","
-		11-19
-		","
-		Invulnerable on frame 4-21
-		","
-		3.0/3.0
-		","
-		7
-		","
-		3
-		","
-		--
-		","
 		-19
 		","
 		10—11
@@ -1030,20 +456,6 @@ link
 				Ledge Hang
 			","
 		22/24
-		","
-		108
-		","
-		11-19
-		","
-		Invulnerable on frame 4-21
-		","
-		3.0/3.0
-		","
-		7
-		","
-		3
-		","
-		--
 		","
 		-19
 		","

@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 ganondorf
 </h1>","
 		Jab
 		","
 		7
-		","
-		26
-		","
-		--
-		","
-		--
-		","
-		11.0
-		","
-		13
-		","
-		10
-		","
-		--
 		","
 		-8
 		","
@@ -31,20 +17,6 @@ ganondorf
 		","
 		10
 		","
-		39
-		","
-		--
-		","
-		--
-		","
-		13.0/14.0
-		","
-		9/10
-		","
-		12/13
-		","
-		Close/Far
-		","
 		-17/-16
 		","
 		10—12
@@ -55,20 +27,6 @@ ganondorf
 		Up Tilt
 		","
 		60
-		","
-		95
-		","
-		--
-		","
-		Flames hit on frame 62 above Ganon
-		","
-		24.0/13.0
-		","
-		14/9
-		","
-		21/12
-		","
-		Explosion/Flames
 		","
 		-14
 		","
@@ -81,20 +39,6 @@ ganondorf
 		","
 		10
 		","
-		35
-		","
-		--
-		","
-		--
-		","
-		14.0
-		","
-		10
-		","
-		13
-		","
-		--
-		","
 		-12
 		","
 		10—12
@@ -105,20 +49,6 @@ ganondorf
 		Dash Attack
 		","
 		10
-		","
-		37
-		","
-		--
-		","
-		--
-		","
-		15.0/11.0
-		","
-		10/8
-		","
-		14/13
-		","
-		Early/Late
 		","
 		-9
 		","
@@ -131,20 +61,6 @@ ganondorf
 		","
 		29
 		","
-		69
-		","
-		--
-		","
-		Charge hold is frame 14. Hits targets above him on frame 29
-		","
-		24.0
-		","
-		14
-		","
-		15
-		","
-		--
-		","
 		-24
 		","
 		29—31
@@ -155,20 +71,6 @@ ganondorf
 		Up Smash
 		","
 		20
-		","
-		61
-		","
-		--
-		","
-		Charge hold is frame 9
-		","
-		24.0/21.0
-		","
-		14/13
-		","
-		15/14
-		","
-		--
 		","
 		-25
 		","
@@ -181,20 +83,6 @@ ganondorf
 		","
 		15/35
 		","
-		59
-		","
-		--
-		","
-		Charge hold is frame 4
-		","
-		5.0/15.0
-		","
-		6/10
-		","
-		4/10
-		","
-		First/Second
-		","
 		-39/-13
 		","
 		15—18/35—38
@@ -205,20 +93,6 @@ ganondorf
 		Neutral Air
 		","
 		7/17
-		","
-		40
-		","
-		10
-		","
-		Autocancels on frame 1-3 and 37 onward
-		","
-		(7.0/5.25)(12.0/ 9.5)
-		","
-		(7/6)(11/9)
-		","
-		(3/3)(5/4)
-		","
-		(First Early/Late)(Second Early/Late)
 		","
 		(-7/-7)(-5/-6)
 		","
@@ -231,20 +105,6 @@ ganondorf
 		","
 		14
 		","
-		44
-		","
-		13
-		","
-		Autocancels on frame 1-6 and 45 onward
-		","
-		17.0/18.0
-		","
-		11/13
-		","
-		6/6
-		","
-		Close/Far
-		","
 		-7/-7
 		","
 		14—19
@@ -255,20 +115,6 @@ ganondorf
 		Back Air
 		","
 		10
-		","
-		35
-		","
-		11
-		","
-		Autocancels on frame 1-6 and 22 onward
-		","
-		17/18.5
-		","
-		11/14
-		","
-		6/6
-		","
-		Close/Far
 		","
 		-4/-4
 		","
@@ -281,20 +127,6 @@ ganondorf
 		","
 		8
 		","
-		33
-		","
-		11
-		","
-		Autocancels on frame 25 onward
-		","
-		13.0/12.0/12.0/10.0/8.0/6.0
-		","
-		9/9/9/8/7/6
-		","
-		5/5/5/4/4/3
-		","
-		Clean/Late/Latest
-		","
 		-6/-6/-6/-7/-7/-8
 		","
 		8—10/11—13/14—16 (Close/Early/Late)
@@ -305,20 +137,6 @@ ganondorf
 		Down Air
 		","
 		16
-		","
-		44
-		","
-		16
-		","
-		Autocancels on frame 1-3 and 32 onward
-		","
-		19.0/17.0
-		","
-		15/16
-		","
-		7/6
-		","
-		Legs/Waist
 		","
 		-9/-10
 		","
@@ -331,20 +149,6 @@ ganondorf
 		","
 		70/80
 		","
-		117/127
-		","
-		--
-		","
-		Super armor on frame 11-67 (reversed version has super armor 21-75).
-		","
-		30.0/37.0
-		","
-		15/16
-		","
-		26/31
-		","
-		Forward/Reversed
-		","
 		-20/-14
 		","
 		70—73/80—83
@@ -355,20 +159,6 @@ ganondorf
 		Neutral B, Air (Warlock Punch, Air)
 		","
 		70/80
-		","
-		117/127
-		","
-		--
-		","
-		Does not have Super armor.
-		","
-		38.0/40.0
-		","
-		16/16
-		","
-		32/34
-		","
-		Forward/Reversed
 		","
 		-14/-12
 		","
@@ -381,20 +171,6 @@ ganondorf
 		","
 		16
 		","
-		59
-		","
-		--
-		","
-		Damage dealt 32 frames after a grab. 57 total frames.
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		16—30
@@ -405,20 +181,6 @@ ganondorf
 		Flame Choke, Success
 		","
 		31
-		","
-		57
-		","
-		--
-		","
-		Armor on frame 17-40
-		","
-		12.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -433,40 +195,12 @@ ganondorf
 		","
 		--
 		","
-		29/20
-		","
-		29 landing lag if you don't enter special fall. 20 if you do. Opponents can mash out of air flame choke to prevent Ganoncides, with opponents who have lower damage than Ganondorf being able to break out more quickly.
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		16—28
 		"
 18,"<h1 class=""charactername"">
 ganondorf
 </h1>","
 		Side B, Air Success (Flame Choke, Air Success)
-		","
-		--
-		","
-		--
-		","
-		30
-		","
-		Damage dealt on frame 1 of landing. Untechable knockdown. 
-		","
-		15.0
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -481,20 +215,6 @@ ganondorf
 		","
 		14
 		","
-		**
-		","
-		30
-		","
-		First startup is for the grab.
-		","
-		7.0
-		","
-		7
-		","
-		7
-		","
-		--
-		","
 		--
 		","
 		14—28(Grab)/34—36(Attack)
@@ -505,20 +225,6 @@ ganondorf
 		Dark Dive, Grab Success
 		","
 		4/8/12/16/17
-		","
-		66
-		","
-		--
-		","
-		--
-		","
-		1.9/9.0
-		","
-		--
-		","
-		--
-		","
-		Multi/Final
 		","
 		--
 		","
@@ -531,20 +237,6 @@ ganondorf
 		","
 		16
 		","
-		60/68
-		","
-		--
-		","
-		Total frames is 68 if you go over an edge.
-		","
-		14.0/16.0
-		","
-		10/10
-		","
-		13/14
-		","
-		Close/Far
-		","
 		-29
 		","
 		16—35
@@ -555,20 +247,6 @@ ganondorf
 		Down B, Air (Wizard's Foot, Air)
 		","
 		16
-		","
-		57
-		","
-		44
-		","
-		Hitbox on frame 2 of landing.
-		","
-		15.0/14.0/8.0
-		","
-		10/10
-		","
-		14/13/8
-		","
-		Close/Far/Landing
 		","
 		-34
 		","
@@ -581,20 +259,6 @@ ganondorf
 		","
 		8
 		","
-		38
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		10/10
-		","
-		14/13/8
-		","
-		Close/Far/Landing
-		","
 		-34
 		","
 		8—10
@@ -605,20 +269,6 @@ ganondorf
 		Dash Grab
 		","
 		11
-		","
-		46
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		10/10
-		","
-		14/13/8
-		","
-		Close/Far/Landing
 		","
 		-34
 		","
@@ -631,20 +281,6 @@ ganondorf
 		","
 		12
 		","
-		41
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		10/10
-		","
-		14/13/8
-		","
-		Close/Far/Landing
-		","
 		-34
 		","
 		12—14
@@ -655,20 +291,6 @@ ganondorf
 		Pummel
 		","
 		2
-		","
-		21
-		","
-		Total frames includes 14 frames of hitlag.
-		","
-		--		
-		","
-		1.6
-		","
-		10/10
-		","
-		14/13/8
-		","
-		Close/Far/Landing
 		","
 		-34
 		","
@@ -681,20 +303,6 @@ ganondorf
 		","
 		11/13
 		","
-		39
-		","
-		--
-		","
-		--		
-		","
-		5.0/8.0
-		","
-		10/10
-		","
-		14/13/8
-		","
-		Close/Far/Landing
-		","
 		-34
 		","
 		12—14
@@ -705,20 +313,6 @@ ganondorf
 		Backward Throw
 		","
 		12/14
-		","
-		49
-		","
-		--
-		","
-		--		
-		","
-		5.0/5.0
-		","
-		10/10
-		","
-		14/13/8
-		","
-		Close/Far/Landing
 		","
 		-34
 		","
@@ -731,20 +325,6 @@ ganondorf
 		","
 		11/13
 		","
-		43
-		","
-		--
-		","
-		--		
-		","
-		10.0/3.0
-		","
-		10/10
-		","
-		14/13/8
-		","
-		Close/Far/Landing
-		","
 		-34
 		","
 		12—14
@@ -755,20 +335,6 @@ ganondorf
 		Down Throw
 		","
 		23
-		","
-		39
-		","
-		--
-		","
-		--		
-		","
-		7.0
-		","
-		10/10
-		","
-		14/13/8
-		","
-		Close/Far/Landing
 		","
 		-34
 		","
@@ -781,20 +347,6 @@ ganondorf
 		","
 		23
 		","
-		23/28
-		","
-		--
-		","
-		Invulnerable on frame 3-18.		
-		","
-		7.0
-		","
-		10/10
-		","
-		14/13/8
-		","
-		Close/Far/Landing
-		","
 		-34
 		","
 		12—14
@@ -805,20 +357,6 @@ ganondorf
 		Forward Roll
 		","
 		23
-		","
-		32
-		","
-		--
-		","
-		Invulnerable on frame 4-16.		
-		","
-		7.0
-		","
-		10/10
-		","
-		14/13/8
-		","
-		Close/Far/Landing
 		","
 		-34
 		","
@@ -831,20 +369,6 @@ ganondorf
 		","
 		23
 		","
-		37
-		","
-		--
-		","
-		Invulnerable on frame 5-17.		
-		","
-		7.0
-		","
-		10/10
-		","
-		14/13/8
-		","
-		Close/Far/Landing
-		","
 		-34
 		","
 		12—14
@@ -855,20 +379,6 @@ ganondorf
 		Neutral Air Dodge
 		","
 		23
-		","
-		46
-		","
-		10
-		","
-		Invulnerable on frame 4-32.		
-		","
-		7.0
-		","
-		10/10
-		","
-		14/13/8
-		","
-		Close/Far/Landing
 		","
 		-34
 		","
@@ -881,20 +391,6 @@ ganondorf
 		","
 		23
 		","
-		66
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22.		
-		","
-		7.0
-		","
-		10/10
-		","
-		14/13/8
-		","
-		Close/Far/Landing
-		","
 		-34
 		","
 		12—14
@@ -905,20 +401,6 @@ ganondorf
 		Air Dodge, Diagonally Down
 		","
 		23
-		","
-		73
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22.	
-		","
-		7.0
-		","
-		10/10
-		","
-		14/13/8
-		","
-		Close/Far/Landing
 		","
 		-34
 		","
@@ -931,20 +413,6 @@ ganondorf
 		","
 		23
 		","
-		79
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22.			
-		","
-		7.0
-		","
-		10/10
-		","
-		14/13/8
-		","
-		Close/Far/Landing
-		","
 		-34
 		","
 		12—14
@@ -955,20 +423,6 @@ ganondorf
 		Air Dodge, Diagonally Up
 		","
 		23
-		","
-		91
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22.			
-		","
-		7.0
-		","
-		10/10
-		","
-		14/13/8
-		","
-		Close/Far/Landing
 		","
 		-34
 		","
@@ -981,20 +435,6 @@ ganondorf
 		","
 		23
 		","
-		103
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22.	
-		","
-		7.0
-		","
-		10/10
-		","
-		14/13/8
-		","
-		Close/Far/Landing
-		","
 		-34
 		","
 		12—14
@@ -1005,20 +445,6 @@ ganondorf
 			Ledge Grab
 		","
 		23
-		","
-		103
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22.	
-		","
-		7.0
-		","
-		10/10
-		","
-		14/13/8
-		","
-		Close/Far/Landing
 		","
 		-34
 		","
@@ -1031,20 +457,6 @@ ganondorf
 		","
 		23
 		","
-		103
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22.	
-		","
-		7.0
-		","
-		10/10
-		","
-		14/13/8
-		","
-		Close/Far/Landing
-		","
 		-34
 		","
 		12—14
@@ -1055,20 +467,6 @@ ganondorf
 				Ledge Hang
 			","
 		23
-		","
-		103
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22.	
-		","
-		7.0
-		","
-		10/10
-		","
-		14/13/8
-		","
-		Close/Far/Landing
 		","
 		-34
 		","

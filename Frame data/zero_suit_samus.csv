@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 zero suit samus
 </h1>","
 		Jab 1
 		","
 		1
-		","
-		23
-		","
-		--
-		","
-		Transitions to Jab 2 as early as frame 6
-		","
-		1.5
-		","
-		8
-		","
-		3
-		","
-		--
 		","
 		-19
 		","
@@ -31,20 +17,6 @@ zero suit samus
 		","
 		2
 		","
-		25
-		","
-		--
-		","
-		Transitions to Jab 3 as early as frame 6
-		","
-		1.5
-		","
-		8
-		","
-		3
-		","
-		--
-		","
 		-20
 		","
 		2
@@ -55,20 +27,6 @@ zero suit samus
 		Jab 3
 		","
 		3
-		","
-		34
-		","
-		--
-		","
-		--
-		","
-		3.0
-		","
-		9
-		","
-		4
-		","
-		--
 		","
 		-27
 		","
@@ -81,20 +39,6 @@ zero suit samus
 		","
 		6
 		","
-		28
-		","
-		--
-		","
-		--
-		","
-		7.0/8.0
-		","
-		7/7
-		","
-		7/8
-		","
-		no angle/angled
-		","
 		-15/-14
 		","
 		6—8
@@ -105,20 +49,6 @@ zero suit samus
 		Up Tilt
 		","
 		3/9
-		","
-		45
-		","
-		--
-		","
-		--
-		","
-		5.0/7.0
-		","
-		7/8
-		","
-		6/7
-		","
-		--
 		","
 		-36/-29
 		","
@@ -131,20 +61,6 @@ zero suit samus
 		","
 		8
 		","
-		29
-		","
-		--
-		","
-		--
-		","
-		8.0/6.0
-		","
-		7
-		","
-		8
-		","
-		--
-		","
 		-13
 		","
 		8—9
@@ -155,20 +71,6 @@ zero suit samus
 		Dash Attack
 		","
 		7
-		","
-		51
-		","
-		--
-		","
-		--
-		","
-		8.0/5.0
-		","
-		7/6
-		","
-		8/6
-		","
-		Early/Late
 		","
 		-36
 		","
@@ -181,20 +83,6 @@ zero suit samus
 		","
 		13/26
 		","
-		64
-		","
-		--
-		","
-		Charge hold is frame 9
-		","
-		5.0/11.0/11.0
-		","
-		6/8/14
-		","
-		4/8/8
-		","
-		first/second/second far
-		","
 		-30
 		","
 		13—14/26—28
@@ -205,20 +93,6 @@ zero suit samus
 		Up Smash
 		","
 		10/14/17/20/23/26/28
-		","
-		48
-		","
-		--
-		","
-		Charge hold is frame 4
-		","
-		4.0/0.8/3.0
-		","
-		8/6/7
-		","
-		4/2/3
-		","
-		First/multi/Final
 		","
 		-17
 		","
@@ -231,20 +105,6 @@ zero suit samus
 		","
 		20
 		","
-		41
-		","
-		--
-		","
-		Charge hold is frame 15
-		","
-		8.0/6.0
-		","
-		7/6
-		","
-		6/5
-		","
-		Close/Far
-		","
 		-15/-16
 		","
 		20—24
@@ -255,20 +115,6 @@ zero suit samus
 		Neutral Air
 		","
 		10
-		","
-		51
-		","
-		6
-		","
-		Autocancels on frame 1-3 and 42 onward
-		","
-		8.0
-		","
-		11
-		","
-		4
-		","
-		--
 		","
 		-2
 		","
@@ -281,20 +127,6 @@ zero suit samus
 		","
 		6/13
 		","
-		46
-		","
-		10
-		","
-		Autocancels on frame 1-3 and 38 onward
-		","
-		5.0/7.0
-		","
-		6/7
-		","
-		3/3
-		","
-		--
-		","
 		-7/-7
 		","
 		6—7/13—14
@@ -305,20 +137,6 @@ zero suit samus
 		Back Air
 		","
 		8
-		","
-		40
-		","
-		10
-		","
-		Autocancels on frame 1-3 and 31 onward
-		","
-		10.0/12.0
-		","
-		8/9
-		","
-		4/5
-		","
-		Close/Far
 		","
 		-6/-5
 		","
@@ -331,20 +149,6 @@ zero suit samus
 		","
 		6
 		","
-		34
-		","
-		5
-		","
-		Autocancels on frame 25 onward
-		","
-		6.5
-		","
-		6
-		","
-		3
-		","
-		--
-		","
 		-2
 		","
 		6—12
@@ -355,20 +159,6 @@ zero suit samus
 		Down Air
 		","
 		14
-		","
-		67
-		","
-		24
-		","
-		Landing hit on frame 1. Autocancels on frame 1-3 and 50 onward
-		","
-		6.0/5.0/5.5
-		","
-		6/6
-		","
-		3/6
-		","
-		Aerial Opponent/Grounded Opponent/Landing
 		","
 		-17
 		","
@@ -381,20 +171,6 @@ zero suit samus
 		","
 		9
 		","
-		49
-		","
-		8
-		","
-		Tethers on frame 2
-		","
-		5.0
-		","
-		9
-		","
-		6
-		","
-		--
-		","
 		-2
 		","
 		9—19
@@ -406,20 +182,6 @@ zero suit samus
 		","
 		21—43
 		","
-		48—70
-		","
-		--
-		","
-		On release, startup is 1 and total frames is 28.
-		","
-		4.0—6.0
-		","
-		5—6
-		","
-		2—3
-		","
-		--
-		","
 		-20 to -18
 		","
 		21—44 (no charge) || 43—90 (max charge)
@@ -430,20 +192,6 @@ zero suit samus
 		Side B (Plasma Whip)
 		","
 		22/24/26/28/31
-		","
-		55
-		","
-		--
-		","
-		Tethers on frame 20
-		","
-		2.0/1.2/8.0
-		","
-		7/7/11
-		","
-		-/3/8
-		","
-		First/multi/Final
 		","
 		-15
 		","
@@ -458,40 +206,12 @@ zero suit samus
 		","
 		--
 		","
-		30
-		","
-		--
-		","
-		5.0/1.3/4.0
-		","
-		6/4/14
-		","
-		6/3/5
-		","
-		First/multi/Final
-		","
-		--
-		","
 		4/10—22/26/32—33 (rehit: 4)
 		"
 19,"<h1 class=""charactername"">
 zero suit samus
 </h1>","
 		Down B (Flip Jump)
-		","
-		--
-		","
-		38
-		","
-		--
-		","
-		Automatic bounce off target has 58 endlag but can end early if you land during it. Invulnerable on frame 3-12. Can transition to Manual kick as early as frame 14.
-		","
-		8.0
-		","
-		13
-		","
-		8
 		","
 		--
 		","
@@ -506,20 +226,6 @@ zero suit samus
 		","
 		9
 		","
-		59
-		","
-		35
-		","
-		Landing lag only occurs if you land during 59 frame animation or during the bounce after a hit, which is a 49 frame animation
-		","
-		14.0
-		","
-		12
-		","
-		13
-		","
-		--
-		","
 		-36
 		","
 		9—12
@@ -530,20 +236,6 @@ zero suit samus
 		Grab
 		","
 		15
-		","
-		58
-		","
-		--
-		","
-		Hand grab box only active for first 3 frames.		
-		","
-		--
-		","
-		12
-		","
-		13
-		","
-		--
 		","
 		-36
 		","
@@ -556,20 +248,6 @@ zero suit samus
 		","
 		17
 		","
-		66
-		","
-		--
-		","
-		Hand grab box only active for first 3 frames.		
-		","
-		--
-		","
-		12
-		","
-		13
-		","
-		--
-		","
 		-36
 		","
 		17—26
@@ -580,20 +258,6 @@ zero suit samus
 		Pivot Grab
 		","
 		18
-		","
-		61
-		","
-		--
-		","
-		Hand grab box only active for first 3 frames.
-		","
-		--
-		","
-		12
-		","
-		13
-		","
-		--
 		","
 		-36
 		","
@@ -606,20 +270,6 @@ zero suit samus
 		","
 		1
 		","
-		19
-		","
-		--
-		","
-		Total frames includes 13 frames of hitlag
-		","
-		1.3
-		","
-		12
-		","
-		13
-		","
-		--
-		","
 		-36
 		","
 		18—26
@@ -630,20 +280,6 @@ zero suit samus
 		Forward Throw
 		","
 		8/9
-		","
-		25
-		","
-		--
-		","
-		--		
-		","
-		5.0/4.0
-		","
-		12
-		","
-		13
-		","
-		--
 		","
 		-36
 		","
@@ -656,20 +292,6 @@ zero suit samus
 		","
 		9/11
 		","
-		27
-		","
-		--
-		","
-		--		
-		","
-		2.0/6.0
-		","
-		12
-		","
-		13
-		","
-		--
-		","
 		-36
 		","
 		18—26
@@ -680,20 +302,6 @@ zero suit samus
 		Up Throw
 		","
 		3/5
-		","
-		40
-		","
-		--
-		","
-		--		
-		","
-		2.0/8.0
-		","
-		12
-		","
-		13
-		","
-		--
 		","
 		-36
 		","
@@ -706,20 +314,6 @@ zero suit samus
 		","
 		20/22
 		","
-		51
-		","
-		--
-		","
-		--		
-		","
-		4.0/4.0
-		","
-		12
-		","
-		13
-		","
-		--
-		","
 		-36
 		","
 		18—26
@@ -730,20 +324,6 @@ zero suit samus
 		Spot Dodge
 		","
 		20/22
-		","
-		18/23
-		","
-		--
-		","
-		Invulnerable on frame 3-14
-		","
-		4.0/4.0
-		","
-		12
-		","
-		13
-		","
-		--
 		","
 		-36
 		","
@@ -756,20 +336,6 @@ zero suit samus
 		","
 		20/22
 		","
-		26
-		","
-		--
-		","
-		Invulnerable on frame 4-12
-		","
-		4.0/4.0
-		","
-		12
-		","
-		13
-		","
-		--
-		","
 		-36
 		","
 		18—26
@@ -780,20 +346,6 @@ zero suit samus
 		Backward Roll
 		","
 		20/22
-		","
-		32
-		","
-		--
-		","
-		Invulnerable on frame 4-14
-		","
-		4.0/4.0
-		","
-		12
-		","
-		13
-		","
-		--
 		","
 		-36
 		","
@@ -806,20 +358,6 @@ zero suit samus
 		","
 		20/22
 		","
-		45
-		","
-		10
-		","
-		Invulnerable on frame 2-26
-		","
-		4.0/4.0
-		","
-		12
-		","
-		13
-		","
-		--
-		","
 		-36
 		","
 		18—26
@@ -830,20 +368,6 @@ zero suit samus
 		Air Dodge, Down
 		","
 		20/22
-		","
-		65
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19
-		","
-		4.0/4.0
-		","
-		12
-		","
-		13
-		","
-		--
 		","
 		-36
 		","
@@ -856,20 +380,6 @@ zero suit samus
 		","
 		20/22
 		","
-		73
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19	
-		","
-		4.0/4.0
-		","
-		12
-		","
-		13
-		","
-		--
-		","
 		-36
 		","
 		18—26
@@ -880,20 +390,6 @@ zero suit samus
 		Air Dodge, Left/Right
 		","
 		20/22
-		","
-		80
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19
-		","
-		4.0/4.0
-		","
-		12
-		","
-		13
-		","
-		--
 		","
 		-36
 		","
@@ -906,20 +402,6 @@ zero suit samus
 		","
 		20/22
 		","
-		90
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19
-		","
-		4.0/4.0
-		","
-		12
-		","
-		13
-		","
-		--
-		","
 		-36
 		","
 		18—26
@@ -930,20 +412,6 @@ zero suit samus
 		Air Dodge, Up
 		","
 		20/22
-		","
-		98
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19
-		","
-		4.0/4.0
-		","
-		12
-		","
-		13
-		","
-		--
 		","
 		-36
 		","
@@ -956,20 +424,6 @@ zero suit samus
 		","
 		20/22
 		","
-		98
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19
-		","
-		4.0/4.0
-		","
-		12
-		","
-		13
-		","
-		--
-		","
 		-36
 		","
 		18—26
@@ -981,20 +435,6 @@ zero suit samus
 		","
 		20/22
 		","
-		98
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19
-		","
-		4.0/4.0
-		","
-		12
-		","
-		13
-		","
-		--
-		","
 		-36
 		","
 		18—26
@@ -1005,20 +445,6 @@ zero suit samus
 				Ledge Hang
 			","
 		20/22
-		","
-		98
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19
-		","
-		4.0/4.0
-		","
-		12
-		","
-		13
-		","
-		--
 		","
 		-36
 		","

@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 villager
 </h1>","
 		Jab 1
 		","
 		3
-		","
-		21
-		","
-		--
-		","
-		Transitions to jab 2 as early as frame 6.
-		","
-		1.0
-		","
-		5
-		","
-		2
-		","
-		--
 		","
 		-16
 		","
@@ -30,20 +16,6 @@ villager
 		Jab 2
 		","
 		3
-		","
-		23
-		","
-		--
-		","
-		Transitions to rapid jab as early as frame 5
-		","
-		1.0
-		","
-		5
-		","
-		2
-		","
-		--
 		","
 		-18
 		","
@@ -58,20 +30,6 @@ villager
 		","
 		--
 		","
-		--
-		","
-		Alternates between four and five frames between punches.
-		","
-		1.0
-		","
-		5
-		","
-		2
-		","
-		--
-		","
-		--
-		","
 		**
 		"
 3,"<h1 class=""charactername"">
@@ -80,20 +38,6 @@ villager
 		Rapid Jab Finisher
 		","
 		7
-		","
-		38
-		","
-		--
-		","
-		--
-		","
-		2.0
-		","
-		9
-		","
-		3
-		","
-		--
 		","
 		-28
 		","
@@ -106,20 +50,6 @@ villager
 		","
 		8
 		","
-		33
-		","
-		--
-		","
-		--
-		","
-		9.0
-		","
-		7
-		","
-		9
-		","
-		--
-		","
 		-16
 		","
 		8—11
@@ -130,20 +60,6 @@ villager
 		Up Tilt
 		","
 		7/22
-		","
-		47
-		","
-		--
-		","
-		--
-		","
-		5.0/6.0
-		","
-		6/7
-		","
-		6/6
-		","
-		--
 		","
 		-34/-19
 		","
@@ -156,20 +72,6 @@ villager
 		","
 		9
 		","
-		37
-		","
-		--
-		","
-		--
-		","
-		12.0/10.0
-		","
-		9/8
-		","
-		11/10
-		","
-		Close/Far
-		","
 		-17/-18
 		","
 		9—11
@@ -180,20 +82,6 @@ villager
 		Dash Attack
 		","
 		9...
-		","
-		42
-		","
-		--
-		","
-		--
-		","
-		10.0/6.0
-		","
-		8/6
-		","
-		4/3
-		","
-		Early/Late
 		","
 		-22
 		","
@@ -206,20 +94,6 @@ villager
 		","
 		25
 		","
-		49
-		","
-		--
-		","
-		Charge hold is frame 16
-		","
-		15.0/17.0
-		","
-		10/11
-		","
-		10/11
-		","
-		Early/Late
-		","
 		-4
 		","
 		25—30(31—144)
@@ -230,20 +104,6 @@ villager
 		Up Smash
 		","
 		9/14/18/22/26/30
-		","
-		50
-		","
-		--
-		","
-		Charge hold is frame 7
-		","
-		3.0/1.0/4.0
-		","
-		5/-/8
-		","
-		3/-/4
-		","
-		--
 		","
 		-8
 		","
@@ -256,20 +116,6 @@ villager
 		","
 		9/29
 		","
-		49
-		","
-		--
-		","
-		Charge hold is frame 3
-		","
-		6.0/3.0
-		","
-		6/4
-		","
-		5/0
-		","
-		Close/Far
-		","
 		-35/-15
 		","
 		9(10—11)/29(30—31)
@@ -280,20 +126,6 @@ villager
 		Neutral Air
 		","
 		3
-		","
-		35
-		","
-		8
-		","
-		Autocancels on frame 1-2 and 27 onward
-		","
-		9.0/5.0
-		","
-		7/6
-		","
-		4/3
-		","
-		Early/Late
 		","
 		-4/-5
 		","
@@ -306,20 +138,6 @@ villager
 		","
 		10
 		","
-		39
-		","
-		14
-		","
-		Projectile attack. Autocancels on frame 1-2 and 30 onward
-		","
-		7.0/4.0/2.5
-		","
-		7/5/5
-		","
-		3/3/2
-		","
-		Early/Late/Later
-		","
 		-4
 		","
 		10—12(13—18/19—23)
@@ -330,20 +148,6 @@ villager
 		Back Air
 		","
 		13
-		","
-		35
-		","
-		14
-		","
-		Projectile attack. Autocancels on frame 1-2 and 30 onward
-		","
-		9.0/5.0/3.0
-		","
-		7/6/5
-		","
-		4/3/2
-		","
-		Early/Late/Later
 		","
 		-3
 		","
@@ -356,20 +160,6 @@ villager
 		","
 		6
 		","
-		42
-		","
-		12
-		","
-		Autocancels on frame 1-5 and 39 onward
-		","
-		13.0/10.0/8.0
-		","
-		9/8/7
-		","
-		5/4/4
-		","
-		3/2/1 turnips
-		","
 		-7/-8/-8
 		","
 		6—7(8—21)
@@ -380,20 +170,6 @@ villager
 		Down Air
 		","
 		11
-		","
-		42
-		","
-		12
-		","
-		Autocancels on frame 1-13 and 39 onward
-		","
-		13.0/10.0/8.0
-		","
-		9/8/7
-		","
-		5/4/4
-		","
-		3/2/1 turnips
 		","
 		-7/-8/-8
 		","
@@ -406,20 +182,6 @@ villager
 		","
 		8 (Start of projectile pocket)
 		","
-		50
-		","
-		--
-		","
-		Invulnerable on frame 5-23. Pockets projectiles on frame 8-23.
-		","
-		**
-		","
-		**
-		","
-		**
-		","
-		--
-		","
 		**
 		","
 		8—23 (pocket)
@@ -431,20 +193,6 @@ villager
 		","
 		9
 		","
-		30
-		","
-		--
-		","
-		This is not the same throw as with a holdable item
-		","
-		**
-		","
-		**
-		","
-		**
-		","
-		--
-		","
 		**
 		","
 		**
@@ -455,20 +203,6 @@ villager
 		Side B (Lloid Rocket)
 		","
 		52
-		","
-		35
-		","
-		--
-		","
-		--
-		","
-		7.0/5.0
-		","
-		7/6
-		","
-		3/3
-		","
-		Early/Late
 		","
 		+27
 		","
@@ -483,20 +217,6 @@ villager
 		","
 		--
 		","
-		30/20
-		","
-		First landing lag is from free fall. Second is with balloons still attached
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		**
 		"
 20,"<h1 class=""charactername"">
@@ -505,19 +225,6 @@ villager
 		Down B (Timber Plant, Timber Water)
 		","
 		--, 5
-		","
-		38, 49
-		","
-		--
-		","
-","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -530,20 +237,6 @@ villager
 		","
 		46/16
 		","
-		--
-		","
-		--
-		","
-		Refers to how long after water touches sprout/Tree is chopped a second time
-		","
-		18.0/25.0
-		","
-		11/14
-		","
-		6/7
-		","
-		--
-		","
 		+14 / -11
 		","
 		**
@@ -554,20 +247,6 @@ villager
 		Timber Axe
 		","
 		6
-		","
-		47/54
-		","
-		--
-		","
-		Second total frames is hitting a tree, and includes 13 frames of hitlag for Villager
-		","
-		14.0
-		","
-		10
-		","
-		13
-		","
-		--
 		","
 		-28/-35
 		","
@@ -580,20 +259,6 @@ villager
 		","
 		14
 		","
-		43
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		10
-		","
-		13
-		","
-		--
-		","
 		-28/-35
 		","
 		14—16
@@ -604,20 +269,6 @@ villager
 		Dash Grab
 		","
 		16
-		","
-		47
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		10
-		","
-		13
-		","
-		--
 		","
 		-28/-35
 		","
@@ -630,20 +281,6 @@ villager
 		","
 		17
 		","
-		44
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		10
-		","
-		13
-		","
-		--
-		","
 		-28/-35
 		","
 		17—19
@@ -654,20 +291,6 @@ villager
 		Pummel
 		","
 		3
-		","
-		19
-		","
-		--
-		","
-		Total frames includes 13 frames of hitlag	
-		","
-		1.3
-		","
-		10
-		","
-		13
-		","
-		--
 		","
 		-28/-35
 		","
@@ -680,20 +303,6 @@ villager
 		","
 		15
 		","
-		45
-		","
-		--
-		","
-		--		
-		","
-		9.0
-		","
-		10
-		","
-		13
-		","
-		--
-		","
 		-28/-35
 		","
 		17—19
@@ -704,20 +313,6 @@ villager
 		Backward Throw
 		","
 		11
-		","
-		45
-		","
-		--
-		","
-		--		
-		","
-		11.0
-		","
-		10
-		","
-		13
-		","
-		--
 		","
 		-28/-35
 		","
@@ -730,20 +325,6 @@ villager
 		","
 		13
 		","
-		45
-		","
-		--
-		","
-		--		
-		","
-		10.0
-		","
-		10
-		","
-		13
-		","
-		--
-		","
 		-28/-35
 		","
 		17—19
@@ -754,20 +335,6 @@ villager
 		Down Throw
 		","
 		18
-		","
-		35
-		","
-		--
-		","
-		--		
-		","
-		6.0
-		","
-		10
-		","
-		13
-		","
-		--
 		","
 		-28/-35
 		","
@@ -780,20 +347,6 @@ villager
 		","
 		18
 		","
-		20/25
-		","
-		--
-		","
-		Invulnerable on frame 3-17		
-		","
-		6.0
-		","
-		10
-		","
-		13
-		","
-		--
-		","
 		-28/-35
 		","
 		17—19
@@ -804,20 +357,6 @@ villager
 		Forward Roll
 		","
 		18
-		","
-		29
-		","
-		--
-		","
-		Invulnerable on frame 4-15.		
-		","
-		6.0
-		","
-		10
-		","
-		13
-		","
-		--
 		","
 		-28/-35
 		","
@@ -830,20 +369,6 @@ villager
 		","
 		18
 		","
-		34
-		","
-		--
-		","
-		Invulnerable on frame 5-16.		
-		","
-		6.0
-		","
-		10
-		","
-		13
-		","
-		--
-		","
 		-28/-35
 		","
 		17—19
@@ -854,20 +379,6 @@ villager
 		Neutral Air Dodge
 		","
 		18
-		","
-		57
-		","
-		10
-		","
-		Invulnerable on frame 3-30.		
-		","
-		6.0
-		","
-		10
-		","
-		13
-		","
-		--
 		","
 		-28/-35
 		","
@@ -880,20 +391,6 @@ villager
 		","
 		18
 		","
-		80
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.	
-		","
-		6.0
-		","
-		10
-		","
-		13
-		","
-		--
-		","
 		-28/-35
 		","
 		17—19
@@ -904,20 +401,6 @@ villager
 		Air Dodge, Diagonally Down
 		","
 		18
-		","
-		87
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.
-		","
-		6.0
-		","
-		10
-		","
-		13
-		","
-		--
 		","
 		-28/-35
 		","
@@ -930,20 +413,6 @@ villager
 		","
 		18
 		","
-		96
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.		
-		","
-		6.0
-		","
-		10
-		","
-		13
-		","
-		--
-		","
 		-28/-35
 		","
 		17—19
@@ -954,20 +423,6 @@ villager
 		Air Dodge, Diagonally Up
 		","
 		18
-		","
-		111
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.			
-		","
-		6.0
-		","
-		10
-		","
-		13
-		","
-		--
 		","
 		-28/-35
 		","
@@ -980,20 +435,6 @@ villager
 		","
 		18
 		","
-		128
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.
-		","
-		6.0
-		","
-		10
-		","
-		13
-		","
-		--
-		","
 		-28/-35
 		","
 		17—19
@@ -1004,20 +445,6 @@ villager
 			Ledge Grab
 		","
 		18
-		","
-		128
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.
-		","
-		6.0
-		","
-		10
-		","
-		13
-		","
-		--
 		","
 		-28/-35
 		","
@@ -1030,20 +457,6 @@ villager
 		","
 		18
 		","
-		128
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.
-		","
-		6.0
-		","
-		10
-		","
-		13
-		","
-		--
-		","
 		-28/-35
 		","
 		17—19
@@ -1054,20 +467,6 @@ villager
 				Ledge Hang
 			","
 		18
-		","
-		128
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.
-		","
-		6.0
-		","
-		10
-		","
-		13
-		","
-		--
 		","
 		-28/-35
 		","

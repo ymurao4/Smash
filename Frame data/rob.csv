@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 R.O.B.
 </h1>","
 		Jab 1
 		","
 		3
-		","
-		20
-		","
-		--
-		","
-		Transitions to jab 2 as early as frame 11
-		","
-		3.0
-		","
-		5
-		","
-		4
-		","
-		--
 		","
 		-13
 		","
@@ -31,20 +17,6 @@ R.O.B.
 		","
 		3
 		","
-		20
-		","
-		--
-		","
-		--
-		","
-		3.0
-		","
-		10
-		","
-		4
-		","
-		--
-		","
 		-13
 		","
 		3—4
@@ -55,20 +27,6 @@ R.O.B.
 		Forward Tilt
 		","
 		7
-		","
-		33
-		","
-		--
-		","
-		--
-		","
-		8.0
-		","
-		7
-		","
-		8
-		","
-		--
 		","
 		-18
 		","
@@ -81,20 +39,6 @@ R.O.B.
 		","
 		4/6
 		","
-		26
-		","
-		--
-		","
-		--
-		","
-		3.0/5.0
-		","
-		5/6
-		","
-		4/6
-		","
-		--
-		","
 		-14
 		","
 		4—5/6—7
@@ -105,20 +49,6 @@ R.O.B.
 		Down Tilt
 		","
 		3
-		","
-		14
-		","
-		--
-		","
-		--
-		","
-		5.0
-		","
-		6
-		","
-		6
-		","
-		--
 		","
 		-5
 		","
@@ -131,20 +61,6 @@ R.O.B.
 		","
 		7
 		","
-		31
-		","
-		--
-		","
-		--
-		","
-		7.0
-		","
-		7
-		","
-		7
-		","
-		--
-		","
 		-17
 		","
 		7—8
@@ -155,20 +71,6 @@ R.O.B.
 		Forward Smash
 		","
 		16
-		","
-		54
-		","
-		--
-		","
-		Charge hold is frame 6
-		","
-		15.0/11.5/6.0
-		","
-		15/13/9
-		","
-		10/8/5
-		","
-		Close/Far/Farther
 		","
 		-28/-30/-33
 		","
@@ -181,20 +83,6 @@ R.O.B.
 		","
 		10/14
 		","
-		48
-		","
-		--
-		","
-		Charge hold is frame 7
-		","
-		3.0/14.0
-		","
-		5/10
-		","
-		3/10
-		","
-		--
-		","
 		-35/-24
 		","
 		10—11/14—18
@@ -205,20 +93,6 @@ R.O.B.
 		Down Smash
 		","
 		7/11/16
-		","
-		45
-		","
-		--
-		","
-		Charge hold is frame 3
-		","
-		3.5/5.0
-		","
-		5/12
-		","
-		3/4
-		","
-		Multi/Final
 		","
 		-25
 		","
@@ -231,20 +105,6 @@ R.O.B.
 		","
 		14
 		","
-		47
-		","
-		7
-		","
-		Autocancels on frame 33 onward
-		","
-		7.5/9.5
-		","
-		7/8
-		","
-		3/4
-		","
-		Close/Final
-		","
 		-4/-3
 		","
 		14—32
@@ -255,20 +115,6 @@ R.O.B.
 		Forward Air
 		","
 		6
-		","
-		35
-		","
-		9
-		","
-		Autocancels on frame 25 onward
-		","
-		7.0
-		","
-		7
-		","
-		3
-		","
-		--
 		","
 		-6
 		","
@@ -281,20 +127,6 @@ R.O.B.
 		","
 		19
 		","
-		52
-		","
-		13
-		","
-		Autocancels on frame 46 onward
-		","
-		15.0/13.0/9.0
-		","
-		12/11/9
-		","
-		5/5/4
-		","
-		Close/Far/Late
-		","
 		-8/-9
 		","
 		19—23/24—32
@@ -305,20 +137,6 @@ R.O.B.
 		Up Air
 		","
 		7/9/13/17/23
-		","
-		51
-		","
-		13
-		","
-		Autocancels on frame 40 onward
-		","
-		1.5/4.0
-		","
-		4/11
-		","
-		2/3
-		","
-		Multi/Final
 		","
 		-11/-10
 		","
@@ -331,20 +149,6 @@ R.O.B.
 		","
 		20
 		","
-		69
-		","
-		12
-		","
-		Autocancels on frame 45 onward. Advantage uses Total Frames
-		","
-		12.0/11.0/6.0
-		","
-		9/8/6
-		","
-		5/4/3
-		","
-		Close/Far/Farther
-		","
 		-44/-45/-46
 		","
 		20—21/20—26/22—26
@@ -355,20 +159,6 @@ R.O.B.
 		Neutral B (Robo Beam)
 		","
 		25
-		","
-		49
-		","
-		--
-		","
-		Melee attack and projectile generate on same frame
-		","
-		7.0/4.5/11.5, 7.0/15.0/22.0
-		","
-		7/5/7, 7/13/13
-		","
-		7/3/7, 7/5/14
-		","
-		Small Beam Close/Far/farther, Large Beam Melee/beam/both
 		","
 		-17/-16/-17, -17/-6/-10
 		","
@@ -381,20 +171,6 @@ R.O.B.
 		","
 		13/18/23/28/33/44
 		","
-		85
-		","
-		--
-		","
-		Multihits have no hitlag but do have shieldlag. Reflects on frame 13-35
-		","
-		1.5/3.0
-		","
-		4/12
-		","
-		3/4
-		","
-		Multi/Final
-		","
 		-37
 		","
 		13—**
@@ -405,20 +181,6 @@ R.O.B.
 		Side B (Arm Rotor, Mashing)
 		","
 		13/18/23/28/33/38/ 43/48/53/58/66
-		","
-		107
-		","
-		--
-		","
-		Multihits have no hitlag but do have shieldlag. Reflects on frame 13-60
-		","
-		1.5/3.0
-		","
-		4/12
-		","
-		3/4
-		","
-		Multi/Final
 		","
 		-37
 		","
@@ -434,20 +196,6 @@ R.O.B.
 		--
 		","
 		--
-		","
-		Invulnerable on frame 2-4 on the ground. Can act on frame 25. Fuel lasts up to 143 frames.
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		"
 18,"<h1 class=""charactername"">
 R.O.B.
@@ -455,20 +203,6 @@ R.O.B.
 		Down B (Gyro)
 		","
 		3(+6), 9
-		","
-		36, 42
-		","
-		--
-		","
-		3 startup from charging state. 6 frames to enter charging state. Reaches full charge on frame 98. Damage depends on current item velocity.
-		","
-		3.6—10.7, 10.7
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
 		","
 		-26 to -21, -21
 		","
@@ -481,20 +215,6 @@ R.O.B.
 		","
 		6
 		","
-		37
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
-		","
 		-26 to -21, -21
 		","
 		6—7
@@ -505,20 +225,6 @@ R.O.B.
 		Dash Grab
 		","
 		9
-		","
-		45
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
 		","
 		-26 to -21, -21
 		","
@@ -531,20 +237,6 @@ R.O.B.
 		","
 		10
 		","
-		40
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
-		","
 		-26 to -21, -21
 		","
 		10—11
@@ -555,20 +247,6 @@ R.O.B.
 		Pummel
 		","
 		1
-		","
-		18
-		","
-		**
-		","
-		Total frames includes 13 frames of hitlag	
-		","
-		1.3
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
 		","
 		-26 to -21, -21
 		","
@@ -581,20 +259,6 @@ R.O.B.
 		","
 		11
 		","
-		23
-		","
-		--
-		","
-		--		
-		","
-		8.0
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
-		","
 		-26 to -21, -21
 		","
 		10—11
@@ -605,20 +269,6 @@ R.O.B.
 		Backward Throw
 		","
 		12
-		","
-		26
-		","
-		--
-		","
-		--		
-		","
-		10.0
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
 		","
 		-26 to -21, -21
 		","
@@ -631,20 +281,6 @@ R.O.B.
 		","
 		58
 		","
-		81
-		","
-		--
-		","
-		--		
-		","
-		12.0
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
-		","
 		-26 to -21, -21
 		","
 		10—11
@@ -655,20 +291,6 @@ R.O.B.
 		Down Throw
 		","
 		50
-		","
-		75
-		","
-		--
-		","
-		Buries	
-		","
-		5.0
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
 		","
 		-26 to -21, -21
 		","
@@ -681,20 +303,6 @@ R.O.B.
 		","
 		50
 		","
-		20/25
-		","
-		--
-		","
-		Invulnerable on frame 3-17		
-		","
-		5.0
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
-		","
 		-26 to -21, -21
 		","
 		10—11
@@ -705,20 +313,6 @@ R.O.B.
 		Forward Roll
 		","
 		50
-		","
-		29
-		","
-		--
-		","
-		Invulnerable on frame 4-15
-		","
-		5.0
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
 		","
 		-26 to -21, -21
 		","
@@ -731,20 +325,6 @@ R.O.B.
 		","
 		50
 		","
-		34
-		","
-		--
-		","
-		Invulnerable on frame 5-16
-		","
-		5.0
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
-		","
 		-26 to -21, -21
 		","
 		10—11
@@ -755,20 +335,6 @@ R.O.B.
 		Neutral Air Dodge
 		","
 		50
-		","
-		50
-		","
-		10
-		","
-		Invulnerable on frame 3-27
-		","
-		5.0
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
 		","
 		-26 to -21, -21
 		","
@@ -781,20 +347,6 @@ R.O.B.
 		","
 		50
 		","
-		68
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		5.0
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
-		","
 		-26 to -21, -21
 		","
 		10—11
@@ -805,20 +357,6 @@ R.O.B.
 		Air Dodge, Diagonally Down
 		","
 		50
-		","
-		75
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		5.0
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
 		","
 		-26 to -21, -21
 		","
@@ -831,20 +369,6 @@ R.O.B.
 		","
 		50
 		","
-		83
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		5.0
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
-		","
 		-26 to -21, -21
 		","
 		10—11
@@ -855,20 +379,6 @@ R.O.B.
 		Air Dodge, Diagonally Up
 		","
 		50
-		","
-		100
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		5.0
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
 		","
 		-26 to -21, -21
 		","
@@ -881,20 +391,6 @@ R.O.B.
 		","
 		50
 		","
-		111
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		5.0
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
-		","
 		-26 to -21, -21
 		","
 		10—11
@@ -905,20 +401,6 @@ R.O.B.
 			Ledge Grab
 		","
 		50
-		","
-		111
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		5.0
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
 		","
 		-26 to -21, -21
 		","
@@ -931,20 +413,6 @@ R.O.B.
 		","
 		50
 		","
-		111
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		5.0
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
-		","
 		-26 to -21, -21
 		","
 		10—11
@@ -955,20 +423,6 @@ R.O.B.
 				Ledge Hang
 			","
 		50
-		","
-		111
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		5.0
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
 		","
 		-26 to -21, -21
 		","

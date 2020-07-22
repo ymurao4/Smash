@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 richter
 </h1>","
 		Jab 1
 		","
 		5
-		","
-		29
-		","
-		--
-		","
-		Transitions to Jab 2 on frame 11. Transitions to Whip dangle from 9.
-		","
-		2.0
-		","
-		7
-		","
-		3
-		","
-		--
 		","
 		-21
 		","
@@ -30,20 +16,6 @@ richter
 		Jab 2
 		","
 		3
-		","
-		29
-		","
-		--
-		","
-		Transitions to rapid jab on frame 10.
-		","
-		2.0
-		","
-		5
-		","
-		3
-		","
-		--
 		","
 		-23
 		","
@@ -58,20 +30,6 @@ richter
 		","
 		--
 		","
-		--
-		","
-		--
-		","
-		0.5
-		","
-		4
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		**
 		"
 3,"<h1 class=""charactername"">
@@ -80,20 +38,6 @@ richter
 		Rapid Jab Finisher
 		","
 		3
-		","
-		44
-		","
-		--
-		","
-		--
-		","
-		2.5
-		","
-		10
-		","
-		4
-		","
-		--
 		","
 		-37
 		","
@@ -106,20 +50,6 @@ richter
 		","
 		--
 		","
-		--
-		","
-		--
-		","
-		Can initiate from Jab and F-Tilt. 19 lag from putting it away.
-		","
-		1.0/1.5
-		","
-		0/0
-		","
-		3/3
-		","
-		Chain/Ball
-		","
 		**
 		","
 		**
@@ -130,20 +60,6 @@ richter
 		Forward Tilt
 		","
 		12
-		","
-		30
-		","
-		--
-		","
-		--
-		","
-		10.0/12.0
-		","
-		8/9
-		","
-		10/11
-		","
-		Chain/Ball
 		","
 		-8/-7
 		","
@@ -156,20 +72,6 @@ richter
 		","
 		10
 		","
-		37
-		","
-		--
-		","
-		--
-		","
-		10.0
-		","
-		8
-		","
-		10
-		","
-		--
-		","
 		-17
 		","
 		10—22
@@ -180,20 +82,6 @@ richter
 		Down Tilt 1
 		","
 		7
-		","
-		44
-		","
-		--
-		","
-		Can cancel hitlag from first hit with second. 
-		","
-		5.0
-		","
-		6
-		","
-		6
-		","
-		--
 		","
 		-31
 		","
@@ -206,20 +94,6 @@ richter
 		","
 		8
 		","
-		57/43
-		","
-		--
-		","
-		Total frames is 57 on level ground. 43 if you go over an edge.
-		","
-		7.0/3.5
-		","
-		8/5
-		","
-		7/4
-		","
-		Early/Late
-		","
 		-42/-28
 		","
 		8—28
@@ -230,20 +104,6 @@ richter
 		Dash Attack
 		","
 		10/13/16/19/22/24
-		","
-		54
-		","
-		--
-		","
-		--
-		","
-		1.7/3.5
-		","
-		4/5
-		","
-		-/4
-		","
-		--
 		","
 		-26
 		","
@@ -256,20 +116,6 @@ richter
 		","
 		24
 		","
-		62
-		","
-		--
-		","
-		Charge hold is frame 5
-		","
-		14.0/16.0/18.0
-		","
-		11/13
-		","
-		10/12
-		","
-		Chain/Ball
-		","
 		-28/-26
 		","
 		24—25
@@ -280,20 +126,6 @@ richter
 		Up Smash
 		","
 		18
-		","
-		55
-		","
-		--
-		","
-		Charge hold is frame 2
-		","
-		14.0/16.0
-		","
-		10/10
-		","
-		10/11
-		","
-		Chain/Ball
 		","
 		-27/-26
 		","
@@ -306,20 +138,6 @@ richter
 		","
 		14/20
 		","
-		55
-		","
-		--
-		","
-		Charge hold is frame 2
-		","
-		12.0/16.0
-		","
-		9/10
-		","
-		8/11
-		","
-		Chain/Ball
-		","
 		-33/-30/-27/-24
 		","
 		14—15/20—21
@@ -330,20 +148,6 @@ richter
 		Neutral Air
 		","
 		8...
-		","
-		42
-		","
-		14
-		","
-		Autocancels on frame 1-6 and 36 onward
-		","
-		1.0/4.0
-		","
-		4/5
-		","
-		2/3
-		","
-		Multi/Final
 		","
 		-12/-11
 		","
@@ -356,20 +160,6 @@ richter
 		","
 		14
 		","
-		39
-		","
-		10
-		","
-		Tethers on frame 13. Autocancels on frame 29 onward
-		","
-		10.0/12.0/2.0
-		","
-		8/9/4
-		","
-		4/5/2
-		","
-		Chain/Ball/Arm
-		","
 		-6/-5/-8
 		","
 		14
@@ -380,20 +170,6 @@ richter
 		Back Air
 		","
 		14
-		","
-		39
-		","
-		10
-		","
-		Tethers on frame 13. Autocancels on frame 28 onward
-		","
-		10.0/12.0/2.0
-		","
-		8/9/4
-		","
-		4/5/2
-		","
-		Chain/Ball/Arm
 		","
 		-6/-5/-8
 		","
@@ -406,20 +182,6 @@ richter
 		","
 		14
 		","
-		39
-		","
-		10
-		","
-		Tethers on frame 13. Autocancels on frame 1-11 and 28 onward
-		","
-		10.0/12.0/2.0
-		","
-		8/9/4
-		","
-		4/5/2
-		","
-		Chain/Ball/Arm
-		","
 		-6/-5/-8
 		","
 		14—16
@@ -430,20 +192,6 @@ richter
 		Down Air
 		","
 		13
-		","
-		48
-		","
-		26
-		","
-		A hit results in 26 frames of endlag. Autocancels on frame 1-3 and 47 onward
-		","
-		12.0/7.0
-		","
-		10/7
-		","
-		5/3
-		","
-		Early/Late
 		","
 		-21/-23
 		","
@@ -456,20 +204,6 @@ richter
 		","
 		30
 		","
-		66
-		","
-		--
-		","
-		--
-		","
-		15.0
-		","
-		15
-		","
-		15
-		","
-		--
-		","
 		-6
 		","
 		30—97
@@ -480,20 +214,6 @@ richter
 		Side B (Cross)
 		","
 		19
-		","
-		44
-		","
-		--
-		","
-		9 frame animation of catching the cross if no other action is being performed.
-		","
-		8.0/6.0/5.0
-		","
-		7/7/6
-		","
-		3/3/3
-		","
-		Smash/Tilt/Return
 		","
 		-15
 		","
@@ -506,20 +226,6 @@ richter
 		","
 		6/9/...
 		","
-		--
-		","
-		26
-		","
-		Intangible frames 5-6.
-		","
-		2.0/1.5/6.0
-		","
-		6/4/6
-		","
-		-/3/6
-		","
-		First/Multi/Final
-		","
 		**
 		","
 		6/9—20/21 (rehit: 3)
@@ -530,20 +236,6 @@ richter
 		Down B (Holy Water)
 		","
 		18
-		","
-		45
-		","
-		--
-		","
-		Lands on level ground at frame 32 if nothing is in the way. Explodes on contact with the ground or a wall. Bottle will explode if it takes 6% or more damage. When it hits a shield it takes 0% damage but when it hits a character it takes 3%. Touching the ground loses all 6% damage. Click here for more information.
-","
-		2.0—2.9
-		","
-		4
-		","
-		2
-		","
-		--
 		","
 		**
 		","
@@ -556,20 +248,6 @@ richter
 		","
 		1/4/7/15/23/31/39/47/55
 		","
-		--
-		","
-		--
-		","
-		Simon's explosion is Fire-type damage, Richter's explosion is Aura-type damage.
-		","
-		1.4
-		","
-		**
-		","
-		**
-		","
-		--
-		","
 		**
 		","
 		1/4/7/15/23/31/39/47/55
@@ -580,20 +258,6 @@ richter
 		Grab
 		","
 		10
-		","
-		37
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		**
-		","
-		**
-		","
-		--
 		","
 		**
 		","
@@ -606,20 +270,6 @@ richter
 		","
 		13
 		","
-		45
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		**
-		","
-		**
-		","
-		--
-		","
 		**
 		","
 		13—14
@@ -630,20 +280,6 @@ richter
 		Pivot Grab
 		","
 		14
-		","
-		42
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		**
-		","
-		**
-		","
-		--
 		","
 		**
 		","
@@ -656,20 +292,6 @@ richter
 		","
 		1
 		","
-		18
-		","
-		**
-		","
-		Total frames includes 12 frames of hitlag
-		","
-		1.3
-		","
-		**
-		","
-		**
-		","
-		--
-		","
 		**
 		","
 		14—15
@@ -680,20 +302,6 @@ richter
 		Forward Throw
 		","
 		24
-		","
-		41
-		","
-		--
-		","
-		--		
-		","
-		7.0
-		","
-		**
-		","
-		**
-		","
-		--
 		","
 		**
 		","
@@ -706,20 +314,6 @@ richter
 		","
 		18
 		","
-		41
-		","
-		--
-		","
-		--		
-		","
-		7.0
-		","
-		**
-		","
-		**
-		","
-		--
-		","
 		**
 		","
 		14—15
@@ -730,20 +324,6 @@ richter
 		Up Throw
 		","
 		25/26
-		","
-		46
-		","
-		--
-		","
-		--		
-		","
-		6.0/4.0
-		","
-		**
-		","
-		**
-		","
-		--
 		","
 		**
 		","
@@ -756,20 +336,6 @@ richter
 		","
 		33
 		","
-		48
-		","
-		--
-		","
-		--		
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		--
-		","
 		**
 		","
 		14—15
@@ -780,20 +346,6 @@ richter
 		Spot Dodge
 		","
 		33
-		","
-		21/26
-		","
-		--
-		","
-		Invulnerable on frame 3-17		
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		--
 		","
 		**
 		","
@@ -806,20 +358,6 @@ richter
 		","
 		33
 		","
-		30
-		","
-		--
-		","
-		Invulnerable on frame 4-15.		
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		--
-		","
 		**
 		","
 		14—15
@@ -830,20 +368,6 @@ richter
 		Backward Roll
 		","
 		33
-		","
-		35
-		","
-		--
-		","
-		Invulnerable on frame 5-16.		
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		--
 		","
 		**
 		","
@@ -856,20 +380,6 @@ richter
 		","
 		33
 		","
-		46
-		","
-		10
-		","
-		Invulnerable on frame 3-29.		
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		--
-		","
 		**
 		","
 		14—15
@@ -880,20 +390,6 @@ richter
 		Air Dodge, Down
 		","
 		33
-		","
-		62
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.	
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		--
 		","
 		**
 		","
@@ -906,20 +402,6 @@ richter
 		","
 		33
 		","
-		69
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.	
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		--
-		","
 		**
 		","
 		14—15
@@ -930,20 +412,6 @@ richter
 		Air Dodge, Left/Right
 		","
 		33
-		","
-		76
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.			
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		--
 		","
 		**
 		","
@@ -956,20 +424,6 @@ richter
 		","
 		33
 		","
-		90
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.			
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		--
-		","
 		**
 		","
 		14—15
@@ -980,20 +434,6 @@ richter
 		Air Dodge, Up
 		","
 		33
-		","
-		104
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.	
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		--
 		","
 		**
 		","
@@ -1006,20 +446,6 @@ richter
 		","
 		33
 		","
-		104
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.	
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		--
-		","
 		**
 		","
 		14—15
@@ -1031,20 +457,6 @@ richter
 		","
 		33
 		","
-		104
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.	
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		--
-		","
 		**
 		","
 		14—15
@@ -1055,20 +467,6 @@ richter
 				Ledge Hang
 			","
 		33
-		","
-		104
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.	
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		--
 		","
 		**
 		","

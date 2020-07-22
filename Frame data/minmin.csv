@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 Min Min
 </h1>","
 				Ledge Hang
 			","
 		13
-		","
-		111
-		","
-		**
-		","
-		Invulnerable on frame 3-21
-		","
-		5.0
-		","
-		25/22
-		","
-		**
-		","
-		Hit/Shockwave
 		","
 		**
 		","
@@ -31,20 +17,6 @@ Min Min
 		","
 		5
 		","
-		24
-		","
-		--
-		","
-		Startup and total frames assumes player presses and releases A/B in one frame, or buffers the attack. Transitions to jab 2 on frame 10
-		","
-		2.5
-		","
-		7
-		","
-		4
-		","
-		--
-		","
 		-15
 		","
 		5—6
@@ -56,20 +28,6 @@ Min Min
 		","
 		8
 		","
-		31
-		","
-		--
-		","
-		Transitions to rapid jab on frame 14 or jab 3 on frame 15
-		","
-		2.0
-		","
-		6
-		","
-		3
-		","
-		--
-		","
 		-20
 		","
 		8—9
@@ -80,20 +38,6 @@ Min Min
 		Jab 3
 		","
 		6
-		","
-		35
-		","
-		--
-		","
-		--
-		","
-		5.5
-		","
-		14
-		","
-		6
-		","
-		--
 		","
 		-23
 		","
@@ -108,20 +52,6 @@ Min Min
 		","
 		--
 		","
-		--
-		","
-		--
-		","
-		0.5
-		","
-		4
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		6/8/10...
 		"
 5,"<h1 class=""charactername"">
@@ -130,20 +60,6 @@ Min Min
 		Rapid Jab Finisher
 		","
 		7
-		","
-		41
-		","
-		--
-		","
-		--
-		","
-		5.0
-		","
-		15
-		","
-		6
-		","
-		--
 		","
 		-28
 		","
@@ -156,20 +72,6 @@ Min Min
 		","
 		14
 		","
-		58 (53 air)
-		","
-		--
-		","
-		Endlag on hit is 28. Endlag on block is 39. Can fire other arm beginning on frame 17. Min Min can move and jump at any point of the animation
-		","
-		8.0
-		","
-		7
-		","
-		8
-		","
-		--
-		","
 		-31
 		","
 		Ground: 14(15—24) // Air: 14(15—22)
@@ -180,20 +82,6 @@ Min Min
 		Forward Tilt, Power Dragon
 		","
 		14
-		","
-		58
-		","
-		--
-		","
-		**
-		","
-		9.2
-		","
-		**
-		","
-		9
-		","
-		--
 		","
 		-29
 		","
@@ -206,20 +94,6 @@ Min Min
 		","
 		14
 		","
-		51 (47 air)
-		","
-		--
-		","
-		Can fire other arm beginning on frame 17. Projectile does not launch if blocked. Endlag is 37 if blocked.
-		","
-		5.0
-		","
-		6/5
-		","
-		6/2
-		","
-		--
-		","
 		-31
 		","
 		Ground: 14(15—21/22—29) // Air: 14(15—19/20—24)
@@ -230,20 +104,6 @@ Min Min
 		Forward Tilt, Megawatt
 		","
 		14
-		","
-		67 (59 air)
-		","
-		--
-		","
-		Can fire other arm beginning on frame 17. Endlag on hit is 22-29 depending on how far the arm must retract. Endlag on block is 40-44 depending on how far the arm must retract.
-		","
-		11.0
-		","
-		10
-		","
-		10
-		","
-		--
 		","
 		-30 — -34
 		","
@@ -256,20 +116,6 @@ Min Min
 		","
 		5
 		","
-		41
-		","
-		--
-		","
-		Sweetspots are Min Min's feet, legs are sourspots. 
-		","
-		(Clean) 5.0/7.0 // (Late) 4.0/6.0
-		","
-		5/6/6/7
-		","
-		5/6/6/7
-		","
-		(Left Leg)(Right Leg)
-		","
 		-31/-30/-29
 		","
 		(5-6/7-11)(6-9/10-15)
@@ -280,20 +126,6 @@ Min Min
 		Down Tilt
 		","
 		10
-		","
-		34
-		","
-		--
-		","
-		leg intangibility on frame 10-14
-		","
-		7.0/5.0(5.5/3.5)
-		","
-		6/7/6
-		","
-		6/7/6
-		","
-		Early/Late
 		","
 		-18/-17
 		","
@@ -306,20 +138,6 @@ Min Min
 		","
 		7
 		","
-		38
-		","
-		--
-		","
-		--
-		","
-		10.0/8.0
-		","
-		7/10/7
-		","
-		8/10/8
-		","
-		Early/Late
-		","
 		-23
 		","
 		7—10/11—16
@@ -330,20 +148,6 @@ Min Min
 		Forward Smash, Dragon (Laser)
 		","
 		16 (40)
-		","
-		65 (87)
-		","
-		--
-		","
-		Charge hold frame 8. Can fire other arm beginning on frame 17. Endlag on hit is 30. Endlag on block is 40-41 depending on how far the arm must retract. You cannot fire the beam if you already made contact with a shield or clanked
-		","
-		12.0/16.0/13.0 (7.0)
-		","
-		9/10/9 (7)
-		","
-		8/11/9 (3)
-		","
-		Early/Middle/Late (Laser)
 		","
 		-32/-29/-30 (-35)
 		","
@@ -356,20 +160,6 @@ Min Min
 		","
 		16 (40)
 		","
-		65 (87)
-		","
-		--
-		","
-		**
-		","
-		15.0/20.0/16.25 (12.0)
-		","
-		**
-		","
-		11/13/11 (4)
-		","
-		Early/Middle/Late (Laser)
-		","
 		-31/-31/-29 (-34)
 		","
 		Ground: 16(17—19/20—24/25—29) (40—50) // Air: 16(17—19/20—23/24—28) (40—50)
@@ -380,20 +170,6 @@ Min Min
 		Forward Smash, Ramram
 		","
 		16 (26)
-		","
-		57 (55 air)
-		","
-		--
-		","
-		Can fire other arm beginning on frame 17. Projectile does not launch if blocked. Endlag is 39 if blocked. Charge hold frame 8.
-		","
-		10.0/12.0 (2.5)
-		","
-		8/9/5
-		","
-		7/8/2
-		","
-		Normal/Late (Chakram)
 		","
 		-32/-31
 		","
@@ -406,20 +182,6 @@ Min Min
 		","
 		16
 		","
-		75 (70 air)
-		","
-		--
-		","
-		Charge hold frame 8. Can fire other arm beginning on frame 17. Endlag on hit is 22-31 depending on how far the arm must retract. Endlag on block is 41-47 depending on how far the arm must retract.
-		","
-		19.0/21.0/19.0
-		","
-		12/14/12
-		","
-		13/14/13
-		","
-		Early/Middle/Late
-		","
 		-28 — -34
 		","
 		Ground: 16(17—19/20—31/32—38) // Air: 16(17—19/20—29/30—36)
@@ -430,20 +192,6 @@ Min Min
 		Up Smash
 		","
 		7
-		","
-		52
-		","
-		--
-		","
-		leg intangibility on frame 7-15. Reflects on frame 6-15. Charge hold frame 2
-		","
-		16.0/14.0
-		","
-		10/11/10/9
-		","
-		10/11/10/8
-		","
-		early close/far late close/far
 		","
 		-35/-34
 		","
@@ -456,20 +204,6 @@ Min Min
 		","
 		6
 		","
-		48
-		","
-		--
-		","
-		leg intangibility on frame 6-8. Charge hold frame 2
-		","
-		15.0/13.0
-		","
-		9/10
-		","
-		9/10
-		","
-		Left Leg/Right Leg
-		","
 		-33/-32
 		","
 		6—8
@@ -480,20 +214,6 @@ Min Min
 		Neutral Air, Dragon
 		","
 		10
-		","
-		37
-		","
-		10
-		","
-		arm intangible on frame 10-23. autocancels on frame 1-3 and 37 onward
-		","
-		8.5
-		","
-		7
-		","
-		4
-		","
-		**
 		","
 		-6
 		","
@@ -506,20 +226,6 @@ Min Min
 		","
 		10
 		","
-		37
-		","
-		10
-		","
-		**
-		","
-		9.775
-		","
-		**
-		","
-		4
-		","
-		**
-		","
 		-6
 		","
 		10—23
@@ -530,20 +236,6 @@ Min Min
 		Neutral Air, Ramram
 		","
 		8
-		","
-		28
-		","
-		10
-		","
-		arm intangible on frame 8-18. autocancels on frame 1-3 and 28 onward
-		","
-		6.0
-		","
-		6
-		","
-		3
-		","
-		**
 		","
 		-7
 		","
@@ -556,20 +248,6 @@ Min Min
 		","
 		14
 		","
-		50
-		","
-		10
-		","
-		arm intangible on frame 14-32. autocancels on frame 1-5 and 50 onward
-		","
-		12.0
-		","
-		10
-		","
-		5
-		","
-		**
-		","
 		-5
 		","
 		14—32
@@ -580,20 +258,6 @@ Min Min
 		Up Air
 		","
 		7
-		","
-		38
-		","
-		8
-		","
-		autocancels on frame 29 onward
-		","
-		6.5/4.5
-		","
-		5
-		","
-		3
-		","
-		**
 		","
 		-5
 		","
@@ -606,20 +270,6 @@ Min Min
 		","
 		15
 		","
-		54
-		","
-		25
-		","
-		landing hit on frame 1 of landing. Autocancels on frame 41 onward
-		","
-		11.0/9.0/3.0
-		","
-		8/7/5
-		","
-		4/4/4
-		","
-		Early/Late/Landing
-		","
 		*/*/-20
 		","
 		15—18/19—33/1—3
@@ -628,20 +278,6 @@ Min Min
 Min Min
 </h1>","
 		Up B (Arms Jump)
-		","
-		**
-		","
-		25/37(held)
-		","
-		**
-		","
-		Invulnerable 8—13 normally and 18—25 when held. 
-		","
-		**
-		","
-		7
-		","
-		9
 		","
 		**
 		","
@@ -656,20 +292,6 @@ Min Min
 		","
 		12
 		","
-		54
-		","
-		**
-		","
-		Tethers to ledge on frame 5. Endlag on hit is 22-32 depending on how far the arm must restract. Endlag on block is 40-42 depending on how far the arm must restract.
-		","
-		9.0
-		","
-		7
-		","
-		9
-		","
-		**
-		","
 		-31
 		","
 		12—20
@@ -680,20 +302,6 @@ Min Min
 		Down B (Arms Change)
 		","
 		1
-		","
-		1
-		","
-		--
-		","
-		Instantaneous. 
-		","
-		**
-		","
-		**
-		","
-		**
-		","
-		**
 		","
 		**
 		","
@@ -706,20 +314,6 @@ Min Min
 		","
 		18
 		","
-		56
-		","
-		--
-		","
-		ARMS don't have hurtboxes on frames 18-38		
-		","
-		--
-		","
-		**
-		","
-		**
-		","
-		**
-		","
 		**
 		","
 		18—24
@@ -730,20 +324,6 @@ Min Min
 		Dash Grab
 		","
 		18
-		","
-		56
-		","
-		--
-		","
-		ARMS don't have hurtboxes on frames 18-38		
-		","
-		--
-		","
-		**
-		","
-		**
-		","
-		**
 		","
 		**
 		","
@@ -756,20 +336,6 @@ Min Min
 		","
 		18
 		","
-		56
-		","
-		--
-		","
-		ARMS don't have hurtboxes on frames 18-38	
-		","
-		--
-		","
-		**
-		","
-		**
-		","
-		**
-		","
 		**
 		","
 		18—24
@@ -780,20 +346,6 @@ Min Min
 		Pummel
 		","
 		1
-		","
-		19
-		","
-		**
-		","
-		total frames includes 14 frames of hitlag (plus one in 1v1)		
-		","
-		1.5
-		","
-		**
-		","
-		**
-		","
-		**
 		","
 		**
 		","
@@ -806,20 +358,6 @@ Min Min
 		","
 		13
 		","
-		29
-		","
-		--
-		","
-		Hits on frame 12, throws on frame 13.
-		","
-		9.0
-		","
-		**
-		","
-		**
-		","
-		**
-		","
 		**
 		","
 		18—24
@@ -830,20 +368,6 @@ Min Min
 		Backward Throw
 		","
 		31
-		","
-		49
-		","
-		--
-		","
-		Hits on frame 27, throws on frame 31.		
-		","
-		14.0
-		","
-		**
-		","
-		**
-		","
-		**
 		","
 		**
 		","
@@ -856,20 +380,6 @@ Min Min
 		","
 		11
 		","
-		54
-		","
-		--
-		","
-		Hits on frame 10, throws on frame 11.	
-		","
-		10.0
-		","
-		**
-		","
-		**
-		","
-		**
-		","
 		**
 		","
 		18—24
@@ -880,20 +390,6 @@ Min Min
 		Down Throw
 		","
 		16
-		","
-		45
-		","
-		--
-		","
-		Hits on frame 15, throws on frame 16.	
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		**
 		","
 		**
 		","
@@ -906,20 +402,6 @@ Min Min
 		","
 		16
 		","
-		20/25
-		","
-		--
-		","
-		Invulnerable on frame 3—17.		
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		**
-		","
 		**
 		","
 		18—24
@@ -930,20 +412,6 @@ Min Min
 		Forward Roll
 		","
 		16
-		","
-		29
-		","
-		--
-		","
-		Invulnerable on frame 4-15.		
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		**
 		","
 		**
 		","
@@ -956,20 +424,6 @@ Min Min
 		","
 		16
 		","
-		34
-		","
-		--
-		","
-		Invulnerable on frame 5-16.		
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		**
-		","
 		**
 		","
 		18—24
@@ -980,20 +434,6 @@ Min Min
 		Neutral Air Dodge
 		","
 		16
-		","
-		39
-		","
-		10
-		","
-		Invulnerable on frame 3-30.		
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		**
 		","
 		**
 		","
@@ -1006,20 +446,6 @@ Min Min
 		","
 		16
 		","
-		71
-		","
-		**
-		","
-		invulnerable on frame 3-21
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		**
-		","
 		**
 		","
 		18—24
@@ -1030,20 +456,6 @@ Min Min
 		Air Dodge, Diagonally Down
 		","
 		16
-		","
-		78
-		","
-		**
-		","
-		invulnerable on frame 3-21	
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		**
 		","
 		**
 		","
@@ -1056,20 +468,6 @@ Min Min
 		","
 		16
 		","
-		85
-		","
-		**
-		","
-		invulnerable on frame 3-21		
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		**
-		","
 		**
 		","
 		18—24
@@ -1080,20 +478,6 @@ Min Min
 		Air Dodge, Diagonally Up
 		","
 		16
-		","
-		97
-		","
-		**
-		","
-		invulnerable on frame 3-21		
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		**
 		","
 		**
 		","
@@ -1106,20 +490,6 @@ Min Min
 		","
 		16
 		","
-		107
-		","
-		**
-		","
-		invulnerable on frame 3-21
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		**
-		","
 		**
 		","
 		18—24
@@ -1130,20 +500,6 @@ Min Min
 			Ledge Grab
 		","
 		16
-		","
-		107
-		","
-		**
-		","
-		invulnerable on frame 3-21
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		**
 		","
 		**
 		","
@@ -1156,20 +512,6 @@ Min Min
 		","
 		16
 		","
-		107
-		","
-		**
-		","
-		invulnerable on frame 3-21
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		**
-		","
 		**
 		","
 		18—24
@@ -1180,20 +522,6 @@ Min Min
 				Ledge Hang
 			","
 		16
-		","
-		107
-		","
-		**
-		","
-		invulnerable on frame 3-21
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		**
 		","
 		**
 		","

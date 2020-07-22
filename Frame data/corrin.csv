@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 corrin
 </h1>","
 		Jab 1
 		","
 		5
-		","
-		27
-		","
-		--
-		","
-		Transitions to jab 2 as early as frame 9
-		","
-		2.0/2.5
-		","
-		7/8
-		","
-		3/4
-		","
-		Close/Far
 		","
 		-19/-18
 		","
@@ -31,20 +17,6 @@ corrin
 		","
 		4
 		","
-		29
-		","
-		--
-		","
-		Transitions to jab 3 as early as frame 9 and rapid as early as 8.
-		","
-		2.0
-		","
-		5
-		","
-		3
-		","
-		--
-		","
 		-22
 		","
 		4—5
@@ -55,20 +27,6 @@ corrin
 		Jab 3
 		","
 		6
-		","
-		30
-		","
-		--
-		","
-		--
-		","
-		3.0/4.0
-		","
-		9/10
-		","
-		4/5
-		","
-		Close/Far
 		","
 		-20/-19
 		","
@@ -81,20 +39,6 @@ corrin
 		","
 		12/16/20...
 		","
-		--
-		","
-		--
-		","
-		--
-		","
-		0.5
-		","
-		4
-		","
-		--
-		","
-		--
-		","
 		**
 		","
 		**
@@ -105,20 +49,6 @@ corrin
 		Rapid Jab Finisher
 		","
 		3
-		","
-		39
-		","
-		--
-		","
-		--
-		","
-		3.0
-		","
-		14
-		","
-		4
-		","
-		--
 		","
 		-32
 		","
@@ -131,20 +61,6 @@ corrin
 		","
 		8
 		","
-		34
-		","
-		--
-		","
-		--
-		","
-		10.5
-		","
-		8
-		","
-		10
-		","
-		--
-		","
 		-16
 		","
 		8—9
@@ -155,20 +71,6 @@ corrin
 		Up Tilt
 		","
 		7
-		","
-		35
-		","
-		--
-		","
-		--
-		","
-		9.0
-		","
-		7
-		","
-		9
-		","
-		--
 		","
 		-19
 		","
@@ -181,20 +83,6 @@ corrin
 		","
 		5
 		","
-		30
-		","
-		--
-		","
-		--
-		","
-		7.5
-		","
-		7
-		","
-		8
-		","
-		--
-		","
 		-17
 		","
 		5—7
@@ -205,20 +93,6 @@ corrin
 		Dash Attack
 		","
 		12/14/16/18/20/23
-		","
-		49
-		","
-		--
-		","
-		--
-		","
-		2.0/3.0
-		","
-		4/9
-		","
-		--/4
-		","
-		Multi/Final
 		","
 		-22
 		","
@@ -231,20 +105,6 @@ corrin
 		","
 		12/17
 		","
-		56
-		","
-		--
-		","
-		Charging hold is frame 12 and includes a hitbox that hits every 5 frames
-		","
-		0.5/11.0/12.0/16.7
-		","
-		4/9/9/16
-		","
-		2/13/13/17
-		","
-		Charging/Close/Far/Tipper
-		","
 		-26/-26/-22
 		","
 		12—**/17—18
@@ -255,20 +115,6 @@ corrin
 		Up Smash
 		","
 		13
-		","
-		51
-		","
-		--
-		","
-		Charge hold is frame 9
-		","
-		10.0/13.0/15.0
-		","
-		8/9/14
-		","
-		7/9/10
-		","
-		Close/Far/Tipper
 		","
 		-31/-29/-28
 		","
@@ -281,20 +127,6 @@ corrin
 		","
 		13
 		","
-		48
-		","
-		--
-		","
-		Charge hold is frame 8
-		","
-		11.0/9.0/14.0
-		","
-		8/7/14
-		","
-		8/7/10
-		","
-		Front/Back/Tipper
-		","
 		-27/-28/-25
 		","
 		13—15
@@ -305,20 +137,6 @@ corrin
 		Neutral Air
 		","
 		6
-		","
-		46
-		","
-		10
-		","
-		Autocancels on frame 1-5 and 47 onward
-		","
-		7.0/5.5
-		","
-		7/6
-		","
-		3/3
-		","
-		Early/Late
 		","
 		-7/-7
 		","
@@ -331,20 +149,6 @@ corrin
 		","
 		9
 		","
-		35
-		","
-		8
-		","
-		Autocancels on frame 1-8 and 30 onward
-		","
-		9.0
-		","
-		6
-		","
-		4
-		","
-		--
-		","
 		-4
 		","
 		9—12
@@ -355,20 +159,6 @@ corrin
 		Back Air
 		","
 		13
-		","
-		41
-		","
-		13
-		","
-		Autocancels on frame 1-5 and 42 onward
-		","
-		12.0/9.0
-		","
-		9/7
-		","
-		5/4
-		","
-		Early/Late
 		","
 		-8/-9
 		","
@@ -381,20 +171,6 @@ corrin
 		","
 		7
 		","
-		37
-		","
-		9
-		","
-		Autocancels on frame 1-3 and 38 onward
-		","
-		10.0
-		","
-		7
-		","
-		4
-		","
-		--
-		","
 		-5
 		","
 		7—12
@@ -405,20 +181,6 @@ corrin
 		Down Air
 		","
 		12...
-		","
-		51
-		","
-		26
-		","
-		Landing hit on frame 1. Autocancels on frame 1-11 and 41 onward
-		","
-		2.0/3.0
-		","
-		4/5
-		","
-		2/4
-		","
-		Falling/Landing
 		","
 		-21
 		","
@@ -431,20 +193,6 @@ corrin
 		","
 		17—47
 		","
-		61—95
-		","
-		--
-		","
-		--
-		","
-		4.0—11.0
-		","
-		5—8
-		","
-		2—4
-		","
-		--
-		","
 		**
 		","
 		17—71
@@ -455,20 +203,6 @@ corrin
 		Dragon Fang Shot (chomp)
 		","
 		24-54-85
-		","
-		--
-		","
-		--
-		","
-		Chomp can be charged an additional 30 frames independently of shot for more damage.
-		","
-		10.0—20.0
-		","
-		8—20
-		","
-		10—18
-		","
-		--
 		","
 		-31 to -19
 		","
@@ -481,20 +215,6 @@ corrin
 		","
 		4
 		","
-		--
-		","
-		--
-		","
-		After pinning the ground, 13 frame waiting period before you can select one of the options. Empty hop on the ground without Pin is 45 frames. Cannot pin a shielding target.
-		","
-		7.0
-		","
-		7
-		","
-		7
-		","
-		--
-		","
 		-6
 		","
 		**
@@ -506,20 +226,6 @@ corrin
 		","
 		10
 		","
-		37
-		","
-		22
-		","
-		--
-		","
-		8.0/15.0
-		","
-		7/10
-		","
-		8/14
-		","
-		Close/Tipper
-		","
 		--
 		","
 		10
@@ -528,20 +234,6 @@ corrin
 corrin
 </h1>","
 		Dragon Lunge, Pin Cancel
-		","
-		--
-		","
-		~35/19
-		","
-		19
-		","
-		Second total frames is if you don't land on the ground
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -556,20 +248,6 @@ corrin
 		","
 		--
 		","
-		29
-		","
-		--
-		","
-		Invulnerable on frame 2-7
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		**
@@ -581,20 +259,6 @@ corrin
 		","
 		10
 		","
-		56/45
-		","
-		19
-		","
-		Second total frames is if you go over an edge.
-		","
-		12.0/7.0
-		","
-		10/7
-		","
-		11/7
-		","
-		Early/Late
-		","
 		-35
 		","
 		10—17(18—24)
@@ -605,20 +269,6 @@ corrin
 		Dragon Lunge, Back Kick
 		","
 		6
-		","
-		60/45
-		","
-		19
-		","
-		Second total frames is if you go over an edge.
-		","
-		5.0/7.0
-		","
-		6/7
-		","
-		6/7
-		","
-		Early/Late
 		","
 		-48
 		","
@@ -633,20 +283,6 @@ corrin
 		","
 		--
 		","
-		30
-		","
-		Invulnerable on frame 7-17
-		","
-		4.5/1.2/3.0
-		","
-		8/4/10
-		","
-		-/2/4
-		","
-		First/Multi/Final
-		","
-		--
-		","
 		18—19/20—28(rehit: 2)/29—30
 		"
 26,"<h1 class=""charactername"">
@@ -655,20 +291,6 @@ corrin
 		Down B (Counter Surge)
 		","
 		7 (Start of Counter)
-		","
-		66
-		","
-		--
-		","
-		Invulnerable on frame 6. Counters on 7-26
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -681,20 +303,6 @@ corrin
 		","
 		27
 		","
-		66
-		","
-		--
-		","
-		Invulnerable on frame 1-51.  Attacker frozen until frame 12
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		27—31
@@ -705,20 +313,6 @@ corrin
 		Grab
 		","
 		7
-		","
-		36
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -731,20 +325,6 @@ corrin
 		","
 		10
 		","
-		44
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		10—11
@@ -755,20 +335,6 @@ corrin
 		Pivot Grab
 		","
 		11
-		","
-		39
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -783,20 +349,6 @@ corrin
 		","
 		--
 		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		11—12
 		"
 32,"<h1 class=""charactername"">
@@ -805,20 +357,6 @@ corrin
 		Forward Throw
 		","
 		14/15
-		","
-		34
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -831,20 +369,6 @@ corrin
 		","
 		12/13
 		","
-		37
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		11—12
@@ -855,20 +379,6 @@ corrin
 		Up Throw
 		","
 		12/13
-		","
-		51
-		","
-		--
-		","
-		Frames 1-4 Invincible, 5-42 Dragon intangible, 43-End Vulnerable
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -881,20 +391,6 @@ corrin
 		","
 		26/27
 		","
-		54
-		","
-		--
-		","
-		Frame 1-4 Invincible, 5-44 Dragon intangible, 44-End Vulnerable		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		11—12
@@ -905,20 +401,6 @@ corrin
 		Spot Dodge
 		","
 		26/27
-		","
-		20/25
-		","
-		--
-		","
-		Invulnerable on frame 3-17
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -931,20 +413,6 @@ corrin
 		","
 		26/27
 		","
-		29
-		","
-		--
-		","
-		Invulnerable on frame 4-15	
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		11—12
@@ -955,20 +423,6 @@ corrin
 		Backward Roll
 		","
 		26/27
-		","
-		34
-		","
-		--
-		","
-		Invulnerable on frame 5-16 	
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -981,20 +435,6 @@ corrin
 		","
 		26/27
 		","
-		49
-		","
-		10
-		","
-		Invulnerable on frame 3-29
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		11—12
@@ -1005,20 +445,6 @@ corrin
 		Air Dodge, Down
 		","
 		26/27
-		","
-		67
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21			
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -1031,20 +457,6 @@ corrin
 		","
 		26/27
 		","
-		75
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		11—12
@@ -1055,20 +467,6 @@ corrin
 		Air Dodge, Left/Right
 		","
 		26/27
-		","
-		81
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -1081,20 +479,6 @@ corrin
 		","
 		26/27
 		","
-		97
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		11—12
@@ -1105,20 +489,6 @@ corrin
 		Air Dodge, Up
 		","
 		26/27
-		","
-		107
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -1131,20 +501,6 @@ corrin
 		","
 		26/27
 		","
-		107
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		11—12
@@ -1156,20 +512,6 @@ corrin
 		","
 		26/27
 		","
-		107
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		11—12
@@ -1180,20 +522,6 @@ corrin
 				Ledge Hang
 			","
 		26/27
-		","
-		107
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","

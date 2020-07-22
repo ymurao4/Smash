@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 Dark Samus
 </h1>","
 		Jab 1
 		","
 		3
-		","
-		17
-		","
-		--
-		","
-		Transitions to Jab 2 as early as frame 15.
-		","
-		3.0
-		","
-		5
-		","
-		4
-		","
-		--
 		","
 		-10
 		","
@@ -31,20 +17,6 @@ Dark Samus
 		","
 		6
 		","
-		29
-		","
-		--
-		","
-		--
-		","
-		8.0
-		","
-		7
-		","
-		8
-		","
-		--
-		","
 		-15
 		","
 		6—9
@@ -55,20 +27,6 @@ Dark Samus
 		Forward Tilt
 		","
 		8
-		","
-		33
-		","
-		--
-		","
-		Deals 1.0 more damage when angled. 
-		","
-		8.0/9.0/10.0
-		","
-		7/7/8
-		","
-		8/9/10
-		","
-		Close/Middle/Far
 		","
 		-17/-16/-15
 		","
@@ -81,20 +39,6 @@ Dark Samus
 		","
 		15
 		","
-		39
-		","
-		--
-		","
-		--
-		","
-		13.0
-		","
-		9
-		","
-		12
-		","
-		--
-		","
 		-12
 		","
 		15—18
@@ -105,20 +49,6 @@ Dark Samus
 		Down Tilt
 		","
 		6
-		","
-		44
-		","
-		--
-		","
-		--
-		","
-		12.0
-		","
-		9
-		","
-		11
-		","
-		--
 		","
 		-27
 		","
@@ -131,20 +61,6 @@ Dark Samus
 		","
 		8
 		","
-		41
-		","
-		--
-		","
-		--
-		","
-		10.0/6.0
-		","
-		8/6
-		","
-		10/6
-		","
-		Early/Late/Later
-		","
 		-26
 		","
 		8—9(10—13/14—18)
@@ -155,20 +71,6 @@ Dark Samus
 		Forward Smash
 		","
 		10
-		","
-		48
-		","
-		--
-		","
-		Deals 1.0 more damage when angled up, 1.0 less when angled down. Charge hold frame is 3.
-		","
-		12.0/14.0
-		","
-		9/10
-		","
-		8/10
-		","
-		Close/Far
 		","
 		-30/-28
 		","
@@ -181,20 +83,6 @@ Dark Samus
 		","
 		11/15/19/23/27
 		","
-		56
-		","
-		--
-		","
-		Charge hold frame is 6
-		","
-		3.0/6.0
-		","
-		5/6
-		","
-		3/5
-		","
-		Multihit/Final
-		","
 		-24
 		","
 		11—12/15—16/19—20/23—24/27—28
@@ -205,20 +93,6 @@ Dark Samus
 		Down Smash
 		","
 		9/17
-		","
-		44
-		","
-		--
-		","
-		Charge hold frame is 3
-		","
-		10.0/12.0
-		","
-		8/9
-		","
-		7/8
-		","
-		--
 		","
 		-28/-19
 		","
@@ -231,20 +105,6 @@ Dark Samus
 		","
 		8/14
 		","
-		45
-		","
-		9
-		","
-		Autocancels on frame 1-7 and 35 onward
-		","
-		10.0/9.0
-		","
-		8/7
-		","
-		4/4
-		","
-		--
-		","
 		-5/-5
 		","
 		8—11/14—15(16—22)
@@ -255,20 +115,6 @@ Dark Samus
 		Forward Air
 		","
 		6/12/18/24/30
-		","
-		59
-		","
-		14
-		","
-		Autocancels on frame 47 onward
-		","
-		3.0/1.6/5.0
-		","
-		5/4/12
-		","
-		2/2/3
-		","
-		First/multi/final
 		","
 		-12/-12/-11
 		","
@@ -281,20 +127,6 @@ Dark Samus
 		","
 		9
 		","
-		41
-		","
-		14
-		","
-		Autocancels on frame 1-8 and 42 onward
-		","
-		14.0/9.0
-		","
-		11/7
-		","
-		5/4
-		","
-		Early/Late
-		","
 		-9/-10
 		","
 		9—10(11—14)
@@ -305,20 +137,6 @@ Dark Samus
 		Up Air
 		","
 		5...
-		","
-		39
-		","
-		18
-		","
-		Autocancels on frame 1-2 and 34 onward
-		","
-		3.0/1.2/4.0
-		","
-		5/3/10
-		","
-		2/2/3
-		","
-		First/multi/final
 		","
 		-16/-16/-15
 		","
@@ -331,20 +149,6 @@ Dark Samus
 		","
 		17
 		","
-		48
-		","
-		12
-		","
-		Autocancels on frame 1-3 and 34 onward
-		","
-		10.0/14.0
-		","
-		8/10
-		","
-		4/5
-		","
-		Early/Meteor/Late
-		","
 		-8/-7
 		","
 		17—18/19—21/22—23
@@ -355,20 +159,6 @@ Dark Samus
 		Z Air
 		","
 		8/16
-		","
-		59
-		","
-		8
-		","
-		--
-		","
-		2.5/4.0
-		","
-		7/8
-		","
-		4/5
-		","
-		First/Second
 		","
 		-4/-3
 		","
@@ -381,20 +171,6 @@ Dark Samus
 		","
 		3(+13)
 		","
-		31
-		","
-		--
-		","
-		Startup is 3 from charge state. Takes 13 frames to enter charge state.
-		","
-		5.0—26.1
-		","
-		9—24
-		","
-		3—8
-		","
-		--
-		","
 		-16 to +4
 		","
 		3—62 (from release)
@@ -405,20 +181,6 @@ Dark Samus
 		Charge Shot, Full Charge
 		","
 		16
-		","
-		60
-		","
-		--
-		","
-		Takes 125 frames to reach full charge 
-		","
-		28.0
-		","
-		24
-		","
-		8
-		","
-		--
 		","
 		-2
 		","
@@ -431,20 +193,6 @@ Dark Samus
 		","
 		18
 		","
-		54/59
-		","
-		--
-		","
-		Projectile lasts until frame 118. Total frames is 59 in the air for either missile type.
-		","
-		8.0
-		","
-		7
-		","
-		3
-		","
-		--
-		","
 		-26
 		","
 		18—137
@@ -455,20 +203,6 @@ Dark Samus
 		Side B (Super Missle)
 		","
 		21
-		","
-		57/59
-		","
-		30
-		","
-		Projectile lasts until frame 87. Starts moving forward around frame 50, allowing for followups.
-		","
-		12.0
-		","
-		9
-		","
-		4
-		","
-		--
 		","
 		-24
 		","
@@ -483,20 +217,6 @@ Dark Samus
 		","
 		--
 		","
-		24
-		","
-		Invulnerable on frame 3-6. Rehit rate of 6 for active frames 7-24.
-		","
-		3.0/1.0/2.0
-		","
-		5/4
-		","
-		4/2
-		","
-		First/Multi/Final
-		","
-		--
-		","
 		4-6/7-11/12-14/15-24/25-26
 		"
 20,"<h1 class=""charactername"">
@@ -505,20 +225,6 @@ Dark Samus
 		Up B, Air (Screw Attack, Air)
 		","
 		5...
-		","
-		--
-		","
-		24
-		","
-		Invulnerable on frame 3-4. Rehit rate of 2 for all hits except final.
-		","
-		1.0
-		","
-		4
-		","
-		2
-		","
-		--
 		","
 		--
 		","
@@ -531,20 +237,6 @@ Dark Samus
 		","
 		33
 		","
-		47/44/48
-		","
-		--
-		","
-		Bomb is generated on frame 11. Explosion occurs one frame after touching a target. Bomb explodes automatically on frame 83. Total frames is 44 if the player is holding down.  And 48 in the air with no way to reduce it.
-		","
-		4.0/5.0
-		","
-		5
-		","
-		2
-		","
-		--
-		","
 		--
 		","
 		33—82/1—18
@@ -555,20 +247,6 @@ Dark Samus
 		Grab
 		","
 		15
-		","
-		59
-		","
-		--
-		","
-		Hand grabbox only active for the first 3 frames	
-		","
-		--
-		","
-		5
-		","
-		2
-		","
-		--
 		","
 		--
 		","
@@ -581,20 +259,6 @@ Dark Samus
 		","
 		17
 		","
-		67
-		","
-		--
-		","
-		Hand grabbox only active for the first 3 frames
-		","
-		--
-		","
-		5
-		","
-		2
-		","
-		--
-		","
 		--
 		","
 		17—24
@@ -605,20 +269,6 @@ Dark Samus
 		Pivot Grab
 		","
 		18
-		","
-		62
-		","
-		--
-		","
-		Hand grabbox only active for the first 3 frames
-		","
-		--
-		","
-		5
-		","
-		2
-		","
-		--
 		","
 		--
 		","
@@ -631,20 +281,6 @@ Dark Samus
 		","
 		1
 		","
-		19
-		","
-		--
-		","
-		Total frames includes 14 frames of hitlag
-		","
-		1.3
-		","
-		5
-		","
-		2
-		","
-		--
-		","
 		--
 		","
 		18—25
@@ -655,20 +291,6 @@ Dark Samus
 		Forward Throw
 		","
 		16
-		","
-		41
-		","
-		--
-		","
-		--		
-		","
-		10.0
-		","
-		5
-		","
-		2
-		","
-		--
 		","
 		--
 		","
@@ -681,20 +303,6 @@ Dark Samus
 		","
 		12
 		","
-		49
-		","
-		--
-		","
-		--		
-		","
-		10.0
-		","
-		5
-		","
-		2
-		","
-		--
-		","
 		--
 		","
 		18—25
@@ -705,20 +313,6 @@ Dark Samus
 		Up Throw
 		","
 		15/16
-		","
-		41
-		","
-		--
-		","
-		--		
-		","
-		5.0/7.0
-		","
-		5
-		","
-		2
-		","
-		--
 		","
 		--
 		","
@@ -731,20 +325,6 @@ Dark Samus
 		","
 		21
 		","
-		37
-		","
-		--
-		","
-		--		
-		","
-		8.0
-		","
-		5
-		","
-		2
-		","
-		--
-		","
 		--
 		","
 		18—25
@@ -755,20 +335,6 @@ Dark Samus
 		Spot Dodge
 		","
 		21
-		","
-		21/26
-		","
-		--
-		","
-		Invulnerable on frame 3-17
-		","
-		8.0
-		","
-		5
-		","
-		2
-		","
-		--
 		","
 		--
 		","
@@ -781,20 +347,6 @@ Dark Samus
 		","
 		21
 		","
-		31
-		","
-		--
-		","
-		Invulnerable on frame 4-18	
-		","
-		8.0
-		","
-		5
-		","
-		2
-		","
-		--
-		","
 		--
 		","
 		18—25
@@ -805,20 +357,6 @@ Dark Samus
 		Backward Roll
 		","
 		21
-		","
-		36
-		","
-		--
-		","
-		Invulnerable on frame 5-20	
-		","
-		8.0
-		","
-		5
-		","
-		2
-		","
-		--
 		","
 		--
 		","
@@ -831,20 +369,6 @@ Dark Samus
 		","
 		21
 		","
-		56
-		","
-		10
-		","
-		Invulnerable on frame 3-29
-		","
-		8.0
-		","
-		5
-		","
-		2
-		","
-		--
-		","
 		--
 		","
 		18—25
@@ -855,20 +379,6 @@ Dark Samus
 		Air Dodge, Down
 		","
 		21
-		","
-		80
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21			
-		","
-		8.0
-		","
-		5
-		","
-		2
-		","
-		--
 		","
 		--
 		","
@@ -881,20 +391,6 @@ Dark Samus
 		","
 		21
 		","
-		86
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21		
-		","
-		8.0
-		","
-		5
-		","
-		2
-		","
-		--
-		","
 		--
 		","
 		18—25
@@ -905,20 +401,6 @@ Dark Samus
 		Air Dodge, Left/Right
 		","
 		21
-		","
-		96
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		8.0
-		","
-		5
-		","
-		2
-		","
-		--
 		","
 		--
 		","
@@ -931,20 +413,6 @@ Dark Samus
 		","
 		21
 		","
-		113
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		8.0
-		","
-		5
-		","
-		2
-		","
-		--
-		","
 		--
 		","
 		18—25
@@ -955,20 +423,6 @@ Dark Samus
 		Air Dodge, Up
 		","
 		21
-		","
-		130
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		8.0
-		","
-		5
-		","
-		2
-		","
-		--
 		","
 		--
 		","
@@ -981,20 +435,6 @@ Dark Samus
 		","
 		21
 		","
-		130
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		8.0
-		","
-		5
-		","
-		2
-		","
-		--
-		","
 		--
 		","
 		18—25
@@ -1006,20 +446,6 @@ Dark Samus
 		","
 		21
 		","
-		130
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		8.0
-		","
-		5
-		","
-		2
-		","
-		--
-		","
 		--
 		","
 		18—25
@@ -1030,20 +456,6 @@ Dark Samus
 				Ledge Hang
 			","
 		21
-		","
-		130
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		8.0
-		","
-		5
-		","
-		2
-		","
-		--
 		","
 		--
 		","

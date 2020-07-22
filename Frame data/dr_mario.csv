@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 Dr. Mario
 </h1>","
 		Jab 1
 		","
 		2
-		","
-		19
-		","
-		--
-		","
-		Transitions to Jab 2 as early as frame 5
-		","
-		2.9
-		","
-		9
-		","
-		4
-		","
-		--
 		","
 		-13
 		","
@@ -31,20 +17,6 @@ Dr. Mario
 		","
 		2
 		","
-		21
-		","
-		--
-		","
-		Transitions to Jab 3 as early as frame 6
-		","
-		1.7
-		","
-		5
-		","
-		3
-		","
-		--
-		","
 		-16
 		","
 		2—3
@@ -55,20 +27,6 @@ Dr. Mario
 		Jab 3
 		","
 		3
-		","
-		33
-		","
-		--
-		","
-		--
-		","
-		4.7
-		","
-		12
-		","
-		5
-		","
-		--
 		","
 		-25
 		","
@@ -81,20 +39,6 @@ Dr. Mario
 		","
 		5
 		","
-		25
-		","
-		--
-		","
-		--
-		","
-		10.5
-		","
-		7
-		","
-		8
-		","
-		--
-		","
 		-12
 		","
 		5—7
@@ -105,20 +49,6 @@ Dr. Mario
 		Up Tilt
 		","
 		5
-		","
-		29
-		","
-		--
-		","
-		--
-		","
-		7.4
-		","
-		7
-		","
-		7
-		","
-		--
 		","
 		-17
 		","
@@ -131,20 +61,6 @@ Dr. Mario
 		","
 		5
 		","
-		27
-		","
-		--
-		","
-		--
-		","
-		8.2/5.8
-		","
-		7/6
-		","
-		8/6
-		","
-		Close/Far
-		","
 		-14/-16
 		","
 		5—7
@@ -155,20 +71,6 @@ Dr. Mario
 		Dash Attack
 		","
 		6
-		","
-		37
-		","
-		--
-		","
-		--
-		","
-		11.5/7.0
-		","
-		9/7
-		","
-		19/12
-		","
-		Early/Late
 		","
 		-12
 		","
@@ -181,20 +83,6 @@ Dr. Mario
 		","
 		15
 		","
-		47
-		","
-		--
-		","
-		Charge hold is frame 5.
-		","
-		20.9/17.2
-		","
-		16/15
-		","
-		14/12
-		","
-		Close/Far
-		","
 		-18/-20
 		","
 		15—17
@@ -205,20 +93,6 @@ Dr. Mario
 		Up Smash
 		","
 		9
-		","
-		39
-		","
-		--
-		","
-		Head Invulnerability on frame 9-13. Charge hold is frame 6.
-		","
-		16.4
-		","
-		11
-		","
-		11
-		","
-		--
 		","
 		-19
 		","
@@ -231,20 +105,6 @@ Dr. Mario
 		","
 		5/14
 		","
-		43
-		","
-		--
-		","
-		Charge hold is frame 2.
-		","
-		11.7/14.1
-		","
-		9/10
-		","
-		8/10
-		","
-		First/Second
-		","
 		-30/-19
 		","
 		5—6/14
@@ -255,20 +115,6 @@ Dr. Mario
 		Neutral Air
 		","
 		3
-		","
-		45
-		","
-		7
-		","
-		Autocancels on frame 1-2 and 34 onward. Stronger the longer it's out (opposite of most ""sex kicks"").
-		","
-		5.9/11.7
-		","
-		6/8
-		","
-		3/4
-		","
-		Early/Late
 		","
 		-4/-3
 		","
@@ -281,20 +127,6 @@ Dr. Mario
 		","
 		16
 		","
-		59
-		","
-		17
-		","
-		Auto cancels on frame 1-2 and frame 43 onward.
-		","
-		11.7/17.6/10.5
-		","
-		11/9/*
-		","
-		6/5/*
-		","
-		Early/Clean/Late
-		","
 		-11/-12
 		","
 		16/17—20/21
@@ -305,20 +137,6 @@ Dr. Mario
 		Back Air
 		","
 		6
-		","
-		33
-		","
-		10
-		","
-		Auto cancels on frame 1-5 and frame 19 onward.
-		","
-		14.1/8.2
-		","
-		10/7
-		","
-		5/4
-		","
-		Early/Late
 		","
 		-5/-6
 		","
@@ -331,20 +149,6 @@ Dr. Mario
 		","
 		4
 		","
-		30
-		","
-		8
-		","
-		Auto cancels on frame 17 onward.
-		","
-		10.2
-		","
-		8
-		","
-		4
-		","
-		--
-		","
 		-4
 		","
 		4—7
@@ -355,20 +159,6 @@ Dr. Mario
 		Down Air
 		","
 		16
-		","
-		44
-		","
-		13
-		","
-		Auto cancels on frame 1-5 and frame 35 onward.
-		","
-		14.1
-		","
-		10
-		","
-		5
-		","
-		--
 		","
 		-8
 		","
@@ -381,20 +171,6 @@ Dr. Mario
 		","
 		17
 		","
-		49
-		","
-		--
-		","
-		--
-		","
-		5.8/4.7
-		","
-		6/6
-		","
-		3/3
-		","
-		Early/Late
-		","
 		-23
 		","
 		17—46/47—86
@@ -405,20 +181,6 @@ Dr. Mario
 		Side B (Super Sheet)
 		","
 		12
-		","
-		35
-		","
-		--
-		","
-		Reflects on frame 9-22.
-		","
-		8.2
-		","
-		7
-		","
-		8
-		","
-		--
 		","
 		-15
 		","
@@ -433,20 +195,6 @@ Dr. Mario
 		","
 		--
 		","
-		30
-		","
-		--
-		","
-		14.1 / 7.0
-		","
-		10/7
-		","
-		13/7
-		","
-		Early/Late
-		","
-		--
-		","
 		3—5/6—19
 		"
 18,"<h1 class=""charactername"">
@@ -455,20 +203,6 @@ Dr. Mario
 		Down B (Dr. Tornado)
 		","
 		10/14/18/22/26/30/40
-		","
-		74
-		","
-		--
-		","
-		Armor on frame 5-9 but only on the ground.
-		","
-		1.8/3.5
-		","
-		4/11
-		","
-		3/4
-		","
-		Multi/Final
 		","
 		-30
 		","
@@ -481,20 +215,6 @@ Dr. Mario
 		","
 		6
 		","
-		34
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		4/11
-		","
-		3/4
-		","
-		Multi/Final
-		","
 		-30
 		","
 		6—7
@@ -505,20 +225,6 @@ Dr. Mario
 		Dash Grab
 		","
 		9
-		","
-		42
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		4/11
-		","
-		3/4
-		","
-		Multi/Final
 		","
 		-30
 		","
@@ -531,20 +237,6 @@ Dr. Mario
 		","
 		10
 		","
-		36
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		4/11
-		","
-		3/4
-		","
-		Multi/Final
-		","
 		-30
 		","
 		10—11
@@ -555,20 +247,6 @@ Dr. Mario
 		Pummel
 		","
 		1
-		","
-		19
-		","
-		Total frames includes 13 frames of hitlag.
-		","
-		--		
-		","
-		1.5
-		","
-		4/11
-		","
-		3/4
-		","
-		Multi/Final
 		","
 		-30
 		","
@@ -581,20 +259,6 @@ Dr. Mario
 		","
 		13
 		","
-		27
-		","
-		--
-		","
-		--		
-		","
-		9.4
-		","
-		4/11
-		","
-		3/4
-		","
-		Multi/Final
-		","
 		-30
 		","
 		10—11
@@ -605,20 +269,6 @@ Dr. Mario
 		Backward Throw
 		","
 		40
-		","
-		59
-		","
-		--
-		","
-		--		
-		","
-		12.9
-		","
-		4/11
-		","
-		3/4
-		","
-		Multi/Final
 		","
 		-30
 		","
@@ -631,20 +281,6 @@ Dr. Mario
 		","
 		18
 		","
-		39
-		","
-		--
-		","
-		--		
-		","
-		8.2
-		","
-		4/11
-		","
-		3/4
-		","
-		Multi/Final
-		","
 		-30
 		","
 		10—11
@@ -655,20 +291,6 @@ Dr. Mario
 		Down Throw
 		","
 		18
-		","
-		39
-		","
-		--
-		","
-		--		
-		","
-		5.8
-		","
-		4/11
-		","
-		3/4
-		","
-		Multi/Final
 		","
 		-30
 		","
@@ -681,20 +303,6 @@ Dr. Mario
 		","
 		18
 		","
-		20/25
-		","
-		--
-		","
-		Invulnerable on frame 3-17.		
-		","
-		5.8
-		","
-		4/11
-		","
-		3/4
-		","
-		Multi/Final
-		","
 		-30
 		","
 		10—11
@@ -705,20 +313,6 @@ Dr. Mario
 		Forward Roll
 		","
 		18
-		","
-		29
-		","
-		--
-		","
-		Invulnerable on frame 4-15.		
-		","
-		5.8
-		","
-		4/11
-		","
-		3/4
-		","
-		Multi/Final
 		","
 		-30
 		","
@@ -731,20 +325,6 @@ Dr. Mario
 		","
 		18
 		","
-		34
-		","
-		--
-		","
-		Invulnerable on frame 5-16.		
-		","
-		5.8
-		","
-		4/11
-		","
-		3/4
-		","
-		Multi/Final
-		","
 		-30
 		","
 		10—11
@@ -755,20 +335,6 @@ Dr. Mario
 		Neutral Air Dodge
 		","
 		18
-		","
-		52
-		","
-		10
-		","
-		Invulnerable on frame 3-29.		
-		","
-		5.8
-		","
-		4/11
-		","
-		3/4
-		","
-		Multi/Final
 		","
 		-30
 		","
@@ -781,20 +347,6 @@ Dr. Mario
 		","
 		18
 		","
-		71
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.		
-		","
-		5.8
-		","
-		4/11
-		","
-		3/4
-		","
-		Multi/Final
-		","
 		-30
 		","
 		10—11
@@ -805,20 +357,6 @@ Dr. Mario
 		Air Dodge, Diagonally Down
 		","
 		18
-		","
-		81
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.		
-		","
-		5.8
-		","
-		4/11
-		","
-		3/4
-		","
-		Multi/Final
 		","
 		-30
 		","
@@ -831,20 +369,6 @@ Dr. Mario
 		","
 		18
 		","
-		87
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.		
-		","
-		5.8
-		","
-		4/11
-		","
-		3/4
-		","
-		Multi/Final
-		","
 		-30
 		","
 		10—11
@@ -855,20 +379,6 @@ Dr. Mario
 		Air Dodge, Diagonally Up
 		","
 		18
-		","
-		100
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.		
-		","
-		5.8
-		","
-		4/11
-		","
-		3/4
-		","
-		Multi/Final
 		","
 		-30
 		","
@@ -881,20 +391,6 @@ Dr. Mario
 		","
 		18
 		","
-		116
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.		
-		","
-		5.8
-		","
-		4/11
-		","
-		3/4
-		","
-		Multi/Final
-		","
 		-30
 		","
 		10—11
@@ -905,20 +401,6 @@ Dr. Mario
 			Ledge Grab
 		","
 		18
-		","
-		116
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.		
-		","
-		5.8
-		","
-		4/11
-		","
-		3/4
-		","
-		Multi/Final
 		","
 		-30
 		","
@@ -931,20 +413,6 @@ Dr. Mario
 		","
 		18
 		","
-		116
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.		
-		","
-		5.8
-		","
-		4/11
-		","
-		3/4
-		","
-		Multi/Final
-		","
 		-30
 		","
 		10—11
@@ -955,20 +423,6 @@ Dr. Mario
 				Ledge Hang
 			","
 		18
-		","
-		116
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.		
-		","
-		5.8
-		","
-		4/11
-		","
-		3/4
-		","
-		Multi/Final
 		","
 		-30
 		","

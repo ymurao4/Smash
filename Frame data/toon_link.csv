@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 toon link
 </h1>","
 		Jab 1
 		","
 		5
-		","
-		18
-		","
-		--
-		","
-		Transitions to jab 2 as early as frame 8
-		","
-		2.0
-		","
-		7
-		","
-		3
-		","
-		--
 		","
 		-10
 		","
@@ -31,20 +17,6 @@ toon link
 		","
 		6
 		","
-		20
-		","
-		--
-		","
-		Transitions to jab 3 as early as frame 9
-		","
-		2.0
-		","
-		5
-		","
-		3
-		","
-		--
-		","
 		-11
 		","
 		6—7
@@ -55,20 +27,6 @@ toon link
 		Jab 3
 		","
 		6
-		","
-		36
-		","
-		--
-		","
-		--
-		","
-		4.0
-		","
-		11
-		","
-		5
-		","
-		--
 		","
 		-25
 		","
@@ -81,20 +39,6 @@ toon link
 		","
 		9
 		","
-		29
-		","
-		--
-		","
-		--
-		","
-		9.0
-		","
-		7
-		","
-		9
-		","
-		--
-		","
 		-11
 		","
 		9—13
@@ -105,20 +49,6 @@ toon link
 		Up Tilt
 		","
 		8
-		","
-		25
-		","
-		--
-		","
-		--
-		","
-		5.0
-		","
-		6
-		","
-		6
-		","
-		--
 		","
 		-11
 		","
@@ -131,20 +61,6 @@ toon link
 		","
 		9
 		","
-		22
-		","
-		--
-		","
-		--
-		","
-		7.0
-		","
-		7
-		","
-		7
-		","
-		--
-		","
 		-6
 		","
 		9—10
@@ -155,20 +71,6 @@ toon link
 		Dash Attack
 		","
 		7
-		","
-		28
-		","
-		--
-		","
-		--
-		","
-		8.0
-		","
-		9
-		","
-		8
-		","
-		--
 		","
 		-13
 		","
@@ -181,20 +83,6 @@ toon link
 		","
 		16
 		","
-		48
-		","
-		--
-		","
-		Charge hold is frame 8
-		","
-		14.0
-		","
-		12
-		","
-		10
-		","
-		--
-		","
 		-22
 		","
 		16—17
@@ -205,20 +93,6 @@ toon link
 		Up Smash
 		","
 		11
-		","
-		42
-		","
-		--
-		","
-		Charge hold is frame 4
-		","
-		13.0
-		","
-		9
-		","
-		9
-		","
-		--
 		","
 		-22
 		","
@@ -231,20 +105,6 @@ toon link
 		","
 		9/17
 		","
-		46
-		","
-		--
-		","
-		Charge hold frame is 3
-		","
-		12.0/13.0
-		","
-		9/9
-		","
-		8/9
-		","
-		--
-		","
 		-29/-20
 		","
 		9—10/17—18
@@ -255,20 +115,6 @@ toon link
 		Neutral Air
 		","
 		6/13
-		","
-		41
-		","
-		7
-		","
-		Autocancels on frame 1-2 and 41 onward
-		","
-		8.5/7.0
-		","
-		7/7
-		","
-		4/3
-		","
-		--
 		","
 		-3/-4
 		","
@@ -281,20 +127,6 @@ toon link
 		","
 		14
 		","
-		38
-		","
-		11
-		","
-		Autocancels on frame 1-3 and 39 onward
-		","
-		13.0
-		","
-		9
-		","
-		5
-		","
-		--
-		","
 		-6
 		","
 		14—15
@@ -305,20 +137,6 @@ toon link
 		Back Air
 		","
 		6
-		","
-		35
-		","
-		8
-		","
-		Autocancels on frame 34 onward
-		","
-		8.0
-		","
-		7
-		","
-		4
-		","
-		--
 		","
 		-4
 		","
@@ -331,20 +149,6 @@ toon link
 		","
 		11
 		","
-		59
-		","
-		13
-		","
-		Autocancels on frame 1-5 and 47 onward
-		","
-		14.0/11.0
-		","
-		11/9
-		","
-		5/4
-		","
-		Early/Late
-		","
 		-8/-9
 		","
 		11—13(14—40)
@@ -355,20 +159,6 @@ toon link
 		Down Air
 		","
 		17
-		","
-		79
-		","
-		23
-		","
-		Autocancels on frame 1-5 and 65 onward. Landing hitbox on frame 1.
-		","
-		16.0/12.0
-		","
-		10/9
-		","
-		6/5
-		","
-		Early/Late/Landing
 		","
 		-17/-16
 		","
@@ -381,20 +171,6 @@ toon link
 		","
 		11
 		","
-		73
-		","
-		8
-		","
-		--
-		","
-		4.0
-		","
-		5
-		","
-		5
-		","
-		--
-		","
 		-3 
 		","
 		11—20
@@ -405,20 +181,6 @@ toon link
 		Neutral B (Hero's Bow)
 		","
 		18—60
-		","
-		39—82
-		","
-		--
-		","
-		Startup is 1 from charge release. Reaches full charge on 60.
-		","
-		4.0—12.0
-		","
-		5—9
-		","
-		2—4
-		","
-		Uncharged—Full Charge
 		","
 		-12 to -6
 		","
@@ -431,20 +193,6 @@ toon link
 		","
 		27
 		","
-		45
-		","
-		--
-		","
-		9 frame animation of catching the boomerang if no other action is performed
-		","
-		5.0—9.6/3.0
-		","
-		6—8/5
-		","
-		3—4/2
-		","
-		Going/Returning
-		","
 		-9 to -6
 		","
 		27—36(37—77/78—173)
@@ -455,20 +203,6 @@ toon link
 		Up B (Spin Attack)
 		","
 		6...
-		","
-		77
-		","
-		--
-		","
-		Multihits have shieldlag but no hitlag. Can be charged up to 60 frames for up to 60% additional damage. Startup is 3 on charge release
-		","
-		1.0/3.0
-		","
-		4/10
-		","
-		2/4
-		","
-		Multi/Final
 		","
 		-25
 		","
@@ -483,40 +217,12 @@ toon link
 		","
 		--
 		","
-		30
-		","
-		--
-		","
-		4.0/2.0/4.0
-		","
-		5/4/9
-		","
-		5/3/5
-		","
-		First/Multi/Final
-		","
-		--
-		","
 		8—10/12—13/16—18/19—20/22—24/27—28/31—33/35/44—48
 		"
 20,"<h1 class=""charactername"">
 toon link
 </h1>","
 		Down B (Bomb Pull)
-		","
-		--
-		","
-		36
-		","
-		--
-		","
-		Explodes automatically on frame ~315. Bomb rotates on searchbox's center, not bomb's center. 
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -531,20 +237,6 @@ toon link
 		","
 		12
 		","
-		52
-		","
-		--
-		","
-		Hand grabbox active for the first 2 frames
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		12—18
@@ -555,20 +247,6 @@ toon link
 		Dash Grab
 		","
 		14
-		","
-		60
-		","
-		--
-		","
-		Hand grabbox active for the first 2 frames
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -581,20 +259,6 @@ toon link
 		","
 		15
 		","
-		55
-		","
-		--
-		","
-		Hand grabbox active for the first 2 frames	
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		15—21
@@ -605,20 +269,6 @@ toon link
 		Pummel
 		","
 		1
-		","
-		16
-		","
-		--
-		","
-		Total frames includes 10 frames of hitlag
-		","
-		1.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -631,20 +281,6 @@ toon link
 		","
 		12/14
 		","
-		39
-		","
-		--
-		","
-		--		
-		","
-		3.0/4.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		15—21
@@ -655,20 +291,6 @@ toon link
 		Backward Throw
 		","
 		18
-		","
-		45
-		","
-		--
-		","
-		--		
-		","
-		7.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -681,20 +303,6 @@ toon link
 		","
 		27/28
 		","
-		49
-		","
-		--
-		","
-		--		
-		","
-		5.0/2.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		15—21
@@ -705,20 +313,6 @@ toon link
 		Down Throw
 		","
 		22/24
-		","
-		49
-		","
-		--
-		","
-		--		
-		","
-		3.0/4.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -731,20 +325,6 @@ toon link
 		","
 		22/24
 		","
-		19/24
-		","
-		--
-		","
-		Invulnerable on frame 3-16
-		","
-		3.0/4.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		15—21
@@ -755,20 +335,6 @@ toon link
 		Forward Roll
 		","
 		22/24
-		","
-		28
-		","
-		--
-		","
-		Invulnerable on frame 4-14
-		","
-		3.0/4.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -781,20 +347,6 @@ toon link
 		","
 		22/24
 		","
-		33
-		","
-		--
-		","
-		Invulnerable on frame 4-15
-		","
-		3.0/4.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		15—21
@@ -805,20 +357,6 @@ toon link
 		Neutral Air Dodge
 		","
 		22/24
-		","
-		56
-		","
-		10
-		","
-		Invulnerable on frame 2-26
-		","
-		3.0/4.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -831,20 +369,6 @@ toon link
 		","
 		22/24
 		","
-		76
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19		
-		","
-		3.0/4.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		15—21
@@ -855,20 +379,6 @@ toon link
 		Air Dodge, Diagonally Down
 		","
 		22/24
-		","
-		85
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19	
-		","
-		3.0/4.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -881,20 +391,6 @@ toon link
 		","
 		22/24
 		","
-		93
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19
-		","
-		3.0/4.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		15—21
@@ -905,20 +401,6 @@ toon link
 		Air Dodge, Diagonally Up
 		","
 		22/24
-		","
-		111
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19
-		","
-		3.0/4.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -931,20 +413,6 @@ toon link
 		","
 		22/24
 		","
-		123
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19
-		","
-		3.0/4.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		15—21
@@ -955,20 +423,6 @@ toon link
 			Ledge Grab
 		","
 		22/24
-		","
-		123
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19
-		","
-		3.0/4.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -981,20 +435,6 @@ toon link
 		","
 		22/24
 		","
-		123
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19
-		","
-		3.0/4.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		15—21
@@ -1005,20 +445,6 @@ toon link
 				Ledge Hang
 			","
 		22/24
-		","
-		123
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19
-		","
-		3.0/4.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","

@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 diddy kong
 </h1>","
 		Jab 1
 		","
 		3
-		","
-		19
-		","
-		--
-		","
-		Transitions to jab 2 as ealy as frame 6
-		","
-		2.0
-		","
-		7
-		","
-		3
-		","
-		--
 		","
 		-13
 		","
@@ -31,20 +17,6 @@ diddy kong
 		","
 		5
 		","
-		20
-		","
-		--
-		","
-		Transitions to jab 3 as early as frame 6
-		","
-		1.5
-		","
-		5
-		","
-		3
-		","
-		--
-		","
 		-12
 		","
 		5
@@ -55,20 +27,6 @@ diddy kong
 		Jab 3
 		","
 		5
-		","
-		34
-		","
-		--
-		","
-		--
-		","
-		4.0
-		","
-		11
-		","
-		5
-		","
-		--
 		","
 		-24
 		","
@@ -81,20 +39,6 @@ diddy kong
 		","
 		10
 		","
-		36
-		","
-		--
-		","
-		--
-		","
-		10.0/7.0
-		","
-		8
-		","
-		10
-		","
-		Early/Late
-		","
 		-16
 		","
 		10—11(12/13—16)
@@ -105,20 +49,6 @@ diddy kong
 		Up Tilt
 		","
 		6
-		","
-		29
-		","
-		--
-		","
-		--
-		","
-		6.0
-		","
-		6
-		","
-		6
-		","
-		--
 		","
 		-17
 		","
@@ -131,20 +61,6 @@ diddy kong
 		","
 		4
 		","
-		18
-		","
-		--
-		","
-		--
-		","
-		5.5
-		","
-		6
-		","
-		6
-		","
-		--
-		","
 		-8
 		","
 		4—5
@@ -155,20 +71,6 @@ diddy kong
 		Dash Attack
 		","
 		8/16/22
-		","
-		40
-		","
-		--
-		","
-		--
-		","
-		2.0/3.0
-		","
-		4/5
-		","
-		3/4
-		","
-		Multi/Final
 		","
 		-14
 		","
@@ -181,20 +83,6 @@ diddy kong
 		","
 		12/21
 		","
-		50
-		","
-		--
-		","
-		Charge hold is frame 4
-		","
-		5.0/11.0
-		","
-		6/10
-		","
-		4/8
-		","
-		--
-		","
 		-21
 		","
 		12(13)/21—23
@@ -205,20 +93,6 @@ diddy kong
 		Up Smash
 		","
 		5/12/19
-		","
-		53
-		","
-		--
-		","
-		Charge hold is frame 1
-		","
-		2.5/6.0
-		","
-		5/6
-		","
-		3/5
-		","
-		Multihit/Final
 		","
 		-29
 		","
@@ -231,20 +105,6 @@ diddy kong
 		","
 		7/12
 		","
-		50
-		","
-		--
-		","
-		Charge hold frame is 2
-		","
-		12.0/15.0
-		","
-		9/10
-		","
-		8/10
-		","
-		--
-		","
 		-35/-28
 		","
 		7—8/12—13
@@ -255,20 +115,6 @@ diddy kong
 		Neutral Air
 		","
 		8
-		","
-		48
-		","
-		8
-		","
-		Autocancels on frame 1-3 and 27 onward
-		","
-		6.0
-		","
-		6
-		","
-		3
-		","
-		--
 		","
 		-5
 		","
@@ -281,20 +127,6 @@ diddy kong
 		","
 		6
 		","
-		46
-		","
-		16
-		","
-		Autocancels on frame 1-2 and 26 onward
-		","
-		10.0/8.0
-		","
-		8/7
-		","
-		4/4
-		","
-		Early/Late
-		","
 		-12/-12
 		","
 		6—9(10—16)
@@ -305,20 +137,6 @@ diddy kong
 		Back Air
 		","
 		5
-		","
-		30
-		","
-		7
-		","
-		Autocancels on frame 1-2 and 20 onward
-		","
-		9.0
-		","
-		7
-		","
-		4
-		","
-		--
 		","
 		-3
 		","
@@ -331,20 +149,6 @@ diddy kong
 		","
 		4
 		","
-		36
-		","
-		13
-		","
-		Autocancels on frame 27 onward
-		","
-		7.0
-		","
-		7
-		","
-		3
-		","
-		--
-		","
 		-10
 		","
 		4—7
@@ -355,20 +159,6 @@ diddy kong
 		Down Air
 		","
 		15
-		","
-		46
-		","
-		17
-		","
-		Autocancels on frame 1-14 and 35 onward
-		","
-		13.0/10.0
-		","
-		9/8
-		","
-		5/4
-		","
-		--
 		","
 		-26 (-13 landing)
 		","
@@ -381,20 +171,6 @@ diddy kong
 		","
 		16/17—121/124
 		","
-		48
-		","
-		--
-		","
-		Melee hitbox generated after projectile. Diddy does not suffer hitlag from melee attack
-		","
-		3.3—15.0/2.0
-		","
-		5—10/10—14
-		","
-		2—5/2—2
-		","
-		Projectile/melee
-		","
 		-25 to -17/-19 to -13
 		","
 		**
@@ -405,20 +181,6 @@ diddy kong
 		Peanut Popgun, Misfire
 		","
 		123
-		","
-		228
-		","
-		--
-		","
-		You can cancel charge into shield/air dodge as early as frame 14.
-		","
-		23.0
-		","
-		16
-		","
-		20
-		","
-		--
 		","
 		-85
 		","
@@ -434,20 +196,6 @@ diddy kong
 		--
 		","
 		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		"
 18,"<h1 class=""charactername"">
 diddy kong
@@ -455,20 +203,6 @@ diddy kong
 		Side B (Monkey Flip)
 		","
 		18
-		","
-		47/61
-		","
-		26
-		","
-		First total frames is in the air, second is along level ground.
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -480,20 +214,6 @@ diddy kong
 		Monkey Flip, Attack
 		","
 		6
-		","
-		32
-		","
-		18
-		","
-		Total frames is in the air.
-		","
-		14.0/10.0
-		","
-		10/8
-		","
-		13/10
-		","
-		Early/Late
 		","
 		-5/-8
 		","
@@ -508,20 +228,6 @@ diddy kong
 		","
 		--
 		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		**
 		"
 21,"<h1 class=""charactername"">
@@ -530,20 +236,6 @@ diddy kong
 		Monkey Flip, Grab Attack
 		","
 		18/21
-		","
-		36
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -555,20 +247,6 @@ diddy kong
 		Monkey Flip, Grab Jump
 		","
 		18/27
-		","
-		42
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -583,20 +261,6 @@ diddy kong
 		","
 		--
 		","
-		30
-		","
-		Touching a solid surface during boost activates explosion
-		","
-		10.0/8.0/6.0
-		","
-		8/7/6
-		","
-		10/8/6
-		","
-		Early/Late/Later
-		","
-		--
-		","
 		8—9(10—16/17—35)
 		"
 24,"<h1 class=""charactername"">
@@ -606,20 +270,6 @@ diddy kong
 		","
 		1
 		","
-		57-59
-		","
-		--
-		","
-		Total frames assumes exploding on level ground, Diddy does not suffer hitlag from explosion
-		","
-		18.0
-		","
-		11
-		","
-		6
-		","
-		--
-		","
 		-39 to -41
 		","
 		1—2
@@ -628,20 +278,6 @@ diddy kong
 diddy kong
 </h1>","
 		Down B (Banana Peel)
-		","
-		--
-		","
-		39
-		","
-		--
-		","
-		Item generated on frame 20
-		","
-		--
-		","
-		6
-		","
-		6
 		","
 		--
 		","
@@ -656,20 +292,6 @@ diddy kong
 		","
 		7
 		","
-		36
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		6
-		","
-		6
-		","
-		--
-		","
 		--
 		","
 		7—8
@@ -680,20 +302,6 @@ diddy kong
 		Dash Grab
 		","
 		10
-		","
-		44
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		6
-		","
-		6
-		","
-		--
 		","
 		--
 		","
@@ -706,20 +314,6 @@ diddy kong
 		","
 		11
 		","
-		39
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		6
-		","
-		6
-		","
-		--
-		","
 		--
 		","
 		11—12
@@ -730,20 +324,6 @@ diddy kong
 		Pummel
 		","
 		1
-		","
-		16
-		","
-		--
-		","
-		Total frames includes 10 frames of hitlag
-		","
-		1.0
-		","
-		6
-		","
-		6
-		","
-		--
 		","
 		--
 		","
@@ -756,20 +336,6 @@ diddy kong
 		","
 		21
 		","
-		31
-		","
-		--
-		","
-		--		
-		","
-		9.0
-		","
-		6
-		","
-		6
-		","
-		--
-		","
 		--
 		","
 		11—12
@@ -780,20 +346,6 @@ diddy kong
 		Backward Throw
 		","
 		18
-		","
-		51
-		","
-		--
-		","
-		--		
-		","
-		12.0
-		","
-		6
-		","
-		6
-		","
-		--
 		","
 		--
 		","
@@ -806,20 +358,6 @@ diddy kong
 		","
 		17/19
 		","
-		26
-		","
-		--
-		","
-		--		
-		","
-		1.0/4.0
-		","
-		6
-		","
-		6
-		","
-		--
-		","
 		--
 		","
 		11—12
@@ -830,20 +368,6 @@ diddy kong
 		Down Throw
 		","
 		22
-		","
-		31
-		","
-		--
-		","
-		--		
-		","
-		7.0
-		","
-		6
-		","
-		6
-		","
-		--
 		","
 		--
 		","
@@ -856,20 +380,6 @@ diddy kong
 		","
 		22
 		","
-		19/24
-		","
-		--
-		","
-		Invulnerable on frame 3-16
-		","
-		7.0
-		","
-		6
-		","
-		6
-		","
-		--
-		","
 		--
 		","
 		11—12
@@ -880,20 +390,6 @@ diddy kong
 		Forward Roll
 		","
 		22
-		","
-		28
-		","
-		--
-		","
-		Invulnerable on frame 4-14	
-		","
-		7.0
-		","
-		6
-		","
-		6
-		","
-		--
 		","
 		--
 		","
@@ -906,20 +402,6 @@ diddy kong
 		","
 		22
 		","
-		33
-		","
-		--
-		","
-		Invulnerable on frame 4-15	
-		","
-		7.0
-		","
-		6
-		","
-		6
-		","
-		--
-		","
 		--
 		","
 		11—12
@@ -930,20 +412,6 @@ diddy kong
 		Neutral Air Dodge
 		","
 		22
-		","
-		44
-		","
-		10
-		","
-		Invulnerable on frame 2-27
-		","
-		7.0
-		","
-		6
-		","
-		6
-		","
-		--
 		","
 		--
 		","
@@ -956,20 +424,6 @@ diddy kong
 		","
 		22
 		","
-		62
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19			
-		","
-		7.0
-		","
-		6
-		","
-		6
-		","
-		--
-		","
 		--
 		","
 		11—12
@@ -980,20 +434,6 @@ diddy kong
 		Air Dodge, Diagonally Down
 		","
 		22
-		","
-		68
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19		
-		","
-		7.0
-		","
-		6
-		","
-		6
-		","
-		--
 		","
 		--
 		","
@@ -1006,20 +446,6 @@ diddy kong
 		","
 		22
 		","
-		74
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19	
-		","
-		7.0
-		","
-		6
-		","
-		6
-		","
-		--
-		","
 		--
 		","
 		11—12
@@ -1030,20 +456,6 @@ diddy kong
 		Air Dodge, Diagonally Up
 		","
 		22
-		","
-		86
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19
-		","
-		7.0
-		","
-		6
-		","
-		6
-		","
-		--
 		","
 		--
 		","
@@ -1056,20 +468,6 @@ diddy kong
 		","
 		22
 		","
-		96
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19	
-		","
-		7.0
-		","
-		6
-		","
-		6
-		","
-		--
-		","
 		--
 		","
 		11—12
@@ -1080,20 +478,6 @@ diddy kong
 			Ledge Grab
 		","
 		22
-		","
-		96
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19	
-		","
-		7.0
-		","
-		6
-		","
-		6
-		","
-		--
 		","
 		--
 		","
@@ -1106,20 +490,6 @@ diddy kong
 		","
 		22
 		","
-		96
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19	
-		","
-		7.0
-		","
-		6
-		","
-		6
-		","
-		--
-		","
 		--
 		","
 		11—12
@@ -1130,20 +500,6 @@ diddy kong
 				Ledge Hang
 			","
 		22
-		","
-		96
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19	
-		","
-		7.0
-		","
-		6
-		","
-		6
-		","
-		--
 		","
 		--
 		","

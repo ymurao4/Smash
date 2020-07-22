@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 donkey kong
 </h1>","
 		Jab 1
 		","
 		5
-		","
-		24
-		","
-		--
-		","
-		Transitions to Jab 2 as early as frame 8. 
-		","
-		4.0
-		","
-		8
-		","
-		5
-		","
-		--
 		","
 		-14
 		","
@@ -31,20 +17,6 @@ donkey kong
 		","
 		5
 		","
-		34
-		","
-		--
-		","
-		--
-		","
-		6.0
-		","
-		11
-		","
-		6
-		","
-		--
-		","
 		-24
 		","
 		5—6
@@ -55,20 +27,6 @@ donkey kong
 		Forward Tilt
 		","
 		7
-		","
-		34
-		","
-		--
-		","
-		Arm intangibility on frame 6-9
-		","
-		8.0/9.0
-		","
-		7/7
-		","
-		8/9
-		","
-		No angle/angled
 		","
 		-19/-18
 		","
@@ -81,20 +39,6 @@ donkey kong
 		","
 		5
 		","
-		38
-		","
-		--
-		","
-		Arm intangibility on frame 5-11
-		","
-		10.0
-		","
-		8
-		","
-		10
-		","
-		--
-		","
 		-23
 		","
 		5—11
@@ -105,20 +49,6 @@ donkey kong
 		Down Tilt
 		","
 		6
-		","
-		24
-		","
-		--
-		","
-		Arm intangibility on frame 5-7
-		","
-		6.0
-		","
-		6
-		","
-		6
-		","
-		--
 		","
 		-12
 		","
@@ -131,20 +61,6 @@ donkey kong
 		","
 		9
 		","
-		34
-		","
-		--
-		","
-		--
-		","
-		12.0/9.0
-		","
-		11/9
-		","
-		11/9
-		","
-		Early/Late
-		","
 		-14
 		","
 		9—12/13—24
@@ -155,20 +71,6 @@ donkey kong
 		Forward Smash
 		","
 		22
-		","
-		54
-		","
-		--
-		","
-		Arm and head intangibility on frame 20-26. Charge hold is frame 14. Cannot rebound.
-		","
-		22.0/21.0
-		","
-		16
-		","
-		14
-		","
-		Far/Close
 		","
 		-18
 		","
@@ -181,20 +83,6 @@ donkey kong
 		","
 		14
 		","
-		49
-		","
-		--
-		","
-		Arm and head intangibility on frame 12-15. Charge hold is frame 6. Cannot rebound.
-		","
-		19.0
-		","
-		12
-		","
-		13
-		","
-		--
-		","
 		-22
 		","
 		14—15
@@ -205,20 +93,6 @@ donkey kong
 		Down Smash
 		","
 		11
-		","
-		55
-		","
-		--
-		","
-		Arm intangibility on frame 11-14. Charge hold is frame 2. Cannot rebound.
-		","
-		17.0
-		","
-		11
-		","
-		11
-		","
-		--
 		","
 		-33
 		","
@@ -231,20 +105,6 @@ donkey kong
 		","
 		10
 		","
-		38
-		","
-		10
-		","
-		Autocancels on frame 1-9 and 27 onward
-		","
-		12.0/9.0
-		","
-		8/7
-		","
-		4/4
-		","
-		Early/Late
-		","
 		-6
 		","
 		10—13/14—26
@@ -255,20 +115,6 @@ donkey kong
 		Forward Air
 		","
 		18
-		","
-		55
-		","
-		17
-		","
-		Autocancels on frame 56 onward
-		","
-		16.0/15.0
-		","
-		10/15
-		","
-		6/5
-		","
-		Early/Meteor
 		","
 		-11/-12
 		","
@@ -281,20 +127,6 @@ donkey kong
 		","
 		7
 		","
-		31
-		","
-		11
-		","
-		Autocancels on frame 1-6 and 31 onward
-		","
-		13.0/8.0
-		","
-		9/7
-		","
-		5/4
-		","
-		Early/Late
-		","
 		-6/-7
 		","
 		7—8/9—16
@@ -305,20 +137,6 @@ donkey kong
 		Up Air
 		","
 		6
-		","
-		37
-		","
-		15
-		","
-		Head intangibility on frame 5-10. Autocancels on frame 1-5 and 26 onward
-		","
-		13.0
-		","
-		9
-		","
-		5
-		","
-		--
 		","
 		-10
 		","
@@ -331,20 +149,6 @@ donkey kong
 		","
 		14
 		","
-		54
-		","
-		14
-		","
-		Autocancels on frame 1-2 and 50 onward
-		","
-		16.0
-		","
-		10
-		","
-		6
-		","
-		--
-		","
 		-8
 		","
 		14—16
@@ -355,20 +159,6 @@ donkey kong
 		Neutral B (Giant Punch)
 		","
 		19(+7)
-		","
-		62
-		","
-		--
-		","
-		Entering charge window takes 7 frames. 4 to cancel with shield. Arm intangibility on frame 4-20. Cannot rebound.
-		","
-		10.0—27.0
-		","
-		8—14
-		","
-		10—22
-		","
-		--
 		","
 		-33 to -21
 		","
@@ -381,20 +171,6 @@ donkey kong
 		","
 		19
 		","
-		47
-		","
-		--
-		","
-		Ground version has Super Armor frames 11-20. Air version has Super Armor frames 17-20. Takes 121 frames to reach full charge. Cannot rebound.
-		","
-		28.0
-		","
-		15
-		","
-		24
-		","
-		--
-		","
 		-4
 		","
 		19—20
@@ -405,20 +181,6 @@ donkey kong
 		Side B (Headbutt)
 		","
 		20
-		","
-		62
-		","
-		--
-		","
-		Super armor on frame 5-14 on the ground and in the air.
-		","
-		10.0
-		","
-		8
-		","
-		10
-		","
-		--
 		","
 		-32
 		","
@@ -431,20 +193,6 @@ donkey kong
 		","
 		19/25/32/40/49/55/62
 		","
-		104
-		","
-		--
-		","
-		Super armor on frame 5-17. Arm intangibility on frame 19-24
-		","
-		5.0/1.3/4.0
-		","
-		6/4/11
-		","
-		6/3/5
-		","
-		First/multi/Final
-		","
 		-37
 		","
 		¯\_(ツ)_/¯ 
@@ -455,20 +203,6 @@ donkey kong
 		Spinning Kong, Air
 		","
 		4/12...
-		","
-		--
-		","
-		38
-		","
-		Past frame 12, this move hits once every 1, 2, or 3 frames, seems inconsistent. Arm intangibility from frame 10-38
-		","
-		5.0/1.0/2.0
-		","
-		6/4/4
-		","
-		6/2/3
-		","
-		First/Multi/Final
 		","
 		**
 		","
@@ -481,20 +215,6 @@ donkey kong
 		","
 		12/23
 		","
-		46
-		","
-		--
-		","
-		Each additional rep takes another 26 frames as you mash.
-		","
-		14.0
-		","
-		10
-		","
-		8
-		","
-		--
-		","
 		-15
 		","
 		12—13/23—24...
@@ -505,20 +225,6 @@ donkey kong
 		Hand Slap, Air
 		","
 		19/28
-		","
-		49
-		","
-		10
-		","
-		Transcendent priority. 
-		","
-		5.0/6.0
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
 		","
 		-4
 		","
@@ -531,20 +237,6 @@ donkey kong
 		","
 		8
 		","
-		38
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
-		","
 		-4
 		","
 		8—10
@@ -555,20 +247,6 @@ donkey kong
 		Dash Grab
 		","
 		11
-		","
-		46
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
 		","
 		-4
 		","
@@ -581,20 +259,6 @@ donkey kong
 		","
 		12
 		","
-		41
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
-		","
 		-4
 		","
 		12—14
@@ -605,20 +269,6 @@ donkey kong
 		Pummel
 		","
 		2
-		","
-		21
-		","
-		--
-		","
-		Total frames includes 15 frames of hitlag
-		","
-		1.6
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
 		","
 		-4
 		","
@@ -631,20 +281,6 @@ donkey kong
 		","
 		15
 		","
-		45
-		","
-		--
-		","
-		--		
-		","
-		12.0
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
-		","
 		-4
 		","
 		12—14
@@ -655,20 +291,6 @@ donkey kong
 		Cargo Backward Throw
 		","
 		16
-		","
-		42
-		","
-		--
-		","
-		--		
-		","
-		13.0
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
 		","
 		-4
 		","
@@ -681,20 +303,6 @@ donkey kong
 		","
 		15
 		","
-		29
-		","
-		--
-		","
-		--		
-		","
-		12.0
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
-		","
 		-4
 		","
 		12—14
@@ -705,20 +313,6 @@ donkey kong
 		Cargo Down Throw
 		","
 		17
-		","
-		44
-		","
-		--
-		","
-		--		
-		","
-		11.0
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
 		","
 		-4
 		","
@@ -731,20 +325,6 @@ donkey kong
 		","
 		15
 		","
-		39
-		","
-		--
-		","
-		--		
-		","
-		11.0
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
-		","
 		-4
 		","
 		12—14
@@ -755,20 +335,6 @@ donkey kong
 		Up Throw
 		","
 		14
-		","
-		43
-		","
-		--
-		","
-		--		
-		","
-		9.0
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
 		","
 		-4
 		","
@@ -781,20 +347,6 @@ donkey kong
 		","
 		19
 		","
-		54
-		","
-		--
-		","
-		--		
-		","
-		7.0
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
-		","
 		-4
 		","
 		12—14
@@ -805,20 +357,6 @@ donkey kong
 		Spot Dodge
 		","
 		19
-		","
-		21/26
-		","
-		--
-		","
-		Invulnerable on frame 3-17
-		","
-		7.0
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
 		","
 		-4
 		","
@@ -831,20 +369,6 @@ donkey kong
 		","
 		19
 		","
-		30
-		","
-		--
-		","
-		Invulnerable on frame 4-15
-		","
-		7.0
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
-		","
 		-4
 		","
 		12—14
@@ -855,20 +379,6 @@ donkey kong
 		Backward Roll
 		","
 		19
-		","
-		35
-		","
-		--
-		","
-		Invulnerable on frame 5-16	
-		","
-		7.0
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
 		","
 		-4
 		","
@@ -881,20 +391,6 @@ donkey kong
 		","
 		19
 		","
-		48
-		","
-		10
-		","
-		Invulnerable on frame 4-32
-		","
-		7.0
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
-		","
 		-4
 		","
 		12—14
@@ -905,20 +401,6 @@ donkey kong
 		Air Dodge, Down
 		","
 		19
-		","
-		66
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22		
-		","
-		7.0
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
 		","
 		-4
 		","
@@ -931,20 +413,6 @@ donkey kong
 		","
 		19
 		","
-		73
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22	
-		","
-		7.0
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
-		","
 		-4
 		","
 		12—14
@@ -955,20 +423,6 @@ donkey kong
 		Air Dodge, Left/Right
 		","
 		19
-		","
-		82
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22	
-		","
-		7.0
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
 		","
 		-4
 		","
@@ -981,20 +435,6 @@ donkey kong
 		","
 		19
 		","
-		88
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22
-		","
-		7.0
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
-		","
 		-4
 		","
 		12—14
@@ -1005,20 +445,6 @@ donkey kong
 		Air Dodge, Up
 		","
 		19
-		","
-		109
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22	
-		","
-		7.0
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
 		","
 		-4
 		","
@@ -1031,20 +457,6 @@ donkey kong
 		","
 		19
 		","
-		109
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22	
-		","
-		7.0
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
-		","
 		-4
 		","
 		12—14
@@ -1056,20 +468,6 @@ donkey kong
 		","
 		19
 		","
-		109
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22	
-		","
-		7.0
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
-		","
 		-4
 		","
 		12—14
@@ -1080,20 +478,6 @@ donkey kong
 				Ledge Hang
 			","
 		19
-		","
-		109
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22	
-		","
-		7.0
-		","
-		6/6
-		","
-		6/6
-		","
-		First/Second
 		","
 		-4
 		","

@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 king k. rool
 </h1>","
 				Ledge Hang
 			","
 		33
-		","
-		104
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.	
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		--
 		","
 		**
 		","
@@ -31,20 +17,6 @@ king k. rool
 		","
 		4
 		","
-		24
-		","
-		--
-		","
-		--
-		","
-		2.5
-		","
-		9
-		","
-		4
-		","
-		--
-		","
 		-16
 		","
 		4—5
@@ -55,20 +27,6 @@ king k. rool
 		Jab 2
 		","
 		3
-		","
-		27
-		","
-		--
-		","
-		--
-		","
-		2.5
-		","
-		6
-		","
-		4
-		","
-		--
 		","
 		-20
 		","
@@ -81,20 +39,6 @@ king k. rool
 		","
 		5
 		","
-		33
-		","
-		--
-		","
-		--
-		","
-		7.0
-		","
-		13
-		","
-		7
-		","
-		--
-		","
 		-21
 		","
 		5—8
@@ -105,20 +49,6 @@ king k. rool
 		Forward Tilt
 		","
 		12
-		","
-		42
-		","
-		--
-		","
-		Belly armor on frame 5-11
-		","
-		11.0/13.0
-		","
-		12/13
-		","
-		10/12
-		","
-		Close/Far
 		","
 		-20/-18
 		","
@@ -131,20 +61,6 @@ king k. rool
 		","
 		5
 		","
-		37
-		","
-		--
-		","
-		Arm intangibility on frame 4-9
-		","
-		11.5/8.2/6.8
-		","
-		10/9/8
-		","
-		11/8/7
-		","
-		Early/Late Far/Close
-		","
 		-21
 		","
 		5—6/7—13
@@ -155,20 +71,6 @@ king k. rool
 		Down Tilt
 		","
 		13
-		","
-		42
-		","
-		--
-		","
-		--
-		","
-		13.0/8.0/7.0
-		","
-		9/8/7
-		","
-		12/10/7
-		","
-		Frame 13/Close/Far
 		","
 		-17
 		","
@@ -181,20 +83,6 @@ king k. rool
 		","
 		7
 		","
-		60
-		","
-		--
-		","
-		Belly armor on frame 7-28
-		","
-		15.0/11.0
-		","
-		11/9
-		","
-		15/10
-		","
-		Early/Late
-		","
 		-38
 		","
 		7—14/15—25
@@ -205,20 +93,6 @@ king k. rool
 		Forward Smash
 		","
 		19
-		","
-		61
-		","
-		--
-		","
-		Charge hold on frame 9
-		","
-		19.0/16.5/19.5/16.9/19.9/17.3
-		","
-		13/--/14/--/14/12
-		","
-		13/--/13/--/13/12
-		","
-		(neutral far/close)/(Down far/close)/(Up far/close)
 		","
 		-29/--/-29/--/-29/-30
 		","
@@ -231,20 +105,6 @@ king k. rool
 		","
 		6/19/22
 		","
-		71
-		","
-		--
-		","
-		Head intangibility on frame 6-11. Belly armor on frame 6-19.  Charge hold is frame 2
-		","
-		15.0/3.0/8.0
-		","
-		11/0/10
-		","
-		10/--/7
-		","
-		Hit 1/Hit 2/Hit 3
-		","
 		-55/-42
 		","
 		(6—9/10—11)(19/20/21—23)(22—23)
@@ -255,20 +115,6 @@ king k. rool
 		Down Smash
 		","
 		22
-		","
-		63
-		","
-		--
-		","
-		Belly armor on frame 8-21. Charge hold is frame 1
-		","
-		18.0/4.0
-		","
-		10/5
-		","
-		12/4
-		","
-		Body/Shockwave
 		","
 		-29/-34
 		","
@@ -281,20 +127,6 @@ king k. rool
 		","
 		7
 		","
-		45
-		","
-		9
-		","
-		Belly armor on frame 6-30. Autocancels on frame 1-3 and 40 onward
-		","
-		12.0/8.0
-		","
-		9/7
-		","
-		5/4
-		","
-		Early/Late
-		","
 		-4/-5
 		","
 		7—8/9—30
@@ -305,20 +137,6 @@ king k. rool
 		Forward Air
 		","
 		11
-		","
-		57
-		","
-		11
-		","
-		Autocancels on frame 1-2 and 40 onward
-		","
-		15.5/13.5/10.0/8.0
-		","
-		10/9/8/7
-		","
-		6/5/4/4
-		","
-		Early far/close, Late far/close
 		","
 		-5/-6/-7/-7
 		","
@@ -331,20 +149,6 @@ king k. rool
 		","
 		18
 		","
-		49
-		","
-		14
-		","
-		Autocancels on frame 1-3 and 50 onward
-		","
-		19.0/14.5
-		","
-		13/10
-		","
-		7/5
-		","
-		Far/Close
-		","
 		-7/-9
 		","
 		18—20
@@ -355,20 +159,6 @@ king k. rool
 		Up Air
 		","
 		7
-		","
-		71
-		","
-		13
-		","
-		Head intangibility on frame 7-13. Belly armor on frame 7-20. Autocancels on frame 1-2 and 70 onward
-		","
-		14.0/10.0
-		","
-		10/8
-		","
-		5/4
-		","
-		Early/Late
 		","
 		-8/-9
 		","
@@ -381,20 +171,6 @@ king k. rool
 		","
 		14
 		","
-		61
-		","
-		14
-		","
-		Belly armor on frame 14-25. Autocancels on frame 1-3 and 40 onward
-		","
-		12.0/9.0
-		","
-		9/7
-		","
-		5/4
-		","
-		Early/Late
-		","
 		-9/-10
 		","
 		14—15/16—21
@@ -405,20 +181,6 @@ king k. rool
 		Neutral B (Blunderbuss Kannonball)
 		","
 		25
-		","
-		65
-		","
-		--
-		","
-		Transitions to Vacuum on frame 50. K Rool can pass under platforms during any stage of this attack.
-		","
-		13.0
-		","
-		9
-		","
-		5
-		","
-		--
 		","
 		-25
 		","
@@ -433,20 +195,6 @@ king k. rool
 		","
 		--
 		","
-		--
-		","
-		Max hold of 120 frames
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		7—36
 		"
 18,"<h1 class=""charactername"">
@@ -455,20 +203,6 @@ king k. rool
 		Blunderbuss, Second Shot
 		","
 		35
-		","
-		55
-		","
-		--
-		","
-		12.0 damage dealt to vacuumed victim
-		","
-		18.0/17.0
-		","
-		11/11
-		","
-		16/5
-		","
-		Person/Cannonball
 		","
 		+7/-4
 		","
@@ -481,20 +215,6 @@ king k. rool
 		","
 		27
 		","
-		63
-		","
-		--
-		","
-		17 frame animation of catching the crown. Armor on frame 6-63 (12.0% / 14.4% in 1v1) . If picked up as an item, Crown pickup is 27 frames (as a Projectile, 17 frames).
-		","
-		9.0/7.0
-		","
-		7/7
-		","
-		4/3
-		","
-		Throw/Return
-		","
 		-26
 		","
 		27—64/65—...
@@ -505,20 +225,6 @@ king k. rool
 		Up B (Propellerpack)
 		","
 		11
-		","
-		--
-		","
-		30
-		","
-		Rehit rate of 14 frames. K Rool does not suffer hitlag from this attack
-		","
-		3.0
-		","
-		5
-		","
-		4
-		","
-		--
 		","
 		**
 		","
@@ -531,20 +237,6 @@ king k. rool
 		","
 		5 (Start of Counter)
 		","
-		62
-		","
-		--
-		","
-		Invulnerable on frame 4-15. Counters or reflects on 5-28. Must be facing attacker to activate.
-		","
-		**
-		","
-		**
-		","
-		**
-		","
-		--
-		","
 		**
 		","
 		**
@@ -555,20 +247,6 @@ king k. rool
 		Gut Check, Counterattack
 		","
 		3, 9
-		","
-		38
-		","
-		--
-		","
-		**
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		Front, Reverse
 		","
 		--
 		","
@@ -581,20 +259,6 @@ king k. rool
 		","
 		8
 		","
-		40
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		Front, Reverse
-		","
 		--
 		","
 		8—10
@@ -605,20 +269,6 @@ king k. rool
 		Dash Grab
 		","
 		11
-		","
-		48
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		Front, Reverse
 		","
 		--
 		","
@@ -631,20 +281,6 @@ king k. rool
 		","
 		12
 		","
-		43
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		Front, Reverse
-		","
 		--
 		","
 		12—14
@@ -655,20 +291,6 @@ king k. rool
 		Pummel
 		","
 		**
-		","
-		**
-		","
-		--
-		","
-		**
-		","
-		**
-		","
-		--
-		","
-		--
-		","
-		Front, Reverse
 		","
 		--
 		","
@@ -681,20 +303,6 @@ king k. rool
 		","
 		28
 		","
-		39
-		","
-		--
-		","
-		--		
-		","
-		**
-		","
-		--
-		","
-		--
-		","
-		Front, Reverse
-		","
 		--
 		","
 		12—14
@@ -705,20 +313,6 @@ king k. rool
 		Backward Throw
 		","
 		32
-		","
-		62
-		","
-		--
-		","
-		--		
-		","
-		**
-		","
-		--
-		","
-		--
-		","
-		Front, Reverse
 		","
 		--
 		","
@@ -731,20 +325,6 @@ king k. rool
 		","
 		67
 		","
-		103
-		","
-		--
-		","
-		--		
-		","
-		**
-		","
-		--
-		","
-		--
-		","
-		Front, Reverse
-		","
 		--
 		","
 		12—14
@@ -755,20 +335,6 @@ king k. rool
 		Down Throw
 		","
 		40
-		","
-		73
-		","
-		--
-		","
-		Buries
-		","
-		**
-		","
-		--
-		","
-		--
-		","
-		Front, Reverse
 		","
 		--
 		","
@@ -781,20 +347,6 @@ king k. rool
 		","
 		40
 		","
-		23/28
-		","
-		--
-		","
-		Invulnerable on frame 3-18
-		","
-		**
-		","
-		--
-		","
-		--
-		","
-		Front, Reverse
-		","
 		--
 		","
 		12—14
@@ -805,20 +357,6 @@ king k. rool
 		Forward Roll
 		","
 		40
-		","
-		32
-		","
-		--
-		","
-		Invulnerable on frame 4-16
-		","
-		**
-		","
-		--
-		","
-		--
-		","
-		Front, Reverse
 		","
 		--
 		","
@@ -831,20 +369,6 @@ king k. rool
 		","
 		40
 		","
-		37
-		","
-		--
-		","
-		Invulnerable on frame 5-17
-		","
-		**
-		","
-		--
-		","
-		--
-		","
-		Front, Reverse
-		","
 		--
 		","
 		12—14
@@ -855,20 +379,6 @@ king k. rool
 		Neutral Air Dodge
 		","
 		40
-		","
-		46
-		","
-		10
-		","
-		Invulnerable on frame 4-30
-		","
-		**
-		","
-		--
-		","
-		--
-		","
-		Front, Reverse
 		","
 		--
 		","
@@ -881,20 +391,6 @@ king k. rool
 		","
 		40
 		","
-		64
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22	
-		","
-		**
-		","
-		--
-		","
-		--
-		","
-		Front, Reverse
-		","
 		--
 		","
 		12—14
@@ -905,20 +401,6 @@ king k. rool
 		Air Dodge, Diagonally Down
 		","
 		40
-		","
-		74
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22
-		","
-		**
-		","
-		--
-		","
-		--
-		","
-		Front, Reverse
 		","
 		--
 		","
@@ -931,20 +413,6 @@ king k. rool
 		","
 		40
 		","
-		78
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22
-		","
-		**
-		","
-		--
-		","
-		--
-		","
-		Front, Reverse
-		","
 		--
 		","
 		12—14
@@ -955,20 +423,6 @@ king k. rool
 		Air Dodge, Diagonally Up
 		","
 		40
-		","
-		88
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22
-		","
-		**
-		","
-		--
-		","
-		--
-		","
-		Front, Reverse
 		","
 		--
 		","
@@ -981,20 +435,6 @@ king k. rool
 		","
 		40
 		","
-		102
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22
-		","
-		**
-		","
-		--
-		","
-		--
-		","
-		Front, Reverse
-		","
 		--
 		","
 		12—14
@@ -1005,20 +445,6 @@ king k. rool
 			Ledge Grab
 		","
 		40
-		","
-		102
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22
-		","
-		**
-		","
-		--
-		","
-		--
-		","
-		Front, Reverse
 		","
 		--
 		","
@@ -1031,20 +457,6 @@ king k. rool
 		","
 		40
 		","
-		102
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22
-		","
-		**
-		","
-		--
-		","
-		--
-		","
-		Front, Reverse
-		","
 		--
 		","
 		12—14
@@ -1055,20 +467,6 @@ king k. rool
 				Ledge Hang
 			","
 		40
-		","
-		102
-		","
-		11-19
-		","
-		Invulnerable on frame 4-22
-		","
-		**
-		","
-		--
-		","
-		--
-		","
-		Front, Reverse
 		","
 		--
 		","

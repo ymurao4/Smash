@@ -27,34 +27,34 @@ for name in fighter_names:
       startup = moveContainer.find("div", class_="startup").text
     except:
       print("")
-    try:
-      totalframes = moveContainer.find("div", class_="totalframes").text
-    except:
-      print("")
-    try:
-      landinglag = moveContainer.find("div", class_="landinglag").text
-    except:
-      print("")
-    try:
-      notes = moveContainer.find("div", class_="notes").text
-    except:
-      print("")
-    try:
-      basedamage = moveContainer.find("div", class_="basedamage").text
-    except:
-      print("")
-    try:
-      shieldlag = moveContainer.find("div", class_="shieldlag").text
-    except:
-      print("")
-    try:
-      shieldstun = moveContainer.find("div", class_="shieldstun").text
-    except:
-      print("")
-    try:
-      whichhitbox = moveContainer.find("div", class_="whichhitbox").text
-    except:
-      print("")
+    # try:
+    #   totalframes = moveContainer.find("div", class_="totalframes").text
+    # except:
+    #   print("")
+    # try:
+    #   landinglag = moveContainer.find("div", class_="landinglag").text
+    # except:
+    #   print("")
+    # try:
+    #   notes = moveContainer.find("div", class_="notes").text
+    # except:
+    #   print("")
+    # try:
+    #   basedamage = moveContainer.find("div", class_="basedamage").text
+    # except:
+    #   print("")
+    # try:
+    #   shieldlag = moveContainer.find("div", class_="shieldlag").text
+    # except:
+    #   print("")
+    # try:
+    #   shieldstun = moveContainer.find("div", class_="shieldstun").text
+    # except:
+    #   print("")
+    # try:
+    #   whichhitbox = moveContainer.find("div", class_="whichhitbox").text
+    # except:
+    #   print("")
     try:
       advantage = moveContainer.find("div", class_="advantage").text
     except:
@@ -63,11 +63,11 @@ for name in fighter_names:
       activeframes = moveContainer.find("div", class_="activeframes").text
     except:
       print("")
-    table.append([headLine, movename, startup, totalframes, landinglag, notes, basedamage, shieldlag, shieldstun, whichhitbox, advantage, activeframes])
+    table.append([headLine, movename, startup, advantage, activeframes])
 
   import pandas as pd
 
-  Column = ['Character Name', 'Move name', 'Start up', 'Total frames', 'Landingag', 'Notes', 'Base damage', 'Shield lag', 'Shield stun', 'Which hit box', 'Advantage', 'Active frames']
+  Column = ['Character Name', 'Move name', 'Start up', 'Advantage', 'Active frames']
 
   df = pd.DataFrame(table, columns=Column)
 

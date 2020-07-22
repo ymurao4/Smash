@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 lucina
 </h1>","
 		Jab 1
 		","
 		5
-		","
-		25
-		","
-		--
-		","
-		Transitions to Jab 2 as early as frame 11.
-		","
-		3.3
-		","
-		7
-		","
-		4
-		","
-		--
 		","
 		-16
 		","
@@ -31,20 +17,6 @@ lucina
 		","
 		4
 		","
-		28
-		","
-		--
-		","
-		--
-		","
-		4.7
-		","
-		7
-		","
-		5
-		","
-		--
-		","
 		-19
 		","
 		4—5
@@ -55,20 +27,6 @@ lucina
 		Forward Tilt
 		","
 		8
-		","
-		33
-		","
-		--
-		","
-		--
-		","
-		11.0
-		","
-		8
-		","
-		10
-		","
-		--
 		","
 		-15
 		","
@@ -81,20 +39,6 @@ lucina
 		","
 		6
 		","
-		33
-		","
-		--
-		","
-		--
-		","
-		7.6/8.0
-		","
-		7/7
-		","
-		8/8
-		","
-		Early/Late
-		","
 		-19
 		","
 		6—8/9—12
@@ -105,20 +49,6 @@ lucina
 		Down Tilt
 		","
 		7
-		","
-		23
-		","
-		--
-		","
-		--
-		","
-		8.5
-		","
-		7
-		","
-		8
-		","
-		--
 		","
 		-8
 		","
@@ -131,20 +61,6 @@ lucina
 		","
 		13
 		","
-		49
-		","
-		--
-		","
-		--
-		","
-		10.9
-		","
-		8
-		","
-		15
-		","
-		--
-		","
 		-21
 		","
 		13—16
@@ -155,20 +71,6 @@ lucina
 		Forward Smash
 		","
 		10
-		","
-		51
-		","
-		--
-		","
-		Charge hold is frame 3.
-		","
-		15.0
-		","
-		10
-		","
-		10
-		","
-		--
 		","
 		-31
 		","
@@ -181,20 +83,6 @@ lucina
 		","
 		13
 		","
-		58
-		","
-		--
-		","
-		Launcher and sword hits generate on the same frame. Charge hold is frame 5
-		","
-		3.0/14.2
-		","
-		0/10
-		","
-		4/10
-		","
-		Body Launcher/Sword
-		","
 		-41/-35
 		","
 		13—14/13—17
@@ -205,20 +93,6 @@ lucina
 		Down Smash
 		","
 		6/21
-		","
-		55
-		","
-		--
-		","
-		Charge hold is frame 4.
-		","
-		9.5/14.0
-		","
-		8/10
-		","
-		7/10
-		","
-		--
 		","
 		-42/-24
 		","
@@ -231,20 +105,6 @@ lucina
 		","
 		6/15
 		","
-		49
-		","
-		7
-		","
-		Autocancels on frame 47 onward
-		","
-		4.2/8.5
-		","
-		5/7
-		","
-		3/4
-		","
-		--
-		","
 		-4/-3
 		","
 		6—7/15—21
@@ -255,20 +115,6 @@ lucina
 		Forward Air
 		","
 		6
-		","
-		37
-		","
-		10
-		","
-		Autocancels on frame 36 onward
-		","
-		10.5
-		","
-		8
-		","
-		4
-		","
-		--
 		","
 		-6
 		","
@@ -281,20 +127,6 @@ lucina
 		","
 		7
 		","
-		39
-		","
-		10
-		","
-		Autocancels on frame 1-2 and 32 onward
-		","
-		11.8
-		","
-		9
-		","
-		5
-		","
-		--
-		","
 		-5
 		","
 		7—11
@@ -305,20 +137,6 @@ lucina
 		Up Air
 		","
 		5
-		","
-		45
-		","
-		8
-		","
-		Autocancels on frame 1-2 and 38 onward
-		","
-		11.4
-		","
-		8
-		","
-		5
-		","
-		--
 		","
 		-3
 		","
@@ -331,20 +149,6 @@ lucina
 		","
 		9/11
 		","
-		59
-		","
-		14
-		","
-		Autocancels on frame 1-2 and 55 onward
-		","
-		12.3/14.2
-		","
-		9/12
-		","
-		5/5
-		","
-		Sour/Meteor
-		","
 		-9/-9
 		","
 		9—13/11
@@ -355,20 +159,6 @@ lucina
 		Neutral B (Shieldbreaker)
 		","
 		19—78
-		","
-		50—109
-		","
-		--
-		","
-		On release, startup is 8 and total frames is 39
-		","
-		8.5—23
-		","
-		13—18
-		","
-		8—Shieldbreak
-		","
-		--
 		","
 		-23 to Shieldbreak
 		","
@@ -381,20 +171,6 @@ lucina
 		","
 		9
 		","
-		39/29
-		","
-		--
-		","
-		Second total frames is the air version. Can transition to next slash on frame 12-30
-		","
-		2.8
-		","
-		5
-		","
-		4
-		","
-		--
-		","
 		-26/-16
 		","
 		9—11
@@ -405,20 +181,6 @@ lucina
 		Dancing Blade 2 Neutral
 		","
 		5
-		","
-		38
-		","
-		--
-		","
-		Can transition to next slash on frame 8-29
-		","
-		2.8
-		","
-		5
-		","
-		4
-		","
-		--
 		","
 		-29
 		","
@@ -431,20 +193,6 @@ lucina
 		","
 		4
 		","
-		43
-		","
-		--
-		","
-		Can transition to next slash on frame 7-24
-		","
-		3.3
-		","
-		5
-		","
-		4
-		","
-		--
-		","
 		-35
 		","
 		4—6
@@ -455,20 +203,6 @@ lucina
 		Dancing Blade 4 Neutral
 		","
 		7
-		","
-		55
-		","
-		--
-		","
-		--
-		","
-		4.7
-		","
-		7
-		","
-		5
-		","
-		--
 		","
 		-43
 		","
@@ -481,20 +215,6 @@ lucina
 		","
 		4
 		","
-		38
-		","
-		--
-		","
-		Can transition to next slash on frame 8-29
-		","
-		2.8
-		","
-		5
-		","
-		4
-		","
-		--
-		","
 		-30
 		","
 		4—7
@@ -505,20 +225,6 @@ lucina
 		Dancing Blade 3 Up
 		","
 		5
-		","
-		43
-		","
-		--
-		","
-		Can transition to next slash on frame 8-24
-		","
-		3.3
-		","
-		5
-		","
-		4
-		","
-		--
 		","
 		-34
 		","
@@ -531,20 +237,6 @@ lucina
 		","
 		6
 		","
-		44
-		","
-		--
-		","
-		--
-		","
-		5.6
-		","
-		6
-		","
-		6
-		","
-		--
-		","
 		-32
 		","
 		6—10
@@ -556,20 +248,6 @@ lucina
 		","
 		5
 		","
-		43
-		","
-		--
-		","
-		Can transition to next slash on frame 8-24
-		","
-		3.3
-		","
-		5
-		","
-		4
-		","
-		--
-		","
 		-34
 		","
 		5—7
@@ -580,20 +258,6 @@ lucina
 		Dancing Blade 4 Down
 		","
 		7
-		","
-		74
-		","
-		--
-		","
-		--
-		","
-		2.0/4.2
-		","
-		4/5
-		","
-		-/5
-		","
-		Multi/Final
 		","
 		-50
 		","
@@ -608,20 +272,6 @@ lucina
 		","
 		--
 		","
-		24
-		","
-		Intangibile on frame 4-5. 1-5 in the air.
-		","
-		11.0/7.0
-		","
-		8/7
-		","
-		10/7
-		","
-		Early/Late
-		","
-		--
-		","
 		5—6/6—11
 		"
 25,"<h1 class=""charactername"">
@@ -630,20 +280,6 @@ lucina
 		Down B (Counter)
 		","
 		6 (Start of Counter)
-		","
-		64
-		","
-		--
-		","
-		Intangibility on 5-6 when detecting. Counter window 6-27.
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -656,20 +292,6 @@ lucina
 		","
 		4
 		","
-		40
-		","
-		--
-		","
-		Intangible on frame 1-8 in addition to counter freeze frames. 8% Minimum base damage, x1.2 enemy's attack.
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		4—7
@@ -680,20 +302,6 @@ lucina
 		Grab
 		","
 		6
-		","
-		34
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -706,20 +314,6 @@ lucina
 		","
 		9
 		","
-		42
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		9—10
@@ -730,20 +324,6 @@ lucina
 		Pivot Grab
 		","
 		10
-		","
-		37
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -756,20 +336,6 @@ lucina
 		","
 		1
 		","
-		19
-		","
-		--
-		","
-		Total frames includes 13 frames of hitlag
-		","
-		1.3
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		10—11
@@ -780,20 +346,6 @@ lucina
 		Forward Throw
 		","
 		18
-		","
-		34
-		","
-		--
-		","
-		Visualization does not linclude hitlag	
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -806,20 +358,6 @@ lucina
 		","
 		19
 		","
-		47
-		","
-		--
-		","
-		Visualization does not linclude hitlag		
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		10—11
@@ -830,20 +368,6 @@ lucina
 		Up Throw
 		","
 		13
-		","
-		44
-		","
-		--
-		","
-		--		
-		","
-		5.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -856,20 +380,6 @@ lucina
 		","
 		20
 		","
-		46
-		","
-		--
-		","
-		Visualization does not linclude hitlag	
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		10—11
@@ -880,20 +390,6 @@ lucina
 		Spot Dodge
 		","
 		20
-		","
-		20/25
-		","
-		--
-		","
-		Invulnerable on frame 3-17
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -906,20 +402,6 @@ lucina
 		","
 		20
 		","
-		29
-		","
-		--
-		","
-		Invulnerable on frame 4-15
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		10—11
@@ -930,20 +412,6 @@ lucina
 		Backward Roll
 		","
 		20
-		","
-		34
-		","
-		--
-		","
-		Invulnerable on frame 5-16
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -956,20 +424,6 @@ lucina
 		","
 		20
 		","
-		52
-		","
-		10
-		","
-		Invulnerable on frame 3-29
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		10—11
@@ -980,20 +434,6 @@ lucina
 		Air Dodge, Down
 		","
 		20
-		","
-		69
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21		
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -1006,20 +446,6 @@ lucina
 		","
 		20
 		","
-		79
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		10—11
@@ -1030,20 +456,6 @@ lucina
 		Air Dodge, Left/Right
 		","
 		20
-		","
-		85
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -1056,20 +468,6 @@ lucina
 		","
 		20
 		","
-		99
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		10—11
@@ -1080,20 +478,6 @@ lucina
 		Air Dodge, Up
 		","
 		20
-		","
-		116
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -1106,20 +490,6 @@ lucina
 		","
 		20
 		","
-		116
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		10—11
@@ -1131,20 +501,6 @@ lucina
 		","
 		20
 		","
-		116
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		10—11
@@ -1155,20 +511,6 @@ lucina
 				Ledge Hang
 			","
 		20
-		","
-		116
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		4.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","

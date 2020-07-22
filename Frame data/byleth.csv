@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 byleth
 </h1>","
 		Jab 1
 		","
 		4
-		","
-		22
-		","
-		--
-		","
-		**
-		","
-		1.5
-		","
-		8
-		","
-		3
-		","
-		--
 		","
 		-15
 		","
@@ -31,20 +17,6 @@ byleth
 		","
 		4
 		","
-		24
-		","
-		--
-		","
-		**
-		","
-		2.0
-		","
-		7
-		","
-		3
-		","
-		--
-		","
 		-17
 		","
 		4—5
@@ -55,20 +27,6 @@ byleth
 		Jab 3
 		","
 		5
-		","
-		34
-		","
-		--
-		","
-		**
-		","
-		3.5
-		","
-		12
-		","
-		5	
-		","
-		--
 		","
 		-22
 		","
@@ -83,20 +41,6 @@ byleth
 		","
 		**
 		","
-		--
-		","
-		**
-		","
-		0.4
-		","
-		4
-		","
-		2
-		","
-		--
-		","
-		**
-		","
 		11/14/17/20/23/...
 		"
 4,"<h1 class=""charactername"">
@@ -105,20 +49,6 @@ byleth
 		Rapid Jab Finisher
 		","
 		6
-		","
-		50
-		","
-		--
-		","
-		**
-		","
-		3.5
-		","
-		10
-		","
-		4
-		","
-		--
 		","
 		-40
 		","
@@ -131,20 +61,6 @@ byleth
 		","
 		8
 		","
-		34
-		","
-		--
-		","
-		--
-		","
-		11.0
-		","
-		8
-		","
-		10
-		","
-		--
-		","
 		-15
 		","
 		8—10
@@ -155,20 +71,6 @@ byleth
 		Up Tilt
 		","
 		9
-		","
-		34
-		","
-		--
-		","
-		--
-		","
-		10.0
-		","
-		8
-		","
-		10
-		","
-		--
 		","
 		-15
 		","
@@ -181,20 +83,6 @@ byleth
 		","
 		13
 		","
-		35
-		","
-		--
-		","
-		--
-		","
-		8.0
-		","
-		7
-		","
-		8
-		","
-		--
-		","
 		-14
 		","
 		13—15
@@ -205,20 +93,6 @@ byleth
 		Dash Attack
 		","
 		9
-		","
-		44
-		","
-		--
-		","
-		--
-		","
-		9.0/13.0
-		","
-		7/13
-		","
-		9/12
-		","
-		Sour/Sweet
 		","
 		-26/-23
 		","
@@ -231,20 +105,6 @@ byleth
 		","
 		23
 		","
-		63
-		","
-		--
-		","
-		Charge Hold is frame 14. The up-angled version is the most powerful.
-		","
-		Normal: 12.0/18.0 || Down: 11.5/17.25 || Up: 13.0/19.5
-		","
-		9/15 || 9/16 || 9/15
-		","
-		**
-		","
-		Normal/Down/Up (Sour/Sweet for each)
-		","
 		-31/-27 || -32/-28 || -32/-28
 		","
 		23—25
@@ -255,20 +115,6 @@ byleth
 		Up Smash
 		","
 		13
-		","
-		56
-		","
-		--
-		","
-		Charge hold is frame 7.
-		","
-		2.0/2.0/2.0/10.0
-		","
-		5/4/8
-		","
-		3/3/7
-		","
-		First/Multi/Final
 		","
 		-22
 		","
@@ -281,20 +127,6 @@ byleth
 		","
 		19/29
 		","
-		74
-		","
-		--
-		","
-		Charge hold is frame 3. 8 Shield Damage.
-		","
-		23.0/23.0
-		","
-		18
-		","
-		15
-		","
-		First/Second
-		","
 		-40/-30
 		","
 		19—21/29—31
@@ -305,20 +137,6 @@ byleth
 		Neutral Air
 		","
 		6...
-		","
-		51
-		","
-		13
-		","
-		Autocancels on frame 1-5 and 39 onward. Landing hitbox on frame 2.
-		","
-		2.5/3.0/1.0
-		","
-		5/7
-		","
-		2/2
-		","
-		Multihits/Final/Landing
 		","
 		-11/-11/-9
 		","
@@ -331,20 +149,6 @@ byleth
 		","
 		12
 		","
-		39
-		","
-		11
-		","
-		Autocancels out of short hop, frame 1—2, and 36 onward.
-		","
-		12.75/8.5
-		","
-		7/11
-		","
-		4/5
-		","
-		Sweet/Sour
-		","
 		-7/-6
 		","
 		12—13
@@ -355,20 +159,6 @@ byleth
 		Back Air
 		","
 		13
-		","
-		46
-		","
-		13
-		","
-		Autocancels frame 1-5 and 40 onward.
-		","
-		15.0/10.0 (7.5/5.0)
-		","
-		8/13
-		","
-		4/5
-		","
-		Sweet/Sour Early (Sweet/Sour Late)
 		","
 		-9/-8
 		","
@@ -381,20 +171,6 @@ byleth
 		","
 		10...
 		","
-		48
-		","
-		14
-		","
-		Autocancels on frame 1-3 and 48 onward
-		","
-		3.0/5.5
-		","
-		5/7
-		","
-		2/3
-		","
-		Multi/Final
-		","
 		-12/-11
 		","
 		10—19(rehit: 5)/20—23
@@ -405,20 +181,6 @@ byleth
 		Down Air
 		","
 		22
-		","
-		59
-		","
-		28
-		","
-		Autocancels on frame 1 and 52 onward. 6 Shield Damage.
-		","
-		19.0
-		","
-		17
-		","
-		7
-		","
-		--
 		","
 		-21
 		","
@@ -431,20 +193,6 @@ byleth
 		","
 		45/114
 		","
-		80/160
-		","
-		--
-		","
-		Requires holding from the start, otherwise the same in terms of cancels and turnarounds. Both charged and non-charged arrows can be reflected, but only the fully charged version can be absorbed. Can be shield cancelled from F21. Can input a turnaround from F28. 
-		","
-		12.0/29.0
-		","
-		11/16
-		","
-		12/8
-		","
-		Normal/Held
-		","
 		-8/-21
 		","
 		45—61 / 114
@@ -455,20 +203,6 @@ byleth
 		Side B (Areadbhar)
 		","
 		Ground: 20 || Air: 21
-		","
-		65
-		","
-		**
-		","
-		Sweetspot spawns a frame later than the sourspot for some reason, and gains priority for THAT ONE FRAME, and then loses it a frame later again. In air, landing lag equates to how many total frames remain upon landing
-		","
-		17.25/11.5
-		","
-		9/13
-		","
-		11/15
-		","
-		Sweet/Sour
 		","
 		-34/-30
 		","
@@ -481,20 +215,6 @@ byleth
 		","
 		11/12/46
 		","
-		48
-		","
-		**
-		","
-		Tethers from F7 up to 3 times. Untechable spike starting from 46%, KB increases with tether grab distance. However, Rage does not appear to affect this, but freshness and staling do(?). Works as a hitgrab, so it can be shielded. Can be used to get Wall Jumps, from ~F8ish(?). No clue how ride up actually works but it recurs until F16. Frame 11 grounded hit does not occur if done in the air. 
-		","
-		1.0/3.0/6.5
-		","
-		**
-		","
-		**
-		","
-		Hit/Grab/Final
-		","
 		-35(ground) || **(air)
 		","
 		11/12—19/46(ground) || 12—19/46(air)
@@ -505,20 +225,6 @@ byleth
 		Down B (Aymr)
 		","
 		62
-		","
-		133
-		","
-		**
-		","
-		Turn Around window is F12-41. Reversal takes 8 frames. Does stuff with air speed F1-50, F53 adds speed, F60-65 forbids landing while forcing Aymr to pierce the ground, F65-117 does more stuff with air speed, F96 goes back to normal fall speed. Damage-based armor on frames 34—63, but it does not apply when used from the air unless landing on frame 34 or earlier. Damage-based armor takes 36.0% damage in 1v1 and 30% damage in FFA/doubles.
-		","
-		Grounded: 30.0/8.0 (Aerial: 25.0/6.0)
-		","
-		25/22
-		","
-		**
-		","
-		Hit/Shockwave
 		","
 		**
 		","
@@ -531,20 +237,6 @@ byleth
 		","
 		6
 		","
-		39
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		25/22
-		","
-		**
-		","
-		Hit/Shockwave
-		","
 		**
 		","
 		6—7
@@ -555,20 +247,6 @@ byleth
 		Dash Grab
 		","
 		10
-		","
-		48
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		25/22
-		","
-		**
-		","
-		Hit/Shockwave
 		","
 		**
 		","
@@ -581,20 +259,6 @@ byleth
 		","
 		11
 		","
-		42
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		25/22
-		","
-		**
-		","
-		Hit/Shockwave
-		","
 		**
 		","
 		11—12
@@ -605,20 +269,6 @@ byleth
 		Pummel
 		","
 		1
-		","
-		22
-		","
-		**
-		","
-		Total frames includes 17 frames of hitlag (plus one in 1v1)		
-		","
-		**
-		","
-		25/22
-		","
-		**
-		","
-		Hit/Shockwave
 		","
 		**
 		","
@@ -631,20 +281,6 @@ byleth
 		","
 		13
 		","
-		35
-		","
-		--
-		","
-		--		
-		","
-		6.0
-		","
-		25/22
-		","
-		**
-		","
-		Hit/Shockwave
-		","
 		**
 		","
 		11—12
@@ -655,20 +291,6 @@ byleth
 		Backward Throw
 		","
 		30
-		","
-		43
-		","
-		--
-		","
-		--		
-		","
-		7.0
-		","
-		25/22
-		","
-		**
-		","
-		Hit/Shockwave
 		","
 		**
 		","
@@ -681,20 +303,6 @@ byleth
 		","
 		15
 		","
-		37
-		","
-		--
-		","
-		--		
-		","
-		9.0
-		","
-		25/22
-		","
-		**
-		","
-		Hit/Shockwave
-		","
 		**
 		","
 		11—12
@@ -705,20 +313,6 @@ byleth
 		Down Throw
 		","
 		13
-		","
-		31
-		","
-		--
-		","
-		--		
-		","
-		5.0
-		","
-		25/22
-		","
-		**
-		","
-		Hit/Shockwave
 		","
 		**
 		","
@@ -731,20 +325,6 @@ byleth
 		","
 		13
 		","
-		20/25
-		","
-		--
-		","
-		Invulnerable on frame 3-17	
-		","
-		5.0
-		","
-		25/22
-		","
-		**
-		","
-		Hit/Shockwave
-		","
 		**
 		","
 		11—12
@@ -755,20 +335,6 @@ byleth
 		Forward Roll
 		","
 		13
-		","
-		29
-		","
-		--
-		","
-		Invulnerable on frame 4-15
-		","
-		5.0
-		","
-		25/22
-		","
-		**
-		","
-		Hit/Shockwave
 		","
 		**
 		","
@@ -781,20 +347,6 @@ byleth
 		","
 		13
 		","
-		34
-		","
-		--
-		","
-		Invulnerable on frame 5-16	
-		","
-		5.0
-		","
-		25/22
-		","
-		**
-		","
-		Hit/Shockwave
-		","
 		**
 		","
 		11—12
@@ -805,20 +357,6 @@ byleth
 		Neutral Air Dodge
 		","
 		13
-		","
-		49
-		","
-		**
-		","
-		Invulnerable on frame 3-30		
-		","
-		5.0
-		","
-		25/22
-		","
-		**
-		","
-		Hit/Shockwave
 		","
 		**
 		","
@@ -831,20 +369,6 @@ byleth
 		","
 		13
 		","
-		68
-		","
-		**
-		","
-		Invulnerable on frame 3-21
-		","
-		5.0
-		","
-		25/22
-		","
-		**
-		","
-		Hit/Shockwave
-		","
 		**
 		","
 		11—12
@@ -855,20 +379,6 @@ byleth
 		Air Dodge, Diagonally Down
 		","
 		13
-		","
-		76
-		","
-		**
-		","
-		Invulnerable on frame 3-21
-		","
-		5.0
-		","
-		25/22
-		","
-		**
-		","
-		Hit/Shockwave
 		","
 		**
 		","
@@ -881,20 +391,6 @@ byleth
 		","
 		13
 		","
-		83
-		","
-		**
-		","
-		Invulnerable on frame 3-21		
-		","
-		5.0
-		","
-		25/22
-		","
-		**
-		","
-		Hit/Shockwave
-		","
 		**
 		","
 		11—12
@@ -905,20 +401,6 @@ byleth
 		Air Dodge, Diagonally Up
 		","
 		13
-		","
-		97
-		","
-		**
-		","
-		Invulnerable on frame 3-21	
-		","
-		5.0
-		","
-		25/22
-		","
-		**
-		","
-		Hit/Shockwave
 		","
 		**
 		","
@@ -931,20 +413,6 @@ byleth
 		","
 		13
 		","
-		111
-		","
-		**
-		","
-		Invulnerable on frame 3-21
-		","
-		5.0
-		","
-		25/22
-		","
-		**
-		","
-		Hit/Shockwave
-		","
 		**
 		","
 		11—12
@@ -955,20 +423,6 @@ byleth
 			Ledge Grab
 		","
 		13
-		","
-		111
-		","
-		**
-		","
-		Invulnerable on frame 3-21
-		","
-		5.0
-		","
-		25/22
-		","
-		**
-		","
-		Hit/Shockwave
 		","
 		**
 		","
@@ -981,20 +435,6 @@ byleth
 		","
 		13
 		","
-		111
-		","
-		**
-		","
-		Invulnerable on frame 3-21
-		","
-		5.0
-		","
-		25/22
-		","
-		**
-		","
-		Hit/Shockwave
-		","
 		**
 		","
 		11—12
@@ -1005,20 +445,6 @@ byleth
 				Ledge Hang
 			","
 		13
-		","
-		111
-		","
-		**
-		","
-		Invulnerable on frame 3-21
-		","
-		5.0
-		","
-		25/22
-		","
-		**
-		","
-		Hit/Shockwave
 		","
 		**
 		","

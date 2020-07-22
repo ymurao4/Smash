@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 wario
 </h1>","
 		Jab
 		","
 		8
-		","
-		29
-		","
-		--
-		","
-		Transitions to Jab 2 as early as frame 10.
-		","
-		4.0
-		","
-		9
-		","
-		5
-		","
-		--
 		","
 		-16
 		","
@@ -31,20 +17,6 @@ wario
 		","
 		4
 		","
-		33
-		","
-		--
-		","
-		--
-		","
-		5.0
-		","
-		12
-		","
-		6
-		","
-		--
-		","
 		-23
 		","
 		4—5
@@ -55,20 +27,6 @@ wario
 		Forward Tilt
 		","
 		12
-		","
-		39
-		","
-		--
-		","
-		--
-		","
-		13.0
-		","
-		9
-		","
-		12
-		","
-		--
 		","
 		-15
 		","
@@ -81,20 +39,6 @@ wario
 		","
 		8
 		","
-		27
-		","
-		--
-		","
-		--
-		","
-		6.0/5.0
-		","
-		6
-		","
-		6
-		","
-		Early/Late
-		","
 		-13
 		","
 		8—10/11—19
@@ -105,20 +49,6 @@ wario
 		Down Tilt
 		","
 		5
-		","
-		17
-		","
-		--
-		","
-		--
-		","
-		4.0
-		","
-		5
-		","
-		5
-		","
-		--
 		","
 		-7
 		","
@@ -131,20 +61,6 @@ wario
 		","
 		5
 		","
-		48
-		","
-		--
-		","
-		--
-		","
-		11.0/5.0
-		","
-		8/6
-		","
-		10/6
-		","
-		Early/Late
-		","
 		-33
 		","
 		5—8/9—23
@@ -155,20 +71,6 @@ wario
 		Forward Smash
 		","
 		18
-		","
-		65
-		","
-		--
-		","
-		Charge hold is frame 4
-		","
-		20.0
-		","
-		12
-		","
-		13
-		","
-		--
 		","
 		-34
 		","
@@ -181,20 +83,6 @@ wario
 		","
 		11
 		","
-		57
-		","
-		--
-		","
-		Head intangibility on frame 8-14. Charge hold is frame 4
-		","
-		17.0/13.0
-		","
-		11/9
-		","
-		11/9
-		","
-		Close/Far
-		","
 		-35/-37
 		","
 		11—12/13
@@ -205,20 +93,6 @@ wario
 		Down Smash
 		","
 		8
-		","
-		61
-		","
-		--
-		","
-		Charge hold is frame 2
-		","
-		13.0/10.0/5.0
-		","
-		9
-		","
-		9
-		","
-		Early/Late/Later
 		","
 		-44
 		","
@@ -231,20 +105,6 @@ wario
 		","
 		4/20
 		","
-		45
-		","
-		7
-		","
-		Autocancels on frame 1-3 and 43 onward
-		","
-		6.0 / 4.0
-		","
-		6/6
-		","
-		3/3
-		","
-		--
-		","
 		-4/-4
 		","
 		4—12(13—17)/20—26(27—42)
@@ -255,20 +115,6 @@ wario
 		Forward Air
 		","
 		5
-		","
-		37
-		","
-		10
-		","
-		Autocancels on frame 1-4 and 27 onward
-		","
-		7.0 / 4.5
-		","
-		7/5
-		","
-		3/3
-		","
-		Early/Late
 		","
 		-7/-7
 		","
@@ -281,20 +127,6 @@ wario
 		","
 		9
 		","
-		49
-		","
-		16
-		","
-		Autocancels on frame 1-4 and 34 onward
-		","
-		12.0
-		","
-		9
-		","
-		5
-		","
-		--
-		","
 		-11
 		","
 		9—11
@@ -305,20 +137,6 @@ wario
 		Up Air
 		","
 		8
-		","
-		46
-		","
-		7
-		","
-		Autocancels on frame 1-3 and 37 onward
-		","
-		13.0
-		","
-		9
-		","
-		5
-		","
-		--
 		","
 		-2
 		","
@@ -331,20 +149,6 @@ wario
 		","
 		9/11/13/15/17/19/21
 		","
-		47
-		","
-		18
-		","
-		Autocancels on frame 1-2 and 42 onward
-		","
-		1.3/4.0
-		","
-		4/11
-		","
-		2/3
-		","
-		Multi/Final
-		","
 		-16/-15
 		","
 		9/11/13/15/17/19/21
@@ -355,20 +159,6 @@ wario
 		Neutral B (Chomp)
 		","
 		8 (11 Grab Release)
-		","
-		41 (19 Grab Release)
-		","
-		--
-		","
-		25 endlag from release of the button. Can eat projectiles on frame 9—. With the exception of Bike being eaten on frame 2. Animation for eating a projectile is 25 frames. 55 for the Bike.
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -381,20 +171,6 @@ wario
 		","
 		20/24
 		","
-		--
-		","
-		--
-		","
-		Startup is 24 if mounting a bike laying on the ground. Frame 20 is the earliest you can jump, turnaround, wheelie. Wario seems to suffer more shieldlag than the defender on any hit.
-		","
-		0.6—11.4
-		","
-		4-8, 6-13(Wario)
-		","
-		2—4
-		","
-		--
-		","
 		**
 		","
 		20—**
@@ -406,20 +182,6 @@ wario
 		","
 		4/54
 		","
-		64
-		","
-		--
-		","
-		Bike armor on frame 10. Jump animation takes 28 frames.
-		","
-		5.0/13.0
-		","
-		8/9, 11/14(Wario)
-		","
-		3/5
-		","
-		--
-		","
 		-60/-10
 		","
 		**
@@ -430,20 +192,6 @@ wario
 		Wario Bike, Turnaround
 		","
 		6
-		","
-		45
-		","
-		--
-		","
-		Looking for Bike animation takes 39 frames
-		","
-		7.0
-		","
-		8, 12(Wario)
-		","
-		3
-		","
-		--
 		","
 		-40
 		","
@@ -459,20 +207,6 @@ wario
 		--
 		","
 		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		"
 19,"<h1 class=""charactername"">
 wario
@@ -480,20 +214,6 @@ wario
 		Up B (Corkscrew)
 		","
 		6/8/12/16/20/29
-		","
-		--
-		","
-		20
-		","
-		--
-		","
-		5.0/1.0/4.0
-		","
-		6/4/11
-		","
-		-/2/5
-		","
-		First/Multi/Final
 		","
 		**
 		","
@@ -506,20 +226,6 @@ wario
 		","
 		16, 10, 5, 9
 		","
-		79, 64, 49, 60
-		","
-		--
-		","
-		--
-		","
-		0.0, 12.0+, 20.0+, 27.0/20.0
-		","
-		--, 10, 13, 19/12
-		","
-		--, 13, 20, 23/18
-		","
-		Stage 1, Stage 2, Stage 3, Final Stage Early/Late
-		","
 		--, -41, -24, -28
 		","
 		16—18, 10—11, 5—8, 9—10/11—26
@@ -530,20 +236,6 @@ wario
 		Grab
 		","
 		8
-		","
-		35
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--, 10, 13, 19/12
-		","
-		--, 13, 20, 23/18
-		","
-		Stage 1, Stage 2, Stage 3, Final Stage Early/Late
 		","
 		--, -41, -24, -28
 		","
@@ -556,20 +248,6 @@ wario
 		","
 		11
 		","
-		43
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--, 10, 13, 19/12
-		","
-		--, 13, 20, 23/18
-		","
-		Stage 1, Stage 2, Stage 3, Final Stage Early/Late
-		","
 		--, -41, -24, -28
 		","
 		11—13
@@ -580,20 +258,6 @@ wario
 		Pivot Grab
 		","
 		12
-		","
-		38
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--, 10, 13, 19/12
-		","
-		--, 13, 20, 23/18
-		","
-		Stage 1, Stage 2, Stage 3, Final Stage Early/Late
 		","
 		--, -41, -24, -28
 		","
@@ -606,20 +270,6 @@ wario
 		","
 		2
 		","
-		21
-		","
-		Total frames includes 14 frames of hitlag.
-		","
-		--		
-		","
-		1.6
-		","
-		--, 10, 13, 19/12
-		","
-		--, 13, 20, 23/18
-		","
-		Stage 1, Stage 2, Stage 3, Final Stage Early/Late
-		","
 		--, -41, -24, -28
 		","
 		12—14
@@ -630,20 +280,6 @@ wario
 		Forward Throw
 		","
 		20/21
-		","
-		54
-		","
-		--
-		","
-		--
-		","
-		4.0/8.0
-		","
-		--, 10, 13, 19/12
-		","
-		--, 13, 20, 23/18
-		","
-		Stage 1, Stage 2, Stage 3, Final Stage Early/Late
 		","
 		--, -41, -24, -28
 		","
@@ -656,20 +292,6 @@ wario
 		","
 		48
 		","
-		70
-		","
-		--
-		","
-		--		
-		","
-		7.0
-		","
-		--, 10, 13, 19/12
-		","
-		--, 13, 20, 23/18
-		","
-		Stage 1, Stage 2, Stage 3, Final Stage Early/Late
-		","
 		--, -41, -24, -28
 		","
 		12—14
@@ -680,20 +302,6 @@ wario
 		Up Throw
 		","
 		24/25
-		","
-		43
-		","
-		--
-		","
-		--		
-		","
-		4.0/4.0
-		","
-		--, 10, 13, 19/12
-		","
-		--, 13, 20, 23/18
-		","
-		Stage 1, Stage 2, Stage 3, Final Stage Early/Late
 		","
 		--, -41, -24, -28
 		","
@@ -706,20 +314,6 @@ wario
 		","
 		22/30
 		","
-		54
-		","
-		--
-		","
-		--		
-		","
-		4.0/7.0
-		","
-		--, 10, 13, 19/12
-		","
-		--, 13, 20, 23/18
-		","
-		Stage 1, Stage 2, Stage 3, Final Stage Early/Late
-		","
 		--, -41, -24, -28
 		","
 		12—14
@@ -730,20 +324,6 @@ wario
 		Spot Dodge
 		","
 		22/30
-		","
-		21/26
-		","
-		--
-		","
-		Invulnerable on frame 3-17	
-		","
-		4.0/7.0
-		","
-		--, 10, 13, 19/12
-		","
-		--, 13, 20, 23/18
-		","
-		Stage 1, Stage 2, Stage 3, Final Stage Early/Late
 		","
 		--, -41, -24, -28
 		","
@@ -756,20 +336,6 @@ wario
 		","
 		22/30
 		","
-		30
-		","
-		--
-		","
-		Invulnerable on frame 4-15	
-		","
-		4.0/7.0
-		","
-		--, 10, 13, 19/12
-		","
-		--, 13, 20, 23/18
-		","
-		Stage 1, Stage 2, Stage 3, Final Stage Early/Late
-		","
 		--, -41, -24, -28
 		","
 		12—14
@@ -780,20 +346,6 @@ wario
 		Backward Roll
 		","
 		22/30
-		","
-		35
-		","
-		--
-		","
-		Invulnerable on frame 5-16		
-		","
-		4.0/7.0
-		","
-		--, 10, 13, 19/12
-		","
-		--, 13, 20, 23/18
-		","
-		Stage 1, Stage 2, Stage 3, Final Stage Early/Late
 		","
 		--, -41, -24, -28
 		","
@@ -806,20 +358,6 @@ wario
 		","
 		22/30
 		","
-		50
-		","
-		10
-		","
-		Invulnerable on frame 3-29	
-		","
-		4.0/7.0
-		","
-		--, 10, 13, 19/12
-		","
-		--, 13, 20, 23/18
-		","
-		Stage 1, Stage 2, Stage 3, Final Stage Early/Late
-		","
 		--, -41, -24, -28
 		","
 		12—14
@@ -830,20 +368,6 @@ wario
 		Air Dodge, Down
 		","
 		22/30
-		","
-		66
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		4.0/7.0
-		","
-		--, 10, 13, 19/12
-		","
-		--, 13, 20, 23/18
-		","
-		Stage 1, Stage 2, Stage 3, Final Stage Early/Late
 		","
 		--, -41, -24, -28
 		","
@@ -856,20 +380,6 @@ wario
 		","
 		22/30
 		","
-		75
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21		
-		","
-		4.0/7.0
-		","
-		--, 10, 13, 19/12
-		","
-		--, 13, 20, 23/18
-		","
-		Stage 1, Stage 2, Stage 3, Final Stage Early/Late
-		","
 		--, -41, -24, -28
 		","
 		12—14
@@ -880,20 +390,6 @@ wario
 		Air Dodge, Left/Right
 		","
 		22/30
-		","
-		82
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21			
-		","
-		4.0/7.0
-		","
-		--, 10, 13, 19/12
-		","
-		--, 13, 20, 23/18
-		","
-		Stage 1, Stage 2, Stage 3, Final Stage Early/Late
 		","
 		--, -41, -24, -28
 		","
@@ -906,20 +402,6 @@ wario
 		","
 		22/30
 		","
-		97
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21			
-		","
-		4.0/7.0
-		","
-		--, 10, 13, 19/12
-		","
-		--, 13, 20, 23/18
-		","
-		Stage 1, Stage 2, Stage 3, Final Stage Early/Late
-		","
 		--, -41, -24, -28
 		","
 		12—14
@@ -930,20 +412,6 @@ wario
 		Air Dodge, Up
 		","
 		22/30
-		","
-		104
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		4.0/7.0
-		","
-		--, 10, 13, 19/12
-		","
-		--, 13, 20, 23/18
-		","
-		Stage 1, Stage 2, Stage 3, Final Stage Early/Late
 		","
 		--, -41, -24, -28
 		","
@@ -956,20 +424,6 @@ wario
 		","
 		22/30
 		","
-		104
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		4.0/7.0
-		","
-		--, 10, 13, 19/12
-		","
-		--, 13, 20, 23/18
-		","
-		Stage 1, Stage 2, Stage 3, Final Stage Early/Late
-		","
 		--, -41, -24, -28
 		","
 		12—14
@@ -981,20 +435,6 @@ wario
 		","
 		22/30
 		","
-		104
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		4.0/7.0
-		","
-		--, 10, 13, 19/12
-		","
-		--, 13, 20, 23/18
-		","
-		Stage 1, Stage 2, Stage 3, Final Stage Early/Late
-		","
 		--, -41, -24, -28
 		","
 		12—14
@@ -1005,20 +445,6 @@ wario
 				Ledge Hang
 			","
 		22/30
-		","
-		104
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		4.0/7.0
-		","
-		--, 10, 13, 19/12
-		","
-		--, 13, 20, 23/18
-		","
-		Stage 1, Stage 2, Stage 3, Final Stage Early/Late
 		","
 		--, -41, -24, -28
 		","

@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 Mr. Game &amp; Watch
 </h1>","
 				Ledge Hang
 			","
 		16
-		","
-		97
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		5.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -30,20 +16,6 @@ Mr. Game &amp; Watch
 		Jab
 		","
 		4
-		","
-		15
-		","
-		--
-		","
-		Transitions to rapid jab as early as 7.
-		","
-		3.0
-		","
-		7
-		","
-		4
-		","
-		--
 		","
 		-7
 		","
@@ -58,20 +30,6 @@ Mr. Game &amp; Watch
 		","
 		--
 		","
-		--
-		","
-		--
-		","
-		0.8
-		","
-		4
-		","
-		-
-		","
-		--
-		","
-		--
-		","
 		**
 		"
 3,"<h1 class=""charactername"">
@@ -80,20 +38,6 @@ Mr. Game &amp; Watch
 		Rapid Jab Finisher
 		","
 		2
-		","
-		34
-		","
-		--
-		","
-		--
-		","
-		3.0
-		","
-		11
-		","
-		4
-		","
-		--
 		","
 		-28
 		","
@@ -106,20 +50,6 @@ Mr. Game &amp; Watch
 		","
 		8
 		","
-		37
-		","
-		--
-		","
-		--
-		","
-		12.0
-		","
-		9
-		","
-		11
-		","
-		--
-		","
 		-18
 		","
 		8—9(10—20)
@@ -130,20 +60,6 @@ Mr. Game &amp; Watch
 		Up Tilt
 		","
 		10/20
-		","
-		33
-		","
-		--
-		","
-		--
-		","
-		7.0/7.0
-		","
-		7/7
-		","
-		7/7
-		","
-		--
 		","
 		-16/-6
 		","
@@ -156,20 +72,6 @@ Mr. Game &amp; Watch
 		","
 		6
 		","
-		42
-		","
-		--
-		","
-		Can only hit grounded opponents. More info.
-","
-		9.0
-		","
-		7
-		","
-		9
-		","
-		--
-		","
 		-27
 		","
 		6—8
@@ -180,20 +82,6 @@ Mr. Game &amp; Watch
 		Dash Attack
 		","
 		6
-		","
-		38
-		","
-		--
-		","
-		--
-		","
-		10.0/6.5
-		","
-		8/6
-		","
-		10/7
-		","
-		Early/Late
 		","
 		-21
 		","
@@ -206,20 +94,6 @@ Mr. Game &amp; Watch
 		","
 		17
 		","
-		42
-		","
-		--
-		","
-		Charge hold is frame 7
-		","
-		14.0/18.0
-		","
-		10/11
-		","
-		10/12
-		","
-		Close/Far
-		","
 		-15/-13
 		","
 		17—18
@@ -230,20 +104,6 @@ Mr. Game &amp; Watch
 		Up Smash
 		","
 		21
-		","
-		38
-		","
-		--
-		","
-		Invincible on frame 21-25. Charge hold is frame 15
-		","
-		16.0
-		","
-		10
-		","
-		11
-		","
-		--
 		","
 		-6
 		","
@@ -256,20 +116,6 @@ Mr. Game &amp; Watch
 		","
 		12
 		","
-		37
-		","
-		--
-		","
-		Charge hold is frame 6, hammer heads ground the opponent.
-		","
-		13.0/15.0
-		","
-		9/10
-		","
-		9/10
-		","
-		Close/Far
-		","
 		-16/-15
 		","
 		12—16
@@ -280,20 +126,6 @@ Mr. Game &amp; Watch
 		Neutral Air
 		","
 		7/12/17/22
-		","
-		42
-		","
-		7
-		","
-		Autocancels on frame 1-2 and 40 onward
-		","
-		3.0/4.0
-		","
-		5/11
-		","
-		2/3
-		","
-		Multi/Final
 		","
 		-5/-4
 		","
@@ -306,20 +138,6 @@ Mr. Game &amp; Watch
 		","
 		10/44
 		","
-		47
-		","
-		17
-		","
-		Bomb leaves his hands on 14, exploding automatically on 44 or upon touching ground. Autocancels on frame 42 onward. Advantage assumes landing on the same frame as bomb.
-		","
-		3.0/12.0
-		","
-		5/9
-		","
-		2/5
-		","
-		--
-		","
 		-3
 		","
 		10—13/**
@@ -330,20 +148,6 @@ Mr. Game &amp; Watch
 		Back Air
 		","
 		10/14/18/22
-		","
-		39
-		","
-		18
-		","
-		Landing hit on frame 1. Autocancels on frame 1-9 and 38 onward. The turtle's name is Augustus Philippe. 
-		","
-		2.0/3.0/3.0
-		","
-		4/13/5
-		","
-		2/2/4
-		","
-		Multi/Final/landing
 		","
 		-13
 		","
@@ -356,20 +160,6 @@ Mr. Game &amp; Watch
 		","
 		9/15/21/27/33/37
 		","
-		42
-		","
-		12
-		","
-		Attack is a projectile. Autocancels on frame 44 onward
-		","
-		1.7/3.0
-		","
-		3/3
-		","
-		0/0
-		","
-		Multi/Final 
-		","
 		**
 		","
 		9/15/21/27/33/37—41
@@ -380,20 +170,6 @@ Mr. Game &amp; Watch
 		Down Air
 		","
 		12
-		","
-		49
-		","
-		22
-		","
-		landing hit on frame 1. Autocancels on frame 1-5 and 50 onward
-		","
-		11.0/3.5
-		","
-		8/5
-		","
-		4/4
-		","
-		Meteor/Late/Landing
 		","
 		-17
 		","
@@ -406,20 +182,6 @@ Mr. Game &amp; Watch
 		","
 		18
 		","
-		54
-		","
-		--
-		","
-		Projectile and melee attack generate on same frame. Generates new sausage every 32 frames
-		","
-		5.0/13.0
-		","
-		6/7
-		","
-		3/8
-		","
-		Sausage/Pan
-		","
 		-28
 		","
 		18—20/**
@@ -430,24 +192,6 @@ Mr. Game &amp; Watch
 		Side B (Judge)
 		","
 		16 
-		","
-		49
-		","
-		--
-		","
-		Judge 1: Deals 12.0 recoil and no knockback.
-		Judge 3: Deals bonus shield damage.
-		Judge 5: Hits on frame 16/19/22/25.
-		Judge 7: Spawns three food items.
-		Judge 8: Freezes the opponent.
-		","
-		1: 2.0, 2: 4.0, 3: 6.0, 4: 8.0, 5: 3.0, 6: 12.0, 7: 14.0, 8: 13.0, 9: 32.0
-		","
-		4, 5, 6, 7, 7, 9, 10, 9, 21
-		","
-		3, 5, 6, 8, 4, 11, 13, 12, 27
-		","
-		--
 		","
 		-30, -28, -27, -25, -20, -22, -20, -21, -6
 		","
@@ -460,20 +204,6 @@ Mr. Game &amp; Watch
 		","
 		3/9
 		","
-		--
-		","
-		7
-		","
-		Invulnerable frame 5-13 Takes 7 frames to exit parachute by pressing down and avoiding landing lag. Can cancel directly with attacks as well. Opens parachute on frame 37.
-		","
-		3.0/6.0
-		","
-		7/6
-		","
-		4/6
-		","
-		Early/Late
-		","
 		**
 		","
 		3—4/9—18
@@ -484,20 +214,6 @@ Mr. Game &amp; Watch
 		Down B (Oil Panic)
 		","
 		6 (Start of Absorb/Reflect)
-		","
-		43
-		","
-		--
-		","
-		Begins absorbing/reflecting on frame 6. Takes 13 frames to put away bucket after extended usage. Has a 2x Damage Multiplier per unit. Maximum Damage of 16% per unit, this is also the minimum damage output. If an attack deals more than 10% it fills 2 Units, 20% for 3. Takes 6F to turn around.
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -510,20 +226,6 @@ Mr. Game &amp; Watch
 		","
 		2
 		","
-		49
-		","
-		--
-		","
-		Successful absorbs incur a 24 frame animation that is completely invulnerable.
-		","
-		16.0—48.0
-		","
-		**
-		","
-		**
-		","
-		Early/Late/Later
-		","
 		**
 		","
 		2—7(8—14/15—26)
@@ -534,20 +236,6 @@ Mr. Game &amp; Watch
 		Grab
 		","
 		6
-		","
-		34
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		**
-		","
-		**
-		","
-		Early/Late/Later
 		","
 		**
 		","
@@ -560,20 +248,6 @@ Mr. Game &amp; Watch
 		","
 		9
 		","
-		42
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		**
-		","
-		**
-		","
-		Early/Late/Later
-		","
 		**
 		","
 		9—10
@@ -584,20 +258,6 @@ Mr. Game &amp; Watch
 		Pivot Grab
 		","
 		10
-		","
-		37
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		**
-		","
-		**
-		","
-		Early/Late/Later
 		","
 		**
 		","
@@ -610,20 +270,6 @@ Mr. Game &amp; Watch
 		","
 		1
 		","
-		19
-		","
-		Total frames includes 13 frames of hitlag.
-		","
-		--		
-		","
-		1.3
-		","
-		**
-		","
-		**
-		","
-		Early/Late/Later
-		","
 		**
 		","
 		10—11
@@ -634,20 +280,6 @@ Mr. Game &amp; Watch
 		Forward Throw
 		","
 		26
-		","
-		40
-		","
-		--
-		","
-		--		
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		Early/Late/Later
 		","
 		**
 		","
@@ -660,20 +292,6 @@ Mr. Game &amp; Watch
 		","
 		26
 		","
-		40
-		","
-		--
-		","
-		--		
-		","
-		8.0
-		","
-		**
-		","
-		**
-		","
-		Early/Late/Later
-		","
 		**
 		","
 		10—11
@@ -684,20 +302,6 @@ Mr. Game &amp; Watch
 		Up Throw
 		","
 		26
-		","
-		40
-		","
-		--
-		","
-		--		
-		","
-		12.0
-		","
-		**
-		","
-		**
-		","
-		Early/Late/Later
 		","
 		**
 		","
@@ -710,20 +314,6 @@ Mr. Game &amp; Watch
 		","
 		35
 		","
-		49
-		","
-		--
-		","
-		--		
-		","
-		4.0
-		","
-		**
-		","
-		**
-		","
-		Early/Late/Later
-		","
 		**
 		","
 		10—11
@@ -734,20 +324,6 @@ Mr. Game &amp; Watch
 		Spot Dodge
 		","
 		35
-		","
-		21/25
-		","
-		--
-		","
-		Invulnerable on frame 3-17.		
-		","
-		4.0
-		","
-		**
-		","
-		**
-		","
-		Early/Late/Later
 		","
 		**
 		","
@@ -760,20 +336,6 @@ Mr. Game &amp; Watch
 		","
 		35
 		","
-		30
-		","
-		--
-		","
-		Invulnerable on frame 4-15.		
-		","
-		4.0
-		","
-		**
-		","
-		**
-		","
-		Early/Late/Later
-		","
 		**
 		","
 		10—11
@@ -784,20 +346,6 @@ Mr. Game &amp; Watch
 		Backward Roll
 		","
 		35
-		","
-		35
-		","
-		--
-		","
-		Invulnerable on frame 5-16.		
-		","
-		4.0
-		","
-		**
-		","
-		**
-		","
-		Early/Late/Later
 		","
 		**
 		","
@@ -810,20 +358,6 @@ Mr. Game &amp; Watch
 		","
 		35
 		","
-		59
-		","
-		10
-		","
-		Invulnerable on frame 3-28.		
-		","
-		4.0
-		","
-		**
-		","
-		**
-		","
-		Early/Late/Later
-		","
 		**
 		","
 		10—11
@@ -834,20 +368,6 @@ Mr. Game &amp; Watch
 		Air Dodge, Down
 		","
 		35
-		","
-		84
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.		
-		","
-		4.0
-		","
-		**
-		","
-		**
-		","
-		Early/Late/Later
 		","
 		**
 		","
@@ -860,20 +380,6 @@ Mr. Game &amp; Watch
 		","
 		35
 		","
-		93
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.		
-		","
-		4.0
-		","
-		**
-		","
-		**
-		","
-		Early/Late/Later
-		","
 		**
 		","
 		10—11
@@ -884,20 +390,6 @@ Mr. Game &amp; Watch
 		Air Dodge, Left/Right
 		","
 		35
-		","
-		100
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.		
-		","
-		4.0
-		","
-		**
-		","
-		**
-		","
-		Early/Late/Later
 		","
 		**
 		","
@@ -910,20 +402,6 @@ Mr. Game &amp; Watch
 		","
 		35
 		","
-		123
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.		
-		","
-		4.0
-		","
-		**
-		","
-		**
-		","
-		Early/Late/Later
-		","
 		**
 		","
 		10—11
@@ -934,20 +412,6 @@ Mr. Game &amp; Watch
 		Air Dodge, Up
 		","
 		35
-		","
-		132
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.		
-		","
-		4.0
-		","
-		**
-		","
-		**
-		","
-		Early/Late/Later
 		","
 		**
 		","
@@ -960,20 +424,6 @@ Mr. Game &amp; Watch
 		","
 		35
 		","
-		132
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.		
-		","
-		4.0
-		","
-		**
-		","
-		**
-		","
-		Early/Late/Later
-		","
 		**
 		","
 		10—11
@@ -985,20 +435,6 @@ Mr. Game &amp; Watch
 		","
 		35
 		","
-		132
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.		
-		","
-		4.0
-		","
-		**
-		","
-		**
-		","
-		Early/Late/Later
-		","
 		**
 		","
 		10—11
@@ -1009,20 +445,6 @@ Mr. Game &amp; Watch
 				Ledge Hang
 			","
 		35
-		","
-		132
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21.		
-		","
-		4.0
-		","
-		**
-		","
-		**
-		","
-		Early/Late/Later
 		","
 		**
 		","

@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 Pokemon Trainer: Ivysaur
 </h1>","
 		Jab 1
 		","
 		7
-		","
-		27
-		","
-		--
-		","
-		Transitions to Jab 2 as early as frame 10.
-		","
-		2.0
-		","
-		6
-		","
-		3
-		","
-		--
 		","
 		-17
 		","
@@ -30,20 +16,6 @@ Pokemon Trainer: Ivysaur
 		Jab 2
 		","
 		5
-		","
-		27
-		","
-		--
-		","
-		Transitions to Rapid jab as early as frame 10.
-		","
-		2.0
-		","
-		4
-		","
-		3
-		","
-		--
 		","
 		-19
 		","
@@ -58,20 +30,6 @@ Pokemon Trainer: Ivysaur
 		","
 		--
 		","
-		--
-		","
-		--
-		","
-		0.5
-		","
-		4
-		","
-		3
-		","
-		--
-		","
-		--
-		","
 		4/7/10...
 		"
 3,"<h1 class=""charactername"">
@@ -80,20 +38,6 @@ Pokemon Trainer: Ivysaur
 		Rapid Jab Finisher
 		","
 		4
-		","
-		39
-		","
-		--
-		","
-		--
-		","
-		2.0
-		","
-		9
-		","
-		3
-		","
-		--
 		","
 		-32
 		","
@@ -106,20 +50,6 @@ Pokemon Trainer: Ivysaur
 		","
 		10/12/14/16/18/20/22
 		","
-		45
-		","
-		--
-		","
-		--
-		","
-		1.5/2.0
-		","
-		4/10
-		","
-		3/3
-		","
-		Multi/Final
-		","
 		-20
 		","
 		10/12/14/16/18/20/22
@@ -130,20 +60,6 @@ Pokemon Trainer: Ivysaur
 		Up Tilt
 		","
 		7
-		","
-		32
-		","
-		--
-		","
-		--
-		","
-		7.0
-		","
-		7
-		","
-		7
-		","
-		--
 		","
 		-18
 		","
@@ -156,20 +72,6 @@ Pokemon Trainer: Ivysaur
 		","
 		4
 		","
-		31
-		","
-		--
-		","
-		--
-		","
-		5.5
-		","
-		6
-		","
-		6
-		","
-		--
-		","
 		-21
 		","
 		4—6
@@ -180,20 +82,6 @@ Pokemon Trainer: Ivysaur
 		Dash Attack
 		","
 		4
-		","
-		43
-		","
-		--
-		","
-		--
-		","
-		12.0/10.0
-		","
-		9/8
-		","
-		11/10
-		","
-		Early/Late
 		","
 		-27
 		","
@@ -206,20 +94,6 @@ Pokemon Trainer: Ivysaur
 		","
 		15
 		","
-		59
-		","
-		--
-		","
-		Charge hold is frame 9
-		","
-		16.0/14.0
-		","
-		10/10
-		","
-		11/10
-		","
-		Early/Late
-		","
 		-33
 		","
 		15—18/19—20
@@ -230,20 +104,6 @@ Pokemon Trainer: Ivysaur
 		Up Smash
 		","
 		26
-		","
-		59
-		","
-		--
-		","
-		Charge hold is frame 7
-		","
-		17.0
-		","
-		11
-		","
-		11
-		","
-		--
 		","
 		-21
 		","
@@ -256,20 +116,6 @@ Pokemon Trainer: Ivysaur
 		","
 		13
 		","
-		45
-		","
-		--
-		","
-		Charge hold is frame 6
-		","
-		8.0/10.0/12.0
-		","
-		7/8/9
-		","
-		6/7/8
-		","
-		close/far/farther
-		","
 		-26/-25/-24
 		","
 		13—14
@@ -280,20 +126,6 @@ Pokemon Trainer: Ivysaur
 		Neutral Air
 		","
 		7/10/13/16/19/22/25/28
-		","
-		41
-		","
-		16
-		","
-		Autocancels on frame 1-3 and 41 onward
-		","
-		1.0/2.0
-		","
-		4/9
-		","
-		2/2
-		","
-		Multi/Final
 		","
 		-14/-14
 		","
@@ -306,20 +138,6 @@ Pokemon Trainer: Ivysaur
 		","
 		14
 		","
-		48
-		","
-		13
-		","
-		Autocancels on frame 1-2 and 39 onward
-		","
-		12.0
-		","
-		9
-		","
-		5
-		","
-		--
-		","
 		-8
 		","
 		14—18
@@ -330,20 +148,6 @@ Pokemon Trainer: Ivysaur
 		Back Air
 		","
 		7/13
-		","
-		43
-		","
-		7
-		","
-		Autocancels on frame 1-6 and 43 onward
-		","
-		3.0/6.0
-		","
-		5/7
-		","
-		2/3
-		","
-		--
 		","
 		-5/-4
 		","
@@ -356,20 +160,6 @@ Pokemon Trainer: Ivysaur
 		","
 		12
 		","
-		51
-		","
-		11
-		","
-		Autocancels on frame 41 onward
-		","
-		15.0
-		","
-		10
-		","
-		5
-		","
-		--
-		","
 		-6
 		","
 		12—13
@@ -380,20 +170,6 @@ Pokemon Trainer: Ivysaur
 		Down Air
 		","
 		11
-		","
-		63
-		","
-		13
-		","
-		Autocancels on frame 1-2 and 52 onward
-		","
-		10.0
-		","
-		8
-		","
-		4
-		","
-		--
 		","
 		-9
 		","
@@ -406,20 +182,6 @@ Pokemon Trainer: Ivysaur
 		","
 		7/13/20/26/32/38...
 		","
-		79
-		","
-		--
-		","
-		Startup is initial launcher and then the timing each bullet spawns, not necessarily when they impact. Numbers refer to minimum use.
-		","
-		3.0/1.5/1.3/3.0
-		","
-		5/4/4/5
-		","
-		4/2/2/2
-		","
-		First/multi/later multi/final
-		","
 		-34
 		","
 		7—8/13/20/26/32/38...
@@ -430,20 +192,6 @@ Pokemon Trainer: Ivysaur
 		Side B (Razor Leaf)
 		","
 		24
-		","
-		48
-		","
-		--
-		","
-		--
-		","
-		8.0/6.0/4.0
-		","
-		7/6/5
-		","
-		3/3/2
-		","
-		Early/late/later
 		","
 		-14 
 		","
@@ -456,20 +204,6 @@ Pokemon Trainer: Ivysaur
 		","
 		15
 		","
-		47
-		","
-		--
-		","
-		Tethers on frame 13. Does not induce special fall.
-		","
-		11.0/13.0
-		","
-		8/9
-		","
-		10/12
-		","
-		Close/Far
-		","
 		-22/-20
 		","
 		15—17
@@ -478,20 +212,6 @@ Pokemon Trainer: Ivysaur
 Pokemon Trainer: Ivysaur
 </h1>","
 		Down B (Pokemon Change)
-		","
-		--
-		","
-		39
-		","
-		--
-		","
-		Invulnerable on frame 1-25. ~140 frame period before you can change again.
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -506,20 +226,6 @@ Pokemon Trainer: Ivysaur
 		","
 		13
 		","
-		42
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		13—14
@@ -530,20 +236,6 @@ Pokemon Trainer: Ivysaur
 		Dash Grab
 		","
 		13
-		","
-		48
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -556,20 +248,6 @@ Pokemon Trainer: Ivysaur
 		","
 		13
 		","
-		44
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		13—14
@@ -580,20 +258,6 @@ Pokemon Trainer: Ivysaur
 		Pummel
 		","
 		1
-		","
-		19
-		","
-		--
-		","
-		Total frames includes 13 frames of hitlag
-		","
-		1.3
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -606,20 +270,6 @@ Pokemon Trainer: Ivysaur
 		","
 		16/17
 		","
-		37
-		","
-		--
-		","
-		--		
-		","
-		5.0/5.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		13—14
@@ -630,20 +280,6 @@ Pokemon Trainer: Ivysaur
 		Backward Throw
 		","
 		20
-		","
-		35
-		","
-		--
-		","
-		--		
-		","
-		12.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -656,20 +292,6 @@ Pokemon Trainer: Ivysaur
 		","
 		20/21
 		","
-		39
-		","
-		--
-		","
-		--	
-		","
-		4.0/5.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		13—14
@@ -680,20 +302,6 @@ Pokemon Trainer: Ivysaur
 		Down Throw
 		","
 		19
-		","
-		34
-		","
-		--
-		","
-		--	
-		","
-		7.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -706,20 +314,6 @@ Pokemon Trainer: Ivysaur
 		","
 		19
 		","
-		21/26
-		","
-		--
-		","
-		Invulnerable on frame 3-17
-		","
-		7.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		13—14
@@ -730,20 +324,6 @@ Pokemon Trainer: Ivysaur
 		Forward Roll
 		","
 		19
-		","
-		30
-		","
-		--
-		","
-		Invulnerable on frame 4-15
-		","
-		7.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -756,20 +336,6 @@ Pokemon Trainer: Ivysaur
 		","
 		19
 		","
-		35
-		","
-		--
-		","
-		Invulnerable on frame 5-16
-		","
-		7.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		13—14
@@ -780,20 +346,6 @@ Pokemon Trainer: Ivysaur
 		Neutral Air Dodge
 		","
 		19
-		","
-		56
-		","
-		10
-		","
-		Invulnerable on frame 3-29
-		","
-		7.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -806,20 +358,6 @@ Pokemon Trainer: Ivysaur
 		","
 		19
 		","
-		76
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		7.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		13—14
@@ -830,20 +368,6 @@ Pokemon Trainer: Ivysaur
 		Air Dodge, Diagonally Down
 		","
 		19
-		","
-		84
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		7.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -856,20 +380,6 @@ Pokemon Trainer: Ivysaur
 		","
 		19
 		","
-		93
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		7.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		13—14
@@ -880,20 +390,6 @@ Pokemon Trainer: Ivysaur
 		Air Dodge, Diagonally Up
 		","
 		19
-		","
-		110
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		7.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -906,20 +402,6 @@ Pokemon Trainer: Ivysaur
 		","
 		19
 		","
-		124
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		7.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		13—14
@@ -930,20 +412,6 @@ Pokemon Trainer: Ivysaur
 			Ledge Grab
 		","
 		19
-		","
-		124
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		7.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -956,20 +424,6 @@ Pokemon Trainer: Ivysaur
 		","
 		19
 		","
-		124
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		7.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		13—14
@@ -980,20 +434,6 @@ Pokemon Trainer: Ivysaur
 				Ledge Hang
 			","
 		19
-		","
-		124
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		7.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","

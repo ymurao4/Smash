@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 Pokemon Trainer: Squirtle
 </h1>","
 		Jab 1
 		","
 		2
-		","
-		16
-		","
-		--
-		","
-		Transitions to Jab 2 as early as frame 5
-		","
-		2.0
-		","
-		7
-		","
-		3
-		","
-		--
 		","
 		-11
 		","
@@ -31,20 +17,6 @@ Pokemon Trainer: Squirtle
 		","
 		4
 		","
-		24
-		","
-		--
-		","
-		Transitions to Jab 3 as early as frame 10
-		","
-		1.5
-		","
-		5
-		","
-		3
-		","
-		--
-		","
 		-17
 		","
 		4—5
@@ -55,20 +27,6 @@ Pokemon Trainer: Squirtle
 		Jab 3
 		","
 		5
-		","
-		31
-		","
-		--
-		","
-		--
-		","
-		4.0
-		","
-		11
-		","
-		5
-		","
-		--
 		","
 		-21
 		","
@@ -81,20 +39,6 @@ Pokemon Trainer: Squirtle
 		","
 		5
 		","
-		18
-		","
-		--
-		","
-		--
-		","
-		5.0
-		","
-		6
-		","
-		6
-		","
-		--
-		","
 		-6
 		","
 		5—6
@@ -105,20 +49,6 @@ Pokemon Trainer: Squirtle
 		Up Tilt
 		","
 		5
-		","
-		19
-		","
-		--
-		","
-		--
-		","
-		5.0
-		","
-		6
-		","
-		6
-		","
-		--
 		","
 		-8
 		","
@@ -131,20 +61,6 @@ Pokemon Trainer: Squirtle
 		","
 		8
 		","
-		29
-		","
-		--
-		","
-		--
-		","
-		9.0
-		","
-		7
-		","
-		9
-		","
-		--
-		","
 		-12
 		","
 		8—13
@@ -155,20 +71,6 @@ Pokemon Trainer: Squirtle
 		Dash Attack
 		","
 		8
-		","
-		35
-		","
-		--
-		","
-		--
-		","
-		8.0/7.0
-		","
-		7/7
-		","
-		11/7
-		","
-		Early/Late
 		","
 		-16
 		","
@@ -181,20 +83,6 @@ Pokemon Trainer: Squirtle
 		","
 		20
 		","
-		49
-		","
-		--
-		","
-		Charge hold is frame 5
-		","
-		15.0
-		","
-		12
-		","
-		10
-		","
-		--
-		","
 		-19
 		","
 		20—21
@@ -205,20 +93,6 @@ Pokemon Trainer: Squirtle
 		Up Smash
 		","
 		19/21
-		","
-		65
-		","
-		--
-		","
-		Charge hold is frame 5
-		","
-		3.0/13.0/10.0
-		","
-		5/9/9
-		","
-		3/9/8
-		","
-		First/Early/Late
 		","
 		-35
 		","
@@ -231,20 +105,6 @@ Pokemon Trainer: Squirtle
 		","
 		18
 		","
-		41
-		","
-		--
-		","
-		Charge hold is frame 6
-		","
-		13.0
-		","
-		9
-		","
-		9
-		","
-		--
-		","
 		-13
 		","
 		18—19/24—25
@@ -255,20 +115,6 @@ Pokemon Trainer: Squirtle
 		Neutral Air
 		","
 		4
-		","
-		41
-		","
-		8
-		","
-		Autocancels on frame 1-3 and 35 onward
-		","
-		10.0/7.0
-		","
-		8/7
-		","
-		4/3
-		","
-		Early/Late
 		","
 		-4/-5
 		","
@@ -281,20 +127,6 @@ Pokemon Trainer: Squirtle
 		","
 		5
 		","
-		35
-		","
-		6
-		","
-		Autocancels on frame 1-4 and 35 onward
-		","
-		7.0/6.0
-		","
-		7/6
-		","
-		3/3
-		","
-		Early/Late
-		","
 		-3/-3
 		","
 		5—6/7—14
@@ -305,20 +137,6 @@ Pokemon Trainer: Squirtle
 		Back Air
 		","
 		5...
-		","
-		35
-		","
-		18
-		","
-		Landing hit on frame 1. Autocancels on frame 1-4 and 22 onward
-		","
-		1.0/6.0/2.0
-		","
-		4/7/9
-		","
-		2/3/3
-		","
-		Multi/Final/Landing
 		","
 		-15
 		","
@@ -331,20 +149,6 @@ Pokemon Trainer: Squirtle
 		","
 		5
 		","
-		29
-		","
-		6
-		","
-		Autocancels on frame 20 onward
-		","
-		7.0
-		","
-		7
-		","
-		3
-		","
-		--
-		","
 		-3
 		","
 		5—9
@@ -355,20 +159,6 @@ Pokemon Trainer: Squirtle
 		Down Air
 		","
 		6...
-		","
-		44
-		","
-		16
-		","
-		Autocancels on frame 1-5 and 35 onward
-		","
-		1.5/4.0
-		","
-		4/11
-		","
-		2/3
-		","
-		Multi/Final
 		","
 		-14/-13
 		","
@@ -381,20 +171,6 @@ Pokemon Trainer: Squirtle
 		","
 		26
 		","
-		63
-		","
-		--
-		","
-		From a charging state, startup is 7 and total frames is 44. Takes 64 frames to fully charge.
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		24—**
@@ -405,20 +181,6 @@ Pokemon Trainer: Squirtle
 		Side B (Withdraw)
 		","
 		23
-		","
-		--
-		","
-		--
-		","
-		26 endlag on hit. 34 endlag to cancel the move manually. Armor begins on 22. Getting footstooled places Squirtle in a ~155 frame helpless animation.
-		","
-		13.0—13.9
-		","
-		7
-		","
-		8
-		","
-		--
 		","
 		-18
 		","
@@ -433,40 +195,12 @@ Pokemon Trainer: Squirtle
 		","
 		--
 		","
-		30
-		","
-		--
-		","
-		1.3/3.0
-		","
-		4/5
-		","
-		3/4
-		","
-		Multi/Final
-		","
-		--
-		","
 		9—41/43—44 (rehit: 5)
 		"
 18,"<h1 class=""charactername"">
 Pokemon Trainer: Squirtle
 </h1>","
 		Down B (Pokemon Change)
-		","
-		--
-		","
-		39
-		","
-		--
-		","
-		Invulnerable on frame 1-25. ~140 frame period before you can change again.
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -481,20 +215,6 @@ Pokemon Trainer: Squirtle
 		","
 		6
 		","
-		34
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		6—7
@@ -505,20 +225,6 @@ Pokemon Trainer: Squirtle
 		Dash Grab
 		","
 		8
-		","
-		39
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -531,20 +237,6 @@ Pokemon Trainer: Squirtle
 		","
 		9
 		","
-		37
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		9—10
@@ -555,20 +247,6 @@ Pokemon Trainer: Squirtle
 		Pummel
 		","
 		1
-		","
-		15
-		","
-		--
-		","
-		Total frames includes 10 frames of hitlag
-		","
-		1.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -581,20 +259,6 @@ Pokemon Trainer: Squirtle
 		","
 		11/13
 		","
-		34
-		","
-		--
-		","
-		--		
-		","
-		2.0/6.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		9—10
@@ -605,20 +269,6 @@ Pokemon Trainer: Squirtle
 		Backward Throw
 		","
 		27
-		","
-		44
-		","
-		--
-		","
-		--		
-		","
-		8.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -631,20 +281,6 @@ Pokemon Trainer: Squirtle
 		","
 		16/18
 		","
-		37
-		","
-		--
-		","
-		--	
-		","
-		2.0/5.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		9—10
@@ -655,20 +291,6 @@ Pokemon Trainer: Squirtle
 		Down Throw
 		","
 		22/30
-		","
-		46
-		","
-		--
-		","
-		--	
-		","
-		2.0/5.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -681,20 +303,6 @@ Pokemon Trainer: Squirtle
 		","
 		22/30
 		","
-		19/24
-		","
-		--
-		","
-		Invulnerable on frame 3-16
-		","
-		2.0/5.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		9—10
@@ -705,20 +313,6 @@ Pokemon Trainer: Squirtle
 		Forward Roll
 		","
 		22/30
-		","
-		28
-		","
-		--
-		","
-		Invulnerable on frame 4-14
-		","
-		2.0/5.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -731,20 +325,6 @@ Pokemon Trainer: Squirtle
 		","
 		22/30
 		","
-		33
-		","
-		--
-		","
-		Invulnerable on frame 4-15
-		","
-		2.0/5.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		9—10
@@ -755,20 +335,6 @@ Pokemon Trainer: Squirtle
 		Neutral Air Dodge
 		","
 		22/30
-		","
-		53
-		","
-		10
-		","
-		Invulnerable on frame 2-26
-		","
-		2.0/5.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -781,20 +347,6 @@ Pokemon Trainer: Squirtle
 		","
 		22/30
 		","
-		79
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19		
-		","
-		2.0/5.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		9—10
@@ -805,20 +357,6 @@ Pokemon Trainer: Squirtle
 		Air Dodge, Diagonally Down
 		","
 		22/30
-		","
-		87
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19
-		","
-		2.0/5.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -831,20 +369,6 @@ Pokemon Trainer: Squirtle
 		","
 		22/30
 		","
-		90
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19
-		","
-		2.0/5.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		9—10
@@ -855,20 +379,6 @@ Pokemon Trainer: Squirtle
 		Air Dodge, Diagonally Up
 		","
 		22/30
-		","
-		105
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19
-		","
-		2.0/5.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -881,20 +391,6 @@ Pokemon Trainer: Squirtle
 		","
 		22/30
 		","
-		114
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19
-		","
-		2.0/5.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		9—10
@@ -905,20 +401,6 @@ Pokemon Trainer: Squirtle
 			Ledge Grab
 		","
 		22/30
-		","
-		114
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19
-		","
-		2.0/5.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","
@@ -931,20 +413,6 @@ Pokemon Trainer: Squirtle
 		","
 		22/30
 		","
-		114
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19
-		","
-		2.0/5.0
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		--
 		","
 		9—10
@@ -955,20 +423,6 @@ Pokemon Trainer: Squirtle
 				Ledge Hang
 			","
 		22/30
-		","
-		114
-		","
-		11-19
-		","
-		Invulnerable on frame 2-19
-		","
-		2.0/5.0
-		","
-		--
-		","
-		--
-		","
-		--
 		","
 		--
 		","

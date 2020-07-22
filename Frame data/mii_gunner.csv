@@ -1,24 +1,10 @@
-,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+,Character Name,Move name,Start up,Advantage,Active frames
 0,"<h1 class=""charactername"">
 mii gunner
 </h1>","
 		Jab 1
 		","
 		5
-		","
-		25
-		","
-		--
-		","
-		Transitions to jab 2 as early as frame 8 
-		","
-		1.7
-		","
-		7
-		","
-		3
-		","
-		--
 		","
 		-17
 		","
@@ -31,20 +17,6 @@ mii gunner
 		","
 		4
 		","
-		25
-		","
-		--
-		","
-		Transitions to jab 3 as early as frame 11 
-		","
-		1.8
-		","
-		4
-		","
-		3
-		","
-		--
-		","
 		-18
 		","
 		4—6
@@ -55,20 +27,6 @@ mii gunner
 		Jab 3
 		","
 		6/12
-		","
-		36
-		","
-		--
-		","
-		--
-		","
-		1.0/4.5
-		","
-		3/6
-		","
-		0/5
-		","
-		--
 		","
 		-19
 		","
@@ -81,20 +39,6 @@ mii gunner
 		","
 		7
 		","
-		33
-		","
-		--
-		","
-		--
-		","
-		13.0/10.5/8.0
-		","
-		9/8/7
-		","
-		12/10/8
-		","
-		Early/Late/Later
-		","
 		-14
 		","
 		7—8/9—10/11—12
@@ -105,20 +49,6 @@ mii gunner
 		Up Tilt
 		","
 		5
-		","
-		37
-		","
-		--
-		","
-		--
-		","
-		10.0
-		","
-		8
-		","
-		10
-		","
-		--
 		","
 		-22
 		","
@@ -131,20 +61,6 @@ mii gunner
 		","
 		8
 		","
-		40
-		","
-		--
-		","
-		--
-		","
-		14.0
-		","
-		10
-		","
-		13
-		","
-		--
-		","
 		-19
 		","
 		8—10
@@ -155,20 +71,6 @@ mii gunner
 		Dash Attack
 		","
 		10
-		","
-		45
-		","
-		--
-		","
-		--
-		","
-		11.0
-		","
-		8
-		","
-		15
-		","
-		--
 		","
 		-20
 		","
@@ -181,20 +83,6 @@ mii gunner
 		","
 		17...
 		","
-		77
-		","
-		--
-		","
-		Charge hold is frame 5
-		","
-		1.8/7.5
-		","
-		4/16
-		","
-		3/6
-		","
-		Multi/Final
-		","
 		-31
 		","
 		17—38(rehit: 4)/40
@@ -205,20 +93,6 @@ mii gunner
 		Up Smash
 		","
 		11/15/19/23/27
-		","
-		55
-		","
-		--
-		","
-		Charge hold is frame 7
-		","
-		3.0/2.5/7.0
-		","
-		5/5/7
-		","
-		3/3/6
-		","
-		First/multi/final
 		","
 		-22
 		","
@@ -231,20 +105,6 @@ mii gunner
 		","
 		9/23
 		","
-		52
-		","
-		--
-		","
-		Charge hold is frame 5
-		","
-		11.5/14.0
-		","
-		9/10
-		","
-		8/10
-		","
-		--
-		","
 		-35/-19
 		","
 		9/23—25
@@ -255,20 +115,6 @@ mii gunner
 		Neutral Air
 		","
 		8
-		","
-		41
-		","
-		11
-		","
-		Autocancels on frame 1-3 and 35 onward
-		","
-		10.0
-		","
-		8
-		","
-		4
-		","
-		--
 		","
 		-7
 		","
@@ -281,20 +127,6 @@ mii gunner
 		","
 		12
 		","
-		43
-		","
-		12
-		","
-		Autocancels on frame 44 onward
-		","
-		8.0/6.0
-		","
-		7/6
-		","
-		4/3
-		","
-		Early/Late
-		","
 		-1
 		","
 		12—16/17—20
@@ -305,20 +137,6 @@ mii gunner
 		Back Air
 		","
 		9
-		","
-		47
-		","
-		11
-		","
-		Autocancels on frame 1-3 and 32 onward
-		","
-		13.0/11.0
-		","
-		9
-		","
-		5
-		","
-		Normal/Late
 		","
 		-6
 		","
@@ -331,20 +149,6 @@ mii gunner
 		","
 		17...
 		","
-		59
-		","
-		13
-		","
-		Autocancels on frame 1-10 and 58 onward
-		","
-		1.8/4.0
-		","
-		4/5
-		","
-		2/3
-		","
-		Multi/Final
-		","
 		-11/-10
 		","
 		17/18—32(rehit: 3)/34
@@ -355,20 +159,6 @@ mii gunner
 		Down Air
 		","
 		20
-		","
-		54
-		","
-		17
-		","
-		Autocancels on frame 1-3 and 54 onward
-		","
-		15.0/10.0/12.0/8.0
-		","
-		10/8/9
-		","
-		5/4/5
-		","
-		Far/close/late
 		","
 		-12/-13/-12
 		","
@@ -381,20 +171,6 @@ mii gunner
 		","
 		3(+12)
 		","
-		39
-		","
-		--
-		","
-		Startup is 3 from charge state. 12 frames to enter charge state. 4 to cancel charge with shield. Takes 132 frames to reach full charge
-		","
-		4.0—26.0
-		","
-		8—23
-		","
-		2—8
-		","
-		--
-		","
 		-26 to -5
 		","
 		**
@@ -405,20 +181,6 @@ mii gunner
 		Laser Blaze
 		","
 		10
-		","
-		42
-		","
-		--
-		","
-		Fire rate is one shot per 22 frames
-		","
-		5.0
-		","
-		6
-		","
-		3
-		","
-		--
 		","
 		-23
 		","
@@ -431,20 +193,6 @@ mii gunner
 		","
 		36
 		","
-		53
-		","
-		--
-		","
-		Explosion hits are: 1/6/11/16/18
-		","
-		1.3/6.5
-		","
-		4/6
-		","
-		-/3
-		","
-		Multi/Final
-		","
 		+10
 		","
 		**
@@ -455,20 +203,6 @@ mii gunner
 		Flame Pillar
 		","
 		21
-		","
-		63
-		","
-		--
-		","
-		Eruption hits: 1/9/17/25/33. Will not erupt on shields
-		","
-		2.2/2.7
-		","
-		4
-		","
-		2
-		","
-		Multi/Final
 		","
 		-36
 		","
@@ -481,20 +215,6 @@ mii gunner
 		","
 		36—66
 		","
-		70—105
-		","
-		--
-		","
-		Startup is 5 from release. 
-		","
-		12.1—18.0
-		","
-		9—11
-		","
-		4—6
-		","
-		--
-		","
 		-21 to -17
 		","
 		**
@@ -506,20 +226,6 @@ mii gunner
 		","
 		27
 		","
-		46
-		","
-		--
-		","
-		-- 
-		","
-		7.5
-		","
-		7
-		","
-		3
-		","
-		--
-		","
 		-9
 		","
 		27—121
@@ -530,20 +236,6 @@ mii gunner
 		Gunner Missle (Super)
 		","
 		23
-		","
-		49
-		","
-		--
-		","
-		--
-		","
-		14.5
-		","
-		10
-		","
-		5
-		","
-		--
 		","
 		-11
 		","
@@ -558,20 +250,6 @@ mii gunner
 		","
 		--
 		","
-		18
-		","
-		--
-		","
-		7.0
-		","
-		7
-		","
-		3
-		","
-		--
-		","
-		--
-		","
 		12—25
 		"
 23,"<h1 class=""charactername"">
@@ -580,20 +258,6 @@ mii gunner
 		Cannon Jump Kick
 		","
 		6/10
-		","
-		--
-		","
-		28
-		","
-		Invulnerable on frame 6 on the ground.
-		","
-		9.0/8.0/6.0
-		","
-		16/15/13
-		","
-		9/8/6
-		","
-		first/second/late
 		","
 		**
 		","
@@ -608,20 +272,6 @@ mii gunner
 		","
 		--
 		","
-		14
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
 		**
 		"
 25,"<h1 class=""charactername"">
@@ -630,20 +280,6 @@ mii gunner
 		Echo Reflector
 		","
 		3 (4 is Start of Reflector)
-		","
-		38
-		","
-		--
-		","
-		Reflects on 4. Total frames is the minimum usage. Endlag is 15 frames otherwise.
-		","
-		2.0
-		","
-		7
-		","
-		3
-		","
-		--
 		","
 		-32
 		","
@@ -656,20 +292,6 @@ mii gunner
 		","
 		18—133
 		","
-		53
-		","
-		--
-		","
-		Auto detonates on 134. Or six frames after contact
-		","
-		2.0/9.0
-		","
-		4/7
-		","
-		-/4
-		","
-		contact/explosion
-		","
 		-18
 		","
 		18—133/1—4
@@ -680,20 +302,6 @@ mii gunner
 		Absorbing Vortex
 		","
 		7
-		","
-		27
-		","
-		--
-		","
-		Endlag from extended use is 9. Total frames is the minimum use. Absorbs on frame 7
-		","
-		4.0
-		","
-		5
-		","
-		5
-		","
-		--
 		","
 		-10
 		","
@@ -706,20 +314,6 @@ mii gunner
 		","
 		6
 		","
-		34
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		5
-		","
-		5
-		","
-		--
-		","
 		-10
 		","
 		6—7
@@ -730,20 +324,6 @@ mii gunner
 		Dash Grab
 		","
 		9
-		","
-		42
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		5
-		","
-		5
-		","
-		--
 		","
 		-10
 		","
@@ -756,20 +336,6 @@ mii gunner
 		","
 		10
 		","
-		37
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		5
-		","
-		5
-		","
-		--
-		","
 		-10
 		","
 		10—11
@@ -780,20 +346,6 @@ mii gunner
 		Pummel
 		","
 		1
-		","
-		19
-		","
-		--
-		","
-		Total frames includes 13 frames of hitlag
-		","
-		1.3
-		","
-		5
-		","
-		5
-		","
-		--
 		","
 		-10
 		","
@@ -806,20 +358,6 @@ mii gunner
 		","
 		10/12
 		","
-		33
-		","
-		--
-		","
-		--	
-		","
-		4.0/3.0
-		","
-		5
-		","
-		5
-		","
-		--
-		","
 		-10
 		","
 		10—11
@@ -830,20 +368,6 @@ mii gunner
 		Backward Throw
 		","
 		10
-		","
-		49
-		","
-		--
-		","
-		Shoots blaster on 20.		
-		","
-		7.0/3.0
-		","
-		5
-		","
-		5
-		","
-		--
 		","
 		-10
 		","
@@ -856,20 +380,6 @@ mii gunner
 		","
 		7
 		","
-		51
-		","
-		--
-		","
-		Shoots blaster on 18 and 28
-		","
-		7.0/3.0
-		","
-		5
-		","
-		5
-		","
-		--
-		","
 		-10
 		","
 		10—11
@@ -880,20 +390,6 @@ mii gunner
 		Down Throw
 		","
 		16
-		","
-		40
-		","
-		--
-		","
-		--		
-		","
-		7.0
-		","
-		5
-		","
-		5
-		","
-		--
 		","
 		-10
 		","
@@ -906,20 +402,6 @@ mii gunner
 		","
 		16
 		","
-		20/25
-		","
-		--
-		","
-		Invulnerable on frame 3-17
-		","
-		7.0
-		","
-		5
-		","
-		5
-		","
-		--
-		","
 		-10
 		","
 		10—11
@@ -930,20 +412,6 @@ mii gunner
 		Forward Roll
 		","
 		16
-		","
-		29
-		","
-		--
-		","
-		Invulnerable on frame 4-15
-		","
-		7.0
-		","
-		5
-		","
-		5
-		","
-		--
 		","
 		-10
 		","
@@ -956,20 +424,6 @@ mii gunner
 		","
 		16
 		","
-		34
-		","
-		--
-		","
-		Invulnerable on frame 5-16
-		","
-		7.0
-		","
-		5
-		","
-		5
-		","
-		--
-		","
 		-10
 		","
 		10—11
@@ -980,20 +434,6 @@ mii gunner
 		Neutral Air Dodge
 		","
 		16
-		","
-		52
-		","
-		10
-		","
-		Invulnerable on frame 3-29
-		","
-		7.0
-		","
-		5
-		","
-		5
-		","
-		--
 		","
 		-10
 		","
@@ -1006,20 +446,6 @@ mii gunner
 		","
 		16
 		","
-		73
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		7.0
-		","
-		5
-		","
-		5
-		","
-		--
-		","
 		-10
 		","
 		10—11
@@ -1030,20 +456,6 @@ mii gunner
 		Air Dodge, Diagonally Down
 		","
 		16
-		","
-		82
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		7.0
-		","
-		5
-		","
-		5
-		","
-		--
 		","
 		-10
 		","
@@ -1056,20 +468,6 @@ mii gunner
 		","
 		16
 		","
-		87
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		7.0
-		","
-		5
-		","
-		5
-		","
-		--
-		","
 		-10
 		","
 		10—11
@@ -1080,20 +478,6 @@ mii gunner
 		Air Dodge, Diagonally Up
 		","
 		16
-		","
-		103
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21
-		","
-		7.0
-		","
-		5
-		","
-		5
-		","
-		--
 		","
 		-10
 		","
@@ -1106,20 +490,6 @@ mii gunner
 		","
 		16
 		","
-		114
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		7.0
-		","
-		5
-		","
-		5
-		","
-		--
-		","
 		-10
 		","
 		10—11
@@ -1130,20 +500,6 @@ mii gunner
 			Ledge Grab
 		","
 		16
-		","
-		114
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		7.0
-		","
-		5
-		","
-		5
-		","
-		--
 		","
 		-10
 		","
@@ -1156,20 +512,6 @@ mii gunner
 		","
 		16
 		","
-		114
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		7.0
-		","
-		5
-		","
-		5
-		","
-		--
-		","
 		-10
 		","
 		10—11
@@ -1180,20 +522,6 @@ mii gunner
 				Ledge Hang
 			","
 		16
-		","
-		114
-		","
-		11-19
-		","
-		Invulnerable on frame 3-21	
-		","
-		7.0
-		","
-		5
-		","
-		5
-		","
-		--
 		","
 		-10
 		","

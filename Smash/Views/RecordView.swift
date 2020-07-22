@@ -10,13 +10,13 @@ import SwiftUI
 
 struct RecordView: View {
 
-    let testData = testDatas
+    @ObservedObject var recordListVM = RecordListViewMdoel()
 
     var body: some View {
         NavigationView{
             List{
-                ForEach(testData) { data in
-                    ResultCell(data: data)
+                ForEach(recordListVM.recordCellViewModels) { recordCellVM in
+                    ResultCell(recordCellVM: recordCellVM)
                 }
             }
             .navigationBarTitle("対戦記録")
@@ -33,7 +33,7 @@ struct RecordVIew_Previews: PreviewProvider {
 
 struct ResultCell: View {
 
-    let data: Record
+    @ObservedObject var recordCellVM: RecordCelViewModel
 
      var stageName = { (name: String) -> String in
         switch name {
@@ -54,8 +54,8 @@ struct ResultCell: View {
         }
     }
 
-    var borderColor = { (data: Record) -> Color in
-        if data.result == "win" {
+    var borderColor = { (record: Record) -> Color in
+        if record.result == "win" {
             return .orange
         } else {
             return .blue
@@ -65,22 +65,22 @@ struct ResultCell: View {
     var body: some View {
         HStack(spacing: 30) {
             VStack(alignment: .center, spacing: 5) {
-                Text(data.result)
+                Text(recordCellVM.record.result)
                 EdgeBorder(width: 5, edge: .top)
-                    .foregroundColor(self.borderColor(data))
+                    .foregroundColor(self.borderColor(recordCellVM.record))
                     .frame(maxWidth: .infinity)
             }
-            FighterPDF(name: data.myFighter)
+            FighterPDF(name: recordCellVM.record.myFighter)
                 .frame(width: 40, height: 40)
             Text("vs")
                 .font(.headline)
-            FighterPDF(name: data.opponentFighter)
+            FighterPDF(name: recordCellVM.record.opponentFighter)
                 .frame(width: 40, height: 40)
             VStack(spacing: 0) {
-                StagePDF(name: data.stage)
+                StagePDF(name: recordCellVM.record.stage)
                     .frame(width: 60, height: 30)
                     .cornerRadius(3)
-                Text(self.stageName(data.stage))
+                Text(self.stageName(recordCellVM.record.stage))
                     .font(.caption)
             }
         }

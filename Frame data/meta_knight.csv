@@ -1,0 +1,1051 @@
+,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Rapid Jab
+		","
+		4/7/10...
+		","
+		15
+		","
+		--
+		","
+		Rapid Jab loop is 22 frames.
+		","
+		1.0
+		","
+		4
+		","
+		-
+		","
+		--
+		","
+		--
+		","
+		4/7/10...
+		"
+1,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Rapid Jab Finisher
+		","
+		3
+		","
+		30
+		","
+		--
+		","
+		--
+		","
+		2.0
+		","
+		12
+		","
+		3
+		","
+		--
+		","
+		-24
+		","
+		3
+		"
+2,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Forward Tilt 1
+		","
+		6
+		","
+		25
+		","
+		--
+		","
+		Transitions to next hit as early as frame 10.
+		","
+		2.0
+		","
+		4
+		","
+		3
+		","
+		--
+		","
+		-16
+		","
+		6
+		"
+3,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Forward Tilt 2
+		","
+		2
+		","
+		27
+		","
+		--
+		","
+		Transitions to next hit as early as frame 7
+		","
+		2.0
+		","
+		4
+		","
+		3
+		","
+		--
+		","
+		-22
+		","
+		2
+		"
+4,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Forward Tilt 3
+		","
+		2
+		","
+		30
+		","
+		--
+		","
+		--
+		","
+		4.0
+		","
+		11
+		","
+		5
+		","
+		--
+		","
+		-23
+		","
+		2
+		"
+5,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Up Tilt
+		","
+		8
+		","
+		34
+		","
+		--
+		","
+		--
+		","
+		6.0/7.0
+		","
+		7/8
+		","
+		6/7
+		","
+		Close/Tipper
+		","
+		-20/-19
+		","
+		8—10/11—14
+		"
+6,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Down Tilt
+		","
+		3
+		","
+		18
+		","
+		--
+		","
+		--
+		","
+		5.0
+		","
+		6
+		","
+		6
+		","
+		--
+		","
+		-9
+		","
+		3—4
+		"
+7,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Dash Attack
+		","
+		7
+		","
+		32
+		","
+		--
+		","
+		--
+		","
+		7.0/6.0
+		","
+		7/7
+		","
+		7/7
+		","
+		Early/Late
+		","
+		-18
+		","
+		7—11
+		"
+8,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Forward Smash
+		","
+		24
+		","
+		41
+		","
+		--
+		","
+		Charge hold is frame 20
+		","
+		16.0
+		","
+		15
+		","
+		11
+		","
+		--
+		","
+		-6
+		","
+		24
+		"
+9,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Up Smash
+		","
+		8/12/17
+		","
+		49
+		","
+		--
+		","
+		Charge hold is frame 3
+		","
+		4.0/3.0/5.0
+		","
+		5/5/12
+		","
+		3/3/4
+		","
+		--
+		","
+		-28
+		","
+		8/12/17
+		"
+10,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Down Smash
+		","
+		4/9
+		","
+		37
+		","
+		--
+		","
+		Charge hold is frame 1
+		","
+		10.0/13.0
+		","
+		8/9
+		","
+		7/9
+		","
+		--
+		","
+		-26/-19
+		","
+		4/9
+		"
+11,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Neutral Air
+		","
+		6
+		","
+		43
+		","
+		7
+		","
+		Autocancels on frame 1-5 and 40 onward
+		","
+		10.0/7.5
+		","
+		8/7
+		","
+		4/3
+		","
+		Early/Late
+		","
+		-3/-4
+		","
+		6—7/8—20
+		"
+12,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Forward Air
+		","
+		9/12/15
+		","
+		39
+		","
+		10
+		","
+		Autocancels on frame 39 onward
+		","
+		1.5/3.0
+		","
+		4/10
+		","
+		2/2
+		","
+		Multi/Final
+		","
+		-8/-8
+		","
+		9/12/15
+		"
+13,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Back Air
+		","
+		7/13/20
+		","
+		51
+		","
+		11
+		","
+		Autocancels on frame 1-6 and 40 onward
+		","
+		1.5/4.0
+		","
+		4/11
+		","
+		2/3
+		","
+		Multi/Final
+		","
+		-9/-8
+		","
+		7—8/13—14/20—21
+		"
+14,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Up Air
+		","
+		6
+		","
+		26
+		","
+		9
+		","
+		Autocancels on frame 1-5 and 24 onward
+		","
+		4.0
+		","
+		5
+		","
+		3
+		","
+		--
+		","
+		-6
+		","
+		6
+		"
+15,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Down Air
+		","
+		4
+		","
+		27
+		","
+		9
+		","
+		Autocancels on frame 1-3 and 26 onward
+		","
+		6.0
+		","
+		6
+		","
+		3
+		","
+		--
+		","
+		-6
+		","
+		4
+		"
+16,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Neutral B (Mach Tornado)
+		","
+		12
+		","
+		104
+		","
+		29
+		","
+		Landing lag only occurs after entering special fall.
+		","
+		12.0/8.0
+		","
+		11/9
+		","
+		11/8
+		","
+		--
+		","
+		-81
+		","
+		12—21/22—46
+		"
+17,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Side B (Drill Rush)
+		","
+		26/30/34/38/42/46/ 50/54/58/62/66/70
+		","
+		98
+		","
+		26
+		","
+		Total frames is assuming you travel along the ground.
+		","
+		1.1/3.0
+		","
+		4/15
+		","
+		2/4
+		","
+		--
+		","
+		-24
+		","
+		26—69/70
+		"
+18,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Up B (Shuttle Loop)
+		","
+		8/22
+		","
+		--
+		","
+		30
+		","
+		--
+		","
+		9.0/6.0/6.0
+		","
+		11/6/9
+		","
+		9/6/6
+		","
+		Early/Late/Second
+		","
+		**
+		","
+		(8/9—10/11—12)22—27
+		"
+19,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Up B, Air (Shuttle Loop, Air)
+		","
+		7/20
+		","
+		--
+		","
+		30
+		","
+		--
+		","
+		6.0/6.0
+		","
+		6/9
+		","
+		6/6
+		","
+		First/Second
+		","
+		**
+		","
+		(7/8—10)20—26
+		"
+20,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Down B (Dimensional Cape)
+		","
+		--
+		","
+		57
+		","
+		30
+		","
+		Invulnerable on frame 12-39. Landing lag only occurs if you enter special fall.
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		**
+		"
+21,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Dimensional Cape, Attack
+		","
+		34
+		","
+		92
+		","
+		30
+		","
+		Invulnerable on frame 12-32. Landing lag only occurs if you enter special fall.
+		","
+		16.0
+		","
+		15
+		","
+		14
+		","
+		--
+		","
+		-44
+		","
+		34
+		"
+22,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Grab
+		","
+		7
+		","
+		36
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		15
+		","
+		14
+		","
+		--
+		","
+		-44
+		","
+		7—8
+		"
+23,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Dash Grab
+		","
+		11
+		","
+		44
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		15
+		","
+		14
+		","
+		--
+		","
+		-44
+		","
+		11—12
+		"
+24,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Pivot Grab
+		","
+		12
+		","
+		39
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		15
+		","
+		14
+		","
+		--
+		","
+		-44
+		","
+		12—13
+		"
+25,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Pummel
+		","
+		1
+		","
+		15
+		","
+		--
+		","
+		Total frames includes 10 frames of hitlag
+		","
+		1.0
+		","
+		15
+		","
+		14
+		","
+		--
+		","
+		-44
+		","
+		12—13
+		"
+26,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Forward Throw
+		","
+		8/10
+		","
+		27
+		","
+		--
+		","
+		--		
+		","
+		6.0/3.0
+		","
+		15
+		","
+		14
+		","
+		--
+		","
+		-44
+		","
+		12—13
+		"
+27,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Backward Throw
+		","
+		16/18
+		","
+		34
+		","
+		--
+		","
+		--		
+		","
+		7.0/3.0
+		","
+		15
+		","
+		14
+		","
+		--
+		","
+		-44
+		","
+		12—13
+		"
+28,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Up Throw
+		","
+		46
+		","
+		77
+		","
+		--
+		","
+		Meta Knight is airborne when he can act. Startup assumes level ground	
+		","
+		10.0
+		","
+		15
+		","
+		14
+		","
+		--
+		","
+		-44
+		","
+		12—13
+		"
+29,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Down Throw
+		","
+		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
+		","
+		86
+		","
+		--
+		","
+		--		
+		","
+		0.5/1.0/2.0
+		","
+		15
+		","
+		14
+		","
+		--
+		","
+		-44
+		","
+		12—13
+		"
+30,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Spot Dodge
+		","
+		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
+		","
+		19/24
+		","
+		--
+		","
+		Invulnerable on frame 3-16
+		","
+		0.5/1.0/2.0
+		","
+		15
+		","
+		14
+		","
+		--
+		","
+		-44
+		","
+		12—13
+		"
+31,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Forward Roll
+		","
+		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
+		","
+		28
+		","
+		--
+		","
+		Invulnerable on frame 4-14
+		","
+		0.5/1.0/2.0
+		","
+		15
+		","
+		14
+		","
+		--
+		","
+		-44
+		","
+		12—13
+		"
+32,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Backward Roll
+		","
+		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
+		","
+		33
+		","
+		--
+		","
+		Invulnerable on frame 4-15
+		","
+		0.5/1.0/2.0
+		","
+		15
+		","
+		14
+		","
+		--
+		","
+		-44
+		","
+		12—13
+		"
+33,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Neutral Air Dodge
+		","
+		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
+		","
+		47
+		","
+		10
+		","
+		Invulnerable on frame 2-26
+		","
+		0.5/1.0/2.0
+		","
+		15
+		","
+		14
+		","
+		--
+		","
+		-44
+		","
+		12—13
+		"
+34,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Air Dodge, Down
+		","
+		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
+		","
+		66
+		","
+		11-19
+		","
+		Invulnerable on frame 2-19	
+		","
+		0.5/1.0/2.0
+		","
+		15
+		","
+		14
+		","
+		--
+		","
+		-44
+		","
+		12—13
+		"
+35,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
+		","
+		74
+		","
+		11-19
+		","
+		Invulnerable on frame 2-19	
+		","
+		0.5/1.0/2.0
+		","
+		15
+		","
+		14
+		","
+		--
+		","
+		-44
+		","
+		12—13
+		"
+36,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Air Dodge, Left/Right
+		","
+		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
+		","
+		80
+		","
+		11-19
+		","
+		Invulnerable on frame 2-19	
+		","
+		0.5/1.0/2.0
+		","
+		15
+		","
+		14
+		","
+		--
+		","
+		-44
+		","
+		12—13
+		"
+37,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
+		","
+		94
+		","
+		11-19
+		","
+		Invulnerable on frame 2-19	
+		","
+		0.5/1.0/2.0
+		","
+		15
+		","
+		14
+		","
+		--
+		","
+		-44
+		","
+		12—13
+		"
+38,"<h1 class=""charactername"">
+meta knight
+</h1>","
+		Air Dodge, Up
+		","
+		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
+		","
+		101
+		","
+		11-19
+		","
+		Invulnerable on frame 2-19	
+		","
+		0.5/1.0/2.0
+		","
+		15
+		","
+		14
+		","
+		--
+		","
+		-44
+		","
+		12—13
+		"
+39,"<h1 class=""charactername"">
+meta knight
+</h1>","
+			Ledge Grab
+		","
+		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
+		","
+		101
+		","
+		11-19
+		","
+		Invulnerable on frame 2-19	
+		","
+		0.5/1.0/2.0
+		","
+		15
+		","
+		14
+		","
+		--
+		","
+		-44
+		","
+		12—13
+		"
+40,"<h1 class=""charactername"">
+meta knight
+</h1>","
+			Ledge Grab
+		","
+		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
+		","
+		101
+		","
+		11-19
+		","
+		Invulnerable on frame 2-19	
+		","
+		0.5/1.0/2.0
+		","
+		15
+		","
+		14
+		","
+		--
+		","
+		-44
+		","
+		12—13
+		"
+41,"<h1 class=""charactername"">
+meta knight
+</h1>","
+				Ledge Hang
+			","
+		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
+		","
+		101
+		","
+		11-19
+		","
+		Invulnerable on frame 2-19	
+		","
+		0.5/1.0/2.0
+		","
+		15
+		","
+		14
+		","
+		--
+		","
+		-44
+		","
+		12—13
+		"

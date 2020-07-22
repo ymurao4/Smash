@@ -1,0 +1,926 @@
+,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Jab
+		","
+		2
+		","
+		17
+		","
+		--
+		","
+		Transitions to next Jab as early as frame 7
+		","
+		1.4/1.2
+		","
+		4/4
+		","
+		3/2
+		","
+		--
+		","
+		-12/-13
+		","
+		2—3
+		"
+1,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Forward Tilt
+		","
+		6
+		","
+		29
+		","
+		--
+		","
+		--
+		","
+		9.0/8.0/10.0
+		","
+		11/11/12
+		","
+		9/8/10
+		","
+		Neutral/Down/Up
+		","
+		-14/-15/-13
+		","
+		6—8
+		"
+2,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Up Tilt
+		","
+		7
+		","
+		26
+		","
+		--
+		","
+		--
+		","
+		5.0
+		","
+		6
+		","
+		6
+		","
+		--
+		","
+		-13
+		","
+		7—13
+		"
+3,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Down Tilt
+		","
+		7
+		","
+		18
+		","
+		--
+		","
+		--
+		","
+		6.0
+		","
+		6
+		","
+		6
+		","
+		--
+		","
+		-5
+		","
+		7—8
+		"
+4,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Dash Attack
+		","
+		6
+		","
+		35
+		","
+		--
+		","
+		--
+		","
+		11.0/6.0
+		","
+		13/9
+		","
+		17/10
+		","
+		Early/Late
+		","
+		-12
+		","
+		6—8(9—12)
+		"
+5,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Forward Smash
+		","
+		15
+		","
+		53
+		","
+		--
+		","
+		Charge hold is frame 9
+		","
+		15.0/18.0/12.0
+		","
+		15/15/13
+		","
+		9/12/8
+		","
+		Early/late/latest
+		","
+		-29
+		","
+		15—16/17—19/20—29
+		"
+6,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Up Smash
+		","
+		10
+		","
+		44
+		","
+		--
+		","
+		Charge hold is frame 2
+		","
+		14.0/13.0/11.0
+		","
+		10/9/8
+		","
+		10/9/8
+		","
+		Close/Far/Late
+		","
+		-24
+		","
+		10—12/13—14/15—17
+		"
+7,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Down Smash
+		","
+		8/11/14/17/20/23
+		","
+		65
+		","
+		--
+		","
+		Charge hold is frame 2
+		","
+		2.0/3.0
+		","
+		7/7
+		","
+		3/3
+		","
+		Multi/Final
+		","
+		-39
+		","
+		8—9/11—12/14—15/17—18/20—21
+		"
+8,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Neutral Air
+		","
+		3/9/15/21
+		","
+		38
+		","
+		9
+		","
+		Autocancels on frame 37 onward
+		","
+		1.7/3.5
+		","
+		7/8
+		","
+		2/3
+		","
+		Multi/Final
+		","
+		-7
+		","
+		3—6/9—12/15—18/21—22
+		"
+9,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Forward Air
+		","
+		11...
+		","
+		41
+		","
+		12
+		","
+		Autocancels on frame 1-4 and 32 onward
+		","
+		1.3/4.8
+		","
+		6/13
+		","
+		2/3
+		","
+		Multi/Final
+		","
+		-10/-9
+		","
+		11—25/27 (rehit: 3)
+		"
+10,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Back Air
+		","
+		4/8/12/16/20/24
+		","
+		43
+		","
+		18
+		","
+		Landing hit on frame 1. Autocancels on frame 1-3 and 38 onward
+		","
+		1.0/3.5/4.0
+		","
+		4/11/5
+		","
+		2/2/5
+		","
+		Multi/Final/Landing
+		","
+		-12
+		","
+		4—5/8—9/12—13/16—17/20—21/24—25/1—2
+		"
+11,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Up Air
+		","
+		4
+		","
+		26
+		","
+		14
+		","
+		Autocancels on frame 1-3 and 18 onward
+		","
+		6.0/4.0
+		","
+		6/5
+		","
+		3/3
+		","
+		Early/Late
+		","
+		-11/-11
+		","
+		4—6/7—8
+		"
+12,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Down Air
+		","
+		14
+		","
+		47
+		","
+		22
+		","
+		Landing hit on frame 1. Autocancels on frame 38 onward
+		","
+		13.0/12.0/4.0
+		","
+		14/13/8
+		","
+		5/5/5
+		","
+		Meteor/Late/Landing
+		","
+		-16
+		","
+		14—15/16—26/1—2
+		"
+13,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Neutral B (Thunderjolt)
+		","
+		19
+		","
+		51
+		","
+		--
+		","
+		--
+		","
+		6.0/4.8
+		","
+		9/9
+		","
+		3/3
+		","
+		Arc/Projectile
+		","
+		-20
+		","
+		19—52(53—85/86—114)
+		"
+14,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Side B (Skull Bash)
+		","
+		18/18
+		","
+		96/74
+		","
+		--
+		","
+		Startup is 10 on release. On hit endlag is 21 frames. On level ground, total frames is 96, 74 in the air.
+		","
+		10.0—21.4
+		","
+		8—13
+		","
+		10—19
+		","
+		Ground/Air
+		","
+		-11 to -2
+		","
+		18—52
+		"
+15,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Up B (Quick Attack)
+		","
+		15/29
+		","
+		52/66
+		","
+		24
+		","
+		Total frames assumes you end on the ground.
+		","
+		3.0/2.0
+		","
+		7/7
+		","
+		3/3
+		","
+		Early/Late
+		","
+		-33
+		","
+		15—19/29—33
+		"
+16,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Down B (Thunder)
+		","
+		13/**
+		","
+		86/74
+		","
+		--
+		","
+		First total frames is when the thunder bolt misses you. Invulnerable on frame 34-43 if bolt hits you. Spikes on frames 13—15.
+		","
+		6.0/8.0/15.0
+		","
+		11/15
+		","
+		3/14
+		","
+		Projectile Early / Projectile Late / Contact
+		","
+		-26
+		","
+		13—15(16—85): Early // 21—23(24—93): Late // 1-2: Contact
+		"
+17,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Grab
+		","
+		7
+		","
+		36
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		11/15
+		","
+		3/14
+		","
+		Projectile Early / Projectile Late / Contact
+		","
+		-26
+		","
+		7—8
+		"
+18,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Dash Grab
+		","
+		11
+		","
+		44
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		11/15
+		","
+		3/14
+		","
+		Projectile Early / Projectile Late / Contact
+		","
+		-26
+		","
+		11—12
+		"
+19,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Pivot Grab
+		","
+		12
+		","
+		39
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		11/15
+		","
+		3/14
+		","
+		Projectile Early / Projectile Late / Contact
+		","
+		-26
+		","
+		12—13
+		"
+20,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Pummel
+		","
+		1
+		","
+		16
+		","
+		--
+		","
+		Total frames includes 11 frames of hitlag
+		","
+		1.0
+		","
+		11/15
+		","
+		3/14
+		","
+		Projectile Early / Projectile Late / Contact
+		","
+		-26
+		","
+		12—13
+		"
+21,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Forward Throw
+		","
+		11/15/19/23/30
+		","
+		43
+		","
+		--
+		","
+		--		
+		","
+		2.0/2.0
+		","
+		11/15
+		","
+		3/14
+		","
+		Projectile Early / Projectile Late / Contact
+		","
+		-26
+		","
+		12—13
+		"
+22,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Backward Throw
+		","
+		26
+		","
+		49
+		","
+		--
+		","
+		--		
+		","
+		9.0
+		","
+		11/15
+		","
+		3/14
+		","
+		Projectile Early / Projectile Late / Contact
+		","
+		-26
+		","
+		12—13
+		"
+23,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Up Throw
+		","
+		14/16
+		","
+		35
+		","
+		--
+		","
+		--		
+		","
+		3.0/5.0
+		","
+		11/15
+		","
+		3/14
+		","
+		Projectile Early / Projectile Late / Contact
+		","
+		-26
+		","
+		12—13
+		"
+24,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Down Throw
+		","
+		29
+		","
+		51
+		","
+		--
+		","
+		--		
+		","
+		5.0
+		","
+		11/15
+		","
+		3/14
+		","
+		Projectile Early / Projectile Late / Contact
+		","
+		-26
+		","
+		12—13
+		"
+25,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Spot Dodge
+		","
+		29
+		","
+		19/24
+		","
+		--
+		","
+		Invulnerable on frame 3-16
+		","
+		5.0
+		","
+		11/15
+		","
+		3/14
+		","
+		Projectile Early / Projectile Late / Contact
+		","
+		-26
+		","
+		12—13
+		"
+26,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Forward Roll
+		","
+		29
+		","
+		28
+		","
+		--
+		","
+		Invulnerable on frame 4-14
+		","
+		5.0
+		","
+		11/15
+		","
+		3/14
+		","
+		Projectile Early / Projectile Late / Contact
+		","
+		-26
+		","
+		12—13
+		"
+27,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Backward Roll
+		","
+		29
+		","
+		33
+		","
+		--
+		","
+		Invulnerable on frame 4-15
+		","
+		5.0
+		","
+		11/15
+		","
+		3/14
+		","
+		Projectile Early / Projectile Late / Contact
+		","
+		-26
+		","
+		12—13
+		"
+28,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Neutral Air Dodge
+		","
+		29
+		","
+		50
+		","
+		10
+		","
+		Invulnerable on frame 2-26
+		","
+		5.0
+		","
+		11/15
+		","
+		3/14
+		","
+		Projectile Early / Projectile Late / Contact
+		","
+		-26
+		","
+		12—13
+		"
+29,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Air Dodge, Down
+		","
+		29
+		","
+		69
+		","
+		11-19
+		","
+		Invulnerable on frame 2-19		
+		","
+		5.0
+		","
+		11/15
+		","
+		3/14
+		","
+		Projectile Early / Projectile Late / Contact
+		","
+		-26
+		","
+		12—13
+		"
+30,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		29
+		","
+		76
+		","
+		11-19
+		","
+		Invulnerable on frame 2-19	
+		","
+		5.0
+		","
+		11/15
+		","
+		3/14
+		","
+		Projectile Early / Projectile Late / Contact
+		","
+		-26
+		","
+		12—13
+		"
+31,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Air Dodge, Left/Right
+		","
+		29
+		","
+		85
+		","
+		11-19
+		","
+		Invulnerable on frame 2-19
+		","
+		5.0
+		","
+		11/15
+		","
+		3/14
+		","
+		Projectile Early / Projectile Late / Contact
+		","
+		-26
+		","
+		12—13
+		"
+32,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		29
+		","
+		97
+		","
+		11-19
+		","
+		Invulnerable on frame 2-19
+		","
+		5.0
+		","
+		11/15
+		","
+		3/14
+		","
+		Projectile Early / Projectile Late / Contact
+		","
+		-26
+		","
+		12—13
+		"
+33,"<h1 class=""charactername"">
+pikachu
+</h1>","
+		Air Dodge, Up
+		","
+		29
+		","
+		109
+		","
+		11-19
+		","
+		Invulnerable on frame 2-19
+		","
+		5.0
+		","
+		11/15
+		","
+		3/14
+		","
+		Projectile Early / Projectile Late / Contact
+		","
+		-26
+		","
+		12—13
+		"
+34,"<h1 class=""charactername"">
+pikachu
+</h1>","
+			Ledge Grab
+		","
+		29
+		","
+		109
+		","
+		11-19
+		","
+		Invulnerable on frame 2-19
+		","
+		5.0
+		","
+		11/15
+		","
+		3/14
+		","
+		Projectile Early / Projectile Late / Contact
+		","
+		-26
+		","
+		12—13
+		"
+35,"<h1 class=""charactername"">
+pikachu
+</h1>","
+			Ledge Grab
+		","
+		29
+		","
+		109
+		","
+		11-19
+		","
+		Invulnerable on frame 2-19
+		","
+		5.0
+		","
+		11/15
+		","
+		3/14
+		","
+		Projectile Early / Projectile Late / Contact
+		","
+		-26
+		","
+		12—13
+		"
+36,"<h1 class=""charactername"">
+pikachu
+</h1>","
+				Ledge Hang
+			","
+		29
+		","
+		109
+		","
+		11-19
+		","
+		Invulnerable on frame 2-19
+		","
+		5.0
+		","
+		11/15
+		","
+		3/14
+		","
+		Projectile Early / Projectile Late / Contact
+		","
+		-26
+		","
+		12—13
+		"

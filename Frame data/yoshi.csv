@@ -1,0 +1,951 @@
+,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Jab 1
+		","
+		3
+		","
+		17
+		","
+		--
+		","
+		Transitions to Jab 2 as early as frame 6 
+		","
+		3.0
+		","
+		7
+		","
+		4
+		","
+		--
+		","
+		-10
+		","
+		3
+		"
+1,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Jab 2
+		","
+		3
+		","
+		19
+		","
+		--
+		","
+		--
+		","
+		4.0
+		","
+		11
+		","
+		5
+		","
+		--
+		","
+		-11
+		","
+		3—4
+		"
+2,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Forward Tilt
+		","
+		5
+		","
+		29
+		","
+		--
+		","
+		--
+		","
+		8.0
+		","
+		7
+		","
+		8
+		","
+		--
+		","
+		-16
+		","
+		5—7
+		"
+3,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Up Tilt
+		","
+		8
+		","
+		31
+		","
+		--
+		","
+		--
+		","
+		7.0
+		","
+		7
+		","
+		7
+		","
+		--
+		","
+		-16
+		","
+		8—15
+		"
+4,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Down Tilt
+		","
+		8
+		","
+		23
+		","
+		--
+		","
+		--
+		","
+		5.0/4.5/4.0
+		","
+		6/6/5
+		","
+		6/6/5
+		","
+		Close/Middle/Far
+		","
+		-9/-9/-10
+		","
+		8—10
+		"
+5,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Dash Attack
+		","
+		10
+		","
+		40
+		","
+		--
+		","
+		--
+		","
+		11.0/8.0
+		","
+		8/7
+		","
+		10/8
+		","
+		Early/Late
+		","
+		-20
+		","
+		10—12/13—20
+		"
+6,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Forward Smash
+		","
+		14
+		","
+		52
+		","
+		--
+		","
+		Head intangibility on frame 12-16. Charge hold is frame 7
+		","
+		15.5
+		","
+		10
+		","
+		10
+		","
+		--
+		","
+		-28
+		","
+		14—16
+		"
+7,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Up Smash
+		","
+		11
+		","
+		46
+		","
+		--
+		","
+		Leg intangibility on frame 11-13. Charge hold is frame 7
+		","
+		14.0/12.0
+		","
+		10/9
+		","
+		10/8
+		","
+		Early/Late
+		","
+		-24
+		","
+		11—13/14—16
+		"
+8,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Down Smash
+		","
+		7/22
+		","
+		49
+		","
+		--
+		","
+		Charge hold is frame 3
+		","
+		12.0/10.0
+		","
+		9/8
+		","
+		8/7
+		","
+		First/Second
+		","
+		-34/-19
+		","
+		7—8/22—23
+		"
+9,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Neutral Air
+		","
+		3
+		","
+		44
+		","
+		7
+		","
+		Autocancels on frame 1-2 and 38 onward
+		","
+		10.0/7.0/5.0
+		","
+		8/7/6
+		","
+		4/3/3
+		","
+		Early/Late/Latest
+		","
+		-3/-4/-4
+		","
+		3—4(5—11/12—25)
+		"
+10,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Forward Air
+		","
+		16
+		","
+		43
+		","
+		12
+		","
+		Autocancels on frame 1-3 and 40 onward
+		","
+		15.0/14.0
+		","
+		10/10
+		","
+		5/5
+		","
+		Close/meteor
+		","
+		-7/-7
+		","
+		16—20
+		"
+11,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Back Air
+		","
+		11/14/18
+		","
+		55
+		","
+		11
+		","
+		Autocancels on frame 1-5 and 44 onward 
+		","
+		3.5/5.5
+		","
+		5/9
+		","
+		2/3
+		","
+		Multihit/Final 
+		","
+		-9/-8
+		","
+		11/14/18—19
+		"
+12,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Up Air
+		","
+		5
+		","
+		36
+		","
+		8
+		","
+		Autocancels on frame 1-4 and 31 onward
+		","
+		12.0
+		","
+		9
+		","
+		5
+		","
+		--
+		","
+		-3
+		","
+		5—6
+		"
+13,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Down Air
+		","
+		16/18/20/22/24/26/28/30/32/34/36/38/41
+		","
+		56
+		","
+		17
+		","
+		Landing hit generates on frame 1. Autocancels on frame 50 onward
+		","
+		2.2/1.9/2.7/1.0
+		","
+		5/4/7/4
+		","
+		-/2/2/2
+		","
+		Early multi/Late multi/final/landing
+		","
+		-14
+		","
+		16/18/20/22/24/26/28/30/32/34/36/38/41
+		"
+14,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Neutral B (Egg Lay)
+		","
+		19
+		","
+		49/41
+		","
+		--
+		","
+		Egg appears on frame 33 when successful. Total frames when successful is 62. Total frames is 41 on whiff.
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		19—22
+		"
+15,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Side B (Egg Roll)
+		","
+		32
+		","
+		--
+		","
+		--
+		","
+		Takes 39 frames to emerge. 
+		","
+		10.8—12.8
+		","
+		8—9
+		","
+		10—12
+		","
+		--
+		","
+		-29 to -27
+		","
+		**
+		"
+16,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Up B (Egg Throw)
+		","
+		16
+		","
+		55
+		","
+		--
+		","
+		Eggs explode automatically on frame 60.
+		","
+		6.0
+		","
+		6
+		","
+		3
+		","
+		--
+		","
+		-30
+		","
+		16—**
+		"
+17,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Down B (Yoshi Bomb, Yoshi Bomb Air)
+		","
+		7/27, 19
+		","
+		77, --
+		","
+		39, 39
+		","
+		Total frames assumes level ground. Passes through platforms, voluntarily if you fall long enough. Stars appear on frame 4 of landing. 
+		","
+		4.0/15.0/4.0, 12.0/4.0
+		","
+		5/10/3, 9/3
+		","
+		5/14/0, 11/0
+		","
+		Rising/falling/star, falling/star
+		","
+		-32, -32
+		","
+		7/27/*, 19/*
+		"
+18,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Grab
+		","
+		14
+		","
+		48
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		5/10/3, 9/3
+		","
+		5/14/0, 11/0
+		","
+		Rising/falling/star, falling/star
+		","
+		-32, -32
+		","
+		14—21
+		"
+19,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Dash Grab
+		","
+		16
+		","
+		56
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		5/10/3, 9/3
+		","
+		5/14/0, 11/0
+		","
+		Rising/falling/star, falling/star
+		","
+		-32, -32
+		","
+		16—23
+		"
+20,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Pivot Grab
+		","
+		17
+		","
+		51
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		5/10/3, 9/3
+		","
+		5/14/0, 11/0
+		","
+		Rising/falling/star, falling/star
+		","
+		-32, -32
+		","
+		17—24
+		"
+21,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Pummel
+		","
+		1
+		","
+		19
+		","
+		--
+		","
+		Total frames includes 14 frames of hitlag
+		","
+		1.3
+		","
+		5/10/3, 9/3
+		","
+		5/14/0, 11/0
+		","
+		Rising/falling/star, falling/star
+		","
+		-32, -32
+		","
+		17—24
+		"
+22,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Forward Throw
+		","
+		15
+		","
+		39
+		","
+		--
+		","
+		--		
+		","
+		9.0
+		","
+		5/10/3, 9/3
+		","
+		5/14/0, 11/0
+		","
+		Rising/falling/star, falling/star
+		","
+		-32, -32
+		","
+		17—24
+		"
+23,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Backward Throw
+		","
+		20
+		","
+		43
+		","
+		--
+		","
+		--		
+		","
+		9.0
+		","
+		5/10/3, 9/3
+		","
+		5/14/0, 11/0
+		","
+		Rising/falling/star, falling/star
+		","
+		-32, -32
+		","
+		17—24
+		"
+24,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Up Throw
+		","
+		13
+		","
+		43
+		","
+		--
+		","
+		--		
+		","
+		5.0
+		","
+		5/10/3, 9/3
+		","
+		5/14/0, 11/0
+		","
+		Rising/falling/star, falling/star
+		","
+		-32, -32
+		","
+		17—24
+		"
+25,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Down Throw
+		","
+		25
+		","
+		50
+		","
+		--
+		","
+		--		
+		","
+		4.0
+		","
+		5/10/3, 9/3
+		","
+		5/14/0, 11/0
+		","
+		Rising/falling/star, falling/star
+		","
+		-32, -32
+		","
+		17—24
+		"
+26,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Spot Dodge
+		","
+		25
+		","
+		21/26
+		","
+		--
+		","
+		Invulnerable on frame 3-17
+		","
+		4.0
+		","
+		5/10/3, 9/3
+		","
+		5/14/0, 11/0
+		","
+		Rising/falling/star, falling/star
+		","
+		-32, -32
+		","
+		17—24
+		"
+27,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Forward Roll
+		","
+		25
+		","
+		30
+		","
+		--
+		","
+		Invulnerable on frame 4-15
+		","
+		4.0
+		","
+		5/10/3, 9/3
+		","
+		5/14/0, 11/0
+		","
+		Rising/falling/star, falling/star
+		","
+		-32, -32
+		","
+		17—24
+		"
+28,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Backward Roll
+		","
+		25
+		","
+		35
+		","
+		--
+		","
+		Invulnerable on frame 5-16
+		","
+		4.0
+		","
+		5/10/3, 9/3
+		","
+		5/14/0, 11/0
+		","
+		Rising/falling/star, falling/star
+		","
+		-32, -32
+		","
+		17—24
+		"
+29,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Neutral Air Dodge
+		","
+		25
+		","
+		58
+		","
+		10
+		","
+		Invulnerable on frame 3-30
+		","
+		4.0
+		","
+		5/10/3, 9/3
+		","
+		5/14/0, 11/0
+		","
+		Rising/falling/star, falling/star
+		","
+		-32, -32
+		","
+		17—24
+		"
+30,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Air Dodge, Down
+		","
+		25
+		","
+		79
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		4.0
+		","
+		5/10/3, 9/3
+		","
+		5/14/0, 11/0
+		","
+		Rising/falling/star, falling/star
+		","
+		-32, -32
+		","
+		17—24
+		"
+31,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		25
+		","
+		89
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		4.0
+		","
+		5/10/3, 9/3
+		","
+		5/14/0, 11/0
+		","
+		Rising/falling/star, falling/star
+		","
+		-32, -32
+		","
+		17—24
+		"
+32,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Air Dodge, Left/Right
+		","
+		25
+		","
+		107
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		4.0
+		","
+		5/10/3, 9/3
+		","
+		5/14/0, 11/0
+		","
+		Rising/falling/star, falling/star
+		","
+		-32, -32
+		","
+		17—24
+		"
+33,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		25
+		","
+		116
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		4.0
+		","
+		5/10/3, 9/3
+		","
+		5/14/0, 11/0
+		","
+		Rising/falling/star, falling/star
+		","
+		-32, -32
+		","
+		17—24
+		"
+34,"<h1 class=""charactername"">
+yoshi
+</h1>","
+		Air Dodge, Up
+		","
+		25
+		","
+		130
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		4.0
+		","
+		5/10/3, 9/3
+		","
+		5/14/0, 11/0
+		","
+		Rising/falling/star, falling/star
+		","
+		-32, -32
+		","
+		17—24
+		"
+35,"<h1 class=""charactername"">
+yoshi
+</h1>","
+			Ledge Grab
+		","
+		25
+		","
+		130
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		4.0
+		","
+		5/10/3, 9/3
+		","
+		5/14/0, 11/0
+		","
+		Rising/falling/star, falling/star
+		","
+		-32, -32
+		","
+		17—24
+		"
+36,"<h1 class=""charactername"">
+yoshi
+</h1>","
+			Ledge Grab
+		","
+		25
+		","
+		130
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		4.0
+		","
+		5/10/3, 9/3
+		","
+		5/14/0, 11/0
+		","
+		Rising/falling/star, falling/star
+		","
+		-32, -32
+		","
+		17—24
+		"
+37,"<h1 class=""charactername"">
+yoshi
+</h1>","
+				Ledge Hang
+			","
+		25
+		","
+		130
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		4.0
+		","
+		5/10/3, 9/3
+		","
+		5/14/0, 11/0
+		","
+		Rising/falling/star, falling/star
+		","
+		-32, -32
+		","
+		17—24
+		"

@@ -1,0 +1,1001 @@
+,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Jab 1
+		","
+		2
+		","
+		27
+		","
+		--
+		","
+		Transitions to Jab 2 as early as frame 7.
+		","
+		2.0
+		","
+		5
+		","
+		3
+		","
+		--
+		","
+		-22
+		","
+		2
+		"
+1,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Jab 2
+		","
+		2
+		","
+		29
+		","
+		--
+		","
+		--
+		","
+		3.0
+		","
+		9
+		","
+		4
+		","
+		--
+		","
+		-23
+		","
+		2—3
+		"
+2,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Forward Tilt
+		","
+		7
+		","
+		36
+		","
+		--
+		","
+		--
+		","
+		7.0/8.0/6.0
+		","
+		7/4/**
+		","
+		7/8/**
+		","
+		Early/Normal/Late
+		","
+		-22/-21
+		","
+		7/8—9/10—15
+		"
+3,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Up Tilt
+		","
+		9
+		","
+		37
+		","
+		--
+		","
+		--
+		","
+		8.0/10.0
+		","
+		7/8
+		","
+		8/10
+		","
+		Close/Far
+		","
+		-20/-18
+		","
+		9—13
+		"
+4,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Down Tilt
+		","
+		8
+		","
+		23
+		","
+		--
+		","
+		--
+		","
+		7.0
+		","
+		7
+		","
+		7
+		","
+		--
+		","
+		-8
+		","
+		8—9
+		"
+5,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Dash Attack
+		","
+		6/17
+		","
+		37
+		","
+		--
+		","
+		First hit blockstrings into second hit
+		","
+		4.0/6.0
+		","
+		5/7
+		","
+		-/6
+		","
+		--
+		","
+		-14
+		","
+		6—9/17—19
+		"
+6,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Forward Smash
+		","
+		15
+		","
+		45
+		","
+		--
+		","
+		Can make directional inputs to change weapon. Charge hold is frame 5.
+		","
+		15.0/13.5/18.0
+		","
+		10/10/11
+		","
+		10/9/12
+		","
+		Golf/Tennis/Pan
+		","
+		-20/-21/-18
+		","
+		15—17/15—17/15—17
+		"
+7,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Up Smash
+		","
+		14
+		","
+		44
+		","
+		--
+		","
+		Head and arm intangibility on frame 14-20. Charge hold is frame 9
+		","
+		12.0/17.0
+		","
+		10/11
+		","
+		10/11
+		","
+		Close/Far
+		","
+		-20/-19
+		","
+		14—16/17—20
+		"
+8,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Down Smash
+		","
+		6/10/14/18/22/26/30
+		","
+		54
+		","
+		--
+		","
+		Charge hold is frame 2
+		","
+		2.0/3.0
+		","
+		4/15
+		","
+		3/3
+		","
+		Multi/Final
+		","
+		-21
+		","
+		6—7/10—11/14—15/18—19/ 22—23/26—27/30—31
+		"
+9,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Neutral Air
+		","
+		5
+		","
+		48
+		","
+		7
+		","
+		Autocancels on frame 1-4 and 36 onward
+		","
+		13.0/6.0
+		","
+		9/6
+		","
+		5/3
+		","
+		Early/Late
+		","
+		-2/-4
+		","
+		5—8/9—19
+		"
+10,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Forward Air
+		","
+		16
+		","
+		57
+		","
+		13
+		","
+		Autocancels on frame 1-9 and 41 onward
+		","
+		14.0/15.0
+		","
+		10/10
+		","
+		5/5
+		","
+		Close/Far
+		","
+		-8/-8
+		","
+		16—20
+		"
+11,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Back Air
+		","
+		6
+		","
+		53
+		","
+		11
+		","
+		Autocancels on frame 1-4 and 30 onward
+		","
+		12.0/7.0
+		","
+		9/7
+		","
+		5/3
+		","
+		Early/Late
+		","
+		-6/-8
+		","
+		6—7
+		"
+12,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Up Air
+		","
+		10/15
+		","
+		45
+		","
+		7
+		","
+		Autocancels on frame 1-4 and 41 onward
+		","
+		4.0/6.0
+		","
+		6/7
+		","
+		3/3
+		","
+		Hit 1(Early/Normal/Late)/Hit 2(Early/Normal)
+		","
+		-4/-4
+		","
+		(10/11/12—13)(15/16—19)
+		"
+13,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Down Air
+		","
+		12/18/24/30
+		","
+		38
+		","
+		8
+		","
+		Autocancels on frame 1-11 and 38 onward
+		","
+		2.0/5.0
+		","
+		4/6
+		","
+		2/3
+		","
+		Multi/Final
+		","
+		-6/-5
+		","
+		12—13/18—19/24—25/30—31
+		"
+14,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Neutral B (Toad)
+		","
+		9 (Start of Counter)
+		","
+		62
+		","
+		--
+		","
+		Counter window 9-34 from 10-35. Also invulnerable on frame 8.
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		"
+15,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Toad, Attack
+		","
+		2/6/8/12/14/17
+		","
+		60
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		**
+		"
+16,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Side B (daisy Bomber)
+		","
+		13
+		","
+		62/87
+		","
+		--
+		","
+		Startup is 2 upon reaching a target. 18 endlag on hit. Total frames is 62 on level ground when you miss. And 87 if you miss and go over an edge. Hit is 25 total frames. 
+		","
+		12.0
+		","
+		9
+		","
+		11
+		","
+		--
+		","
+		-13
+		","
+		13—36(detector)
+		"
+17,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Side B, Air (daisy Bomber, Air)
+		","
+		13
+		","
+		87
+		","
+		35
+		","
+		Startup is 2 upon reaching a target. 18 endlag on hit.
+		","
+		12.0
+		","
+		9
+		","
+		11
+		","
+		--
+		","
+		-13
+		","
+		13—36(detector)
+		"
+18,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Up B (daisy Parasol)
+		","
+		7/11/16/21/26/31
+		","
+		--
+		","
+		26/40
+		","
+		40 landing lag from special fall. Or 26 if still holding umbrella
+		","
+		3.0/1.0/4.0
+		","
+		5/4/15
+		","
+		4/2/5
+		","
+		First/Multi/Final
+		","
+		--
+		","
+		7/11/16/21/26/31
+		"
+19,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Down B (Turnip Pull)
+		","
+		--
+		","
+		39
+		","
+		--
+		","
+		Turnip damage depends both on the type and how it is thrown. Z-Drop damage depends on distance fallen. Turnip chances are: Normal(88.7%), Winking(6.89%), Dot Eye(1.7%), Stitchface(1.7%), Bob-omb(0.4%), Mr. Saturn(0.6%).
+		","
+		8.3—27.6
+		","
+		7—15
+		","
+		3—8
+		","
+		--
+		","
+		--
+		","
+		**
+		"
+20,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Grab
+		","
+		6
+		","
+		36
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		7—15
+		","
+		3—8
+		","
+		--
+		","
+		--
+		","
+		6—7
+		"
+21,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Dash Grab
+		","
+		9
+		","
+		44
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		7—15
+		","
+		3—8
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+22,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Pivot Grab
+		","
+		10
+		","
+		39
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		7—15
+		","
+		3—8
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+23,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Pummel
+		","
+		1
+		","
+		19
+		","
+		--
+		","
+		Total frames includes 13 frames of hitlag
+		","
+		1.3
+		","
+		7—15
+		","
+		3—8
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+24,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Forward Throw
+		","
+		14/16
+		","
+		39
+		","
+		--
+		","
+		--		
+		","
+		2.0/6.0
+		","
+		7—15
+		","
+		3—8
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+25,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Backward Throw
+		","
+		20/21
+		","
+		49
+		","
+		--
+		","
+		Invincible 1-22
+		","
+		2.0/9.0
+		","
+		7—15
+		","
+		3—8
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+26,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Up Throw
+		","
+		19/26
+		","
+		49
+		","
+		--
+		","
+		--		
+		","
+		2.0/6.0
+		","
+		7—15
+		","
+		3—8
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+27,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Down Throw
+		","
+		34/43
+		","
+		64
+		","
+		--
+		","
+		--		
+		","
+		1.0/7.0
+		","
+		7—15
+		","
+		3—8
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+28,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Spot Dodge
+		","
+		34/43
+		","
+		21/26
+		","
+		--
+		","
+		Invulnerable on frame 3-17
+		","
+		1.0/7.0
+		","
+		7—15
+		","
+		3—8
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+29,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Forward Roll
+		","
+		34/43
+		","
+		30
+		","
+		--
+		","
+		Invulnerable on frame 4-15	
+		","
+		1.0/7.0
+		","
+		7—15
+		","
+		3—8
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+30,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Backward Roll
+		","
+		34/43
+		","
+		35
+		","
+		--
+		","
+		Invulnerable on frame 5-16 	
+		","
+		1.0/7.0
+		","
+		7—15
+		","
+		3—8
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+31,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Neutral Air Dodge
+		","
+		34/43
+		","
+		61
+		","
+		10
+		","
+		Invulnerable on frame 3-30
+		","
+		1.0/7.0
+		","
+		7—15
+		","
+		3—8
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+32,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Air Dodge, Down
+		","
+		34/43
+		","
+		86
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21			
+		","
+		1.0/7.0
+		","
+		7—15
+		","
+		3—8
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+33,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		34/43
+		","
+		92
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21		
+		","
+		1.0/7.0
+		","
+		7—15
+		","
+		3—8
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+34,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Air Dodge, Left/Right
+		","
+		34/43
+		","
+		103
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		1.0/7.0
+		","
+		7—15
+		","
+		3—8
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+35,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		34/43
+		","
+		124
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		1.0/7.0
+		","
+		7—15
+		","
+		3—8
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+36,"<h1 class=""charactername"">
+daisy
+</h1>","
+		Air Dodge, Up
+		","
+		34/43
+		","
+		141
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		1.0/7.0
+		","
+		7—15
+		","
+		3—8
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+37,"<h1 class=""charactername"">
+daisy
+</h1>","
+			Ledge Grab
+		","
+		34/43
+		","
+		141
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		1.0/7.0
+		","
+		7—15
+		","
+		3—8
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+38,"<h1 class=""charactername"">
+daisy
+</h1>","
+			Ledge Grab
+		","
+		34/43
+		","
+		141
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		1.0/7.0
+		","
+		7—15
+		","
+		3—8
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+39,"<h1 class=""charactername"">
+daisy
+</h1>","
+				Ledge Hang
+			","
+		34/43
+		","
+		141
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		1.0/7.0
+		","
+		7—15
+		","
+		3—8
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"

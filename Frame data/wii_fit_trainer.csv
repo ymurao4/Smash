@@ -1,0 +1,1001 @@
+,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Jab 1
+		","
+		4
+		","
+		25
+		","
+		--
+		","
+		Transitions to jab 2 as early as frame 9
+		","
+		2.0
+		","
+		7
+		","
+		3
+		","
+		--
+		","
+		-18
+		","
+		4—5
+		"
+1,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Jab 2
+		","
+		3
+		","
+		29
+		","
+		--
+		","
+		Transitions to jab 2 as early as frame 9 
+		","
+		2.0
+		","
+		4
+		","
+		3
+		","
+		--
+		","
+		-23
+		","
+		3—4
+		"
+2,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Jab 3
+		","
+		5
+		","
+		39
+		","
+		--
+		","
+		Can bury
+		","
+		3.0
+		","
+		10
+		","
+		4
+		","
+		--
+		","
+		-30
+		","
+		5—6
+		"
+3,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Forward Tilt
+		","
+		6
+		","
+		32
+		","
+		--
+		","
+		--
+		","
+		11.0
+		","
+		8
+		","
+		10
+		","
+		--
+		","
+		-16
+		","
+		6—10
+		"
+4,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Up Tilt
+		","
+		5
+		","
+		29
+		","
+		--
+		","
+		Arm intangibility on frame 3-12
+		","
+		10.0
+		","
+		8
+		","
+		10
+		","
+		--
+		","
+		-14
+		","
+		5—12
+		"
+5,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Down Tilt
+		","
+		9
+		","
+		38
+		","
+		--
+		","
+		--
+		","
+		13.5
+		","
+		9
+		","
+		12
+		","
+		--
+		","
+		-17
+		","
+		9—12
+		"
+6,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Dash Attack
+		","
+		6
+		","
+		38
+		","
+		--
+		","
+		--
+		","
+		10.0/6.0
+		","
+		8/6
+		","
+		12/10
+		","
+		Early/Late
+		","
+		-20
+		","
+		6—8(9—13)
+		"
+7,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Forward Smash
+		","
+		16
+		","
+		56
+		","
+		--
+		","
+		Charge hold is frame 6
+		","
+		15.5
+		","
+		10
+		","
+		10
+		","
+		--
+		","
+		-30
+		","
+		16—19
+		"
+8,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Up Smash
+		","
+		11
+		","
+		54
+		","
+		--
+		","
+		Invulnerable on frame 9-12. Charge hold is frame 4
+		","
+		15.0/18.0
+		","
+		10/15
+		","
+		10/12
+		","
+		Body/Arms
+		","
+		-33/-31
+		","
+		11—12(13—19)
+		"
+9,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Down Smash
+		","
+		18
+		","
+		46
+		","
+		--
+		","
+		Charge hold frame is 4
+		","
+		12.0
+		","
+		9
+		","
+		8
+		","
+		--
+		","
+		-25
+		","
+		18—21
+		"
+10,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Neutral Air
+		","
+		9/12
+		","
+		34
+		","
+		8
+		","
+		Autocancels on frame 1-5 and 33 onward
+		","
+		5.0/9.0
+		","
+		6/7
+		","
+		3/4
+		","
+		--
+		","
+		-5/-4
+		","
+		9—11/12—13
+		"
+11,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Forward Air
+		","
+		9
+		","
+		35
+		","
+		7
+		","
+		Autocancels on frame 1-8 and 25 onward
+		","
+		12.0/7.5/10.0/6.0
+		","
+		9/7/12/6
+		","
+		5/3/4/3
+		","
+		Early/Late, Meteor early/late
+		","
+		-2/-4/-3/-4
+		","
+		9(10/11—15)
+		"
+12,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Back Air
+		","
+		5
+		","
+		48
+		","
+		12
+		","
+		Autocancels on frame 1-2 and 43 onward
+		","
+		13.5/11.0/6.0
+		","
+		11/7/6
+		","
+		5/4/3
+		","
+		Far/close/late 
+		","
+		-7/-8/-9
+		","
+		5(6—11)
+		"
+13,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Up Air
+		","
+		6
+		","
+		39
+		","
+		9
+		","
+		Autocancels on frame 1-5 and 36 onward
+		","
+		10.0
+		","
+		8
+		","
+		4
+		","
+		--
+		","
+		-5
+		","
+		6—10
+		"
+14,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Down Air
+		","
+		15
+		","
+		39
+		","
+		12
+		","
+		Autocancels on frame 35 onward
+		","
+		13.0
+		","
+		10
+		","
+		5
+		","
+		--
+		","
+		-7
+		","
+		15—17(18—20)
+		"
+15,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Neutral B (Sun Salutation)
+		","
+		4(+17)
+		","
+		39
+		","
+		--
+		","
+		Startup is 4 from charging state. 17 frames to enter charging state. 4 frames to cancel charge with shield.
+		","
+		5.0—20.7
+		","
+		6—13
+		","
+		3—6
+		","
+		Uncharged—Full Charge
+		","
+		-26 to -16
+		","
+		21—90
+		"
+16,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Sun Salutation, Full Charge
+		","
+		21
+		","
+		56
+		","
+		--
+		","
+		103 frames to reach full charge
+		","
+		21.0
+		","
+		13
+		","
+		6
+		","
+		--
+		","
+		-16
+		","
+		21—90
+		"
+17,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Side B (Header)
+		","
+		15—31
+		","
+		40—56
+		","
+		15
+		","
+		Earliest/latest hit. Total frames does not count 5 frames of hitlag from hitting the ball. Can cancel move on frame 10, resulting in 15 special landing lag
+		","
+		15.0/8.9—10.3
+		","
+		10/8
+		","
+		14/4
+		","
+		Header/ball
+		","
+		-11/-13
+		","
+		**
+		"
+18,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Up B (Super Hoop)
+		","
+		6/23/40
+		","
+		30
+		","
+		--
+		","
+		--
+		","
+		5.0
+		","
+		7
+		","
+		0
+		","
+		--
+		","
+		**
+		","
+		**
+		"
+19,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Down B (Deep Breathing)
+		","
+		39
+		","
+		--
+		","
+		--
+		","
+		24 frames endlag when successful, 15 frames  in the air. 48 frames when unsuccessful. Effects lasts for just under ten seconds. Repeated use slows charge. Frame 39 is the earliest you can succeed on fresh use.
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		**
+		"
+20,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Grab
+		","
+		6
+		","
+		34
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		6—7
+		"
+21,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Dash Grab
+		","
+		9
+		","
+		42
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+22,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Pivot Grab
+		","
+		10
+		","
+		37
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+23,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Pummel
+		","
+		1
+		","
+		19
+		","
+		--
+		","
+		Total frames includes 13 frames of hitlag
+		","
+		1.3
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+24,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Forward Throw
+		","
+		36/38
+		","
+		49
+		","
+		--
+		","
+		--		
+		","
+		3.0/7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+25,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Backward Throw
+		","
+		19/21
+		","
+		49
+		","
+		--
+		","
+		--		
+		","
+		3.0/6.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+26,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Up Throw
+		","
+		28
+		","
+		49
+		","
+		--
+		","
+		--		
+		","
+		8.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+27,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Down Throw
+		","
+		24
+		","
+		49
+		","
+		--
+		","
+		--		
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+28,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Spot Dodge
+		","
+		24
+		","
+		20/25
+		","
+		--
+		","
+		Invulnerable on frame 3-17
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+29,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Forward Roll
+		","
+		24
+		","
+		29
+		","
+		--
+		","
+		Invulnerable on frame 4-15
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+30,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Backward Roll
+		","
+		24
+		","
+		34
+		","
+		--
+		","
+		Invulnerable on frame 5-16
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+31,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Neutral Air Dodge
+		","
+		24
+		","
+		57
+		","
+		10
+		","
+		Invulnerable on frame 3-28
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+32,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Air Dodge, Down
+		","
+		24
+		","
+		80
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+33,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		24
+		","
+		88
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+34,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Air Dodge, Left/Right
+		","
+		24
+		","
+		96
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+35,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		24
+		","
+		107
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+36,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+		Air Dodge, Up
+		","
+		24
+		","
+		124
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+37,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+			Ledge Grab
+		","
+		24
+		","
+		124
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+38,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+			Ledge Grab
+		","
+		24
+		","
+		124
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+39,"<h1 class=""charactername"">
+wii fit trainer
+</h1>","
+				Ledge Hang
+			","
+		24
+		","
+		124
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"

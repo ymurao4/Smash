@@ -1,0 +1,1001 @@
+,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Jab 1
+		","
+		4
+		","
+		23
+		","
+		--
+		","
+		Transitions to Jab 2 as early as frame 9
+		","
+		2.5
+		","
+		8
+		","
+		4
+		","
+		--
+		","
+		-15
+		","
+		4—5
+		"
+1,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Jab 2
+		","
+		3
+		","
+		27
+		","
+		--
+		","
+		Transitions to jab 3 as early as frame 9
+		","
+		2.5
+		","
+		6
+		","
+		4
+		","
+		--
+		","
+		-20
+		","
+		3—4
+		"
+2,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Jab 3
+		","
+		5
+		","
+		40
+		","
+		--
+		","
+		Attack hits directly above Ike on frame 5 only.
+		","
+		5.0
+		","
+		12
+		","
+		6
+		","
+		--
+		","
+		-29
+		","
+		5—8
+		"
+3,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Forward Tilt
+		","
+		12
+		","
+		41
+		","
+		--
+		","
+		--
+		","
+		12.5
+		","
+		9
+		","
+		12
+		","
+		--
+		","
+		-17
+		","
+		12—13
+		"
+4,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Up Tilt
+		","
+		11
+		","
+		39
+		","
+		--
+		","
+		--
+		","
+		12.0/8.0
+		","
+		9
+		","
+		11
+		","
+		Early/Late
+		","
+		-17
+		","
+		11—16/17—21
+		"
+5,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Down Tilt
+		","
+		7
+		","
+		28
+		","
+		--
+		","
+		--
+		","
+		8.0
+		","
+		7
+		","
+		8
+		","
+		--
+		","
+		-13
+		","
+		7—8
+		"
+6,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Dash Attack
+		","
+		15
+		","
+		47
+		","
+		--
+		","
+		--
+		","
+		14.0
+		","
+		12
+		","
+		15
+		","
+		--
+		","
+		-17
+		","
+		15—16/17—19
+		"
+7,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Forward Smash
+		","
+		31
+		","
+		83
+		","
+		--
+		","
+		Sword hits directly above Ike on frame 31. Strong hit on 33. Charge hold is frame 24
+		","
+		19.0/22.0
+		","
+		12/13
+		","
+		13/14
+		","
+		Early/Late
+		","
+		-39/-36
+		","
+		31—32/33—35
+		"
+8,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Up Smash
+		","
+		25
+		","
+		70
+		","
+		--
+		","
+		Charge hold is frame 11
+		","
+		17.0/10.0
+		","
+		11
+		","
+		11
+		","
+		Early/Late
+		","
+		-34
+		","
+		25—29/30—31
+		"
+9,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Down Smash
+		","
+		13/32
+		","
+		70
+		","
+		--
+		","
+		Charge hold is frame 5
+		","
+		16.0/19.0/9
+		","
+		10/12/**
+		","
+		11/13/**
+		","
+		First/Second/Second Late
+		","
+		-46/-25
+		","
+		13—15/32—33/34—36
+		"
+10,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Neutral Air
+		","
+		10
+		","
+		59
+		","
+		8
+		","
+		Autocancels on frame 1-2 and 50 onward
+		","
+		7.5/6.0
+		","
+		7/6
+		","
+		3/3
+		","
+		Early/Late
+		","
+		-5
+		","
+		10—14/15—22
+		"
+11,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Forward Air
+		","
+		11
+		","
+		51
+		","
+		14
+		","
+		Autocancels on frame 42 onward
+		","
+		13.0
+		","
+		9
+		","
+		5
+		","
+		--
+		","
+		-9
+		","
+		11—15
+		"
+12,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Back Air
+		","
+		7
+		","
+		54
+		","
+		11
+		","
+		Autocancels on frame 1-2 and 35 onward
+		","
+		14.0
+		","
+		10
+		","
+		5
+		","
+		--
+		","
+		-6
+		","
+		7—9
+		"
+13,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Up Air
+		","
+		13
+		","
+		56
+		","
+		9
+		","
+		Autocancels on frame 1-5 and 51 onward
+		","
+		11.0
+		","
+		8
+		","
+		4
+		","
+		--
+		","
+		-5
+		","
+		13—18
+		"
+14,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Down Air
+		","
+		16
+		","
+		54
+		","
+		14
+		","
+		Autocancels on frame 1-4 and 48 onward
+		","
+		15.0
+		","
+		10
+		","
+		5
+		","
+		--
+		","
+		-9
+		","
+		16—17
+		"
+15,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Neutral B (Eruption)
+		","
+		30-239
+		","
+		78-287
+		","
+		--
+		","
+		On release, startup is 11 and total frames is 59
+		","
+		10.0—35.0
+		","
+		8—16
+		","
+		10—Shieldbreak
+		","
+		--
+		","
+		-38 to Shieldbreak
+		","
+		**
+		"
+16,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Side B (Quickdraw)
+		","
+		16
+		","
+		53/34/44
+		","
+		30
+		","
+		Reaches max charge around 85. Startup is 2 upon reaching a target. Swing total frames is 34, or 44 from the air. Landing lag only occurs after entering special fall. Can continue recovery options after an air swing on frame 44.
+		","
+		6.0—13.0
+		","
+		6—9
+		","
+		6—12
+		","
+		--
+		","
+		-28 to -22
+		","
+		**
+		"
+17,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Up B (Aether)
+		","
+		15/44/51/61
+		","
+		--
+		","
+		36
+		","
+		Landing hit on frame 1. Super armor on frame 5-35. (ending the frame he ascends). Super armor on frame 15-35 for the air version.
+		","
+		6.0/1.0/3.0/6.0
+		","
+		6/4/5/6
+		","
+		6/2/4/6
+		","
+		First/multi/falling/landing
+		","
+		-29
+		","
+		**
+		"
+18,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Down B (Counter)
+		","
+		9 (Start of Counter)
+		","
+		73
+		","
+		--
+		","
+		Invulnerable on frame 8. Counters on frame 9-33
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		"
+19,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Counter, Attack
+		","
+		4
+		","
+		43
+		","
+		--
+		","
+		Invulnerable on frame 1-4 in addition to counter freeze frames
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		4—5
+		"
+20,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Grab
+		","
+		7
+		","
+		36
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		7—8
+		"
+21,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Dash Grab
+		","
+		10
+		","
+		44
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+22,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Pivot Grab
+		","
+		11
+		","
+		39
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		11—12
+		"
+23,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Pummel
+		","
+		1
+		","
+		20
+		","
+		Total frames includes 14 frames of hitlag.
+		","
+		--		
+		","
+		1.6
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		11—12
+		"
+24,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Forward Throw
+		","
+		5/8
+		","
+		32
+		","
+		--
+		","
+		--		
+		","
+		3.5/4.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		11—12
+		"
+25,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Backward Throw
+		","
+		20/22
+		","
+		37
+		","
+		--
+		","
+		--		
+		","
+		3.0/4.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		11—12
+		"
+26,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Up Throw
+		","
+		18/20
+		","
+		42
+		","
+		--
+		","
+		--		
+		","
+		3.5/4.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		11—12
+		"
+27,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Down Throw
+		","
+		35/40
+		","
+		57
+		","
+		--
+		","
+		--		
+		","
+		3.0/4.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		11—12
+		"
+28,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Spot Dodge
+		","
+		35/40
+		","
+		21/26
+		","
+		--
+		","
+		Invulnerable on frame 3-17		
+		","
+		3.0/4.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		11—12
+		"
+29,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Forward Roll
+		","
+		35/40
+		","
+		30
+		","
+		--
+		","
+		Invulnerable on frame 4-15.		
+		","
+		3.0/4.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		11—12
+		"
+30,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Backward Roll
+		","
+		35/40
+		","
+		35
+		","
+		--
+		","
+		Invulnerable on frame 5-16.		
+		","
+		3.0/4.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		11—12
+		"
+31,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Neutral Air Dodge
+		","
+		35/40
+		","
+		49
+		","
+		10
+		","
+		Invulnerable on frame 4-31.		
+		","
+		3.0/4.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		11—12
+		"
+32,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Air Dodge, Down
+		","
+		35/40
+		","
+		66
+		","
+		11-19
+		","
+		Invulnerable on frame 4-22.	
+		","
+		3.0/4.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		11—12
+		"
+33,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		35/40
+		","
+		76
+		","
+		11-19
+		","
+		Invulnerable on frame 4-22.
+		","
+		3.0/4.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		11—12
+		"
+34,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Air Dodge, Left/Right
+		","
+		35/40
+		","
+		82
+		","
+		11-19
+		","
+		Invulnerable on frame 4-22.		
+		","
+		3.0/4.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		11—12
+		"
+35,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		35/40
+		","
+		96
+		","
+		11-19
+		","
+		Invulnerable on frame 4-22.			
+		","
+		3.0/4.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		11—12
+		"
+36,"<h1 class=""charactername"">
+Ike
+</h1>","
+		Air Dodge, Up
+		","
+		35/40
+		","
+		108
+		","
+		11-19
+		","
+		Invulnerable on frame 4-22.
+		","
+		3.0/4.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		11—12
+		"
+37,"<h1 class=""charactername"">
+Ike
+</h1>","
+					Ledge Grab
+				","
+		35/40
+		","
+		108
+		","
+		11-19
+		","
+		Invulnerable on frame 4-22.
+		","
+		3.0/4.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		11—12
+		"
+38,"<h1 class=""charactername"">
+Ike
+</h1>","
+					Ledge Grab
+				","
+		35/40
+		","
+		108
+		","
+		11-19
+		","
+		Invulnerable on frame 4-22.
+		","
+		3.0/4.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		11—12
+		"
+39,"<h1 class=""charactername"">
+Ike
+</h1>","
+					Ledge Hang
+				","
+		35/40
+		","
+		108
+		","
+		11-19
+		","
+		Invulnerable on frame 4-22.
+		","
+		3.0/4.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		11—12
+		"

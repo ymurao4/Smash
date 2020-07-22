@@ -1,0 +1,1051 @@
+,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+inkling
+</h1>","
+				Ledge Hang
+			","
+		20/21
+		","
+		93
+		","
+		11-19
+		","
+		Invulnerable on frame 5-21. Bat within on frame 1-4.		
+		","
+		3.0/5.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		11—12
+		"
+1,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Jab 1
+		","
+		3
+		","
+		19
+		","
+		--
+		","
+		**
+		","
+		2.0
+		","
+		7
+		","
+		3
+		","
+		--
+		","
+		-13
+		","
+		3—4
+		"
+2,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Jab 2
+		","
+		2
+		","
+		21
+		","
+		--
+		","
+		--
+		","
+		2.0
+		","
+		7
+		","
+		3
+		","
+		--
+		","
+		-16
+		","
+		2—3
+		"
+3,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Jab 3
+		","
+		4
+		","
+		29
+		","
+		--
+		","
+		--
+		","
+		3.5
+		","
+		10
+		","
+		4
+		","
+		--
+		","
+		-21
+		","
+		4—5
+		"
+4,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Rapid Jab
+		","
+		4/7/10...
+		","
+		--
+		","
+		--
+		","
+		Will not hit opponents when out of Ink
+		","
+		0.4
+		","
+		4
+		","
+		3
+		","
+		--
+		","
+		**
+		","
+		4/7/10...
+		"
+5,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Rapid Jab Finisher
+		","
+		6
+		","
+		48
+		","
+		--
+		","
+		Will not hit opponents when out of Ink
+		","
+		2.5
+		","
+		4
+		","
+		3
+		","
+		--
+		","
+		-38
+		","
+		6
+		"
+6,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Forward Tilt
+		","
+		8
+		","
+		34
+		","
+		--
+		","
+		--
+		","
+		9.0
+		","
+		7
+		","
+		9
+		","
+		--
+		","
+		-17
+		","
+		8—10
+		"
+7,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Up Tilt
+		","
+		7
+		","
+		29
+		","
+		--
+		","
+		--
+		","
+		6.0
+		","
+		6
+		","
+		6
+		","
+		--
+		","
+		-16
+		","
+		7—12
+		"
+8,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Down Tilt
+		","
+		5/12
+		","
+		31
+		","
+		--
+		","
+		--
+		","
+		3.0/6.0
+		","
+		5/6
+		","
+		4/6
+		","
+		--
+		","
+		-13
+		","
+		5—8/12—15
+		"
+9,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Dash Attack
+		","
+		8
+		","
+		35
+		","
+		--
+		","
+		--
+		","
+		8.0/6.0
+		","
+		7/6
+		","
+		11/9
+		","
+		--
+		","
+		-16
+		","
+		8—9/10—13
+		"
+10,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Forward Smash
+		","
+		16
+		","
+		51
+		","
+		--
+		","
+		Gets weaker when out of ink. Charge hold is frame 5
+		","
+		14.0/16.0
+		","
+		10/10
+		","
+		10/11
+		","
+		Close/Far
+		","
+		-25/-24
+		","
+		16—17
+		"
+11,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Up Smash
+		","
+		9/18
+		","
+		57
+		","
+		--
+		","
+		Gets weaker when out of ink. Charge hold is frame 3
+		","
+		4.0/15.0/10.0
+		","
+		5/10/8
+		","
+		4/10/7
+		","
+		First/Close/Far
+		","
+		-44/-29/-32
+		","
+		9—10/18—20
+		"
+12,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Down Smash
+		","
+		11/20
+		","
+		49
+		","
+		--
+		","
+		Gets weaker when out of ink. Charge hold is frame 2
+		","
+		12.5/11.0
+		","
+		9/8
+		","
+		9/8
+		","
+		--
+		","
+		-29/-21
+		","
+		(11—12/13—15)/(20—21/22—24)
+		"
+13,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Neutral Air
+		","
+		6
+		","
+		31
+		","
+		5
+		","
+		Autocancels on frame 27 onward
+		","
+		7.0
+		","
+		7
+		","
+		3
+		","
+		--
+		","
+		-2
+		","
+		6—9
+		"
+14,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Forward Air
+		","
+		10
+		","
+		41
+		","
+		12
+		","
+		Autocancels on frame 1-4 and frame 40 onward
+		","
+		12.0/10.0/7.0
+		","
+		8/7
+		","
+		4/3
+		","
+		Tipper/Early/Late
+		","
+		-8/-9
+		","
+		10—11/12—21
+		"
+15,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Back Air
+		","
+		7
+		","
+		36
+		","
+		6
+		","
+		Autocancels on frame 1-6 and frame 30 onward
+		","
+		10.0/7.5
+		","
+		8/7
+		","
+		4/3
+		","
+		Far/Close
+		","
+		-2/-3
+		","
+		7—11
+		"
+16,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Up Air
+		","
+		12/17
+		","
+		43
+		","
+		6
+		","
+		Autocancels on frame 40 onward
+		","
+		4.5/6.5
+		","
+		5/6
+		","
+		3/3
+		","
+		--
+		","
+		-3/-3
+		","
+		12—15/17—20
+		"
+17,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Down Air
+		","
+		16
+		","
+		61
+		","
+		10
+		","
+		Autocancels on frame 1-4 and 33 onward
+		","
+		12.0/10.0
+		","
+		9/8
+		","
+		5/4
+		","
+		Far/Close
+		","
+		-5/-6
+		","
+		16—17
+		"
+18,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Neutral B (Splattershot)
+		","
+		12/16/20/24
+		","
+		36
+		","
+		--
+		","
+		Startup and total frames is the minimum. When out of Ink this move enters the refill state.
+		","
+		0.3
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-6
+		","
+		16/16/20/24
+		"
+19,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Side B (Splat Roller)
+		","
+		16
+		","
+		17/35
+		","
+		--
+		","
+		17 frame animation to jump cancel. 35 animation to cancel on the ground. Inkling suffers more shieldlag than defender. Advantage assumes buffered jump cancel.
+		","
+		4.0—11.0
+		","
+		5—8 (Inkling 8—13)
+		","
+		5—10
+		","
+		--
+		","
+		-15 to -12
+		","
+		16...
+		"
+20,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Up B (Super Jump)
+		","
+		12
+		","
+		--
+		","
+		40
+		","
+		Inkling will not suffer hitlag from this attack. Landing hitbox on frame 1.
+		","
+		8.0/6.0
+		","
+		7/6
+		","
+		3/3
+		","
+		Ground/Aerial/Landing
+		","
+		**/-29/-30
+		","
+		12/15—21/1—10
+		"
+21,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Down B (Splat Bomb)
+		","
+		20—40
+		","
+		47—65
+		","
+		--
+		","
+		Holding the button allows for a longer yet slower throw. Bombs explode on contact or on frame 99—159. 
+		","
+		9.4—15.0
+		","
+		8—10
+		","
+		4—5
+		","
+		--
+		","
+		**
+		","
+		**
+		"
+22,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Grab
+		","
+		8
+		","
+		34
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		8—10
+		","
+		4—5
+		","
+		--
+		","
+		**
+		","
+		8—9
+		"
+23,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Dash Grab
+		","
+		9
+		","
+		41
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		8—10
+		","
+		4—5
+		","
+		--
+		","
+		**
+		","
+		9—10
+		"
+24,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Pivot Grab
+		","
+		10
+		","
+		37
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		8—10
+		","
+		4—5
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+25,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Pummel
+		","
+		1
+		","
+		18
+		","
+		**
+		","
+		Total frames includes 12 frames of hitlag		
+		","
+		1.3
+		","
+		8—10
+		","
+		4—5
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+26,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Forward Throw
+		","
+		22/23
+		","
+		39
+		","
+		--
+		","
+		--		
+		","
+		5.0/3.0
+		","
+		8—10
+		","
+		4—5
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+27,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Backward Throw
+		","
+		17
+		","
+		36
+		","
+		--
+		","
+		--		
+		","
+		9.0
+		","
+		8—10
+		","
+		4—5
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+28,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Up Throw
+		","
+		21/22
+		","
+		36
+		","
+		--
+		","
+		--		
+		","
+		3.0/3.0
+		","
+		8—10
+		","
+		4—5
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+29,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Down Throw
+		","
+		20
+		","
+		40
+		","
+		--
+		","
+		--		
+		","
+		7.0
+		","
+		8—10
+		","
+		4—5
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+30,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Spot Dodge
+		","
+		20
+		","
+		20/25
+		","
+		--
+		","
+		Invulnerable on frame 3-17		
+		","
+		7.0
+		","
+		8—10
+		","
+		4—5
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+31,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Forward Roll
+		","
+		20
+		","
+		29
+		","
+		--
+		","
+		Invulnerable on frame 4-15.		
+		","
+		7.0
+		","
+		8—10
+		","
+		4—5
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+32,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Backward Roll
+		","
+		20
+		","
+		34
+		","
+		--
+		","
+		Invulnerable on frame 5-16.		
+		","
+		7.0
+		","
+		8—10
+		","
+		4—5
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+33,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Neutral Air Dodge
+		","
+		20
+		","
+		50
+		","
+		10
+		","
+		Invulnerable on frame 3-29.		
+		","
+		7.0
+		","
+		8—10
+		","
+		4—5
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+34,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Air Dodge, Down
+		","
+		20
+		","
+		70
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		7.0
+		","
+		8—10
+		","
+		4—5
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+35,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		20
+		","
+		76
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.
+		","
+		7.0
+		","
+		8—10
+		","
+		4—5
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+36,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Air Dodge, Left/Right
+		","
+		20
+		","
+		84
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.		
+		","
+		7.0
+		","
+		8—10
+		","
+		4—5
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+37,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		20
+		","
+		100
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.			
+		","
+		7.0
+		","
+		8—10
+		","
+		4—5
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+38,"<h1 class=""charactername"">
+inkling
+</h1>","
+		Air Dodge, Up
+		","
+		20
+		","
+		112
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.
+		","
+		7.0
+		","
+		8—10
+		","
+		4—5
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+39,"<h1 class=""charactername"">
+inkling
+</h1>","
+			Ledge Grab
+		","
+		20
+		","
+		112
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.
+		","
+		7.0
+		","
+		8—10
+		","
+		4—5
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+40,"<h1 class=""charactername"">
+inkling
+</h1>","
+			Ledge Grab
+		","
+		20
+		","
+		112
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.
+		","
+		7.0
+		","
+		8—10
+		","
+		4—5
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+41,"<h1 class=""charactername"">
+inkling
+</h1>","
+				Ledge Hang
+			","
+		20
+		","
+		112
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.
+		","
+		7.0
+		","
+		8—10
+		","
+		4—5
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"

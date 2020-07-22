@@ -1,0 +1,1001 @@
+,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+ness
+</h1>","
+		Jab 1
+		","
+		3
+		","
+		19
+		","
+		--
+		","
+		Transitions to Jab 2 as early as frame 5
+		","
+		2.0
+		","
+		8
+		","
+		3
+		","
+		--
+		","
+		-13
+		","
+		3
+		"
+1,"<h1 class=""charactername"">
+ness
+</h1>","
+		Jab 2
+		","
+		3
+		","
+		19
+		","
+		--
+		","
+		Transitions to Jab 3 as early as frame 6
+		","
+		1.5
+		","
+		5
+		","
+		3
+		","
+		--
+		","
+		-13
+		","
+		3
+		"
+2,"<h1 class=""charactername"">
+ness
+</h1>","
+		Jab 3
+		","
+		6
+		","
+		29
+		","
+		--
+		","
+		--
+		","
+		4.0
+		","
+		11
+		","
+		5
+		","
+		--
+		","
+		-18
+		","
+		6—7
+		"
+3,"<h1 class=""charactername"">
+ness
+</h1>","
+		Forward Tilt
+		","
+		7
+		","
+		34
+		","
+		--
+		","
+		--
+		","
+		10.0
+		","
+		8
+		","
+		10
+		","
+		--
+		","
+		-17
+		","
+		7—10
+		"
+4,"<h1 class=""charactername"">
+ness
+</h1>","
+		Up Tilt
+		","
+		5
+		","
+		28
+		","
+		--
+		","
+		--
+		","
+		7.0/5.0
+		","
+		7/6
+		","
+		7/6
+		","
+		Close/Far
+		","
+		-16/-17
+		","
+		5—6(7—8)
+		"
+5,"<h1 class=""charactername"">
+ness
+</h1>","
+		Down Tilt
+		","
+		3
+		","
+		11
+		","
+		--
+		","
+		Can transition to another Dtilt as early as frame 6.
+		","
+		4.5/3.0
+		","
+		5/5
+		","
+		5/4
+		","
+		Close/Far
+		","
+		-3/-4
+		","
+		3—4
+		"
+6,"<h1 class=""charactername"">
+ness
+</h1>","
+		Dash Attack
+		","
+		8/15/23
+		","
+		39
+		","
+		--
+		","
+		--
+		","
+		4.0/2.0/4.0
+		","
+		5/4/9
+		","
+		5/3/5
+		","
+		--
+		","
+		-12
+		","
+		8/15—16/23—24
+		"
+7,"<h1 class=""charactername"">
+ness
+</h1>","
+		Forward Smash
+		","
+		21
+		","
+		54
+		","
+		--
+		","
+		Reflects on frame 18-30. Charge hold is frame 10.
+		","
+		18.0/20.0/22.0
+		","
+		11/12/15
+		","
+		12/13/14
+		","
+		close/med/far
+		","
+		-21/-20/-19
+		","
+		21—22
+		"
+8,"<h1 class=""charactername"">
+ness
+</h1>","
+		Up Smash
+		","
+		10
+		","
+		52
+		","
+		--
+		","
+		Charge hold on frame 10 and also creates a hitbox hitting every 6 frames
+		","
+		13.0
+		","
+		4/9
+		","
+		2/9
+		","
+		charging/launch
+		","
+		-33
+		","
+		10/**
+		"
+9,"<h1 class=""charactername"">
+ness
+</h1>","
+		Down Smash
+		","
+		12/17/23/31
+		","
+		45
+		","
+		--
+		","
+		Charge hold on frame 12 and also creates a hitbox hitting every 6 frames
+		","
+		1.0/10.0
+		","
+		4/8
+		","
+		2/7
+		","
+		weak/strong
+		","
+		-21/-7
+		","
+		12—15(17—18)/23—25(31—32)
+		"
+10,"<h1 class=""charactername"">
+ness
+</h1>","
+		Neutral Air
+		","
+		5
+		","
+		35
+		","
+		8
+		","
+		Autocancels on frame 1-4 and 26 onward
+		","
+		11.0/7.0
+		","
+		8/7
+		","
+		4/3
+		","
+		Early/Late
+		","
+		-4/-5
+		","
+		5—12(13—15)
+		"
+11,"<h1 class=""charactername"">
+ness
+</h1>","
+		Forward Air
+		","
+		8.../20
+		","
+		39
+		","
+		12
+		","
+		Autocancels on frame 1-7 and 33 onward
+		","
+		1.5/5.5
+		","
+		4/9
+		","
+		2/3
+		","
+		Multi/Final
+		","
+		-10/-9
+		","
+		8—18 (rehit: 5) / 20-21
+		"
+12,"<h1 class=""charactername"">
+ness
+</h1>","
+		Back Air
+		","
+		10
+		","
+		35
+		","
+		10
+		","
+		Autocancels on frame 1-9 and 25 onward
+		","
+		15.0/8.0
+		","
+		10/7
+		","
+		5/4
+		","
+		Early/Late
+		","
+		-5/-6
+		","
+		10—11(12—18)
+		"
+13,"<h1 class=""charactername"">
+ness
+</h1>","
+		Up Air
+		","
+		8.../15
+		","
+		33
+		","
+		8
+		","
+		Autocancels on frame 1-7 and 34 onward
+		","
+		2.5/5.0
+		","
+		5/9
+		","
+		2/3
+		","
+		Multi/Final
+		","
+		-6/-5
+		","
+		8—14 (rehit: 2) / 15—16
+		"
+14,"<h1 class=""charactername"">
+ness
+</h1>","
+		Down Air
+		","
+		20
+		","
+		54
+		","
+		12
+		","
+		Autocancels on frame 1-19 and 41 onward 
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		Early/Late
+		","
+		-7/-8
+		","
+		20—22/23—26
+		"
+15,"<h1 class=""charactername"">
+ness
+</h1>","
+		Neutral B (PK Flash)
+		","
+		44—121
+		","
+		65—142
+		","
+		--
+		","
+		On release, startup is 14 and total frames is 35.
+		","
+		11.0—27.0
+		","
+		13—17
+		","
+		4—8
+		","
+		--
+		","
+		-4 to +4
+		","
+		44—48/121—125
+		"
+16,"<h1 class=""charactername"">
+ness
+</h1>","
+		Side B (PK Fire)
+		","
+		18
+		","
+		55
+		","
+		12 (Air version)
+		","
+		Will not erupt on shields. The flame pillar has a rehit rate of 7 and lasts about 100 frames
+		","
+		1.0/1.0
+		","
+		6
+		","
+		3
+		","
+		--
+		","
+		-28
+		","
+		18—37
+		"
+17,"<h1 class=""charactername"">
+ness
+</h1>","
+		Up B (PK Thunder)
+		","
+		20
+		","
+		--
+		","
+		--
+		","
+		39 endlag after hitting a target
+		","
+		11.0/1.0
+		","
+		13/3
+		","
+		4/10
+		","
+		Direct/Tail
+		","
+		-22
+		","
+		20—139
+		"
+18,"<h1 class=""charactername"">
+ness
+</h1>","
+		Up B, Self-hit (PK Thunder 2)
+		","
+		1
+		","
+		56
+		","
+		24
+		","
+		Invulnerable on frame 1-32. Landing lag is if you enter special fall. 
+		","
+		25.0/21.0
+		","
+		17/16
+		","
+		22/18
+		","
+		Early/Late
+		","
+		-33
+		","
+		1—10/11—32
+		"
+19,"<h1 class=""charactername"">
+ness
+</h1>","
+		Down B (PSI Magnet)
+		","
+		7 (7 is start of absorb)
+		","
+		24
+		","
+		--
+		","
+		Begins absorbing on frame 7. Total frame is the minimum duration. Endlag is otherwise 9 on release.
+		","
+		4.0
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-12
+		","
+		7—12 (absorb)
+		"
+20,"<h1 class=""charactername"">
+ness
+</h1>","
+		Grab
+		","
+		6
+		","
+		37
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-12
+		","
+		6—7
+		"
+21,"<h1 class=""charactername"">
+ness
+</h1>","
+		Dash Grab
+		","
+		9
+		","
+		45
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-12
+		","
+		9—10
+		"
+22,"<h1 class=""charactername"">
+ness
+</h1>","
+		Pivot Grab
+		","
+		10
+		","
+		40
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-12
+		","
+		10—11
+		"
+23,"<h1 class=""charactername"">
+ness
+</h1>","
+		Pummel
+		","
+		1
+		","
+		19
+		","
+		--
+		","
+		Total frames includes 13 frames of hitlag
+		","
+		1.3
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-12
+		","
+		10—11
+		"
+24,"<h1 class=""charactername"">
+ness
+</h1>","
+		Forward Throw
+		","
+		27
+		","
+		52
+		","
+		--
+		","
+		--		
+		","
+		11.0
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-12
+		","
+		10—11
+		"
+25,"<h1 class=""charactername"">
+ness
+</h1>","
+		Backward Throw
+		","
+		27
+		","
+		52
+		","
+		--
+		","
+		--		
+		","
+		11.0
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-12
+		","
+		10—11
+		"
+26,"<h1 class=""charactername"">
+ness
+</h1>","
+		Up Throw
+		","
+		36
+		","
+		55
+		","
+		--
+		","
+		--		
+		","
+		10.0
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-12
+		","
+		10—11
+		"
+27,"<h1 class=""charactername"">
+ness
+</h1>","
+		Down Throw
+		","
+		6—9, 10—13, 14—17, 26—29
+		","
+		50
+		","
+		--
+		","
+		Releases on frame 27.
+		","
+		0.5/0.5/0.5/1.5/4.0
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-12
+		","
+		10—11
+		"
+28,"<h1 class=""charactername"">
+ness
+</h1>","
+		Spot Dodge
+		","
+		6—9, 10—13, 14—17, 26—29
+		","
+		20/25
+		","
+		--
+		","
+		Invulnerable on frame 3-17
+		","
+		0.5/0.5/0.5/1.5/4.0
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-12
+		","
+		10—11
+		"
+29,"<h1 class=""charactername"">
+ness
+</h1>","
+		Forward Roll
+		","
+		6—9, 10—13, 14—17, 26—29
+		","
+		29
+		","
+		--
+		","
+		Invulnerable on frame 4-15
+		","
+		0.5/0.5/0.5/1.5/4.0
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-12
+		","
+		10—11
+		"
+30,"<h1 class=""charactername"">
+ness
+</h1>","
+		Backward Roll
+		","
+		6—9, 10—13, 14—17, 26—29
+		","
+		34
+		","
+		--
+		","
+		Invulnerable on frame 5-16
+		","
+		0.5/0.5/0.5/1.5/4.0
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-12
+		","
+		10—11
+		"
+31,"<h1 class=""charactername"">
+ness
+</h1>","
+		Neutral Air Dodge
+		","
+		6—9, 10—13, 14—17, 26—29
+		","
+		59
+		","
+		10
+		","
+		Invulnerable on frame 3-30
+		","
+		0.5/0.5/0.5/1.5/4.0
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-12
+		","
+		10—11
+		"
+32,"<h1 class=""charactername"">
+ness
+</h1>","
+		Air Dodge, Down
+		","
+		6—9, 10—13, 14—17, 26—29
+		","
+		77
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21		
+		","
+		0.5/0.5/0.5/1.5/4.0
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-12
+		","
+		10—11
+		"
+33,"<h1 class=""charactername"">
+ness
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		6—9, 10—13, 14—17, 26—29
+		","
+		86
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		0.5/0.5/0.5/1.5/4.0
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-12
+		","
+		10—11
+		"
+34,"<h1 class=""charactername"">
+ness
+</h1>","
+		Air Dodge, Left/Right
+		","
+		6—9, 10—13, 14—17, 26—29
+		","
+		99
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		0.5/0.5/0.5/1.5/4.0
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-12
+		","
+		10—11
+		"
+35,"<h1 class=""charactername"">
+ness
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		6—9, 10—13, 14—17, 26—29
+		","
+		119
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		0.5/0.5/0.5/1.5/4.0
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-12
+		","
+		10—11
+		"
+36,"<h1 class=""charactername"">
+ness
+</h1>","
+		Air Dodge, Up
+		","
+		6—9, 10—13, 14—17, 26—29
+		","
+		134
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		0.5/0.5/0.5/1.5/4.0
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-12
+		","
+		10—11
+		"
+37,"<h1 class=""charactername"">
+ness
+</h1>","
+			Ledge Grab
+		","
+		6—9, 10—13, 14—17, 26—29
+		","
+		134
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		0.5/0.5/0.5/1.5/4.0
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-12
+		","
+		10—11
+		"
+38,"<h1 class=""charactername"">
+ness
+</h1>","
+			Ledge Grab
+		","
+		6—9, 10—13, 14—17, 26—29
+		","
+		134
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		0.5/0.5/0.5/1.5/4.0
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-12
+		","
+		10—11
+		"
+39,"<h1 class=""charactername"">
+ness
+</h1>","
+				Ledge Hang
+			","
+		6—9, 10—13, 14—17, 26—29
+		","
+		134
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		0.5/0.5/0.5/1.5/4.0
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-12
+		","
+		10—11
+		"

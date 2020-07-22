@@ -1,0 +1,1126 @@
+,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Jab 1
+		","
+		1
+		","
+		16
+		","
+		--
+		","
+		Transitions to jab 2 as early as frame 5. Meter filled: 0.045 arrows.
+		","
+		1.5
+		","
+		8
+		","
+		3
+		","
+		--
+		","
+		-12
+		","
+		1
+		"
+1,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Jab 2
+		","
+		1
+		","
+		16
+		","
+		--
+		","
+		Transitions to jab 3 as early as frame 5. Meter filled: 0.045 arrows.
+		","
+		1.5
+		","
+		5
+		","
+		3
+		","
+		--
+		","
+		-12
+		","
+		1
+		"
+2,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Jab 3
+		","
+		4
+		","
+		29
+		","
+		--
+		","
+		Meter filled: 0.15 arrows.
+		","
+		5.0
+		","
+		12
+		","
+		6
+		","
+		--
+		","
+		-19
+		","
+		4—5
+		"
+3,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Rapid Jab
+		","
+		4/6/8...
+		","
+		--
+		","
+		--
+		","
+		Meter filled: 0.015 arrows.
+		","
+		0.5
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		--
+		","
+		**
+		"
+4,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Rapid Jab Finisher
+		","
+		5
+		","
+		34
+		","
+		--
+		","
+		Meter filled: 0.09 arrows.
+		","
+		3.0
+		","
+		13
+		","
+		4
+		","
+		--
+		","
+		-25
+		","
+		5
+		"
+5,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Forward Tilt
+		","
+		4/12
+		","
+		37
+		","
+		--
+		","
+		Meter filled: 0.12/0.24 arrows.
+		","
+		4.0/8.0
+		","
+		5/9
+		","
+		5/8
+		","
+		--
+		","
+		-17
+		","
+		4—5/12—13
+		"
+6,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Up Tilt
+		","
+		4
+		","
+		29
+		","
+		--
+		","
+		Meter filled: 0.195 arrows.
+		","
+		6.5
+		","
+		6
+		","
+		7
+		","
+		--
+		","
+		-18
+		","
+		4—10
+		"
+7,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Down Tilt
+		","
+		3
+		","
+		25
+		","
+		--
+		","
+		Meter filled: 0.24 arrows.
+		","
+		8.0
+		","
+		7
+		","
+		8
+		","
+		--
+		","
+		-14
+		","
+		3—4
+		"
+8,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Dash Attack
+		","
+		7
+		","
+		33
+		","
+		--
+		","
+		Wind box on frames 1-4. Meter filled: 0.3 arrows.
+		","
+		10.0
+		","
+		8
+		","
+		10
+		","
+		--
+		","
+		-16
+		","
+		7—9
+		"
+9,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Forward Smash
+		","
+		14/14/15
+		","
+		43/43/43
+		","
+		--
+		","
+		Super armor on frame 8-15 (9-15 for down angled version). Charge hold is frame 4. Meter filled: 0.6/0.84(up or mid min/max), 0.72/1.008(down min/max) arrows.
+		","
+		20.0/20.0/24.0
+		","
+		15/15/16
+		","
+		13/13/15
+		","
+		Normal/Up/Down
+		","
+		-16/-16/-13
+		","
+		14—15/14—15/15
+		"
+10,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Up Smash
+		","
+		10
+		","
+		47
+		","
+		--
+		","
+		Super armor on frame 8-13. Charge hold is frame 6.  Meter filled: (early min/max) 0.63/0.882, (late min/max) 0.48/0.672 arrows.
+		","
+		21.0/15.0
+		","
+		17/14
+		","
+		14/11
+		","
+		Early/Late
+		","
+		-23
+		","
+		10(11—13)
+		"
+11,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Down Smash
+		","
+		10/17
+		","
+		42
+		","
+		--
+		","
+		Super armor on frame 7-10 and 15-17. Charge hold is frame 5. Meter filled: (min/max) 0.39/0.546 arrows.
+		","
+		13.0
+		","
+		9
+		","
+		9
+		","
+		--
+		","
+		-23/-16
+		","
+		10—11/17—18
+		"
+12,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Neutral Air
+		","
+		2
+		","
+		15
+		","
+		10
+		","
+		Autocancels on frame 16 onward. Meter filled: (full/short) 0.06/0.051 arrows.
+		","
+		2.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-8
+		","
+		2
+		"
+13,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Forward Air
+		","
+		10
+		","
+		36
+		","
+		13
+		","
+		Autocancels on frame 35 onward. Meter filled: (full/short) 0.15/0.1275 arrows.
+		","
+		5.0
+		","
+		6
+		","
+		3
+		","
+		--
+		","
+		-10
+		","
+		10—12
+		"
+14,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Back Air
+		","
+		11
+		","
+		37
+		","
+		16
+		","
+		Autocancels on frame 36 onward. Meter filled: (full/short) 0.18/0.153 arrows.
+		","
+		6.0
+		","
+		6
+		","
+		3
+		","
+		--
+		","
+		-13
+		","
+		11—12
+		"
+15,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Up Air
+		","
+		5
+		","
+		41
+		","
+		13
+		","
+		Autocancels on frame 40 onward. Meter filled: (full/short) 0.15/0.1275 arrows.
+		","
+		5.0
+		","
+		6/5
+		","
+		3/3
+		","
+		Strong/Weak
+		","
+		-10
+		","
+		5—8
+		"
+16,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Down Air
+		","
+		7
+		","
+		27
+		","
+		18
+		","
+		Autocancels on frame 25 onward. Meter filled: (full/short) 0.12/0.102 arrows.
+		","
+		5.0/4.0
+		","
+		6/5
+		","
+		3/3
+		","
+		Strong/Weak
+		","
+		-15/-15
+		","
+		7—10
+		"
+17,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Neutral B, Partial Charge (Straight Lunge, Partial Charge)
+		","
+		4(+32)
+		","
+		49
+		","
+		--
+		","
+		Must charge for 32 frames minimum before you are allowed to punch. Damage-based armor begins on frame 1 of charge and lasts until the punch begins, starts at 8% (9.6% in 1v1) and builds to 14% (16.8% in 1v1) on max charge release. Meter filled: (uncharge, sweet) 0.036, (early uncharged) 0.3, (late uncharged) 0.24 arrows.
+		","
+		12.0—28.6
+		","
+		9—17
+		","
+		11—26
+		","
+		Uncharged—Charged
+		","
+		-34 to -19
+		","
+		**
+		"
+18,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Neutral B, Full Charge (Straight Lunge, Full Charge)
+		","
+		123
+		","
+		231
+		","
+		--
+		","
+","
+		30.0
+		","
+		17
+		","
+		26
+		","
+		Meter filled: (fully charged) 0.9, (fully charged, reversed) 0.84 arrows.
+		","
+		-82
+		","
+		**
+		"
+19,"<h1 class=""charactername"">
+little mac
+</h1>","
+		K.O. Punch
+		","
+		9
+		","
+		76/75
+		","
+		--
+		","
+		75 total frames in the air. Super armor on frame 8-9 but only on the ground. Unblockable on the ground. Mac is guaranteed KO Uppercut if he takes 100%. Mac is guaranteed KO Uppercut if he deals 333.33*%, as he has a 0.3x unit filling multiplier. Mac is given 4 seconds before he can lose KO Uppercut. Mac loses KO Uppercut if he is sent into tumble, which requires 80 KB Points to do (this can also be taken as ""when you have to tech"" in layman's terms). For more information on Mac's meter, check Plague von Karma's document. Meter filled: 1.05 arrows.
+		 
+		","
+		35.0/13.0
+		","
+		-/14
+		","
+		-/12
+		","
+		Ground/Air
+		","
+		Unblockable/-54
+		","
+		9—11
+		"
+20,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Side B (Jolt Haymaker)
+		","
+		8/25
+		","
+		60/77
+		","
+		--
+		","
+		Total frames assumes level ground. Going over an edge applies air total frames. Invulnerable on frame 1-3. Leg intangibility on frame 4-17, or until punch. Meter filled: 0.42 arrows.
+		","
+		14.00
+		","
+		12
+		","
+		13
+		","
+		Earliest/Latest
+		","
+		-39 to -36
+		","
+		8—14/25—31 (windbox: 7—17)
+		"
+21,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Side B, Air (Jolt Haymaker, Air)
+		","
+		8/25
+		","
+		53/70
+		","
+		--
+		","
+		If you land, the lag corresponds to the remaining total frames of the ground version. Meter filled: 0.42 arrows.
+		","
+		14.00
+		","
+		12
+		","
+		13
+		","
+		Earliest/Latest
+		","
+		-32 to -31
+		","
+		8—14/25—31
+		"
+22,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Up B (Rising Uppercut)
+		","
+		3...
+		","
+		--
+		","
+		30
+		","
+		Invulnerable on frame 1-3. Meter filled: 0.09/0.03/0.09 arrows.
+		","
+		3.0/1.0/3.0
+		","
+		7/4/13
+		","
+		4/2/4
+		","
+		--
+		","
+		**
+		","
+		3/6—21(rehit: 4)/26
+		"
+23,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Down B (Slip Counter)
+		","
+		5 (Start of Counter)
+		","
+		56
+		","
+		--
+		","
+		Invulnerable on frames 4-5. Counters on frame 5-27.
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		5—27 (counter)
+		"
+24,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Slip Counter, Counterattack
+		","
+		16
+		","
+		47
+		","
+		--
+		","
+		Invulnerable on frame 1-18. Meter filled: (min/max) 0.3/1.26 arrows.
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		16—21
+		"
+25,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Grab
+		","
+		9
+		","
+		38
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+26,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Dash Grab
+		","
+		13
+		","
+		46
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		13—14
+		"
+27,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Pivot Grab
+		","
+		14
+		","
+		41
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		14—15
+		"
+28,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Pummel
+		","
+		1
+		","
+		15
+		","
+		--
+		","
+		Total frames includes 10 frames of hitlag
+		","
+		1.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		14—15
+		"
+29,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Forward Throw
+		","
+		15/17
+		","
+		44
+		","
+		--
+		","
+		Meter filled: 0.12/0.12 arrows.	
+		","
+		4.0/4.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		14—15
+		"
+30,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Backward Throw
+		","
+		17/19
+		","
+		47
+		","
+		--
+		","
+		Meter filled: 0.12/0.15 arrows.			
+		","
+		4.0/5.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		14—15
+		"
+31,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Up Throw
+		","
+		10/12
+		","
+		40
+		","
+		--
+		","
+		Meter filled: 0.12/0.09 arrows.		
+		","
+		4.0/3.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		14—15
+		"
+32,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Down Throw
+		","
+		14/16
+		","
+		44
+		","
+		--
+		","
+		Meter filled: 0.12/0.09 arrows.		
+		","
+		4.0/3.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		14—15
+		"
+33,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Spot Dodge
+		","
+		14/16
+		","
+		18/23
+		","
+		--
+		","
+		Invulnerable on frame 3-14
+		","
+		4.0/3.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		14—15
+		"
+34,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Forward Roll
+		","
+		14/16
+		","
+		26
+		","
+		--
+		","
+		Invulnerable on frame 4-12
+		","
+		4.0/3.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		14—15
+		"
+35,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Backward Roll
+		","
+		14/16
+		","
+		32
+		","
+		--
+		","
+		Invulnerable on frame 4-14
+		","
+		4.0/3.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		14—15
+		"
+36,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Neutral Air Dodge
+		","
+		14/16
+		","
+		49
+		","
+		10
+		","
+		Invulnerable on frame 2-26
+		","
+		4.0/3.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		14—15
+		"
+37,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Air Dodge, Down
+		","
+		14/16
+		","
+		62
+		","
+		11-19
+		","
+		Invulnerable on frame 2-18	
+		","
+		4.0/3.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		14—15
+		"
+38,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		14/16
+		","
+		64
+		","
+		11-19
+		","
+		Invulnerable on frame 2-18
+		","
+		4.0/3.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		14—15
+		"
+39,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Air Dodge, Left/Right
+		","
+		14/16
+		","
+		72
+		","
+		11-19
+		","
+		Invulnerable on frame 2-18
+		","
+		4.0/3.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		14—15
+		"
+40,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		14/16
+		","
+		81
+		","
+		11-19
+		","
+		Invulnerable on frame 2-18
+		","
+		4.0/3.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		14—15
+		"
+41,"<h1 class=""charactername"">
+little mac
+</h1>","
+		Air Dodge, Up
+		","
+		14/16
+		","
+		89
+		","
+		11-19
+		","
+		Invulnerable on frame 2-18
+		","
+		4.0/3.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		14—15
+		"
+42,"<h1 class=""charactername"">
+little mac
+</h1>","
+			Ledge Grab
+		","
+		14/16
+		","
+		89
+		","
+		11-19
+		","
+		Invulnerable on frame 2-18
+		","
+		4.0/3.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		14—15
+		"
+43,"<h1 class=""charactername"">
+little mac
+</h1>","
+			Ledge Grab
+		","
+		14/16
+		","
+		89
+		","
+		11-19
+		","
+		Invulnerable on frame 2-18
+		","
+		4.0/3.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		14—15
+		"
+44,"<h1 class=""charactername"">
+little mac
+</h1>","
+				Ledge Hang
+			","
+		14/16
+		","
+		89
+		","
+		11-19
+		","
+		Invulnerable on frame 2-18
+		","
+		4.0/3.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		14—15
+		"

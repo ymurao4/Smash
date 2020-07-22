@@ -1,0 +1,1001 @@
+,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+				Ledge Hang
+			","
+		34/43
+		","
+		141
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		1.0/7.0
+		","
+		7—15
+		","
+		3—8
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+1,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Jab 1
+		","
+		4
+		","
+		27
+		","
+		--
+		","
+		Transitions to Jab 2 as early as frame 10.
+		","
+		2.0(1.5)
+		","
+		6(6)
+		","
+		3(3)
+		","
+		--
+		","
+		-20(-15)
+		","
+		4—5
+		"
+2,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Jab 2
+		","
+		4
+		","
+		29
+		","
+		--
+		","
+		--
+		","
+		3.5(2.6)
+		","
+		9(9)
+		","
+		4(4)
+		","
+		--
+		","
+		-21(-12)
+		","
+		4—5
+		"
+3,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Forward Tilt
+		","
+		9
+		","
+		29
+		","
+		--
+		","
+		--
+		","
+		9.0(6.7)
+		","
+		7(6)
+		","
+		9(7)
+		","
+		--
+		","
+		-14(-10)
+		","
+		9—10
+		"
+4,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Up Tilt
+		","
+		8/11/14/17/20/23/27
+		","
+		48
+		","
+		--
+		","
+		--
+		","
+		0.8/4.5(0.6/3.0)
+		","
+		4/11(4/10)
+		","
+		2/5(2/4)
+		","
+		--
+		","
+		-16(-7)
+		","
+		8—9/11—12/14—15/17—18/20—21/23—24/27
+		"
+5,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Down Tilt
+		","
+		8
+		","
+		30
+		","
+		--
+		","
+		--
+		","
+		6.0(4.5)
+		","
+		6(5)
+		","
+		6(5)
+		","
+		--
+		","
+		-16(-10)
+		","
+		8—11
+		"
+6,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Dash Attack
+		","
+		11
+		","
+		41
+		","
+		--
+		","
+		--
+		","
+		6.0(4.5)
+		","
+		6(5)
+		","
+		6(5)
+		","
+		--
+		","
+		-24(-18)
+		","
+		11—14
+		"
+7,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Forward Smash
+		","
+		11
+		","
+		46
+		","
+		--
+		","
+		Charge hold is frame 4
+		","
+		12.0(9.0)
+		","
+		9(7)
+		","
+		8(7)
+		","
+		--
+		","
+		-27(-22)
+		","
+		11—13
+		"
+8,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Up Smash
+		","
+		12
+		","
+		49
+		","
+		--
+		","
+		Charge hold is frame 7
+		","
+		11.0(8.2)
+		","
+		8(7)
+		","
+		8(6)
+		","
+		--
+		","
+		-29(-24)
+		","
+		12—17
+		"
+9,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Down Smash
+		","
+		9/16
+		","
+		40
+		","
+		--
+		","
+		Charge hold is frame 4
+		","
+		13.0(9.7)
+		","
+		9/8
+		","
+		9/7
+		","
+		--
+		","
+		-22/-17
+		","
+		9—11/16
+		"
+10,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Neutral Air
+		","
+		6
+		","
+		45
+		","
+		7
+		","
+		Autocancels on frame 1-5 and 30 onward
+		","
+		7.0(5.2)
+		","
+		7(6)
+		","
+		3(3)
+		","
+		--
+		","
+		-4(+2)
+		","
+		6—23
+		"
+11,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Forward Air
+		","
+		19
+		","
+		56
+		","
+		10
+		","
+		Autocancels on frame 1-2 and 49 onward
+		","
+		12.0(9.0)
+		","
+		9(7)
+		","
+		5(4)
+		","
+		--
+		","
+		-5(+3)
+		","
+		19—20
+		"
+12,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Back Air
+		","
+		8
+		","
+		35
+		","
+		7
+		","
+		Autocancels on frame 1-7 and 19 onward
+		","
+		10.0(7.5)
+		","
+		8(7)
+		","
+		4(3)
+		","
+		--
+		","
+		-3(+0)
+		","
+		8—11
+		"
+13,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Up Air
+		","
+		7
+		","
+		35
+		","
+		14
+		","
+		Autocancels on frame 1-6 and 27 onward
+		","
+		9.0(6.7)
+		","
+		7(6)
+		","
+		4(3)
+		","
+		--
+		","
+		-10(-3)
+		","
+		7—11
+		"
+14,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Down Air
+		","
+		12
+		","
+		63
+		","
+		20
+		","
+		Autocancels on frame 54 onward
+		","
+		8.0(6.0)
+		","
+		7(6)
+		","
+		4(3)
+		","
+		--
+		","
+		-16(-12)
+		","
+		12—51
+		"
+15,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Neutral B (Ice Shot)
+		","
+		18/19
+		","
+		55
+		","
+		--
+		","
+		Second startup value is the melee attack. Climber does not suffer hitlag from it.
+		","
+		3.5/3.5 (3.5/3.5)
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		-29(-24)
+		","
+		18/19—**
+		"
+16,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Side B, both (Squal Hammer, both)
+		","
+		10/14/18/23/28/34/40/51
+		","
+		77
+		","
+		29
+		","
+		Landing lag only occurs if you enter special fall.
+		","
+		2.0/4.0
+		","
+		4/8
+		","
+		3/5
+		","
+		--
+		","
+		-21
+		","
+		10/14/18/23/28/34/40/51—52
+		"
+17,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Side B, alone (Squal Hammer, alone)
+		","
+		10/13/15/18/21/24/28/32/37/42/49
+		","
+		77
+		","
+		29
+		","
+		Landing lag only occurs if you enter special fall.
+		","
+		1.2/2.0
+		","
+		4/4
+		","
+		3/3
+		","
+		--
+		","
+		-24
+		","
+		10/13/15/18/21/24/28/32/37/42/49—50
+		"
+18,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Up B (Belay)
+		","
+		16
+		","
+		--
+		","
+		30
+		","
+		Hitting somebody with this move reduces its height gain for your climber. The AI is invulnerable frame 1-15 and invincible frame 16-33
+		","
+		16.0
+		","
+		10
+		","
+		14
+		","
+		--
+		","
+		--
+		","
+		16—33
+		"
+19,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Down B (Blizzard)
+		","
+		16/21/26/31/36/41/46/51/56
+		","
+		84
+		","
+		--
+		","
+		--
+		","
+		1.7(1.7)
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-22(-15)
+		","
+		lul
+		"
+20,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Grab
+		","
+		8
+		","
+		39
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-22(-15)
+		","
+		8—9
+		"
+21,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Dash Grab
+		","
+		10
+		","
+		47
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-22(-15)
+		","
+		10—11
+		"
+22,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Pivot Grab
+		","
+		10
+		","
+		40
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-22(-15)
+		","
+		10—11
+		"
+23,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Pummel
+		","
+		1
+		","
+		16
+		","
+		Total frames includes 10 frames of hitlag.
+		","
+		--		
+		","
+		1.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-22(-15)
+		","
+		10—11
+		"
+24,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Forward Throw
+		","
+		24/25
+		","
+		49
+		","
+		--
+		","
+		--		
+		","
+		3.0/5.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-22(-15)
+		","
+		10—11
+		"
+25,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Backward Throw
+		","
+		18
+		","
+		39
+		","
+		--
+		","
+		--		
+		","
+		6.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-22(-15)
+		","
+		10—11
+		"
+26,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Up Throw
+		","
+		25/27
+		","
+		52
+		","
+		--
+		","
+		--		
+		","
+		3.0/5.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-22(-15)
+		","
+		10—11
+		"
+27,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Down Throw
+		","
+		37
+		","
+		49
+		","
+		--
+		","
+		--		
+		","
+		6.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-22(-15)
+		","
+		10—11
+		"
+28,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Spot Dodge
+		","
+		37
+		","
+		20/25
+		","
+		--
+		","
+		Invulnerable on frame 3-17		
+		","
+		6.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-22(-15)
+		","
+		10—11
+		"
+29,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Forward Roll
+		","
+		37
+		","
+		29
+		","
+		--
+		","
+		Invulnerable on frame 4-15.		
+		","
+		6.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-22(-15)
+		","
+		10—11
+		"
+30,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Backward Roll
+		","
+		37
+		","
+		34
+		","
+		--
+		","
+		Invulnerable on frame 5-16.		
+		","
+		6.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-22(-15)
+		","
+		10—11
+		"
+31,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Neutral Air Dodge
+		","
+		37
+		","
+		58
+		","
+		10
+		","
+		Invulnerable on frame 3-28.		
+		","
+		6.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-22(-15)
+		","
+		10—11
+		"
+32,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Air Dodge, Down
+		","
+		37
+		","
+		81
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		6.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-22(-15)
+		","
+		10—11
+		"
+33,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		37
+		","
+		86
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		6.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-22(-15)
+		","
+		10—11
+		"
+34,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Air Dodge, Left/Right
+		","
+		37
+		","
+		96
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.			
+		","
+		6.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-22(-15)
+		","
+		10—11
+		"
+35,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		37
+		","
+		115
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.			
+		","
+		6.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-22(-15)
+		","
+		10—11
+		"
+36,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+		Air Dodge, Up
+		","
+		37
+		","
+		129
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.
+		","
+		6.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-22(-15)
+		","
+		10—11
+		"
+37,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+			Ledge Grab
+		","
+		37
+		","
+		129
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.
+		","
+		6.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-22(-15)
+		","
+		10—11
+		"
+38,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+			Ledge Grab
+		","
+		37
+		","
+		129
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.
+		","
+		6.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-22(-15)
+		","
+		10—11
+		"
+39,"<h1 class=""charactername"">
+Ice Climbers
+</h1>","
+				Ledge Hang
+			","
+		37
+		","
+		129
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.
+		","
+		6.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-22(-15)
+		","
+		10—11
+		"

@@ -1,0 +1,1051 @@
+,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Jab 1
+		","
+		2
+		","
+		18
+		","
+		--
+		","
+		Transitions to Jab 2 as early as frame 5
+		","
+		2.0
+		","
+		8
+		","
+		3
+		","
+		--
+		","
+		-13
+		","
+		2—3
+		"
+1,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Jab 2
+		","
+		3
+		","
+		18
+		","
+		--
+		","
+		Transitions to Jab 3 as early as frame 6
+		","
+		2.0
+		","
+		5
+		","
+		3
+		","
+		--
+		","
+		-12
+		","
+		3—4
+		"
+2,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Jab 3
+		","
+		6
+		","
+		30
+		","
+		--
+		","
+		--
+		","
+		4.0
+		","
+		11
+		","
+		5
+		","
+		--
+		","
+		-19
+		","
+		6—7
+		"
+3,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Forward Tilt
+		","
+		5
+		","
+		32
+		","
+		--
+		","
+		--
+		","
+		9.0
+		","
+		7
+		","
+		9
+		","
+		--
+		","
+		-18
+		","
+		5—7
+		"
+4,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Up Tilt
+		","
+		5
+		","
+		27
+		","
+		--
+		","
+		--
+		","
+		6.0
+		","
+		7
+		","
+		9
+		","
+		--
+		","
+		-15
+		","
+		5—10
+		"
+5,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Down Tilt
+		","
+		5
+		","
+		13
+		","
+		--
+		","
+		--
+		","
+		5.0
+		","
+		6
+		","
+		6
+		","
+		--
+		","
+		-2
+		","
+		5—8
+		"
+6,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Dash Attack
+		","
+		4/8/12/16/25
+		","
+		47
+		","
+		--
+		","
+		--
+		","
+		2.0/4.0
+		","
+		4/14
+		","
+		3/5
+		","
+		Multi/final
+		","
+		-18
+		","
+		4/8/12/16/25
+		"
+7,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Forward Smash
+		","
+		12
+		","
+		41
+		","
+		--
+		","
+		Charge hold is frame 4
+		","
+		15.0
+		","
+		10
+		","
+		10
+		","
+		--
+		","
+		-19
+		","
+		12—13
+		"
+8,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Up Smash
+		","
+		9
+		","
+		39
+		","
+		--
+		","
+		Head intangibility on frame 9-13. Charge hold is frame 6
+		","
+		14.0/12.0
+		","
+		10
+		","
+		10
+		","
+		Far/Close
+		","
+		-20
+		","
+		9—13
+		"
+9,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Down Smash
+		","
+		6/14
+		","
+		37
+		","
+		--
+		","
+		Charge hold is frame 2.
+		","
+		15.0/14.0
+		","
+		10/10
+		","
+		10/10
+		","
+		Close/Far
+		","
+		-21/-13
+		","
+		6—7/14—15
+		"
+10,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Down Taunt
+		","
+		45
+		","
+		69
+		","
+		--
+		","
+		--
+		","
+		2.0
+		","
+		10/10
+		","
+		10/10
+		","
+		Close/Far
+		","
+		-21/-13
+		","
+		6—7/14—15
+		"
+11,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Neutral Air
+		","
+		3
+		","
+		44
+		","
+		8
+		","
+		Auto cancels on frame 1-2 and frame 36 onward.
+		","
+		12.0/6.0
+		","
+		9/6
+		","
+		5/3
+		","
+		Early/Late
+		","
+		-3/-5
+		","
+		3—5(6—31)
+		"
+12,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Forward Air
+		","
+		7
+		","
+		23
+		","
+		13
+		","
+		Autocancels on frame 21 onward
+		","
+		8.0
+		","
+		7
+		","
+		4
+		","
+		--
+		","
+		-9
+		","
+		7—10
+		"
+13,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Back Air
+		","
+		6
+		","
+		44
+		","
+		10
+		","
+		Autocancels on frame 1-2 and 33 onward
+		","
+		14.0/8.0
+		","
+		10/7
+		","
+		5/4
+		","
+		Early/Late
+		","
+		-5/-6
+		","
+		6—7(8—13)
+		"
+14,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Up Air
+		","
+		5
+		","
+		26
+		","
+		7
+		","
+		Autocancels on frame 19 onward
+		","
+		11.0/7.0
+		","
+		8/7
+		","
+		4/3
+		","
+		Early/Late
+		","
+		-3/-4
+		","
+		5—7(8—11)
+		"
+15,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Down Air
+		","
+		10
+		","
+		28
+		","
+		12
+		","
+		Autocancels on frame 1-5 and 24 onward
+		","
+		10.0/8.0
+		","
+		11/7
+		","
+		4/4
+		","
+		Early/Late
+		","
+		-8/-8
+		","
+		10(11—14)
+		"
+16,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Z Air
+		","
+		14
+		","
+		52
+		","
+		20
+		","
+		If you land before firing, it will fire on frame 6 of landing. Advantage is that shot.
+		","
+		5.0
+		","
+		6
+		","
+		6
+		","
+		--
+		","
+		-2
+		","
+		14—68
+		"
+17,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Neutral B (Fireball)
+		","
+		17
+		","
+		43
+		","
+		--
+		","
+		--
+		","
+		6.0/5.0
+		","
+		6/6
+		","
+		3/3
+		","
+		Early/Late
+		","
+		-20
+		","
+		17—45(46—66)
+		"
+18,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Side B (Green Missile)
+		","
+		22
+		","
+		79/95
+		","
+		39
+		","
+		On hit endlag is 18 or 32 total if you landed during that 18 frame animation. Total frames is 79 in the air, 95 on level ground. 41 landing lag is consistent as long as you land during the 79 frame animation. Invulnerable on frame 18-22. 
+		","
+		6.1—21.0/25.0
+		","
+		8—15/15
+		","
+		6—18/22
+		","
+		-- 
+		","
+		-26 to -14/-10
+		","
+		22—60
+		"
+19,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Up B (Super Jump Punch, Ground)
+		","
+		8
+		","
+		109
+		","
+		45
+		","
+		Invulnerable on frame 8-10 on the ground. Total frames assumes level ground.
+		","
+		25.0/1.0
+		","
+		14/4
+		","
+		22/2
+		","
+		Sweet/sourspot
+		","
+		-79/-99
+		","
+		8(9—23)
+		"
+20,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Up B (Super Jump Punch, Air)
+		","
+		6
+		","
+		--
+		","
+		45
+		","
+		Invulnerable on frame 6-8 in the air
+		","
+		20.0/1.0
+		","
+		**
+		","
+		**
+		","
+		Sweet/sourspot
+		","
+		**
+		","
+		6(7—23)
+		"
+21,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Down B (Luigi Cyclone)
+		","
+		10.../40
+		","
+		85
+		","
+		--
+		","
+		Invincible on frame 4-8 on the ground. 1-7 in the air.
+		","
+		2.0/4.0
+		","
+		4/11
+		","
+		3/5
+		","
+		Multi/Final
+		","
+		-40
+		","
+		10—33(rehit:6)/40
+		"
+22,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Grab
+		","
+		14
+		","
+		47
+		","
+		--
+		","
+		Body grabbox only active for the first 2 frames	
+		","
+		--
+		","
+		4/11
+		","
+		3/5
+		","
+		Multi/Final
+		","
+		-40
+		","
+		14—20
+		"
+23,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Dash Grab
+		","
+		16
+		","
+		51
+		","
+		--
+		","
+		Body grabbox only active for the first 2 frames		
+		","
+		--
+		","
+		4/11
+		","
+		3/5
+		","
+		Multi/Final
+		","
+		-40
+		","
+		16—22
+		"
+24,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Pivot Grab
+		","
+		17
+		","
+		49
+		","
+		--
+		","
+		Body grabbox only active for the first 2 frames	
+		","
+		--
+		","
+		4/11
+		","
+		3/5
+		","
+		Multi/Final
+		","
+		-40
+		","
+		17—24
+		"
+25,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Pummel
+		","
+		1
+		","
+		19
+		","
+		Total frames includes 13 frames of hitlag.
+		","
+		--		
+		","
+		1.3
+		","
+		4/11
+		","
+		3/5
+		","
+		Multi/Final
+		","
+		-40
+		","
+		17—24
+		"
+26,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Forward Throw
+		","
+		15
+		","
+		37
+		","
+		--
+		","
+		--		
+		","
+		9.0
+		","
+		4/11
+		","
+		3/5
+		","
+		Multi/Final
+		","
+		-40
+		","
+		17—24
+		"
+27,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Backward Throw
+		","
+		15
+		","
+		37
+		","
+		--
+		","
+		--		
+		","
+		10.0
+		","
+		4/11
+		","
+		3/5
+		","
+		Multi/Final
+		","
+		-40
+		","
+		17—24
+		"
+28,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Up Throw
+		","
+		18
+		","
+		39
+		","
+		--
+		","
+		Collateral hitbox on frame 15, does 6.0%.
+		","
+		8.0
+		","
+		4/11
+		","
+		3/5
+		","
+		Multi/Final
+		","
+		-40
+		","
+		17—24
+		"
+29,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Down Throw
+		","
+		18/29
+		","
+		40
+		","
+		--
+		","
+		Collateral hitbox on frames 18—28.
+		","
+		3.0/3.0
+		","
+		4/11
+		","
+		3/5
+		","
+		Multi/Final
+		","
+		-40
+		","
+		17—24
+		"
+30,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Spot Dodge
+		","
+		18/29
+		","
+		20/25
+		","
+		--
+		","
+		Invulnerable on frame 3-17.		
+		","
+		3.0/3.0
+		","
+		4/11
+		","
+		3/5
+		","
+		Multi/Final
+		","
+		-40
+		","
+		17—24
+		"
+31,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Forward Roll
+		","
+		18/29
+		","
+		29
+		","
+		--
+		","
+		Invulnerable on frame 4-15.		
+		","
+		3.0/3.0
+		","
+		4/11
+		","
+		3/5
+		","
+		Multi/Final
+		","
+		-40
+		","
+		17—24
+		"
+32,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Backward Roll
+		","
+		18/29
+		","
+		34
+		","
+		--
+		","
+		Invulnerable on frame 5-16.		
+		","
+		3.0/3.0
+		","
+		4/11
+		","
+		3/5
+		","
+		Multi/Final
+		","
+		-40
+		","
+		17—24
+		"
+33,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Neutral Air Dodge
+		","
+		18/29
+		","
+		57
+		","
+		10
+		","
+		Invulnerable on frame 3-29.		
+		","
+		3.0/3.0
+		","
+		4/11
+		","
+		3/5
+		","
+		Multi/Final
+		","
+		-40
+		","
+		17—24
+		"
+34,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Air Dodge, Down
+		","
+		18/29
+		","
+		81
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.		
+		","
+		3.0/3.0
+		","
+		4/11
+		","
+		3/5
+		","
+		Multi/Final
+		","
+		-40
+		","
+		17—24
+		"
+35,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		18/29
+		","
+		88
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.		
+		","
+		3.0/3.0
+		","
+		4/11
+		","
+		3/5
+		","
+		Multi/Final
+		","
+		-40
+		","
+		17—24
+		"
+36,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Air Dodge, Left/Right
+		","
+		18/29
+		","
+		96
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.		
+		","
+		3.0/3.0
+		","
+		4/11
+		","
+		3/5
+		","
+		Multi/Final
+		","
+		-40
+		","
+		17—24
+		"
+37,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		18/29
+		","
+		113
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.		
+		","
+		3.0/3.0
+		","
+		4/11
+		","
+		3/5
+		","
+		Multi/Final
+		","
+		-40
+		","
+		17—24
+		"
+38,"<h1 class=""charactername"">
+luigi
+</h1>","
+		Air Dodge, Up
+		","
+		18/29
+		","
+		127
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.		
+		","
+		3.0/3.0
+		","
+		4/11
+		","
+		3/5
+		","
+		Multi/Final
+		","
+		-40
+		","
+		17—24
+		"
+39,"<h1 class=""charactername"">
+luigi
+</h1>","
+			Ledge Grab
+		","
+		18/29
+		","
+		127
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.		
+		","
+		3.0/3.0
+		","
+		4/11
+		","
+		3/5
+		","
+		Multi/Final
+		","
+		-40
+		","
+		17—24
+		"
+40,"<h1 class=""charactername"">
+luigi
+</h1>","
+			Ledge Grab
+		","
+		18/29
+		","
+		127
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.		
+		","
+		3.0/3.0
+		","
+		4/11
+		","
+		3/5
+		","
+		Multi/Final
+		","
+		-40
+		","
+		17—24
+		"
+41,"<h1 class=""charactername"">
+luigi
+</h1>","
+				Ledge Hang
+			","
+		18/29
+		","
+		127
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.		
+		","
+		3.0/3.0
+		","
+		4/11
+		","
+		3/5
+		","
+		Multi/Final
+		","
+		-40
+		","
+		17—24
+		"

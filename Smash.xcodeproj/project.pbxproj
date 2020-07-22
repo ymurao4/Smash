@@ -15,7 +15,8 @@
 		0409E4C024C574BA000038E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0409E4BE24C574BA000038E1 /* LaunchScreen.storyboard */; };
 		0409E4CC24C57582000038E1 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E4CB24C57582000038E1 /* RecordView.swift */; };
 		0409E4CE24C57588000038E1 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E4CD24C57588000038E1 /* NoteView.swift */; };
-		049239A624C6608B009F301E /* RecordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239A524C6608B009F301E /* RecordViewModel.swift */; };
+		04149A4824C7C63400F2AD6F /* RecordCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04149A4724C7C63400F2AD6F /* RecordCellViewModel.swift */; };
+		049239A624C6608B009F301E /* RecordListViewMdoel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239A524C6608B009F301E /* RecordListViewMdoel.swift */; };
 		049239A824C660E3009F301E /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239A724C660E3009F301E /* Record.swift */; };
 		049239AB24C66AFB009F301E /* FighterPDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239AA24C66AFB009F301E /* FighterPDF.swift */; };
 		049239AD24C67B84009F301E /* StagePDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239AC24C67B84009F301E /* StagePDF.swift */; };
@@ -38,7 +39,8 @@
 		0409E4C124C574BA000038E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0409E4CB24C57582000038E1 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
 		0409E4CD24C57588000038E1 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
-		049239A524C6608B009F301E /* RecordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecordViewModel.swift; path = Smash/Models/RecordViewModel.swift; sourceTree = SOURCE_ROOT; };
+		04149A4724C7C63400F2AD6F /* RecordCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCellViewModel.swift; sourceTree = "<group>"; };
+		049239A524C6608B009F301E /* RecordListViewMdoel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecordListViewMdoel.swift; path = Smash/Models/RecordListViewMdoel.swift; sourceTree = SOURCE_ROOT; };
 		049239A724C660E3009F301E /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		049239AA24C66AFB009F301E /* FighterPDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterPDF.swift; sourceTree = "<group>"; };
 		049239AC24C67B84009F301E /* StagePDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StagePDF.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				0409E4CA24C574D5000038E1 /* Apps */,
+				04149A4924C7D50100F2AD6F /* Repositories */,
 				0409E4C724C574C1000038E1 /* Models */,
 				0409E4C824C574CA000038E1 /* Views */,
 				0409E4C924C574CF000038E1 /* ViewModels */,
@@ -130,7 +133,8 @@
 		0409E4C924C574CF000038E1 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				049239A524C6608B009F301E /* RecordViewModel.swift */,
+				049239A524C6608B009F301E /* RecordListViewMdoel.swift */,
+				04149A4724C7C63400F2AD6F /* RecordCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -142,6 +146,13 @@
 				0409E4B524C574B9000038E1 /* SceneDelegate.swift */,
 			);
 			path = Apps;
+			sourceTree = "<group>";
+		};
+		04149A4924C7D50100F2AD6F /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 		049239A924C66AE9009F301E /* Components */ = {
@@ -296,11 +307,12 @@
 				0409E4B624C574B9000038E1 /* SceneDelegate.swift in Sources */,
 				049239B724C6C0A5009F301E /* AddRecordView.swift in Sources */,
 				049239A824C660E3009F301E /* Record.swift in Sources */,
+				04149A4824C7C63400F2AD6F /* RecordCellViewModel.swift in Sources */,
 				049239AF24C68146009F301E /* Constants.swift in Sources */,
 				0409E4B824C574B9000038E1 /* ContentView.swift in Sources */,
 				049239AD24C67B84009F301E /* StagePDF.swift in Sources */,
 				049239AB24C66AFB009F301E /* FighterPDF.swift in Sources */,
-				049239A624C6608B009F301E /* RecordViewModel.swift in Sources */,
+				049239A624C6608B009F301E /* RecordListViewMdoel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

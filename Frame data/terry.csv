@@ -1,0 +1,1152 @@
+,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+terry
+</h1>","
+		Jab 1
+		","
+		3
+		","
+		13
+		","
+		--
+		","
+		Special Cancellable (+4 on shield). Transitions to jab 2 as early as frame 6
+		","
+		3.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		-6
+		","
+		3—4
+		"
+1,"<h1 class=""charactername"">
+terry
+</h1>","
+		Jab 2
+		","
+		3/4
+		","
+		24
+		","
+		--
+		","
+		Special Cancellable (+2 on shield). Transitions to jab 3 as early as frame 9
+		","
+		1.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		-19/-17
+		","
+		3/4—7
+		"
+2,"<h1 class=""charactername"">
+terry
+</h1>","
+		Jab 3
+		","
+		7
+		","
+		33
+		","
+		--
+		","
+		--
+		","
+		7.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		-19
+		","
+		7—10
+		"
+3,"<h1 class=""charactername"">
+terry
+</h1>","
+		Forward Tilt
+		","
+		8
+		","
+		27
+		","
+		--
+		","
+		Special Cancellable (+11 on shield). Leg intangible on frame 8-13. 
+		","
+		12.0/13.0
+		","
+		9/9
+		","
+		11/12
+		","
+		Close/Far
+		","
+		-8/-7
+		","
+		8—13
+		"
+4,"<h1 class=""charactername"">
+terry
+</h1>","
+		Up Tilt
+		","
+		7
+		","
+		30
+		","
+		--
+		","
+		Special Cancellable (+10 on shield). Arm intangible on frame 7-11
+		","
+		11.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		-12
+		","
+		7—11
+		"
+5,"<h1 class=""charactername"">
+terry
+</h1>","
+		Down Tilt
+		","
+		6
+		","
+		16
+		","
+		--
+		","
+		Special Cancellable (+4 on shield). 
+		","
+		3.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		-6
+		","
+		6—9
+		"
+6,"<h1 class=""charactername"">
+terry
+</h1>","
+		Dash Attack
+		","
+		10
+		","
+		40
+		","
+		--
+		","
+		--
+		","
+		13.0/10.0
+		","
+		**
+		","
+		**
+		","
+		Early/Late
+		","
+		-18/-15
+		","
+		10—14(15—22)
+		"
+7,"<h1 class=""charactername"">
+terry
+</h1>","
+		Forward Smash
+		","
+		18
+		","
+		50
+		","
+		--
+		","
+		Charges between frames 10-11
+		","
+		18.0
+		","
+		**
+		","
+		**
+		","
+		**
+		","
+		-20
+		","
+		18—21
+		"
+8,"<h1 class=""charactername"">
+terry
+</h1>","
+		Up Smash
+		","
+		10
+		","
+		41
+		","
+		--
+		","
+		Charges between frames 8-9
+		","
+		16.0/18.0
+		","
+		**
+		","
+		**
+		","
+		Early/Late
+		","
+		-20 / -18
+		","
+		10(11—14)
+		"
+9,"<h1 class=""charactername"">
+terry
+</h1>","
+		Down Smash
+		","
+		8
+		","
+		40
+		","
+		--
+		","
+		Charges between frames 2-3
+		","
+		12.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		-23
+		","
+		8—11
+		"
+10,"<h1 class=""charactername"">
+terry
+</h1>","
+		Neutral Air
+		","
+		4
+		","
+		33
+		","
+		7
+		","
+		Special Cancellable (+3 on shield). Autocancels on 1-3 and 24 onward.
+		","
+		7.0/5.0
+		","
+		7/6
+		","
+		3/3
+		","
+		Early/Late
+		","
+		-4
+		","
+		4—8(9—19)
+		"
+11,"<h1 class=""charactername"">
+terry
+</h1>","
+		Forward Air
+		","
+		7
+		","
+		39
+		","
+		12
+		","
+		Autocancels on 1-4 and 26 onward.
+		","
+		11.0/8.0
+		","
+		9/7
+		","
+		5/4
+		","
+		Early/Late
+		","
+		-7/-8
+		","
+		7—10(11—17)
+		"
+12,"<h1 class=""charactername"">
+terry
+</h1>","
+		Back Air
+		","
+		11
+		","
+		39
+		","
+		11
+		","
+		Autocancels on 1-10 and 30 onward.
+		","
+		15.0
+		","
+		10/9
+		","
+		6/5
+		","
+		Early/Late
+		","
+		-5/-6
+		","
+		11—13(14—15)
+		"
+13,"<h1 class=""charactername"">
+terry
+</h1>","
+		Up Air
+		","
+		7
+		","
+		35
+		","
+		7
+		","
+		Special Cancellable (+4 on shield).  Autocancels on 1 and 19 onward.
+		","
+		5.0
+		","
+		8
+		","
+		4
+		","
+		--
+		","
+		-3
+		","
+		7—9
+		"
+14,"<h1 class=""charactername"">
+terry
+</h1>","
+		Down Air
+		","
+		12
+		","
+		32
+		","
+		16
+		","
+		Special Cancellable (+6 on shield). Autocancels on 1-11 and 24 onward. 
+		","
+		15.0/17.0
+		","
+		11/10
+		","
+		6/6
+		","
+		Close/Far
+		","
+		-10
+		","
+		12—15
+		"
+15,"<h1 class=""charactername"">
+terry
+</h1>","
+		Neutral B (Power Wave, Ground)
+		","
+		18 (21)
+		","
+		49 (52)
+		","
+		--
+		","
+		**
+		","
+		8.0 (9.0)
+		","
+		**
+		","
+		**
+		","
+		Weak (Strong)
+		","
+		-22 (-21)
+		","
+		18—86 (21—66)
+		"
+16,"<h1 class=""charactername"">
+terry
+</h1>","
+		Power Wave, Air
+		","
+		18 (18)
+		","
+		49 (49)
+		","
+		--
+		","
+		**
+		","
+		10.0 (11.0)
+		","
+		**
+		","
+		**
+		","
+		Weak (Strong)
+		","
+		**
+		","
+		18—27 (18—24)
+		"
+17,"<h1 class=""charactername"">
+terry
+</h1>","
+		Forward B (Burning Knuckle)
+		","
+		15/19 (21/26) | 14—17(18—26)
+		","
+		60 (69) | 46 (50)
+		","
+		--
+		","
+		Air version has 14/18 startup and 45/54 total frames
+		","
+		13.0/12.0 (14.0/12.0)
+		","
+		**
+		","
+		**
+		","
+		Ground Weak | (Strong) | Air Weak | (Strong)
+		Ground | Air
+		","
+		-28 (-34)
+		","
+		15—19(20—30) | 21—28(27—39) | 14—17(18—26) | 18—21(22—30)
+		"
+18,"<h1 class=""charactername"">
+terry
+</h1>","
+		Burning Knuckle, Input
+		","
+		15/21 (21/28) | 14/19 (18/23)
+		","
+		60 (69) | 46 (50)
+		","
+		--
+		","
+		Arm intangibility on frame 15-21 (weak) or 21-28 (strong) air version has 14/18 startup and 45/54 total frames
+		","
+		16.0/14.0 (17.0/14.0)
+		","
+		**
+		","
+		**
+		","
+		Weak (Strong)
+		","
+		-26 (-32)
+		","
+		15—21(22—30) | 21—28(29—39) | 14—19(20—26) | 18—23(24—30)
+		"
+19,"<h1 class=""charactername"">
+terry
+</h1>","
+		Back B (Crack Shoot)
+		","
+		13/21
+		","
+		46 (45 air)
+		","
+		**
+		","
+		Hold the button for more distance. Input version has 1.2x damage multiplier.
+		","
+		(3.0/4.0/5.0)/(6.0/8.0/10.0)
+		","
+		**
+		","
+		**
+		","
+		(First Close/Far/Farthest)/(Second Close/Far/Farthest)
+		","
+		-12
+		","
+		13(14—20)/21(22—26)
+		"
+20,"<h1 class=""charactername"">
+terry
+</h1>","
+		Up B (Rising Tackle)
+		","
+		10/12/15/20/25
+		","
+		**
+		","
+		15
+		","
+		Leg intangible on frames 9-20. Final hit damage depends on weak or strong input.
+		","
+		4.0/0.3/7.0/9.0
+		","
+		**
+		","
+		**
+		","
+		First/Multi/Final
+		","
+		**
+		","
+		10/12/15/20/25
+		"
+21,"<h1 class=""charactername"">
+terry
+</h1>","
+		Rising Tackle (Charged Input)
+		","
+		10/12/14/16/19/21/24/29/34
+		","
+		**
+		","
+		15
+		","
+		Takes 24 frames of down-input to charge, stores charge for 10 frames after releasing down for up input (more info here). Invulnerable on frame 5-16 (5-11 air). Leg intangible frame 17-24.
+		","
+		4.5/0.3/8.0/10.0
+		","
+		**
+		","
+		**
+		","
+		First/Multi/Final
+		","
+		**
+		","
+		10/12/14/16/19/21/24/29/34
+		"
+22,"<h1 class=""charactername"">
+terry
+</h1>","
+		Down B (Power Dunk)
+		","
+		Weak: 6/9/29 | Strong: 6/9/35 
+		","
+		Ground Weak 54, Ground Strong 65 | Air Weak 67, Air Strong 74
+		","
+		20 (24)
+		","
+		First total frames assumes level ground. Input version invulnerable on frame 6-12 and deals 20% more base damage.
+		","
+		1.0/2.0/12.0/14.0
+		","
+		**
+		","
+		**
+		","
+		First/Second/Dunk Early/Dunk Late
+		","
+		-19
+		","
+		6/9/11/29—30/31—41
+		"
+23,"<h1 class=""charactername"">
+terry
+</h1>","
+		Power Geyser
+		","
+		20
+		","
+		71
+		","
+		**
+		","
+		Must be above 100% to use. Input shortcut: Down, Back, Forward+A/B. Heavy Armor: 1-14F (5%).
+		","
+		26.0/23.0
+		","
+		**
+		","
+		**
+		","
+		Close/Far
+		","
+		-29
+		","
+		20—23/24—29
+		"
+24,"<h1 class=""charactername"">
+terry
+</h1>","
+		Buster Wolf
+		","
+		14
+		","
+		65/64
+		","
+		**
+		","
+		Must be above 100% to use. Input shortcut: Down, Forward, Down, Forward+A/B. Heavy Armor: 1-15F (8%, search). Right arm invincibility: 10-23F (search). Whole body intangible: 1-26F (after hit). Second total frames is on success. Proximity activator begins at frame 14 and ends on 24. Will not activate on shields.
+		","
+		5.0/20.0
+		","
+		**
+		","
+		**
+		","
+		Punch/Blast
+		","
+		-45
+		","
+		14—23/46
+		"
+25,"<h1 class=""charactername"">
+terry
+</h1>","
+		Grab
+		","
+		6
+		","
+		34
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		**
+		","
+		**
+		","
+		Punch/Blast
+		","
+		-45
+		","
+		6—7
+		"
+26,"<h1 class=""charactername"">
+terry
+</h1>","
+		Dash Grab
+		","
+		9
+		","
+		42
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		**
+		","
+		**
+		","
+		Punch/Blast
+		","
+		-45
+		","
+		9—10
+		"
+27,"<h1 class=""charactername"">
+terry
+</h1>","
+		Pivot Grab
+		","
+		10
+		","
+		37
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		**
+		","
+		**
+		","
+		Punch/Blast
+		","
+		-45
+		","
+		10—11
+		"
+28,"<h1 class=""charactername"">
+terry
+</h1>","
+		Pummel
+		","
+		1
+		","
+		16
+		","
+		--
+		","
+		Includes 13 frames of hitlag
+		","
+		1.5
+		","
+		**
+		","
+		**
+		","
+		Punch/Blast
+		","
+		-45
+		","
+		10—11
+		"
+29,"<h1 class=""charactername"">
+terry
+</h1>","
+		Forward Throw
+		","
+		21
+		","
+		40
+		","
+		--
+		","
+		--		
+		","
+		10.0
+		","
+		**
+		","
+		**
+		","
+		Punch/Blast
+		","
+		-45
+		","
+		10—11
+		"
+30,"<h1 class=""charactername"">
+terry
+</h1>","
+		Backward Throw
+		","
+		21
+		","
+		44
+		","
+		--
+		","
+		--		
+		","
+		10.0
+		","
+		**
+		","
+		**
+		","
+		Punch/Blast
+		","
+		-45
+		","
+		10—11
+		"
+31,"<h1 class=""charactername"">
+terry
+</h1>","
+		Up Throw
+		","
+		12/13
+		","
+		33
+		","
+		--
+		","
+		--
+		","
+		5.0/1.0
+		","
+		**
+		","
+		**
+		","
+		Punch/Blast
+		","
+		-45
+		","
+		10—11
+		"
+32,"<h1 class=""charactername"">
+terry
+</h1>","
+		Down Throw
+		","
+		23
+		","
+		47
+		","
+		--
+		","
+		--		
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		Punch/Blast
+		","
+		-45
+		","
+		10—11
+		"
+33,"<h1 class=""charactername"">
+terry
+</h1>","
+		Spot Dodge
+		","
+		23
+		","
+		20/25
+		","
+		--
+		","
+		Invulnerable on frame 3-17		
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		Punch/Blast
+		","
+		-45
+		","
+		10—11
+		"
+34,"<h1 class=""charactername"">
+terry
+</h1>","
+		Spot Dodge ATTACK
+		","
+		5
+		","
+		28 Total
+		","
+		--
+		","
+		Invulnerable on frame 1-3. Upper body intangible frame 4-9. Deals 11.0 damage.		
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		Punch/Blast
+		","
+		-17
+		","
+		5—9
+		"
+35,"<h1 class=""charactername"">
+terry
+</h1>","
+		Forward Roll
+		","
+		5
+		","
+		29
+		","
+		--
+		","
+		Invulnerable on frame 4-15.		
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		Punch/Blast
+		","
+		-17
+		","
+		5—9
+		"
+36,"<h1 class=""charactername"">
+terry
+</h1>","
+		Backward Roll
+		","
+		5
+		","
+		34
+		","
+		--
+		","
+		Invulnerable on frame 5-16.		
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		Punch/Blast
+		","
+		-17
+		","
+		5—9
+		"
+37,"<h1 class=""charactername"">
+terry
+</h1>","
+		Neutral Air Dodge
+		","
+		5
+		","
+		51
+		","
+		10
+		","
+		Invulnerable on frame 3-30.		
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		Punch/Blast
+		","
+		-17
+		","
+		5—9
+		"
+38,"<h1 class=""charactername"">
+terry
+</h1>","
+		Air Dodge, Down
+		","
+		5
+		","
+		**
+		","
+		**
+		","
+		**
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		Punch/Blast
+		","
+		-17
+		","
+		5—9
+		"
+39,"<h1 class=""charactername"">
+terry
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		5
+		","
+		**
+		","
+		**
+		","
+		**
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		Punch/Blast
+		","
+		-17
+		","
+		5—9
+		"
+40,"<h1 class=""charactername"">
+terry
+</h1>","
+		Air Dodge, Left/Right
+		","
+		5
+		","
+		**
+		","
+		**
+		","
+		**			
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		Punch/Blast
+		","
+		-17
+		","
+		5—9
+		"
+41,"<h1 class=""charactername"">
+terry
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		5
+		","
+		**
+		","
+		**
+		","
+		**			
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		Punch/Blast
+		","
+		-17
+		","
+		5—9
+		"
+42,"<h1 class=""charactername"">
+terry
+</h1>","
+		Air Dodge, Up
+		","
+		5
+		","
+		**
+		","
+		**
+		","
+		**	
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		Punch/Blast
+		","
+		-17
+		","
+		5—9
+		"
+43,"<h1 class=""charactername"">
+terry
+</h1>","
+			Ledge Grab
+		","
+		5
+		","
+		**
+		","
+		**
+		","
+		**	
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		Punch/Blast
+		","
+		-17
+		","
+		5—9
+		"
+44,"<h1 class=""charactername"">
+terry
+</h1>","
+			Ledge Grab
+		","
+		5
+		","
+		**
+		","
+		**
+		","
+		**	
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		Punch/Blast
+		","
+		-17
+		","
+		5—9
+		"
+45,"<h1 class=""charactername"">
+terry
+</h1>","
+				Ledge Hang
+			","
+		5
+		","
+		**
+		","
+		**
+		","
+		**	
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		Punch/Blast
+		","
+		-17
+		","
+		5—9
+		"

@@ -1,0 +1,976 @@
+,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Jab
+		","
+		4/7
+		","
+		24
+		","
+		--
+		","
+		Transitions to rapid jab as early as frame 9. 
+		","
+		2.5/2.5
+		","
+		5/5
+		","
+		-/4
+		","
+		--
+		","
+		-13
+		","
+		4—5/7
+		"
+1,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Rapid Jab
+		","
+		4/6/8/10...
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		0.2
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		--
+		","
+		4/6/8/10...
+		"
+2,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Rapid Jab Finisher
+		","
+		6
+		","
+		42
+		","
+		--
+		","
+		--
+		","
+		3.0
+		","
+		10
+		","
+		4
+		","
+		--
+		","
+		-32
+		","
+		6—7
+		"
+3,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Forward Tilt
+		","
+		12
+		","
+		36
+		","
+		--
+		","
+		--
+		","
+		11.5/15.0
+		","
+		8/9
+		","
+		10/11
+		","
+		--
+		","
+		-13/-10
+		","
+		12—13
+		"
+4,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Up Tilt
+		","
+		7
+		","
+		29
+		","
+		--
+		","
+		--
+		","
+		7.2
+		","
+		7
+		","
+		7
+		","
+		--
+		","
+		-15
+		","
+		7—19
+		"
+5,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Down Tilt
+		","
+		5
+		","
+		21
+		","
+		--
+		","
+		--
+		","
+		5.5
+		","
+		6
+		","
+		6
+		","
+		--
+		","
+		-10
+		","
+		5—11
+		"
+6,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Dash Attack
+		","
+		6
+		","
+		35
+		","
+		--
+		","
+		--
+		","
+		12.0/6.0
+		","
+		11/6
+		","
+		11/6
+		","
+		--
+		","
+		-18
+		","
+		6—7/8—12
+		"
+7,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Forward Smash
+		","
+		16/18/20/22/24
+		","
+		49
+		","
+		--
+		","
+		Charge hold is frame 10
+		","
+		1.0/13.0
+		","
+		4/9
+		","
+		-/9
+		","
+		--
+		","
+		-16
+		","
+		16/18/20/22/24
+		"
+8,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Up Smash
+		","
+		9/13/17/21/25/29/34
+		","
+		63
+		","
+		--
+		","
+		Charge hold is frame 3
+		","
+		2.0/0.8/5.0
+		","
+		4/4/12
+		","
+		3/2/4
+		","
+		--
+		","
+		-25
+		","
+		9—23/25—32/34
+		"
+9,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Down Smash
+		","
+		5/13
+		","
+		37
+		","
+		--
+		","
+		Charge hold is frame 2
+		","
+		12.0/10.0
+		","
+		9/8
+		","
+		8/7
+		","
+		--
+		","
+		-24/-17
+		","
+		5—6/13—14
+		"
+10,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Neutral Air
+		","
+		6/10/14/18/22
+		","
+		50
+		","
+		12
+		","
+		Autocancels on frame 1-3 and 38 onward
+		","
+		2.5/5.0
+		","
+		5/12
+		","
+		2/3
+		","
+		--
+		","
+		-10/-9
+		","
+		6—7/10—11/14—15/18—19/22—23
+		"
+11,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Forward Air
+		","
+		6
+		","
+		49
+		","
+		15
+		","
+		Autocancels on frame 1-2 and 43 onward
+		","
+		20.0/4.0
+		","
+		16/5
+		","
+		7/3
+		","
+		Sweet Spot/Late
+		","
+		-8/-12
+		","
+		6/7—10
+		"
+12,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Back Air
+		","
+		6
+		","
+		49
+		","
+		16
+		","
+		Autocancels on frame 1-2 and 45 onward
+		","
+		20.0/4.0
+		","
+		16/5
+		","
+		7/3
+		","
+		Sweet Spot/Late
+		","
+		-8/-12
+		","
+		6/7—10
+		"
+13,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Up Air
+		","
+		14
+		","
+		54
+		","
+		12
+		","
+		Autocancels on frame 1-3 and 54 onward. Late hit added in 7.0.0 that does 12.0%.
+		","
+		17.0/12.0
+		","
+		11
+		","
+		6
+		","
+		--
+		","
+		-6/-8
+		","
+		14—16/17—19
+		"
+14,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Down Air
+		","
+		14
+		","
+		44
+		","
+		12
+		","
+		Autocancels on frame 1-3 and 40 onward
+		","
+		16.0/4.0
+		","
+		10/5
+		","
+		6/3
+		","
+		--
+		","
+		-6/-9
+		","
+		14/15—24
+		"
+15,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Neutral B (Nayru's Love)
+		","
+		11...
+		","
+		57
+		","
+		--
+		","
+		Intangible on frame 4-13. Reflects on 4-40.
+		","
+		2.0/1.0 (multi), 5.0/4.0 (final)
+		","
+		0/0
+		","
+		3/6
+		","
+		--
+		","
+		-25
+		","
+		11-22 (Rehit Rate : 4) / 26
+		"
+16,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Side B (Din's Fire)
+		","
+		44—70
+		","
+		69—97
+		","
+		--
+		","
+		On release, startup is 14 and total frames is 39
+		","
+		3.5—14.0
+		","
+		5—10
+		","
+		2—5
+		","
+		--
+		","
+		-18 to -10
+		","
+		44—47/.../70—73
+		"
+17,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Up B (Farore's Wind)
+		","
+		6/35
+		","
+		75
+		","
+		30
+		","
+		Total frames is when landing on the ground. Intangible on frame 17-34.
+		","
+		6.0/12.0
+		","
+		6/13
+		","
+		6/11
+		","
+		First/Second
+		","
+		-19
+		","
+		6—7/35—36
+		"
+18,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Down B (Phantom Slash)
+		","
+		26/32/38/46/59-127
+		","
+		66/39
+		","
+		39, 39
+		","
+		Startup values correspond to different stages of construction. Manual release total frames is 39. Takes 66 frames to reach final form. Startup for each stage of construction in order is 11, 8, 8, 8, 7. Fully constructed phantom activates automatically on frame 120. Advantage is for manual release"".
+		","
+		5.9—17.7
+		","
+		6—10
+		","
+		3—5
+		","
+		--
+		","
+		-19 to -15
+		","
+		**
+		"
+19,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Grab
+		","
+		10
+		","
+		39
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		6—10
+		","
+		3—5
+		","
+		--
+		","
+		-19 to -15
+		","
+		10—11
+		"
+20,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Dash Grab
+		","
+		13
+		","
+		47
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		6—10
+		","
+		3—5
+		","
+		--
+		","
+		-19 to -15
+		","
+		13—14
+		"
+21,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Pivot Grab
+		","
+		14
+		","
+		42
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		6—10
+		","
+		3—5
+		","
+		--
+		","
+		-19 to -15
+		","
+		14—15
+		"
+22,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Pummel
+		","
+		2
+		","
+		20
+		","
+		--
+		","
+		Total frames includes 13 frames of hitlag
+		","
+		1.3
+		","
+		6—10
+		","
+		3—5
+		","
+		--
+		","
+		-19 to -15
+		","
+		14—15
+		"
+23,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Forward Throw
+		","
+		30
+		","
+		49
+		","
+		--
+		","
+		--		
+		","
+		10.0
+		","
+		6—10
+		","
+		3—5
+		","
+		--
+		","
+		-19 to -15
+		","
+		14—15
+		"
+24,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Backward Throw
+		","
+		27
+		","
+		49
+		","
+		--
+		","
+		--		
+		","
+		12.0
+		","
+		6—10
+		","
+		3—5
+		","
+		--
+		","
+		-19 to -15
+		","
+		14—15
+		"
+25,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Up Throw
+		","
+		30
+		","
+		49
+		","
+		--
+		","
+		--		
+		","
+		11.0
+		","
+		6—10
+		","
+		3—5
+		","
+		--
+		","
+		-19 to -15
+		","
+		14—15
+		"
+26,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Down Throw
+		","
+		25/30/35/39/42
+		","
+		61
+		","
+		--
+		","
+		--		
+		","
+		1.5/2.0
+		","
+		6—10
+		","
+		3—5
+		","
+		--
+		","
+		-19 to -15
+		","
+		14—15
+		"
+27,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Spot Dodge
+		","
+		25/30/35/39/42
+		","
+		21/26
+		","
+		--
+		","
+		Invulnerable on frame 3-17
+		","
+		1.5/2.0
+		","
+		6—10
+		","
+		3—5
+		","
+		--
+		","
+		-19 to -15
+		","
+		14—15
+		"
+28,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Forward Roll
+		","
+		25/30/35/39/42
+		","
+		30
+		","
+		--
+		","
+		Invulnerable on frame 4-15
+		","
+		1.5/2.0
+		","
+		6—10
+		","
+		3—5
+		","
+		--
+		","
+		-19 to -15
+		","
+		14—15
+		"
+29,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Backward Roll
+		","
+		25/30/35/39/42
+		","
+		35
+		","
+		--
+		","
+		Invulnerable on frame 5-16
+		","
+		1.5/2.0
+		","
+		6—10
+		","
+		3—5
+		","
+		--
+		","
+		-19 to -15
+		","
+		14—15
+		"
+30,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Neutral Air Dodge
+		","
+		25/30/35/39/42
+		","
+		56
+		","
+		10
+		","
+		Invulnerable on frame 3-30
+		","
+		1.5/2.0
+		","
+		6—10
+		","
+		3—5
+		","
+		--
+		","
+		-19 to -15
+		","
+		14—15
+		"
+31,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Air Dodge, Down
+		","
+		25/30/35/39/42
+		","
+		77
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		1.5/2.0
+		","
+		6—10
+		","
+		3—5
+		","
+		--
+		","
+		-19 to -15
+		","
+		14—15
+		"
+32,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		25/30/35/39/42
+		","
+		86
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		1.5/2.0
+		","
+		6—10
+		","
+		3—5
+		","
+		--
+		","
+		-19 to -15
+		","
+		14—15
+		"
+33,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Air Dodge, Left/Right
+		","
+		25/30/35/39/42
+		","
+		96
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		1.5/2.0
+		","
+		6—10
+		","
+		3—5
+		","
+		--
+		","
+		-19 to -15
+		","
+		14—15
+		"
+34,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		25/30/35/39/42
+		","
+		114
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		1.5/2.0
+		","
+		6—10
+		","
+		3—5
+		","
+		--
+		","
+		-19 to -15
+		","
+		14—15
+		"
+35,"<h1 class=""charactername"">
+zelda
+</h1>","
+		Air Dodge, Up
+		","
+		25/30/35/39/42
+		","
+		129
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		1.5/2.0
+		","
+		6—10
+		","
+		3—5
+		","
+		--
+		","
+		-19 to -15
+		","
+		14—15
+		"
+36,"<h1 class=""charactername"">
+zelda
+</h1>","
+			Ledge Grab
+		","
+		25/30/35/39/42
+		","
+		129
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		1.5/2.0
+		","
+		6—10
+		","
+		3—5
+		","
+		--
+		","
+		-19 to -15
+		","
+		14—15
+		"
+37,"<h1 class=""charactername"">
+zelda
+</h1>","
+			Ledge Grab
+		","
+		25/30/35/39/42
+		","
+		129
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		1.5/2.0
+		","
+		6—10
+		","
+		3—5
+		","
+		--
+		","
+		-19 to -15
+		","
+		14—15
+		"
+38,"<h1 class=""charactername"">
+zelda
+</h1>","
+				Ledge Hang
+			","
+		25/30/35/39/42
+		","
+		129
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		1.5/2.0
+		","
+		6—10
+		","
+		3—5
+		","
+		--
+		","
+		-19 to -15
+		","
+		14—15
+		"

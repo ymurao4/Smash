@@ -1,0 +1,1001 @@
+,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Jab
+		","
+		5
+		","
+		21
+		","
+		--
+		","
+		Transitions to Rapid Jab as early as frame 12.
+		","
+		3.0
+		","
+		9
+		","
+		4
+		","
+		--
+		","
+		-12
+		","
+		5—6
+		"
+1,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Rapid Jab
+		","
+		5/8/11...
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		0.8
+		","
+		4
+		","
+		4
+		","
+		--
+		","
+		--
+		","
+		**
+		"
+2,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Rapid Jab Finisher
+		","
+		6
+		","
+		40
+		","
+		--
+		","
+		--
+		","
+		2.5
+		","
+		10
+		","
+		4
+		","
+		--
+		","
+		-30
+		","
+		6—7
+		"
+3,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Forward Tilt
+		","
+		10
+		","
+		35
+		","
+		--
+		","
+		--
+		","
+		11.0/10.0/9.0
+		","
+		10/8/7
+		","
+		10/10/9
+		","
+		Close/Med/Far
+		","
+		-15/-15/-16
+		","
+		10—11
+		"
+4,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Up Tilt
+		","
+		8
+		","
+		29
+		","
+		--
+		","
+		--
+		","
+		7.0/6.0/5.5, 5.0/4.0
+		","
+		7/6/6, 6/5
+		","
+		7/6/6, 6/5
+		","
+		Early close/med/far, Late med/far
+		","
+		-14/-15/-15
+		","
+		8(9—13)
+		"
+5,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Down Tilt
+		","
+		6
+		","
+		23
+		","
+		--
+		","
+		--
+		","
+		5.0/4.5/4.0
+		","
+		6/5/5
+		","
+		6/5/5
+		","
+		Close/med/far
+		","
+		-11/-12/-12
+		","
+		6—7
+		"
+6,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Dash Attack
+		","
+		10
+		","
+		38
+		","
+		--
+		","
+		--
+		","
+		12.0/6.0
+		","
+		11/8
+		","
+		14/8
+		","
+		Early/Late
+		","
+		-14
+		","
+		10—11(12—20)
+		"
+7,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Forward Smash
+		","
+		19
+		","
+		52
+		","
+		--
+		","
+		Charge hold is frame 12
+		","
+		16.0/20.0
+		","
+		10/15
+		","
+		11/13
+		","
+		Close/Far
+		","
+		-20/-18
+		","
+		19—22
+		"
+8,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Up Smash
+		","
+		9/14/18/22
+		","
+		68
+		","
+		--
+		","
+		Charge hold is frame 2
+		","
+		2.0/10.0
+		","
+		4/8
+		","
+		3/7
+		","
+		Multi/Final
+		","
+		-39
+		","
+		9(10—11)/14—15/18—19/22—25
+		"
+9,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Down Smash
+		","
+		21
+		","
+		43
+		","
+		--
+		","
+		Charge hold is frame 15
+		","
+		16.0
+		","
+		14
+		","
+		11
+		","
+		--
+		","
+		-11
+		","
+		21—23
+		"
+10,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Neutral Air
+		","
+		7/11/15/19/23/27
+		","
+		49
+		","
+		10
+		","
+		Autocancels on frame 46 onward
+		","
+		1.6/4.0
+		","
+		7/10
+		","
+		2/3
+		","
+		Multi/Final
+		","
+		-8/-7
+		","
+		7—8/11—12/15—16/19—20/23—24/27—28
+		"
+11,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Forward Air
+		","
+		7
+		","
+		39
+		","
+		8
+		","
+		Autocancels on frame 37 onward
+		","
+		13.0
+		","
+		9
+		","
+		5
+		","
+		--
+		","
+		-3
+		","
+		7—9
+		"
+12,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Back Air
+		","
+		13
+		","
+		39
+		","
+		10
+		","
+		Autocancels on frame 1-2 and 38 onward
+		","
+		13.0/11.0/9.0
+		","
+		9/8/7
+		","
+		5/4/4
+		","
+		Close/med/far
+		","
+		-5/-6/-6
+		","
+		13—17
+		"
+13,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Up Air
+		","
+		10
+		","
+		39
+		","
+		8
+		","
+		Autocancels on frame 1-2 and 36 onward
+		","
+		12.0/11.0/10.0
+		","
+		9/8/8
+		","
+		5/4/4
+		","
+		Close/med/far
+		","
+		-3/-4/-4
+		","
+		10—14
+		"
+14,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Down Air
+		","
+		15
+		","
+		47
+		","
+		11
+		","
+		Autocancels on frame 1-3 and frame 42 onward
+		","
+		14.0
+		","
+		12
+		","
+		5
+		","
+		--
+		","
+		-6
+		","
+		15—18
+		"
+15,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Neutral B (Shadow Ball)
+		","
+		9(+12)
+		","
+		27
+		","
+		29
+		","
+		9 startup from charge state. 12 to enter charge state. Takes 4 frames to cancel charge with shield. 
+		","
+		2.5—24.9
+		","
+		5—14
+		","
+		2—7
+		","
+		--
+		","
+		-16 to -2
+		","
+		**
+		"
+16,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Shadow Ball, Fully Charged
+		","
+		18
+		","
+		39
+		","
+		--
+		","
+		133 frames to reach full charge.
+		","
+		25.0
+		","
+		14
+		","
+		7
+		","
+		--
+		","
+		-2
+		","
+		18—98
+		"
+17,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Side B (Confusion)
+		","
+		10 (21/23/25/27/29/31/33/39)
+		","
+		39/42
+		","
+		--
+		","
+		Grab is on frame 10, the following hits are when successful. 44 total frames when you miss.
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—13
+		"
+18,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Up B (Teleport)
+		","
+		**
+		","
+		44
+		","
+		30
+		","
+		Total frames is if you end on the ground. Intangible from 9-19. Grabs ledges as early as frame 16.
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		"
+19,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Down B (Disable)
+		","
+		16
+		","
+		52
+		","
+		--
+		","
+		Intangible on frames 10-16
+		","
+		1.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-30
+		","
+		16—23
+		"
+20,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Grab
+		","
+		7
+		","
+		39
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-30
+		","
+		7—8
+		"
+21,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Dash Grab
+		","
+		10
+		","
+		47
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-30
+		","
+		10—11
+		"
+22,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Pivot Grab
+		","
+		11
+		","
+		42
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-30
+		","
+		11—12
+		"
+23,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Pummel
+		","
+		1
+		","
+		19
+		","
+		--
+		","
+		Total frames includes 13 frames of hitlag
+		","
+		1.3
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-30
+		","
+		11—12
+		"
+24,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Forward Throw
+		","
+		19/33/40/47/54/61
+		","
+		81
+		","
+		--
+		","
+		Fires shadow balls on 33,40,47,54, and 61.	
+		","
+		3.0/2.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-30
+		","
+		11—12
+		"
+25,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Backward Throw
+		","
+		30
+		","
+		54
+		","
+		--
+		","
+		--		
+		","
+		10.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-30
+		","
+		11—12
+		"
+26,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Up Throw
+		","
+		43
+		","
+		79
+		","
+		--
+		","
+		--	
+		","
+		12.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-30
+		","
+		11—12
+		"
+27,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Down Throw
+		","
+		16/18
+		","
+		41
+		","
+		--
+		","
+		--		
+		","
+		4.0/5.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-30
+		","
+		11—12
+		"
+28,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Spot Dodge
+		","
+		16/18
+		","
+		20/25
+		","
+		--
+		","
+		Invulnerable on frame 3-17
+		","
+		4.0/5.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-30
+		","
+		11—12
+		"
+29,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Forward Roll
+		","
+		16/18
+		","
+		29
+		","
+		--
+		","
+		Invulnerable on frame 4-15
+		","
+		4.0/5.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-30
+		","
+		11—12
+		"
+30,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Backward Roll
+		","
+		16/18
+		","
+		34
+		","
+		--
+		","
+		Invulnerable on frame 5-16
+		","
+		4.0/5.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-30
+		","
+		11—12
+		"
+31,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Neutral Air Dodge
+		","
+		16/18
+		","
+		51
+		","
+		10
+		","
+		Invulnerable on frame 3-26
+		","
+		4.0/5.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-30
+		","
+		11—12
+		"
+32,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Air Dodge, Down
+		","
+		16/18
+		","
+		70
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		4.0/5.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-30
+		","
+		11—12
+		"
+33,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		16/18
+		","
+		79
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		4.0/5.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-30
+		","
+		11—12
+		"
+34,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Air Dodge, Left/Right
+		","
+		16/18
+		","
+		85
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		4.0/5.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-30
+		","
+		11—12
+		"
+35,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		16/18
+		","
+		101
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		4.0/5.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-30
+		","
+		11—12
+		"
+36,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+		Air Dodge, Up
+		","
+		16/18
+		","
+		114
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		4.0/5.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-30
+		","
+		11—12
+		"
+37,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+			Ledge Grab
+		","
+		16/18
+		","
+		114
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		4.0/5.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-30
+		","
+		11—12
+		"
+38,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+			Ledge Grab
+		","
+		16/18
+		","
+		114
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		4.0/5.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-30
+		","
+		11—12
+		"
+39,"<h1 class=""charactername"">
+mewtwo
+</h1>","
+				Ledge Hang
+			","
+		16/18
+		","
+		114
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		4.0/5.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-30
+		","
+		11—12
+		"

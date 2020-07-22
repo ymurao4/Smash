@@ -1,0 +1,1076 @@
+,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+richter
+</h1>","
+		Jab 1
+		","
+		5
+		","
+		29
+		","
+		--
+		","
+		Transitions to Jab 2 on frame 11. Transitions to Whip dangle from 9.
+		","
+		2.0
+		","
+		7
+		","
+		3
+		","
+		--
+		","
+		-21
+		","
+		5
+		"
+1,"<h1 class=""charactername"">
+richter
+</h1>","
+		Jab 2
+		","
+		3
+		","
+		29
+		","
+		--
+		","
+		Transitions to rapid jab on frame 10.
+		","
+		2.0
+		","
+		5
+		","
+		3
+		","
+		--
+		","
+		-23
+		","
+		3—4
+		"
+2,"<h1 class=""charactername"">
+richter
+</h1>","
+		Rapid Jab
+		","
+		9/12/15...
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		0.5
+		","
+		4
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		**
+		"
+3,"<h1 class=""charactername"">
+richter
+</h1>","
+		Rapid Jab Finisher
+		","
+		3
+		","
+		44
+		","
+		--
+		","
+		--
+		","
+		2.5
+		","
+		10
+		","
+		4
+		","
+		--
+		","
+		-37
+		","
+		**
+		"
+4,"<h1 class=""charactername"">
+richter
+</h1>","
+		Whip Dangle
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		Can initiate from Jab and F-Tilt. 19 lag from putting it away.
+		","
+		1.0/1.5
+		","
+		0/0
+		","
+		3/3
+		","
+		Chain/Ball
+		","
+		**
+		","
+		**
+		"
+5,"<h1 class=""charactername"">
+richter
+</h1>","
+		Forward Tilt
+		","
+		12
+		","
+		30
+		","
+		--
+		","
+		--
+		","
+		10.0/12.0
+		","
+		8/9
+		","
+		10/11
+		","
+		Chain/Ball
+		","
+		-8/-7
+		","
+		12—13
+		"
+6,"<h1 class=""charactername"">
+richter
+</h1>","
+		Up Tilt
+		","
+		10
+		","
+		37
+		","
+		--
+		","
+		--
+		","
+		10.0
+		","
+		8
+		","
+		10
+		","
+		--
+		","
+		-17
+		","
+		10—22
+		"
+7,"<h1 class=""charactername"">
+richter
+</h1>","
+		Down Tilt 1
+		","
+		7
+		","
+		44
+		","
+		--
+		","
+		Can cancel hitlag from first hit with second. 
+		","
+		5.0
+		","
+		6
+		","
+		6
+		","
+		--
+		","
+		-31
+		","
+		7—23
+		"
+8,"<h1 class=""charactername"">
+richter
+</h1>","
+		Down Tilt 2
+		","
+		8
+		","
+		57/43
+		","
+		--
+		","
+		Total frames is 57 on level ground. 43 if you go over an edge.
+		","
+		7.0/3.5
+		","
+		8/5
+		","
+		7/4
+		","
+		Early/Late
+		","
+		-42/-28
+		","
+		8—28
+		"
+9,"<h1 class=""charactername"">
+richter
+</h1>","
+		Dash Attack
+		","
+		10/13/16/19/22/24
+		","
+		54
+		","
+		--
+		","
+		--
+		","
+		1.7/3.5
+		","
+		4/5
+		","
+		-/4
+		","
+		--
+		","
+		-26
+		","
+		10/13/16/19/22/24
+		"
+10,"<h1 class=""charactername"">
+richter
+</h1>","
+		Forward Smash
+		","
+		24
+		","
+		62
+		","
+		--
+		","
+		Charge hold is frame 5
+		","
+		14.0/16.0/18.0
+		","
+		11/13
+		","
+		10/12
+		","
+		Chain/Ball
+		","
+		-28/-26
+		","
+		24—25
+		"
+11,"<h1 class=""charactername"">
+richter
+</h1>","
+		Up Smash
+		","
+		18
+		","
+		55
+		","
+		--
+		","
+		Charge hold is frame 2
+		","
+		14.0/16.0
+		","
+		10/10
+		","
+		10/11
+		","
+		Chain/Ball
+		","
+		-27/-26
+		","
+		18—20
+		"
+12,"<h1 class=""charactername"">
+richter
+</h1>","
+		Down Smash
+		","
+		14/20
+		","
+		55
+		","
+		--
+		","
+		Charge hold is frame 2
+		","
+		12.0/16.0
+		","
+		9/10
+		","
+		8/11
+		","
+		Chain/Ball
+		","
+		-33/-30/-27/-24
+		","
+		14—15/20—21
+		"
+13,"<h1 class=""charactername"">
+richter
+</h1>","
+		Neutral Air
+		","
+		8...
+		","
+		42
+		","
+		14
+		","
+		Autocancels on frame 1-6 and 36 onward
+		","
+		1.0/4.0
+		","
+		4/5
+		","
+		2/3
+		","
+		Multi/Final
+		","
+		-12/-11
+		","
+		8—9/11—12/14—15/17—18/20—21/23—24/26—27
+		"
+14,"<h1 class=""charactername"">
+richter
+</h1>","
+		Forward Air
+		","
+		14
+		","
+		39
+		","
+		10
+		","
+		Tethers on frame 13. Autocancels on frame 29 onward
+		","
+		10.0/12.0/2.0
+		","
+		8/9/4
+		","
+		4/5/2
+		","
+		Chain/Ball/Arm
+		","
+		-6/-5/-8
+		","
+		14
+		"
+15,"<h1 class=""charactername"">
+richter
+</h1>","
+		Back Air
+		","
+		14
+		","
+		39
+		","
+		10
+		","
+		Tethers on frame 13. Autocancels on frame 28 onward
+		","
+		10.0/12.0/2.0
+		","
+		8/9/4
+		","
+		4/5/2
+		","
+		Chain/Ball/Arm
+		","
+		-6/-5/-8
+		","
+		14—15
+		"
+16,"<h1 class=""charactername"">
+richter
+</h1>","
+		Up Air
+		","
+		14
+		","
+		39
+		","
+		10
+		","
+		Tethers on frame 13. Autocancels on frame 1-11 and 28 onward
+		","
+		10.0/12.0/2.0
+		","
+		8/9/4
+		","
+		4/5/2
+		","
+		Chain/Ball/Arm
+		","
+		-6/-5/-8
+		","
+		14—16
+		"
+17,"<h1 class=""charactername"">
+richter
+</h1>","
+		Down Air
+		","
+		13
+		","
+		48
+		","
+		26
+		","
+		A hit results in 26 frames of endlag. Autocancels on frame 1-3 and 47 onward
+		","
+		12.0/7.0
+		","
+		10/7
+		","
+		5/3
+		","
+		Early/Late
+		","
+		-21/-23
+		","
+		13—14/15—36
+		"
+18,"<h1 class=""charactername"">
+richter
+</h1>","
+		Neutral B (Axe)
+		","
+		30
+		","
+		66
+		","
+		--
+		","
+		--
+		","
+		15.0
+		","
+		15
+		","
+		15
+		","
+		--
+		","
+		-6
+		","
+		30—97
+		"
+19,"<h1 class=""charactername"">
+richter
+</h1>","
+		Side B (Cross)
+		","
+		19
+		","
+		44
+		","
+		--
+		","
+		9 frame animation of catching the cross if no other action is being performed.
+		","
+		8.0/6.0/5.0
+		","
+		7/7/6
+		","
+		3/3/3
+		","
+		Smash/Tilt/Return
+		","
+		-15
+		","
+		19—64
+		"
+20,"<h1 class=""charactername"">
+richter
+</h1>","
+		Up B (Uppercut)
+		","
+		6/9/...
+		","
+		--
+		","
+		26
+		","
+		Intangible frames 5-6.
+		","
+		2.0/1.5/6.0
+		","
+		6/4/6
+		","
+		-/3/6
+		","
+		First/Multi/Final
+		","
+		**
+		","
+		6/9—20/21 (rehit: 3)
+		"
+21,"<h1 class=""charactername"">
+richter
+</h1>","
+		Down B (Holy Water)
+		","
+		18
+		","
+		45
+		","
+		--
+		","
+		Lands on level ground at frame 32 if nothing is in the way. Explodes on contact with the ground or a wall. Bottle will explode if it takes 6% or more damage. When it hits a shield it takes 0% damage but when it hits a character it takes 3%. Touching the ground loses all 6% damage. Click here for more information.
+","
+		2.0—2.9
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		18...
+		"
+22,"<h1 class=""charactername"">
+richter
+</h1>","
+		Holy Water Explosion
+		","
+		1/4/7/15/23/31/39/47/55
+		","
+		--
+		","
+		--
+		","
+		Simon's explosion is Fire-type damage, Richter's explosion is Aura-type damage.
+		","
+		1.4
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		1/4/7/15/23/31/39/47/55
+		"
+23,"<h1 class=""charactername"">
+richter
+</h1>","
+		Grab
+		","
+		10
+		","
+		37
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+24,"<h1 class=""charactername"">
+richter
+</h1>","
+		Dash Grab
+		","
+		13
+		","
+		45
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		13—14
+		"
+25,"<h1 class=""charactername"">
+richter
+</h1>","
+		Pivot Grab
+		","
+		14
+		","
+		42
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		14—15
+		"
+26,"<h1 class=""charactername"">
+richter
+</h1>","
+		Pummel
+		","
+		1
+		","
+		18
+		","
+		**
+		","
+		Total frames includes 12 frames of hitlag
+		","
+		1.3
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		14—15
+		"
+27,"<h1 class=""charactername"">
+richter
+</h1>","
+		Forward Throw
+		","
+		24
+		","
+		41
+		","
+		--
+		","
+		--		
+		","
+		7.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		14—15
+		"
+28,"<h1 class=""charactername"">
+richter
+</h1>","
+		Backward Throw
+		","
+		18
+		","
+		41
+		","
+		--
+		","
+		--		
+		","
+		7.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		14—15
+		"
+29,"<h1 class=""charactername"">
+richter
+</h1>","
+		Up Throw
+		","
+		25/26
+		","
+		46
+		","
+		--
+		","
+		--		
+		","
+		6.0/4.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		14—15
+		"
+30,"<h1 class=""charactername"">
+richter
+</h1>","
+		Down Throw
+		","
+		33
+		","
+		48
+		","
+		--
+		","
+		--		
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		14—15
+		"
+31,"<h1 class=""charactername"">
+richter
+</h1>","
+		Spot Dodge
+		","
+		33
+		","
+		21/26
+		","
+		--
+		","
+		Invulnerable on frame 3-17		
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		14—15
+		"
+32,"<h1 class=""charactername"">
+richter
+</h1>","
+		Forward Roll
+		","
+		33
+		","
+		30
+		","
+		--
+		","
+		Invulnerable on frame 4-15.		
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		14—15
+		"
+33,"<h1 class=""charactername"">
+richter
+</h1>","
+		Backward Roll
+		","
+		33
+		","
+		35
+		","
+		--
+		","
+		Invulnerable on frame 5-16.		
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		14—15
+		"
+34,"<h1 class=""charactername"">
+richter
+</h1>","
+		Neutral Air Dodge
+		","
+		33
+		","
+		46
+		","
+		10
+		","
+		Invulnerable on frame 3-29.		
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		14—15
+		"
+35,"<h1 class=""charactername"">
+richter
+</h1>","
+		Air Dodge, Down
+		","
+		33
+		","
+		62
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		14—15
+		"
+36,"<h1 class=""charactername"">
+richter
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		33
+		","
+		69
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		14—15
+		"
+37,"<h1 class=""charactername"">
+richter
+</h1>","
+		Air Dodge, Left/Right
+		","
+		33
+		","
+		76
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.			
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		14—15
+		"
+38,"<h1 class=""charactername"">
+richter
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		33
+		","
+		90
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.			
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		14—15
+		"
+39,"<h1 class=""charactername"">
+richter
+</h1>","
+		Air Dodge, Up
+		","
+		33
+		","
+		104
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		14—15
+		"
+40,"<h1 class=""charactername"">
+richter
+</h1>","
+			Ledge Grab
+		","
+		33
+		","
+		104
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		14—15
+		"
+41,"<h1 class=""charactername"">
+richter
+</h1>","
+			Ledge Grab
+		","
+		33
+		","
+		104
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		14—15
+		"
+42,"<h1 class=""charactername"">
+richter
+</h1>","
+				Ledge Hang
+			","
+		33
+		","
+		104
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		8.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		14—15
+		"

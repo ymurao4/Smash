@@ -1,0 +1,1451 @@
+,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+joker
+</h1>","
+				Ledge Hang
+			","
+		40
+		","
+		102
+		","
+		11-19
+		","
+		Invulnerable on frame 4-22
+		","
+		**
+		","
+		--
+		","
+		--
+		","
+		Front, Reverse
+		","
+		--
+		","
+		12—14
+		"
+1,"<h1 class=""charactername"">
+joker
+</h1>","
+		Jab 1
+		","
+		4
+		","
+		23
+		","
+		--
+		","
+		Transitions to jab 2 on frame 7
+		","
+		2.0(2.7)
+		","
+		7/7
+		","
+		3/3
+		","
+		--
+		","
+		-16
+		","
+		4—5(4—5)
+		"
+2,"<h1 class=""charactername"">
+joker
+</h1>","
+		Jab 2
+		","
+		3
+		","
+		23
+		","
+		--
+		","
+		Transitions to jab 3 on frame 11
+		","
+		1.5(2.2)
+		","
+		7/7
+		","
+		3/3
+		","
+		--
+		","
+		-17
+		","
+		3—4(3—4)
+		"
+3,"<h1 class=""charactername"">
+joker
+</h1>","
+		Jab 3
+		","
+		3
+		","
+		34
+		","
+		--
+		","
+		--
+		","
+		4.0(7.1)
+		","
+		9/10
+		","
+		5/5
+		","
+		--
+		","
+		-26
+		","
+		3—4(3—4)
+		"
+4,"<h1 class=""charactername"">
+joker
+</h1>","
+		Forward Tilt
+		","
+		8/13
+		","
+		34
+		","
+		--
+		","
+		Down-angled Forward Tilt does the most knockback of the three angles. 
+		","
+		3.0/5.0(3.0/10.0)
+		","
+		5/6 // 5/10
+		","
+		4/6 // 4/10
+		","
+		--
+		","
+		**/-15(**/-11)
+		","
+		8—9/13—15(8—9/13—19)
+		"
+5,"<h1 class=""charactername"">
+joker
+</h1>","
+		Up Tilt
+		","
+		8/11/14/17/20
+		","
+		40
+		","
+		--
+		","
+		Rehit rate: 3
+		","
+		4.0/1.0/1.0 (4.0/1.7/3.9)
+		","
+		5/4/4 // 5/4/9
+		","
+		5/2/2 // 5/*/5
+		","
+		First/Multi/Final
+		","
+		-27
+		","
+		8/9(11—19) [Final Hit: 20—23(20—23)]
+		"
+6,"<h1 class=""charactername"">
+joker
+</h1>","
+		Down Tilt
+		","
+		8
+		","
+		37
+		","
+		--
+		","
+		--
+		","
+		6.0(13.0)
+		","
+		6/10
+		","
+		6/10
+		","
+		--
+		","
+		-22(-19)
+		","
+		8—9/10—11/12—14(8—9/10—11/12—14)
+		"
+7,"<h1 class=""charactername"">
+joker
+</h1>","
+		Dash Attack
+		","
+		6/15
+		","
+		45
+		","
+		--
+		","
+		--
+		","
+		2.0/6.0 (2.0/12.0)
+		","
+		4/6 // 4/10
+		","
+		3/6 // 3/7
+		","
+		--
+		","
+		**/-23
+		","
+		6—7/15—21(--/15—21)
+		"
+8,"<h1 class=""charactername"">
+joker
+</h1>","
+		Forward Smash
+		","
+		16
+		","
+		47
+		","
+		--
+		","
+		Charge hold is frame 5
+		","
+		14.0(22.0)
+		","
+		10/11
+		","
+		10/12
+		","
+		--
+		","
+		-21
+		","
+		16—18(16—19)
+		"
+9,"<h1 class=""charactername"">
+joker
+</h1>","
+		Up Smash
+		","
+		10
+		","
+		51
+		","
+		--
+		","
+		Charge hold is frame 4
+		","
+		12.0(17.0)
+		","
+		9/12
+		","
+		8/10
+		","
+		--
+		","
+		-32(-30)
+		","
+		10—14(10—14)
+		"
+10,"<h1 class=""charactername"">
+joker
+</h1>","
+		Down Smash
+		","
+		12/16
+		","
+		51
+		","
+		--
+		","
+		Charge hold is frame 5
+		","
+		12.0(18.0)
+		","
+		9/11
+		","
+		8/9
+		","
+		--
+		","
+		-24/-20(--/-18)
+		","
+		12—13/16—17(12—13/16—17)
+		"
+11,"<h1 class=""charactername"">
+joker
+</h1>","
+		Neutral Air
+		","
+		12
+		","
+		54
+		","
+		8
+		","
+		Arsene version has a separate hit covering Joker's back. Autocancels on frame 1-4 and 48 onward
+		","
+		7.0/—(7.0/4.0)
+		","
+		7 // 7/5
+		","
+		3 // 3/3
+		","
+		front/back
+		","
+		-5
+		","
+		12—27(12—27)
+		"
+12,"<h1 class=""charactername"">
+joker
+</h1>","
+		Forward Air
+		","
+		7/12
+		","
+		47
+		","
+		12
+		","
+		Autocancels on frame 1-3 and 42 onward
+		","
+		2.0/5.0(2.0/13.0)
+		","
+		4/6 // 4/11
+		","
+		2/3 // 2/4
+		","
+		--
+		","
+		-10/-9
+		","
+		7—8/12—14(--/12—14)
+		"
+13,"<h1 class=""charactername"">
+joker
+</h1>","
+		Back Air
+		","
+		7
+		","
+		31
+		","
+		9
+		","
+		Autocancels on frame 1-3 and 30 onward
+		","
+		9.0(16.0)
+		","
+		7/10
+		","
+		4/4
+		","
+		--
+		","
+		-5
+		","
+		7—8(7—8)
+		"
+14,"<h1 class=""charactername"">
+joker
+</h1>","
+		Up Air
+		","
+		5...
+		","
+		39
+		","
+		14
+		","
+		Autocancels on frame 1-4 and 40 onward. Rehit rate: 4
+		","
+		0.7/3.0 (0.7/10.0)
+		","
+		4/5 // 4/11
+		","
+		2/2 // 2/3
+		","
+		multi/final
+		","
+		-12
+		","
+		5—18/20—21 (rehit: 4)
+		"
+15,"<h1 class=""charactername"">
+joker
+</h1>","
+		Down Air
+		","
+		13
+		","
+		46
+		","
+		11
+		","
+		Arsene version has separate meteor hit on frame 15. Autocancels on frame 1-3 and 40 onward
+		","
+		8.0/—(8.0/8.0)
+		","
+		7 // 7/10
+		","
+		4 // 4/4
+		","
+		Knife/Meteor
+		","
+		-7
+		","
+		13—16(15—16)
+		"
+16,"<h1 class=""charactername"">
+joker
+</h1>","
+		Neutral B (Gun)
+		","
+		12/37/65
+		","
+		36/61/92
+		","
+		--
+		","
+		Earliest you can input another shot, dash, or jump is frame 26. Earliest you can input spiral or shoot below is frame 14. Hitstun decreases with range, up to no hitstun at all when far.
+		","
+		5.0/3.0/1.0
+		","
+		6/0/0
+		","
+		6/5/3
+		","
+		Close/Med/Far
+		","
+		**
+		","
+		12
+		"
+17,"<h1 class=""charactername"">
+joker
+</h1>","
+		Gun, Dash Forward
+		","
+		20
+		","
+		39
+		","
+		--
+		","
+		Invulnerable on frame 4-13. Is affected by and contributes to dodge staling. Buffering gun maneuvers delays them by 4 frames.
+		","
+		6.0/4.0/2.0
+		","
+		6/0/0
+		","
+		6/6/4
+		","
+		Close/Med/Far
+		","
+		**
+		","
+		20
+		"
+18,"<h1 class=""charactername"">
+joker
+</h1>","
+		Gun, Dash Back
+		","
+		22
+		","
+		45
+		","
+		--
+		","
+		Invulnerable on frame 5-14. Is affected by and contributes to dodge staling. Buffering gun maneuvers delays them by 4 frames.
+		","
+		5.0/3.0/1.0
+		","
+		0/0/0
+		","
+		7/5/3
+		","
+		Close/Med/Far
+		","
+		**
+		","
+		22
+		"
+19,"<h1 class=""charactername"">
+joker
+</h1>","
+		Gun, Jump (From Ground Only)
+		","
+		10/17/24/31
+		","
+		59
+		","
+		14
+		","
+		Invulnerable on frame 1-6. Is *not* affected by nor contributes to dodge staling. Buffering gun maneuvers delays them by 4 frames.
+		","
+		3.0/0.8
+		","
+		5/0
+		","
+		4/3
+		","
+		Close/far
+		","
+		**
+		","
+		10/17/24/31
+		"
+20,"<h1 class=""charactername"">
+joker
+</h1>","
+		Gun, Spiral (From Air Only)
+		","
+		12/15/18/24/27/30/ 36/39/42/48/51/54
+		","
+		69
+		","
+		20
+		","
+		Can be extended for more shots. Buffering gun maneuvers delays them by 4 frames.
+		","
+		3.0
+		","
+		0
+		","
+		5
+		","
+		--
+		","
+		**
+		","
+		12/15/18/24/27/30/ 36/39/42/48/51/54
+		"
+21,"<h1 class=""charactername"">
+joker
+</h1>","
+		Gun, Shoot Below (From Air Only)
+		","
+		7/21/35/44
+		","
+		48
+		","
+		10
+		","
+		Can be extended for more shots. Buffering gun maneuvers delays them by 4 frames.
+		","
+		4.0/1.2
+		","
+		0/0
+		","
+		6/3
+		","
+		Close/Far
+		","
+		**
+		","
+		7/21/35/44
+		"
+22,"<h1 class=""charactername"">
+joker
+</h1>","
+		Neutral B, Arsene (Gun Special, Arsene)
+		","
+		12/18/24
+		","
+		41/**/**
+		","
+		--
+		","
+		Earliest you can input another shot, dash, or jump is frame 34. Earliest you can input spiral or shoot below is frame 15. Buffering gun maneuvers delays them by 4 frames.
+		","
+		6.0/3.0/1.0
+		","
+		6/0/0/0
+		","
+		*/4/4/3
+		","
+		close/med/far/farthest
+		","
+		**
+		","
+		12/18/24
+		"
+23,"<h1 class=""charactername"">
+joker
+</h1>","
+		Gun Special, Dash Forward
+		","
+		21/27/33
+		","
+		45
+		","
+		--
+		","
+		Invulnerable on frame 4-13. Is affected by and contributes to dodge staling. Buffering gun maneuvers delays them by 4 frames.
+		","
+		7.0/4.0/1.5/1.0
+		","
+		0/0/0/0
+		","
+		*/4/4/3
+		","
+		Close/Med/Far/Farthest
+		","
+		**
+		","
+		21/27/33
+		"
+24,"<h1 class=""charactername"">
+joker
+</h1>","
+		Gun Special, Dash Back
+		","
+		23/29/35
+		","
+		49
+		","
+		--
+		","
+		Invulnerable on frame 5-14. Is affected by and contributes to dodge staling. Buffering gun maneuvers delays them by 4 frames.
+		","
+		5.0/3.0/1.0
+		","
+		0/0/0
+		","
+		*/4/3
+		","
+		Close/Med/Far
+		","
+		**
+		","
+		23/29/35
+		"
+25,"<h1 class=""charactername"">
+joker
+</h1>","
+		Gun Special, Jump (From Ground Only)
+		","
+		10/13/17/20/24/27/31
+		","
+		59
+		","
+		14
+		","
+		Invulnerable on frame 1-6. Is *not* affected by or contributes to dodge staling. Added shots in Arsene version deal just 1.0 damage. Buffering gun maneuvers delays them by 4 frames.
+		","
+		3.0/0.8
+		","
+		5/2
+		","
+		*/2
+		","
+		Close/far
+		","
+		**
+		","
+		10/13/17/20/24/27/31
+		"
+26,"<h1 class=""charactername"">
+joker
+</h1>","
+		Gun Special, Spiral (From Air Only)
+		","
+		12/15/18/24/27/30/ 36/39/42/48/51/54
+		","
+		69
+		","
+		20
+		","
+		Can be extended for more shots. Buffering gun maneuvers delays them by 4 frames.
+		","
+		4.5
+		","
+		0
+		","
+		6
+		","
+		--
+		","
+		**
+		","
+		12/15/18/24/27/30/ 36/39/42/48/51/54
+		"
+27,"<h1 class=""charactername"">
+joker
+</h1>","
+		Gun Special, Shoot Below (From Air Only)
+		","
+		7/14/21/28/35/44
+		","
+		48
+		","
+		10
+		","
+		Can be extended for more shots. Added shots in Arsene version deal just 0.8. Buffering gun maneuvers delays them by 4 frames.
+		","
+		4.0/1.6
+		","
+		0/0
+		","
+		6/3
+		","
+		Close/Far
+		","
+		**
+		","
+		7/14/21/28/35/44
+		"
+28,"<h1 class=""charactername"">
+joker
+</h1>","
+		Side B (Eiha)
+		","
+		16
+		","
+		49
+		","
+		--
+		","
+		Erupts a frame after contact, but won't erupt on shields. Eiha has a Rehit Rate of 45, dealing 1% every 361 frames (additional damage in 1v1).
+		","
+		1.0/2.0
+		","
+		4
+		","
+		2
+		","
+		Contact/Erupt
+		","
+		-27
+		","
+		16—42/1—19
+		"
+29,"<h1 class=""charactername"">
+joker
+</h1>","
+		Side B, Arsene (Eigaon)
+		","
+		16 (1/6/11/16)
+		","
+		57
+		","
+		--
+		","
+		Eruption hits in parenthesis, but won't erupt on shields. Eigaon's Curse has a Rehit Rate of 40, and deals 1.5% each time. Lasts 321 Frames.
+		","
+		1.0/0.5/2.5
+		","
+		4
+		","
+		2
+		","
+		Contact/Erupt
+		","
+		**
+		","
+		16—32(1—15/16—27)
+		"
+30,"<h1 class=""charactername"">
+joker
+</h1>","
+		Up B (Grappling Hook)
+		","
+		20
+		","
+		59/44
+		","
+		--
+		","
+		Tethers on frame 12. Second total frames is for the air. Does not induce special fall
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		**
+		","
+		20—26
+		"
+31,"<h1 class=""charactername"">
+joker
+</h1>","
+		Air, Grappling Attack
+		","
+		5
+		","
+		28
+		","
+		--
+		","
+		The air version cannot grab, instead hitting the target for 5.0 damage.
+		","
+		11.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		5
+		"
+32,"<h1 class=""charactername"">
+joker
+</h1>","
+		Up B, Arsene (Wings of Rebellion)
+		","
+		**
+		","
+		**
+		","
+		30
+		","
+		Invulnerable on frame 1-25 (3-25 in air)
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		**
+		"
+33,"<h1 class=""charactername"">
+joker
+</h1>","
+		Down B (Rebel's Guard)
+		","
+		3 (Start of Block)
+		","
+		52
+		","
+		--
+		","
+		Total frames is for minimum usage. 33 endlag for extended usage. Begins blocking on frame 3. Can only counterattack after a block. When hit during Rebel's Guard, Joker will gain Rebellion Gauge units equal to Damage*6.7368*1.3*0.4. Taking 28.6% will fill the meter completely. He will also take 0.4* the damage. This IS affected by the 1v1 Multiplier. Has an inherent 1.1x Hitstun Multiplier, and 1.5x Hitlag Multiplier. 
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		"
+34,"<h1 class=""charactername"">
+joker
+</h1>","
+		Rebel's Guard, Counterattack
+		","
+		8
+		","
+		30
+		","
+		--
+		","
+		Invulnerable on frame 1-14
+		","
+		2.4
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		8—9
+		"
+35,"<h1 class=""charactername"">
+joker
+</h1>","
+		Down B, Arsene (Tetrakarn/Makarakarn)
+		","
+		4 (Start of Counter)
+		","
+		53
+		","
+		--
+		","
+		Invulnerable on frame 3. Counters/reflects on frame 4-31. 1.6* Damage Multiplier with a minimum of 12% and maximum of 50%.
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		4—31(Counter/Reflect active)
+		"
+36,"<h1 class=""charactername"">
+joker
+</h1>","
+		Arsene, Tetrakarn Counterattack
+		","
+		4
+		","
+		38
+		","
+		--
+		","
+		Invulnerable on frame 1-8 in addition to counter freeze frames
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		5—7
+		"
+37,"<h1 class=""charactername"">
+joker
+</h1>","
+		Arsene, Makarakarn Reflect
+		","
+		--
+		","
+		41
+		","
+		--
+		","
+		Arm intangible on frame 1-29
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		1—29
+		"
+38,"<h1 class=""charactername"">
+joker
+</h1>","
+		Grab
+		","
+		6
+		","
+		34
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		6—7
+		"
+39,"<h1 class=""charactername"">
+joker
+</h1>","
+		Dash Grab
+		","
+		8
+		","
+		42
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		8—9
+		"
+40,"<h1 class=""charactername"">
+joker
+</h1>","
+		Pivot Grab
+		","
+		9
+		","
+		37
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+41,"<h1 class=""charactername"">
+joker
+</h1>","
+		Pummel
+		","
+		1
+		","
+		19
+		","
+		**
+		","
+		Total frames includes 13 frames of hitlag		
+		","
+		1.5
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+42,"<h1 class=""charactername"">
+joker
+</h1>","
+		Forward Throw
+		","
+		9
+		","
+		29
+		","
+		--
+		","
+		--		
+		","
+		8.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+43,"<h1 class=""charactername"">
+joker
+</h1>","
+		Backward Throw
+		","
+		14
+		","
+		39
+		","
+		--
+		","
+		--		
+		","
+		10.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+44,"<h1 class=""charactername"">
+joker
+</h1>","
+		Up Throw
+		","
+		16
+		","
+		37
+		","
+		--
+		","
+		--		
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+45,"<h1 class=""charactername"">
+joker
+</h1>","
+		Down Throw
+		","
+		23
+		","
+		40
+		","
+		--
+		","
+		--		
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+46,"<h1 class=""charactername"">
+joker
+</h1>","
+		Spot Dodge
+		","
+		23
+		","
+		20/25
+		","
+		--
+		","
+		Invulnerable on frame 3-17		
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+47,"<h1 class=""charactername"">
+joker
+</h1>","
+		Forward Roll
+		","
+		23
+		","
+		29
+		","
+		--
+		","
+		Invulnerable on frame 4-15.		
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+48,"<h1 class=""charactername"">
+joker
+</h1>","
+		Backward Roll
+		","
+		23
+		","
+		34
+		","
+		--
+		","
+		Invulnerable on frame 5-16.		
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+49,"<h1 class=""charactername"">
+joker
+</h1>","
+		Neutral Air Dodge
+		","
+		23
+		","
+		47
+		","
+		10
+		","
+		Invulnerable on frame 3-30.		
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+50,"<h1 class=""charactername"">
+joker
+</h1>","
+		Air Dodge, Down
+		","
+		23
+		","
+		67
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+51,"<h1 class=""charactername"">
+joker
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		23
+		","
+		73
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+52,"<h1 class=""charactername"">
+joker
+</h1>","
+		Air Dodge, Left/Right
+		","
+		23
+		","
+		83
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.			
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+53,"<h1 class=""charactername"">
+joker
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		23
+		","
+		90
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.			
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+54,"<h1 class=""charactername"">
+joker
+</h1>","
+		Air Dodge, Up
+		","
+		23
+		","
+		100
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+55,"<h1 class=""charactername"">
+joker
+</h1>","
+			Ledge Grab
+		","
+		23
+		","
+		100
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+56,"<h1 class=""charactername"">
+joker
+</h1>","
+			Ledge Grab
+		","
+		23
+		","
+		100
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+57,"<h1 class=""charactername"">
+joker
+</h1>","
+				Ledge Hang
+			","
+		23
+		","
+		100
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"

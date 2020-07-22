@@ -11,6 +11,8 @@ import WaterfallGrid
 
 struct AddRecordView: View {
 
+    @ObservedObject var recordListVM = RecordListViewMdoel()
+
     @Environment(\.presentationMode) var presentatinoMode
     @State var selectedIndex: Int = 0
     @State var myFighterName: String = "mario"
@@ -19,6 +21,13 @@ struct AddRecordView: View {
     @State var result: Bool = true
 
     private let pickerNames = ["自分", "相手", "ステージ"]
+    var stringResult = { (result: Bool) -> String in
+        if result {
+            return "win"
+        } else {
+            return "lose"
+        }
+    }
     
     var body: some View {
         NavigationView {
@@ -55,6 +64,7 @@ struct AddRecordView: View {
                 },
                 trailing:
                 Button(action: {
+                    self.recordListVM.addRecord(record: Record(result: self.stringResult(self.result), myFighter: self.myFighterName, opponentFighter: self.opponentFighterName, stage: self.stageName))
                     self.presentatinoMode.wrappedValue.dismiss()
                 }) {
                     Text("Done")
@@ -62,6 +72,7 @@ struct AddRecordView: View {
             )
         }
     }
+
 }
 
 
@@ -83,7 +94,31 @@ struct FormCell: View {
     @Binding var selectedIndex: Int
 
     var body: some View {
-        HStack(alignment: .top, spacing: 35) {
+        HStack(alignment: .top, spacing: 20) {
+            VStack {
+                Text("勝敗")
+                    .padding(.bottom, 30)
+                HStack {
+                    Button(action: { self.result.toggle() }) {
+                        Text("Win")
+                            .font(.subheadline)
+                    }
+                    .frame(width: 40, height: 30)
+                    .background(result ? Color.accentColor : nil)
+                    .foregroundColor(result ? .white : Color.primary)
+                    .cornerRadius(5)
+                    .padding(.trailing, 7)
+
+                    Button(action: { self.result.toggle() }) {
+                        Text("Lose")
+                            .font(.subheadline)
+                    }
+                    .frame(width: 40, height: 30)
+                    .background(!result ? Color.accentColor : nil)
+                    .foregroundColor(!result ? .white : Color.primary)
+                    .cornerRadius(5)
+                }
+            }
             VStack {
                 Text("自分")
 
@@ -116,31 +151,6 @@ struct FormCell: View {
                     StagePDF(name: stageName)
                         .frame(width: 60, height: 40)
                         .cornerRadius(3)
-                }
-            }
-            VStack {
-                Text("勝敗")
-                    .padding(.bottom, 30)
-                HStack {
-                    Button(action: { self.result.toggle() }) {
-                        Text("Win")
-                            .font(.subheadline)
-                    }
-                    .frame(width: 40, height: 30)
-                    .background(result ? Color.accentColor : nil)
-                    .foregroundColor(result ? .white : Color.primary)
-                    .cornerRadius(5)
-                    .padding(.trailing, 7)
-
-                    Button(action: { self.result.toggle() }) {
-                        Text("Lose")
-                            .font(.subheadline)
-                    }
-                    .frame(width: 40, height: 30)
-                    .background(!result ? Color.accentColor : nil)
-                    .foregroundColor(!result ? .white : Color.primary)
-                    .cornerRadius(5)
-                    .padding(.trailing, 7)
                 }
             }
 
@@ -211,12 +221,16 @@ struct StageView: View {
 
     var body: some View {
         WaterfallGrid((0..<S.stageArray.count), id: \.self) { index in
-            Button(action: {
-                self.stageName = S.stageArray[index][1]
-            }) {
-                StagePDF(name: S.stageArray[index][1])
-                    .frame(width: 60, height: 40)
-                    .cornerRadius(3)
+            VStack(spacing: 0) {
+                Button(action: {
+                    self.stageName = S.stageArray[index][1]
+                }) {
+                    StagePDF(name: S.stageArray[index][1])
+                        .frame(width: 100, height: 80)
+                        .cornerRadius(10)
+                }
+                Text(S.stageArray[index][0])
+                    .font(.footnote)
             }
         }
         .gridStyle(

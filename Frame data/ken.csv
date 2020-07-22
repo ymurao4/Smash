@@ -1,0 +1,1329 @@
+,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+ken
+</h1>","
+				Ledge Hang
+			","
+		18/19
+		","
+		102
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		3.0/6.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		-8/-9
+		","
+		10—11
+		"
+1,"<h1 class=""charactername"">
+ken
+</h1>","
+		Jab 1 (Light)
+		","
+		2
+		","
+		15
+		","
+		--
+		","
+		Special Cancellable 
+		","
+		1.5
+		","
+		4
+		","
+		3
+		","
+		--
+		","
+		-10
+		","
+		2—3
+		"
+2,"<h1 class=""charactername"">
+ken
+</h1>","
+		Jab 2
+		","
+		3
+		","
+		27
+		","
+		--
+		","
+		Special Cancellable 
+		","
+		1.5
+		","
+		9
+		","
+		3
+		","
+		--
+		","
+		-21
+		","
+		3—4
+		"
+3,"<h1 class=""charactername"">
+ken
+</h1>","
+		Jab 3
+		","
+		8
+		","
+		35
+		","
+		--
+		","
+		--
+		","
+		5.0
+		","
+		9
+		","
+		6
+		","
+		--
+		","
+		-21
+		","
+		8—10
+		"
+4,"<h1 class=""charactername"">
+ken
+</h1>","
+		Jab (Heavy, Close)
+		","
+		7
+		","
+		37
+		","
+		--
+		","
+		Head, chest and arms invincible: frames 4-10. Special Cancellable.
+		","
+		12.0/8.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		7(8—11)
+		"
+5,"<h1 class=""charactername"">
+ken
+</h1>","
+		Jab (Heavy, Far)
+		","
+		9/16
+		","
+		32
+		","
+		--
+		","
+		--
+		","
+		6.0/6.0
+		","
+		7/9
+		","
+		6/6
+		","
+		--
+		","
+		-10
+		","
+		9—12/16—17
+		"
+6,"<h1 class=""charactername"">
+ken
+</h1>","
+		Forward Tilt (Light, Close)
+		","
+		3
+		","
+		29
+		","
+		--
+		","
+		Special Cancellable 
+		","
+		6.0
+		","
+		9
+		","
+		6
+		","
+		--
+		","
+		-20
+		","
+		3—4
+		"
+7,"<h1 class=""charactername"">
+ken
+</h1>","
+		Forward Tilt (Light, Far)
+		","
+		8
+		","
+		23
+		","
+		--
+		","
+		Leg intangibility on frame 6-11
+		","
+		6.8
+		","
+		10
+		","
+		7
+		","
+		--
+		","
+		-8
+		","
+		8—11
+		"
+8,"<h1 class=""charactername"">
+ken
+</h1>","
+		Forward Tilt (Heavy)
+		","
+		10
+		","
+		34
+		","
+		--
+		","
+		--
+		","
+		5.0/10.0
+		","
+		9/11
+		","
+		6/10
+		","
+		close/far
+		","
+		-18/-14
+		","
+		10—13
+		"
+9,"<h1 class=""charactername"">
+ken
+</h1>","
+		Up Tilt (Light)
+		","
+		3
+		","
+		14
+		","
+		--
+		","
+		Special Cancellable 
+		","
+		2.0
+		","
+		7
+		","
+		3
+		","
+		--
+		","
+		-8
+		","
+		3—6
+		"
+10,"<h1 class=""charactername"">
+ken
+</h1>","
+		Up Tilt (Heavy)
+		","
+		7
+		","
+		37
+		","
+		--
+		","
+		Special Cancellable. Upper body intangibility on frame 4-10.
+		","
+		12.0
+		","
+		12
+		","
+		11
+		","
+		--
+		","
+		-19
+		","
+		7(8—11)
+		"
+11,"<h1 class=""charactername"">
+ken
+</h1>","
+		Down Tilt (Light)
+		","
+		2
+		","
+		14
+		","
+		--
+		","
+		Special Cancellable
+		","
+		1.6
+		","
+		8
+		","
+		3
+		","
+		--
+		","
+		-9
+		","
+		2—3
+		"
+12,"<h1 class=""charactername"">
+ken
+</h1>","
+		Down Tilt (Heavy)
+		","
+		6
+		","
+		27
+		","
+		--
+		","
+		Special Cancellable
+		","
+		7.0
+		","
+		10
+		","
+		7
+		","
+		--
+		","
+		-14
+		","
+		6—7
+		"
+13,"<h1 class=""charactername"">
+ken
+</h1>","
+		Dash Attack
+		","
+		7
+		","
+		40
+		","
+		--
+		","
+		--
+		","
+		12.0/8.0
+		","
+		12/10
+		","
+		11/8
+		","
+		Early/Late
+		","
+		-22
+		","
+		7—9(10—15)
+		"
+14,"<h1 class=""charactername"">
+ken
+</h1>","
+		Forward Smash
+		","
+		13
+		","
+		45
+		","
+		--
+		","
+		Charge hold is frame 5
+		","
+		12.0/16.0
+		","
+		9/15
+		","
+		8/11
+		","
+		Close/Far
+		","
+		-24/-21
+		","
+		13—15
+		"
+15,"<h1 class=""charactername"">
+ken
+</h1>","
+		Up Smash
+		","
+		9
+		","
+		44
+		","
+		--
+		","
+		Arm intangibility on frame 9-12. Charge hold is frame 6
+		","
+		17.0/13.5
+		","
+		16/13
+		","
+		11/9
+		","
+		Early/Late
+		","
+		-24
+		","
+		9(10—12)
+		"
+16,"<h1 class=""charactername"">
+ken
+</h1>","
+		Down Smash
+		","
+		5
+		","
+		41
+		","
+		--
+		","
+		Special Cancellable. Charge hold is frame 2.
+		","
+		16.0
+		","
+		15
+		","
+		11
+		","
+		--
+		","
+		-25
+		","
+		5—6
+		"
+17,"<h1 class=""charactername"">
+ken
+</h1>","
+		Neutral Air
+		","
+		6
+		","
+		27
+		","
+		5
+		","
+		Special Cancellable. Autocancels on frame 28 onward 
+		","
+		6.5/4.0
+		","
+		8/6
+		","
+		3/3
+		","
+		Early/Late
+		","
+		-2/-2
+		","
+		6—8(9—17)
+		"
+18,"<h1 class=""charactername"">
+ken
+</h1>","
+		Forward Air
+		","
+		8
+		","
+		36
+		","
+		11
+		","
+		Special Cancellable. Autocancels on frame 1-2 and 38 onward
+		","
+		9.0/14.0, 8.0/12.0
+		","
+		10/14, 10/12
+		","
+		4/5, 4/5
+		","
+		Early close/far, Late close/far
+		","
+		-7/-6, -7/-6
+		","
+		8—9(10—14)
+		"
+19,"<h1 class=""charactername"">
+ken
+</h1>","
+		Back Air
+		","
+		8
+		","
+		41
+		","
+		10
+		","
+		Special Cancellable. Autocancels on frame 25 onward
+		","
+		16.0/13.0
+		","
+		15/13
+		","
+		6/5
+		","
+		Close/Far
+		","
+		-4/-5
+		","
+		8—9
+		"
+20,"<h1 class=""charactername"">
+ken
+</h1>","
+		Up Air
+		","
+		5
+		","
+		35
+		","
+		11
+		","
+		Special Cancellable. Autocancels on frame 19 onward 
+		","
+		6.5
+		","
+		10
+		","
+		3
+		","
+		--
+		","
+		-8
+		","
+		5—9
+		"
+21,"<h1 class=""charactername"">
+ken
+</h1>","
+		Down Air
+		","
+		8
+		","
+		45
+		","
+		15
+		","
+		Special Cancellable. Autocancels on frame 1-2 and 33 onward
+		","
+		12.0
+		","
+		14
+		","
+		5
+		","
+		--
+		","
+		-10
+		","
+		8—12
+		"
+22,"<h1 class=""charactername"">
+ken
+</h1>","
+		Neutral B (Hadouken)
+		","
+		13
+		","
+		57
+		","
+		--
+		","
+		--
+		","
+		4.5—5.5, 5.6—6.8
+		","
+		8—8, 9—9
+		","
+		3—3, 3—3
+		","
+		Normal, True
+		","
+		-35/-34
+		","
+		13—19(20—75) / 13—18(19—67) / 13—17(18—60)
+		"
+23,"<h1 class=""charactername"">
+ken
+</h1>","
+		Side B (Tatsumaki Senpukyaku)
+		","
+		8/13—38
+		","
+		42—72
+		","
+		--
+		","
+		Hits on alternating sides of him every five frames from 13 up to 38. Leg intangibility added in 7.0.0.
+		","
+		3.0/3.0, 3.4/3.4
+		","
+		7/5, 8/5
+		","
+		4/4, 4/4
+		","
+		normal early/late, true early/late
+		","
+		-25 to -30
+		","
+		8—9(13—14/18—19/23—24/28—29/33—34/38—39)
+		"
+24,"<h1 class=""charactername"">
+ken
+</h1>","
+		Side B, Air (Tatsumaki Senpukyaku, Air)
+		","
+		8/13/18/23/28/33/38
+		","
+		77
+		","
+		--
+		","
+		Leg intangibility on frames 13-42
+		","
+		3.0/2.0, 3.4/2.3
+		","
+		7/4, 8/5
+		","
+		4/3, 4/3
+		","
+		normal early/late, true early/late
+		","
+		-36
+		","
+		8—9(13—14/18—19/23—24/28—29/33—34/38—39)
+		"
+25,"<h1 class=""charactername"">
+ken
+</h1>","
+		Up B (Shoryuken)
+		","
+		6
+		","
+		--
+		","
+		12
+		","
+		Invulnerable on frame 5
+		","
+		13.0/7.0
+		","
+		14/8
+		","
+		12/7
+		","
+		Early/Late
+		","
+		**
+		","
+		6—8(9—19)
+		"
+26,"<h1 class=""charactername"">
+ken
+</h1>","
+		True Shoryuken
+		","
+		6
+		","
+		--
+		","
+		8
+		","
+		Invulnerable on frame 4-6. Arm intangible on frame 1-14
+		","
+		15.6/8.4
+		","
+		16/9
+		","
+		14/8
+		","
+		Early/Late
+		","
+		**
+		","
+		6—8(9—19)
+		"
+27,"<h1 class=""charactername"">
+ken
+</h1>","
+		Up B (Flame Shoryuken)
+		","
+		5/6/9
+		","
+		--
+		","
+		18
+		","
+		Invulnerable on frame 5
+		","
+		2.2/8.0/6.5
+		","
+		10/9/9
+		","
+		-/8/7
+		","
+		--
+		","
+		**
+		","
+		5/6—8/9—19
+		"
+28,"<h1 class=""charactername"">
+ken
+</h1>","
+		True Flame Shoryuken
+		","
+		5/6/9
+		","
+		--
+		","
+		12
+		","
+		Invulnerable on frame 4-6. Arm intangible on frame 1-14
+		","
+		2.6/9.6/7.8
+		","
+		10/10/10
+		","
+		-/9/8
+		","
+		--
+		","
+		**
+		","
+		5/6—8/9—19
+		"
+29,"<h1 class=""charactername"">
+ken
+</h1>","
+		Down B (Focus Attack)
+		","
+		12 (+21), 12(+31), 12(+59)
+		","
+		55
+		","
+		--
+		","
+		Stage 1: Can dash from frame 26 of entering charge or immediately after a successful hit
+		Stage 2: Focus armor begins on frame 1 and lasts until the 12 frames of the kick
+		Stage 3: This stage is unblockable 
+		Damage-bsed armor notes: Armor starts at 16.8% and ends at 33.6% in Stage 3, going up 0.289% per frame held. 
+		","
+		12.0, 10.0, 17.0
+		","
+		17, 19, unblockable
+		","
+		11, 10, unblockable
+		","
+		Stage 1, Stage 2, Stage 3
+		","
+		-32, -33, unblockable
+		","
+		32—33/42—43/70—71
+		"
+30,"<h1 class=""charactername"">
+ken
+</h1>","
+		Focus Attack, Dash Cancel 
+		","
+		--
+		","
+		19/19
+		","
+		--
+		","
+		First advantage is on stage 1 hit, second advantage is on stage 2 hit
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		-8/-9
+		","
+		**
+		"
+31,"<h1 class=""charactername"">
+ken
+</h1>","
+		Nata Otoshi Geri (Input Command)
+		","
+		12/15(12/20)
+		","
+		28(41)
+		","
+		--
+		","
+		Input: Forward, Down-Forward, Down+A. Holding A turns second hit into stronger kick. hitting on 20 instead and is 41 total frames
+		","
+		5.0/5.0/10.0
+		","
+		9/9/11
+		","
+		-/6/12
+		","
+		first/second/inazuma kick
+		","
+		-7/-9
+		","
+		12/15—6
+		"
+32,"<h1 class=""charactername"">
+ken
+</h1>","
+		Oosoto Mawashi Geri (Input Command)
+		","
+		9(9/17)
+		","
+		32(48)
+		","
+		--
+		","
+		Input: Back, Down-back, Down, Down-forward, Forward+A. Leg intangible on frame 9-10. Holding A causes second kick. hitting on 17 instead and is 48 total frames
+		","
+		10.0/10.0
+		","
+		11/11
+		","
+		10/12
+		","
+		normal/inazuma
+		","
+		-13/-19
+		","
+		9—10(9—10/17—19)
+		"
+33,"<h1 class=""charactername"">
+ken
+</h1>","
+		Grab
+		","
+		6
+		","
+		34
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		11/11
+		","
+		10/12
+		","
+		normal/inazuma
+		","
+		-13/-19
+		","
+		6—7
+		"
+34,"<h1 class=""charactername"">
+ken
+</h1>","
+		Dash Grab
+		","
+		9
+		","
+		42
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		11/11
+		","
+		10/12
+		","
+		normal/inazuma
+		","
+		-13/-19
+		","
+		9—10
+		"
+35,"<h1 class=""charactername"">
+ken
+</h1>","
+		Pivot Grab
+		","
+		10
+		","
+		37
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		11/11
+		","
+		10/12
+		","
+		normal/inazuma
+		","
+		-13/-19
+		","
+		10—11
+		"
+36,"<h1 class=""charactername"">
+ken
+</h1>","
+		Pummel
+		","
+		1
+		","
+		16
+		","
+		--
+		","
+		Total frames includes 10 frames of hitlag		
+		","
+		1.3
+		","
+		11/11
+		","
+		10/12
+		","
+		normal/inazuma
+		","
+		-13/-19
+		","
+		10—11
+		"
+37,"<h1 class=""charactername"">
+ken
+</h1>","
+		Forward Throw
+		","
+		16
+		","
+		41
+		","
+		--
+		","
+		--		
+		","
+		**
+		","
+		11/11
+		","
+		10/12
+		","
+		normal/inazuma
+		","
+		-13/-19
+		","
+		10—11
+		"
+38,"<h1 class=""charactername"">
+ken
+</h1>","
+		Backward Throw
+		","
+		41
+		","
+		69
+		","
+		--
+		","
+		--		
+		","
+		**
+		","
+		11/11
+		","
+		10/12
+		","
+		normal/inazuma
+		","
+		-13/-19
+		","
+		10—11
+		"
+39,"<h1 class=""charactername"">
+ken
+</h1>","
+		Up Throw
+		","
+		18/27
+		","
+		46
+		","
+		--
+		","
+		Kicks on frame 27. Leg intangible 27—32.
+		","
+		**
+		","
+		11/11
+		","
+		10/12
+		","
+		normal/inazuma
+		","
+		-13/-19
+		","
+		10—11
+		"
+40,"<h1 class=""charactername"">
+ken
+</h1>","
+		Down Throw
+		","
+		18/19
+		","
+		44
+		","
+		--
+		","
+		--		
+		","
+		**
+		","
+		11/11
+		","
+		10/12
+		","
+		normal/inazuma
+		","
+		-13/-19
+		","
+		10—11
+		"
+41,"<h1 class=""charactername"">
+ken
+</h1>","
+		Spot Dodge
+		","
+		18/19
+		","
+		21/26
+		","
+		--
+		","
+		Invulnerable on frame 3-17		
+		","
+		**
+		","
+		11/11
+		","
+		10/12
+		","
+		normal/inazuma
+		","
+		-13/-19
+		","
+		10—11
+		"
+42,"<h1 class=""charactername"">
+ken
+</h1>","
+		Forward Roll
+		","
+		18/19
+		","
+		30
+		","
+		--
+		","
+		Invulnerable on frame 4-15.		
+		","
+		**
+		","
+		11/11
+		","
+		10/12
+		","
+		normal/inazuma
+		","
+		-13/-19
+		","
+		10—11
+		"
+43,"<h1 class=""charactername"">
+ken
+</h1>","
+		Backward Roll
+		","
+		18/19
+		","
+		35
+		","
+		--
+		","
+		Invulnerable on frame 5-16.		
+		","
+		**
+		","
+		11/11
+		","
+		10/12
+		","
+		normal/inazuma
+		","
+		-13/-19
+		","
+		10—11
+		"
+44,"<h1 class=""charactername"">
+ken
+</h1>","
+		Neutral Air Dodge
+		","
+		18/19
+		","
+		49
+		","
+		10
+		","
+		Invulnerable on frame 3-27.		
+		","
+		**
+		","
+		11/11
+		","
+		10/12
+		","
+		normal/inazuma
+		","
+		-13/-19
+		","
+		10—11
+		"
+45,"<h1 class=""charactername"">
+ken
+</h1>","
+		Air Dodge, Down
+		","
+		18/19
+		","
+		67
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		**
+		","
+		11/11
+		","
+		10/12
+		","
+		normal/inazuma
+		","
+		-13/-19
+		","
+		10—11
+		"
+46,"<h1 class=""charactername"">
+ken
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		18/19
+		","
+		73
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		**
+		","
+		11/11
+		","
+		10/12
+		","
+		normal/inazuma
+		","
+		-13/-19
+		","
+		10—11
+		"
+47,"<h1 class=""charactername"">
+ken
+</h1>","
+		Air Dodge, Left/Right
+		","
+		18/19
+		","
+		80
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.			
+		","
+		**
+		","
+		11/11
+		","
+		10/12
+		","
+		normal/inazuma
+		","
+		-13/-19
+		","
+		10—11
+		"
+48,"<h1 class=""charactername"">
+ken
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		18/19
+		","
+		89
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.			
+		","
+		**
+		","
+		11/11
+		","
+		10/12
+		","
+		normal/inazuma
+		","
+		-13/-19
+		","
+		10—11
+		"
+49,"<h1 class=""charactername"">
+ken
+</h1>","
+		Air Dodge, Up
+		","
+		18/19
+		","
+		102
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		**
+		","
+		11/11
+		","
+		10/12
+		","
+		normal/inazuma
+		","
+		-13/-19
+		","
+		10—11
+		"
+50,"<h1 class=""charactername"">
+ken
+</h1>","
+			Ledge Grab
+		","
+		18/19
+		","
+		102
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		**
+		","
+		11/11
+		","
+		10/12
+		","
+		normal/inazuma
+		","
+		-13/-19
+		","
+		10—11
+		"
+51,"<h1 class=""charactername"">
+ken
+</h1>","
+			Ledge Grab
+		","
+		18/19
+		","
+		102
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		**
+		","
+		11/11
+		","
+		10/12
+		","
+		normal/inazuma
+		","
+		-13/-19
+		","
+		10—11
+		"
+52,"<h1 class=""charactername"">
+ken
+</h1>","
+				Ledge Hang
+			","
+		18/19
+		","
+		102
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		**
+		","
+		11/11
+		","
+		10/12
+		","
+		normal/inazuma
+		","
+		-13/-19
+		","
+		10—11
+		"

@@ -1,1 +1,1076 @@
 ,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Jab
+		","
+		3
+		","
+		19
+		","
+		--
+		","
+		Transitions to another jab on frame 13.
+		","
+		2.0
+		","
+		4
+		","
+		3
+		","
+		--
+		","
+		-14
+		","
+		3—4
+		"
+1,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Forward Tilt
+		","
+		8
+		","
+		36
+		","
+		--
+		","
+		--
+		","
+		9.0
+		","
+		7
+		","
+		9
+		","
+		--
+		","
+		-20
+		","
+		8—11
+		"
+2,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Up Tilt
+		","
+		6
+		","
+		29
+		","
+		--
+		","
+		--
+		","
+		8.0
+		","
+		7
+		","
+		8
+		","
+		--
+		","
+		-19
+		","
+		6—13
+		"
+3,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Down Tilt
+		","
+		9
+		","
+		34
+		","
+		--
+		","
+		--
+		","
+		13.0/8.0
+		","
+		9/7
+		","
+		12/8
+		","
+		--
+		","
+		-13/-17
+		","
+		9—10
+		"
+4,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Dash Attack
+		","
+		7
+		","
+		39
+		","
+		--
+		","
+		Projectile Attack. If done off ledge, the late hit of the projectile will fall 15—68 instead.
+		","
+		10.0/6.0
+		","
+		8/6
+		","
+		4/3
+		","
+		Clean/Late
+		","
+		-21
+		","
+		7—12/13—19
+		"
+5,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Forward Smash
+		","
+		14
+		","
+		45
+		","
+		--
+		","
+		Charge hold is frame 6
+		","
+		17.0/8.0
+		","
+		10
+		","
+		11
+		","
+		--
+		","
+		-20
+		","
+		14—15/16—19
+		"
+6,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Up Smash
+		","
+		9/14
+		","
+		45
+		","
+		--
+		","
+		Isabelle will not suffer hitlag from this attack, improving combo potential. Charge hold is frame 8
+		","
+		2.0/12.0
+		","
+		0/11
+		","
+		4/8
+		","
+		Early/Clean/Late
+		","
+		-12
+		","
+		9—10/14—16/17—18
+		"
+7,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Down Smash
+		","
+		8/12
+		","
+		43
+		","
+		--
+		","
+		Charge hold is frame 4
+		","
+		10.0/8.0
+		","
+		8/7
+		","
+		7/6
+		","
+		--
+		","
+		-29/-26
+		","
+		8—9/12—13
+		"
+8,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Neutral Air
+		","
+		5/8
+		","
+		33
+		","
+		6
+		","
+		Autocancels on frame 1-2 and 34 onward
+		","
+		10.0/6.0
+		","
+		8/6
+		","
+		4/3
+		","
+		--
+		","
+		-2/-3
+		","
+		5—7/8—25
+		"
+9,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Forward Air
+		","
+		10
+		","
+		39
+		","
+		14
+		","
+		Projectile attack. Autocancels on frame 1-2 and 30 onward
+		","
+		7.0/4.0/2.5
+		","
+		7/5/5
+		","
+		3/2/2
+		","
+		--
+		","
+		-4
+		","
+		10—12(13—18/19—23)
+		"
+10,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Back Air
+		","
+		13
+		","
+		35
+		","
+		14
+		","
+		Projectile attack. Autocancels on frame 1-2 and 30 onward
+		","
+		9.0/5.0/3.0
+		","
+		7/6/5
+		","
+		4/3/2
+		","
+		--
+		","
+		-3
+		","
+		13—15(16—21/22—26)
+		"
+11,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Up Air
+		","
+		6
+		","
+		42
+		","
+		9
+		","
+		Autocancels on frame 1-5 and 39 onward
+		","
+		10.0/5.0
+		","
+		8/6
+		","
+		4/3
+		","
+		--
+		","
+		-5/-6
+		","
+		6—7/8—31
+		"
+12,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Down Air
+		","
+		11
+		","
+		42
+		","
+		9
+		","
+		Autocancels on frame 1-13 and 39 onward
+		","
+		10.0/5.0
+		","
+		8/6
+		","
+		4/3
+		","
+		--
+		","
+		-5/-6
+		","
+		11—12/13—28
+		"
+13,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Neutral B (Pocket)
+		","
+		8 (Start of projectile pocket)
+		","
+		50
+		","
+		--
+		","
+		Invulnerable on frame 5-23. Pockets projectiles on frame 8-23.
+		","
+		**
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		--
+		","
+		8—23
+		"
+14,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Pocket, Throw
+		","
+		9
+		","
+		30
+		","
+		--
+		","
+		This is not the same throw as with a holdable item
+		","
+		**
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		8—23
+		"
+15,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Side B (Fishing Rod)
+		","
+		21
+		","
+		--
+		","
+		--
+		","
+		Frame 50 is the earliest you can reel in.
+		","
+		**
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		21—43 (Ground), 21—70+ (Air), 18 (Tether)
+		"
+16,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Fishing Rod, Reel In
+		","
+		2
+		","
+		38
+		","
+		--
+		","
+		--
+		","
+		**
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		2—11
+		"
+17,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Fishing Rod, Throw Forward
+		","
+		15
+		","
+		45
+		","
+		--
+		","
+		--
+		","
+		14.0—17.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		**
+		"
+18,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Fishing Rod, Throw Back
+		","
+		13
+		","
+		35
+		","
+		--
+		","
+		--
+		","
+		11.0—14.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		**
+		"
+19,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Fishing Rod, Throw Up
+		","
+		22
+		","
+		43
+		","
+		--
+		","
+		--
+		","
+		12.0—15.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		**
+		"
+20,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Fishing Rod, Throw Down
+		","
+		18/22
+		","
+		39
+		","
+		--
+		","
+		--
+		","
+		9.5—15.0
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		**
+		"
+21,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Up B (Balloon Trip)
+		","
+		**
+		","
+		--
+		","
+		20/30
+		","
+		20 landing lag if you land inside the swing. 30 if you land from special fall. Has a ""fuel"" mechanic.
+		","
+		**
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		**
+		"
+22,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Down B (Lloid Trap)
+		","
+		9/17/25/34/43/51
+		","
+		49/26
+		","
+		--
+		","
+		Proximity activation as early as 51. 49 total frames to plant. 26 total frames to manually activate. Several characters can safely run past this trap.
+		","
+		**
+		","
+		4/4/11
+		","
+		2/2/4
+		","
+		--
+		","
+		**
+		","
+		9/17/25/34/43/51
+		"
+23,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Grab
+		","
+		14
+		","
+		43
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		4/4/11
+		","
+		2/2/4
+		","
+		--
+		","
+		**
+		","
+		14—16
+		"
+24,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Dash Grab
+		","
+		15
+		","
+		46
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		4/4/11
+		","
+		2/2/4
+		","
+		--
+		","
+		**
+		","
+		15—17
+		"
+25,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Pivot Grab
+		","
+		17
+		","
+		44
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		4/4/11
+		","
+		2/2/4
+		","
+		--
+		","
+		**
+		","
+		17—19
+		"
+26,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Pummel
+		","
+		**
+		","
+		**
+		","
+		**
+		","
+		--		
+		","
+		**
+		","
+		4/4/11
+		","
+		2/2/4
+		","
+		--
+		","
+		**
+		","
+		17—19
+		"
+27,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Forward Throw
+		","
+		15
+		","
+		45
+		","
+		--
+		","
+		--		
+		","
+		**
+		","
+		4/4/11
+		","
+		2/2/4
+		","
+		--
+		","
+		**
+		","
+		17—19
+		"
+28,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Backward Throw
+		","
+		14
+		","
+		49
+		","
+		--
+		","
+		--		
+		","
+		**
+		","
+		4/4/11
+		","
+		2/2/4
+		","
+		--
+		","
+		**
+		","
+		17—19
+		"
+29,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Up Throw
+		","
+		20
+		","
+		52
+		","
+		--
+		","
+		--		
+		","
+		**
+		","
+		4/4/11
+		","
+		2/2/4
+		","
+		--
+		","
+		**
+		","
+		17—19
+		"
+30,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Down Throw
+		","
+		18
+		","
+		35
+		","
+		--
+		","
+		--		
+		","
+		**
+		","
+		4/4/11
+		","
+		2/2/4
+		","
+		--
+		","
+		**
+		","
+		17—19
+		"
+31,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Spot Dodge
+		","
+		18
+		","
+		20/25
+		","
+		--
+		","
+		Invulnerable on frame 3-17		
+		","
+		**
+		","
+		4/4/11
+		","
+		2/2/4
+		","
+		--
+		","
+		**
+		","
+		17—19
+		"
+32,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Forward Roll
+		","
+		18
+		","
+		29
+		","
+		--
+		","
+		Invulnerable on frame 4-15.		
+		","
+		**
+		","
+		4/4/11
+		","
+		2/2/4
+		","
+		--
+		","
+		**
+		","
+		17—19
+		"
+33,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Backward Roll
+		","
+		18
+		","
+		34
+		","
+		--
+		","
+		Invulnerable on frame 5-16.		
+		","
+		**
+		","
+		4/4/11
+		","
+		2/2/4
+		","
+		--
+		","
+		**
+		","
+		17—19
+		"
+34,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Neutral Air Dodge
+		","
+		18
+		","
+		58
+		","
+		10
+		","
+		Invulnerable on frame 3-30.		
+		","
+		**
+		","
+		4/4/11
+		","
+		2/2/4
+		","
+		--
+		","
+		**
+		","
+		17—19
+		"
+35,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Air Dodge, Down
+		","
+		18
+		","
+		80
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		**
+		","
+		4/4/11
+		","
+		2/2/4
+		","
+		--
+		","
+		**
+		","
+		17—19
+		"
+36,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		18
+		","
+		91
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.
+		","
+		**
+		","
+		4/4/11
+		","
+		2/2/4
+		","
+		--
+		","
+		**
+		","
+		17—19
+		"
+37,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Air Dodge, Left/Right
+		","
+		18
+		","
+		97
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.		
+		","
+		**
+		","
+		4/4/11
+		","
+		2/2/4
+		","
+		--
+		","
+		**
+		","
+		17—19
+		"
+38,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		18
+		","
+		115
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.			
+		","
+		**
+		","
+		4/4/11
+		","
+		2/2/4
+		","
+		--
+		","
+		**
+		","
+		17—19
+		"
+39,"<h1 class=""charactername"">
+isabelle
+</h1>","
+		Air Dodge, Up
+		","
+		18
+		","
+		133
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.
+		","
+		**
+		","
+		4/4/11
+		","
+		2/2/4
+		","
+		--
+		","
+		**
+		","
+		17—19
+		"
+40,"<h1 class=""charactername"">
+isabelle
+</h1>","
+			Ledge Grab
+		","
+		18
+		","
+		133
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.
+		","
+		**
+		","
+		4/4/11
+		","
+		2/2/4
+		","
+		--
+		","
+		**
+		","
+		17—19
+		"
+41,"<h1 class=""charactername"">
+isabelle
+</h1>","
+			Ledge Grab
+		","
+		18
+		","
+		133
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.
+		","
+		**
+		","
+		4/4/11
+		","
+		2/2/4
+		","
+		--
+		","
+		**
+		","
+		17—19
+		"
+42,"<h1 class=""charactername"">
+isabelle
+</h1>","
+				Ledge Hang
+			","
+		18
+		","
+		133
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.
+		","
+		**
+		","
+		4/4/11
+		","
+		2/2/4
+		","
+		--
+		","
+		**
+		","
+		17—19
+		"

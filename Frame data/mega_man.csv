@@ -1,1 +1,951 @@
 ,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Jab
+		","
+		7/19/31
+		","
+		35/47/59
+		","
+		--
+		","
+		Cannon and projectile hits generate on same frame.
+		","
+		3.0/4.0/2.0
+		","
+		4/4/4
+		","
+		3/2/2
+		","
+		Cannon/Projectiles
+		","
+		-25/-23/-20
+		","
+		7 [7—9(10—13/14—30)] / 19 [19—22(23—26/27—42)] / 31 [31—34(35—38/39—54)]
+		"
+1,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Forward Tilt
+		","
+		7/19/31
+		","
+		33/45/57
+		","
+		--
+		","
+		Does not have a hitbox before the projectile comes out.
+		","
+		3.0/4.0/2.0
+		","
+		4/4/4
+		","
+		3/2/2
+		","
+		Cannon/Projectiles
+		","
+		-25/-23/-20
+		","
+		7—9(10—13/14—30) / 19—22(23—26/27—42) / 31—34(35—38/39—54)
+		"
+2,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Up Tilt
+		","
+		6
+		","
+		70/52/54
+		","
+		--
+		","
+		Total frames refer to use on level ground/over an edge/under a platform. Invulnerable on frame 5-7
+		","
+		17.0/12.0/8.0
+		","
+		15/9/7
+		","
+		15/11/8
+		","
+		Early/late/later
+		","
+		-49/-31/-33
+		","
+		6(7—9/10—16)
+		"
+3,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Down Tilt
+		","
+		5
+		","
+		46
+		","
+		--
+		","
+		Leg intangibility on frame 3-12
+		","
+		8.0/5.0
+		","
+		7/6
+		","
+		8/6
+		","
+		Early/late 
+		","
+		-33
+		","
+		5—8(9—21)
+		"
+4,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Dash Attack
+		","
+		8/11/14/17/20/23/26/36
+		","
+		60
+		","
+		--
+		","
+		--
+		","
+		1.2/4.0
+		","
+		4/5
+		","
+		2/8
+		","
+		Multi/final
+		","
+		-16
+		","
+		8/11/14/17/20/23/26/36
+		"
+5,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Forward Smash
+		","
+		19
+		","
+		54
+		","
+		--
+		","
+		Charge hold is frame 9
+		","
+		11.5
+		","
+		13
+		","
+		4
+		","
+		--
+		","
+		-18
+		","
+		19—42(79—108/199—222)
+		"
+6,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Up Smash
+		","
+		8/11/15/19/23/27/31
+		","
+		68
+		","
+		--
+		","
+		Charge hold is frame 4
+		","
+		2.0/1.5/6.0
+		","
+		-/3/9
+		","
+		-/0/5
+		","
+		First/multi/final
+		","
+		-32
+		","
+		8/11—12/15—16/19—20/23—24/27—28/31
+		"
+7,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Down Smash
+		","
+		17
+		","
+		78
+		","
+		--
+		","
+		Charge hold is frame 4
+		","
+		17.0
+		","
+		11
+		","
+		11
+		","
+		--
+		","
+		-50
+		","
+		17(18—19/20—33)
+		"
+8,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Neutral Air
+		","
+		7/19/31
+		","
+		33/45/57
+		","
+		--
+		","
+		Cannon and projectile hits generate on same frame.
+		","
+		3.0/4.0/2.0
+		","
+		4/4/4
+		","
+		3/2/2
+		","
+		Cannon/Cannon(air)/Projectile
+		","
+		-25/-23/-20
+		","
+		7 [7—9(10—13/14—30)] / 19 [19—22(23—26/27—42)] / 31 [31—34(35—38/39—54)]
+		"
+9,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Forward Air
+		","
+		9
+		","
+		40
+		","
+		11
+		","
+		Autocancels on frame 1-2 and 39 onward
+		","
+		8.5/8.0/5.0
+		","
+		7/7/6
+		","
+		4/4/3
+		","
+		Far/Close/Late
+		","
+		-7/-7/-8
+		","
+		9—11(12—17)
+		"
+10,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Back Air
+		","
+		4/7/10
+		","
+		44
+		","
+		20
+		","
+		Autocancels on frame 1-3 and 40 onward
+		","
+		3.0/4.0/5.0
+		","
+		5/5/6
+		","
+		2/3/3
+		","
+		--
+		","
+		-18/-17/-17
+		","
+		4—5/7—8/10—11
+		"
+11,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Up Air
+		","
+		11...
+		","
+		53
+		","
+		20
+		","
+		Autocancels on frame 51 onward
+		","
+		3.0/1.0/2.0
+		","
+		-/4/4
+		","
+		-/2/2
+		","
+		Early/late/final
+		","
+		--
+		","
+		11—17/18—31/32—54/55—61 (rehit: 3/5/5/5)
+		"
+12,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Down Air
+		","
+		23
+		","
+		64
+		","
+		14
+		","
+		Autocancels on frame 1-4 and 55 onward
+		","
+		14.0/12.0
+		","
+		10/9
+		","
+		5/5
+		","
+		Early/Meteor
+		","
+		+1/+0
+		","
+		23—25(26—35)
+		"
+13,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Neutral B (Metal Blade)
+		","
+		16
+		","
+		42
+		","
+		--
+		","
+		Projectile hits every 6 frames. Add 2 to startup and total frames when throwing backward
+		","
+		5.0
+		","
+		6
+		","
+		3
+		","
+		--
+		","
+		-17
+		","
+		**
+		"
+14,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Side B (Crash Bomber)
+		","
+		19
+		","
+		44
+		","
+		--
+		","
+		Does not attach to shields. Explosion occurs about 2.5 seconds later and hits on frame 1/6/11/16/21
+		","
+		1.0/4.0
+		","
+		4/5
+		","
+		-/2
+		","
+		Multi/Final
+		","
+		**
+		","
+		19—69
+		"
+15,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Up B (Rush Coil)
+		","
+		--
+		","
+		41
+		","
+		--
+		","
+		Invulnerable on frame 7-10. Rush dissapears at Frame ~130
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		"
+16,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Down B (Leaf Shield)
+		","
+		9—**
+		","
+		35
+		","
+		--
+		","
+		Hits every 11 frames. Leaves do not disappear after hitting something. Hold the button to move with the shield. Can delay 40 frames before an automatic throw.
+		","
+		1.5
+		","
+		4
+		","
+		3
+		","
+		--
+		","
+		**
+		","
+		9—**
+		"
+17,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Leaf Shield, Throw
+		","
+		--
+		","
+		55
+		","
+		--
+		","
+		Hits every 11 frames.  
+		","
+		3.8
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		**
+		"
+18,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Grab
+		","
+		6
+		","
+		37
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		6—7
+		"
+19,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Dash Grab
+		","
+		9
+		","
+		45
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		9—10
+		"
+20,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Pivot Grab
+		","
+		10
+		","
+		40
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+21,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Pummel
+		","
+		1
+		","
+		19
+		","
+		--
+		","
+		Total frames includes 13 frames of hitlag
+		","
+		1.3
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+22,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Forward Throw
+		","
+		10
+		","
+		32
+		","
+		--
+		","
+		--		
+		","
+		8.0
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+23,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Backward Throw
+		","
+		18
+		","
+		43
+		","
+		--
+		","
+		--		
+		","
+		11.0
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+24,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Up Throw
+		","
+		12
+		","
+		39
+		","
+		--
+		","
+		--		
+		","
+		7.0
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+25,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Down Throw
+		","
+		17
+		","
+		39
+		","
+		--
+		","
+		--		
+		","
+		4.5
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+26,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Spot Dodge
+		","
+		17
+		","
+		20/25
+		","
+		--
+		","
+		Invulnerable on frame 3-17
+		","
+		4.5
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+27,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Forward Roll
+		","
+		17
+		","
+		29
+		","
+		--
+		","
+		Invulnerable on frame 4-15
+		","
+		4.5
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+28,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Backward Roll
+		","
+		17
+		","
+		34
+		","
+		--
+		","
+		Invulnerable on frame 5-16
+		","
+		4.5
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+29,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Neutral Air Dodge
+		","
+		17
+		","
+		45
+		","
+		10
+		","
+		Invulnerable on frame 3-30
+		","
+		4.5
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+30,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Air Dodge, Down
+		","
+		17
+		","
+		63
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21		
+		","
+		4.5
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+31,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		17
+		","
+		70
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		4.5
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+32,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Air Dodge, Left/Right
+		","
+		17
+		","
+		76
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		4.5
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+33,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		17
+		","
+		84
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		4.5
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+34,"<h1 class=""charactername"">
+mega man
+</h1>","
+		Air Dodge, Up
+		","
+		17
+		","
+		98
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		4.5
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+35,"<h1 class=""charactername"">
+mega man
+</h1>","
+			Ledge Grab
+		","
+		17
+		","
+		98
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		4.5
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+36,"<h1 class=""charactername"">
+mega man
+</h1>","
+			Ledge Grab
+		","
+		17
+		","
+		98
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		4.5
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"
+37,"<h1 class=""charactername"">
+mega man
+</h1>","
+				Ledge Hang
+			","
+		17
+		","
+		98
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		4.5
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		10—11
+		"

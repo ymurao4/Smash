@@ -1,1 +1,1533 @@
 ,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Jab 1
+		","
+		6
+		","
+		25
+		","
+		--
+		","
+		Transitions to jab 2 as early as frame 9
+		","
+		3.0
+		","
+6
+","
+4
+","
+		--
+		","
+		-15
+		","
+		6—7
+		"
+1,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Jab 2
+		","
+		6
+		","
+		25
+		","
+		--
+		","
+		Transitions to jab 3 as early as frame 9
+		","
+		3.0
+		","
+5
+","
+4
+","
+		--
+		","
+		-15
+		","
+		6—7
+		"
+2,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Jab 3
+		","
+		7
+		","
+		37
+		","
+		--
+		","
+		--
+		","
+		4.0
+		","
+10
+","
+5
+","
+		--
+		","
+		-25
+		","
+		7—9
+		"
+3,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Forward Tilt 1
+		","
+		9
+		","
+		36
+		","
+		--
+		","
+		Transitions to next attack as early as frame 18. Arm, head, leg invincibility on frame 9. Arm invincibility on frame 10-11.
+		","
+		5.0
+		","
+8
+","
+6
+","
+		--
+		","
+		-21
+		","
+		9—11
+		"
+4,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Forward Tilt 2
+		","
+		8
+		","
+		47
+		","
+		--
+		","
+		--
+		","
+		8.0
+		","
+8
+","
+8
+","
+		--
+		","
+		-31
+		","
+		8—9
+		"
+5,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Up Tilt
+		","
+		8
+		","
+		41
+		","
+		--
+		","
+		--
+		","
+		9.0/11.0/11.0
+		","
+8
+","
+10
+","
+		Early/Late
+		","
+		-23
+		","
+		8—9/10—11
+		"
+6,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Down Tilt
+		","
+		6
+		","
+		32
+		","
+		--
+		","
+		--
+		","
+		7.0
+		","
+7
+","
+7
+","
+		--
+		","
+		-19
+		","
+		6—10
+		"
+7,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Dash Attack
+		","
+		21
+		","
+		51
+		","
+		--
+		","
+		--
+		","
+		13.0/15.0
+		","
+9/11
+","
+12/14
+","
+		Close/Far
+		","
+		-16
+		","
+		21/22—23
+		"
+8,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Forward Smash
+		","
+		17
+		","
+		65
+		","
+		--
+		","
+		--
+		","
+		18.0/36.0 (Sour: 16.0/32.0)
+		","
+14/27
+","
+12/22
+","
+		Normal/Crit
+		","
+		-36 (-26)
+		","
+		17—19
+		"
+9,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Up Smash
+		","
+		13
+		","
+		53
+		","
+		--
+		","
+		Normal/Crit
+		","
+		16.0/32.0 (Sour: 14.0/28.0)
+		","
+13/27
+","
+11/20
+","
+		Normal/Crit
+		","
+		-29 (-19)
+		","
+		13—17
+		"
+10,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Down Smash
+		","
+		9/20
+		","
+		55
+		","
+		--
+		","
+		Damage listed is the same for both the first and second hit.
+		","
+		Normal: 13.0/26.0 (Sour: 11.0/22.0)
+		","
+8/9 / 25/27
+","
+8/9 / 14/17
+","
+		Normal/Crit
+		","
+		-37/-26 (-29/-18)
+		","
+		9—10/20—21
+		"
+11,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Neutral Air
+		","
+		8
+		","
+		45
+		","
+		10
+		","
+		**
+		","
+		9.0
+		","
+7
+","
+4
+","
+		--
+		","
+		-6
+		","
+		8—16
+		"
+12,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Forward Air
+		","
+		14
+		","
+		42
+		","
+		12
+		","
+		**
+		","
+		10.0/12.0
+		","
+10/9
+","
+5/4
+","
+		Early/Late
+		","
+		-7
+		","
+		14—17
+		"
+13,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Back Air
+		","
+		18
+		","
+		47
+		","
+		14
+		","
+		**
+		","
+		12.0/14.0
+		","
+10/9
+","
+5/5
+","
+		Early/Late
+		","
+		-9
+		","
+		18—20
+		"
+14,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Up Air
+		","
+		6
+		","
+		32
+		","
+		8
+		","
+		--
+		","
+		7.0
+		","
+7
+","
+3
+","
+		--
+		","
+		-5
+		","
+		6—10
+		"
+15,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Down Air
+		","
+		16
+		","
+		62
+		","
+		18
+		","
+		Autocancels on frame 1-4 and 46 onward
+		","
+		16.0/10.0
+		","
+12/8
+","
+6/4
+","
+		Early/Late
+		","
+		-12
+		","
+		16—18/19—24
+		"
+16,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Neutral B (Frizz/Frizzle/Kafrizz)
+		","
+		[10(+7)]  [11(+25)]  [16(2/8/14/20)]
+		","
+		43/51/67
+		","
+		--
+		","
+		Frizz: Takes 7 frames to enter charge state and 5 frames to exit charge state. Cost: 6MP 
+		Frizzle: Takes 25 frames to reach this level of charge. Cost: 16MP
+		Kafrizz: Eruption upon reaching a target hits on frame (2/8/14/20). Cost: 36 MP
+		","
+		9.0/18.0/19.0(3.0)
+		","
+7/8/25
+","
+4/4/2
+","
+		-- / -- / projectile/eruption
+		","
+		-22/-28/-24
+		","
+		[10—65]  [11—56]  [16—73]
+		"
+17,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Side B, (Zap/Zapple/Kazap)
+		","
+		[9/13(+7)]  [10/15(+16)]  [43/50/72/75/81]
+		","
+		30/50/126
+		","
+		**
+		","
+		Zap: 7 frames to enter charge state. Bolt does not occur on block. Cost: 8MP
+		Zapple: Takes 16 frames to reach this level of charge. Second hit does not occur on block. Cost: 18 MP
+		Kazap: Final hit does not occur on a blocking opponent. Cost: 42MP. Bolt generated on frame 37 (+7 charge). 15% heavy armor on frames 43—78. Psych Up only affects first hit (another 0.8%). Oomph affects all but the last hit (another 14%).
+		","
+		4.0
+		","
+11/17 / 9 / 14/9/12
+","
+6/4 / 6 / 4/**/4
+","
+		close/far/bolt / first/second bolt / ""first/second/
+third/bolt""
+		","
+		-12/-25/-29
+		","
+		[9—13/1—8]  [10—15/1—8]  [43—49/50/72/75/81—83/1—8]
+		"
+18,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Up B (Woosh/Swoosh/Kaswoosh)
+		","
+		[4(+3)]  [6/13/20/27(+13)]  [39/49/59/69/79/89]
+		","
+		**
+		","
+		12/23/29
+		","
+		Woosh: Takes 3 frames to enter charge state. Cost: 5MP
+		Swoosh: Takes 13 frames to reach this level of charge. Cost: 9MP
+		Kaswoosh: Cost: 18 MP. Failing to cast any level of charge results in 12 landing lag.
+		","
+		7.0 / 3.0/4.0 / 3.0/4.0
+		","
+7 / 5/5 / 5/5
+","
+3 / 2/2 / 2/2
+","
+		Multi/Final
+		","
+		**
+		","
+		**
+		"
+19,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Down B (Menu/Select)
+		","
+		--
+		","
+		19
+		","
+		--
+		","
+		--
+		","
+		** 
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		--
+		","
+		--
+		"
+20,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Bang
+		","
+		5
+		","
+		38
+		","
+		--
+		","
+		Cost: 9MP
+		","
+		1.5/14.0
+		","
+		--/11
+		","
+		--/5
+		","
+		Projectile/Explosion
+		","
+		-16
+		","
+		5—39/1—21
+		"
+21,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Kaboom
+		","
+		6
+		","
+		43
+		","
+		--
+		","
+		Cost: 37MP. Explosion frames 17—40. Windbox frames 1—16.
+		","
+		2.0/26.0
+		","
+		4/15
+		","
+		2/8
+		","
+		Projectile/Explosion
+		","
+		+2
+		","
+		6—27/1—16/17—40
+		"
+22,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Sizz
+		","
+		6
+		","
+		39
+		","
+		--
+		","
+		Cost: 8MP (doesn't erupt on shields)
+		","
+		1.5/12.0
+		","
+		5
+		","
+		2
+		","
+		Projectile/Explosion
+		","
+		-26
+		","
+		6—19/1—24
+		"
+23,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Sizzle
+		","
+		6
+		","
+		43
+		","
+		--
+		","
+		Cost: 20MP (doesn't erupt on shields)
+		","
+		3.0/22.0
+		","
+		5
+		","
+		2
+		","
+		Projectile/Explosion
+		","
+		-30
+		","
+		6—17/1—24
+		"
+24,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Whack
+		","
+		6
+		","
+		41
+		","
+		--
+		","
+		Cost: 10MP (chance to instantly obliterate opponent, higher chance with higher opponent %)
+		","
+		1.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-29
+		","
+		6—125
+		"
+25,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Thwack
+		","
+		23
+		","
+		58
+		","
+		--
+		","
+		Cost: 30MP (chance to instantly obliterate opponent, higher chance with higher opponent %)
+		","
+		3.0
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		-28
+		","
+		22—33
+		"
+26,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Kamikazee
+		","
+		44/50
+		","
+		??
+		","
+		--
+		","
+		Invulnerable for entire duration. Unblockable. Cost: 1MP. Time slows after frame 41, giving victims about two frames to act. Hit 2 does 50.0 damage in the center or 35.0 damage on the outer hitbox.
+		","
+		0.1 / 50.0 (35.0)
+		","
+		Unblockable
+		","
+		Unblockable
+		","
+		--
+		","
+		--
+		","
+		44—49/50
+		"
+27,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Magic Burst
+		","
+		23/33/43/53/63/73/83/93/101
+		","
+		151
+		","
+		--
+		","
+		Cost: All MP. Hitbox size and damage increases based on how much MP you have. Hero does not suffer hitlag from this attack.
+		","
+		1.0—4.2/2.7—11.0
+		","
+		4—5/7—13
+		","
+		2—4/4—10
+		","
+		Multi/Final
+		","
+		-36 — -24
+		","
+		23/33/43/53/63/73/83/93/101
+		"
+28,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Snooze
+		","
+		6
+		","
+		47
+		","
+		--
+		","
+		Cost: 16MP. Can put airborne opponents to sleep
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		**
+		"
+29,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Heal
+		","
+		**
+		","
+		39
+		","
+		--
+		","
+		Cost: 7MP. Heals 11.0 damage on frame 6. Amount not affected by 1v1 multiplier.
+		","
+		Heals 11.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		"
+30,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Oomph
+		","
+		**
+		","
+		42
+		","
+		--
+		","
+		Cost: 16MP. Damage of (only) melee attacks multiplied by 1.6. Damage received multiplied by 1.2. Lasts 10 seconds.
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		**
+		"
+31,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Acceleratle
+		","
+		**
+		","
+		34
+		","
+		--
+		","
+		Cost: 13MP. Zoom-zoom!
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		**
+		"
+32,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Bounce
+		","
+		**
+		","
+		34
+		","
+		--
+		","
+		Cost: 14MP. Begins reflecting on frame 6
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		**
+		"
+33,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Kaclang
+		","
+		**
+		","
+		344
+		","
+		--
+		","
+		Cost: 6MP. Invincible on frame 15-315
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		**
+		"
+34,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Zoom
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		Cost: 8MP. Can act before landing back onstage
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		**
+		"
+35,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Hocus Pocus
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		Cost: 4MP. Casts a random spell. Can also put Hero to sleep, turn Hero invisible, shrink Hero, or mushroom grow Hero. 
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		**
+		"
+36,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Flame Slash
+		","
+		6
+		","
+		38
+		","
+		--
+		","
+		Cost: 12MP
+		","
+		22.0
+		","
+		12
+		","
+		19
+		","
+		--
+		","
+		-13
+		","
+		6—8
+		"
+37,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Kacrackle Slash
+		","
+		6
+		","
+		35
+		","
+		--
+		","
+		Cost: 11MP
+		","
+		17.0
+		","
+		10
+		","
+		15
+		","
+		--
+		","
+		-12
+		","
+		6—8
+		"
+38,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Hatchet Man
+		","
+		37
+		","
+		88
+		","
+		--
+		","
+		Cost: 15MP. Shield Breaks.
+		","
+		35.0
+		","
+		Shield Breaks
+		","
+		Shield Breaks
+		","
+		--
+		","
+		Shield Breaks
+		","
+		37—40
+		"
+39,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Metal Slash
+		","
+		11
+		","
+		39
+		","
+		--
+		","
+		Cost: 6MP
+		","
+		1.0
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		-26
+		","
+		11—12
+		"
+40,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Psych Up
+		","
+		**
+		","
+		45
+		","
+		--
+		","
+		Cost: 14MP. Raises the damage and knockback of Hero’s next attack, will last until a move fully connects or is blocked by an opponent’s shield.
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		"
+41,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Grab
+		","
+		6
+		","
+		34
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		6—7
+		"
+42,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Dash Grab
+		","
+		9
+		","
+		42
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+43,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Pivot Grab
+		","
+		10
+		","
+		37
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+44,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Pummel
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		**
+		","
+		**
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+45,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Forward Throw
+		","
+		16
+		","
+		44
+		","
+		--
+		","
+		--		
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+46,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Backward Throw
+		","
+		18
+		","
+		43
+		","
+		--
+		","
+		--		
+		","
+		9.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+47,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Up Throw
+		","
+		17
+		","
+		35
+		","
+		--
+		","
+		--		
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+48,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Down Throw
+		","
+		19
+		","
+		38
+		","
+		--
+		","
+		--		
+		","
+		6.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+49,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Spot Dodge
+		","
+		19
+		","
+		20/25
+		","
+		--
+		","
+		Invulnerable on frame 3-17
+		","
+		6.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+50,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Forward Roll
+		","
+		19
+		","
+		29
+		","
+		--
+		","
+		Invulnerable on frame 4-15	
+		","
+		6.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+51,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Backward Roll
+		","
+		19
+		","
+		34
+		","
+		--
+		","
+		Invulnerable on frame 5-16 	
+		","
+		6.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+52,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Neutral Air Dodge
+		","
+		19
+		","
+		50
+		","
+		**
+		","
+		Invulnerable on frame 3-30
+		","
+		6.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+53,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Air Dodge, Down
+		","
+		19
+		","
+		69
+		","
+		**
+		","
+		Invulnerable on frame 3-21			
+		","
+		6.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+54,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		19
+		","
+		**
+		","
+		**
+		","
+		Invulnerable on frame 3-21		
+		","
+		6.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+55,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Air Dodge, Left/Right
+		","
+		19
+		","
+		83
+		","
+		**
+		","
+		Invulnerable on frame 3-21	
+		","
+		6.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+56,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		19
+		","
+		**
+		","
+		**
+		","
+		Invulnerable on frame 3-21	
+		","
+		6.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+57,"<h1 class=""charactername"">
+Hero
+</h1>","
+		Air Dodge, Up
+		","
+		19
+		","
+		109
+		","
+		**
+		","
+		Invulnerable on frame 3-21	
+		","
+		6.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+58,"<h1 class=""charactername"">
+Hero
+</h1>","
+			Ledge Grab
+		","
+		19
+		","
+		109
+		","
+		**
+		","
+		Invulnerable on frame 3-21	
+		","
+		6.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+59,"<h1 class=""charactername"">
+Hero
+</h1>","
+			Ledge Grab
+		","
+		19
+		","
+		109
+		","
+		**
+		","
+		Invulnerable on frame 3-21	
+		","
+		6.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+60,"<h1 class=""charactername"">
+Hero
+</h1>","
+				Ledge Hang
+			","
+		19
+		","
+		109
+		","
+		**
+		","
+		Invulnerable on frame 3-21	
+		","
+		6.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"

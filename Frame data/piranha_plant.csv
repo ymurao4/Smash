@@ -1,1 +1,1101 @@
 ,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Jab 1
+		","
+		2
+		","
+		19
+		","
+		--
+		","
+		Transitions to jab 2 on frame 5
+		","
+		2.4
+		","
+		10
+		","
+		3
+		","
+		--
+		","
+		-13
+		","
+		2—3
+		"
+1,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Jab 2
+		","
+		2
+		","
+		20
+		","
+		--
+		","
+		Transitions to jab 3 as early as frame 8 and rapid as early as frame 7
+		","
+		2.2
+		","
+		5
+		","
+		3
+		","
+		--
+		","
+		-15
+		","
+		2—3
+		"
+2,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Jab 3
+		","
+		7
+		","
+		25
+		","
+		--
+		","
+		--
+		","
+		4.4
+		","
+		--
+		","
+		10
+		","
+		5
+		","
+		-13
+		","
+		7—8
+		"
+3,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Rapid Jab
+		","
+		6/10/14...
+		","
+		39
+		","
+		--
+		","
+		--
+		","
+		0.6
+		","
+		4
+		","
+		5
+		","
+		--
+		","
+		**
+		","
+		6/10/14...
+		"
+4,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Rapid Jab Finisher
+		","
+		7
+		","
+		40
+		","
+		--
+		","
+		--
+		","
+		3.4
+		","
+		--
+		","
+		15
+		","
+		4
+		","
+		-29
+		","
+		6—7
+		"
+5,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Forward Tilt 1
+		","
+		7
+		","
+		27
+		","
+		--
+		","
+		Transitions to F-tilt 2 as early as frame 12
+		","
+		5.5
+		","
+		8
+		","
+		6
+		","
+		--
+		","
+		-14
+		","
+		7—8
+		"
+6,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Forward Tilt 2
+		","
+		5
+		","
+		31
+		","
+		--
+		","
+		--
+		","
+		6.0
+		","
+		9
+		","
+		6
+		","
+		--
+		","
+		-20
+		","
+		5—6
+		"
+7,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Up Tilt
+		","
+		6
+		","
+		26
+		","
+		--
+		","
+		Head intangibility on frame 6-13
+		","
+		9.0/7.0
+		","
+		7/7
+		","
+		9/7
+		","
+		Head/Body
+		","
+		-11/-13
+		","
+		6—13
+		"
+8,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Down Tilt
+		","
+		9
+		","
+		28
+		","
+		--
+		","
+		--
+		","
+		6.0/7.0
+		","
+		6/7
+		","
+		6/7
+		","
+		Close/Far
+		","
+		-12/-12
+		","
+		9—10
+		"
+9,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Dash Attack
+		","
+		7
+		","
+		47
+		","
+		--
+		","
+		--
+		","
+		10.0/7.0
+		","
+		8/7
+		","
+		12/9
+		","
+		Early/Late
+		","
+		-28
+		","
+		7—9/10—14
+		"
+10,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Forward Smash
+		","
+		16
+		","
+		51
+		","
+		--
+		","
+		Head intangibility on frame 16-17. Charge hold is frame 5
+		","
+		15.0/19.0
+		","
+		10/13
+		","
+		10/13
+		","
+		Close/Far
+		","
+		-25/-22
+		","
+		16—17
+		"
+11,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Up Smash
+		","
+		12/16
+		","
+		51
+		","
+		--
+		","
+		Head intangibility on frame 12-18. Charge hold is frame 6
+		","
+		3.0/12.0
+		","
+		5/10
+		","
+		3/8
+		","
+		--
+		","
+		-27
+		","
+		12—15/16—18
+		"
+12,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Down Smash
+		","
+		10/14
+		","
+		43
+		","
+		--
+		","
+		Charge hold is frame 5
+		","
+		12.0/14.0
+		","
+		9/10
+		","
+		8/10
+		","
+		--
+		","
+		-24
+		","
+		10—11/14—15
+		"
+13,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Neutral Air
+		","
+		8/11/14/17/18
+		","
+		47
+		","
+		15
+		","
+		Autocancels on frame 1-4 and 40 onward
+		","
+		2.0/3.0
+		","
+		4/9
+		","
+		2/2
+		","
+		Multi/Final
+		","
+		-13/-13
+		","
+		8—17/18—19
+		"
+14,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Forward Air
+		","
+		7
+		","
+		44
+		","
+		13
+		","
+		Autocancels on frame 1-2 and 36 onward
+		","
+		9.0/11.0
+		","
+		7/8
+		","
+		4/4
+		","
+		Close/Far
+		","
+		-9/-9
+		","
+		7—9
+		"
+15,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Back Air
+		","
+		14
+		","
+		61
+		","
+		16
+		","
+		Autocancels on frame 1-4 and 43 onward
+		","
+		14.5
+		","
+		10
+		","
+		5
+		","
+		--
+		","
+		-11
+		","
+		14—15
+		"
+16,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Up Air
+		","
+		7
+		","
+		38
+		","
+		10
+		","
+		Autocancels on frame 22 onward. Head and stem intangibility 7—9.
+		","
+		10.0
+		","
+		7
+		","
+		4
+		","
+		--
+		","
+		-6
+		","
+		7—9
+		"
+17,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Down Air
+		","
+		9
+		","
+		44
+		","
+		18
+		","
+		Autocancels on frame 1-2 and 33 onward
+		","
+		11.0/9.0
+		","
+		8/7
+		","
+		4/4
+		","
+		Early/Late
+		","
+		-14/-14
+		","
+		9—10/11—14
+		"
+18,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Neutral B (Ptooie)
+		","
+		9
+		","
+		--
+		","
+		--
+		","
+		To blow away is 41 total frames. Earliest you can blow away is on 22. Endlag is 18 if projectile makes contact. Eating projectile is 44 frames or 30 if it's close to you. Ptooie can eat a single attack of up to 10% while hovering before being knocked down (like damage based armor but for a projectile).
+		","
+		14.0/18.0/15.3
+		","
+		12/14/12
+		","
+		13/6/5
+		","
+		Initial/Blown Away/After Bounce
+		","
+		+6/-3
+		","
+		9...
+		"
+19,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Side B (Poison Breath)
+		","
+		10(+11)
+		","
+		38
+		","
+		--
+		","
+		10 frames to enter charge state, 11 startup from charge. Hitbox lasts 82 frames at no charge. Cloud grows from frame 1-25 and slowly moves, stops moving on frame 45. Wind box 12-25.
+		","
+		!!!
+		","
+		0
+		","
+		3
+		","
+		--
+		","
+		**
+		","
+		21—102
+		"
+20,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Side B, Full Charge (Poison Breath, Full Charge)
+		","
+		10
+		","
+		48
+		","
+		--
+		","
+		Cloud deals damage every 4 frames at first then every 7 towards the end. Hitbox lasts 122 frames. Takes 95 frames to reach full charge. Takes 2 frames to cancel charge with hield. Cloud grows from frame 1-25 and slowly moves, stops moving on frame 75. Wind box 12-25. 
+		","
+		!!!
+		","
+		0
+		","
+		3
+		","
+		--
+		","
+		**
+		","
+		21—142
+		"
+21,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Up B (Piranhacopter)
+		","
+		13...
+		","
+		--
+		","
+		20
+		","
+		16-55/56-61/62-67 are rehitting hitboxes, rehit rate of 6.
+		","
+		1.2/4.0
+		","
+		4/--
+		","
+		2/--
+		","
+		Hit 1/Multihits (Early)/Multihits (Mid)/Multihits (Late)/Final Hit
+		","
+		**
+		","
+		13-14/15/16-55/56-61/62-67
+		"
+22,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Down B (Long Stem Strike)
+		","
+		2(+18)
+		","
+		39/49
+		","
+		--
+		","
+		Startup is 2 upon reaching target. Reaches full charge on frame 78. Takes 18 frames to enter charge state Endlag on hit is 39, or 49 if you tipped over. Endlag on whiff is 49 or 59 if you tipped over. Head intangibility begins on frame 3 of travel or frame 1 of reaching a target, whichever comes first. Pot damage-based armor begins on frame 18, 15% (18% in 1v1).
+		","
+		8.4—26.0
+		","
+		7—17
+		","
+		8—22
+		","
+		--
+		","
+		-31 to -17 (-10 more when tipped over)
+		","
+		**
+		"
+23,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Footstool Attack
+		","
+		13
+		","
+		22
+		","
+		--
+		","
+		Occurs whenever Piranha Plant is footstooled while crouching.
+		","
+		4.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		5—6
+		"
+24,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Grab
+		","
+		6
+		","
+		34
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		6—7
+		"
+25,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Dash Grab
+		","
+		9
+		","
+		42
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+26,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Pivot Grab
+		","
+		9
+		","
+		36
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+27,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Pummel
+		","
+		**
+		","
+		**
+		","
+		**
+		","
+		**	
+		","
+		**
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+28,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Forward Throw
+		","
+		13/14
+		","
+		31
+		","
+		--
+		","
+		--		
+		","
+		**
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+29,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Backward Throw
+		","
+		19
+		","
+		34
+		","
+		--
+		","
+		--		
+		","
+		**
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+30,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Up Throw
+		","
+		20
+		","
+		49
+		","
+		--
+		","
+		--		
+		","
+		**
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+31,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Down Throw
+		","
+		20/30/31
+		","
+		47
+		","
+		--
+		","
+		--		
+		","
+		**
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+32,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Spot Dodge
+		","
+		20/30/31
+		","
+		20/25
+		","
+		--
+		","
+		Invulnerable on frame 3-17		
+		","
+		**
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+33,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Forward Roll
+		","
+		20/30/31
+		","
+		29
+		","
+		--
+		","
+		Invulnerable on frame 4-15.		
+		","
+		**
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+34,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Backward Roll
+		","
+		20/30/31
+		","
+		34
+		","
+		--
+		","
+		Invulnerable on frame 5-16.		
+		","
+		**
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+35,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Neutral Air Dodge
+		","
+		20/30/31
+		","
+		42
+		","
+		10
+		","
+		Invulnerable on frame 3-30.		
+		","
+		**
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+36,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Air Dodge, Down
+		","
+		20/30/31
+		","
+		58
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		**
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+37,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		20/30/31
+		","
+		66
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		**
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+38,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Air Dodge, Left/Right
+		","
+		20/30/31
+		","
+		69
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.			
+		","
+		**
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+39,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		20/30/31
+		","
+		81
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.			
+		","
+		**
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+40,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+		Air Dodge, Up
+		","
+		20/30/31
+		","
+		88
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		**
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+41,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+			Ledge Grab
+		","
+		20/30/31
+		","
+		88
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		**
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+42,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+			Ledge Grab
+		","
+		20/30/31
+		","
+		88
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		**
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+43,"<h1 class=""charactername"">
+piranha plant
+</h1>","
+				Ledge Hang
+			","
+		20/30/31
+		","
+		88
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21.	
+		","
+		**
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"

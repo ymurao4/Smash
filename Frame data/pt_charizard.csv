@@ -1,60 +1,110 @@
 ,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
 0,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Charizard
 </h1>","
 		Jab 1
 		","
-		3
+		4
 		","
-		20
+		22
 		","
 		--
 		","
-		Transitions to jab 2 as early as frame 11
+		Transitions to jab 2 as early as frame 7
 		","
-		3.0
+		2.5
 		","
-		5
+		7
 		","
 		4
 		","
 		--
 		","
-		-13
+		-14
 		","
-		3—4
+		4—5
 		"
 1,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Charizard
 </h1>","
 		Jab 2
 		","
-		3
+		5
 		","
-		20
-		","
-		--
+		25
 		","
 		--
 		","
-		3.0
+		Transitions to jab 3 as early as frame 8 
 		","
-		10
+		2.5
+		","
+		6
 		","
 		4
 		","
 		--
 		","
-		-13
+		-16
 		","
-		3—4
+		5—6
 		"
 2,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Charizard
+</h1>","
+		Jab 3
+		","
+		7
+		","
+		33
+		","
+		--
+		","
+		--
+		","
+		5.0
+		","
+		9
+		","
+		6
+		","
+		--
+		","
+		-20
+		","
+		7—8
+		"
+3,"<h1 class=""charactername"">
+Pokemon Trainer: Charizard
 </h1>","
 		Forward Tilt
 		","
-		7
+		12
+		","
+		37
+		","
+		--
+		","
+		--
+		","
+		7.0/11.0
+		","
+		7/8
+		","
+		7/10
+		","
+		Close/Far
+		","
+		-18/-15
+		","
+		12—13
+		"
+4,"<h1 class=""charactername"">
+Pokemon Trainer: Charizard
+</h1>","
+		Up Tilt
+		","
+		9
 		","
 		33
 		","
@@ -70,543 +120,468 @@ R.O.B.
 		","
 		--
 		","
-		-18
+		-16
 		","
-		7—9
+		9—12
 		"
-3,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Up Tilt
-		","
-		4/6
-		","
-		26
-		","
-		--
-		","
-		--
-		","
-		3.0/5.0
-		","
-		5/6
-		","
-		4/6
-		","
-		--
-		","
-		-14
-		","
-		4—5/6—7
-		"
-4,"<h1 class=""charactername"">
-R.O.B.
+5,"<h1 class=""charactername"">
+Pokemon Trainer: Charizard
 </h1>","
 		Down Tilt
 		","
-		3
-		","
-		14
-		","
-		--
-		","
-		--
-		","
-		5.0
-		","
-		6
-		","
-		6
-		","
-		--
-		","
-		-5
-		","
-		3
-		"
-5,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Dash Attack
-		","
-		7
-		","
-		31
-		","
-		--
-		","
-		--
-		","
-		7.0
-		","
-		7
-		","
-		7
-		","
-		--
-		","
-		-17
-		","
-		7—8
-		"
-6,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Forward Smash
-		","
-		16
-		","
-		54
-		","
-		--
-		","
-		Charge hold is frame 6
-		","
-		15.0/11.5/6.0
-		","
-		15/13/9
-		","
-		10/8/5
-		","
-		Close/Far/Farther
-		","
-		-28/-30/-33
-		","
-		16—17
-		"
-7,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Up Smash
-		","
-		10/14
-		","
-		48
-		","
-		--
-		","
-		Charge hold is frame 7
-		","
-		3.0/14.0
-		","
-		5/10
-		","
-		3/10
-		","
-		--
-		","
-		-35/-24
-		","
-		10—11/14—18
-		"
-8,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Down Smash
-		","
-		7/11/16
-		","
-		45
-		","
-		--
-		","
-		Charge hold is frame 3
-		","
-		3.5/5.0
-		","
-		5/12
-		","
-		3/4
-		","
-		Multi/Final
-		","
-		-25
-		","
-		7—8/11—12/16
-		"
-9,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Neutral Air
-		","
-		14
-		","
-		47
-		","
-		7
-		","
-		Autocancels on frame 33 onward
-		","
-		7.5/9.5
-		","
-		7/8
-		","
-		3/4
-		","
-		Close/Final
-		","
-		-4/-3
-		","
-		14—32
-		"
-10,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Forward Air
-		","
-		6
-		","
-		35
-		","
 		9
 		","
-		Autocancels on frame 25 onward
-		","
-		7.0
-		","
-		7
-		","
-		3
-		","
-		--
-		","
-		-6
-		","
-		6—8
-		"
-11,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Back Air
-		","
-		19
-		","
-		52
-		","
-		13
-		","
-		Autocancels on frame 46 onward
-		","
-		15.0/13.0/9.0
-		","
-		12/11/9
-		","
-		5/5/4
-		","
-		Close/Far/Late
-		","
-		-8/-9
-		","
-		19—23/24—32
-		"
-12,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Up Air
-		","
-		7/9/13/17/23
-		","
-		51
-		","
-		13
-		","
-		Autocancels on frame 40 onward
-		","
-		1.5/4.0
-		","
-		4/11
-		","
-		2/3
-		","
-		Multi/Final
-		","
-		-11/-10
-		","
-		7/9/13/17/23—24
-		"
-13,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Down Air
-		","
-		20
-		","
-		69
-		","
-		12
-		","
-		Autocancels on frame 45 onward. Advantage uses Total Frames
-		","
-		12.0/11.0/6.0
-		","
-		9/8/6
-		","
-		5/4/3
-		","
-		Close/Far/Farther
-		","
-		-44/-45/-46
-		","
-		20—21/20—26/22—26
-		"
-14,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Neutral B (Robo Beam)
-		","
-		25
-		","
-		49
-		","
-		--
-		","
-		Melee attack and projectile generate on same frame
-		","
-		7.0/4.5/11.5, 7.0/15.0/22.0
-		","
-		7/5/7, 7/13/13
-		","
-		7/3/7, 7/5/14
-		","
-		Small Beam Close/Far/farther, Large Beam Melee/beam/both
-		","
-		-17/-16/-17, -17/-6/-10
-		","
-		25—27 (melee), 25—43 (small beam), 25—66 (large beam)
-		"
-15,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Side B (Arm Rotor)
-		","
-		13/18/23/28/33/44
-		","
-		85
-		","
-		--
-		","
-		Multihits have no hitlag but do have shieldlag. Reflects on frame 13-35
-		","
-		1.5/3.0
-		","
-		4/12
-		","
-		3/4
-		","
-		Multi/Final
-		","
-		-37
-		","
-		13—**
-		"
-16,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Side B (Arm Rotor, Mashing)
-		","
-		13/18/23/28/33/38/ 43/48/53/58/66
-		","
-		107
-		","
-		--
-		","
-		Multihits have no hitlag but do have shieldlag. Reflects on frame 13-60
-		","
-		1.5/3.0
-		","
-		4/12
-		","
-		3/4
-		","
-		Multi/Final
-		","
-		-37
-		","
-		--
-		"
-17,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Up B (Robo Burner)
+		30
 		","
 		--
 		","
 		--
 		","
-		--
-		","
-		Invulnerable on frame 2-4 on the ground. Can act on frame 25. Fuel lasts up to 143 frames.
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		"
-18,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Down B (Gyro)
-		","
-		3(+6), 9
-		","
-		36, 42
-		","
-		--
-		","
-		3 startup from charging state. 6 frames to enter charging state. Reaches full charge on frame 98. Damage depends on current item velocity.
-		","
-		3.6—10.7, 10.7
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
-		","
-		-26 to -21, -21
-		","
-		--
-		"
-19,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Grab
-		","
-		6
-		","
-		37
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
-		","
-		-26 to -21, -21
-		","
-		6—7
-		"
-20,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Dash Grab
-		","
-		9
-		","
-		45
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
-		","
-		-26 to -21, -21
-		","
-		9—10
-		"
-21,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Pivot Grab
+		10.0
 		","
 		10
 		","
-		40
+		10
 		","
 		--
 		","
-		--		
+		-11
+		","
+		9—10
+		"
+6,"<h1 class=""charactername"">
+Pokemon Trainer: Charizard
+</h1>","
+		Dash Attack
+		","
+		10
+		","
+		39
 		","
 		--
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		13.0/10.0
 		","
-		Normal, Full Charge
+		9/8
 		","
-		-26 to -21, -21
+		17/14
 		","
-		10—11
+		Early/Late
+		","
+		-12
+		","
+		10—12/13—20
 		"
-22,"<h1 class=""charactername"">
-R.O.B.
+7,"<h1 class=""charactername"">
+Pokemon Trainer: Charizard
 </h1>","
-		Pummel
+		Forward Smash
 		","
-		1
+		22
 		","
-		18
+		69
 		","
-		**
+		--
 		","
-		Total frames includes 13 frames of hitlag	
+		Invulnerable on frame 20-24. Charge hold is frame 15
 		","
-		1.3
+		19.0/16.4
 		","
-		5—8, 8
+		15/10
 		","
-		2—4, 4
+		11/10
 		","
-		Normal, Full Charge
+		Close/Far
 		","
-		-26 to -21, -21
+		-36/-37
 		","
-		10—11
+		22/23—24
 		"
-23,"<h1 class=""charactername"">
-R.O.B.
+8,"<h1 class=""charactername"">
+Pokemon Trainer: Charizard
 </h1>","
-		Forward Throw
+		Up Smash
+		","
+		6/14
+		","
+		46
+		","
+		--
+		","
+		Charge hold is frame 2
+		","
+		5.0/11.0
+		","
+		6/8
+		","
+		4/8
+		","
+		Hit 1(Ground Only/Late) / Hit 2
+		","
+		-24
+		","
+		(6/7—9) / 14—19
+		"
+9,"<h1 class=""charactername"">
+Pokemon Trainer: Charizard
+</h1>","
+		Down Smash
+		","
+		14
+		","
+		60
+		","
+		--
+		","
+		Charge hold is frame 1
+		","
+		16.0
+		","
+		10
 		","
 		11
 		","
+		--
+		","
+		-35
+		","
+		14—16
+		"
+10,"<h1 class=""charactername"">
+Pokemon Trainer: Charizard
+</h1>","
+		Neutral Air
+		","
+		8
+		","
+		39
+		","
+		10
+		","
+		Autocancels on frame 1-3 and 31 onward 
+		","
+		9.0/12.0
+		","
+		7/9
+		","
+		4/5
+		","
+		Close/Far
+		","
+		-6/-5
+		","
+		8—20
+		"
+11,"<h1 class=""charactername"">
+Pokemon Trainer: Charizard
+</h1>","
+		Forward Air
+		","
+		8
+		","
+		45
+		","
+		19
+		","
+		Autocancels on frame 1-4 and 35 onward
+		","
+		12.0/13.0
+		","
+		9/9
+		","
+		5/5
+		","
+		Close/Far
+		","
+		-14/-14
+		","
+		8—9/10—12
+		"
+12,"<h1 class=""charactername"">
+Pokemon Trainer: Charizard
+</h1>","
+		Back Air
+		","
+		14
+		","
+		45
+		","
+		20
+		","
+		Autocancels on frame 1-3 and 44 onward
+		","
+		11.0/14.0/16.0
+		","
+		8/10/10
+		","
+		4/5/6
+		","
+		Close/far/farther
+		","
+		-16/-15/-14
+		","
+		14/15—16
+		"
+13,"<h1 class=""charactername"">
+Pokemon Trainer: Charizard
+</h1>","
+		Up Air
+		","
+		12
+		","
+		45
+		","
+		13
+		","
+		Head intangibility on frame 11-15. Autocancels on frame 1-3 and 38 onward
+		","
+		13.0
+		","
+		9
+		","
+		5
+		","
+		--
+		","
+		-8
+		","
+		12—15
+		"
+14,"<h1 class=""charactername"">
+Pokemon Trainer: Charizard
+</h1>","
+		Down Air
+		","
+		18
+		","
+		51
+		","
+		21
+		","
+		Autocancels on frame 1-5 and 42 onward
+		","
+		14.0/8.0
+		","
+		10/7
+		","
+		5/4
+		","
+		Early/Late
+		","
+		-16/-17
+		","
+		18—20/21—24
+		"
+15,"<h1 class=""charactername"">
+Pokemon Trainer: Charizard
+</h1>","
+		Neutral B (Flamethrower)
+		","
+		19/26/33/40
+		","
+		70
+		","
+		--
+		","
+		Startup and total frames are the minimum. Endlag is 27 from extended use
+		","
+		2.0/1.0
+		","
+		4/4
+		","
+		2/2
+		","
+		Close/Far
+		","
+		-24
+		","
+		19—22/26—29/33—36/40—43
+		"
+16,"<h1 class=""charactername"">
+Pokemon Trainer: Charizard
+</h1>","
+		Side B (Flare Blitz)
+		","
 		23
+		","
+		101
+		","
+		--
+		","
+		58 endlag on hit if nothing catches your fall first. Lands on 48 on level ground and can input a wakeup move on 73. Total frames is when you don't hit anything. Explosion is frames 2—4 after connecting. Damage based armor 15% (18% in 1v1) on frames 23—51. 
+		","
+		6.0/18.0
+		","
+		6/15
+		","
+		-/6
+		","
+		--
+		","
+		-52/-66
+		","
+		23—51
+		"
+17,"<h1 class=""charactername"">
+Pokemon Trainer: Charizard
+</h1>","
+		Up B (Fly)
+		","
+		9...
+		","
+		--
+		","
+		30
+		","
+		Super armor on frame 4-15
+		","
+		5.0/2.0/4.0
+		","
+		6/4/5
+		","
+		6/3/5
+		","
+		--
+		","
+		--
+		","
+		9—10/16—26(rehit: 3)/27—28
+		"
+18,"<h1 class=""charactername"">
+Pokemon Trainer: Charizard
+</h1>","
+		Down B (Pokemon Change)
+		","
+		--
+		","
+		39
+		","
+		--
+		","
+		Invulnerable on frame 1-25. ~140 frame period before you can change again.
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		**
+		"
+19,"<h1 class=""charactername"">
+Pokemon Trainer: Charizard
+</h1>","
+		Grab
+		","
+		8
+		","
+		39
 		","
 		--
 		","
 		--		
 		","
-		8.0
+		--
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		8—10
 		"
-24,"<h1 class=""charactername"">
-R.O.B.
+20,"<h1 class=""charactername"">
+Pokemon Trainer: Charizard
 </h1>","
-		Backward Throw
+		Dash Grab
+		","
+		11
+		","
+		45
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		11—13
+		"
+21,"<h1 class=""charactername"">
+Pokemon Trainer: Charizard
+</h1>","
+		Pivot Grab
 		","
 		12
 		","
-		26
+		42
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12—14
+		"
+22,"<h1 class=""charactername"">
+Pokemon Trainer: Charizard
+</h1>","
+		Pummel
+		","
+		2
+		","
+		21
+		","
+		--
+		","
+		Total frames includes 14 frames of hitlag
+		","
+		1.6
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12—14
+		"
+23,"<h1 class=""charactername"">
+Pokemon Trainer: Charizard
+</h1>","
+		Forward Throw
+		","
+		27
+		","
+		59
 		","
 		--
 		","
@@ -614,363 +589,388 @@ R.O.B.
 		","
 		10.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		12—14
 		"
-25,"<h1 class=""charactername"">
-R.O.B.
+24,"<h1 class=""charactername"">
+Pokemon Trainer: Charizard
 </h1>","
-		Up Throw
+		Backward Throw
 		","
-		58
+		26
 		","
-		81
+		32
 		","
 		--
 		","
 		--		
 		","
-		12.0
+		10.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		12—14
+		"
+25,"<h1 class=""charactername"">
+Pokemon Trainer: Charizard
+</h1>","
+		Up Throw
+		","
+		52/58
+		","
+		79
+		","
+		--
+		","
+		--	
+		","
+		8.0/3.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12—14
 		"
 26,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Charizard
 </h1>","
 		Down Throw
 		","
-		50
+		24/30/36/42/48/55
 		","
-		75
+		76
 		","
 		--
 		","
-		Buries	
+		--
 		","
-		5.0
+		1.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		12—14
 		"
 27,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Charizard
 </h1>","
 		Spot Dodge
 		","
-		50
+		24/30/36/42/48/55
 		","
-		20/25
+		23/28
 		","
 		--
 		","
-		Invulnerable on frame 3-17		
+		Invulnerable on frame 3-18
 		","
-		5.0
+		1.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		12—14
 		"
 28,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Charizard
 </h1>","
 		Forward Roll
 		","
-		50
+		24/30/36/42/48/55
 		","
-		29
+		32
 		","
 		--
 		","
-		Invulnerable on frame 4-15
+		Invulnerable on frame 4-16
 		","
-		5.0
+		1.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		12—14
 		"
 29,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Charizard
 </h1>","
 		Backward Roll
 		","
-		50
+		24/30/36/42/48/55
 		","
-		34
+		37
 		","
 		--
 		","
-		Invulnerable on frame 5-16
+		Invulnerable on frame 5-17
 		","
-		5.0
+		1.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		12—14
 		"
 30,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Charizard
 </h1>","
 		Neutral Air Dodge
 		","
-		50
+		24/30/36/42/48/55
 		","
-		50
+		49
 		","
 		10
 		","
-		Invulnerable on frame 3-27
+		Invulnerable on frame 3-30
 		","
-		5.0
+		1.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		12—14
 		"
 31,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Charizard
 </h1>","
 		Air Dodge, Down
 		","
-		50
+		24/30/36/42/48/55
 		","
-		68
+		70
 		","
 		11-19
 		","
-		Invulnerable on frame 3-21
+		Invulnerable on frame 3-22
 		","
-		5.0
+		1.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		12—14
 		"
 32,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Charizard
 </h1>","
 		Air Dodge, Diagonally Down
 		","
-		50
+		24/30/36/42/48/55
 		","
-		75
+		78
 		","
 		11-19
 		","
-		Invulnerable on frame 3-21
+		Invulnerable on frame 3-22
 		","
-		5.0
+		1.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		12—14
 		"
 33,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Charizard
 </h1>","
 		Air Dodge, Left/Right
 		","
-		50
+		24/30/36/42/48/55
 		","
-		83
+		85
 		","
 		11-19
 		","
-		Invulnerable on frame 3-21
+		Invulnerable on frame 3-22
 		","
-		5.0
+		1.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		12—14
 		"
 34,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Charizard
 </h1>","
 		Air Dodge, Diagonally Up
 		","
-		50
+		24/30/36/42/48/55
 		","
-		100
+		99
 		","
 		11-19
 		","
-		Invulnerable on frame 3-21
+		Invulnerable on frame 3-22	
 		","
-		5.0
+		1.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		12—14
 		"
 35,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Charizard
 </h1>","
 		Air Dodge, Up
 		","
-		50
+		24/30/36/42/48/55
 		","
-		111
+		105
 		","
 		11-19
 		","
-		Invulnerable on frame 3-21
+		Invulnerable on frame 3-22
 		","
-		5.0
+		1.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		12—14
 		"
 36,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Charizard
 </h1>","
 			Ledge Grab
 		","
-		50
+		24/30/36/42/48/55
 		","
-		111
+		105
 		","
 		11-19
 		","
-		Invulnerable on frame 3-21
+		Invulnerable on frame 3-22
 		","
-		5.0
+		1.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		12—14
 		"
 37,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Charizard
 </h1>","
 			Ledge Grab
 		","
-		50
+		24/30/36/42/48/55
 		","
-		111
+		105
 		","
 		11-19
 		","
-		Invulnerable on frame 3-21
+		Invulnerable on frame 3-22
 		","
-		5.0
+		1.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		12—14
 		"
 38,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Charizard
 </h1>","
 				Ledge Hang
 			","
-		50
+		24/30/36/42/48/55
 		","
-		111
+		105
 		","
 		11-19
 		","
-		Invulnerable on frame 3-21
+		Invulnerable on frame 3-22
 		","
-		5.0
+		1.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		12—14
 		"

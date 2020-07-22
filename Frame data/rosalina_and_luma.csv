@@ -1,0 +1,1501 @@
+,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+				Ledge Hang
+			","
+		24
+		","
+		124
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+1,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Jab 1
+		","
+		5
+		","
+		20
+		","
+		--
+		","
+		Transitions to jab 2 as early as frame 9
+		","
+		2.0
+		","
+		7
+		","
+		3
+		","
+		--
+		","
+		-12
+		","
+		5
+		"
+2,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Jab 1 (Luma)
+		","
+		4
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		1.5
+		","
+		7(+3)
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		4
+		"
+3,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Jab 2
+		","
+		6
+		","
+		24
+		","
+		--
+		","
+		Transitions to jab 3 as early as frame 13
+		","
+		2.0
+		","
+		4
+		","
+		3
+		","
+		--
+		","
+		-15
+		","
+		6—7
+		"
+4,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Jab 2 (Luma)
+		","
+		6
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		1.5
+		","
+		4(+1)
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		6
+		"
+5,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Jab 3
+		","
+		7
+		","
+		35
+		","
+		--
+		","
+		--
+		","
+		3.0
+		","
+		10
+		","
+		4
+		","
+		--
+		","
+		-24
+		","
+		7—8
+		"
+6,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Jab 3 (Luma)
+		","
+		7
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		3.0
+		","
+		10(+5)
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		7—8
+		"
+7,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Rapid Jab
+		","
+		2/5/8/11...
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		0.3
+		","
+		4
+		","
+		3
+		","
+		--
+		","
+		--
+		","
+		2/5/8/11...
+		"
+8,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Rapid Jab (Luma)
+		","
+		3/6/9/12...
+		","
+		24
+		","
+		--
+		","
+		--
+		","
+		0.1
+		","
+		4
+		","
+		2
+		","
+		--
+		","
+		--
+		","
+		3/6/9/12...
+		"
+9,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Rapid Jab Finisher
+		","
+		5
+		","
+		38
+		","
+		--
+		","
+		--
+		","
+		2.5
+		","
+		10
+		","
+		4
+		","
+		--
+		","
+		-29
+		","
+		6—7
+		"
+10,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Rapid Jab Finisher (Luma)
+		","
+		5
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		1.5
+		","
+		8(+4)
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		6—7
+		"
+11,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Forward Tilt
+		","
+		7
+		","
+		37
+		","
+		--
+		","
+		--
+		","
+		7.5
+		","
+		7
+		","
+		8
+		","
+		--
+		","
+		-22
+		","
+		7—9
+		"
+12,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Forward Tilt (Luma)
+		","
+		8
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		6.7
+		","
+		10(+5)
+		","
+		3
+		","
+		--
+		","
+		**
+		","
+		8—10
+		"
+13,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Up Tilt
+		","
+		7
+		","
+		40
+		","
+		--
+		","
+		Head Intangible on frame 4-10
+		","
+		10.0/8.0
+		","
+		8/7
+		","
+		10/8
+		","
+		Early/Late
+		","
+		-23
+		","
+		7—10/11—17
+		"
+14,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Up Tilt (Luma)
+		","
+		3
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12.0/6.0/4.5
+		","
+		12(+4)/6(-2)/5(-1)
+		","
+		4/3/3
+		","
+		Early/Late/Later
+		","
+		**
+		","
+		3/4—5/6—10
+		"
+15,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Down Tilt
+		","
+		5
+		","
+		32
+		","
+		--
+		","
+		--
+		","
+		5.5
+		","
+		8
+		","
+		6
+		","
+		--
+		","
+		-21
+		","
+		5—8
+		"
+16,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Down Tilt (Luma)
+		","
+		8
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		5.2
+		","
+		9(+5)
+		","
+		3
+		","
+		--
+		","
+		**
+		","
+		8—13
+		"
+17,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Dash Attack
+		","
+		6/17
+		","
+		40
+		","
+		--
+		","
+		--
+		","
+		3.0/4.0
+		","
+		6/7
+		","
+		4/5
+		","
+		--
+		","
+		-18
+		","
+		6—9/17—19
+		"
+18,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Dash Attack (Luma)
+		","
+		6
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		4.5
+		","
+		8(+5)
+		","
+		2
+		","
+		--
+		","
+		**
+		","
+		6—8
+		"
+19,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Forward Smash
+		","
+		16
+		","
+		51
+		","
+		--
+		","
+		Charge hold is frame 9
+		","
+		12.0
+		","
+		11
+		","
+		8
+		","
+		--
+		","
+		-26
+		","
+		16—18
+		"
+20,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Forward Smash (Luma)
+		","
+		17
+		","
+		--
+		","
+		--
+		","
+		Charge hold is frame 9
+		","
+		10.5
+		","
+		14(+2)
+		","
+		4
+		","
+		--
+		","
+		**
+		","
+		17—18
+		"
+21,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Up Smash
+		","
+		8
+		","
+		47
+		","
+		--
+		","
+		Head intangible on frame 7-16. Charge hold is frame 3
+		","
+		12.0
+		","
+		9
+		","
+		8
+		","
+		--
+		","
+		-31
+		","
+		8—16
+		"
+22,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Up Smash (Luma)
+		","
+		10
+		","
+		--
+		","
+		--
+		","
+		Charge hold is frame 3
+		","
+		9.0
+		","
+		11(+4)
+		","
+		4
+		","
+		--
+		","
+		**
+		","
+		10—12/13—17
+		"
+23,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Down Smash
+		","
+		6/17
+		","
+		41
+		","
+		--
+		","
+		Charge hold is frame 3
+		","
+		7.0/9.0
+		","
+		10/11
+		","
+		6/7
+		","
+		--
+		","
+		-29/-17
+		","
+		6—7/17—18
+		"
+24,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Down Smash (Luma)
+		","
+		7/19
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		6.0/7.5
+		","
+		9(+5)/10(+5)
+		","
+		3/3
+		","
+		--
+		","
+		**
+		","
+		7—8/19—20
+		"
+25,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Neutral Air
+		","
+		9
+		","
+		43
+		","
+		8
+		","
+		Autocancels on frame 1-4 and 33 onward
+		","
+		10.0/7.0
+		","
+		7/7
+		","
+		4/3
+		","
+		Early/Late
+		","
+		-4/-5
+		","
+		9/10—19/20—31/32/33
+		"
+26,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Neutral Air (Luma)
+		","
+		7/13
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		3.0/3.0
+		","
+		5(+4)/5(+4)
+		","
+		3/3
+		","
+		--
+		","
+		**
+		","
+		7—9/13—15
+		"
+27,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Forward Air
+		","
+		10/13/16/19/22
+		","
+		59
+		","
+		16
+		","
+		Autocancels on frame 1-3 and 50 onward
+		","
+		1.0/4.0
+		","
+		4/8
+		","
+		2/3
+		","
+		Multi/Final
+		","
+		-14/-13
+		","
+		10—20(rehit rate: 3)/22
+		"
+28,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Forward Air (Luma)
+		","
+		11
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		4.5
+		","
+		5(-1)
+		","
+		3
+		","
+		--
+		","
+		**
+		","
+		11—13
+		"
+29,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Back Air
+		","
+		9
+		","
+		54
+		","
+		10
+		","
+		Autocancels on frame 1-3 and 50 onward
+		","
+		11.0
+		","
+		8
+		","
+		4
+		","
+		--
+		","
+		-4
+		","
+		9—11
+		"
+30,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Back Air (Luma)
+		","
+		10
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		6.0
+		","
+		9(+5)
+		","
+		3
+		","
+		--
+		","
+		**
+		","
+		10—15
+		"
+31,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Up Air
+		","
+		8
+		","
+		49
+		","
+		11
+		","
+		Autocancels on frame 45 onward
+		","
+		10.0/5.0/2.0
+		","
+		8/7/6
+		","
+		4/3/2
+		","
+		Early/Late/Later
+		","
+		-7/-8/-9
+		","
+		8—10/11—14/15—19
+		"
+32,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Up Air (Luma)
+		","
+		6
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		4.0
+		","
+		6(-2)
+		","
+		3
+		","
+		--
+		","
+		**
+		","
+		6—11
+		"
+33,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Down Air
+		","
+		17
+		","
+		49
+		","
+		12
+		","
+		Autocancels on frame 50 onward
+		","
+		8.0/6.0/2.0
+		","
+		7/6/4
+		","
+		4/3/2
+		","
+		Early/Late/Later
+		","
+		-7/-8/-9
+		","
+		17/18—22/23—25/26—32
+		"
+34,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Down Air (Luma)
+		","
+		15
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		5.0
+		","
+		10(+5)
+		","
+		3
+		","
+		--
+		","
+		**
+		","
+		15—19
+		"
+35,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Neutral B (Luma Shot)
+		","
+		10—91
+		","
+		34—115
+		","
+		--
+		","
+		4 startup and 28 total frames from charge state. Takes 6 frames to enter charge state. 87 frames to reach full charge. 
+		","
+		5.0—16.0
+		","
+		6—10
+		","
+		3—5
+		","
+		--
+		","
+		-15 to -9
+		","
+		15—19
+		"
+36,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Luma Recall
+		","
+		--
+		","
+		21/23
+		","
+		--
+		","
+		Second total frames is in the air.
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		15—19
+		"
+37,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Side B (Star Bits)
+		","
+		10/16/22
+		","
+		51
+		","
+		--
+		","
+		--
+		","
+		3.0
+		","
+		5
+		","
+		2
+		","
+		--
+		","
+		-22
+		","
+		15—19
+		"
+38,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Up B (Launch Star)
+		","
+		--
+		","
+		--
+		","
+		30
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		15—19
+		"
+39,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Down B (Gravitational Pull)
+		","
+		--
+		","
+		39
+		","
+		--
+		","
+		Pulls on frame 2-29
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		15—19
+		"
+40,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Grab
+		","
+		6
+		","
+		39
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		6—7
+		"
+41,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Dash Grab
+		","
+		9
+		","
+		46
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+42,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Pivot Grab
+		","
+		10
+		","
+		41
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+43,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Pummel
+		","
+		1
+		","
+		19
+		","
+		**
+		","
+		Total frames includes 13 frames of hitlag	
+		","
+		1.3
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+44,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Forward Throw
+		","
+		28
+		","
+		37
+		","
+		--
+		","
+		--		
+		","
+		9.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+45,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Backward Throw
+		","
+		30
+		","
+		42
+		","
+		--
+		","
+		--		
+		","
+		11.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+46,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Up Throw
+		","
+		13
+		","
+		37
+		","
+		--
+		","
+		--		
+		","
+		7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+47,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Down Throw
+		","
+		13
+		","
+		35
+		","
+		--
+		","
+		--
+		","
+		9.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+48,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Spot Dodge
+		","
+		13
+		","
+		21/26
+		","
+		--
+		","
+		Invulnerable on frame 3-17		
+		","
+		9.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+49,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Forward Roll
+		","
+		13
+		","
+		30
+		","
+		--
+		","
+		Invulnerable on frame 4-15
+		","
+		9.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+50,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Backward Roll
+		","
+		13
+		","
+		35
+		","
+		--
+		","
+		Invulnerable on frame 5-16
+		","
+		9.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+51,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Neutral Air Dodge
+		","
+		13
+		","
+		62
+		","
+		10
+		","
+		Invulnerable on frame 3-29
+		","
+		9.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+52,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Air Dodge, Down
+		","
+		13
+		","
+		86
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		9.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+53,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		13
+		","
+		94
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		9.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+54,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Air Dodge, Left/Right
+		","
+		13
+		","
+		105
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		9.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+55,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		13
+		","
+		124
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		9.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+56,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+		Air Dodge, Up
+		","
+		13
+		","
+		144
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		9.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+57,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+			Ledge Grab
+		","
+		13
+		","
+		144
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		9.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+58,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+			Ledge Grab
+		","
+		13
+		","
+		144
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		9.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"
+59,"<h1 class=""charactername"">
+rosalina and luma
+</h1>","
+				Ledge Hang
+			","
+		13
+		","
+		144
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		9.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		10—11
+		"

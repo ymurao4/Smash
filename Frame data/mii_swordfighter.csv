@@ -1,0 +1,1251 @@
+,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Jab 1
+		","
+		6
+		","
+		19
+		","
+		--
+		","
+		Transitions to jab 2 as early as frame 9
+		","
+		3.0
+		","
+		7
+		","
+		4
+		","
+		--
+		","
+		-9
+		","
+		6—7
+		"
+1,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Jab 2
+		","
+		6
+		","
+		22
+		","
+		--
+		","
+		Transitions to jab 3 as early as frame 9
+		","
+		3.0
+		","
+		6
+		","
+		4
+		","
+		--
+		","
+		-12
+		","
+		6—7
+		"
+2,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Jab 3
+		","
+		6
+		","
+		38
+		","
+		--
+		","
+		--
+		","
+		5.0
+		","
+		12
+		","
+		6
+		","
+		--
+		","
+		-26
+		","
+		6—8
+		"
+3,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Forward Tilt
+		","
+		10
+		","
+		34
+		","
+		--
+		","
+		--
+		","
+		12.0
+		","
+		9
+		","
+		8
+		","
+		--
+		","
+		-16
+		","
+		10—11
+		"
+4,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Up Tilt
+		","
+		8
+		","
+		32
+		","
+		--
+		","
+		--
+		","
+		7.0
+		","
+		7
+		","
+		7
+		","
+		--
+		","
+		-17
+		","
+		8—12
+		"
+5,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Down Tilt
+		","
+		5
+		","
+		19
+		","
+		--
+		","
+		--
+		","
+		8.0
+		","
+		7
+		","
+		8
+		","
+		--
+		","
+		-6
+		","
+		5—6
+		"
+6,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Dash Attack
+		","
+		9
+		","
+		41
+		","
+		--
+		","
+		--
+		","
+		10.0
+		","
+		10
+		","
+		14
+		","
+		--
+		","
+		-18
+		","
+		9—10
+		"
+7,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Forward Smash
+		","
+		15
+		","
+		59
+		","
+		--
+		","
+		Charge hold is frame 9
+		","
+		14.0/15.0/16.0
+		","
+		10/10/10
+		","
+		10/10/11
+		","
+		Close/Far
+		","
+		-34/-34/-33
+		","
+		15—17
+		"
+8,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Up Smash
+		","
+		11/14/21
+		","
+		59
+		","
+		--
+		","
+		Charge hold is frame 9. Front/low hit is the 11f startup hit.
+		","
+		4.0/3.0/7.0
+		","
+		5/7/14
+		","
+		-/3/6
+		","
+		--
+		","
+		-32
+		","
+		11—12/14—15/21—22
+		"
+9,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Down Smash
+		","
+		7/15
+		","
+		53
+		","
+		--
+		","
+		Charge hold is frame 3
+		","
+		12.0/15.0
+		","
+		9/10
+		","
+		8/10
+		","
+		--
+		","
+		-38/-28
+		","
+		7—8/15—16
+		"
+10,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Neutral Air
+		","
+		10
+		","
+		48
+		","
+		9
+		","
+		Autocancels on frame 1-5 and 32 onward
+		","
+		8.0
+		","
+		7
+		","
+		4
+		","
+		--
+		","
+		-5
+		","
+		10—23
+		"
+11,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Forward Air
+		","
+		12/16/21
+		","
+		49
+		","
+		12
+		","
+		Autocancels on frame 48 onward
+		","
+		3.0/5.0
+		","
+		5/12
+		","
+		2/3
+		","
+		Multi/Final
+		","
+		-10/-9
+		","
+		12—13/16—17/21—22
+		"
+12,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Back Air
+		","
+		10
+		","
+		37
+		","
+		9
+		","
+		Autocancels on frame 29 onward
+		","
+		14.0
+		","
+		10
+		","
+		5
+		","
+		--
+		","
+		-4
+		","
+		10—11
+		"
+13,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Up Air
+		","
+		11
+		","
+		44
+		","
+		10
+		","
+		Autocancels on frame 1-10 and 30 onward
+		","
+		16.0/10.0
+		","
+		10/8
+		","
+		6/4
+		","
+		Early/Late
+		","
+		-4/-6
+		","
+		11—13(14—23)
+		"
+14,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Down Air
+		","
+		14...
+		","
+		58
+		","
+		18
+		","
+		Landing hit on frame 1. Autocancels on frame 1-4 and 50 onward
+		","
+		1.5/5.0
+		","
+		4/6
+		","
+		2/6
+		","
+		Multi/Landing
+		","
+		-11
+		","
+		14—37(rehit: 5)/1—3
+		"
+15,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Gale Strike
+		","
+		20
+		","
+		67
+		","
+		--
+		","
+		--
+		","
+		13.0/11.0/10.0
+		","
+		9/8/8
+		","
+		5/4/4
+		","
+		Early/Late/Later
+		","
+		-33
+		","
+		20—37(38—55/56—71)
+		"
+16,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Shuriken of Light
+		","
+		13
+		","
+		37
+		","
+		--
+		","
+		--
+		","
+		2.0/3.5/5.0/6.5
+		","
+		4/5/6/6
+		","
+		2/2/3/3
+		","
+		Early/late/later/latest
+		","
+		-18
+		","
+		13—20(21—28/29—36/37—50)
+		"
+17,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Blurring Blade
+		","
+		17/21/25/29/33/44
+		","
+		84
+		","
+		--
+		","
+		Startup is 6 from charge release. Can be charged for 50 addittional frames for more damage
+		","
+		0.8—1.9/8.0—19.2
+		","
+		4—4/11—15
+		","
+		2—3/8—17
+		","
+		Multi/Final
+		","
+		-32 to -23
+		","
+		17—18/21—22/25—26/29—30/33—34/44—45
+		"
+18,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Airborne Assault
+		","
+		2(+25)
+		","
+		109
+		","
+		--
+		","
+		Startup is 2 upon reaching a target. Endlag on hit is 52 on level ground, 48 in the air. Stops at an edge with 44 frame endlag animation.
+		","
+		12.0
+		","
+		12
+		","
+		11
+		","
+		--
+		","
+		-41
+		","
+		**
+		"
+19,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Gale Stab
+		","
+		2(+7)
+		","
+		55
+		","
+		29
+		","
+		2 startup from charge release. 55 total frames on miss. 32 endlag on hit. Cannot attempt a recovery after air hit like Ike can. Landing lag only incurred if you enter special fall
+		","
+		8.0—18.5
+		","
+		7—12
+		","
+		8—16
+		","
+		--
+		","
+		-24 to -16
+		","
+		**
+		"
+20,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Chakram
+		","
+		18
+		","
+		52
+		","
+		--
+		","
+		Weak throw has rehit rate of 9 but will bounce off shields. Strong throw hits just once.
+		","
+		1.1/8.0
+		","
+		5/9
+		","
+		2/3
+		","
+		Weak Throw/Strong Throw
+		","
+		-27/-20
+		","
+		18—89/18—40
+		"
+21,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Stone Scabbard
+		","
+		13/42
+		","
+		--
+		","
+		44
+		","
+		Invulnerable on frame 5-12. Landing hit on frame 1
+		","
+		4.0/3.0/5.0
+		","
+		7/5/13
+		","
+		5/4/6
+		","
+		Rising/Falling/landing
+		","
+		-37 
+		","
+		**
+		"
+22,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Skyward Slash Dash
+		","
+		15/19/22/25/28/31/34
+		","
+		77
+		","
+		20
+		","
+		Total frames assumes you end on the ground.
+		","
+		2.2/3.0/4.0
+		","
+		4/5/5
+		","
+		3/4/5
+		","
+		First/multi/final
+		","
+		-38
+		","
+		15/19—20/22—23/25—26/28—29/31—32/34—35
+		"
+23,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Hero's Spin
+		","
+		8
+		","
+		78
+		","
+		--
+		","
+		Can be charged for an additional 60 frames. 8f startup is only the front hit.
+		","
+		14.0—19.6
+		","
+		10—12
+		","
+		13—17
+		","
+		Early/Lates
+		","
+		-57 to -53
+		","
+		8—9(10—14/15—24/25—40)
+		"
+24,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Hero's Spin (Air)
+		","
+		8/16/22/26/31/38/47
+		","
+		--
+		","
+		30
+		","
+		--
+		","
+		3.0/2.0/5.0
+		","
+		5/4/12
+		","
+		4/3/6
+		","
+		First/multi/final
+		","
+		**
+		","
+		8/11/16/19/22/26/31/38/47—48
+		"
+25,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Blade Counter
+		","
+		6 (Start of Counter)
+		","
+		59
+		","
+		--
+		","
+		Intangible on frame 5-6. Counters on frame 6-25.
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		6—25 (counter)
+		"
+26,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Blade Counter, Activated
+		","
+		21
+		","
+		40
+		","
+		--
+		","
+		Intangible frames 1-23.
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		21—22
+		"
+27,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Reversal Slash
+		","
+		16 (5 is Start of Reflector)
+		","
+		36
+		","
+		--
+		","
+		Reflects on frame 5-24. Invulnerable on frame 17-26 if you hit somebody or reflect something
+		","
+		6.0
+		","
+		7
+		","
+		0
+		","
+		--
+		","
+		-13
+		","
+		16—17
+		"
+28,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Power Thrust
+		","
+		14
+		","
+		61
+		","
+		--
+		","
+		--
+		","
+		15.0/13.0/10.0
+		","
+		10/9/8
+		","
+		14/12/10
+		","
+		Early/Late/Later
+		","
+		-33
+		","
+		14—16(17—24/25—32)
+		"
+29,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Power Thrust (Air)
+		","
+		16
+		","
+		60
+		","
+		39
+		","
+		Landing hit on frame 1
+		","
+		13.0/7.0
+		","
+		9/10
+		","
+		12/7
+		","
+		falling/landing
+		","
+		-31
+		","
+		16—18(19—26/27—31)/1—2
+		"
+30,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Grab
+		","
+		6
+		","
+		34
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		9/10
+		","
+		12/7
+		","
+		falling/landing
+		","
+		-31
+		","
+		6—7
+		"
+31,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Dash Grab
+		","
+		9
+		","
+		42
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		9/10
+		","
+		12/7
+		","
+		falling/landing
+		","
+		-31
+		","
+		9—10
+		"
+32,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Pivot Grab
+		","
+		10
+		","
+		37
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		9/10
+		","
+		12/7
+		","
+		falling/landing
+		","
+		-31
+		","
+		10—11
+		"
+33,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Pummel
+		","
+		1
+		","
+		19
+		","
+		--
+		","
+		Total frames includes 13 frames of hitlag
+		","
+		1.3
+		","
+		9/10
+		","
+		12/7
+		","
+		falling/landing
+		","
+		-31
+		","
+		10—11
+		"
+34,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Forward Throw
+		","
+		11/13
+		","
+		40
+		","
+		--
+		","
+		--	
+		","
+		3.0/3.0
+		","
+		9/10
+		","
+		12/7
+		","
+		falling/landing
+		","
+		-31
+		","
+		10—11
+		"
+35,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Backward Throw
+		","
+		15/16
+		","
+		46
+		","
+		--
+		","
+		--	
+		","
+		3.0/3.0
+		","
+		9/10
+		","
+		12/7
+		","
+		falling/landing
+		","
+		-31
+		","
+		10—11
+		"
+36,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Up Throw
+		","
+		21/23
+		","
+		49
+		","
+		--
+		","
+		--
+		","
+		2.0/3.0
+		","
+		9/10
+		","
+		12/7
+		","
+		falling/landing
+		","
+		-31
+		","
+		10—11
+		"
+37,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Down Throw
+		","
+		15/16
+		","
+		32
+		","
+		--
+		","
+		--		
+		","
+		2.0/2.0
+		","
+		9/10
+		","
+		12/7
+		","
+		falling/landing
+		","
+		-31
+		","
+		10—11
+		"
+38,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Spot Dodge
+		","
+		15/16
+		","
+		20/25
+		","
+		--
+		","
+		Invulnerable on frame 3-17
+		","
+		2.0/2.0
+		","
+		9/10
+		","
+		12/7
+		","
+		falling/landing
+		","
+		-31
+		","
+		10—11
+		"
+39,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Forward Roll
+		","
+		15/16
+		","
+		29
+		","
+		--
+		","
+		Invulnerable on frame 4-15
+		","
+		2.0/2.0
+		","
+		9/10
+		","
+		12/7
+		","
+		falling/landing
+		","
+		-31
+		","
+		10—11
+		"
+40,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Backward Roll
+		","
+		15/16
+		","
+		34
+		","
+		--
+		","
+		Invulnerable on frame 5-16
+		","
+		2.0/2.0
+		","
+		9/10
+		","
+		12/7
+		","
+		falling/landing
+		","
+		-31
+		","
+		10—11
+		"
+41,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Neutral Air Dodge
+		","
+		15/16
+		","
+		50
+		","
+		10
+		","
+		Invulnerable on frame 3-30
+		","
+		2.0/2.0
+		","
+		9/10
+		","
+		12/7
+		","
+		falling/landing
+		","
+		-31
+		","
+		10—11
+		"
+42,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Air Dodge, Down
+		","
+		15/16
+		","
+		69
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		2.0/2.0
+		","
+		9/10
+		","
+		12/7
+		","
+		falling/landing
+		","
+		-31
+		","
+		10—11
+		"
+43,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		15/16
+		","
+		77
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		2.0/2.0
+		","
+		9/10
+		","
+		12/7
+		","
+		falling/landing
+		","
+		-31
+		","
+		10—11
+		"
+44,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Air Dodge, Left/Right
+		","
+		15/16
+		","
+		84
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		2.0/2.0
+		","
+		9/10
+		","
+		12/7
+		","
+		falling/landing
+		","
+		-31
+		","
+		10—11
+		"
+45,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		15/16
+		","
+		99
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		2.0/2.0
+		","
+		9/10
+		","
+		12/7
+		","
+		falling/landing
+		","
+		-31
+		","
+		10—11
+		"
+46,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+		Air Dodge, Up
+		","
+		15/16
+		","
+		107
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		2.0/2.0
+		","
+		9/10
+		","
+		12/7
+		","
+		falling/landing
+		","
+		-31
+		","
+		10—11
+		"
+47,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+			Ledge Grab
+		","
+		15/16
+		","
+		107
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		2.0/2.0
+		","
+		9/10
+		","
+		12/7
+		","
+		falling/landing
+		","
+		-31
+		","
+		10—11
+		"
+48,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+			Ledge Grab
+		","
+		15/16
+		","
+		107
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		2.0/2.0
+		","
+		9/10
+		","
+		12/7
+		","
+		falling/landing
+		","
+		-31
+		","
+		10—11
+		"
+49,"<h1 class=""charactername"">
+mii swordfighter
+</h1>","
+				Ledge Hang
+			","
+		15/16
+		","
+		107
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		2.0/2.0
+		","
+		9/10
+		","
+		12/7
+		","
+		falling/landing
+		","
+		-31
+		","
+		10—11
+		"

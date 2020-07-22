@@ -1,1 +1,1101 @@
 ,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
+0,"<h1 class=""charactername"">
+olimar
+</h1>","
+				Ledge Hang
+			","
+		26
+		","
+		96
+		","
+		11-19
+		","
+		Invulnerable on frame 4-23
+		","
+		6.0
+		","
+		16
+		","
+		34
+		","
+		--
+		","
+		-26
+		","
+		12—14
+		"
+1,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Jab 1
+		","
+		4
+		","
+		19
+		","
+		--
+		","
+		Transitions to Jab 2 as early as frame 7
+		","
+		3.0 / 4.0
+		","
+		8/9
+		","
+		4/5
+		","
+		Early/Late
+		","
+		-11/-10
+		","
+		4(5)
+		"
+2,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Jab 2
+		","
+		4
+		","
+		17
+		","
+		--
+		","
+		--
+		","
+		3.0/4.0
+		","
+		5/5
+		","
+		4/5
+		","
+		Close/Far
+		","
+		-9/-8
+		","
+		4—5
+		"
+3,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Forward Tilt
+		","
+		15
+		","
+		35
+		","
+		--
+		","
+		--
+		","
+		11.0
+		","
+		8
+		","
+		10
+		","
+		--
+		","
+		-10
+		","
+		15—17
+		"
+4,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Up Tilt
+		","
+		6/8/10/12/14/16
+		","
+		38
+		","
+		--
+		","
+		--
+		","
+		0.6/4.0
+		","
+		4/5
+		","
+		2/5
+		","
+		Multi/Final
+		","
+		-17
+		","
+		6/8/10/12/14/16
+		"
+5,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Down Tilt
+		","
+		6
+		","
+		29
+		","
+		--
+		","
+		--
+		","
+		6.0
+		","
+		6
+		","
+		6
+		","
+		--
+		","
+		-17
+		","
+		6—12
+		"
+6,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Dash Attack
+		","
+		8/11
+		","
+		37
+		","
+		--
+		","
+		--
+		","
+		7.0 / 4.0
+		","
+		7/5
+		","
+		-/5
+		","
+		--
+		","
+		-21
+		","
+		8—10/11—14
+		"
+7,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Forward Smash (Early)
+		","
+		11
+		","
+		39
+		","
+		--
+		","
+		Charge hold is frame 6. Olimar does not suffer hitlag from this attack. But Pikmin do.
+		","
+		20.3/14.5/14.5/11.6/23.2
+		","
+		12/15/10/9/14
+		","
+		6/5/5/4/7
+		","
+		--
+		","
+		-13/-11/-16/-18/-10
+		","
+		11—12
+		"
+8,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Forward Smash (Late)
+		","
+		13
+		","
+		39
+		","
+		--
+		","
+		--
+		","
+		14.0/10.0/10.0/8.0/16.0
+		","
+		10/12/8/7/10
+		","
+		5/4/4/3/5
+		","
+		--
+		","
+		-14/-13/-17/-19/-14
+		","
+		13—19 (Purple: 13—18)
+		"
+9,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Forward Smash (Later)
+		","
+		20 (Purple: 19)
+		","
+		39
+		","
+		--
+		","
+		--
+		","
+		8.4/6.0/6.0/4.8/9.6
+		","
+		7/9/6/6/8
+		","
+		3/3/3/3/4
+		","
+		--
+		","
+		-12/-10/-13/-13/-10
+		","
+		20—29 (Purple: 19—24)
+		"
+10,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Up Smash (Close)
+		","
+		12
+		","
+		39
+		","
+		--
+		","
+		Charge hold is frame 4. Olimar does not suffer hitlag from this attack. But Pikmin do.
+		","
+		18.2/13.0/13.0/10.4/20.8
+		","
+		11/14/9/8/13
+		","
+		6/5/5/4/6
+		","
+		--
+		","
+		-10/-8/-13/-15/-8
+		","
+		12—16
+		"
+11,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Up Smash (Far)
+		","
+		12
+		","
+		39
+		","
+		--
+		","
+		--
+		","
+		14.0/10.0/10.0/8.0/16.0
+		","
+		10/12/8/7/10
+		","
+		5/4/4/3/5
+		","
+		--
+		","
+		-12/-11/-15/-17/-12
+		","
+		12—13
+		"
+12,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Up Smash (Late)
+		","
+		17
+		","
+		39
+		","
+		--
+		","
+		--
+		","
+		15.4/11.0/11.0/8.8/17.6
+		","
+		10/13/8/7/11
+		","
+		5/4/4/4/6
+		","
+		--
+		","
+		-8/-6/-11/-12/-6
+		","
+		17—22
+		"
+13,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Down Smash (Early)
+		","
+		10
+		","
+		38
+		","
+		--
+		","
+		Charge hold is frame 6. Olimar does not suffer hitlag from this attack. But Pikmin do.
+		","
+		15.4/11.0/11.0/8.8/17.6
+		","
+		10/13/8/7/11
+		","
+		5/4/4/4/6
+		","
+		--
+		","
+		-13/-11/-16/-17/-11
+		","
+		10—13
+		"
+14,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Down Smash (Late)
+		","
+		14
+		","
+		38
+		","
+		--
+		","
+		--
+		","
+		12.6/9.0/9.0/7.2/14.4
+		","
+		9/11/7/7/9
+		","
+		4/4/4/3/5
+		","
+		--
+		","
+		-11/-9/-13/-14/-10
+		","
+		14—18 (Purple: 14—15)
+		"
+15,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Neutral Air
+		","
+		7/11/15/19/23
+		","
+		53
+		","
+		13
+		","
+		Autocancels on frame 1-2 and 34 onward
+		","
+		1.5/2.0
+		","
+		4/4
+		","
+		2/2
+		","
+		Multi/Final
+		","
+		-11/-11
+		","
+		7—8/11—12/15—16/19—20/23—24
+		"
+16,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Forward Air
+		","
+		7
+		","
+		42
+		","
+		9
+		","
+		Autocancels on frame 1-5 and 31 onward
+		","
+		11.9/8.5/8.5/6.8/13.6
+		","
+		9/11/8/7/9
+		","
+		5/4/4/3/5
+		","
+		--
+		","
+		-4/-5/-5/-6/-4
+		","
+		7—9
+		"
+17,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Back Air
+		","
+		10
+		","
+		48
+		","
+		9
+		","
+		Autocancels on frame 1-5 and 36 onward
+		","
+		15.1/10.8/10.8/8.6/17.2
+		","
+		10/13/8/7/11
+		","
+		5/4/4/4/6
+		","
+		--
+		","
+		-4/-5/-5/-5/-3
+		","
+		10—13
+		"
+18,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Up Air
+		","
+		8
+		","
+		34
+		","
+		18
+		","
+		Autocancels on frame 1-5 and 31 onward
+		","
+		12.6/9.0/9.0/7.2/14.4
+		","
+		9/11/7/7/10
+		","
+		5/4/4/3/5
+		","
+		--
+		","
+		-13/-14/-14/-15/-13
+		","
+		8—15
+		"
+19,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Down Air
+		","
+		9
+		","
+		51
+		","
+		18
+		","
+		Autocancels on frame 1-5 and 31 onward. Spikes 9—10, does not spike 11—16.
+		","
+		12.6/9.0/9.0/7.2/14.4
+		","
+		9/11/7/7/10
+		","
+		5/4/4/3/5
+		","
+		Clean/Late
+		","
+		-13/-14/-14/-15/-13
+		","
+		9—10/11—16
+		"
+20,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Neutral B (Pikmin Pluck)
+		","
+		--
+		","
+		8
+		","
+		--
+		","
+		32 frame failure animation when your squad is full.
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		1
+		"
+21,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Side B (Pikmin Throw)
+		","
+		9
+		","
+		24
+		","
+		--
+		","
+		A latched pikmin hits on frame 18, then every 36 frames after that (counting Pikmin's hitlag)
+		","
+		Purple: 6.0
+		","
+		Purple: 6
+		","
+		Purple: 3
+		","
+		--
+		","
+		Purple: -6
+		","
+		9—127(9—107)
+		"
+22,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Up B (Winged Pikmin)
+		","
+		--
+		","
+		--
+		","
+		30/19
+		","
+		30 landing lag if the pikmin let go of you. Frame 30 is the earliest you can cancel the move.
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		"
+23,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Down B (Pikmin Order/Whistle)
+		","
+		2 (Start of Super Armor)
+		","
+		17
+		","
+		--
+		","
+		Super armor on frame 2-7
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		2—7 (armor)
+		"
+24,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Grab
+		","
+		12
+		","
+		41/47/56
+		","
+		--
+		","
+		Total frames depends on having one/two/three pikmin	
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12—23
+		"
+25,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Dash Grab
+		","
+		12
+		","
+		49/57/68
+		","
+		--
+		","
+		Total frames depends on having one/two/three pikmin		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12—23
+		"
+26,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Pivot Grab
+		","
+		12
+		","
+		44/51/60
+		","
+		--
+		","
+		Total frames depends on having one/two/three pikmin		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12—23
+		"
+27,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Pummel
+		","
+		1
+		","
+		16
+		","
+		--
+		","
+		Total frames includes 10 frames of hitlag
+		","
+		1.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12—23
+		"
+28,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Forward Throw
+		","
+		19
+		","
+		35
+		","
+		--
+		","
+		--		
+		","
+		5.6/7.0/11.9/7.0/7.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12—23
+		"
+29,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Backward Throw
+		","
+		22
+		","
+		39
+		","
+		--
+		","
+		--		
+		","
+		7.2/9.0/15.3/9.0/9.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12—23
+		"
+30,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Up Throw
+		","
+		22/23
+		","
+		49
+		","
+		--
+		","
+		--		
+		","
+		6.4/8.0/13.5/8.0/8.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12—23
+		"
+31,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Down Throw
+		","
+		23/32
+		","
+		41
+		","
+		--
+		","
+		--		
+		","
+		6.6/8.0/12.9/7.8/8.6
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12—23
+		"
+32,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Spot Dodge
+		","
+		23/32
+		","
+		20/25
+		","
+		--
+		","
+		Invulnerable on frame 3-17
+		","
+		6.6/8.0/12.9/7.8/8.6
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12—23
+		"
+33,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Forward Roll
+		","
+		23/32
+		","
+		29
+		","
+		--
+		","
+		Invulnerable on frame 4-15
+		","
+		6.6/8.0/12.9/7.8/8.6
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12—23
+		"
+34,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Backward Roll
+		","
+		23/32
+		","
+		34
+		","
+		--
+		","
+		Invulnerable on frame 5-16
+		","
+		6.6/8.0/12.9/7.8/8.6
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12—23
+		"
+35,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Neutral Air Dodge
+		","
+		23/32
+		","
+		57
+		","
+		10
+		","
+		Invulnerable on frame 3-29
+		","
+		6.6/8.0/12.9/7.8/8.6
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12—23
+		"
+36,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Air Dodge, Down
+		","
+		23/32
+		","
+		78
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21		
+		","
+		6.6/8.0/12.9/7.8/8.6
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12—23
+		"
+37,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Air Dodge, Diagonally Down
+		","
+		23/32
+		","
+		87
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21	
+		","
+		6.6/8.0/12.9/7.8/8.6
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12—23
+		"
+38,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Air Dodge, Left/Right
+		","
+		23/32
+		","
+		96
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		6.6/8.0/12.9/7.8/8.6
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12—23
+		"
+39,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Air Dodge, Diagonally Up
+		","
+		23/32
+		","
+		118
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		6.6/8.0/12.9/7.8/8.6
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12—23
+		"
+40,"<h1 class=""charactername"">
+olimar
+</h1>","
+		Air Dodge, Up
+		","
+		23/32
+		","
+		132
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		6.6/8.0/12.9/7.8/8.6
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12—23
+		"
+41,"<h1 class=""charactername"">
+olimar
+</h1>","
+			Ledge Grab
+		","
+		23/32
+		","
+		132
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		6.6/8.0/12.9/7.8/8.6
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12—23
+		"
+42,"<h1 class=""charactername"">
+olimar
+</h1>","
+			Ledge Grab
+		","
+		23/32
+		","
+		132
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		6.6/8.0/12.9/7.8/8.6
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12—23
+		"
+43,"<h1 class=""charactername"">
+olimar
+</h1>","
+				Ledge Hang
+			","
+		23/32
+		","
+		132
+		","
+		11-19
+		","
+		Invulnerable on frame 3-21
+		","
+		6.6/8.0/12.9/7.8/8.6
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		12—23
+		"

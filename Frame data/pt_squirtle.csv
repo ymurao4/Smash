@@ -1,112 +1,87 @@
 ,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
 0,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Squirtle
 </h1>","
 		Jab 1
 		","
+		2
+		","
+		16
+		","
+		--
+		","
+		Transitions to Jab 2 as early as frame 5
+		","
+		2.0
+		","
+		7
+		","
 		3
 		","
-		20
-		","
 		--
 		","
-		Transitions to jab 2 as early as frame 11
+		-11
 		","
-		3.0
-		","
-		5
-		","
-		4
-		","
-		--
-		","
-		-13
-		","
-		3—4
+		2—3
 		"
 1,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Squirtle
 </h1>","
 		Jab 2
 		","
-		3
-		","
-		20
-		","
-		--
-		","
-		--
-		","
-		3.0
-		","
-		10
-		","
 		4
 		","
+		24
+		","
 		--
 		","
-		-13
+		Transitions to Jab 3 as early as frame 10
 		","
-		3—4
+		1.5
+		","
+		5
+		","
+		3
+		","
+		--
+		","
+		-17
+		","
+		4—5
 		"
 2,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Squirtle
+</h1>","
+		Jab 3
+		","
+		5
+		","
+		31
+		","
+		--
+		","
+		--
+		","
+		4.0
+		","
+		11
+		","
+		5
+		","
+		--
+		","
+		-21
+		","
+		5—6
+		"
+3,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
 </h1>","
 		Forward Tilt
 		","
-		7
+		5
 		","
-		33
-		","
-		--
-		","
-		--
-		","
-		8.0
-		","
-		7
-		","
-		8
-		","
-		--
-		","
-		-18
-		","
-		7—9
-		"
-3,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Up Tilt
-		","
-		4/6
-		","
-		26
-		","
-		--
-		","
-		--
-		","
-		3.0/5.0
-		","
-		5/6
-		","
-		4/6
-		","
-		--
-		","
-		-14
-		","
-		4—5/6—7
-		"
-4,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Down Tilt
-		","
-		3
-		","
-		14
+		18
 		","
 		--
 		","
@@ -120,147 +95,247 @@ R.O.B.
 		","
 		--
 		","
-		-5
+		-6
 		","
-		3
+		5—6
+		"
+4,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Up Tilt
+		","
+		5
+		","
+		19
+		","
+		--
+		","
+		--
+		","
+		5.0
+		","
+		6
+		","
+		6
+		","
+		--
+		","
+		-8
+		","
+		5—6
 		"
 5,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Squirtle
+</h1>","
+		Down Tilt
+		","
+		8
+		","
+		29
+		","
+		--
+		","
+		--
+		","
+		9.0
+		","
+		7
+		","
+		9
+		","
+		--
+		","
+		-12
+		","
+		8—13
+		"
+6,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
 </h1>","
 		Dash Attack
 		","
-		7
+		8
 		","
-		31
-		","
-		--
+		35
 		","
 		--
 		","
-		7.0
-		","
-		7
-		","
-		7
-		","
 		--
 		","
-		-17
+		8.0/7.0
 		","
-		7—8
+		7/7
+		","
+		11/7
+		","
+		Early/Late
+		","
+		-16
+		","
+		8—11/12—17
 		"
-6,"<h1 class=""charactername"">
-R.O.B.
+7,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
 </h1>","
 		Forward Smash
 		","
-		16
+		20
 		","
-		54
+		49
+		","
+		--
+		","
+		Charge hold is frame 5
+		","
+		15.0
+		","
+		12
+		","
+		10
+		","
+		--
+		","
+		-19
+		","
+		20—21
+		"
+8,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Up Smash
+		","
+		19/21
+		","
+		65
+		","
+		--
+		","
+		Charge hold is frame 5
+		","
+		3.0/13.0/10.0
+		","
+		5/9/9
+		","
+		3/9/8
+		","
+		First/Early/Late
+		","
+		-35
+		","
+		19/21—22/(22—23/24—25)
+		"
+9,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Down Smash
+		","
+		18
+		","
+		41
 		","
 		--
 		","
 		Charge hold is frame 6
 		","
-		15.0/11.5/6.0
-		","
-		15/13/9
-		","
-		10/8/5
-		","
-		Close/Far/Farther
-		","
-		-28/-30/-33
-		","
-		16—17
-		"
-7,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Up Smash
-		","
-		10/14
-		","
-		48
-		","
-		--
-		","
-		Charge hold is frame 7
-		","
-		3.0/14.0
-		","
-		5/10
-		","
-		3/10
-		","
-		--
-		","
-		-35/-24
-		","
-		10—11/14—18
-		"
-8,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Down Smash
-		","
-		7/11/16
-		","
-		45
-		","
-		--
-		","
-		Charge hold is frame 3
-		","
-		3.5/5.0
-		","
-		5/12
-		","
-		3/4
-		","
-		Multi/Final
-		","
-		-25
-		","
-		7—8/11—12/16
-		"
-9,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Neutral Air
-		","
-		14
-		","
-		47
-		","
-		7
-		","
-		Autocancels on frame 33 onward
-		","
-		7.5/9.5
-		","
-		7/8
-		","
-		3/4
-		","
-		Close/Final
-		","
-		-4/-3
-		","
-		14—32
-		"
-10,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Forward Air
-		","
-		6
-		","
-		35
+		13.0
 		","
 		9
 		","
-		Autocancels on frame 25 onward
+		9
+		","
+		--
+		","
+		-13
+		","
+		18—19/24—25
+		"
+10,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Neutral Air
+		","
+		4
+		","
+		41
+		","
+		8
+		","
+		Autocancels on frame 1-3 and 35 onward
+		","
+		10.0/7.0
+		","
+		8/7
+		","
+		4/3
+		","
+		Early/Late
+		","
+		-4/-5
+		","
+		4—6/7—26
+		"
+11,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Forward Air
+		","
+		5
+		","
+		35
+		","
+		6
+		","
+		Autocancels on frame 1-4 and 35 onward
+		","
+		7.0/6.0
+		","
+		7/6
+		","
+		3/3
+		","
+		Early/Late
+		","
+		-3/-3
+		","
+		5—6/7—14
+		"
+12,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Back Air
+		","
+		5...
+		","
+		35
+		","
+		18
+		","
+		Landing hit on frame 1. Autocancels on frame 1-4 and 22 onward
+		","
+		1.0/6.0/2.0
+		","
+		4/7/9
+		","
+		2/3/3
+		","
+		Multi/Final/Landing
+		","
+		-15
+		","
+		5—14/15—16 (rehit: 2)
+		"
+13,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Up Air
+		","
+		5
+		","
+		29
+		","
+		6
+		","
+		Autocancels on frame 20 onward
 		","
 		7.0
 		","
@@ -270,47 +345,22 @@ R.O.B.
 		","
 		--
 		","
-		-6
+		-3
 		","
-		6—8
+		5—9
 		"
-11,"<h1 class=""charactername"">
-R.O.B.
+14,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
 </h1>","
-		Back Air
+		Down Air
 		","
-		19
+		6...
 		","
-		52
+		44
 		","
-		13
+		16
 		","
-		Autocancels on frame 46 onward
-		","
-		15.0/13.0/9.0
-		","
-		12/11/9
-		","
-		5/5/4
-		","
-		Close/Far/Late
-		","
-		-8/-9
-		","
-		19—23/24—32
-		"
-12,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Up Air
-		","
-		7/9/13/17/23
-		","
-		51
-		","
-		13
-		","
-		Autocancels on frame 40 onward
+		Autocancels on frame 1-5 and 35 onward
 		","
 		1.5/4.0
 		","
@@ -320,166 +370,166 @@ R.O.B.
 		","
 		Multi/Final
 		","
-		-11/-10
+		-14/-13
 		","
-		7/9/13/17/23—24
-		"
-13,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Down Air
-		","
-		20
-		","
-		69
-		","
-		12
-		","
-		Autocancels on frame 45 onward. Advantage uses Total Frames
-		","
-		12.0/11.0/6.0
-		","
-		9/8/6
-		","
-		5/4/3
-		","
-		Close/Far/Farther
-		","
-		-44/-45/-46
-		","
-		20—21/20—26/22—26
-		"
-14,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Neutral B (Robo Beam)
-		","
-		25
-		","
-		49
-		","
-		--
-		","
-		Melee attack and projectile generate on same frame
-		","
-		7.0/4.5/11.5, 7.0/15.0/22.0
-		","
-		7/5/7, 7/13/13
-		","
-		7/3/7, 7/5/14
-		","
-		Small Beam Close/Far/farther, Large Beam Melee/beam/both
-		","
-		-17/-16/-17, -17/-6/-10
-		","
-		25—27 (melee), 25—43 (small beam), 25—66 (large beam)
+		6—20/22 (rehit: 3)
 		"
 15,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Squirtle
 </h1>","
-		Side B (Arm Rotor)
+		Neutral B (Watergun)
 		","
-		13/18/23/28/33/44
+		26
 		","
-		85
+		63
 		","
 		--
 		","
-		Multihits have no hitlag but do have shieldlag. Reflects on frame 13-35
+		From a charging state, startup is 7 and total frames is 44. Takes 64 frames to fully charge.
 		","
-		1.5/3.0
+		--
 		","
-		4/12
+		--
 		","
-		3/4
+		--
 		","
-		Multi/Final
+		--
 		","
-		-37
+		--
 		","
-		13—**
+		24—**
 		"
 16,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Squirtle
 </h1>","
-		Side B (Arm Rotor, Mashing)
+		Side B (Withdraw)
 		","
-		13/18/23/28/33/38/ 43/48/53/58/66
-		","
-		107
+		23
 		","
 		--
 		","
-		Multihits have no hitlag but do have shieldlag. Reflects on frame 13-60
+		--
 		","
-		1.5/3.0
+		26 endlag on hit. 34 endlag to cancel the move manually. Armor begins on 22. Getting footstooled places Squirtle in a ~155 frame helpless animation.
 		","
-		4/12
+		13.0—13.9
+		","
+		7
+		","
+		8
+		","
+		--
+		","
+		-18
+		","
+		22—41/22—61
+		"
+17,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Up B (Waterfall)
+		","
+		9...
+		","
+		--
+		","
+		30
+		","
+		--
+		","
+		1.3/3.0
+		","
+		4/5
 		","
 		3/4
 		","
 		Multi/Final
 		","
-		-37
-		","
-		--
-		"
-17,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Up B (Robo Burner)
-		","
 		--
 		","
-		--
-		","
-		--
-		","
-		Invulnerable on frame 2-4 on the ground. Can act on frame 25. Fuel lasts up to 143 frames.
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
+		9—41/43—44 (rehit: 5)
 		"
 18,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Squirtle
 </h1>","
-		Down B (Gyro)
-		","
-		3(+6), 9
-		","
-		36, 42
+		Down B (Pokemon Change)
 		","
 		--
 		","
-		3 startup from charging state. 6 frames to enter charging state. Reaches full charge on frame 98. Damage depends on current item velocity.
-		","
-		3.6—10.7, 10.7
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
-		","
-		-26 to -21, -21
+		39
 		","
 		--
+		","
+		Invulnerable on frame 1-25. ~140 frame period before you can change again.
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		**
 		"
 19,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Squirtle
 </h1>","
 		Grab
 		","
 		6
+		","
+		34
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		6—7
+		"
+20,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Dash Grab
+		","
+		8
+		","
+		39
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		8—9
+		"
+21,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Pivot Grab
+		","
+		9
 		","
 		37
 		","
@@ -489,99 +539,74 @@ R.O.B.
 		","
 		--
 		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
-		","
-		-26 to -21, -21
-		","
-		6—7
-		"
-20,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Dash Grab
-		","
-		9
-		","
-		45
+		--
 		","
 		--
 		","
-		--		
-		","
 		--
 		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
-		","
-		-26 to -21, -21
+		--
 		","
 		9—10
 		"
-21,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Pivot Grab
-		","
-		10
-		","
-		40
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
-		","
-		-26 to -21, -21
-		","
-		10—11
-		"
 22,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Squirtle
 </h1>","
 		Pummel
 		","
 		1
 		","
-		18
+		15
 		","
-		**
+		--
 		","
-		Total frames includes 13 frames of hitlag	
+		Total frames includes 10 frames of hitlag
 		","
-		1.3
+		1.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		9—10
 		"
 23,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Squirtle
 </h1>","
 		Forward Throw
 		","
-		11
+		11/13
 		","
-		23
+		34
+		","
+		--
+		","
+		--		
+		","
+		2.0/6.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+24,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Backward Throw
+		","
+		27
+		","
+		44
 		","
 		--
 		","
@@ -589,388 +614,363 @@ R.O.B.
 		","
 		8.0
 		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
-		","
-		-26 to -21, -21
-		","
-		10—11
-		"
-24,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Backward Throw
-		","
-		12
-		","
-		26
+		--
 		","
 		--
 		","
-		--		
+		--
 		","
-		10.0
+		--
 		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
-		","
-		-26 to -21, -21
-		","
-		10—11
+		9—10
 		"
 25,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Squirtle
 </h1>","
 		Up Throw
 		","
-		58
+		16/18
 		","
-		81
+		37
 		","
 		--
 		","
-		--		
+		--	
 		","
-		12.0
+		2.0/5.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		9—10
 		"
 26,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Squirtle
 </h1>","
 		Down Throw
 		","
-		50
+		22/30
 		","
-		75
+		46
 		","
 		--
 		","
-		Buries	
+		--	
 		","
-		5.0
+		2.0/5.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		9—10
 		"
 27,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Squirtle
 </h1>","
 		Spot Dodge
 		","
-		50
+		22/30
 		","
-		20/25
+		19/24
 		","
 		--
 		","
-		Invulnerable on frame 3-17		
+		Invulnerable on frame 3-16
 		","
-		5.0
+		2.0/5.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		9—10
 		"
 28,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Squirtle
 </h1>","
 		Forward Roll
 		","
-		50
+		22/30
 		","
-		29
+		28
+		","
+		--
+		","
+		Invulnerable on frame 4-14
+		","
+		2.0/5.0
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		--
+		","
+		9—10
+		"
+29,"<h1 class=""charactername"">
+Pokemon Trainer: Squirtle
+</h1>","
+		Backward Roll
+		","
+		22/30
+		","
+		33
 		","
 		--
 		","
 		Invulnerable on frame 4-15
 		","
-		5.0
-		","
-		5—8, 8
-		","
-		2—4, 4
-		","
-		Normal, Full Charge
-		","
-		-26 to -21, -21
-		","
-		10—11
-		"
-29,"<h1 class=""charactername"">
-R.O.B.
-</h1>","
-		Backward Roll
-		","
-		50
-		","
-		34
+		2.0/5.0
 		","
 		--
 		","
-		Invulnerable on frame 5-16
+		--
 		","
-		5.0
+		--
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
-		","
-		Normal, Full Charge
-		","
-		-26 to -21, -21
-		","
-		10—11
+		9—10
 		"
 30,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Squirtle
 </h1>","
 		Neutral Air Dodge
 		","
-		50
+		22/30
 		","
-		50
+		53
 		","
 		10
 		","
-		Invulnerable on frame 3-27
+		Invulnerable on frame 2-26
 		","
-		5.0
+		2.0/5.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		9—10
 		"
 31,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Squirtle
 </h1>","
 		Air Dodge, Down
 		","
-		50
+		22/30
 		","
-		68
+		79
 		","
 		11-19
 		","
-		Invulnerable on frame 3-21
+		Invulnerable on frame 2-19		
 		","
-		5.0
+		2.0/5.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		9—10
 		"
 32,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Squirtle
 </h1>","
 		Air Dodge, Diagonally Down
 		","
-		50
+		22/30
 		","
-		75
+		87
 		","
 		11-19
 		","
-		Invulnerable on frame 3-21
+		Invulnerable on frame 2-19
 		","
-		5.0
+		2.0/5.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		9—10
 		"
 33,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Squirtle
 </h1>","
 		Air Dodge, Left/Right
 		","
-		50
+		22/30
 		","
-		83
+		90
 		","
 		11-19
 		","
-		Invulnerable on frame 3-21
+		Invulnerable on frame 2-19
 		","
-		5.0
+		2.0/5.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		9—10
 		"
 34,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Squirtle
 </h1>","
 		Air Dodge, Diagonally Up
 		","
-		50
+		22/30
 		","
-		100
+		105
 		","
 		11-19
 		","
-		Invulnerable on frame 3-21
+		Invulnerable on frame 2-19
 		","
-		5.0
+		2.0/5.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		9—10
 		"
 35,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Squirtle
 </h1>","
 		Air Dodge, Up
 		","
-		50
+		22/30
 		","
-		111
+		114
 		","
 		11-19
 		","
-		Invulnerable on frame 3-21
+		Invulnerable on frame 2-19
 		","
-		5.0
+		2.0/5.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		9—10
 		"
 36,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Squirtle
 </h1>","
 			Ledge Grab
 		","
-		50
+		22/30
 		","
-		111
+		114
 		","
 		11-19
 		","
-		Invulnerable on frame 3-21
+		Invulnerable on frame 2-19
 		","
-		5.0
+		2.0/5.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		9—10
 		"
 37,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Squirtle
 </h1>","
 			Ledge Grab
 		","
-		50
+		22/30
 		","
-		111
+		114
 		","
 		11-19
 		","
-		Invulnerable on frame 3-21
+		Invulnerable on frame 2-19
 		","
-		5.0
+		2.0/5.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		9—10
 		"
 38,"<h1 class=""charactername"">
-R.O.B.
+Pokemon Trainer: Squirtle
 </h1>","
 				Ledge Hang
 			","
-		50
+		22/30
 		","
-		111
+		114
 		","
 		11-19
 		","
-		Invulnerable on frame 3-21
+		Invulnerable on frame 2-19
 		","
-		5.0
+		2.0/5.0
 		","
-		5—8, 8
+		--
 		","
-		2—4, 4
+		--
 		","
-		Normal, Full Charge
+		--
 		","
-		-26 to -21, -21
+		--
 		","
-		10—11
+		9—10
 		"

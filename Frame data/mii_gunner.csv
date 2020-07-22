@@ -1,143 +1,118 @@
 ,Character Name,Move name,Start up,Total frames,Landingag,Notes,Base damage,Shield lag,Shield stun,Which hit box,Advantage,Active frames
 0,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
 		Jab 1
 		","
 		5
 		","
-		27
+		25
 		","
 		--
 		","
-		Transitions to jab 2 as early as frame 9
+		Transitions to jab 2 as early as frame 8 
 		","
-		2.0/2.5
+		1.7
 		","
-		7/8
+		7
 		","
-		3/4
+		3
 		","
-		Close/Far
+		--
 		","
-		-19/-18
+		-17
 		","
 		5—6
 		"
 1,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
 		Jab 2
 		","
 		4
 		","
-		29
+		25
 		","
 		--
 		","
-		Transitions to jab 3 as early as frame 9 and rapid as early as 8.
+		Transitions to jab 3 as early as frame 11 
 		","
-		2.0
+		1.8
 		","
-		5
+		4
 		","
 		3
 		","
 		--
 		","
-		-22
+		-18
 		","
-		4—5
+		4—6
 		"
 2,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
 		Jab 3
 		","
-		6
+		6/12
 		","
-		30
-		","
-		--
+		36
 		","
 		--
 		","
-		3.0/4.0
+		--
 		","
-		9/10
+		1.0/4.5
 		","
-		4/5
+		3/6
 		","
-		Close/Far
+		0/5
 		","
-		-20/-19
+		--
 		","
-		6—7
+		-19
+		","
+		6—8, 12—13
 		"
 3,"<h1 class=""charactername"">
-corrin
-</h1>","
-		Rapid Jab
-		","
-		12/16/20...
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		0.5
-		","
-		4
-		","
-		--
-		","
-		--
-		","
-		**
-		","
-		**
-		"
-4,"<h1 class=""charactername"">
-corrin
-</h1>","
-		Rapid Jab Finisher
-		","
-		3
-		","
-		39
-		","
-		--
-		","
-		--
-		","
-		3.0
-		","
-		14
-		","
-		4
-		","
-		--
-		","
-		-32
-		","
-		3—4
-		"
-5,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
 		Forward Tilt
 		","
-		8
+		7
 		","
-		34
+		33
+		","
+		--
+		","
+		--
+		","
+		13.0/10.5/8.0
+		","
+		9/8/7
+		","
+		12/10/8
+		","
+		Early/Late/Later
+		","
+		-14
+		","
+		7—8/9—10/11—12
+		"
+4,"<h1 class=""charactername"">
+mii gunner
+</h1>","
+		Up Tilt
+		","
+		5
+		","
+		37
 		","
 		--
 		","
 		--
 		","
-		10.5
+		10.0
 		","
 		8
 		","
@@ -145,66 +120,416 @@ corrin
 		","
 		--
 		","
-		-16
+		-22
 		","
-		8—9
+		5—7/8—9
 		"
-6,"<h1 class=""charactername"">
-corrin
+5,"<h1 class=""charactername"">
+mii gunner
 </h1>","
-		Up Tilt
+		Down Tilt
 		","
-		7
+		8
 		","
-		35
-		","
-		--
+		40
 		","
 		--
 		","
-		9.0
+		--
 		","
-		7
+		14.0
 		","
-		9
+		10
+		","
+		13
 		","
 		--
 		","
 		-19
 		","
-		7—8(9—16)
+		8—10
+		"
+6,"<h1 class=""charactername"">
+mii gunner
+</h1>","
+		Dash Attack
+		","
+		10
+		","
+		45
+		","
+		--
+		","
+		--
+		","
+		11.0
+		","
+		8
+		","
+		15
+		","
+		--
+		","
+		-20
+		","
+		10—14
 		"
 7,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
-		Down Tilt
+		Forward Smash
+		","
+		17...
+		","
+		77
+		","
+		--
+		","
+		Charge hold is frame 5
+		","
+		1.8/7.5
+		","
+		4/16
+		","
+		3/6
+		","
+		Multi/Final
+		","
+		-31
+		","
+		17—38(rehit: 4)/40
+		"
+8,"<h1 class=""charactername"">
+mii gunner
+</h1>","
+		Up Smash
+		","
+		11/15/19/23/27
+		","
+		55
+		","
+		--
+		","
+		Charge hold is frame 7
+		","
+		3.0/2.5/7.0
+		","
+		5/5/7
+		","
+		3/3/6
+		","
+		First/multi/final
+		","
+		-22
+		","
+		11—12/15—16/19—20/23—24/27—28
+		"
+9,"<h1 class=""charactername"">
+mii gunner
+</h1>","
+		Down Smash
+		","
+		9/23
+		","
+		52
+		","
+		--
+		","
+		Charge hold is frame 5
+		","
+		11.5/14.0
+		","
+		9/10
+		","
+		8/10
+		","
+		--
+		","
+		-35/-19
+		","
+		9/23—25
+		"
+10,"<h1 class=""charactername"">
+mii gunner
+</h1>","
+		Neutral Air
+		","
+		8
+		","
+		41
+		","
+		11
+		","
+		Autocancels on frame 1-3 and 35 onward
+		","
+		10.0
+		","
+		8
+		","
+		4
+		","
+		--
+		","
+		-7
+		","
+		8—21
+		"
+11,"<h1 class=""charactername"">
+mii gunner
+</h1>","
+		Forward Air
+		","
+		12
+		","
+		43
+		","
+		12
+		","
+		Autocancels on frame 44 onward
+		","
+		8.0/6.0
+		","
+		7/6
+		","
+		4/3
+		","
+		Early/Late
+		","
+		-1
+		","
+		12—16/17—20
+		"
+12,"<h1 class=""charactername"">
+mii gunner
+</h1>","
+		Back Air
+		","
+		9
+		","
+		47
+		","
+		11
+		","
+		Autocancels on frame 1-3 and 32 onward
+		","
+		13.0/11.0
+		","
+		9
 		","
 		5
 		","
-		30
+		Normal/Late
+		","
+		-6
+		","
+		9—10/11
+		"
+13,"<h1 class=""charactername"">
+mii gunner
+</h1>","
+		Up Air
+		","
+		17...
+		","
+		59
+		","
+		13
+		","
+		Autocancels on frame 1-10 and 58 onward
+		","
+		1.8/4.0
+		","
+		4/5
+		","
+		2/3
+		","
+		Multi/Final
+		","
+		-11/-10
+		","
+		17/18—32(rehit: 3)/34
+		"
+14,"<h1 class=""charactername"">
+mii gunner
+</h1>","
+		Down Air
+		","
+		20
+		","
+		54
+		","
+		17
+		","
+		Autocancels on frame 1-3 and 54 onward
+		","
+		15.0/10.0/12.0/8.0
+		","
+		10/8/9
+		","
+		5/4/5
+		","
+		Far/close/late
+		","
+		-12/-13/-12
+		","
+		20—21/22—25
+		"
+15,"<h1 class=""charactername"">
+mii gunner
+</h1>","
+		Charge Blast
+		","
+		3(+12)
+		","
+		39
 		","
 		--
 		","
+		Startup is 3 from charge state. 12 frames to enter charge state. 4 to cancel charge with shield. Takes 132 frames to reach full charge
+		","
+		4.0—26.0
+		","
+		8—23
+		","
+		2—8
+		","
 		--
+		","
+		-26 to -5
+		","
+		**
+		"
+16,"<h1 class=""charactername"">
+mii gunner
+</h1>","
+		Laser Blaze
+		","
+		10
+		","
+		42
+		","
+		--
+		","
+		Fire rate is one shot per 22 frames
+		","
+		5.0
+		","
+		6
+		","
+		3
+		","
+		--
+		","
+		-23
+		","
+		10—**
+		"
+17,"<h1 class=""charactername"">
+mii gunner
+</h1>","
+		Grenade Launch
+		","
+		36
+		","
+		53
+		","
+		--
+		","
+		Explosion hits are: 1/6/11/16/18
+		","
+		1.3/6.5
+		","
+		4/6
+		","
+		-/3
+		","
+		Multi/Final
+		","
+		+10
+		","
+		**
+		"
+18,"<h1 class=""charactername"">
+mii gunner
+</h1>","
+		Flame Pillar
+		","
+		21
+		","
+		63
+		","
+		--
+		","
+		Eruption hits: 1/9/17/25/33. Will not erupt on shields
+		","
+		2.2/2.7
+		","
+		4
+		","
+		2
+		","
+		Multi/Final
+		","
+		-36
+		","
+		**
+		"
+19,"<h1 class=""charactername"">
+mii gunner
+</h1>","
+		Stealth Burst
+		","
+		36—66
+		","
+		70—105
+		","
+		--
+		","
+		Startup is 5 from release. 
+		","
+		12.1—18.0
+		","
+		9—11
+		","
+		4—6
+		","
+		--
+		","
+		-21 to -17
+		","
+		**
+		"
+20,"<h1 class=""charactername"">
+mii gunner
+</h1>","
+		Gunner Missile (Homing)
+		","
+		27
+		","
+		46
+		","
+		--
+		","
+		-- 
 		","
 		7.5
 		","
 		7
 		","
-		8
+		3
 		","
 		--
 		","
-		-17
+		-9
 		","
-		5—7
+		27—121
 		"
-8,"<h1 class=""charactername"">
-corrin
+21,"<h1 class=""charactername"">
+mii gunner
 </h1>","
-		Dash Attack
+		Gunner Missle (Super)
 		","
-		12/14/16/18/20/23
+		23
 		","
 		49
 		","
@@ -212,599 +537,174 @@ corrin
 		","
 		--
 		","
-		2.0/3.0
-		","
-		4/9
-		","
-		--/4
-		","
-		Multi/Final
-		","
-		-22
-		","
-		12/14/16/18/20/23
-		"
-9,"<h1 class=""charactername"">
-corrin
-</h1>","
-		Forward Smash
-		","
-		12/17
-		","
-		56
-		","
-		--
-		","
-		Charging hold is frame 12 and includes a hitbox that hits every 5 frames
-		","
-		0.5/11.0/12.0/16.7
-		","
-		4/9/9/16
-		","
-		2/13/13/17
-		","
-		Charging/Close/Far/Tipper
-		","
-		-26/-26/-22
-		","
-		12—**/17—18
-		"
-10,"<h1 class=""charactername"">
-corrin
-</h1>","
-		Up Smash
-		","
-		13
-		","
-		51
-		","
-		--
-		","
-		Charge hold is frame 9
-		","
-		10.0/13.0/15.0
-		","
-		8/9/14
-		","
-		7/9/10
-		","
-		Close/Far/Tipper
-		","
-		-31/-29/-28
-		","
-		13—17
-		"
-11,"<h1 class=""charactername"">
-corrin
-</h1>","
-		Down Smash
-		","
-		13
-		","
-		48
-		","
-		--
-		","
-		Charge hold is frame 8
-		","
-		11.0/9.0/14.0
-		","
-		8/7/14
-		","
-		8/7/10
-		","
-		Front/Back/Tipper
-		","
-		-27/-28/-25
-		","
-		13—15
-		"
-12,"<h1 class=""charactername"">
-corrin
-</h1>","
-		Neutral Air
-		","
-		6
-		","
-		46
+		14.5
 		","
 		10
 		","
-		Autocancels on frame 1-5 and 47 onward
+		5
 		","
-		7.0/5.5
+		--
 		","
-		7/6
+		-11
 		","
-		3/3
-		","
-		Early/Late
-		","
-		-7/-7
-		","
-		6—7(8—19)
+		23—93
 		"
-13,"<h1 class=""charactername"">
-corrin
+22,"<h1 class=""charactername"">
+mii gunner
 </h1>","
-		Forward Air
+		Lunar Launch
 		","
-		9
-		","
-		35
-		","
-		8
-		","
-		Autocancels on frame 1-8 and 30 onward
-		","
-		9.0
-		","
-		6
-		","
-		4
+		12
 		","
 		--
 		","
-		-4
-		","
-		9—12
-		"
-14,"<h1 class=""charactername"">
-corrin
-</h1>","
-		Back Air
-		","
-		13
-		","
-		41
-		","
-		13
-		","
-		Autocancels on frame 1-5 and 42 onward
-		","
-		12.0/9.0
-		","
-		9/7
-		","
-		5/4
-		","
-		Early/Late
-		","
-		-8/-9
-		","
-		13(14—16)
-		"
-15,"<h1 class=""charactername"">
-corrin
-</h1>","
-		Up Air
-		","
-		7
-		","
-		37
-		","
-		9
-		","
-		Autocancels on frame 1-3 and 38 onward
-		","
-		10.0
-		","
-		7
-		","
-		4
+		18
 		","
 		--
-		","
-		-5
-		","
-		7—12
-		"
-16,"<h1 class=""charactername"">
-corrin
-</h1>","
-		Down Air
-		","
-		12...
-		","
-		51
-		","
-		26
-		","
-		Landing hit on frame 1. Autocancels on frame 1-11 and 41 onward
-		","
-		2.0/3.0
-		","
-		4/5
-		","
-		2/4
-		","
-		Falling/Landing
-		","
-		-21
-		","
-		12—28(rehit: 2)/1—5
-		"
-17,"<h1 class=""charactername"">
-corrin
-</h1>","
-		Neutral B (Dragon Fang Shot)
-		","
-		17—47
-		","
-		61—95
-		","
-		--
-		","
-		--
-		","
-		4.0—11.0
-		","
-		5—8
-		","
-		2—4
-		","
-		--
-		","
-		**
-		","
-		17—71
-		"
-18,"<h1 class=""charactername"">
-corrin
-</h1>","
-		Dragon Fang Shot (chomp)
-		","
-		24-54-85
-		","
-		--
-		","
-		--
-		","
-		Chomp can be charged an additional 30 frames independently of shot for more damage.
-		","
-		10.0—20.0
-		","
-		8—20
-		","
-		10—18
-		","
-		--
-		","
-		-31 to -19
-		","
-		24—25/**/85—86
-		"
-19,"<h1 class=""charactername"">
-corrin
-</h1>","
-		Side B (Dragon Lunge, Pin)
-		","
-		4
-		","
-		--
-		","
-		--
-		","
-		After pinning the ground, 13 frame waiting period before you can select one of the options. Empty hop on the ground without Pin is 45 frames. Cannot pin a shielding target.
 		","
 		7.0
 		","
 		7
 		","
-		7
-		","
-		--
-		","
-		-6
-		","
-		**
-		"
-20,"<h1 class=""charactername"">
-corrin
-</h1>","
-		Side B (Dragon Lunge, Air)
-		","
-		10
-		","
-		37
-		","
-		22
-		","
-		--
-		","
-		8.0/15.0
-		","
-		7/10
-		","
-		8/14
-		","
-		Close/Tipper
-		","
-		--
-		","
-		10
-		"
-21,"<h1 class=""charactername"">
-corrin
-</h1>","
-		Dragon Lunge, Pin Cancel
-		","
-		--
-		","
-		~35/19
-		","
-		19
-		","
-		Second total frames is if you don't land on the ground
+		3
 		","
 		--
 		","
 		--
 		","
-		--
-		","
-		--
-		","
-		--
-		","
-		**
-		"
-22,"<h1 class=""charactername"">
-corrin
-</h1>","
-		Dragon Lunge, Pin Jump
-		","
-		--
-		","
-		29
-		","
-		--
-		","
-		Invulnerable on frame 2-7
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		**
+		12—25
 		"
 23,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
-		Dragon Lunge, Pin Kick
+		Cannon Jump Kick
 		","
-		10
+		6/10
 		","
-		56/45
+		--
 		","
-		19
+		28
 		","
-		Second total frames is if you go over an edge.
+		Invulnerable on frame 6 on the ground.
 		","
-		12.0/7.0
+		9.0/8.0/6.0
 		","
-		10/7
+		16/15/13
 		","
-		11/7
+		9/8/6
 		","
-		Early/Late
+		first/second/late
 		","
-		-35
+		**
 		","
-		10—17(18—24)
+		6—7/(10—15/16—30)
 		"
 24,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
-		Dragon Lunge, Back Kick
+		Arm Rocket
 		","
-		6
+		**
 		","
-		60/45
+		--
 		","
-		19
+		14
 		","
-		Second total frames is if you go over an edge.
+		--
 		","
-		5.0/7.0
+		--
 		","
-		6/7
+		--
 		","
-		6/7
+		--
 		","
-		Early/Late
+		--
 		","
-		-48
+		--
 		","
-		6/14—21(22—28)
+		**
 		"
 25,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
-		Up B (Dragon Ascent)
+		Echo Reflector
 		","
-		18...
+		3 (4 is Start of Reflector)
 		","
-		--
-		","
-		30
-		","
-		Invulnerable on frame 7-17
-		","
-		4.5/1.2/3.0
-		","
-		8/4/10
-		","
-		-/2/4
-		","
-		First/Multi/Final
+		38
 		","
 		--
 		","
-		18—19/20—28(rehit: 2)/29—30
+		Reflects on 4. Total frames is the minimum usage. Endlag is 15 frames otherwise.
+		","
+		2.0
+		","
+		7
+		","
+		3
+		","
+		--
+		","
+		-32
+		","
+		**
 		"
 26,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
-		Down B (Counter Surge)
+		Bomb Drop
 		","
-		7 (Start of Counter)
+		18—133
 		","
-		66
-		","
-		--
-		","
-		Invulnerable on frame 6. Counters on 7-26
+		53
 		","
 		--
 		","
-		--
+		Auto detonates on 134. Or six frames after contact
 		","
-		--
+		2.0/9.0
 		","
-		--
+		4/7
 		","
-		--
+		-/4
 		","
-		7—26 (counter)
+		contact/explosion
+		","
+		-18
+		","
+		18—133/1—4
 		"
 27,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
-		Counter Surge, Attack
+		Absorbing Vortex
+		","
+		7
 		","
 		27
 		","
-		66
+		--
+		","
+		Endlag from extended use is 9. Total frames is the minimum use. Absorbs on frame 7
+		","
+		4.0
+		","
+		5
+		","
+		5
 		","
 		--
 		","
-		Invulnerable on frame 1-51.  Attacker frozen until frame 12
+		-10
 		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		27—31
+		7—11
 		"
 28,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
 		Grab
 		","
-		7
-		","
-		36
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		7—8
-		"
-29,"<h1 class=""charactername"">
-corrin
-</h1>","
-		Dash Grab
-		","
-		10
-		","
-		44
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		10—11
-		"
-30,"<h1 class=""charactername"">
-corrin
-</h1>","
-		Pivot Grab
-		","
-		11
-		","
-		39
-		","
-		--
-		","
-		--		
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		11—12
-		"
-31,"<h1 class=""charactername"">
-corrin
-</h1>","
-		Pummel
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		--
-		","
-		11—12
-		"
-32,"<h1 class=""charactername"">
-corrin
-</h1>","
-		Forward Throw
-		","
-		14/15
+		6
 		","
 		34
 		","
@@ -814,22 +714,47 @@ corrin
 		","
 		--
 		","
-		--
+		5
+		","
+		5
 		","
 		--
 		","
-		--
+		-10
 		","
-		--
-		","
-		11—12
+		6—7
 		"
-33,"<h1 class=""charactername"">
-corrin
+29,"<h1 class=""charactername"">
+mii gunner
 </h1>","
-		Backward Throw
+		Dash Grab
 		","
-		12/13
+		9
+		","
+		42
+		","
+		--
+		","
+		--		
+		","
+		--
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-10
+		","
+		9—10
+		"
+30,"<h1 class=""charactername"">
+mii gunner
+</h1>","
+		Pivot Grab
+		","
+		10
 		","
 		37
 		","
@@ -839,72 +764,147 @@ corrin
 		","
 		--
 		","
-		--
+		5
+		","
+		5
 		","
 		--
 		","
-		--
+		-10
+		","
+		10—11
+		"
+31,"<h1 class=""charactername"">
+mii gunner
+</h1>","
+		Pummel
+		","
+		1
+		","
+		19
 		","
 		--
 		","
-		11—12
+		Total frames includes 13 frames of hitlag
+		","
+		1.3
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-10
+		","
+		10—11
+		"
+32,"<h1 class=""charactername"">
+mii gunner
+</h1>","
+		Forward Throw
+		","
+		10/12
+		","
+		33
+		","
+		--
+		","
+		--	
+		","
+		4.0/3.0
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-10
+		","
+		10—11
+		"
+33,"<h1 class=""charactername"">
+mii gunner
+</h1>","
+		Backward Throw
+		","
+		10
+		","
+		49
+		","
+		--
+		","
+		Shoots blaster on 20.		
+		","
+		7.0/3.0
+		","
+		5
+		","
+		5
+		","
+		--
+		","
+		-10
+		","
+		10—11
 		"
 34,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
 		Up Throw
 		","
-		12/13
+		7
 		","
 		51
 		","
 		--
 		","
-		Frames 1-4 Invincible, 5-42 Dragon intangible, 43-End Vulnerable
+		Shoots blaster on 18 and 28
+		","
+		7.0/3.0
+		","
+		5
+		","
+		5
 		","
 		--
 		","
-		--
+		-10
 		","
-		--
-		","
-		--
-		","
-		--
-		","
-		11—12
+		10—11
 		"
 35,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
 		Down Throw
 		","
-		26/27
+		16
 		","
-		54
-		","
-		--
-		","
-		Frame 1-4 Invincible, 5-44 Dragon intangible, 44-End Vulnerable		
+		40
 		","
 		--
 		","
-		--
+		--		
+		","
+		7.0
+		","
+		5
+		","
+		5
 		","
 		--
 		","
-		--
+		-10
 		","
-		--
-		","
-		11—12
+		10—11
 		"
 36,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
 		Spot Dodge
 		","
-		26/27
+		16
 		","
 		20/25
 		","
@@ -912,290 +912,290 @@ corrin
 		","
 		Invulnerable on frame 3-17
 		","
-		--
+		7.0
+		","
+		5
+		","
+		5
 		","
 		--
 		","
-		--
+		-10
 		","
-		--
-		","
-		--
-		","
-		11—12
+		10—11
 		"
 37,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
 		Forward Roll
 		","
-		26/27
+		16
 		","
 		29
 		","
 		--
 		","
-		Invulnerable on frame 4-15	
+		Invulnerable on frame 4-15
+		","
+		7.0
+		","
+		5
+		","
+		5
 		","
 		--
 		","
-		--
+		-10
 		","
-		--
-		","
-		--
-		","
-		--
-		","
-		11—12
+		10—11
 		"
 38,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
 		Backward Roll
 		","
-		26/27
+		16
 		","
 		34
 		","
 		--
 		","
-		Invulnerable on frame 5-16 	
+		Invulnerable on frame 5-16
+		","
+		7.0
+		","
+		5
+		","
+		5
 		","
 		--
 		","
-		--
+		-10
 		","
-		--
-		","
-		--
-		","
-		--
-		","
-		11—12
+		10—11
 		"
 39,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
 		Neutral Air Dodge
 		","
-		26/27
+		16
 		","
-		49
+		52
 		","
 		10
 		","
 		Invulnerable on frame 3-29
 		","
-		--
+		7.0
+		","
+		5
+		","
+		5
 		","
 		--
 		","
-		--
+		-10
 		","
-		--
-		","
-		--
-		","
-		11—12
+		10—11
 		"
 40,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
 		Air Dodge, Down
 		","
-		26/27
+		16
 		","
-		67
+		73
 		","
 		11-19
 		","
-		Invulnerable on frame 3-21			
+		Invulnerable on frame 3-21	
+		","
+		7.0
+		","
+		5
+		","
+		5
 		","
 		--
 		","
-		--
+		-10
 		","
-		--
-		","
-		--
-		","
-		--
-		","
-		11—12
+		10—11
 		"
 41,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
 		Air Dodge, Diagonally Down
 		","
-		26/27
+		16
 		","
-		75
+		82
 		","
 		11-19
 		","
-		Invulnerable on frame 3-21		
+		Invulnerable on frame 3-21	
+		","
+		7.0
+		","
+		5
+		","
+		5
 		","
 		--
 		","
-		--
+		-10
 		","
-		--
-		","
-		--
-		","
-		--
-		","
-		11—12
+		10—11
 		"
 42,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
 		Air Dodge, Left/Right
 		","
-		26/27
+		16
 		","
-		81
+		87
 		","
 		11-19
 		","
 		Invulnerable on frame 3-21	
 		","
-		--
+		7.0
+		","
+		5
+		","
+		5
 		","
 		--
 		","
-		--
+		-10
 		","
-		--
-		","
-		--
-		","
-		11—12
+		10—11
 		"
 43,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
 		Air Dodge, Diagonally Up
 		","
-		26/27
+		16
 		","
-		97
+		103
 		","
 		11-19
 		","
-		Invulnerable on frame 3-21	
+		Invulnerable on frame 3-21
+		","
+		7.0
+		","
+		5
+		","
+		5
 		","
 		--
 		","
-		--
+		-10
 		","
-		--
-		","
-		--
-		","
-		--
-		","
-		11—12
+		10—11
 		"
 44,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
 		Air Dodge, Up
 		","
-		26/27
+		16
 		","
-		107
+		114
 		","
 		11-19
 		","
 		Invulnerable on frame 3-21	
 		","
-		--
+		7.0
+		","
+		5
+		","
+		5
 		","
 		--
 		","
-		--
+		-10
 		","
-		--
-		","
-		--
-		","
-		11—12
+		10—11
 		"
 45,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
 			Ledge Grab
 		","
-		26/27
+		16
 		","
-		107
+		114
 		","
 		11-19
 		","
 		Invulnerable on frame 3-21	
 		","
-		--
+		7.0
+		","
+		5
+		","
+		5
 		","
 		--
 		","
-		--
+		-10
 		","
-		--
-		","
-		--
-		","
-		11—12
+		10—11
 		"
 46,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
 			Ledge Grab
 		","
-		26/27
+		16
 		","
-		107
+		114
 		","
 		11-19
 		","
 		Invulnerable on frame 3-21	
 		","
-		--
+		7.0
+		","
+		5
+		","
+		5
 		","
 		--
 		","
-		--
+		-10
 		","
-		--
-		","
-		--
-		","
-		11—12
+		10—11
 		"
 47,"<h1 class=""charactername"">
-corrin
+mii gunner
 </h1>","
 				Ledge Hang
 			","
-		26/27
+		16
 		","
-		107
+		114
 		","
 		11-19
 		","
 		Invulnerable on frame 3-21	
 		","
-		--
+		7.0
+		","
+		5
+		","
+		5
 		","
 		--
 		","
-		--
+		-10
 		","
-		--
-		","
-		--
-		","
-		11—12
+		10—11
 		"

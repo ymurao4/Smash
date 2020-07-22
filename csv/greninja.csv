@@ -1,316 +1,294 @@
-,Character Name,Move name,Start up,Advantage,Active frames
-0,"<h1 class=""charactername"">
-greninja
-</h1>","
+,Move name,Start up,Total frame,Advantage,Active frames
+0,"
 		Jab 1
 		","
 		3
+		","
+		21
 		","
 		-15
 		","
 		3
 		"
-1,"<h1 class=""charactername"">
-greninja
-</h1>","
+1,"
 		Jab 2
 		","
 		3
+		","
+		21
 		","
 		-15
 		","
 		3—4
 		"
-2,"<h1 class=""charactername"">
-greninja
-</h1>","
+2,"
 		Jab 3
 		","
 		5
+		","
+		35
 		","
 		-26
 		","
 		5—6
 		"
-3,"<h1 class=""charactername"">
-greninja
-</h1>","
+3,"
 		Rapid Jab
 		","
 		5/8/11/14...
+		","
+		**
 		","
 		--
 		","
 		**
 		"
-4,"<h1 class=""charactername"">
-greninja
-</h1>","
+4,"
 		Rapid Jab Finisher
 		","
 		4
+		","
+		47
 		","
 		-39
 		","
 		4—5
 		"
-5,"<h1 class=""charactername"">
-greninja
-</h1>","
+5,"
 		Forward Tilt
 		","
 		10
+		","
+		32
 		","
 		-15/-14
 		","
 		10—12
 		"
-6,"<h1 class=""charactername"">
-greninja
-</h1>","
+6,"
 		Up Tilt
 		","
 		9
+		","
+		32
 		","
 		-18
 		","
 		9—12
 		"
-7,"<h1 class=""charactername"">
-greninja
-</h1>","
+7,"
 		Down Tilt
 		","
 		5
+		","
+		22
 		","
 		-12
 		","
 		5—6
 		"
-8,"<h1 class=""charactername"">
-greninja
-</h1>","
+8,"
 		Dash Attack
 		","
 		7
+		","
+		28
 		","
 		-13
 		","
 		7—11
 		"
-9,"<h1 class=""charactername"">
-greninja
-</h1>","
+9,"
 		Forward Smash
 		","
 		13
+		","
+		49
 		","
 		-26
 		","
 		13—15
 		"
-10,"<h1 class=""charactername"">
-greninja
-</h1>","
+10,"
 		Up Smash
 		","
 		12/18
+		","
+		51
 		","
 		-23
 		","
 		12—17/18(19—20/21)
 		"
-11,"<h1 class=""charactername"">
-greninja
-</h1>","
+11,"
 		Down Smash
 		","
 		11
+		","
+		49
 		","
 		-29
 		","
 		11—12(13)
 		"
-12,"<h1 class=""charactername"">
-greninja
-</h1>","
+12,"
 		Down Taunt
 		","
 		30
+		","
+		79
 		","
 		**
 		","
 		30—73 (rehit: 3)
 		"
-13,"<h1 class=""charactername"">
-greninja
-</h1>","
+13,"
 		Neutral Air
 		","
 		12
+		","
+		52
 		","
 		-3/-4
 		","
 		12—13(14—19)
 		"
-14,"<h1 class=""charactername"">
-greninja
-</h1>","
+14,"
 		Forward Air
 		","
 		16
+		","
+		54
 		","
 		-6
 		","
 		16—17
 		"
-15,"<h1 class=""charactername"">
-greninja
-</h1>","
+15,"
 		Back Air
 		","
 		5/7/11
+		","
+		40
 		","
 		-8/-7
 		","
 		5/7/11—14
 		"
-16,"<h1 class=""charactername"">
-greninja
-</h1>","
+16,"
 		Up Air
 		","
 		7/10/13/16/19/22
+		","
+		41
 		","
 		-12/-12
 		","
 		7—8/10—11/13—14/16—17/19—20/22
 		"
-17,"<h1 class=""charactername"">
-greninja
-</h1>","
+17,"
 		Down Air
 		","
 		17
+		","
+		51
 		","
 		-16
 		","
 		17—19(20—45)
 		"
-18,"<h1 class=""charactername"">
-greninja
-</h1>","
+18,"
 		Neutral B (Water Shuriken)
 		","
 		20—60
+		","
+		45—81
 		","
 		-18 to -13
 		","
 		20—35 — 60—95
 		"
-19,"<h1 class=""charactername"">
-greninja
-</h1>","
+19,"
 		Side B (Shadow Sneak)
 		","
 		24(+5)
+		","
+		63
 		","
 		-29/-28
 		","
 		24—25
 		"
-20,"<h1 class=""charactername"">
-greninja
-</h1>","
+20,"
 		Up B (Hydro Pump)
 		","
 		19
 		","
 		--
 		","
+		--
+		","
 		**
 		"
-21,"<h1 class=""charactername"">
-greninja
-</h1>","
+21,"
 		Down B (Substitute)
 		","
 		8 (Start of Counter)
+		","
+		69
 		","
 		--
 		","
 		8—34 (counter)
 		"
-22,"<h1 class=""charactername"">
-greninja
-</h1>","
+22,"
 		Down B, Attack (Substitute, Attack)
 		","
 		19
+		","
+		63
 		","
 		-33/-32
 		","
 		19
 		"
-23,"<h1 class=""charactername"">
-greninja
-</h1>","
+23,"
 		Grab
 		","
 		10
+		","
+		38
 		","
 		-33/-32
 		","
 		10—11
 		"
-24,"<h1 class=""charactername"">
-greninja
-</h1>","
+24,"
 		Dash Grab
 		","
 		13
+		","
+		46
 		","
 		-33/-32
 		","
 		13—14
 		"
-25,"<h1 class=""charactername"">
-greninja
-</h1>","
+25,"
 		Pivot Grab
 		","
 		14
 		","
+		41
+		","
 		-33/-32
 		","
 		14—15
 		"
-26,"<h1 class=""charactername"">
-greninja
-</h1>","
+26,"
 		Pummel
 		","
 		2
-		","
-		-33/-32
-		","
-		14—15
-		"
-27,"<h1 class=""charactername"">
-greninja
-</h1>","
-		Forward Throw
-		","
-		15/16
-		","
-		-33/-32
-		","
-		14—15
-		"
-28,"<h1 class=""charactername"">
-greninja
-</h1>","
-		Backward Throw
 		","
 		18
 		","
@@ -318,155 +296,177 @@ greninja
 		","
 		14—15
 		"
-29,"<h1 class=""charactername"">
-greninja
-</h1>","
+27,"
+		Forward Throw
+		","
+		15/16
+		","
+		31
+		","
+		-33/-32
+		","
+		14—15
+		"
+28,"
+		Backward Throw
+		","
+		18
+		","
+		44
+		","
+		-33/-32
+		","
+		14—15
+		"
+29,"
 		Up Throw
 		","
 		16
 		","
+		42
+		","
 		-33/-32
 		","
 		14—15
 		"
-30,"<h1 class=""charactername"">
-greninja
-</h1>","
+30,"
 		Down Throw
 		","
 		16
 		","
+		37
+		","
 		-33/-32
 		","
 		14—15
 		"
-31,"<h1 class=""charactername"">
-greninja
-</h1>","
+31,"
 		Spot Dodge
 		","
 		16
 		","
+		19/24
+		","
 		-33/-32
 		","
 		14—15
 		"
-32,"<h1 class=""charactername"">
-greninja
-</h1>","
+32,"
 		Forward Roll
 		","
 		16
 		","
+		28
+		","
 		-33/-32
 		","
 		14—15
 		"
-33,"<h1 class=""charactername"">
-greninja
-</h1>","
+33,"
 		Backward Roll
 		","
 		16
 		","
+		33
+		","
 		-33/-32
 		","
 		14—15
 		"
-34,"<h1 class=""charactername"">
-greninja
-</h1>","
+34,"
 		Neutral Air Dodge
 		","
 		16
 		","
+		41
+		","
 		-33/-32
 		","
 		14—15
 		"
-35,"<h1 class=""charactername"">
-greninja
-</h1>","
+35,"
 		Air Dodge, Down
 		","
 		16
 		","
+		60
+		","
 		-33/-32
 		","
 		14—15
 		"
-36,"<h1 class=""charactername"">
-greninja
-</h1>","
+36,"
 		Air Dodge, Diagonally Down
 		","
 		16
 		","
+		67
+		","
 		-33/-32
 		","
 		14—15
 		"
-37,"<h1 class=""charactername"">
-greninja
-</h1>","
+37,"
 		Air Dodge, Left/Right
 		","
 		16
 		","
+		71
+		","
 		-33/-32
 		","
 		14—15
 		"
-38,"<h1 class=""charactername"">
-greninja
-</h1>","
+38,"
 		Air Dodge, Diagonally Up
 		","
 		16
 		","
+		78
+		","
 		-33/-32
 		","
 		14—15
 		"
-39,"<h1 class=""charactername"">
-greninja
-</h1>","
+39,"
 		Air Dodge, Up
 		","
 		16
 		","
+		85
+		","
 		-33/-32
 		","
 		14—15
 		"
-40,"<h1 class=""charactername"">
-greninja
-</h1>","
+40,"
 			Ledge Grab
 		","
 		16
 		","
+		85
+		","
 		-33/-32
 		","
 		14—15
 		"
-41,"<h1 class=""charactername"">
-greninja
-</h1>","
+41,"
 			Ledge Grab
 		","
 		16
 		","
+		85
+		","
 		-33/-32
 		","
 		14—15
 		"
-42,"<h1 class=""charactername"">
-greninja
-</h1>","
+42,"
 				Ledge Hang
 			","
 		16
+		","
+		85
 		","
 		-33/-32
 		","

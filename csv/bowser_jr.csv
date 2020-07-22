@@ -1,472 +1,472 @@
-,Character Name,Move name,Start up,Advantage,Active frames
-0,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+,Move name,Start up,Total frame,Advantage,Active frames
+0,"
 		Jab 1
 		","
 		4
+		","
+		19
 		","
 		-12
 		","
 		4—5
 		"
-1,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+1,"
 		Jab 2
 		","
 		4
+		","
+		29
 		","
 		-22
 		","
 		4—5
 		"
-2,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+2,"
 		Rapid Jab
 		","
 		4/7/10...
 		","
 		--
 		","
+		--
+		","
 		**
 		"
-3,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+3,"
 		Rapid Jab Finisher
 		","
 		6
+		","
+		42
 		","
 		-32
 		","
 		6—7
 		"
-4,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+4,"
 		Forward Tilt
 		","
 		7
+		","
+		31
 		","
 		-18/-16
 		","
 		7—9
 		"
-5,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+5,"
 		Up Tilt
 		","
 		7
+		","
+		32
 		","
 		-19
 		","
 		7—14
 		"
-6,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+6,"
 		Down Tilt
 		","
 		4/12/23
+		","
+		40
 		","
 		-11
 		","
 		4—6/12—14/23—25
 		"
-7,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+7,"
 		Dash Attack
 		","
 		8/11/14/17/20/25
+		","
+		47
 		","
 		-17
 		","
 		8/11/14/17/20/25—26
 		"
-8,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+8,"
 		Forward Smash
 		","
 		18/21/24/27/30/35
+		","
+		55
 		","
 		-12
 		","
 		18/21/24/27/30/35—37
 		"
-9,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+9,"
 		Up Smash
 		","
 		7/9/12/15/18/22
+		","
+		53
 		","
 		-26
 		","
 		7—8/9/12/15/18/22—23
 		"
-10,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+10,"
 		Down Smash
 		","
 		15
+		","
+		59
 		","
 		-32
 		","
 		15—17
 		"
-11,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+11,"
 		Neutral Air
 		","
 		7
+		","
+		43
 		","
 		-6/-7/-7/-5/-6/-6
 		","
 		7—8(9—13/14—19)
 		"
-12,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+12,"
 		Forward Air
 		","
 		10
+		","
+		43
 		","
 		-11
 		","
 		10—13(14—17/18—23)/2
 		"
-13,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+13,"
 		Back Air
 		","
 		12
+		","
+		45
 		","
 		-9/-10
 		","
 		12—13(14—18)
 		"
-14,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+14,"
 		Up Air
 		","
 		6
+		","
+		25
 		","
 		-5
 		","
 		6—9(10—13)
 		"
-15,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+15,"
 		Down Air
 		","
 		15...
+		","
+		56
 		","
 		-11
 		","
 		15—38 (rehit: 3) / 39
 		"
-16,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+16,"
 		Neutral B (Clown Cannon)
 		","
 		37-97
+		","
+		72-132
 		","
 		-23 to -17
 		","
 		**
 		"
-17,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+17,"
 		Side B (Clown Kart Dash)
 		","
 		23
 		","
 		--
 		","
+		--
+		","
 		**
 		"
-18,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+18,"
 		Clown Kart Dash (spinout)
 		","
 		3
+		","
+		58
 		","
 		-40
 		","
 		3—14
 		"
-19,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+19,"
 		Up B (Abandon Ship)
 		","
 		21/56
 		","
 		--
 		","
+		--
+		","
 		**
 		"
-20,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+20,"
 		Abandon Ship (Hammer)
 		","
 		8/13
+		","
+		39
 		","
 		--
 		","
 		8—9/13—14
 		"
-21,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+21,"
 		Down B (Mechakoopa)
 		","
 		--
+		","
+		67
 		","
 		--
 		","
 		**
 		"
-22,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+22,"
 		Grab
 		","
 		11
+		","
+		40
 		","
 		--
 		","
 		11—13
 		"
-23,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+23,"
 		Dash Grab
 		","
 		14
+		","
+		48
 		","
 		--
 		","
 		14—16
 		"
-24,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+24,"
 		Pivot Grab
 		","
 		15
 		","
+		43
+		","
 		--
 		","
 		15—17
 		"
-25,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+25,"
 		Pummel
 		","
 		1
 		","
+		19
+		","
 		--
 		","
 		15—17
 		"
-26,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+26,"
 		Forward Throw
 		","
 		14/16
 		","
+		34
+		","
 		--
 		","
 		15—17
 		"
-27,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+27,"
 		Backward Throw
 		","
 		24
 		","
+		61
+		","
 		--
 		","
 		15—17
 		"
-28,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+28,"
 		Up Throw
 		","
 		18
 		","
+		37
+		","
 		--
 		","
 		15—17
 		"
-29,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+29,"
 		Down Throw
 		","
 		16/50
 		","
+		77
+		","
 		--
 		","
 		15—17
 		"
-30,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+30,"
 		Spot Dodge
 		","
 		16/50
 		","
+		20/25
+		","
 		--
 		","
 		15—17
 		"
-31,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+31,"
 		Forward Roll
 		","
 		16/50
 		","
+		29
+		","
 		--
 		","
 		15—17
 		"
-32,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+32,"
 		Backward Roll
 		","
 		16/50
 		","
+		34
+		","
 		--
 		","
 		15—17
 		"
-33,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+33,"
 		Neutral Air Dodge
 		","
 		16/50
 		","
+		48
+		","
 		--
 		","
 		15—17
 		"
-34,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+34,"
 		Abandon Ship Air Dodge
 		","
 		16/50
 		","
+		33
+		","
 		--
 		","
 		15—17
 		"
-35,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+35,"
 		Air Dodge, Down
 		","
 		16/50
 		","
+		67
+		","
 		--
 		","
 		15—17
 		"
-36,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+36,"
 		Air Dodge, Diagonally Down
 		","
 		16/50
 		","
+		77
+		","
 		--
 		","
 		15—17
 		"
-37,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+37,"
 		Air Dodge, Left/Right
 		","
 		16/50
 		","
+		82
+		","
 		--
 		","
 		15—17
 		"
-38,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+38,"
 		Air Dodge, Diagonally Up
 		","
 		16/50
 		","
+		93
+		","
 		--
 		","
 		15—17
 		"
-39,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+39,"
 		Air Dodge, Up
 		","
 		16/50
 		","
+		108
+		","
 		--
 		","
 		15—17
 		"
-40,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+40,"
 			Ledge Grab
 		","
 		16/50
 		","
+		108
+		","
 		--
 		","
 		15—17
 		"
-41,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+41,"
 			Ledge Grab
 		","
 		16/50
 		","
+		108
+		","
 		--
 		","
 		15—17
 		"
-42,"<h1 class=""charactername"">
-Bowser Jr
-</h1>","
+42,"
 				Ledge Hang
 			","
 		16/50
+		","
+		108
 		","
 		--
 		","

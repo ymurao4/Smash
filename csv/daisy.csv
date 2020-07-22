@@ -1,439 +1,439 @@
-,Character Name,Move name,Start up,Advantage,Active frames
-0,"<h1 class=""charactername"">
-daisy
-</h1>","
+,Move name,Start up,Total frame,Advantage,Active frames
+0,"
 		Jab 1
 		","
 		2
+		","
+		27
 		","
 		-22
 		","
 		2
 		"
-1,"<h1 class=""charactername"">
-daisy
-</h1>","
+1,"
 		Jab 2
 		","
 		2
+		","
+		29
 		","
 		-23
 		","
 		2—3
 		"
-2,"<h1 class=""charactername"">
-daisy
-</h1>","
+2,"
 		Forward Tilt
 		","
 		7
+		","
+		36
 		","
 		-22/-21
 		","
 		7/8—9/10—15
 		"
-3,"<h1 class=""charactername"">
-daisy
-</h1>","
+3,"
 		Up Tilt
 		","
 		9
+		","
+		37
 		","
 		-20/-18
 		","
 		9—13
 		"
-4,"<h1 class=""charactername"">
-daisy
-</h1>","
+4,"
 		Down Tilt
 		","
 		8
+		","
+		23
 		","
 		-8
 		","
 		8—9
 		"
-5,"<h1 class=""charactername"">
-daisy
-</h1>","
+5,"
 		Dash Attack
 		","
 		6/17
+		","
+		37
 		","
 		-14
 		","
 		6—9/17—19
 		"
-6,"<h1 class=""charactername"">
-daisy
-</h1>","
+6,"
 		Forward Smash
 		","
 		15
+		","
+		45
 		","
 		-20/-21/-18
 		","
 		15—17/15—17/15—17
 		"
-7,"<h1 class=""charactername"">
-daisy
-</h1>","
+7,"
 		Up Smash
 		","
 		14
+		","
+		44
 		","
 		-20/-19
 		","
 		14—16/17—20
 		"
-8,"<h1 class=""charactername"">
-daisy
-</h1>","
+8,"
 		Down Smash
 		","
 		6/10/14/18/22/26/30
+		","
+		54
 		","
 		-21
 		","
 		6—7/10—11/14—15/18—19/ 22—23/26—27/30—31
 		"
-9,"<h1 class=""charactername"">
-daisy
-</h1>","
+9,"
 		Neutral Air
 		","
 		5
+		","
+		48
 		","
 		-2/-4
 		","
 		5—8/9—19
 		"
-10,"<h1 class=""charactername"">
-daisy
-</h1>","
+10,"
 		Forward Air
 		","
 		16
+		","
+		57
 		","
 		-8/-8
 		","
 		16—20
 		"
-11,"<h1 class=""charactername"">
-daisy
-</h1>","
+11,"
 		Back Air
 		","
 		6
+		","
+		53
 		","
 		-6/-8
 		","
 		6—7
 		"
-12,"<h1 class=""charactername"">
-daisy
-</h1>","
+12,"
 		Up Air
 		","
 		10/15
+		","
+		45
 		","
 		-4/-4
 		","
 		(10/11/12—13)(15/16—19)
 		"
-13,"<h1 class=""charactername"">
-daisy
-</h1>","
+13,"
 		Down Air
 		","
 		12/18/24/30
+		","
+		38
 		","
 		-6/-5
 		","
 		12—13/18—19/24—25/30—31
 		"
-14,"<h1 class=""charactername"">
-daisy
-</h1>","
+14,"
 		Neutral B (Toad)
 		","
 		9 (Start of Counter)
+		","
+		62
 		","
 		--
 		","
 		--
 		"
-15,"<h1 class=""charactername"">
-daisy
-</h1>","
+15,"
 		Toad, Attack
 		","
 		2/6/8/12/14/17
+		","
+		60
 		","
 		--
 		","
 		**
 		"
-16,"<h1 class=""charactername"">
-daisy
-</h1>","
+16,"
 		Side B (daisy Bomber)
 		","
 		13
 		","
+		62/87
+		","
 		-13
 		","
 		13—36(detector)
 		"
-17,"<h1 class=""charactername"">
-daisy
-</h1>","
+17,"
 		Side B, Air (daisy Bomber, Air)
 		","
 		13
 		","
+		87
+		","
 		-13
 		","
 		13—36(detector)
 		"
-18,"<h1 class=""charactername"">
-daisy
-</h1>","
+18,"
 		Up B (daisy Parasol)
 		","
 		7/11/16/21/26/31
 		","
 		--
 		","
+		--
+		","
 		7/11/16/21/26/31
 		"
-19,"<h1 class=""charactername"">
-daisy
-</h1>","
+19,"
 		Down B (Turnip Pull)
 		","
 		--
+		","
+		39
 		","
 		--
 		","
 		**
 		"
-20,"<h1 class=""charactername"">
-daisy
-</h1>","
+20,"
 		Grab
 		","
 		6
+		","
+		36
 		","
 		--
 		","
 		6—7
 		"
-21,"<h1 class=""charactername"">
-daisy
-</h1>","
+21,"
 		Dash Grab
 		","
 		9
+		","
+		44
 		","
 		--
 		","
 		9—10
 		"
-22,"<h1 class=""charactername"">
-daisy
-</h1>","
+22,"
 		Pivot Grab
 		","
 		10
 		","
+		39
+		","
 		--
 		","
 		10—11
 		"
-23,"<h1 class=""charactername"">
-daisy
-</h1>","
+23,"
 		Pummel
 		","
 		1
 		","
+		19
+		","
 		--
 		","
 		10—11
 		"
-24,"<h1 class=""charactername"">
-daisy
-</h1>","
+24,"
 		Forward Throw
 		","
 		14/16
 		","
+		39
+		","
 		--
 		","
 		10—11
 		"
-25,"<h1 class=""charactername"">
-daisy
-</h1>","
+25,"
 		Backward Throw
 		","
 		20/21
 		","
+		49
+		","
 		--
 		","
 		10—11
 		"
-26,"<h1 class=""charactername"">
-daisy
-</h1>","
+26,"
 		Up Throw
 		","
 		19/26
 		","
+		49
+		","
 		--
 		","
 		10—11
 		"
-27,"<h1 class=""charactername"">
-daisy
-</h1>","
+27,"
 		Down Throw
 		","
 		34/43
 		","
+		64
+		","
 		--
 		","
 		10—11
 		"
-28,"<h1 class=""charactername"">
-daisy
-</h1>","
+28,"
 		Spot Dodge
 		","
 		34/43
 		","
+		21/26
+		","
 		--
 		","
 		10—11
 		"
-29,"<h1 class=""charactername"">
-daisy
-</h1>","
+29,"
 		Forward Roll
 		","
 		34/43
 		","
+		30
+		","
 		--
 		","
 		10—11
 		"
-30,"<h1 class=""charactername"">
-daisy
-</h1>","
+30,"
 		Backward Roll
 		","
 		34/43
 		","
+		35
+		","
 		--
 		","
 		10—11
 		"
-31,"<h1 class=""charactername"">
-daisy
-</h1>","
+31,"
 		Neutral Air Dodge
 		","
 		34/43
 		","
+		61
+		","
 		--
 		","
 		10—11
 		"
-32,"<h1 class=""charactername"">
-daisy
-</h1>","
+32,"
 		Air Dodge, Down
 		","
 		34/43
 		","
+		86
+		","
 		--
 		","
 		10—11
 		"
-33,"<h1 class=""charactername"">
-daisy
-</h1>","
+33,"
 		Air Dodge, Diagonally Down
 		","
 		34/43
 		","
+		92
+		","
 		--
 		","
 		10—11
 		"
-34,"<h1 class=""charactername"">
-daisy
-</h1>","
+34,"
 		Air Dodge, Left/Right
 		","
 		34/43
 		","
+		103
+		","
 		--
 		","
 		10—11
 		"
-35,"<h1 class=""charactername"">
-daisy
-</h1>","
+35,"
 		Air Dodge, Diagonally Up
 		","
 		34/43
 		","
+		124
+		","
 		--
 		","
 		10—11
 		"
-36,"<h1 class=""charactername"">
-daisy
-</h1>","
+36,"
 		Air Dodge, Up
 		","
 		34/43
 		","
+		141
+		","
 		--
 		","
 		10—11
 		"
-37,"<h1 class=""charactername"">
-daisy
-</h1>","
+37,"
 			Ledge Grab
 		","
 		34/43
 		","
+		141
+		","
 		--
 		","
 		10—11
 		"
-38,"<h1 class=""charactername"">
-daisy
-</h1>","
+38,"
 			Ledge Grab
 		","
 		34/43
 		","
+		141
+		","
 		--
 		","
 		10—11
 		"
-39,"<h1 class=""charactername"">
-daisy
-</h1>","
+39,"
 				Ledge Hang
 			","
 		34/43
+		","
+		141
 		","
 		--
 		","

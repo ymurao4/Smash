@@ -1,637 +1,637 @@
-,Character Name,Move name,Start up,Advantage,Active frames
-0,"<h1 class=""charactername"">
-joker
-</h1>","
+,Move name,Start up,Total frame,Advantage,Active frames
+0,"
 				Ledge Hang
 			","
 		20/30/31
+		","
+		88
 		","
 		--
 		","
 		9—10
 		"
-1,"<h1 class=""charactername"">
-joker
-</h1>","
+1,"
 		Jab 1
 		","
 		4
+		","
+		23
 		","
 		-16
 		","
 		4—5(4—5)
 		"
-2,"<h1 class=""charactername"">
-joker
-</h1>","
+2,"
 		Jab 2
 		","
 		3
+		","
+		23
 		","
 		-17
 		","
 		3—4(3—4)
 		"
-3,"<h1 class=""charactername"">
-joker
-</h1>","
+3,"
 		Jab 3
 		","
 		3
+		","
+		34
 		","
 		-26
 		","
 		3—4(3—4)
 		"
-4,"<h1 class=""charactername"">
-joker
-</h1>","
+4,"
 		Forward Tilt
 		","
 		8/13
+		","
+		34
 		","
 		**/-15(**/-11)
 		","
 		8—9/13—15(8—9/13—19)
 		"
-5,"<h1 class=""charactername"">
-joker
-</h1>","
+5,"
 		Up Tilt
 		","
 		8/11/14/17/20
+		","
+		40
 		","
 		-27
 		","
 		8/9(11—19) [Final Hit: 20—23(20—23)]
 		"
-6,"<h1 class=""charactername"">
-joker
-</h1>","
+6,"
 		Down Tilt
 		","
 		8
+		","
+		37
 		","
 		-22(-19)
 		","
 		8—9/10—11/12—14(8—9/10—11/12—14)
 		"
-7,"<h1 class=""charactername"">
-joker
-</h1>","
+7,"
 		Dash Attack
 		","
 		6/15
+		","
+		45
 		","
 		**/-23
 		","
 		6—7/15—21(--/15—21)
 		"
-8,"<h1 class=""charactername"">
-joker
-</h1>","
+8,"
 		Forward Smash
 		","
 		16
+		","
+		47
 		","
 		-21
 		","
 		16—18(16—19)
 		"
-9,"<h1 class=""charactername"">
-joker
-</h1>","
+9,"
 		Up Smash
 		","
 		10
+		","
+		51
 		","
 		-32(-30)
 		","
 		10—14(10—14)
 		"
-10,"<h1 class=""charactername"">
-joker
-</h1>","
+10,"
 		Down Smash
 		","
 		12/16
+		","
+		51
 		","
 		-24/-20(--/-18)
 		","
 		12—13/16—17(12—13/16—17)
 		"
-11,"<h1 class=""charactername"">
-joker
-</h1>","
+11,"
 		Neutral Air
 		","
 		12
+		","
+		54
 		","
 		-5
 		","
 		12—27(12—27)
 		"
-12,"<h1 class=""charactername"">
-joker
-</h1>","
+12,"
 		Forward Air
 		","
 		7/12
+		","
+		47
 		","
 		-10/-9
 		","
 		7—8/12—14(--/12—14)
 		"
-13,"<h1 class=""charactername"">
-joker
-</h1>","
+13,"
 		Back Air
 		","
 		7
+		","
+		31
 		","
 		-5
 		","
 		7—8(7—8)
 		"
-14,"<h1 class=""charactername"">
-joker
-</h1>","
+14,"
 		Up Air
 		","
 		5...
+		","
+		39
 		","
 		-12
 		","
 		5—18/20—21 (rehit: 4)
 		"
-15,"<h1 class=""charactername"">
-joker
-</h1>","
+15,"
 		Down Air
 		","
 		13
+		","
+		46
 		","
 		-7
 		","
 		13—16(15—16)
 		"
-16,"<h1 class=""charactername"">
-joker
-</h1>","
+16,"
 		Neutral B (Gun)
 		","
 		12/37/65
+		","
+		36/61/92
 		","
 		**
 		","
 		12
 		"
-17,"<h1 class=""charactername"">
-joker
-</h1>","
+17,"
 		Gun, Dash Forward
 		","
 		20
 		","
+		39
+		","
 		**
 		","
 		20
 		"
-18,"<h1 class=""charactername"">
-joker
-</h1>","
+18,"
 		Gun, Dash Back
 		","
 		22
 		","
+		45
+		","
 		**
 		","
 		22
 		"
-19,"<h1 class=""charactername"">
-joker
-</h1>","
+19,"
 		Gun, Jump (From Ground Only)
 		","
 		10/17/24/31
 		","
+		59
+		","
 		**
 		","
 		10/17/24/31
 		"
-20,"<h1 class=""charactername"">
-joker
-</h1>","
+20,"
 		Gun, Spiral (From Air Only)
 		","
 		12/15/18/24/27/30/ 36/39/42/48/51/54
 		","
+		69
+		","
 		**
 		","
 		12/15/18/24/27/30/ 36/39/42/48/51/54
 		"
-21,"<h1 class=""charactername"">
-joker
-</h1>","
+21,"
 		Gun, Shoot Below (From Air Only)
 		","
 		7/21/35/44
 		","
+		48
+		","
 		**
 		","
 		7/21/35/44
 		"
-22,"<h1 class=""charactername"">
-joker
-</h1>","
+22,"
 		Neutral B, Arsene (Gun Special, Arsene)
 		","
 		12/18/24
 		","
+		41/**/**
+		","
 		**
 		","
 		12/18/24
 		"
-23,"<h1 class=""charactername"">
-joker
-</h1>","
+23,"
 		Gun Special, Dash Forward
 		","
 		21/27/33
 		","
+		45
+		","
 		**
 		","
 		21/27/33
 		"
-24,"<h1 class=""charactername"">
-joker
-</h1>","
+24,"
 		Gun Special, Dash Back
 		","
 		23/29/35
 		","
+		49
+		","
 		**
 		","
 		23/29/35
 		"
-25,"<h1 class=""charactername"">
-joker
-</h1>","
+25,"
 		Gun Special, Jump (From Ground Only)
 		","
 		10/13/17/20/24/27/31
 		","
+		59
+		","
 		**
 		","
 		10/13/17/20/24/27/31
 		"
-26,"<h1 class=""charactername"">
-joker
-</h1>","
+26,"
 		Gun Special, Spiral (From Air Only)
 		","
 		12/15/18/24/27/30/ 36/39/42/48/51/54
 		","
+		69
+		","
 		**
 		","
 		12/15/18/24/27/30/ 36/39/42/48/51/54
 		"
-27,"<h1 class=""charactername"">
-joker
-</h1>","
+27,"
 		Gun Special, Shoot Below (From Air Only)
 		","
 		7/14/21/28/35/44
+		","
+		48
 		","
 		**
 		","
 		7/14/21/28/35/44
 		"
-28,"<h1 class=""charactername"">
-joker
-</h1>","
+28,"
 		Side B (Eiha)
 		","
 		16
+		","
+		49
 		","
 		-27
 		","
 		16—42/1—19
 		"
-29,"<h1 class=""charactername"">
-joker
-</h1>","
+29,"
 		Side B, Arsene (Eigaon)
 		","
 		16 (1/6/11/16)
+		","
+		57
 		","
 		**
 		","
 		16—32(1—15/16—27)
 		"
-30,"<h1 class=""charactername"">
-joker
-</h1>","
+30,"
 		Up B (Grappling Hook)
 		","
 		20
+		","
+		59/44
 		","
 		**
 		","
 		20—26
 		"
-31,"<h1 class=""charactername"">
-joker
-</h1>","
+31,"
 		Air, Grappling Attack
 		","
 		5
 		","
+		28
+		","
 		--
 		","
 		5
 		"
-32,"<h1 class=""charactername"">
-joker
-</h1>","
+32,"
 		Up B, Arsene (Wings of Rebellion)
 		","
 		**
 		","
+		**
+		","
 		--
 		","
 		**
 		"
-33,"<h1 class=""charactername"">
-joker
-</h1>","
+33,"
 		Down B (Rebel's Guard)
 		","
 		3 (Start of Block)
+		","
+		52
 		","
 		--
 		","
 		--
 		"
-34,"<h1 class=""charactername"">
-joker
-</h1>","
+34,"
 		Rebel's Guard, Counterattack
 		","
 		8
+		","
+		30
 		","
 		--
 		","
 		8—9
 		"
-35,"<h1 class=""charactername"">
-joker
-</h1>","
+35,"
 		Down B, Arsene (Tetrakarn/Makarakarn)
 		","
 		4 (Start of Counter)
+		","
+		53
 		","
 		--
 		","
 		4—31(Counter/Reflect active)
 		"
-36,"<h1 class=""charactername"">
-joker
-</h1>","
+36,"
 		Arsene, Tetrakarn Counterattack
 		","
 		4
+		","
+		38
 		","
 		--
 		","
 		5—7
 		"
-37,"<h1 class=""charactername"">
-joker
-</h1>","
+37,"
 		Arsene, Makarakarn Reflect
 		","
 		--
+		","
+		41
 		","
 		--
 		","
 		1—29
 		"
-38,"<h1 class=""charactername"">
-joker
-</h1>","
+38,"
 		Grab
 		","
 		6
+		","
+		34
 		","
 		--
 		","
 		6—7
 		"
-39,"<h1 class=""charactername"">
-joker
-</h1>","
+39,"
 		Dash Grab
 		","
 		8
+		","
+		42
 		","
 		--
 		","
 		8—9
 		"
-40,"<h1 class=""charactername"">
-joker
-</h1>","
+40,"
 		Pivot Grab
 		","
 		9
 		","
+		37
+		","
 		--
 		","
 		9—10
 		"
-41,"<h1 class=""charactername"">
-joker
-</h1>","
+41,"
 		Pummel
 		","
 		1
 		","
+		19
+		","
 		--
 		","
 		9—10
 		"
-42,"<h1 class=""charactername"">
-joker
-</h1>","
+42,"
 		Forward Throw
 		","
 		9
 		","
+		29
+		","
 		--
 		","
 		9—10
 		"
-43,"<h1 class=""charactername"">
-joker
-</h1>","
+43,"
 		Backward Throw
 		","
 		14
 		","
+		39
+		","
 		--
 		","
 		9—10
 		"
-44,"<h1 class=""charactername"">
-joker
-</h1>","
+44,"
 		Up Throw
 		","
 		16
 		","
+		37
+		","
 		--
 		","
 		9—10
 		"
-45,"<h1 class=""charactername"">
-joker
-</h1>","
+45,"
 		Down Throw
 		","
 		23
 		","
+		40
+		","
 		--
 		","
 		9—10
 		"
-46,"<h1 class=""charactername"">
-joker
-</h1>","
+46,"
 		Spot Dodge
 		","
 		23
 		","
+		20/25
+		","
 		--
 		","
 		9—10
 		"
-47,"<h1 class=""charactername"">
-joker
-</h1>","
+47,"
 		Forward Roll
 		","
 		23
 		","
+		29
+		","
 		--
 		","
 		9—10
 		"
-48,"<h1 class=""charactername"">
-joker
-</h1>","
+48,"
 		Backward Roll
 		","
 		23
 		","
+		34
+		","
 		--
 		","
 		9—10
 		"
-49,"<h1 class=""charactername"">
-joker
-</h1>","
+49,"
 		Neutral Air Dodge
 		","
 		23
 		","
+		47
+		","
 		--
 		","
 		9—10
 		"
-50,"<h1 class=""charactername"">
-joker
-</h1>","
+50,"
 		Air Dodge, Down
 		","
 		23
 		","
+		67
+		","
 		--
 		","
 		9—10
 		"
-51,"<h1 class=""charactername"">
-joker
-</h1>","
+51,"
 		Air Dodge, Diagonally Down
 		","
 		23
 		","
+		73
+		","
 		--
 		","
 		9—10
 		"
-52,"<h1 class=""charactername"">
-joker
-</h1>","
+52,"
 		Air Dodge, Left/Right
 		","
 		23
 		","
+		83
+		","
 		--
 		","
 		9—10
 		"
-53,"<h1 class=""charactername"">
-joker
-</h1>","
+53,"
 		Air Dodge, Diagonally Up
 		","
 		23
 		","
+		90
+		","
 		--
 		","
 		9—10
 		"
-54,"<h1 class=""charactername"">
-joker
-</h1>","
+54,"
 		Air Dodge, Up
 		","
 		23
 		","
+		100
+		","
 		--
 		","
 		9—10
 		"
-55,"<h1 class=""charactername"">
-joker
-</h1>","
+55,"
 			Ledge Grab
 		","
 		23
 		","
+		100
+		","
 		--
 		","
 		9—10
 		"
-56,"<h1 class=""charactername"">
-joker
-</h1>","
+56,"
 			Ledge Grab
 		","
 		23
 		","
+		100
+		","
 		--
 		","
 		9—10
 		"
-57,"<h1 class=""charactername"">
-joker
-</h1>","
+57,"
 				Ledge Hang
 			","
 		23
+		","
+		100
 		","
 		--
 		","

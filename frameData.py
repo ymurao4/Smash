@@ -27,10 +27,10 @@ for name in fighter_names:
       startup = moveContainer.find("div", class_="startup").text
     except:
       print("")
-    # try:
-    #   totalframes = moveContainer.find("div", class_="totalframes").text
-    # except:
-    #   print("")
+    try:
+      totalframes = moveContainer.find("div", class_="totalframes").text
+    except:
+      print("")
     # try:
     #   landinglag = moveContainer.find("div", class_="landinglag").text
     # except:
@@ -63,11 +63,11 @@ for name in fighter_names:
       activeframes = moveContainer.find("div", class_="activeframes").text
     except:
       print("")
-    table.append([headLine, movename, startup, advantage, activeframes])
+    table.append([movename, startup, totalframes, advantage, activeframes])
 
   import pandas as pd
 
-  Column = ['Character Name', 'Move name', 'Start up', 'Advantage', 'Active frames']
+  Column = ['Move name', 'Start up', 'Total frame', 'Advantage', 'Active frames']
 
   df = pd.DataFrame(table, columns=Column)
 

@@ -1,461 +1,461 @@
-,Character Name,Move name,Start up,Advantage,Active frames
-0,"<h1 class=""charactername"">
-meta knight
-</h1>","
+,Move name,Start up,Total frame,Advantage,Active frames
+0,"
 		Rapid Jab
 		","
 		4/7/10...
+		","
+		15
 		","
 		--
 		","
 		4/7/10...
 		"
-1,"<h1 class=""charactername"">
-meta knight
-</h1>","
+1,"
 		Rapid Jab Finisher
 		","
 		3
+		","
+		30
 		","
 		-24
 		","
 		3
 		"
-2,"<h1 class=""charactername"">
-meta knight
-</h1>","
+2,"
 		Forward Tilt 1
 		","
 		6
+		","
+		25
 		","
 		-16
 		","
 		6
 		"
-3,"<h1 class=""charactername"">
-meta knight
-</h1>","
+3,"
 		Forward Tilt 2
 		","
 		2
+		","
+		27
 		","
 		-22
 		","
 		2
 		"
-4,"<h1 class=""charactername"">
-meta knight
-</h1>","
+4,"
 		Forward Tilt 3
 		","
 		2
+		","
+		30
 		","
 		-23
 		","
 		2
 		"
-5,"<h1 class=""charactername"">
-meta knight
-</h1>","
+5,"
 		Up Tilt
 		","
 		8
+		","
+		34
 		","
 		-20/-19
 		","
 		8—10/11—14
 		"
-6,"<h1 class=""charactername"">
-meta knight
-</h1>","
+6,"
 		Down Tilt
 		","
 		3
+		","
+		18
 		","
 		-9
 		","
 		3—4
 		"
-7,"<h1 class=""charactername"">
-meta knight
-</h1>","
+7,"
 		Dash Attack
 		","
 		7
+		","
+		32
 		","
 		-18
 		","
 		7—11
 		"
-8,"<h1 class=""charactername"">
-meta knight
-</h1>","
+8,"
 		Forward Smash
 		","
 		24
+		","
+		41
 		","
 		-6
 		","
 		24
 		"
-9,"<h1 class=""charactername"">
-meta knight
-</h1>","
+9,"
 		Up Smash
 		","
 		8/12/17
+		","
+		49
 		","
 		-28
 		","
 		8/12/17
 		"
-10,"<h1 class=""charactername"">
-meta knight
-</h1>","
+10,"
 		Down Smash
 		","
 		4/9
+		","
+		37
 		","
 		-26/-19
 		","
 		4/9
 		"
-11,"<h1 class=""charactername"">
-meta knight
-</h1>","
+11,"
 		Neutral Air
 		","
 		6
+		","
+		43
 		","
 		-3/-4
 		","
 		6—7/8—20
 		"
-12,"<h1 class=""charactername"">
-meta knight
-</h1>","
+12,"
 		Forward Air
 		","
 		9/12/15
+		","
+		39
 		","
 		-8/-8
 		","
 		9/12/15
 		"
-13,"<h1 class=""charactername"">
-meta knight
-</h1>","
+13,"
 		Back Air
 		","
 		7/13/20
+		","
+		51
 		","
 		-9/-8
 		","
 		7—8/13—14/20—21
 		"
-14,"<h1 class=""charactername"">
-meta knight
-</h1>","
+14,"
 		Up Air
 		","
 		6
 		","
+		26
+		","
 		-6
 		","
 		6
 		"
-15,"<h1 class=""charactername"">
-meta knight
-</h1>","
+15,"
 		Down Air
 		","
 		4
+		","
+		27
 		","
 		-6
 		","
 		4
 		"
-16,"<h1 class=""charactername"">
-meta knight
-</h1>","
+16,"
 		Neutral B (Mach Tornado)
 		","
 		12
+		","
+		104
 		","
 		-81
 		","
 		12—21/22—46
 		"
-17,"<h1 class=""charactername"">
-meta knight
-</h1>","
+17,"
 		Side B (Drill Rush)
 		","
 		26/30/34/38/42/46/ 50/54/58/62/66/70
+		","
+		98
 		","
 		-24
 		","
 		26—69/70
 		"
-18,"<h1 class=""charactername"">
-meta knight
-</h1>","
+18,"
 		Up B (Shuttle Loop)
 		","
 		8/22
+		","
+		--
 		","
 		**
 		","
 		(8/9—10/11—12)22—27
 		"
-19,"<h1 class=""charactername"">
-meta knight
-</h1>","
+19,"
 		Up B, Air (Shuttle Loop, Air)
 		","
 		7/20
+		","
+		--
 		","
 		**
 		","
 		(7/8—10)20—26
 		"
-20,"<h1 class=""charactername"">
-meta knight
-</h1>","
+20,"
 		Down B (Dimensional Cape)
 		","
 		--
+		","
+		57
 		","
 		--
 		","
 		**
 		"
-21,"<h1 class=""charactername"">
-meta knight
-</h1>","
+21,"
 		Dimensional Cape, Attack
 		","
 		34
+		","
+		92
 		","
 		-44
 		","
 		34
 		"
-22,"<h1 class=""charactername"">
-meta knight
-</h1>","
+22,"
 		Grab
 		","
 		7
+		","
+		36
 		","
 		-44
 		","
 		7—8
 		"
-23,"<h1 class=""charactername"">
-meta knight
-</h1>","
+23,"
 		Dash Grab
 		","
 		11
+		","
+		44
 		","
 		-44
 		","
 		11—12
 		"
-24,"<h1 class=""charactername"">
-meta knight
-</h1>","
+24,"
 		Pivot Grab
 		","
 		12
 		","
+		39
+		","
 		-44
 		","
 		12—13
 		"
-25,"<h1 class=""charactername"">
-meta knight
-</h1>","
+25,"
 		Pummel
 		","
 		1
 		","
+		15
+		","
 		-44
 		","
 		12—13
 		"
-26,"<h1 class=""charactername"">
-meta knight
-</h1>","
+26,"
 		Forward Throw
 		","
 		8/10
 		","
+		27
+		","
 		-44
 		","
 		12—13
 		"
-27,"<h1 class=""charactername"">
-meta knight
-</h1>","
+27,"
 		Backward Throw
 		","
 		16/18
 		","
+		34
+		","
 		-44
 		","
 		12—13
 		"
-28,"<h1 class=""charactername"">
-meta knight
-</h1>","
+28,"
 		Up Throw
 		","
 		46
 		","
+		77
+		","
 		-44
 		","
 		12—13
 		"
-29,"<h1 class=""charactername"">
-meta knight
-</h1>","
+29,"
 		Down Throw
 		","
 		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
 		","
+		86
+		","
 		-44
 		","
 		12—13
 		"
-30,"<h1 class=""charactername"">
-meta knight
-</h1>","
+30,"
 		Spot Dodge
 		","
 		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
 		","
+		19/24
+		","
 		-44
 		","
 		12—13
 		"
-31,"<h1 class=""charactername"">
-meta knight
-</h1>","
+31,"
 		Forward Roll
 		","
 		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
 		","
+		28
+		","
 		-44
 		","
 		12—13
 		"
-32,"<h1 class=""charactername"">
-meta knight
-</h1>","
+32,"
 		Backward Roll
 		","
 		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
 		","
+		33
+		","
 		-44
 		","
 		12—13
 		"
-33,"<h1 class=""charactername"">
-meta knight
-</h1>","
+33,"
 		Neutral Air Dodge
 		","
 		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
 		","
+		47
+		","
 		-44
 		","
 		12—13
 		"
-34,"<h1 class=""charactername"">
-meta knight
-</h1>","
+34,"
 		Air Dodge, Down
 		","
 		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
 		","
+		66
+		","
 		-44
 		","
 		12—13
 		"
-35,"<h1 class=""charactername"">
-meta knight
-</h1>","
+35,"
 		Air Dodge, Diagonally Down
 		","
 		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
 		","
+		74
+		","
 		-44
 		","
 		12—13
 		"
-36,"<h1 class=""charactername"">
-meta knight
-</h1>","
+36,"
 		Air Dodge, Left/Right
 		","
 		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
 		","
+		80
+		","
 		-44
 		","
 		12—13
 		"
-37,"<h1 class=""charactername"">
-meta knight
-</h1>","
+37,"
 		Air Dodge, Diagonally Up
 		","
 		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
 		","
+		94
+		","
 		-44
 		","
 		12—13
 		"
-38,"<h1 class=""charactername"">
-meta knight
-</h1>","
+38,"
 		Air Dodge, Up
 		","
 		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
 		","
+		101
+		","
 		-44
 		","
 		12—13
 		"
-39,"<h1 class=""charactername"">
-meta knight
-</h1>","
+39,"
 			Ledge Grab
 		","
 		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
 		","
+		101
+		","
 		-44
 		","
 		12—13
 		"
-40,"<h1 class=""charactername"">
-meta knight
-</h1>","
+40,"
 			Ledge Grab
 		","
 		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
 		","
+		101
+		","
 		-44
 		","
 		12—13
 		"
-41,"<h1 class=""charactername"">
-meta knight
-</h1>","
+41,"
 				Ledge Hang
 			","
 		11—13/17—19/23—25/29—31/35—37/41—43/47—49/53—55/59—61/73—74
+		","
+		101
 		","
 		-44
 		","

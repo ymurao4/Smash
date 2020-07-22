@@ -1,439 +1,439 @@
-,Character Name,Move name,Start up,Advantage,Active frames
-0,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+,Move name,Start up,Total frame,Advantage,Active frames
+0,"
 		Jab 1
 		","
 		4
+		","
+		25
 		","
 		-18
 		","
 		4—5
 		"
-1,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+1,"
 		Jab 2
 		","
 		3
+		","
+		29
 		","
 		-23
 		","
 		3—4
 		"
-2,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+2,"
 		Jab 3
 		","
 		5
+		","
+		39
 		","
 		-30
 		","
 		5—6
 		"
-3,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+3,"
 		Forward Tilt
 		","
 		6
+		","
+		32
 		","
 		-16
 		","
 		6—10
 		"
-4,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+4,"
 		Up Tilt
 		","
 		5
+		","
+		29
 		","
 		-14
 		","
 		5—12
 		"
-5,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+5,"
 		Down Tilt
 		","
 		9
+		","
+		38
 		","
 		-17
 		","
 		9—12
 		"
-6,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+6,"
 		Dash Attack
 		","
 		6
+		","
+		38
 		","
 		-20
 		","
 		6—8(9—13)
 		"
-7,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+7,"
 		Forward Smash
 		","
 		16
+		","
+		56
 		","
 		-30
 		","
 		16—19
 		"
-8,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+8,"
 		Up Smash
 		","
 		11
+		","
+		54
 		","
 		-33/-31
 		","
 		11—12(13—19)
 		"
-9,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+9,"
 		Down Smash
 		","
 		18
+		","
+		46
 		","
 		-25
 		","
 		18—21
 		"
-10,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+10,"
 		Neutral Air
 		","
 		9/12
+		","
+		34
 		","
 		-5/-4
 		","
 		9—11/12—13
 		"
-11,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+11,"
 		Forward Air
 		","
 		9
+		","
+		35
 		","
 		-2/-4/-3/-4
 		","
 		9(10/11—15)
 		"
-12,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+12,"
 		Back Air
 		","
 		5
+		","
+		48
 		","
 		-7/-8/-9
 		","
 		5(6—11)
 		"
-13,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+13,"
 		Up Air
 		","
 		6
+		","
+		39
 		","
 		-5
 		","
 		6—10
 		"
-14,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+14,"
 		Down Air
 		","
 		15
+		","
+		39
 		","
 		-7
 		","
 		15—17(18—20)
 		"
-15,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+15,"
 		Neutral B (Sun Salutation)
 		","
 		4(+17)
+		","
+		39
 		","
 		-26 to -16
 		","
 		21—90
 		"
-16,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+16,"
 		Sun Salutation, Full Charge
 		","
 		21
+		","
+		56
 		","
 		-16
 		","
 		21—90
 		"
-17,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+17,"
 		Side B (Header)
 		","
 		15—31
+		","
+		40—56
 		","
 		-11/-13
 		","
 		**
 		"
-18,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+18,"
 		Up B (Super Hoop)
 		","
 		6/23/40
+		","
+		30
 		","
 		**
 		","
 		**
 		"
-19,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+19,"
 		Down B (Deep Breathing)
 		","
 		39
 		","
 		--
 		","
+		--
+		","
 		**
 		"
-20,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+20,"
 		Grab
 		","
 		6
+		","
+		34
 		","
 		--
 		","
 		6—7
 		"
-21,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+21,"
 		Dash Grab
 		","
 		9
+		","
+		42
 		","
 		--
 		","
 		9—10
 		"
-22,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+22,"
 		Pivot Grab
 		","
 		10
 		","
+		37
+		","
 		--
 		","
 		10—11
 		"
-23,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+23,"
 		Pummel
 		","
 		1
 		","
+		19
+		","
 		--
 		","
 		10—11
 		"
-24,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+24,"
 		Forward Throw
 		","
 		36/38
 		","
+		49
+		","
 		--
 		","
 		10—11
 		"
-25,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+25,"
 		Backward Throw
 		","
 		19/21
 		","
+		49
+		","
 		--
 		","
 		10—11
 		"
-26,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+26,"
 		Up Throw
 		","
 		28
 		","
+		49
+		","
 		--
 		","
 		10—11
 		"
-27,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+27,"
 		Down Throw
 		","
 		24
 		","
+		49
+		","
 		--
 		","
 		10—11
 		"
-28,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+28,"
 		Spot Dodge
 		","
 		24
 		","
+		20/25
+		","
 		--
 		","
 		10—11
 		"
-29,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+29,"
 		Forward Roll
 		","
 		24
 		","
+		29
+		","
 		--
 		","
 		10—11
 		"
-30,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+30,"
 		Backward Roll
 		","
 		24
 		","
+		34
+		","
 		--
 		","
 		10—11
 		"
-31,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+31,"
 		Neutral Air Dodge
 		","
 		24
 		","
+		57
+		","
 		--
 		","
 		10—11
 		"
-32,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+32,"
 		Air Dodge, Down
 		","
 		24
 		","
+		80
+		","
 		--
 		","
 		10—11
 		"
-33,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+33,"
 		Air Dodge, Diagonally Down
 		","
 		24
 		","
+		88
+		","
 		--
 		","
 		10—11
 		"
-34,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+34,"
 		Air Dodge, Left/Right
 		","
 		24
 		","
+		96
+		","
 		--
 		","
 		10—11
 		"
-35,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+35,"
 		Air Dodge, Diagonally Up
 		","
 		24
 		","
+		107
+		","
 		--
 		","
 		10—11
 		"
-36,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+36,"
 		Air Dodge, Up
 		","
 		24
 		","
+		124
+		","
 		--
 		","
 		10—11
 		"
-37,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+37,"
 			Ledge Grab
 		","
 		24
 		","
+		124
+		","
 		--
 		","
 		10—11
 		"
-38,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+38,"
 			Ledge Grab
 		","
 		24
 		","
+		124
+		","
 		--
 		","
 		10—11
 		"
-39,"<h1 class=""charactername"">
-wii fit trainer
-</h1>","
+39,"
 				Ledge Hang
 			","
 		24
+		","
+		124
 		","
 		--
 		","

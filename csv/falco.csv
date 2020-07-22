@@ -1,439 +1,439 @@
-,Character Name,Move name,Start up,Advantage,Active frames
-0,"<h1 class=""charactername"">
-Falco
-</h1>","
+,Move name,Start up,Total frame,Advantage,Active frames
+0,"
 		Jab 1
 		","
 		2
+		","
+		22
 		","
 		-17
 		","
 		2
 		"
-1,"<h1 class=""charactername"">
-Falco
-</h1>","
+1,"
 		Jab 2
 		","
 		3
+		","
+		25
 		","
 		-19
 		","
 		3—4
 		"
-2,"<h1 class=""charactername"">
-Falco
-</h1>","
+2,"
 		Rapid Jab
 		","
 		5/7/9/...
 		","
 		--
 		","
+		--
+		","
 		**
 		"
-3,"<h1 class=""charactername"">
-Falco
-</h1>","
+3,"
 		Rapid Jab Finisher
 		","
 		5
+		","
+		40
 		","
 		-31
 		","
 		5—6
 		"
-4,"<h1 class=""charactername"">
-Falco
-</h1>","
+4,"
 		Forward Tilt
 		","
 		6
+		","
+		24
 		","
 		-12
 		","
 		6—8
 		"
-5,"<h1 class=""charactername"">
-Falco
-</h1>","
+5,"
 		Up Tilt
 		","
 		5/12
+		","
+		29
 		","
 		-12
 		","
 		5(6—9)/12(13—18)
 		"
-6,"<h1 class=""charactername"">
-Falco
-</h1>","
+6,"
 		Down Tilt
 		","
 		8
+		","
+		29
 		","
 		-9/-10/-11
 		","
 		8—10
 		"
-7,"<h1 class=""charactername"">
-Falco
-</h1>","
+7,"
 		Dash Attack
 		","
 		8
+		","
+		39
 		","
 		-22
 		","
 		8—11
 		"
-8,"<h1 class=""charactername"">
-Falco
-</h1>","
+8,"
 		Forward Smash
 		","
 		17
+		","
+		48
 		","
 		-20
 		","
 		17—19(20)
 		"
-9,"<h1 class=""charactername"">
-Falco
-</h1>","
+9,"
 		Up Smash
 		","
 		7/13
+		","
+		49
 		","
 		-27
 		","
 		7(8—12)/13—20
 		"
-10,"<h1 class=""charactername"">
-Falco
-</h1>","
+10,"
 		Down Smash
 		","
 		8
+		","
+		46
 		","
 		-28
 		","
 		8—10
 		"
-11,"<h1 class=""charactername"">
-Falco
-</h1>","
+11,"
 		Neutral Air
 		","
 		3/6/10/17
+		","
+		46
 		","
 		-7/-6
 		","
 		3—5/6—9/10—13/17—18
 		"
-12,"<h1 class=""charactername"">
-Falco
-</h1>","
+12,"
 		Forward Air
 		","
 		7...
+		","
+		49
 		","
 		-10
 		","
 		7—25(rehit: 4)/26—27
 		"
-13,"<h1 class=""charactername"">
-Falco
-</h1>","
+13,"
 		Back Air
 		","
 		9
+		","
+		37
 		","
 		-8/-10
 		","
 		9—10(11—16)
 		"
-14,"<h1 class=""charactername"">
-Falco
-</h1>","
+14,"
 		Up Air
 		","
 		7
+		","
+		33
 		","
 		-5
 		","
 		7—11
 		"
-15,"<h1 class=""charactername"">
-Falco
-</h1>","
+15,"
 		Down Air
 		","
 		10
+		","
+		43
 		","
 		-6/-7
 		","
 		10—14/15—24
 		"
-16,"<h1 class=""charactername"">
-Falco
-</h1>","
+16,"
 		Neutral B (Blaster)
 		","
 		8/7
+		","
+		41/38
 		","
 		-24/-22
 		","
 		8—34/7—33
 		"
-17,"<h1 class=""charactername"">
-Falco
-</h1>","
+17,"
 		Side B (Falco Phantasm)
 		","
 		13/18
+		","
+		55/66
 		","
 		-19/-14
 		","
 		(13—16/16—19)/(18—24)
 		"
-18,"<h1 class=""charactername"">
-Falco
-</h1>","
+18,"
 		Up B (Fire Bird)
 		","
 		20/22/24/26/28/30/32/43-46/47/49/51/53/55/57/59/61
+		","
+		85
 		","
 		-21
 		","
 		20/22/24/26/28/30/32/43-46/47/49/51/53/55/57/59/61
 		"
-19,"<h1 class=""charactername"">
-Falco
-</h1>","
+19,"
 		Down B (Reflector)
 		","
 		5
+		","
+		44
 		","
 		-33
 		","
 		5—14
 		"
-20,"<h1 class=""charactername"">
-Falco
-</h1>","
+20,"
 		Grab
 		","
 		6
+		","
+		34
 		","
 		-33
 		","
 		6—7
 		"
-21,"<h1 class=""charactername"">
-Falco
-</h1>","
+21,"
 		Dash Grab
 		","
 		9
+		","
+		42
 		","
 		-33
 		","
 		9—10
 		"
-22,"<h1 class=""charactername"">
-Falco
-</h1>","
+22,"
 		Pivot Grab
 		","
 		10
 		","
+		37
+		","
 		-33
 		","
 		10—11
 		"
-23,"<h1 class=""charactername"">
-Falco
-</h1>","
+23,"
 		Pummel
 		","
 		1
 		","
+		19
+		","
 		-33
 		","
 		10—11
 		"
-24,"<h1 class=""charactername"">
-Falco
-</h1>","
+24,"
 		Forward Throw
 		","
 		10/12
 		","
+		33
+		","
 		-33
 		","
 		10—11
 		"
-25,"<h1 class=""charactername"">
-Falco
-</h1>","
+25,"
 		Backward Throw
 		","
 		9
 		","
+		41
+		","
 		-33
 		","
 		10—11
 		"
-26,"<h1 class=""charactername"">
-Falco
-</h1>","
+26,"
 		Up Throw
 		","
 		7
 		","
+		38
+		","
 		-33
 		","
 		10—11
 		"
-27,"<h1 class=""charactername"">
-Falco
-</h1>","
+27,"
 		Down Throw
 		","
 		26/33
 		","
+		43
+		","
 		-33
 		","
 		10—11
 		"
-28,"<h1 class=""charactername"">
-Falco
-</h1>","
+28,"
 		Spot Dodge
 		","
 		26/33
 		","
+		20/25
+		","
 		-33
 		","
 		10—11
 		"
-29,"<h1 class=""charactername"">
-Falco
-</h1>","
+29,"
 		Forward Roll
 		","
 		26/33
 		","
+		29
+		","
 		-33
 		","
 		10—11
 		"
-30,"<h1 class=""charactername"">
-Falco
-</h1>","
+30,"
 		Backward Roll
 		","
 		26/33
 		","
+		34
+		","
 		-33
 		","
 		10—11
 		"
-31,"<h1 class=""charactername"">
-Falco
-</h1>","
+31,"
 		Neutral Air Dodge
 		","
 		26/33
 		","
+		43
+		","
 		-33
 		","
 		10—11
 		"
-32,"<h1 class=""charactername"">
-Falco
-</h1>","
+32,"
 		Air Dodge, Down
 		","
 		26/33
 		","
+		61
+		","
 		-33
 		","
 		10—11
 		"
-33,"<h1 class=""charactername"">
-Falco
-</h1>","
+33,"
 		Air Dodge, Diagonally Down
 		","
 		26/33
 		","
+		67
+		","
 		-33
 		","
 		10—11
 		"
-34,"<h1 class=""charactername"">
-Falco
-</h1>","
+34,"
 		Air Dodge, Left/Right
 		","
 		26/33
 		","
+		73
+		","
 		-33
 		","
 		10—11
 		"
-35,"<h1 class=""charactername"">
-Falco
-</h1>","
+35,"
 		Air Dodge, Diagonally Up
 		","
 		26/33
 		","
+		85
+		","
 		-33
 		","
 		10—11
 		"
-36,"<h1 class=""charactername"">
-Falco
-</h1>","
+36,"
 		Air Dodge, Up
 		","
 		26/33
 		","
+		94
+		","
 		-33
 		","
 		10—11
 		"
-37,"<h1 class=""charactername"">
-Falco
-</h1>","
+37,"
 			Ledge Grab
 		","
 		26/33
 		","
+		94
+		","
 		-33
 		","
 		10—11
 		"
-38,"<h1 class=""charactername"">
-Falco
-</h1>","
+38,"
 			Ledge Grab
 		","
 		26/33
 		","
+		94
+		","
 		-33
 		","
 		10—11
 		"
-39,"<h1 class=""charactername"">
-Falco
-</h1>","
+39,"
 				Ledge Hang
 			","
 		26/33
+		","
+		94
 		","
 		-33
 		","

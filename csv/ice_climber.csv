@@ -1,439 +1,439 @@
-,Character Name,Move name,Start up,Advantage,Active frames
-0,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+,Move name,Start up,Total frame,Advantage,Active frames
+0,"
 				Ledge Hang
 			","
 		35/37
+		","
+		95
 		","
 		--
 		","
 		12—14
 		"
-1,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+1,"
 		Jab 1
 		","
 		4
+		","
+		27
 		","
 		-20(-15)
 		","
 		4—5
 		"
-2,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+2,"
 		Jab 2
 		","
 		4
+		","
+		29
 		","
 		-21(-12)
 		","
 		4—5
 		"
-3,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+3,"
 		Forward Tilt
 		","
 		9
+		","
+		29
 		","
 		-14(-10)
 		","
 		9—10
 		"
-4,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+4,"
 		Up Tilt
 		","
 		8/11/14/17/20/23/27
+		","
+		48
 		","
 		-16(-7)
 		","
 		8—9/11—12/14—15/17—18/20—21/23—24/27
 		"
-5,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+5,"
 		Down Tilt
 		","
 		8
+		","
+		30
 		","
 		-16(-10)
 		","
 		8—11
 		"
-6,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+6,"
 		Dash Attack
 		","
 		11
+		","
+		41
 		","
 		-24(-18)
 		","
 		11—14
 		"
-7,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+7,"
 		Forward Smash
 		","
 		11
+		","
+		46
 		","
 		-27(-22)
 		","
 		11—13
 		"
-8,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+8,"
 		Up Smash
 		","
 		12
+		","
+		49
 		","
 		-29(-24)
 		","
 		12—17
 		"
-9,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+9,"
 		Down Smash
 		","
 		9/16
+		","
+		40
 		","
 		-22/-17
 		","
 		9—11/16
 		"
-10,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+10,"
 		Neutral Air
 		","
 		6
+		","
+		45
 		","
 		-4(+2)
 		","
 		6—23
 		"
-11,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+11,"
 		Forward Air
 		","
 		19
+		","
+		56
 		","
 		-5(+3)
 		","
 		19—20
 		"
-12,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+12,"
 		Back Air
 		","
 		8
+		","
+		35
 		","
 		-3(+0)
 		","
 		8—11
 		"
-13,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+13,"
 		Up Air
 		","
 		7
+		","
+		35
 		","
 		-10(-3)
 		","
 		7—11
 		"
-14,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+14,"
 		Down Air
 		","
 		12
+		","
+		63
 		","
 		-16(-12)
 		","
 		12—51
 		"
-15,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+15,"
 		Neutral B (Ice Shot)
 		","
 		18/19
+		","
+		55
 		","
 		-29(-24)
 		","
 		18/19—**
 		"
-16,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+16,"
 		Side B, both (Squal Hammer, both)
 		","
 		10/14/18/23/28/34/40/51
+		","
+		77
 		","
 		-21
 		","
 		10/14/18/23/28/34/40/51—52
 		"
-17,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+17,"
 		Side B, alone (Squal Hammer, alone)
 		","
 		10/13/15/18/21/24/28/32/37/42/49
+		","
+		77
 		","
 		-24
 		","
 		10/13/15/18/21/24/28/32/37/42/49—50
 		"
-18,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+18,"
 		Up B (Belay)
 		","
 		16
 		","
 		--
 		","
+		--
+		","
 		16—33
 		"
-19,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+19,"
 		Down B (Blizzard)
 		","
 		16/21/26/31/36/41/46/51/56
+		","
+		84
 		","
 		-22(-15)
 		","
 		lul
 		"
-20,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+20,"
 		Grab
 		","
 		8
+		","
+		39
 		","
 		-22(-15)
 		","
 		8—9
 		"
-21,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+21,"
 		Dash Grab
 		","
 		10
 		","
+		47
+		","
 		-22(-15)
 		","
 		10—11
 		"
-22,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+22,"
 		Pivot Grab
 		","
 		10
 		","
+		40
+		","
 		-22(-15)
 		","
 		10—11
 		"
-23,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+23,"
 		Pummel
 		","
 		1
 		","
+		16
+		","
 		-22(-15)
 		","
 		10—11
 		"
-24,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+24,"
 		Forward Throw
 		","
 		24/25
 		","
+		49
+		","
 		-22(-15)
 		","
 		10—11
 		"
-25,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+25,"
 		Backward Throw
 		","
 		18
 		","
+		39
+		","
 		-22(-15)
 		","
 		10—11
 		"
-26,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+26,"
 		Up Throw
 		","
 		25/27
 		","
+		52
+		","
 		-22(-15)
 		","
 		10—11
 		"
-27,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+27,"
 		Down Throw
 		","
 		37
 		","
+		49
+		","
 		-22(-15)
 		","
 		10—11
 		"
-28,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+28,"
 		Spot Dodge
 		","
 		37
 		","
+		20/25
+		","
 		-22(-15)
 		","
 		10—11
 		"
-29,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+29,"
 		Forward Roll
 		","
 		37
 		","
+		29
+		","
 		-22(-15)
 		","
 		10—11
 		"
-30,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+30,"
 		Backward Roll
 		","
 		37
 		","
+		34
+		","
 		-22(-15)
 		","
 		10—11
 		"
-31,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+31,"
 		Neutral Air Dodge
 		","
 		37
 		","
+		58
+		","
 		-22(-15)
 		","
 		10—11
 		"
-32,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+32,"
 		Air Dodge, Down
 		","
 		37
 		","
+		81
+		","
 		-22(-15)
 		","
 		10—11
 		"
-33,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+33,"
 		Air Dodge, Diagonally Down
 		","
 		37
 		","
+		86
+		","
 		-22(-15)
 		","
 		10—11
 		"
-34,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+34,"
 		Air Dodge, Left/Right
 		","
 		37
 		","
+		96
+		","
 		-22(-15)
 		","
 		10—11
 		"
-35,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+35,"
 		Air Dodge, Diagonally Up
 		","
 		37
 		","
+		115
+		","
 		-22(-15)
 		","
 		10—11
 		"
-36,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+36,"
 		Air Dodge, Up
 		","
 		37
 		","
+		129
+		","
 		-22(-15)
 		","
 		10—11
 		"
-37,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+37,"
 			Ledge Grab
 		","
 		37
 		","
+		129
+		","
 		-22(-15)
 		","
 		10—11
 		"
-38,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+38,"
 			Ledge Grab
 		","
 		37
 		","
+		129
+		","
 		-22(-15)
 		","
 		10—11
 		"
-39,"<h1 class=""charactername"">
-Ice Climbers
-</h1>","
+39,"
 				Ledge Hang
 			","
 		37
+		","
+		129
 		","
 		-22(-15)
 		","

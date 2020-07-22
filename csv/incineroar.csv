@@ -1,472 +1,472 @@
-,Character Name,Move name,Start up,Advantage,Active frames
-0,"<h1 class=""charactername"">
-incineroar
-</h1>","
+,Move name,Start up,Total frame,Advantage,Active frames
+0,"
 		Jab 1
 		","
 		5
+		","
+		23
 		","
 		-14
 		","
 		5—6
 		"
-1,"<h1 class=""charactername"">
-incineroar
-</h1>","
+1,"
 		Jab 2
 		","
 		4
+		","
+		31
 		","
 		-23
 		","
 		4—5
 		"
-2,"<h1 class=""charactername"">
-incineroar
-</h1>","
+2,"
 		Jab 3
 		","
 		4
+		","
+		37
 		","
 		-28
 		","
 		4—5
 		"
-3,"<h1 class=""charactername"">
-incineroar
-</h1>","
+3,"
 		Forward Tilt
 		","
 		12
+		","
+		36
 		","
 		-12
 		","
 		12—14
 		"
-4,"<h1 class=""charactername"">
-incineroar
-</h1>","
+4,"
 		Up Tilt
 		","
 		6
+		","
+		34
 		","
 		-19
 		","
 		6—11
 		"
-5,"<h1 class=""charactername"">
-incineroar
-</h1>","
+5,"
 		Down Tilt
 		","
 		9
+		","
+		29
 		","
 		-11
 		","
 		9—11
 		"
-6,"<h1 class=""charactername"">
-incineroar
-</h1>","
+6,"
 		Dash Attack
 		","
 		8
+		","
+		41
 		","
 		-21
 		","
 		8—11/12—15
 		"
-7,"<h1 class=""charactername"">
-incineroar
-</h1>","
+7,"
 		Forward Smash
 		","
 		16
+		","
+		51
 		","
 		-22/-24
 		","
 		16—18
 		"
-8,"<h1 class=""charactername"">
-incineroar
-</h1>","
+8,"
 		Up Smash
 		","
 		13
+		","
+		47
 		","
 		-23
 		","
 		13—18
 		"
-9,"<h1 class=""charactername"">
-incineroar
-</h1>","
+9,"
 		Down Smash
 		","
 		18
+		","
+		57
 		","
 		-28
 		","
 		18—20
 		"
-10,"<h1 class=""charactername"">
-incineroar
-</h1>","
+10,"
 		Neutral Air
 		","
 		5
+		","
+		41
 		","
 		-6/-8
 		","
 		5—6/7—25
 		"
-11,"<h1 class=""charactername"">
-incineroar
-</h1>","
+11,"
 		Forward Air
 		","
 		8
+		","
+		44
 		","
 		-9/-9
 		","
 		8—10(11—14)
 		"
-12,"<h1 class=""charactername"">
-incineroar
-</h1>","
+12,"
 		Back Air
 		","
 		7
+		","
+		41
 		","
 		-7/-6
 		","
 		7—10
 		"
-13,"<h1 class=""charactername"">
-incineroar
-</h1>","
+13,"
 		Up Air
 		","
 		7
+		","
+		31
 		","
 		-4
 		","
 		7—11
 		"
-14,"<h1 class=""charactername"">
-incineroar
-</h1>","
+14,"
 		Down Air
 		","
 		16
+		","
+		44
 		","
 		-11/-11/-12
 		","
 		16—19/20—21
 		"
-15,"<h1 class=""charactername"">
-incineroar
-</h1>","
+15,"
 		Neutral B (Darkest Lariat)
 		","
 		5/15/23/37/50/56
+		","
+		84
 		","
 		-65
 		","
 		5—10/15—16/23—30/37—44/50—51/56—57
 		"
-16,"<h1 class=""charactername"">
-incineroar
-</h1>","
+16,"
 		Side B (Alolan Whip, Grab)
 		","
 		16
+		","
+		57
 		","
 		--
 		","
 		16—32(grab)
 		"
-17,"<h1 class=""charactername"">
-incineroar
-</h1>","
+17,"
 		Alolan Whip, Lariat Attack
 		","
 		7
 		","
+		47
+		","
 		--
 		","
 		**
 		"
-18,"<h1 class=""charactername"">
-incineroar
-</h1>","
+18,"
 		Alolan Whip, Back Body Drop
 		","
 		8
 		","
+		42
+		","
 		--
 		","
 		**
 		"
-19,"<h1 class=""charactername"">
-incineroar
-</h1>","
+19,"
 	Alolan Whip, Chest Bounce (Failure)
 		","
 		**
 		","
+		32
+		","
 		--
 		","
 		**
 		"
-20,"<h1 class=""charactername"">
-incineroar
-</h1>","
+20,"
 		Up B (Cross Chop)
 		","
 		11/38
+		","
+		79
 		","
 		-51
 		","
 		(11/13—15/16—24)(38...)
 		"
-21,"<h1 class=""charactername"">
-incineroar
-</h1>","
+21,"
 		Down B (Revenge)
 		","
 		3 (Start of Counter)
+		","
+		49
 		","
 		--
 		","
 		**
 		"
-22,"<h1 class=""charactername"">
-incineroar
-</h1>","
+22,"
 		Revenge, Counter Attack
 		","
 		7
+		","
+		25
 		","
 		**
 		","
 		7...
 		"
-23,"<h1 class=""charactername"">
-incineroar
-</h1>","
+23,"
 		Grab
 		","
 		7
+		","
+		38
 		","
 		**
 		","
 		7—9
 		"
-24,"<h1 class=""charactername"">
-incineroar
-</h1>","
+24,"
 		Dash Grab
 		","
 		11
+		","
+		46
 		","
 		**
 		","
 		11—13
 		"
-25,"<h1 class=""charactername"">
-incineroar
-</h1>","
+25,"
 		Pivot Grab
 		","
 		12
 		","
+		44
+		","
 		**
 		","
 		12—14
 		"
-26,"<h1 class=""charactername"">
-incineroar
-</h1>","
+26,"
 		Pummel
 		","
 		1
 		","
+		20
+		","
 		**
 		","
 		12—14
 		"
-27,"<h1 class=""charactername"">
-incineroar
-</h1>","
+27,"
 		Forward Throw
 		","
 		58
 		","
+		81
+		","
 		**
 		","
 		12—14
 		"
-28,"<h1 class=""charactername"">
-incineroar
-</h1>","
+28,"
 		Backward Throw
 		","
 		28/30
 		","
+		51
+		","
 		**
 		","
 		12—14
 		"
-29,"<h1 class=""charactername"">
-incineroar
-</h1>","
+29,"
 		Up Throw
 		","
 		27
 		","
+		55
+		","
 		**
 		","
 		12—14
 		"
-30,"<h1 class=""charactername"">
-incineroar
-</h1>","
+30,"
 		Down Throw
 		","
 		22
 		","
+		33
+		","
 		**
 		","
 		12—14
 		"
-31,"<h1 class=""charactername"">
-incineroar
-</h1>","
+31,"
 		Spot Dodge
 		","
 		22
 		","
+		21/26
+		","
 		**
 		","
 		12—14
 		"
-32,"<h1 class=""charactername"">
-incineroar
-</h1>","
+32,"
 		Forward Roll
 		","
 		22
 		","
+		30
+		","
 		**
 		","
 		12—14
 		"
-33,"<h1 class=""charactername"">
-incineroar
-</h1>","
+33,"
 		Backward Roll
 		","
 		22
 		","
+		35
+		","
 		**
 		","
 		12—14
 		"
-34,"<h1 class=""charactername"">
-incineroar
-</h1>","
+34,"
 		Neutral Air Dodge
 		","
 		22
 		","
+		44
+		","
 		**
 		","
 		12—14
 		"
-35,"<h1 class=""charactername"">
-incineroar
-</h1>","
+35,"
 		Air Dodge, Down
 		","
 		22
 		","
+		63
+		","
 		**
 		","
 		12—14
 		"
-36,"<h1 class=""charactername"">
-incineroar
-</h1>","
+36,"
 		Air Dodge, Diagonally Down
 		","
 		22
 		","
+		72
+		","
 		**
 		","
 		12—14
 		"
-37,"<h1 class=""charactername"">
-incineroar
-</h1>","
+37,"
 		Air Dodge, Left/Right
 		","
 		22
 		","
+		76
+		","
 		**
 		","
 		12—14
 		"
-38,"<h1 class=""charactername"">
-incineroar
-</h1>","
+38,"
 		Air Dodge, Diagonally Up
 		","
 		22
 		","
+		86
+		","
 		**
 		","
 		12—14
 		"
-39,"<h1 class=""charactername"">
-incineroar
-</h1>","
+39,"
 		Air Dodge, Up
 		","
 		22
 		","
+		96
+		","
 		**
 		","
 		12—14
 		"
-40,"<h1 class=""charactername"">
-incineroar
-</h1>","
+40,"
 			Ledge Grab
 		","
 		22
 		","
+		96
+		","
 		**
 		","
 		12—14
 		"
-41,"<h1 class=""charactername"">
-incineroar
-</h1>","
+41,"
 			Ledge Grab
 		","
 		22
 		","
+		96
+		","
 		**
 		","
 		12—14
 		"
-42,"<h1 class=""charactername"">
-incineroar
-</h1>","
+42,"
 				Ledge Hang
 			","
 		22
+		","
+		96
 		","
 		**
 		","

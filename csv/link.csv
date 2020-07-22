@@ -1,461 +1,461 @@
-,Character Name,Move name,Start up,Advantage,Active frames
-0,"<h1 class=""charactername"">
-link
-</h1>","
+,Move name,Start up,Total frame,Advantage,Active frames
+0,"
 		Jab 1
 		","
 		8
+		","
+		24
 		","
 		-12
 		","
 		8—9
 		"
-1,"<h1 class=""charactername"">
-link
-</h1>","
+1,"
 		Jab 2
 		","
 		5
+		","
+		25
 		","
 		-16
 		","
 		5—6
 		"
-2,"<h1 class=""charactername"">
-link
-</h1>","
+2,"
 		Jab 3
 		","
 		6
+		","
+		34
 		","
 		-23
 		","
 		6—7
 		"
-3,"<h1 class=""charactername"">
-link
-</h1>","
+3,"
 		Forward Tilt
 		","
 		15
+		","
+		39
 		","
 		-12
 		","
 		15(16—19)
 		"
-4,"<h1 class=""charactername"">
-link
-</h1>","
+4,"
 		Up Tilt
 		","
 		8
+		","
+		35
 		","
 		-17
 		","
 		8—12
 		"
-5,"<h1 class=""charactername"">
-link
-</h1>","
+5,"
 		Down Tilt
 		","
 		10
+		","
+		30
 		","
 		-11
 		","
 		10—11
 		"
-6,"<h1 class=""charactername"">
-link
-</h1>","
+6,"
 		Dash Attack
 		","
 		20
+		","
+		56
 		","
 		-21
 		","
 		20—23
 		"
-7,"<h1 class=""charactername"">
-link
-</h1>","
+7,"
 		Forward Smash 1
 		","
 		17
+		","
+		50
 		","
 		-27/-23/**
 		","
 		17—18
 		"
-8,"<h1 class=""charactername"">
-link
-</h1>","
+8,"
 		Forward Smash 2
 		","
 		10
+		","
+		60
 		","
 		-41
 		","
 		10—11
 		"
-9,"<h1 class=""charactername"">
-link
-</h1>","
+9,"
 		Up Smash
 		","
 		10/25/41
+		","
+		77
 		","
 		-28
 		","
 		10—13(14—15) / 25—28(29—30) / 41—45
 		"
-10,"<h1 class=""charactername"">
-link
-</h1>","
+10,"
 		Down Smash
 		","
 		12/24
+		","
+		56
 		","
 		-33/-24
 		","
 		12—13/24—25
 		"
-11,"<h1 class=""charactername"">
-link
-</h1>","
+11,"
 		Neutral Air
 		","
 		7
+		","
+		38
 		","
 		-2/-3
 		","
 		7—8(9—31)
 		"
-12,"<h1 class=""charactername"">
-link
-</h1>","
+12,"
 		Forward Air
 		","
 		16/24
+		","
+		51
 		","
 		-7/-7
 		","
 		16—17/24—25
 		"
-13,"<h1 class=""charactername"">
-link
-</h1>","
+13,"
 		Back Air
 		","
 		6/15
+		","
+		30
 		","
 		-3/-3
 		","
 		6—8/15—17
 		"
-14,"<h1 class=""charactername"">
-link
-</h1>","
+14,"
 		Up Air
 		","
 		11
+		","
+		59
 		","
 		-9
 		","
 		11—13(14—40)
 		"
-15,"<h1 class=""charactername"">
-link
-</h1>","
+15,"
 		Down Air
 		","
 		14
+		","
+		79
 		","
 		**
 		","
 		14—19(20—64)
 		"
-16,"<h1 class=""charactername"">
-link
-</h1>","
+16,"
 		Neutral B (Hero's Bow)
 		","
 		16-52
+		","
+		44-80
 		","
 		-21 to -15
 		","
 		16—61
 		"
-17,"<h1 class=""charactername"">
-link
-</h1>","
+17,"
 		Side B (Boomerang)
 		","
 		27
+		","
+		45
 		","
 		-8/-6
 		","
 		27—35(36—63/64—155)
 		"
-18,"<h1 class=""charactername"">
-link
-</h1>","
+18,"
 		Up B (Spin Attack)
 		","
 		7
+		","
+		76
 		","
 		-56
 		","
 		7—8(9—13/14—23/24—39)
 		"
-19,"<h1 class=""charactername"">
-link
-</h1>","
+19,"
 		Up B, Air (Spin Attack, Air)
 		","
 		8/16/22/31/47
 		","
 		--
 		","
+		--
+		","
 		8—9/12—13/16—17/19—20/22—23/26—27/31—32/38—39/47—49
 		"
-20,"<h1 class=""charactername"">
-link
-</h1>","
+20,"
 		Down B (Remote Bomb, Pull)
 		","
 		--
 		","
+		39
+		","
 		--
 		","
 		--
 		"
-21,"<h1 class=""charactername"">
-link
-</h1>","
+21,"
 		Down B (Remote Bomb, Detonate)
 		","
 		12
+		","
+		39
 		","
 		-19
 		","
 		12—13
 		"
-22,"<h1 class=""charactername"">
-link
-</h1>","
+22,"
 		Grab
 		","
 		6
+		","
+		34
 		","
 		-19
 		","
 		6—7
 		"
-23,"<h1 class=""charactername"">
-link
-</h1>","
+23,"
 		Dash Grab
 		","
 		9
+		","
+		42
 		","
 		-19
 		","
 		9—10
 		"
-24,"<h1 class=""charactername"">
-link
-</h1>","
+24,"
 		Pivot Grab
 		","
 		10
 		","
+		37
+		","
 		-19
 		","
 		10—11
 		"
-25,"<h1 class=""charactername"">
-link
-</h1>","
+25,"
 		Pummel
 		","
 		1
 		","
+		18
+		","
 		-19
 		","
 		10—11
 		"
-26,"<h1 class=""charactername"">
-link
-</h1>","
+26,"
 		Forward Throw
 		","
 		12/13
 		","
+		37
+		","
 		-19
 		","
 		10—11
 		"
-27,"<h1 class=""charactername"">
-link
-</h1>","
+27,"
 		Backward Throw
 		","
 		12/14
 		","
+		38
+		","
 		-19
 		","
 		10—11
 		"
-28,"<h1 class=""charactername"">
-link
-</h1>","
+28,"
 		Up Throw
 		","
 		26/28
 		","
+		49
+		","
 		-19
 		","
 		10—11
 		"
-29,"<h1 class=""charactername"">
-link
-</h1>","
+29,"
 		Down Throw
 		","
 		22/24
 		","
+		48
+		","
 		-19
 		","
 		10—11
 		"
-30,"<h1 class=""charactername"">
-link
-</h1>","
+30,"
 		Spot Dodge
 		","
 		22/24
 		","
+		21/26
+		","
 		-19
 		","
 		10—11
 		"
-31,"<h1 class=""charactername"">
-link
-</h1>","
+31,"
 		Forward Roll
 		","
 		22/24
 		","
+		30
+		","
 		-19
 		","
 		10—11
 		"
-32,"<h1 class=""charactername"">
-link
-</h1>","
+32,"
 		Backward Roll
 		","
 		22/24
 		","
+		35
+		","
 		-19
 		","
 		10—11
 		"
-33,"<h1 class=""charactername"">
-link
-</h1>","
+33,"
 		Neutral Air Dodge
 		","
 		22/24
 		","
+		49
+		","
 		-19
 		","
 		10—11
 		"
-34,"<h1 class=""charactername"">
-link
-</h1>","
+34,"
 		Air Dodge, Down
 		","
 		22/24
 		","
+		69
+		","
 		-19
 		","
 		10—11
 		"
-35,"<h1 class=""charactername"">
-link
-</h1>","
+35,"
 		Air Dodge, Diagonally Down
 		","
 		22/24
 		","
+		74
+		","
 		-19
 		","
 		10—11
 		"
-36,"<h1 class=""charactername"">
-link
-</h1>","
+36,"
 		Air Dodge, Left/Right
 		","
 		22/24
 		","
+		82
+		","
 		-19
 		","
 		10—11
 		"
-37,"<h1 class=""charactername"">
-link
-</h1>","
+37,"
 		Air Dodge, Diagonally Up
 		","
 		22/24
 		","
+		95
+		","
 		-19
 		","
 		10—11
 		"
-38,"<h1 class=""charactername"">
-link
-</h1>","
+38,"
 		Air Dodge, Up
 		","
 		22/24
 		","
+		108
+		","
 		-19
 		","
 		10—11
 		"
-39,"<h1 class=""charactername"">
-link
-</h1>","
+39,"
 			Ledge Grab
 		","
 		22/24
 		","
+		108
+		","
 		-19
 		","
 		10—11
 		"
-40,"<h1 class=""charactername"">
-link
-</h1>","
+40,"
 			Ledge Grab
 		","
 		22/24
 		","
+		108
+		","
 		-19
 		","
 		10—11
 		"
-41,"<h1 class=""charactername"">
-link
-</h1>","
+41,"
 				Ledge Hang
 			","
 		22/24
+		","
+		108
 		","
 		-19
 		","

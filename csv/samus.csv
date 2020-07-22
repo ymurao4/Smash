@@ -1,461 +1,461 @@
-,Character Name,Move name,Start up,Advantage,Active frames
-0,"<h1 class=""charactername"">
-Samus
-</h1>","
+,Move name,Start up,Total frame,Advantage,Active frames
+0,"
 		Jab 1
 		","
 		3
+		","
+		17
 		","
 		-10
 		","
 		3—4
 		"
-1,"<h1 class=""charactername"">
-Samus
-</h1>","
+1,"
 		Jab 2
 		","
 		6
+		","
+		29
 		","
 		-15
 		","
 		6—9
 		"
-2,"<h1 class=""charactername"">
-Samus
-</h1>","
+2,"
 		Forward Tilt
 		","
 		8
+		","
+		33
 		","
 		-17/-16/-15
 		","
 		8—10
 		"
-3,"<h1 class=""charactername"">
-Samus
-</h1>","
+3,"
 		Up Tilt
 		","
 		15
+		","
+		39
 		","
 		-12
 		","
 		15—18
 		"
-4,"<h1 class=""charactername"">
-Samus
-</h1>","
+4,"
 		Down Tilt
 		","
 		6
+		","
+		44
 		","
 		-27
 		","
 		6—8
 		"
-5,"<h1 class=""charactername"">
-Samus
-</h1>","
+5,"
 		Dash Attack
 		","
 		8
+		","
+		41
 		","
 		-26
 		","
 		8—9(10—13/14—18)
 		"
-6,"<h1 class=""charactername"">
-Samus
-</h1>","
+6,"
 		Forward Smash
 		","
 		10
+		","
+		48
 		","
 		-30/-28
 		","
 		10—11
 		"
-7,"<h1 class=""charactername"">
-Samus
-</h1>","
+7,"
 		Up Smash
 		","
 		11/15/19/23/27
+		","
+		56
 		","
 		-24
 		","
 		11—12/15—16/19—20/23—24/27—28
 		"
-8,"<h1 class=""charactername"">
-Samus
-</h1>","
+8,"
 		Down Smash
 		","
 		9/17
+		","
+		44
 		","
 		-28/-19
 		","
 		9—10/17—18
 		"
-9,"<h1 class=""charactername"">
-Samus
-</h1>","
+9,"
 		Neutral Air
 		","
 		8/14
+		","
+		45
 		","
 		-5/-5
 		","
 		8—11/14—15(16—22)
 		"
-10,"<h1 class=""charactername"">
-Samus
-</h1>","
+10,"
 		Forward Air
 		","
 		6/12/18/24/30
+		","
+		59
 		","
 		-12/-12/-11
 		","
 		6—7/12—13/18—19/24—25/30—31
 		"
-11,"<h1 class=""charactername"">
-Samus
-</h1>","
+11,"
 		Back Air
 		","
 		9
+		","
+		41
 		","
 		-9/-10
 		","
 		9—10(11—14)
 		"
-12,"<h1 class=""charactername"">
-Samus
-</h1>","
+12,"
 		Up Air
 		","
 		5...
+		","
+		39
 		","
 		-16/-16/-15
 		","
 		5/7—14(rehit: 3)/16—17
 		"
-13,"<h1 class=""charactername"">
-Samus
-</h1>","
+13,"
 		Down Air
 		","
 		17
+		","
+		48
 		","
 		-8/-7
 		","
 		17—18/19—21/22—23
 		"
-14,"<h1 class=""charactername"">
-Samus
-</h1>","
+14,"
 		Z Air
 		","
 		8/16
+		","
+		59
 		","
 		-4/-3
 		","
 		8—15/16—19
 		"
-15,"<h1 class=""charactername"">
-Samus
-</h1>","
+15,"
 		Neutral B (Charge Shot)
 		","
 		3(+13)
+		","
+		31
 		","
 		-16 to +4
 		","
 		3—62 (from release)
 		"
-16,"<h1 class=""charactername"">
-Samus
-</h1>","
+16,"
 		Charge Shot, Full Charge
 		","
 		16
+		","
+		50
 		","
 		-2
 		","
 		16—75
 		"
-17,"<h1 class=""charactername"">
-Samus
-</h1>","
+17,"
 		Side B (Homing Missle)
 		","
 		18
+		","
+		54/59
 		","
 		-26
 		","
 		18—137
 		"
-18,"<h1 class=""charactername"">
-Samus
-</h1>","
+18,"
 		Side B (Super Missle)
 		","
 		21
+		","
+		57/59
 		","
 		-24
 		","
 		21—70
 		"
-19,"<h1 class=""charactername"">
-Samus
-</h1>","
+19,"
 		Up B (Screw Attack)
 		","
 		4...
 		","
 		--
 		","
+		--
+		","
 		4-6/7-11/12-14/15-24/25-26
 		"
-20,"<h1 class=""charactername"">
-Samus
-</h1>","
+20,"
 		Up B, Air (Screw Attack, Air)
 		","
 		5...
 		","
 		--
 		","
+		--
+		","
 		5-10/11-26/27-28
 		"
-21,"<h1 class=""charactername"">
-Samus
-</h1>","
+21,"
 		Down B (Bomb)
 		","
 		33
+		","
+		47/44/48
 		","
 		--
 		","
 		33—80/1—18
 		"
-22,"<h1 class=""charactername"">
-Samus
-</h1>","
+22,"
 		Grab
 		","
 		15
+		","
+		59
 		","
 		--
 		","
 		15—22
 		"
-23,"<h1 class=""charactername"">
-Samus
-</h1>","
+23,"
 		Dash Grab
 		","
 		17
+		","
+		67
 		","
 		--
 		","
 		17—24
 		"
-24,"<h1 class=""charactername"">
-Samus
-</h1>","
+24,"
 		Pivot Grab
 		","
 		18
 		","
+		62
+		","
 		--
 		","
 		18—25
 		"
-25,"<h1 class=""charactername"">
-Samus
-</h1>","
+25,"
 		Pummel
 		","
 		1
 		","
+		19
+		","
 		--
 		","
 		18—25
 		"
-26,"<h1 class=""charactername"">
-Samus
-</h1>","
+26,"
 		Forward Throw
 		","
 		16
 		","
+		41
+		","
 		--
 		","
 		18—25
 		"
-27,"<h1 class=""charactername"">
-Samus
-</h1>","
+27,"
 		Backward Throw
 		","
 		12
 		","
+		49
+		","
 		--
 		","
 		18—25
 		"
-28,"<h1 class=""charactername"">
-Samus
-</h1>","
+28,"
 		Up Throw
 		","
 		15/16
 		","
+		41
+		","
 		--
 		","
 		18—25
 		"
-29,"<h1 class=""charactername"">
-Samus
-</h1>","
+29,"
 		Down Throw
 		","
 		21
 		","
+		37
+		","
 		--
 		","
 		18—25
 		"
-30,"<h1 class=""charactername"">
-Samus
-</h1>","
+30,"
 		Spot Dodge
 		","
 		21
 		","
+		21/26
+		","
 		--
 		","
 		18—25
 		"
-31,"<h1 class=""charactername"">
-Samus
-</h1>","
+31,"
 		Forward Roll
 		","
 		21
 		","
+		34
+		","
 		--
 		","
 		18—25
 		"
-32,"<h1 class=""charactername"">
-Samus
-</h1>","
+32,"
 		Backward Roll
 		","
 		21
 		","
+		39
+		","
 		--
 		","
 		18—25
 		"
-33,"<h1 class=""charactername"">
-Samus
-</h1>","
+33,"
 		Neutral Air Dodge
 		","
 		21
 		","
+		56
+		","
 		--
 		","
 		18—25
 		"
-34,"<h1 class=""charactername"">
-Samus
-</h1>","
+34,"
 		Air Dodge, Down
 		","
 		21
 		","
+		80
+		","
 		--
 		","
 		18—25
 		"
-35,"<h1 class=""charactername"">
-Samus
-</h1>","
+35,"
 		Air Dodge, Diagonally Down
 		","
 		21
 		","
+		86
+		","
 		--
 		","
 		18—25
 		"
-36,"<h1 class=""charactername"">
-Samus
-</h1>","
+36,"
 		Air Dodge, Left/Right
 		","
 		21
 		","
+		96
+		","
 		--
 		","
 		18—25
 		"
-37,"<h1 class=""charactername"">
-Samus
-</h1>","
+37,"
 		Air Dodge, Diagonally Up
 		","
 		21
 		","
+		113
+		","
 		--
 		","
 		18—25
 		"
-38,"<h1 class=""charactername"">
-Samus
-</h1>","
+38,"
 		Air Dodge, Up
 		","
 		21
 		","
+		130
+		","
 		--
 		","
 		18—25
 		"
-39,"<h1 class=""charactername"">
-Samus
-</h1>","
+39,"
 			Ledge Grab
 		","
 		21
 		","
+		130
+		","
 		--
 		","
 		18—25
 		"
-40,"<h1 class=""charactername"">
-Samus
-</h1>","
+40,"
 			Ledge Grab
 		","
 		21
 		","
+		130
+		","
 		--
 		","
 		18—25
 		"
-41,"<h1 class=""charactername"">
-Samus
-</h1>","
+41,"
 				Ledge Hang
 			","
 		21
+		","
+		130
 		","
 		--
 		","

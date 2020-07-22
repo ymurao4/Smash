@@ -1,472 +1,472 @@
-,Character Name,Move name,Start up,Advantage,Active frames
-0,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+,Move name,Start up,Total frame,Advantage,Active frames
+0,"
 		Jab 1
 		","
 		3
+		","
+		17
 		","
 		-11
 		","
 		3
 		"
-1,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+1,"
 		Jab 2
 		","
 		5
+		","
+		18
 		","
 		-10
 		","
 		5
 		"
-2,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+2,"
 		Jab 3
 		","
 		6
+		","
+		32
 		","
 		-20
 		","
 		6—7
 		"
-3,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+3,"
 		Rapid Jab
 		","
 		5/7/9
 		","
 		--
 		","
+		--
+		","
 		**
 		"
-4,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+4,"
 		Rapid Jab Finisher
 		","
 		6
+		","
+		49
 		","
 		-39
 		","
 		6—7
 		"
-5,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+5,"
 		Forward Tilt
 		","
 		7
+		","
+		29
 		","
 		-14/-13
 		","
 		7—10
 		"
-6,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+6,"
 		Up Tilt
 		","
 		14
+		","
+		36
 		","
 		-12
 		","
 		14—17
 		"
-7,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+7,"
 		Down Tilt
 		","
 		11
+		","
+		34
 		","
 		-13
 		","
 		11—12
 		"
-8,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+8,"
 		Dash Attack
 		","
 		7
+		","
+		34
 		","
 		-10
 		","
 		7—9(10—16)
 		"
-9,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+9,"
 		Forward Smash
 		","
 		19
+		","
+		59
 		","
 		-27
 		","
 		19—22
 		"
-10,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+10,"
 		Up Smash
 		","
 		22/28
+		","
+		45
 		","
 		-7
 		","
 		22(23)/28—29
 		"
-11,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+11,"
 		Down Smash
 		","
 		19/29
+		","
+		48
 		","
 		-19/-7
 		","
 		19—20/29—30
 		"
-12,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+12,"
 		Neutral Air
 		","
 		7/13
+		","
+		39
 		","
 		-4/-4
 		","
 		7—8/13—15
 		"
-13,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+13,"
 		Forward Air
 		","
 		14
+		","
+		45
 		","
 		-11/-15
 		","
 		14(15—30)
 		"
-14,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+14,"
 		Back Air
 		","
 		10
+		","
+		35
 		","
 		-5/-7
 		","
 		10—11(12—15)
 		"
-15,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+15,"
 		Up Air
 		","
 		7
+		","
+		31
 		","
 		-6/-6/-6
 		","
 		7—10(11—12)
 		"
-16,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+16,"
 		Down Air
 		","
 		16
+		","
+		44
 		","
 		-7
 		","
 		16—18
 		"
-17,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+17,"
 		Neutral B (Falcon Punch)
 		","
 		53/62
+		","
+		103/117
 		","
 		-28/-31
 		","
 		53—57/62—66
 		"
-18,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+18,"
 		Side B (Raptor Boost)
 		","
 		5(+10)
+		","
+		27/71
 		","
 		-12
 		","
 		**
 		"
-19,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+19,"
 		Side B, Air (Raptor Boost, Air)
 		","
 		5(+19)
 		","
 		--
 		","
+		--
+		","
 		**
 		"
-20,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+20,"
 		Up B (Falcon Dive)
 		","
 		14
 		","
 		--
 		","
+		--
+		","
 		14—30
 		"
-21,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+21,"
 		Down B (Falcon Kick)
 		","
 		13
+		","
+		68/65
 		","
 		-51
 		","
 		13—16(17—23/24—33)
 		"
-22,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+22,"
 		Down B, Air (Falcon Kick, Air)
 		","
 		14
+		","
+		56
 		","
 		-25
 		","
 		14—18(19—24/25—27)/1—2
 		"
-23,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+23,"
 		Grab
 		","
 		6
+		","
+		35
 		","
 		-25
 		","
 		6—7
 		"
-24,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+24,"
 		Dash Grab
 		","
 		9
+		","
+		43
 		","
 		-25
 		","
 		9—10
 		"
-25,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+25,"
 		Pivot Grab
 		","
 		10
 		","
+		38
+		","
 		-25
 		","
 		10—11
 		"
-26,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+26,"
 		Pummel
 		","
 		1
 		","
+		19
+		","
 		-25
 		","
 		10—11
 		"
-27,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+27,"
 		Forward Throw
 		","
 		11/13
 		","
+		32
+		","
 		-25
 		","
 		10—11
 		"
-28,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+28,"
 		Backward Throw
 		","
 		12/13
 		","
+		45
+		","
 		-25
 		","
 		10—11
 		"
-29,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+29,"
 		Up Throw
 		","
 		12/14
 		","
+		37
+		","
 		-25
 		","
 		10—11
 		"
-30,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+30,"
 		Down Throw
 		","
 		15
 		","
+		33
+		","
 		-25
 		","
 		10—11
 		"
-31,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+31,"
 		Spot Dodge
 		","
 		15
 		","
+		21/26
+		","
 		-25
 		","
 		10—11
 		"
-32,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+32,"
 		Forward Roll
 		","
 		15
 		","
+		30
+		","
 		-25
 		","
 		10—11
 		"
-33,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+33,"
 		Backward Roll
 		","
 		15
 		","
+		35
+		","
 		-25
 		","
 		10—11
 		"
-34,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+34,"
 		Neutral Air Dodge
 		","
 		15
 		","
+		42
+		","
 		-25
 		","
 		10—11
 		"
-35,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+35,"
 		Air Dodge, Down
 		","
 		15
 		","
+		62
+		","
 		-25
 		","
 		10—11
 		"
-36,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+36,"
 		Air Dodge, Diagonally Down
 		","
 		15
 		","
+		66
+		","
 		-25
 		","
 		10—11
 		"
-37,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+37,"
 		Air Dodge, Left/Right
 		","
 		15
 		","
+		72
+		","
 		-25
 		","
 		10—11
 		"
-38,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+38,"
 		Air Dodge, Diagonally Up
 		","
 		15
 		","
+		85
+		","
 		-25
 		","
 		10—11
 		"
-39,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+39,"
 		Air Dodge, Up
 		","
 		15
 		","
+		94
+		","
 		-25
 		","
 		10—11
 		"
-40,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+40,"
 			Ledge Grab
 		","
 		15
 		","
+		94
+		","
 		-25
 		","
 		10—11
 		"
-41,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+41,"
 			Ledge Grab
 		","
 		15
 		","
+		94
+		","
 		-25
 		","
 		10—11
 		"
-42,"<h1 class=""charactername"">
-Captain Falcon
-</h1>","
+42,"
 				Ledge Hang
 			","
 		15
+		","
+		94
 		","
 		-25
 		","

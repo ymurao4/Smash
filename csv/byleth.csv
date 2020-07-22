@@ -1,450 +1,450 @@
-,Character Name,Move name,Start up,Advantage,Active frames
-0,"<h1 class=""charactername"">
-byleth
-</h1>","
+,Move name,Start up,Total frame,Advantage,Active frames
+0,"
 		Jab 1
 		","
 		4
+		","
+		22
 		","
 		-15
 		","
 		4—5
 		"
-1,"<h1 class=""charactername"">
-byleth
-</h1>","
+1,"
 		Jab 2
 		","
 		4
+		","
+		24
 		","
 		-17
 		","
 		4—5
 		"
-2,"<h1 class=""charactername"">
-byleth
-</h1>","
+2,"
 		Jab 3
 		","
 		5
+		","
+		34
 		","
 		-22
 		","
 		5—7
 		"
-3,"<h1 class=""charactername"">
-byleth
-</h1>","
+3,"
 		Rapid Jab
 		","
 		11
 		","
 		**
 		","
+		**
+		","
 		11/14/17/20/23/...
 		"
-4,"<h1 class=""charactername"">
-byleth
-</h1>","
+4,"
 		Rapid Jab Finisher
 		","
 		6
+		","
+		50
 		","
 		-40
 		","
 		6—7
 		"
-5,"<h1 class=""charactername"">
-byleth
-</h1>","
+5,"
 		Forward Tilt
 		","
 		8
+		","
+		34
 		","
 		-15
 		","
 		8—10
 		"
-6,"<h1 class=""charactername"">
-byleth
-</h1>","
+6,"
 		Up Tilt
 		","
 		9
+		","
+		34
 		","
 		-15
 		","
 		9—15
 		"
-7,"<h1 class=""charactername"">
-byleth
-</h1>","
+7,"
 		Down Tilt
 		","
 		13
+		","
+		35
 		","
 		-14
 		","
 		13—15
 		"
-8,"<h1 class=""charactername"">
-byleth
-</h1>","
+8,"
 		Dash Attack
 		","
 		9
+		","
+		44
 		","
 		-26/-23
 		","
 		9—11
 		"
-9,"<h1 class=""charactername"">
-byleth
-</h1>","
+9,"
 		Forward Smash
 		","
 		23
+		","
+		63
 		","
 		-31/-27 || -32/-28 || -32/-28
 		","
 		23—25
 		"
-10,"<h1 class=""charactername"">
-byleth
-</h1>","
+10,"
 		Up Smash
 		","
 		13
+		","
+		56
 		","
 		-22
 		","
 		13—16(rehit: 7)/17—27(rehit: 4)/28—29
 		"
-11,"<h1 class=""charactername"">
-byleth
-</h1>","
+11,"
 		Down Smash
 		","
 		19/29
+		","
+		74
 		","
 		-40/-30
 		","
 		19—21/29—31
 		"
-12,"<h1 class=""charactername"">
-byleth
-</h1>","
+12,"
 		Neutral Air
 		","
 		6...
+		","
+		51
 		","
 		-11/-11/-9
 		","
 		6—26(rehit: 7)/28/2 
 		"
-13,"<h1 class=""charactername"">
-byleth
-</h1>","
+13,"
 		Forward Air
 		","
 		12
+		","
+		39
 		","
 		-7/-6
 		","
 		12—13
 		"
-14,"<h1 class=""charactername"">
-byleth
-</h1>","
+14,"
 		Back Air
 		","
 		13
+		","
+		46
 		","
 		-9/-8
 		","
 		13—14(15—17)
 		"
-15,"<h1 class=""charactername"">
-byleth
-</h1>","
+15,"
 		Up Air
 		","
 		10...
+		","
+		48
 		","
 		-12/-11
 		","
 		10—19(rehit: 5)/20—23
 		"
-16,"<h1 class=""charactername"">
-byleth
-</h1>","
+16,"
 		Down Air
 		","
 		22
+		","
+		59
 		","
 		-21
 		","
 		22—24
 		"
-17,"<h1 class=""charactername"">
-byleth
-</h1>","
+17,"
 		Neutral B (Failnaught)
 		","
 		45/114
+		","
+		80/160
 		","
 		-8/-21
 		","
 		45—61 / 114
 		"
-18,"<h1 class=""charactername"">
-byleth
-</h1>","
+18,"
 		Side B (Areadbhar)
 		","
 		Ground: 20 || Air: 21
+		","
+		65
 		","
 		-34/-30
 		","
 		Ground: 20/21/22—24 || Air: 21—24
 		"
-19,"<h1 class=""charactername"">
-byleth
-</h1>","
+19,"
 		Up B (Sword of the Creator)
 		","
 		11/12/46
+		","
+		48
 		","
 		-35(ground) || **(air)
 		","
 		11/12—19/46(ground) || 12—19/46(air)
 		"
-20,"<h1 class=""charactername"">
-byleth
-</h1>","
+20,"
 		Down B (Aymr)
 		","
 		62
+		","
+		133
 		","
 		**
 		","
 		62—67/2—5
 		"
-21,"<h1 class=""charactername"">
-byleth
-</h1>","
+21,"
 		Grab
 		","
 		6
+		","
+		39
 		","
 		**
 		","
 		6—7
 		"
-22,"<h1 class=""charactername"">
-byleth
-</h1>","
+22,"
 		Dash Grab
 		","
 		10
+		","
+		48
 		","
 		**
 		","
 		10—11
 		"
-23,"<h1 class=""charactername"">
-byleth
-</h1>","
+23,"
 		Pivot Grab
 		","
 		11
 		","
+		42
+		","
 		**
 		","
 		11—12
 		"
-24,"<h1 class=""charactername"">
-byleth
-</h1>","
+24,"
 		Pummel
 		","
 		1
 		","
+		22
+		","
 		**
 		","
 		11—12
 		"
-25,"<h1 class=""charactername"">
-byleth
-</h1>","
+25,"
 		Forward Throw
 		","
 		13
 		","
+		35
+		","
 		**
 		","
 		11—12
 		"
-26,"<h1 class=""charactername"">
-byleth
-</h1>","
+26,"
 		Backward Throw
 		","
 		30
 		","
+		43
+		","
 		**
 		","
 		11—12
 		"
-27,"<h1 class=""charactername"">
-byleth
-</h1>","
+27,"
 		Up Throw
 		","
 		15
 		","
+		37
+		","
 		**
 		","
 		11—12
 		"
-28,"<h1 class=""charactername"">
-byleth
-</h1>","
+28,"
 		Down Throw
 		","
 		13
 		","
+		31
+		","
 		**
 		","
 		11—12
 		"
-29,"<h1 class=""charactername"">
-byleth
-</h1>","
+29,"
 		Spot Dodge
 		","
 		13
 		","
+		20/25
+		","
 		**
 		","
 		11—12
 		"
-30,"<h1 class=""charactername"">
-byleth
-</h1>","
+30,"
 		Forward Roll
 		","
 		13
 		","
+		29
+		","
 		**
 		","
 		11—12
 		"
-31,"<h1 class=""charactername"">
-byleth
-</h1>","
+31,"
 		Backward Roll
 		","
 		13
 		","
+		34
+		","
 		**
 		","
 		11—12
 		"
-32,"<h1 class=""charactername"">
-byleth
-</h1>","
+32,"
 		Neutral Air Dodge
 		","
 		13
 		","
+		49
+		","
 		**
 		","
 		11—12
 		"
-33,"<h1 class=""charactername"">
-byleth
-</h1>","
+33,"
 		Air Dodge, Down
 		","
 		13
 		","
+		68
+		","
 		**
 		","
 		11—12
 		"
-34,"<h1 class=""charactername"">
-byleth
-</h1>","
+34,"
 		Air Dodge, Diagonally Down
 		","
 		13
 		","
+		76
+		","
 		**
 		","
 		11—12
 		"
-35,"<h1 class=""charactername"">
-byleth
-</h1>","
+35,"
 		Air Dodge, Left/Right
 		","
 		13
 		","
+		83
+		","
 		**
 		","
 		11—12
 		"
-36,"<h1 class=""charactername"">
-byleth
-</h1>","
+36,"
 		Air Dodge, Diagonally Up
 		","
 		13
 		","
+		97
+		","
 		**
 		","
 		11—12
 		"
-37,"<h1 class=""charactername"">
-byleth
-</h1>","
+37,"
 		Air Dodge, Up
 		","
 		13
 		","
+		111
+		","
 		**
 		","
 		11—12
 		"
-38,"<h1 class=""charactername"">
-byleth
-</h1>","
+38,"
 			Ledge Grab
 		","
 		13
 		","
+		111
+		","
 		**
 		","
 		11—12
 		"
-39,"<h1 class=""charactername"">
-byleth
-</h1>","
+39,"
 			Ledge Grab
 		","
 		13
 		","
+		111
+		","
 		**
 		","
 		11—12
 		"
-40,"<h1 class=""charactername"">
-byleth
-</h1>","
+40,"
 				Ledge Hang
 			","
 		13
+		","
+		111
 		","
 		**
 		","

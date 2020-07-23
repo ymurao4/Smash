@@ -7,33 +7,39 @@
 //
 
 import SwiftUI
+import WaterfallGrid
 
 struct FrameView: View {
-
-    @ObservedObject var frameVM = FrameViewModel()
 
     var body: some View {
 
         NavigationView {
             VStack {
-                List() {
-                    HStack {
-                        Spacer()
-                        FighterPNG(name: "wario")
-                            .frame(width: 200, height: 200)
-                        Spacer()
+                WaterfallGrid(0..<S.frameFighterArray.count, id: \.self) { index in
+                    NavigationLink(destination: FrameDetaleView(fighterName: S.frameFighterArray[index])) {
+                        FighterPNG(name: S.frameFighterArray[index])
+                            .frame(width: 80, height: 80)
                     }
                 }
-                .onAppear {
-                    self.frameVM.loadData()
-                }
-                .navigationBarTitle("wario")
+                .gridStyle(
+                    columns: 3,
+                    spacing: 20,
+                    padding: EdgeInsets(top: 10, leading: 10, bottom: 40, trailing: 10)
+                )
+                    .scrollOptions(
+                        direction: .vertical,
+                        showsIndicators: false
+                )
             }
+            .navigationBarTitle("フレーム表")
         }
     }
+    
 }
+
 struct FrameView_Previews: PreviewProvider {
     static var previews: some View {
         FrameView()
     }
 }
+

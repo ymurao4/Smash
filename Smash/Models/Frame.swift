@@ -10,13 +10,9 @@ import Foundation
 
 struct Frame: Identifiable {
     var id: String = UUID().uuidString
-    var fighterName: String
-    var moves: [Move]
-}
-
-struct Move {
     var name: String
     var frameStartup: String
+    var totalFrames: String
     var onShield: String
     var activeOn: String
 }

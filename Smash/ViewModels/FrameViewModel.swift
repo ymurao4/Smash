@@ -11,25 +11,21 @@ import Combine
 
 class FrameViewModel: ObservableObject {
 
-//    @Published var frame: Frame
-//    @Published var fighterName: String = "wario"
+    @Published var repository = Repository()
+    @Published var frameCellViewModels = [FrameCellViewModel]()
 
-    var csvLines = [String]()
+    private var cancellables = Set<AnyCancellable>()
 
-    func loadData() {
-        guard let path = Bundle.main.path(forResource: "csv/wario", ofType: "csv") else {
-            return
+    init() {
+        repository.$results.map { results in
+            results.map { result in
+                let frame = Frame(name: result[1], frameStartup: result[2], totalFrames: result[3], onShield: result[4], activeOn: result[5])
+                return FrameCellViewModel(frame: frame)
+            }
         }
-
-        do {
-            let csvString = try String(contentsOfFile: path, encoding: String.Encoding.utf8)
-            csvLines = csvString.components(separatedBy: "\n")
-            print(csvLines)
-        } catch {
-            print("Error")
-        }
-
-
+        .assign(to: \.frameCellViewModels, on: self)
+        .store(in: &cancellables)
     }
+
 
 }

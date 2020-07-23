@@ -11,33 +11,21 @@ import Combine
 
 class FrameViewModel: ObservableObject {
 
-//    @Published var frame: Frame
-//    @Published var fighterName: String = "wario"
+    @Published var repository = Repository()
+    @Published var frameCellViewModels = [FrameCellViewModel]()
 
-    func loadData(name: String) -> [[String]]{
+    private var cancellables = Set<AnyCancellable>()
 
-        var result: [[String]] = []
-
-        guard let path = Bundle.main.path(forResource: "csv/\(name)", ofType: "csv") else {
-            return result
-        }
-
-        do {
-            let csvString = try String(contentsOfFile: path, encoding: String.Encoding.utf8)
-
-            let rows = csvString.components(separatedBy: .newlines)
-            for row in rows {
-                let columns = row.components(separatedBy: ",")
-                result.append(columns)
+    init() {
+        repository.$results.map { results in
+            results.map { result in
+                let frame = Frame(name: result[1], frameStartup: result[2], totalFrames: result[3], onShield: result[4], activeOn: result[5])
+                return FrameCellViewModel(frame: frame)
             }
-
-        } catch {
-            print("Error loadgin csv file: \(error.localizedDescription)")
         }
-
-
-        result.remove(at: 0)
-        return result
+        .assign(to: \.frameCellViewModels, on: self)
+        .store(in: &cancellables)
     }
+
 
 }

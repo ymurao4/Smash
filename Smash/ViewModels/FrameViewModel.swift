@@ -14,22 +14,30 @@ class FrameViewModel: ObservableObject {
 //    @Published var frame: Frame
 //    @Published var fighterName: String = "wario"
 
-    var csvLines = [String]()
+    func loadData(name: String) -> [[String]]{
 
-    func loadData() {
-        guard let path = Bundle.main.path(forResource: "csv/wario", ofType: "csv") else {
-            return
+        var result: [[String]] = []
+
+        guard let path = Bundle.main.path(forResource: "csv/\(name)", ofType: "csv") else {
+            return result
         }
 
         do {
             let csvString = try String(contentsOfFile: path, encoding: String.Encoding.utf8)
-            csvLines = csvString.components(separatedBy: "\n")
-            print(csvLines)
+
+            let rows = csvString.components(separatedBy: .newlines)
+            for row in rows {
+                let columns = row.components(separatedBy: ",")
+                result.append(columns)
+            }
+
         } catch {
-            print("Error")
+            print("Error loadgin csv file: \(error.localizedDescription)")
         }
 
 
+        result.remove(at: 0)
+        return result
     }
 
 }

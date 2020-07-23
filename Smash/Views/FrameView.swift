@@ -25,7 +25,7 @@ struct FrameView: View {
                     }
                 }
                 .onAppear {
-                    self.frameVM.loadData()
+                    self.frameVM.loadData(name: "wario")
                 }
                 .navigationBarTitle("wario")
             }

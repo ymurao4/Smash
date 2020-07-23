@@ -20,26 +20,36 @@ for name in fighter_names:
 
   for moveContainer in moveContainers:
     try:
-      movename = moveContainer.find("div", class_="movename").text
+      movename = moveContainer.find("div", class_="movename").get_text()
+      lines = [line.strip() for line in movename.splitlines()]
+      move = "\n".join(line for line in lines if line)
     except:
       print("")
     try:
-      startup = moveContainer.find("div", class_="startup").text
+      startup = moveContainer.find("div", class_="startup").get_text()
+      lines = [line.strip() for line in startup.splitlines()]
+      start = "\n".join(line for line in lines if line)
     except:
       print("")
     try:
-      totalframes = moveContainer.find("div", class_="totalframes").text
+      totalframes = moveContainer.find("div", class_="totalframes").get_text()
+      lines = [line.strip() for line in totalframes.splitlines()]
+      total = "\n".join(line for line in lines if line)
     except:
       print("")
     try:
-      advantage = moveContainer.find("div", class_="advantage").text
+      advantage = moveContainer.find("div", class_="advantage").get_text()
+      lines = [line.strip() for line in advantage.splitlines()]
+      ad = "\n".join(line for line in lines if line)
     except:
       print("")
     try:
-      activeframes = moveContainer.find("div", class_="activeframes").text
+      activeframes = moveContainer.find("div", class_="activeframes").get_text()
+      lines = [line.strip() for line in activeframes.splitlines()]
+      ac = "\n".join(line for line in lines if line)
     except:
       print("")
-    table.append([movename, startup, totalframes, advantage, activeframes])
+    table.append([move, start, total, ad, ac])
 
   import pandas as pd
 

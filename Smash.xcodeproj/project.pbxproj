@@ -16,7 +16,6 @@
 		0409E4CC24C57582000038E1 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E4CB24C57582000038E1 /* RecordView.swift */; };
 		0409E4CE24C57588000038E1 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E4CD24C57588000038E1 /* NoteView.swift */; };
 		04149A4824C7C63400F2AD6F /* RecordCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04149A4724C7C63400F2AD6F /* RecordCellViewModel.swift */; };
-		0417B6C524C9629C00BBFF3B /* FrameCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B6C424C9629C00BBFF3B /* FrameCellViewModel.swift */; };
 		0417B6C724C9689B00BBFF3B /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B6C624C9689B00BBFF3B /* Repository.swift */; };
 		0417B6C924C9A71400BBFF3B /* FrameDetaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B6C824C9A71400BBFF3B /* FrameDetaleView.swift */; };
 		049239A624C6608B009F301E /* RecordListViewMdoel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239A524C6608B009F301E /* RecordListViewMdoel.swift */; };
@@ -47,7 +46,6 @@
 		0409E4CB24C57582000038E1 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
 		0409E4CD24C57588000038E1 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
 		04149A4724C7C63400F2AD6F /* RecordCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCellViewModel.swift; sourceTree = "<group>"; };
-		0417B6C424C9629C00BBFF3B /* FrameCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameCellViewModel.swift; sourceTree = "<group>"; };
 		0417B6C624C9689B00BBFF3B /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		0417B6C824C9A71400BBFF3B /* FrameDetaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameDetaleView.swift; sourceTree = "<group>"; };
 		049239A524C6608B009F301E /* RecordListViewMdoel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecordListViewMdoel.swift; path = Smash/Models/RecordListViewMdoel.swift; sourceTree = SOURCE_ROOT; };
@@ -153,7 +151,6 @@
 				049239A524C6608B009F301E /* RecordListViewMdoel.swift */,
 				04149A4724C7C63400F2AD6F /* RecordCellViewModel.swift */,
 				04F4F25324C8445C006C2F20 /* FrameViewModel.swift */,
-				0417B6C424C9629C00BBFF3B /* FrameCellViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -333,7 +330,6 @@
 				049239A824C660E3009F301E /* Record.swift in Sources */,
 				04F4F25024C84288006C2F20 /* Frame.swift in Sources */,
 				04F4F24E24C831BF006C2F20 /* FighterPNG.swift in Sources */,
-				0417B6C524C9629C00BBFF3B /* FrameCellViewModel.swift in Sources */,
 				04149A4824C7C63400F2AD6F /* RecordCellViewModel.swift in Sources */,
 				049239AF24C68146009F301E /* Constants.swift in Sources */,
 				0409E4B824C574B9000038E1 /* ContentView.swift in Sources */,

@@ -14,10 +14,10 @@ class Repository: ObservableObject {
     @Published var fighterName: String = "mario"
 
     init() {
-        loadData(fighterName: fighterName)
+        loadData()
     }
 
-    func loadData(fighterName: String) {
+    func loadData() {
         
         results = []
 

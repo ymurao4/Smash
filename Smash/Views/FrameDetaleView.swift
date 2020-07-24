@@ -16,18 +16,21 @@ struct FrameDetaleView: View {
     var body: some View {
         List {
             FighterPNG(name: frameVM.repository.fighterName)
-            ForEach(frameVM.frameCellViewModels) { data in
-                Section(header: Text(data.frame.name)) {
-                    Text("\(data.frame.frameStartup)   Frame Startup")
+            ForEach(frameVM.frameDatas) { data in
+                Section(header: Text(data.name)) {
+                    Text("\(data.frameStartup)   Frame Startup")
                         .font(.headline)
-                    Text("\(data.frame.totalFrames)   Total Frames")
+                    Text("\(data.totalFrames)   Total Frames")
                         .font(.headline)
-                    Text("\(data.frame.onShield)   On Shield")
+                    Text("\(data.onShield)   On Shield")
                         .font(.headline)
-                    Text("\(data.frame.activeOn)   Active On")
+                    Text("\(data.activeOn)   Active On")
                         .font(.headline)
                 }
             }
+        }
+        .onAppear {
+            self.frameVM.loadFrameData(fighterName: self.fighterName)
         }
         .navigationBarTitle(frameVM.repository.fighterName)
     }

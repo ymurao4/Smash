@@ -12,20 +12,26 @@ import Combine
 class FrameViewModel: ObservableObject {
 
     @Published var repository = Repository()
-    @Published var frameCellViewModels = [FrameCellViewModel]()
+    @Published var frameDatas = [Frame]()
 
     private var cancellables = Set<AnyCancellable>()
 
     init() {
         repository.$results.map { results in
             results.map { result in
-                let frame = Frame(name: result[1], frameStartup: result[2], totalFrames: result[3], onShield: result[4], activeOn: result[5])
-                return FrameCellViewModel(frame: frame)
+                guard result[0] != "" else {
+                    return Frame(name: "", frameStartup: "", totalFrames: "", onShield: "", activeOn: "")
+                }
+            return  Frame(name: result[1], frameStartup: result[2], totalFrames: result[3], onShield: result[4], activeOn: result[5])
             }
         }
-        .assign(to: \.frameCellViewModels, on: self)
+        .assign(to: \.frameDatas, on: self)
         .store(in: &cancellables)
     }
 
+    func loadFrameData(fighterName: String) {
+        repository.fighterName = fighterName
+        repository.loadData()
+    }
 
 }

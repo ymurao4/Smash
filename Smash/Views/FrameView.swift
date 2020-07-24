@@ -19,6 +19,8 @@ struct FrameView: View {
                     NavigationLink(destination: FrameDetaleView(fighterName: S.frameFighterArray[index])) {
                         FighterPNG(name: S.frameFighterArray[index])
                             .frame(width: 80, height: 80)
+                            .background(Color.orange.opacity(0.8))
+                            .cornerRadius(5)
                     }
                 }
                 .gridStyle(
@@ -31,10 +33,9 @@ struct FrameView: View {
                         showsIndicators: false
                 )
             }
-            .navigationBarTitle("フレーム表")
+            .navigationBarTitle("一覧")
         }
     }
-    
 }
 
 struct FrameView_Previews: PreviewProvider {

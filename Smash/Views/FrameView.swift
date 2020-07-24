@@ -32,8 +32,8 @@ struct FrameView: View {
                         direction: .vertical,
                         showsIndicators: false
                 )
-                    .navigationBarTitle("フレーム表")
             }
+            .navigationBarTitle("一覧")
         }
     }
 }

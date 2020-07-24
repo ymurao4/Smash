@@ -21,6 +21,7 @@ struct AddRecordView: View {
     @State var result: Bool = true
 
     private let pickerNames = ["自分", "相手", "ステージ"]
+    
     var stringResult = { (result: Bool) -> String in
         if result {
             return "win"

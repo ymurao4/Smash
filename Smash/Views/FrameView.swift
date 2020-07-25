@@ -18,7 +18,7 @@ struct FrameView: View {
                 WaterfallGrid(0..<S.frameFighterArray.count, id: \.self) { index in
                     NavigationLink(destination: FrameDetaleView(fighterName: S.frameFighterArray[index])) {
                         FighterPNG(name: S.frameFighterArray[index])
-                            .frame(width: 80, height: 80)
+                            .frame(width: 100, height: 100)
                             .background(Color.orange.opacity(0.8))
                             .cornerRadius(5)
                     }

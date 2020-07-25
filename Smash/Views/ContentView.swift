@@ -21,9 +21,9 @@ struct ContentView: View {
                 } else if self.index == 1 {
                     AnalysisView()
                 } else if self.index == 2 {
-                    FrameView()
-                } else {
                     NoteView()
+                } else {
+                    FrameView()
                 }
             }
             .sheet(isPresented: $isSheet) {
@@ -101,34 +101,36 @@ struct CustomTabs: View {
             .offset(y: -27)
             Spacer(minLength: 0)
 
-            // フレーム
+            // メモ
             Button(action: {
                 self.index = 2
             }) {
                 VStack {
-                    Image(systemName: "square.grid.2x2")
-                        .font(.system(size: 20))
-                    Text("フレ")
-                        .font(.caption)
-                }
-            }
-            .foregroundColor(Color.backgroundColor(for: colorScheme).opacity(self.index == 2 ? 1 : 0.5))
-            .padding(.top, 10)
-            Spacer(minLength: 0)
-
-            // メモ
-            Button(action: {
-                self.index = 3
-            }) {
-                VStack {
                     Image(systemName: "square.and.pencil")
                         .font(.system(size: 20))
+                        .padding(.bottom, 4)
                     Text("メモ")
                         .font(.caption)
                 }
             }
+            .foregroundColor(Color.backgroundColor(for: colorScheme).opacity(self.index == 2 ? 1 : 0.5))
+            .padding(.top, 13)
+            Spacer(minLength: 0)
+
+            // フレーム
+            Button(action: {
+                self.index = 3
+            }) {
+                VStack {
+                    Image(systemName: "square.grid.2x2")
+                        .font(.system(size: 20))
+                        .padding(.bottom, 4)
+                    Text("フレ")
+                        .font(.caption)
+                }
+            }
             .foregroundColor(Color.backgroundColor(for: colorScheme).opacity(self.index == 3 ? 1 : 0.5))
-            .padding(.top, 10)
+            .padding(.top, 15)
         }
         .padding(.horizontal, 35)
         .padding(.top, 35)

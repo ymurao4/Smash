@@ -7,4 +7,5 @@ target 'Smash' do
 
   # Pods for Smash
   pod 'WaterfallGrid'
+  pod 'IQKeyboardManagerSwift'
 end

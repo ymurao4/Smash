@@ -16,9 +16,8 @@ struct NoteDetailView: View {
     var body: some View {
         VStack {
             MultilineTextField(text: $text)
-                .frame(width: UIScreen.main.bounds.width * 0.95, height: UIScreen.main.bounds.height)
         }
-        .navigationBarTitle(fighterName)
+        .navigationBarTitle(Text(fighterName), displayMode: .inline)
     }
 }
 
@@ -65,6 +64,7 @@ struct MultilineTextField: UIViewRepresentable {
         func textViewDidEndEditing(_ textView: UITextView) {
 
         }
+
 
     }
 

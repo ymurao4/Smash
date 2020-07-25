@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Repository: ObservableObject {
+class FrameRepository: ObservableObject {
 
     @Published var results: [[String]] = []
     var fighterName: String = "mario"

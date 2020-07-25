@@ -12,14 +12,13 @@ struct Note: Identifiable {
     var id: String = UUID().uuidString
     var text: String
     var fighter: String
-//    var categorization: String
 }
 
 
 #if DEBUG
 let testNotes = [
-    Note(text: "", fighter: "mario"),
-    Note(text: "", fighter: "wario"),
+    Note(text: "掴み警戒", fighter: "mario"),
+    Note(text: "ドキドキ空後チャレンジ", fighter: "wario"),
     Note(text: "", fighter: "lucario"),
     Note(text: "", fighter: "minmin"),
     Note(text: "", fighter: "joker"),

@@ -8,4 +8,8 @@ target 'Smash' do
   # Pods for Smash
   pod 'WaterfallGrid'
   pod 'IQKeyboardManagerSwift'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Auth'
+  pod 'FirebaseFirestoreSwift'
 end

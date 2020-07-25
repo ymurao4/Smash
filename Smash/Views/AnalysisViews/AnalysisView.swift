@@ -32,24 +32,14 @@ struct AnalysisView: View {
                 }
                 .font(.subheadline)
                 .padding(EdgeInsets(top: 10, leading: 10, bottom: 0, trailing: 10))
-                List {
-                    ForEach(0..<S.fightersArray.count) { index in
-                        HStack() {
-                            FighterPDF(name: S.fightersArray[index][1])
-                                .frame(width: 25, height: 25)
-                                .frame(maxWidth: .infinity)
-                            Text("5")
-                                .frame(maxWidth: .infinity)
-                            Text("3")
-                                .frame(maxWidth: .infinity)
-                            Text("2")
-                                .frame(maxWidth: .infinity)
-                            Text("60.0%")
-                                .lineLimit(1)
-                                .minimumScaleFactor(0.2)
-                                .frame(maxWidth: .infinity)
-                        }
-                    }
+                if selectedIndex == 0 {
+                    AnalysisMainFighterView()
+                } else if selectedIndex == 1 {
+                    AnalysisMyFighterView()
+                } else if selectedIndex == 2 {
+                    AnalysisOpponentFighterView()
+                } else if selectedIndex == 3 {
+                    AnalysisStageView()
                 }
             }
             .padding()

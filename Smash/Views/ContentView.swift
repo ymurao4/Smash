@@ -125,7 +125,7 @@ struct CustomTabs: View {
                     Image(systemName: "square.grid.2x2")
                         .font(.system(size: 20))
                         .padding(.bottom, 4)
-                    Text("フレ")
+                    Text("情報")
                         .font(.caption)
                 }
             }

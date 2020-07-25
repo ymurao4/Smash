@@ -11,7 +11,7 @@ import Foundation
 class Repository: ObservableObject {
 
     @Published var results: [[String]] = []
-    @Published var fighterName: String = "mario"
+    var fighterName: String = "mario"
 
     init() {
         loadData()

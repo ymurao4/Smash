@@ -11,7 +11,7 @@ import SwiftUI
 struct FrameDetaleView: View {
 
     @ObservedObject var frameVM = FrameViewModel()
-    @State var fighterName: String
+
 
     var japName = { (name: String) -> String in
         switch name {
@@ -186,6 +186,10 @@ struct FrameDetaleView: View {
         }
     }
 
+    init(fighterName: String) {
+        frameVM.loadFrameData(fighterName: fighterName)
+    }
+
     var body: some View {
         List {
             FighterPNG(name: frameVM.repository.fighterName)
@@ -211,10 +215,7 @@ struct FrameDetaleView: View {
                 .font(.headline)
             }
         }
-        .onAppear {
-            self.frameVM.loadFrameData(fighterName: self.fighterName)
-        }
-        .navigationBarTitle(japName(fighterName))
+        .navigationBarTitle(japName(self.frameVM.repository.fighterName))
     }
 }
 

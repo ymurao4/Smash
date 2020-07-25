@@ -9,8 +9,25 @@
 import SwiftUI
 
 struct AnalysisView: View {
+
+    @State var selectedIndex: Int = 0
+    private let pickerName: [String] = ["メイン", "自分", "相手", "ステージ"]
+
     var body: some View {
-        Color.yellow
+        NavigationView {
+            VStack {
+                Picker("", selection: $selectedIndex) {
+                    ForEach(0..<self.pickerName.count) { index in
+                        Text(self.pickerName[index])
+                            .tag(index)
+                    }
+                }
+                .pickerStyle(SegmentedPickerStyle())
+                
+            }
+            .padding()
+            .navigationBarTitle("分析")
+        }
     }
 }
 

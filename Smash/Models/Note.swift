@@ -11,13 +11,20 @@ import Foundation
 struct Note: Identifiable {
     var id: String = UUID().uuidString
     var text: String
-    var fighters: String
+    var fighter: String
+//    var categorization: String
 }
 
 
 #if DEBUG
 let testNotes = [
-    Note(text: "", fighters: "mario"),
-    Note(text: "", fighters: "wario")
+    Note(text: "", fighter: "mario"),
+    Note(text: "", fighter: "wario"),
+    Note(text: "", fighter: "lucario"),
+    Note(text: "", fighter: "minmin"),
+    Note(text: "", fighter: "joker"),
+    Note(text: "", fighter: "kirby"),
+    Note(text: "", fighter: "sonic"),
+    Note(text: "", fighter: "samus")
 ]
 #endif

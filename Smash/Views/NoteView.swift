@@ -11,7 +11,8 @@ import SwiftUI
 struct NoteView: View {
 
     @State var selectedIndex: Int = 0
-    private let pickerName: [String] = ["メモ", "キャラ対メモ"]
+    private let pickerName: [String] = ["キャラ対メモ", "その他"]
+    let test = testNotes
 
     var body: some View {
         NavigationView {
@@ -23,21 +24,13 @@ struct NoteView: View {
                     }
                 }
                 .pickerStyle(SegmentedPickerStyle())
-                List {
-                    ForEach(0..<S.fightersArray.count) { index in
-                        NavigationLink(destination: NoteDetailView(fighterName: S.fightersArray[index][0])) {
-                            HStack {
-                                FighterPDF(name: S.fightersArray[index][1])
-                                    .frame(width: 25, height: 25)
-                                    .padding(.trailing, 5)
-                                Text(S.fightersArray[index][0])
-                            }
-                        }
-                    }
-                    Text("")
+                .padding(.horizontal, 20)
+                if selectedIndex == 0 {
+                    FighterMeasuresNoteView()
+                } else {
+                    OtherNoteView(test: test)
                 }
             }
-            .padding(.horizontal, 20)
             .navigationBarTitle("メモ")
         }
     }
@@ -46,5 +39,53 @@ struct NoteView: View {
 struct NoteView_Previews: PreviewProvider {
     static var previews: some View {
         NoteView()
+    }
+}
+
+
+struct FighterMeasuresNoteView: View {
+    var body: some View {
+        List {
+            ForEach(0..<S.fightersArray.count) { index in
+                NavigationLink(destination: NoteDetailView(fighterName: S.fightersArray[index][0])) {
+                    HStack {
+                        FighterPDF(name: S.fightersArray[index][1])
+                            .frame(width: 25, height: 25)
+                            .padding(.trailing, 5)
+                        Text(S.fightersArray[index][0])
+                    }
+                }
+            }
+            Text("")
+        }
+    }
+}
+
+
+struct OtherNoteView: View {
+
+    let test: [Note]
+
+    var body: some View {
+        VStack(alignment: .leading) {
+            Button(action: {}) {
+                HStack {
+                    Image(systemName: "plus.circle.fill")
+                        .resizable()
+                        .frame(width: 20, height: 20)
+                    Text("メモを追加")
+                }
+            }
+            .padding()
+            .padding(.leading, 5)
+            List {
+                ForEach(test) { t in
+                    HStack {
+                        Text(t.text)
+                        FighterPDF(name: t.fighter).frame(width: 25, height: 25)
+                    }
+                }
+            }
+        }
     }
 }

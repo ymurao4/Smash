@@ -11,7 +11,7 @@ import Combine
 
 class FrameViewModel: ObservableObject {
 
-    @Published var repository = Repository()
+    @Published var repository = FrameRepository()
     @Published var frameDatas = [Frame]()
 
     private var cancellables = Set<AnyCancellable>()

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 import IQKeyboardManagerSwift
 
 @UIApplicationMain
@@ -17,6 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         IQKeyboardManager.shared.enable = true
         IQKeyboardManager.shared.keyboardDistanceFromTextField = 15
+
+        FirebaseApp.configure()
 
         return true
     }

@@ -26,7 +26,7 @@ struct FrameView: View {
                 .gridStyle(
                     columns: 3,
                     spacing: 20,
-                    padding: EdgeInsets(top: 10, leading: 10, bottom: 40, trailing: 10)
+                    padding: EdgeInsets(top: 10, leading: 10, bottom: 50, trailing: 10)
                 )
                     .scrollOptions(
                         direction: .vertical,

@@ -24,6 +24,7 @@ struct AnalysisView: View {
                     }
                 }
                 .pickerStyle(SegmentedPickerStyle())
+                .padding(.horizontal, 20)
                 HStack {
                     ForEach(sortedName, id: \.self) { name in
                         Text(name)
@@ -42,7 +43,6 @@ struct AnalysisView: View {
                     AnalysisStageView()
                 }
             }
-            .padding()
             .navigationBarTitle("分析")
         }
     }

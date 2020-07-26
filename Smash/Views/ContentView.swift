@@ -47,53 +47,81 @@ struct CustomTabs: View {
 
     var body: some View {
 
-        HStack(alignment: .lastTextBaseline) {
+        HStack(alignment: .top) {
             // 記録
-            Button(action: {
-                self.index = 0
-            }) {
-                Image("battle")
-                    .renderingMode(.template)
+            VStack(spacing: 10) {
+                EdgeBorder(width: 6, edge: .top)
+                    .frame(width: 40, height: 3)
+                    .cornerRadius(1)
+                    .foregroundColor(index == 0 ? Color.gray : Color.reverseBackgroundColor(for: colorScheme))
+                Button(action: {
+                    self.index = 0
+                }) {
+                    Image("battle")
+                        .renderingMode(.template)
+                }
+                .foregroundColor(index == 0 ? Color.gray : Color.backgroundColor(for: colorScheme))
             }
-            .foregroundColor(Color.backgroundColor(for: colorScheme).opacity(self.index == 0 ? 1 : 0.45))
+            .padding(.top, -13)
             Spacer(minLength: 0)
 
             // 分析
-            Button(action: {
-                self.index = 1
-            }) {
-                Image("analysis")
-                    .renderingMode(.template)
+            VStack(spacing: 10) {
+                EdgeBorder(width: 6, edge: .top)
+                    .frame(width: 40, height: 3)
+                    .cornerRadius(1)
+                    .foregroundColor(index == 1 ? Color.gray : Color.reverseBackgroundColor(for: colorScheme))
+                Button(action: {
+                    self.index = 1
+                }) {
+                    Image("analysis")
+                        .renderingMode(.template)
+                }
+                .foregroundColor(index == 1 ? Color.gray : Color.backgroundColor(for: colorScheme))
             }
-            .foregroundColor(Color.backgroundColor(for: colorScheme).opacity(self.index == 1 ? 1 : 0.45))
+            .padding(.top, -13)
             Spacer(minLength: 0)
 
             // メモ
-            Button(action: {
-                self.index = 2
-            }) {
-                Image(systemName: "square.and.pencil")
-                    .font(.system(size: 20))
-                    .padding(.bottom, 8)
+            VStack(spacing: 10) {
+                EdgeBorder(width: 6, edge: .top)
+                    .frame(width: 40, height: 3)
+                    .cornerRadius(1)
+                    .foregroundColor(index == 2 ? Color.gray : Color.reverseBackgroundColor(for: colorScheme))
+                Button(action: {
+                    self.index = 2
+                }) {
+                    Image(systemName: "square.and.pencil")
+                        .font(.system(size: 20))
+                        .padding(.bottom, 8)
+                }
+                .foregroundColor(index == 2 ? Color.gray : Color.backgroundColor(for: colorScheme))
             }
-            .foregroundColor(Color.backgroundColor(for: colorScheme).opacity(self.index == 2 ? 1 : 0.45))
+            .padding(.top, -13)
             Spacer(minLength: 0)
 
             // フレーム
-            Button(action: {
-                self.index = 3
-            }) {
-                Image(systemName: "line.horizontal.3")
-                    .font(.system(size: 20))
-                    .padding(.bottom, 8)
+            VStack(spacing: 10) {
+                EdgeBorder(width: 6, edge: .top)
+                    .frame(width: 40, height: 3)
+                    .cornerRadius(1)
+                    .foregroundColor(index == 3 ? Color.gray : Color.reverseBackgroundColor(for: colorScheme))
+                Button(action: {
+                    self.index = 3
+                }) {
+                    Image(systemName: "line.horizontal.3")
+                        .font(.system(size: 20))
+                        .padding(.bottom, 8)
+                }
+                .foregroundColor(index == 3 ? Color.gray : Color.backgroundColor(for: colorScheme))
             }
-            .foregroundColor(Color.backgroundColor(for: colorScheme).opacity(self.index == 3 ? 1 : 0.45))
+            .padding(.top, -13)
         }
         .padding(EdgeInsets(top: 15, leading: 35, bottom: 10, trailing: 35))
         .frame(width: UIScreen.main.bounds.width * 0.95)
         .border(Color(UIColor.tertiarySystemGroupedBackground), width: 2)
         .cornerRadius(5)
-        .background(Color.tabBackgroundColor(for: colorScheme))
+        .background(Color.reverseBackgroundColor(for: colorScheme))
         .shadow(color: Color(UIColor.systemGray3), radius: 8, x: 0, y: 12)
     }
 
@@ -111,7 +139,7 @@ extension Color {
         }
     }
 
-    static func tabBackgroundColor(for colorScheme: ColorScheme) -> Color {
+    static func reverseBackgroundColor(for colorScheme: ColorScheme) -> Color {
         if colorScheme == .dark {
             return black
         } else {

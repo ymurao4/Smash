@@ -216,8 +216,8 @@
 		043F629A24CC113D0005B13C /* FrameViews */ = {
 			isa = PBXGroup;
 			children = (
-				0417B6C824C9A71400BBFF3B /* FrameDetaleView.swift */,
 				049239B424C6A3AF009F301E /* FrameView.swift */,
+				0417B6C824C9A71400BBFF3B /* FrameDetaleView.swift */,
 			);
 			path = FrameViews;
 			sourceTree = "<group>";

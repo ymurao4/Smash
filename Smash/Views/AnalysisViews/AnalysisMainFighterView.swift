@@ -52,6 +52,7 @@ struct AnalysisMainFighterView: View {
                     }
                 }
             }
+            Text("")
         }
     }
 }

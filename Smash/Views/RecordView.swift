@@ -4,13 +4,13 @@
 //
 //  Created by 村尾慶伸 on 2020/07/20.
 //  Copyright © 2020 村尾慶伸. All rights reserved.
-//
 
 import SwiftUI
 
 struct RecordView: View {
 
     @ObservedObject var recordListVM = RecordListViewMdoel()
+    @State var isSheet: Bool = false
 
     var body: some View {
         NavigationView{
@@ -20,6 +20,18 @@ struct RecordView: View {
                 }
             }
             .navigationBarTitle("対戦記録")
+            .navigationBarItems(trailing:
+                Button(action: {
+                    self.isSheet.toggle()
+                }) {
+                    Image(systemName: "plus")
+                        .resizable()
+                        .frame(width: 20, height: 20)
+                }
+            )
+        }
+        .sheet(isPresented: $isSheet) {
+            AddRecordView()
         }
     }
 }

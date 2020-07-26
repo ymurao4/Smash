@@ -11,28 +11,20 @@ import SwiftUI
 struct ContentView: View {
 
     @State var index = 0
-    @State var isSheet: Bool = false
 
     var body: some View {
-        VStack(spacing: 0) {
-            ZStack {
-                if self.index == 0 {
-                    RecordView()
-                } else if self.index == 1 {
-                    AnalysisView()
-                } else if self.index == 2 {
-                    NoteView()
-                } else {
-                    FrameView()
-                }
+        ZStack(alignment: .bottom) {
+            if self.index == 0 {
+                RecordView()
+            } else if self.index == 1 {
+                AnalysisView()
+            } else if self.index == 2 {
+                NoteView()
+            } else {
+                FrameView()
             }
-            .sheet(isPresented: $isSheet) {
-                AddRecordView()
-            }
-            .padding(.bottom, -35)
-            CustomTabs(index: $index, isSheet: $isSheet)
+            CustomTabs(index: $index)
         }
-        .background(Color(UIColor.tertiarySystemGroupedBackground).edgesIgnoringSafeArea(.bottom))
     }
 }
 
@@ -52,105 +44,57 @@ struct CustomTabs: View {
 
     @Environment (\.colorScheme) var colorScheme:ColorScheme
     @Binding var index: Int
-    @Binding var isSheet: Bool
 
     var body: some View {
 
-        HStack {
+        HStack(alignment: .lastTextBaseline) {
             // 記録
             Button(action: {
                 self.index = 0
             }) {
-                VStack {
-                    Image("battle")
-                        .renderingMode(.template)
-                    Text("記録")
-                        .font(.caption)
-                }
+                Image("battle")
+                    .renderingMode(.template)
             }
-            .foregroundColor(Color.backgroundColor(for: colorScheme).opacity(self.index == 0 ? 1 : 0.5))
-            .padding(.top, 10)
+            .foregroundColor(Color.backgroundColor(for: colorScheme).opacity(self.index == 0 ? 1 : 0.45))
             Spacer(minLength: 0)
 
             // 分析
             Button(action: {
                 self.index = 1
             }) {
-                VStack {
-                    Image("analysis")
-                        .renderingMode(.template)
-                    Text("分析")
-                        .font(.caption)
-                }
+                Image("analysis")
+                    .renderingMode(.template)
             }
-            .foregroundColor(Color.backgroundColor(for: colorScheme).opacity(self.index == 1 ? 1 : 0.5))
-            .padding(.top, 10)
-            Spacer(minLength: 0)
-
-            // 追加
-            Button(action: {
-                self.isSheet.toggle()
-            }) {
-                Image(systemName: "plus")
-                    .font(.system(size: 25))
-                    .foregroundColor(.white)
-                    .frame(width: 54, height: 54)
-                    .background(Color.accentColor)
-                    .cornerRadius(27)
-            }
-            .offset(y: -27)
+            .foregroundColor(Color.backgroundColor(for: colorScheme).opacity(self.index == 1 ? 1 : 0.45))
             Spacer(minLength: 0)
 
             // メモ
             Button(action: {
                 self.index = 2
             }) {
-                VStack {
-                    Image(systemName: "square.and.pencil")
-                        .font(.system(size: 20))
-                        .padding(.bottom, 4)
-                    Text("メモ")
-                        .font(.caption)
-                }
+                Image(systemName: "square.and.pencil")
+                    .font(.system(size: 20))
+                    .padding(.bottom, 8)
             }
-            .foregroundColor(Color.backgroundColor(for: colorScheme).opacity(self.index == 2 ? 1 : 0.5))
-            .padding(.top, 13)
+            .foregroundColor(Color.backgroundColor(for: colorScheme).opacity(self.index == 2 ? 1 : 0.45))
             Spacer(minLength: 0)
 
             // フレーム
             Button(action: {
                 self.index = 3
             }) {
-                VStack {
-                    Image(systemName: "square.grid.2x2")
-                        .font(.system(size: 20))
-                        .padding(.bottom, 4)
-                    Text("情報")
-                        .font(.caption)
-                }
+                Image(systemName: "line.horizontal.3")
+                    .font(.system(size: 20))
+                    .padding(.bottom, 8)
             }
-            .foregroundColor(Color.backgroundColor(for: colorScheme).opacity(self.index == 3 ? 1 : 0.5))
-            .padding(.top, 15)
+            .foregroundColor(Color.backgroundColor(for: colorScheme).opacity(self.index == 3 ? 1 : 0.45))
         }
-        .padding(.horizontal, 35)
-        .padding(.top, 35)
-        .background(Color(UIColor.tertiarySystemGroupedBackground))
-        .clipShape(CShape())
-    }
-
-}
-
-struct CShape: Shape {
-
-    func path(in rect: CGRect) -> Path {
-        return Path { path in
-            path.move(to: CGPoint(x: 0, y: 35))
-            path.addLine(to: CGPoint(x: 0, y: rect.height))
-            path.addLine(to: CGPoint(x: rect.width, y: rect.height))
-            path.addLine(to: CGPoint(x: rect.width, y: 35))
-
-            path.addArc(center: CGPoint(x: (rect.width / 2) + 2, y: 35), radius: 35, startAngle: .zero, endAngle: .init(degrees: 180), clockwise: true)
-        }
+        .padding(EdgeInsets(top: 15, leading: 35, bottom: 10, trailing: 35))
+        .frame(width: UIScreen.main.bounds.width * 0.95)
+        .border(Color(UIColor.tertiarySystemGroupedBackground), width: 2)
+        .cornerRadius(5)
+        .background(Color.tabBackgroundColor(for: colorScheme))
+        .shadow(color: Color(UIColor.systemGray3), radius: 8, x: 0, y: 12)
     }
 
 }
@@ -164,6 +108,14 @@ extension Color {
             return white
         } else {
             return black
+        }
+    }
+
+    static func tabBackgroundColor(for colorScheme: ColorScheme) -> Color {
+        if colorScheme == .dark {
+            return black
+        } else {
+            return white
         }
     }
 }

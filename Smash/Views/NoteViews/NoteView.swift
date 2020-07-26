@@ -26,7 +26,6 @@ struct NoteView: View {
                             }
                         }
                     }
-                    Text("")
                 }
             }
             .navigationBarTitle("メモ")

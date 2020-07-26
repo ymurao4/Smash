@@ -18,7 +18,6 @@ struct RecordView: View {
                 ForEach(recordListVM.recordCellViewModels) { recordCellVM in
                     ResultCell(recordCellVM: recordCellVM)
                 }
-                Text("")
             }
             .navigationBarTitle("対戦記録")
         }

@@ -165,8 +165,8 @@
 				049239B624C6C0A5009F301E /* AddRecordView.swift */,
 				0409E4CB24C57582000038E1 /* RecordView.swift */,
 				043F629924CC112B0005B13C /* AnalysisViews */,
-				043F629A24CC113D0005B13C /* FrameViews */,
 				043F629B24CC114D0005B13C /* NoteViews */,
+				043F629A24CC113D0005B13C /* FrameViews */,
 			);
 			path = Views;
 			sourceTree = "<group>";

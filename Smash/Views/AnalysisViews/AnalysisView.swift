@@ -42,7 +42,6 @@ struct AnalysisView: View {
                     AnalysisStageView()
                 }
             }
-            .padding()
             .navigationBarTitle("分析")
         }
     }

@@ -31,17 +31,17 @@ struct FrameView: View {
                 .gridStyle(
                     columns: 3,
                     spacing: 20,
-                    padding: EdgeInsets(top: 10, leading: 10, bottom: 50, trailing: 10)
+                    padding: EdgeInsets(top: 10, leading: 10, bottom: 60, trailing: 10)
                 )
                     .scrollOptions(
                         direction: .vertical,
                         showsIndicators: false
                 )
             }
+            .navigationBarTitle("一覧")
             .onAppear {
                 self.isTabbarHidden = false
             }
-            .navigationBarTitle("一覧")
         }
     }
 }

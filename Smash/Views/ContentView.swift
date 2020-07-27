@@ -21,7 +21,7 @@ struct ContentView: View {
             } else if self.index == 1 {
                 AnalysisView()
             } else if self.index == 2 {
-                NoteView()
+                NoteView(isTabbarHidden: $isTabbarHidden)
             } else {
                 FrameView(isTabbarHidden: $isTabbarHidden)
             }

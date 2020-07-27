@@ -229,6 +229,7 @@ struct FrameDetaleView: View {
                 .edgesIgnoringSafeArea(.bottom)
             }
         }
+        .navigationBarBackButtonHidden(isSheet)
         .navigationBarTitle(isSheet ? Text("") : Text(japName(self.frameVM.repository.fighterName)), displayMode: isSheet ? .inline : .automatic)
         .navigationBarItems(
             leading:
@@ -252,7 +253,6 @@ struct FrameDetaleView: View {
                 }
             }
         )
-        .navigationBarBackButtonHidden(isSheet)
     }
 }
 

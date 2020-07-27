@@ -12,6 +12,7 @@ struct NoteDetailView: View {
 
     @State var fighterName: String
     @State var text: String = ""
+    @Binding var isTabbarHidden: Bool
 
     var body: some View {
         VStack {
@@ -19,6 +20,9 @@ struct NoteDetailView: View {
         }
         .padding(.horizontal, 10)
         .navigationBarTitle(Text(fighterName), displayMode: .inline)
+        .onAppear {
+            self.isTabbarHidden = true
+        }
     }
 }
 

@@ -20,7 +20,7 @@ let testNotes = [
     Note(text: "掴み警戒", fighter: "mario"),
     Note(text: "ドキドキ空後チャレンジ", fighter: "wario"),
     Note(text: "", fighter: "lucario"),
-    Note(text: "", fighter: "minmin"),
+    Note(text: "大乱闘強い\njfos", fighter: "minmin"),
     Note(text: "", fighter: "joker"),
     Note(text: "", fighter: "kirby"),
     Note(text: "", fighter: "sonic"),

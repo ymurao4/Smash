@@ -10,15 +10,28 @@ import SwiftUI
 
 struct NoteDetailView: View {
 
-    @State var fighterName: String
+    @Environment(\.presentationMode) var presentatinoMode
+    @ObservedObject var noteVM = NoteViewModel()
     @State var text: String = ""
+    @State var fighterName: String = ""
+    @Binding var isTabbarHidden: Bool
 
     var body: some View {
         VStack {
             MultilineTextField(text: $text)
         }
         .padding(.horizontal, 10)
-        .navigationBarTitle(Text(fighterName), displayMode: .inline)
+        .navigationBarTitle(Text(""), displayMode: .inline)
+        .navigationBarItems(trailing:
+            Button(action: {
+                self.noteVM.addNote(note: Note(text: self.text, fighterName: "wario"))
+                self.presentatinoMode.wrappedValue.dismiss()
+            }){
+                Text("Done")
+        })
+            .onAppear {
+                self.isTabbarHidden = true
+        }
     }
 }
 

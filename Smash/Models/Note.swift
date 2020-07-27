@@ -7,23 +7,27 @@
 //
 
 import Foundation
+import FirebaseFirestore
+import FirebaseFirestoreSwift
 
-struct Note: Identifiable {
-    var id: String = UUID().uuidString
+struct Note: Codable, Identifiable {
+    @DocumentID var id: String?
     var text: String
-    var fighter: String
+    var fighterName: String
+    @ServerTimestamp var createdTime: Timestamp?
+    var userId: String?
 }
 
 
 #if DEBUG
 let testNotes = [
-    Note(text: "掴み警戒", fighter: "mario"),
-    Note(text: "ドキドキ空後チャレンジ", fighter: "wario"),
-    Note(text: "", fighter: "lucario"),
-    Note(text: "", fighter: "minmin"),
-    Note(text: "", fighter: "joker"),
-    Note(text: "", fighter: "kirby"),
-    Note(text: "", fighter: "sonic"),
-    Note(text: "", fighter: "samus")
+    Note(text: "掴み警戒", fighterName: "mario"),
+    Note(text: "ドキドキ空後チャレンジ", fighterName: "wario"),
+    Note(text: "", fighterName: "lucario"),
+    Note(text: "大乱闘強い\njfos", fighterName: "minmin"),
+    Note(text: "", fighterName: "joker"),
+    Note(text: "", fighterName: "kirby"),
+    Note(text: "", fighterName: "sonic"),
+    Note(text: "", fighterName: "samus")
 ]
 #endif

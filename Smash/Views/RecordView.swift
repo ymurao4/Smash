@@ -11,12 +11,31 @@ struct RecordView: View {
 
     @ObservedObject var recordListVM = RecordListViewMdoel()
     @State var isSheet: Bool = false
+    @State var isAlert: Bool = false
+    @State var recordID: String?
+
+    func showDeleteAlert(index: IndexSet) {
+        isAlert.toggle()
+        self.recordID = self.recordListVM.recordCellViewModels[index.first!].id
+    }
 
     var body: some View {
         NavigationView{
             List{
                 ForEach(recordListVM.recordCellViewModels) { recordCellVM in
                     ResultCell(recordCellVM: recordCellVM)
+                }
+                .onDelete(perform: showDeleteAlert)
+                .alert(isPresented: $isAlert) {
+                    Alert(
+                        title: Text("本当に削除しますか？"),
+                        message: Text("この対戦記録を削除します。"),
+                        primaryButton: .default(Text("削除"),
+                                                action: {
+                                                    self.recordListVM.deleteRecord(recordID: self.recordID)
+                        }),
+                        secondaryButton: .cancel(Text("キャンセル"))
+                    )
                 }
                 Text("")
             }

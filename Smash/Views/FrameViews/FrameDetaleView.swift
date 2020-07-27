@@ -10,10 +10,13 @@ import SwiftUI
 
 struct FrameDetaleView: View {
 
+    @Environment (\.colorScheme) var colorScheme:ColorScheme
+
     @ObservedObject var frameVM = FrameViewModel()
 
+    @State var isSheet: Bool = false
 
-    var japName = { (name: String) -> String in
+    private var japName = { (name: String) -> String in
         switch name {
         case "mario":
             return "マリオ"
@@ -191,31 +194,65 @@ struct FrameDetaleView: View {
     }
 
     var body: some View {
-        List {
-            FighterPNG(name: frameVM.repository.fighterName)
-            ForEach(frameVM.frameDatas) { data in
-                Section(header: Text(data.name)) {
-                    HStack {
-                        Text(data.frameStartup)
-                        Text("Frame Startup")
+        ZStack {
+            List {
+                FighterPNG(name: frameVM.repository.fighterName)
+                ForEach(frameVM.frameDatas) { data in
+                    Section(header: Text(data.name)) {
+                        HStack {
+                            Text(data.frameStartup)
+                            Text("Frame Startup")
+                        }
+                        HStack {
+                            Text(data.totalFrames)
+                            Text("Total Frames")
+                        }
+                        HStack {
+                            Text(data.onShield)
+                            Text("On Shield")
+                        }
+                        HStack {
+                            Text(data.activeOn)
+                            Text("Active On")
+                        }
                     }
-                    HStack {
-                        Text(data.totalFrames)
-                        Text("Total Frames")
-                    }
-                    HStack {
-                        Text(data.onShield)
-                        Text("On Shield")
-                    }
-                    HStack {
-                        Text(data.activeOn)
-                        Text("Active On")
-                    }
+                    .font(.headline)
                 }
-                .font(.headline)
+            }
+            if isSheet {
+                ZStack(alignment: .topLeading) {
+                    WebView(fighterName: self.frameVM.repository.fighterName)
+                }
+                .zIndex(1)
+                .transition(.move(edge: .bottom))
+                .animation(.default)
+                .edgesIgnoringSafeArea(.bottom)
             }
         }
-        .navigationBarTitle(japName(self.frameVM.repository.fighterName))
+        .navigationBarTitle(isSheet ? Text("") : Text(japName(self.frameVM.repository.fighterName)), displayMode: isSheet ? .inline : .automatic)
+        .navigationBarItems(
+            leading:
+            Button(action: {
+                self.isSheet.toggle()
+            }) {
+                if isSheet {
+                    Image(systemName: "multiply")
+                        .resizable()
+                        .frame(width: 20, height: 20)
+                }
+            },
+            trailing:
+            Button(action: {
+                self.isSheet.toggle()
+            }) {
+                if !isSheet {
+                    Image(systemName: "link")
+                        .resizable()
+                        .frame(width: 20, height: 20)
+                }
+            }
+        )
+        .navigationBarBackButtonHidden(isSheet)
     }
 }
 

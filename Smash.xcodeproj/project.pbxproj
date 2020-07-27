@@ -24,6 +24,7 @@
 		043F629F24CC119E0005B13C /* AnalysisMyFighterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F629E24CC119E0005B13C /* AnalysisMyFighterView.swift */; };
 		043F62A124CC11B40005B13C /* AnalysisOpponentFighterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F62A024CC11B40005B13C /* AnalysisOpponentFighterView.swift */; };
 		043F62A324CC11BE0005B13C /* AnalysisStageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F62A224CC11BE0005B13C /* AnalysisStageView.swift */; };
+		0447676524CEB9380019B5E9 /* NoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0447676424CEB9380019B5E9 /* NoteRepository.swift */; };
 		04568CFA24CBC14900FE1841 /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04568CF924CBC14900FE1841 /* NoteDetailView.swift */; };
 		04568CFC24CBEA3C00FE1841 /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04568CFB24CBEA3C00FE1841 /* MultilineTextField.swift */; };
 		04568CFE24CBF19C00FE1841 /* Analysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04568CFD24CBF19C00FE1841 /* Analysis.swift */; };
@@ -68,6 +69,7 @@
 		043F629E24CC119E0005B13C /* AnalysisMyFighterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisMyFighterView.swift; sourceTree = "<group>"; };
 		043F62A024CC11B40005B13C /* AnalysisOpponentFighterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisOpponentFighterView.swift; sourceTree = "<group>"; };
 		043F62A224CC11BE0005B13C /* AnalysisStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisStageView.swift; sourceTree = "<group>"; };
+		0447676424CEB9380019B5E9 /* NoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteRepository.swift; sourceTree = "<group>"; };
 		04568CF924CBC14900FE1841 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
 		04568CFB24CBEA3C00FE1841 /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
 		04568CFD24CBF19C00FE1841 /* Analysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analysis.swift; sourceTree = "<group>"; };
@@ -156,8 +158,8 @@
 			children = (
 				049239A724C660E3009F301E /* Record.swift */,
 				04568CFD24CBF19C00FE1841 /* Analysis.swift */,
-				04F4F24F24C84288006C2F20 /* Frame.swift */,
 				046B734224CBB0880093B454 /* Note.swift */,
+				04F4F24F24C84288006C2F20 /* Frame.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -200,6 +202,7 @@
 			children = (
 				0417B6C624C9689B00BBFF3B /* FrameRepository.swift */,
 				0491566024CE9BA8003D8E32 /* RecordRepository.swift */,
+				0447676424CEB9380019B5E9 /* NoteRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0409E4B424C574B9000038E1 /* AppDelegate.swift in Sources */,
+				0447676524CEB9380019B5E9 /* NoteRepository.swift in Sources */,
 				04A2F9F724CE4813007A5316 /* WebView.swift in Sources */,
 				0409E4CE24C57588000038E1 /* NoteView.swift in Sources */,
 				04AE235924CC0384005C8100 /* NoteViewModel.swift in Sources */,

@@ -10,24 +10,33 @@ import SwiftUI
 
 struct NoteView: View {
 
-    let test = testNotes
-
+    @ObservedObject var noteVM = NoteViewModel()
     @Binding var isTabbarHidden: Bool
+    @State var noteID: String?
+
+    func delete(index: IndexSet) {
+        self.noteID = self.noteVM.noteCellViewModels[index.first!].id
+        self.noteVM.deleteNote(noteID: self.noteID)
+    }
 
     var body: some View {
         NavigationView {
-            VStack {
+            VStack(alignment: .leading) {
+                NavigationLink(destination: NoteDetailView(isTabbarHidden: $isTabbarHidden)){
+                    HStack {
+                        Image(systemName: "plus.circle.fill")
+                            .resizable()
+                            .frame(width: 20, height: 20)
+                        Text("メモを追加")
+                    }
+                    .padding()
+                }
                 List {
-                    ForEach(test) { note in
-                        NavigationLink(destination: NoteDetailView(fighterName: note.fighter, text: note.text, isTabbarHidden: self.$isTabbarHidden)) {
-                            HStack {
-                                FighterPDF(name: note.fighter)
-                                    .frame(width: 25, height: 25)
-                                    .padding(.trailing, 5)
-                                Text(note.text)
-                                    .lineLimit(1)
-                            }
-                        }
+                    ForEach(noteVM.noteCellViewModels) { noteCellVM in
+                        NoteCell(noteCellVM: noteCellVM, isTabbarHidden: self.$isTabbarHidden)
+                    }
+                    .onDelete { index in
+                        self.delete(index: index)
                     }
                     Text("")
                 }
@@ -41,14 +50,25 @@ struct NoteView: View {
     }
 }
 
-//struct NoteView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        NoteView()
-//    }
-//}
 
+struct NoteCell: View {
 
+    @ObservedObject var noteCellVM: NoteCellViewMdoel
+    @Binding var isTabbarHidden: Bool
 
+    var body: some View {
+        NavigationLink(destination: NoteDetailView(text: noteCellVM.note.text, isTabbarHidden: self.$isTabbarHidden)) {
+            HStack {
+                FighterPDF(name: noteCellVM.note.fighterName)
+                    .frame(width: 25, height: 25)
+                    .padding(.trailing, 5)
+                Text(noteCellVM.note.text)
+                    .lineLimit(1)
+            }
+        }
+    }
+
+}
 
 
 

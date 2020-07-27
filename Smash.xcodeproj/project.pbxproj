@@ -28,6 +28,7 @@
 		04568CFC24CBEA3C00FE1841 /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04568CFB24CBEA3C00FE1841 /* MultilineTextField.swift */; };
 		04568CFE24CBF19C00FE1841 /* Analysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04568CFD24CBF19C00FE1841 /* Analysis.swift */; };
 		046B734324CBB0880093B454 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B734224CBB0880093B454 /* Note.swift */; };
+		0491566124CE9BA8003D8E32 /* RecordRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491566024CE9BA8003D8E32 /* RecordRepository.swift */; };
 		049239A624C6608B009F301E /* RecordListViewMdoel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239A524C6608B009F301E /* RecordListViewMdoel.swift */; };
 		049239A824C660E3009F301E /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239A724C660E3009F301E /* Record.swift */; };
 		049239AB24C66AFB009F301E /* FighterPDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239AA24C66AFB009F301E /* FighterPDF.swift */; };
@@ -71,6 +72,7 @@
 		04568CFB24CBEA3C00FE1841 /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
 		04568CFD24CBF19C00FE1841 /* Analysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analysis.swift; sourceTree = "<group>"; };
 		046B734224CBB0880093B454 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		0491566024CE9BA8003D8E32 /* RecordRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordRepository.swift; sourceTree = "<group>"; };
 		049239A524C6608B009F301E /* RecordListViewMdoel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecordListViewMdoel.swift; path = Smash/ViewModels/RecordVMs/RecordListViewMdoel.swift; sourceTree = SOURCE_ROOT; };
 		049239A724C660E3009F301E /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 		049239AA24C66AFB009F301E /* FighterPDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterPDF.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 			isa = PBXGroup;
 			children = (
 				0417B6C624C9689B00BBFF3B /* FrameRepository.swift */,
+				0491566024CE9BA8003D8E32 /* RecordRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -403,6 +406,7 @@
 				04AE235924CC0384005C8100 /* NoteViewModel.swift in Sources */,
 				046B734324CBB0880093B454 /* Note.swift in Sources */,
 				0417B6C924C9A71400BBFF3B /* FrameDetaleView.swift in Sources */,
+				0491566124CE9BA8003D8E32 /* RecordRepository.swift in Sources */,
 				049239B524C6A3AF009F301E /* FrameView.swift in Sources */,
 				049239B124C68882009F301E /* EdgeBorder.swift in Sources */,
 				0409E4CC24C57582000038E1 /* RecordView.swift in Sources */,

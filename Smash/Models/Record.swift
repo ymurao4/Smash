@@ -7,13 +7,17 @@
 //
 
 import Foundation
+import FirebaseFirestoreSwift
+import FirebaseFirestore
 
-struct Record: Identifiable {
-    var id: String = UUID().uuidString
+struct Record: Codable, Identifiable {
+    @DocumentID var id: String?
     var result: String
     var myFighter: String
     var opponentFighter: String
     var stage: String
+    @ServerTimestamp var createdTime: Timestamp?
+    var userId: String?
 }
 
 

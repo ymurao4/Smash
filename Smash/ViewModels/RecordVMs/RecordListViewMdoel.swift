@@ -11,19 +11,29 @@ import Combine
 
 class RecordListViewMdoel: ObservableObject {
 
+    @Published var recordRepository = RecordRepository()
     @Published var recordCellViewModels = [RecordCelViewModel]()
 
     private var cancellables = Set<AnyCancellable>()
 
     init() {
-        self.recordCellViewModels = testDatas.map { record in
-            RecordCelViewModel(record: record)
+        recordRepository.$records.map { records in
+            records.map { record in
+                RecordCelViewModel(record: record)
+            }
         }
+        .assign(to: \.recordCellViewModels, on: self)
+        .store(in: &cancellables)
     }
 
     func addRecord(record: Record) {
-        let recordCellVM = RecordCelViewModel(record: record)
-        self.recordCellViewModels.append(recordCellVM)
+        recordRepository.addRecord(record: record)
+    }
+
+    func deleteRecord(recordID: String?) {
+        if let recordID = recordID {
+            recordRepository.deleteRecord(recordID: recordID)
+        }
     }
 
 }

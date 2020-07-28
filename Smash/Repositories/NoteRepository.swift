@@ -26,6 +26,7 @@ class NoteRepository: ObservableObject {
         let userId = Auth.auth().currentUser?.uid
 
         db.collection("notes")
+            .order(by: "createdTime", descending: true)
             .whereField("userId", isEqualTo: userId as Any)
             .addSnapshotListener { (querySnapshot, error) in
                 DispatchQueue.main.async {

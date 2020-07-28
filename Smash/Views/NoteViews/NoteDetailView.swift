@@ -14,8 +14,8 @@ struct NoteDetailView: View {
     @Environment(\.presentationMode) var presentatinoMode
     @ObservedObject var noteCellVM: NoteCellViewModel
 
-
     @State var isBeginEditing: Bool = false
+
 
     var onCommit: (Note) -> (Void) = { _ in }
 

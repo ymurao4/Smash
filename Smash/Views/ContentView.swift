@@ -13,7 +13,6 @@ struct ContentView: View {
     @State var index = 0
     @State var isTabbarHidden: Bool = false
 
-
     var body: some View {
         ZStack(alignment: .bottom) {
             if self.index == 0 {

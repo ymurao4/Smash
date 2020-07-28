@@ -14,7 +14,7 @@ struct RecordView: View {
     @State var isAlert: Bool = false
     @State var recordID: String?
 
-    func showDeleteAlert(index: IndexSet) {
+    private func showDeleteAlert(index: IndexSet) {
         isAlert.toggle()
         self.recordID = self.recordListVM.recordCellViewModels[index.first!].id
     }

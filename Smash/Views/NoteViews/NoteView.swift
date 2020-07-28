@@ -14,7 +14,7 @@ struct NoteView: View {
     @Binding var isTabbarHidden: Bool
     @State var noteID: String?
 
-    func delete(index: IndexSet) {
+    private func delete(index: IndexSet) {
         self.noteID = self.noteVM.noteCellViewModels[index.first!].id
         self.noteVM.deleteNote(noteID: self.noteID)
     }
@@ -52,6 +52,7 @@ struct NewNoteCell: View {
 
     var body: some View {
 
+        // NoteCellと同じことをするとNoteが追加されない
         NavigationLink(destination: NoteDetailView(noteCellVM: NoteCellViewModel(note: Note(text: ""))) { note in
             self.noteVM.addNote(note: note)
         }) {
@@ -62,9 +63,6 @@ struct NewNoteCell: View {
                 Text("メモを追加")
             }
         }
-        .simultaneousGesture(TapGesture().onEnded {
-            self.isTabbarHidden = true
-        })
         .padding(15)
     }
 

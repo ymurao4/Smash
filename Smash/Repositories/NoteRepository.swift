@@ -65,4 +65,14 @@ class NoteRepository: ObservableObject {
         }
     }
 
+    func updateNote(note: Note) {
+        if let noteID = note.id {
+            do {
+                try db.collection("notes").document(noteID).setData(from: note)
+            } catch {
+                fatalError("Unable to encode note: \(error)")
+            }
+        }
+    }
+
 }

@@ -7,27 +7,37 @@
 //
 
 import SwiftUI
+import WaterfallGrid
 
 struct NoteDetailView: View {
 
     @Environment(\.presentationMode) var presentatinoMode
-    @ObservedObject var noteVM = NoteViewModel()
-    @State var text: String = ""
-    @State var fighterName: String = ""
+    @ObservedObject var noteCellVM: NoteCellViewModel
+
+    @State var isBeginEditing: Bool = false
+
+    var onCommit: (Note) -> (Void) = { _ in }
 
     var body: some View {
         VStack {
-            MultilineTextField(text: $text)
+            MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
+//            TextField("here", text: self.$noteCellVM.note.text, onCommit: {
+//                self.onCommit(self.noteCellVM.note)
+//            })
         }
         .padding(.horizontal, 10)
         .navigationBarTitle(Text(""), displayMode: .inline)
         .navigationBarItems(trailing:
             Button(action: {
-                self.noteVM.addNote(note: Note(text: self.text, fighterName: "wario"))
                 self.presentatinoMode.wrappedValue.dismiss()
             }){
-                Text("Done")
+                if isBeginEditing {
+                    Text("Done")
+                }
         })
+            .onAppear {
+                self.onCommit(self.noteCellVM.note)
+        }
     }
 }
 

@@ -11,7 +11,9 @@ import Combine
 
 class NoteCellViewModel: ObservableObject, Identifiable {
 
+    @Published var noteRepository = NoteRepository()
     @Published var note: Note
+
     var id: String = ""
 
     private var cancellables = Set<AnyCancellable>()
@@ -24,6 +26,14 @@ class NoteCellViewModel: ObservableObject, Identifiable {
                 note.id
         }
         .assign(to: \.id, on: self)
+        .store(in: &cancellables)
+
+        $note
+            .dropFirst()
+            .debounce(for: 0.8, scheduler: RunLoop.main)
+            .sink { note in
+                self.noteRepository.updateNote(note: note)
+        }
         .store(in: &cancellables)
 
     }

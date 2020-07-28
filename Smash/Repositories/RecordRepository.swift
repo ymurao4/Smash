@@ -26,6 +26,7 @@ class RecordRepository: ObservableObject {
         let userId = Auth.auth().currentUser?.uid
 
         db.collection("records")
+            .order(by: "createdTime", descending: true)
             .whereField("userId", isEqualTo: userId as Any)
             .addSnapshotListener { (querySnapshot, error) in
                 if let querySnapshot = querySnapshot {

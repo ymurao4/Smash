@@ -12,6 +12,7 @@ import SwiftUI
 struct MultilineTextField: UIViewRepresentable {
 
     @Binding var text: String
+    @Binding var isBeginEditing: Bool
 
     func makeUIView(context: Context) -> UITextView {
         let view = UITextView()
@@ -33,6 +34,7 @@ struct MultilineTextField: UIViewRepresentable {
         Coordinator(self)
     }
 
+
     class Coordinator: NSObject, UITextViewDelegate {
         var parent: MultilineTextField
 
@@ -52,6 +54,9 @@ struct MultilineTextField: UIViewRepresentable {
 
         }
 
+        func textViewDidBeginEditing(_ textView: UITextView) {
+            self.parent.isBeginEditing = true
+        }
 
     }
 

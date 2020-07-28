@@ -9,7 +9,7 @@
 import Foundation
 import Combine
 
-class NoteCellViewMdoel: ObservableObject, Identifiable {
+class NoteCellViewModel: ObservableObject, Identifiable {
 
     @Published var note: Note
     var id: String = ""

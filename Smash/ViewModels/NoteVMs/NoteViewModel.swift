@@ -12,14 +12,14 @@ import Combine
 class NoteViewModel: ObservableObject {
 
     @Published var noteRepository = NoteRepository()
-    @Published var noteCellViewModels = [NoteCellViewMdoel]()
+    @Published var noteCellViewModels = [NoteCellViewModel]()
 
     private var cancellables = Set<AnyCancellable>()
 
     init() {
         noteRepository.$notes.map { notes in
             notes.map { note in
-                NoteCellViewMdoel(note: note)
+                NoteCellViewModel(note: note)
             }
         }
         .assign(to: \.noteCellViewModels, on: self)

@@ -14,7 +14,6 @@ struct NoteDetailView: View {
     @ObservedObject var noteVM = NoteViewModel()
     @State var text: String = ""
     @State var fighterName: String = ""
-    @Binding var isTabbarHidden: Bool
 
     var body: some View {
         VStack {
@@ -29,9 +28,6 @@ struct NoteDetailView: View {
             }){
                 Text("Done")
         })
-            .onAppear {
-                self.isTabbarHidden = true
-        }
     }
 }
 

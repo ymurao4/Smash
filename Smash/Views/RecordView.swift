@@ -37,6 +37,7 @@ struct RecordView: View {
                         secondaryButton: .cancel(Text("キャンセル"))
                     )
                 }
+                // tabbarで隠れてしまうため
                 Text("")
             }
             .navigationBarTitle("対戦記録")

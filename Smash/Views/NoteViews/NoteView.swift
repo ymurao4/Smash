@@ -22,7 +22,9 @@ struct NoteView: View {
     var body: some View {
         NavigationView {
             VStack(alignment: .leading) {
-                NavigationLink(destination: NoteDetailView(isTabbarHidden: $isTabbarHidden)){
+                NavigationLink(destination: NoteDetailView(noteCellVM: NoteCellViewModel(note: Note(text: ""))) { note in
+                    self.noteVM.addNote(note: note)
+                }){
                     HStack {
                         Image(systemName: "plus.circle.fill")
                             .resizable()
@@ -31,6 +33,9 @@ struct NoteView: View {
                     }
                     .padding()
                 }
+                .simultaneousGesture(TapGesture().onEnded {
+                    self.isTabbarHidden = true
+                })
                 List {
                     ForEach(noteVM.noteCellViewModels) { noteCellVM in
                         NoteCell(noteCellVM: noteCellVM, isTabbarHidden: self.$isTabbarHidden)
@@ -38,11 +43,13 @@ struct NoteView: View {
                     .onDelete { index in
                         self.delete(index: index)
                     }
+                    // tabbarで隠れてしまうため
                     Text("")
                 }
             }
             .padding(.horizontal, 20)
             .navigationBarTitle("メモ")
+            .navigationBarItems(trailing: EditButton())
             .onAppear {
                 self.isTabbarHidden = false
             }
@@ -53,17 +60,27 @@ struct NoteView: View {
 
 struct NoteCell: View {
 
-    @ObservedObject var noteCellVM: NoteCellViewMdoel
+    @ObservedObject var noteCellVM: NoteCellViewModel
     @Binding var isTabbarHidden: Bool
 
     var body: some View {
-        NavigationLink(destination: NoteDetailView(text: noteCellVM.note.text, isTabbarHidden: self.$isTabbarHidden)) {
-            HStack {
-                FighterPDF(name: noteCellVM.note.fighterName)
-                    .frame(width: 25, height: 25)
-                    .padding(.trailing, 5)
-                Text(noteCellVM.note.text)
-                    .lineLimit(1)
+        // ontapでは様々なバグが発生（遷移しない、isTabbarHiddenがtrueにならないなど）
+        HStack {
+            Button(action: {
+                self.isTabbarHidden = true
+            }) {
+                HStack {
+                    if noteCellVM.note.fighterName != nil {
+                        FighterPDF(name: noteCellVM.note.fighterName!)
+                        .frame(width: 25, height: 25)
+                        .padding(.trailing, 5)
+                    }
+                    Text(noteCellVM.note.text)
+                        .lineLimit(1)
+                }
+            }
+            NavigationLink(destination: NoteDetailView(noteCellVM: noteCellVM)) {
+                EmptyView()
             }
         }
     }

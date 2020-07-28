@@ -22,20 +22,8 @@ struct NoteView: View {
     var body: some View {
         NavigationView {
             VStack(alignment: .leading) {
-                NavigationLink(destination: NoteDetailView(noteCellVM: NoteCellViewModel(note: Note(text: ""))) { note in
-                    self.noteVM.addNote(note: note)
-                }){
-                    HStack {
-                        Image(systemName: "plus.circle.fill")
-                            .resizable()
-                            .frame(width: 20, height: 20)
-                        Text("メモを追加")
-                    }
-                    .padding()
-                }
-                .simultaneousGesture(TapGesture().onEnded {
-                    self.isTabbarHidden = true
-                })
+                // Listの中に入れない！！！！！！！
+                NewNoteCell(noteVM: noteVM, isTabbarHidden: $isTabbarHidden)
                 List {
                     ForEach(noteVM.noteCellViewModels) { noteCellVM in
                         NoteCell(noteCellVM: noteCellVM, isTabbarHidden: self.$isTabbarHidden)
@@ -55,6 +43,31 @@ struct NoteView: View {
             }
         }
     }
+}
+
+struct NewNoteCell: View {
+
+    @ObservedObject var noteVM: NoteViewModel
+    @Binding var isTabbarHidden: Bool
+
+    var body: some View {
+
+        NavigationLink(destination: NoteDetailView(noteCellVM: NoteCellViewModel(note: Note(text: ""))) { note in
+            self.noteVM.addNote(note: note)
+        }) {
+            HStack {
+                Image(systemName: "plus.circle.fill")
+                    .resizable()
+                    .frame(width: 20, height: 20)
+                Text("メモを追加")
+            }
+        }
+        .simultaneousGesture(TapGesture().onEnded {
+            self.isTabbarHidden = true
+        })
+        .padding(15)
+    }
+
 }
 
 

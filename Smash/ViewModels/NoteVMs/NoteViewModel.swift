@@ -17,6 +17,7 @@ class NoteViewModel: ObservableObject {
     private var cancellables = Set<AnyCancellable>()
 
     init() {
+        
         noteRepository.$notes.map { notes in
             notes.map { note in
                 NoteCellViewModel(note: note)

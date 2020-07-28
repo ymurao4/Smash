@@ -22,9 +22,6 @@ struct NoteDetailView: View {
     var body: some View {
         VStack {
             MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
-//            TextField("here", text: self.$noteCellVM.note.text, onCommit: {
-//                self.onCommit(self.noteCellVM.note)
-//            })
         }
         .padding(.horizontal, 10)
         .navigationBarTitle(Text(""), displayMode: .inline)
@@ -36,6 +33,9 @@ struct NoteDetailView: View {
                     Text("Done")
                 }
         })
+            .onDisappear {
+                self.onCommit(self.noteCellVM.note)
+        }
     }
 }
 

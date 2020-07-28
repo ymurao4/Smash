@@ -14,6 +14,7 @@ struct NoteDetailView: View {
     @Environment(\.presentationMode) var presentatinoMode
     @ObservedObject var noteCellVM: NoteCellViewModel
 
+
     @State var isBeginEditing: Bool = false
 
     var onCommit: (Note) -> (Void) = { _ in }
@@ -35,9 +36,6 @@ struct NoteDetailView: View {
                     Text("Done")
                 }
         })
-            .onAppear {
-                self.onCommit(self.noteCellVM.note)
-        }
     }
 }
 

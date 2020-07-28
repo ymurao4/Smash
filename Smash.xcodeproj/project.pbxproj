@@ -134,7 +134,7 @@
 				0409E4C724C574C1000038E1 /* Models */,
 				0409E4C824C574CA000038E1 /* Views */,
 				0409E4C924C574CF000038E1 /* ViewModels */,
-				049239A924C66AE9009F301E /* Components */,
+				049239A924C66AE9009F301E /* Extensions */,
 				0409E4B924C574BA000038E1 /* Assets.xcassets */,
 				04F4F25124C8443E006C2F20 /* csv */,
 				0409E4BE24C574BA000038E1 /* LaunchScreen.storyboard */,
@@ -238,7 +238,7 @@
 			path = NoteViews;
 			sourceTree = "<group>";
 		};
-		049239A924C66AE9009F301E /* Components */ = {
+		049239A924C66AE9009F301E /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				049239AA24C66AFB009F301E /* FighterPDF.swift */,
@@ -248,7 +248,7 @@
 				049239B024C68882009F301E /* EdgeBorder.swift */,
 				04568CFB24CBEA3C00FE1841 /* MultilineTextField.swift */,
 			);
-			path = Components;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		04A2F9F424CE4723007A5316 /* RecordVMs */ = {

@@ -28,8 +28,14 @@ struct NoteDetailView: View {
                 Button(action: {
 
                 }) {
-                    FighterPDF(name: "wario")
-                        .frame(width: 20, height: 20)
+                    if self.noteCellVM.note.fighterName == nil {
+                        Image(systemName: "person.crop.circle.badge.plus")
+                            .resizable()
+                            .frame(width: 20, height: 20)
+                    } else {
+                        FighterPDF(name: "wario")
+                            .frame(width: 20, height: 20)
+                    }
                 }
 //                .padding(.trailing, 20)
                 if isBeginEditing {

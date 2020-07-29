@@ -28,7 +28,9 @@ struct ContentView: View {
                 CustomTabs(index: $index)
             }
         }
+        .accentColor(.orange)
     }
+
 }
 
 struct ContentView_Previews: PreviewProvider {

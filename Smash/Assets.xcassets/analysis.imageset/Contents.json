@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "icons8-analyze-25.png",
+      "filename" : "icons8-estimates-32.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "icons8-analyze-50.png",
+      "filename" : "icons8-estimates-64.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "analyze.png",
+      "filename" : "icons8-estimates-96.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

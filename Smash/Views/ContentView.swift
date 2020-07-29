@@ -54,7 +54,7 @@ struct CustomTabs: View {
 
         HStack(alignment: .top) {
             // 記録
-            VStack(spacing: 10) {
+            VStack(spacing: 8) {
                 EdgeBorder(width: 6, edge: .top)
                     .frame(width: 40, height: 3)
                     .cornerRadius(1)
@@ -71,7 +71,7 @@ struct CustomTabs: View {
             Spacer(minLength: 0)
 
             // 分析
-            VStack(spacing: 10) {
+            VStack(spacing: 8) {
                 EdgeBorder(width: 6, edge: .top)
                     .frame(width: 40, height: 3)
                     .cornerRadius(1)
@@ -88,7 +88,7 @@ struct CustomTabs: View {
             Spacer(minLength: 0)
 
             // メモ
-            VStack(spacing: 10) {
+            VStack(spacing: 12) {
                 EdgeBorder(width: 6, edge: .top)
                     .frame(width: 40, height: 3)
                     .cornerRadius(1)
@@ -97,7 +97,7 @@ struct CustomTabs: View {
                     self.index = 2
                 }) {
                     Image(systemName: "square.and.pencil")
-                        .font(.system(size: 23))
+                        .font(.system(size: 22))
                 }
                 .foregroundColor(index == 2 ? Color.gray : Color.backgroundColor(for: colorScheme))
             }
@@ -105,7 +105,7 @@ struct CustomTabs: View {
             Spacer(minLength: 0)
 
             // フレーム
-            VStack(spacing: 12) {
+            VStack(spacing: 14) {
                 EdgeBorder(width: 6, edge: .top)
                     .frame(width: 40, height: 3)
                     .cornerRadius(1)
@@ -114,14 +114,14 @@ struct CustomTabs: View {
                     self.index = 3
                 }) {
                     Image(systemName: "text.justify")
-                        .font(.system(size: 23))
+                        .font(.system(size: 22))
                 }
                 .foregroundColor(index == 3 ? Color.gray : Color.backgroundColor(for: colorScheme))
             }
             .padding(.top, -13)
         }
-        .padding(EdgeInsets(top: 15, leading: 35, bottom: 15, trailing: 35))
-        .cornerRadius(5)
+        .padding(EdgeInsets(top: 15, leading: 35, bottom: 10, trailing: 35))
+        .cornerRadius(8)
         .frame(width: UIScreen.main.bounds.width * 0.95)
         .border(Color(UIColor.tertiarySystemGroupedBackground), width: 2)
         .background(Color.reverseBackgroundColor(for: colorScheme))

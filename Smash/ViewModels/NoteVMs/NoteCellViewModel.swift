@@ -13,6 +13,7 @@ class NoteCellViewModel: ObservableObject, Identifiable {
 
     @Published var noteRepository = NoteRepository()
     @Published var note: Note
+    @Published var date: String = ""
 
     var id: String = ""
 
@@ -20,6 +21,24 @@ class NoteCellViewModel: ObservableObject, Identifiable {
 
     init(note: Note) {
         self.note = note
+
+        $note
+            .compactMap { note in
+
+                guard let timestamp = note.createdTime else { return "" }
+
+                let dateValue = timestamp.dateValue()
+
+                let dateFormatter = DateFormatter()
+                dateFormatter.locale = Locale(identifier: "ja_JP")
+                dateFormatter.dateStyle = .medium
+                dateFormatter.timeStyle = .none
+                let date = dateFormatter.string(from: dateValue)
+                return date
+
+        }
+        .assign(to: \.date, on: self)
+        .store(in: &cancellables)
 
         $note
             .compactMap { note in

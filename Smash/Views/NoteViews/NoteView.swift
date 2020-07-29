@@ -81,13 +81,23 @@ struct NoteCell: View {
                 self.isTabbarHidden = true
             }) {
                 HStack {
-                    if noteCellVM.note.fighterName != nil {
+                    //fighterNameが nil と "" の時は else
+                    if noteCellVM.note.fighterName != nil && noteCellVM.note.fighterName != "" {
                         FighterPDF(name: noteCellVM.note.fighterName!)
                         .frame(width: 25, height: 25)
                         .padding(.trailing, 5)
+                    } else {
+                        Image(systemName: "scribble")
+                            .resizable()
+                            .frame(width: 25, height: 25)
+                            .cornerRadius(22.5)
+                            .padding(.trailing, 5)
                     }
-                    Text(noteCellVM.note.text)
-                        .lineLimit(1)
+                    VStack {
+                        Text(noteCellVM.note.text)
+                            .lineLimit(1)
+                        Text("\(self.noteCellVM.date)")
+                    }
                 }
             }
             NavigationLink(destination: NoteDetailView(noteCellVM: noteCellVM)) {

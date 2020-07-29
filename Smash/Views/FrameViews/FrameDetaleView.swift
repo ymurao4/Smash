@@ -189,6 +189,7 @@ struct FrameDetaleView: View {
         }
     }
 
+
     init(fighterName: String) {
         frameVM.loadFrameData(fighterName: fighterName)
     }

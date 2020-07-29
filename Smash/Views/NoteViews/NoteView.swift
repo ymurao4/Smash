@@ -93,10 +93,11 @@ struct NoteCell: View {
                             .cornerRadius(22.5)
                             .padding(.trailing, 5)
                     }
-                    VStack {
+                    VStack(alignment: .leading) {
                         Text(noteCellVM.note.text)
                             .lineLimit(1)
-                        Text("\(self.noteCellVM.date)")
+                        Text(self.noteCellVM.date)
+                            .font(.caption)
                     }
                 }
             }

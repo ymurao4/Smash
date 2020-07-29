@@ -20,7 +20,7 @@ struct MultilineTextField: UIViewRepresentable {
         view.isScrollEnabled = true
         view.isEditable = true
         view.isUserInteractionEnabled = true
-        view.font = UIFont.systemFont(ofSize: 16)
+        view.font = UIFont.systemFont(ofSize: 18)
         return view
     }
 

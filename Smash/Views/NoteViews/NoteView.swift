@@ -76,7 +76,7 @@ struct NoteCell: View {
 
     var body: some View {
         // ontapでは様々なバグが発生（遷移しない、isTabbarHiddenがtrueにならないなど）
-        HStack {
+        ZStack(alignment: .leading) {
             Button(action: {
                 self.isTabbarHidden = true
             }) {

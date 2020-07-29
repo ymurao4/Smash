@@ -7,11 +7,9 @@
 //
 
 import SwiftUI
-import WaterfallGrid
 
 struct NoteDetailView: View {
 
-    @Environment(\.presentationMode) var presentatinoMode
     @ObservedObject var noteCellVM: NoteCellViewModel
 
     @State var isBeginEditing: Bool = false
@@ -26,13 +24,24 @@ struct NoteDetailView: View {
         .padding(.horizontal, 10)
         .navigationBarTitle(Text(""), displayMode: .inline)
         .navigationBarItems(trailing:
-            Button(action: {
-                self.presentatinoMode.wrappedValue.dismiss()
-            }){
-                if isBeginEditing {
-                    Text("Done")
+            HStack {
+                Button(action: {
+
+                }) {
+                    FighterPDF(name: "wario")
+                        .frame(width: 20, height: 20)
                 }
-        })
+//                .padding(.trailing, 20)
+                if isBeginEditing {
+                    Button(action: {
+                        self.isBeginEditing = false
+                        UIApplication.shared.endEditing()
+                    }){
+                        Text("Done")
+                    }
+                }
+            }
+        )
             .onDisappear {
                 self.onCommit(self.noteCellVM.note)
         }

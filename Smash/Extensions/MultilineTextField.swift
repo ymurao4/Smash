@@ -51,7 +51,7 @@ struct MultilineTextField: UIViewRepresentable {
         }
 
         func textViewDidEndEditing(_ textView: UITextView) {
-
+            self.parent.isBeginEditing = false
         }
 
         func textViewDidBeginEditing(_ textView: UITextView) {

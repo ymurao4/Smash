@@ -18,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         IQKeyboardManager.shared.enable = true
         IQKeyboardManager.shared.keyboardDistanceFromTextField = 15
+        IQKeyboardManager.shared.toolbarTintColor = .orange
 
         FirebaseApp.configure()
 

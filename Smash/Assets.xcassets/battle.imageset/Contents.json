@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "icons8-戦い-50 copy.png",
+      "filename" : "icons8-戦い-32.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "icons8-戦い-50.png",
+      "filename" : "icons8-戦い-64.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "icons8-戦い-75.png",
+      "filename" : "icons8-戦い-96.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

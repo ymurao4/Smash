@@ -62,6 +62,7 @@ struct AddRecordView: View {
                     self.presentatinoMode.wrappedValue.dismiss()
                 }) {
                     Text("Cancel")
+                        .foregroundColor(.orange)
                 },
                 trailing:
                 Button(action: {
@@ -69,6 +70,7 @@ struct AddRecordView: View {
                     self.presentatinoMode.wrappedValue.dismiss()
                 }) {
                     Text("Done")
+                        .foregroundColor(.orange)
                 }
             )
         }
@@ -105,7 +107,7 @@ struct FormCell: View {
                             .font(.subheadline)
                     }
                     .frame(width: 40, height: 30)
-                    .background(result ? Color.accentColor : nil)
+                    .background(result ? Color.orange : nil)
                     .foregroundColor(result ? .white : Color.primary)
                     .cornerRadius(5)
                     .padding(.trailing, 7)
@@ -115,7 +117,7 @@ struct FormCell: View {
                             .font(.subheadline)
                     }
                     .frame(width: 40, height: 30)
-                    .background(!result ? Color.accentColor : nil)
+                    .background(!result ? Color.orange : nil)
                     .foregroundColor(!result ? .white : Color.primary)
                     .cornerRadius(5)
                 }

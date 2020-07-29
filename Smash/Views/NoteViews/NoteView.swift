@@ -14,7 +14,7 @@ struct NoteView: View {
     @Binding var isTabbarHidden: Bool
     @State var noteID: String?
 
-    func delete(index: IndexSet) {
+    private func delete(index: IndexSet) {
         self.noteID = self.noteVM.noteCellViewModels[index.first!].id
         self.noteVM.deleteNote(noteID: self.noteID)
     }
@@ -52,6 +52,7 @@ struct NewNoteCell: View {
 
     var body: some View {
 
+        // NoteCellと同じことをするとNoteが追加されない
         NavigationLink(destination: NoteDetailView(noteCellVM: NoteCellViewModel(note: Note(text: ""))) { note in
             self.noteVM.addNote(note: note)
         }) {
@@ -62,9 +63,6 @@ struct NewNoteCell: View {
                 Text("メモを追加")
             }
         }
-        .simultaneousGesture(TapGesture().onEnded {
-            self.isTabbarHidden = true
-        })
         .padding(15)
     }
 
@@ -78,18 +76,29 @@ struct NoteCell: View {
 
     var body: some View {
         // ontapでは様々なバグが発生（遷移しない、isTabbarHiddenがtrueにならないなど）
-        HStack {
+        ZStack(alignment: .leading) {
             Button(action: {
                 self.isTabbarHidden = true
             }) {
                 HStack {
-                    if noteCellVM.note.fighterName != nil {
+                    //fighterNameが nil と "" の時は else
+                    if noteCellVM.note.fighterName != nil && noteCellVM.note.fighterName != "" {
                         FighterPDF(name: noteCellVM.note.fighterName!)
                         .frame(width: 25, height: 25)
                         .padding(.trailing, 5)
+                    } else {
+                        Image(systemName: "scribble")
+                            .resizable()
+                            .frame(width: 25, height: 25)
+                            .cornerRadius(22.5)
+                            .padding(.trailing, 5)
                     }
-                    Text(noteCellVM.note.text)
-                        .lineLimit(1)
+                    VStack(alignment: .leading) {
+                        Text(noteCellVM.note.text)
+                            .lineLimit(1)
+                        Text(self.noteCellVM.date)
+                            .font(.caption)
+                    }
                 }
             }
             NavigationLink(destination: NoteDetailView(noteCellVM: noteCellVM)) {

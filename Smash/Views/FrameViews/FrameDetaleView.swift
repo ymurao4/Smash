@@ -189,10 +189,11 @@ struct FrameDetaleView: View {
         }
     }
 
+
     init(fighterName: String) {
         frameVM.loadFrameData(fighterName: fighterName)
     }
-
+    
     var body: some View {
         ZStack {
             List {

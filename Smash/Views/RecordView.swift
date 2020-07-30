@@ -82,6 +82,8 @@ struct ResultCell: View {
             return "スマ村"
         case "muramati":
             return "村と街"
+        case "lylat":
+            return "ライ"
         default:
             return ""
         }

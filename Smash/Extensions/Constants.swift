@@ -15,7 +15,7 @@ struct S {
     ]
 
     static let stageArray = [
-        ["終点", "syuten"], ["戦場", "senjou"], ["ポケスタ2", "pokesuta2"], ["カロス", "karosu"], ["すま村", "sumamura"], ["村と街", "muramati"], ["ライラット", "rairatto"]
+        ["終点", "syuten"], ["戦場", "senjou"], ["ポケスタ2", "pokesuta2"], ["カロス", "karosu"], ["すま村", "sumamura"], ["村と街", "muramati"], ["ライラット", "lylat"]
     ]
 
     static let frameFighterArray = [

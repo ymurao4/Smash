@@ -11,7 +11,7 @@ import SwiftUI
 struct NoteView: View {
 
     @ObservedObject var noteVM = NoteViewModel()
-    @State var noteID: String?
+    @State private var noteID: String?
 
     private func delete(index: IndexSet) {
         self.noteID = self.noteVM.noteCellViewModels[index.first!].id

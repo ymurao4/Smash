@@ -10,9 +10,9 @@ import SwiftUI
 struct RecordView: View {
 
     @ObservedObject var recordListVM = RecordListViewMdoel()
-    @State var isSheet: Bool = false
-    @State var isAlert: Bool = false
-    @State var recordID: String?
+    @State private var isSheet: Bool = false
+    @State private var isAlert: Bool = false
+    @State private var recordID: String?
 
     private func showDeleteAlert(index: IndexSet) {
         isAlert.toggle()

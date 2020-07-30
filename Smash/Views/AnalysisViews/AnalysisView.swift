@@ -10,7 +10,7 @@ import SwiftUI
 
 struct AnalysisView: View {
 
-    @State var selectedIndex: Int = 0
+    @State private var selectedIndex: Int = 0
     private let pickerName: [String] = ["メイン", "自分", "相手", "ステージ"]
     private let sortedName: [String] = ["キャラ", "試合", "勝ち", "負け", "勝率"]
 

@@ -307,6 +307,8 @@
 			dependencies = (
 			);
 			name = Smash;
+			packageProductDependencies = (
+			);
 			productName = Smash;
 			productReference = 0409E4B024C574B9000038E1 /* Smash.app */;
 			productType = "com.apple.product-type.application";
@@ -335,6 +337,8 @@
 				Base,
 			);
 			mainGroup = 0409E4A724C574B9000038E1;
+			packageReferences = (
+			);
 			productRefGroup = 0409E4B124C574B9000038E1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";

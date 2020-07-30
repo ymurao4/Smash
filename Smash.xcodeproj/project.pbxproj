@@ -202,9 +202,9 @@
 		04149A4924C7D50100F2AD6F /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
-				0417B6C624C9689B00BBFF3B /* FrameRepository.swift */,
 				0491566024CE9BA8003D8E32 /* RecordRepository.swift */,
 				0447676424CEB9380019B5E9 /* NoteRepository.swift */,
+				0417B6C624C9689B00BBFF3B /* FrameRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -307,6 +307,8 @@
 			dependencies = (
 			);
 			name = Smash;
+			packageProductDependencies = (
+			);
 			productName = Smash;
 			productReference = 0409E4B024C574B9000038E1 /* Smash.app */;
 			productType = "com.apple.product-type.application";
@@ -335,6 +337,8 @@
 				Base,
 			);
 			mainGroup = 0409E4A724C574B9000038E1;
+			packageReferences = (
+			);
 			productRefGroup = 0409E4B124C574B9000038E1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";

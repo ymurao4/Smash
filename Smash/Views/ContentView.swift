@@ -10,8 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
 
-    @State var index = 0
-    @State var isTabbarHidden: Bool = false
+    @State private var index = 0
 
     var body: some View {
         ZStack(alignment: .bottom) {
@@ -20,13 +19,11 @@ struct ContentView: View {
             } else if self.index == 1 {
                 AnalysisView()
             } else if self.index == 2 {
-                NoteView(isTabbarHidden: $isTabbarHidden)
+                NoteView()
             } else {
-                FrameView(isTabbarHidden: $isTabbarHidden)
+                FrameView()
             }
-            if !isTabbarHidden {
-                CustomTabs(index: $index)
-            }
+            CustomTabs(index: $index)
         }
         .accentColor(.orange)
     }

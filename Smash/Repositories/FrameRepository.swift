@@ -13,10 +13,6 @@ class FrameRepository: ObservableObject {
     @Published var results: [[String]] = []
     var fighterName: String = "mario"
 
-    init() {
-        loadData()
-    }
-
     func loadData() {
         
         results = []

@@ -10,9 +10,9 @@ import SwiftUI
 struct RecordView: View {
 
     @ObservedObject var recordListVM = RecordListViewMdoel()
-    @State var isSheet: Bool = false
-    @State var isAlert: Bool = false
-    @State var recordID: String?
+    @State private var isSheet: Bool = false
+    @State private var isAlert: Bool = false
+    @State private var recordID: String?
 
     private func showDeleteAlert(index: IndexSet) {
         isAlert.toggle()
@@ -82,6 +82,8 @@ struct ResultCell: View {
             return "スマ村"
         case "muramati":
             return "村と街"
+        case "lylat":
+            return "ライ"
         default:
             return ""
         }

@@ -11,8 +11,6 @@ import WaterfallGrid
 
 struct FrameView: View {
 
-    @Binding var isTabbarHidden: Bool
-
     var body: some View {
 
         NavigationView {
@@ -24,9 +22,6 @@ struct FrameView: View {
                             .background(Color.orange.opacity(0.8))
                             .cornerRadius(5)
                     }
-                    .simultaneousGesture(TapGesture().onEnded {
-                        self.isTabbarHidden = true
-                    })
                 }
                 .gridStyle(
                     columns: 3,
@@ -39,9 +34,6 @@ struct FrameView: View {
                 )
             }
             .navigationBarTitle("一覧")
-            .onAppear {
-                self.isTabbarHidden = false
-            }
         }
     }
 }

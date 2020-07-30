@@ -30,8 +30,10 @@ class FrameViewModel: ObservableObject {
     }
 
     func loadFrameData(fighterName: String) {
-        repository.fighterName = fighterName
-        repository.loadData()
+        DispatchQueue.main.async {
+            self.repository.fighterName = fighterName
+            self.repository.loadData()
+        }
     }
 
 }

@@ -14,11 +14,11 @@ struct AddRecordView: View {
     @ObservedObject var recordListVM = RecordListViewMdoel()
 
     @Environment(\.presentationMode) var presentatinoMode
-    @State var selectedIndex: Int = 0
-    @State var myFighterName: String = "mario"
-    @State var opponentFighterName: String = "mario"
-    @State var stageName: String = "syuten"
-    @State var result: Bool = true
+    @State private var selectedIndex: Int = 0
+    @State private var myFighterName: String = "mario"
+    @State private var opponentFighterName: String = "mario"
+    @State private var stageName: String = "syuten"
+    @State private var result: Bool = true
 
     private let pickerNames = ["自分", "相手", "ステージ"]
     

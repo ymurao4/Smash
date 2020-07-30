@@ -13,6 +13,7 @@ class FrameViewModel: ObservableObject {
 
     @Published var repository = FrameRepository()
     @Published var frameDatas = [Frame]()
+    @Published var fighterName = "mario"
 
     private var cancellables = Set<AnyCancellable>()
 
@@ -31,8 +32,8 @@ class FrameViewModel: ObservableObject {
 
     func loadFrameData(fighterName: String) {
         DispatchQueue.main.async {
-            self.repository.fighterName = fighterName
-            self.repository.loadData()
+            self.fighterName = fighterName
+            self.repository.loadData(fighterName: fighterName)
         }
     }
 

@@ -11,13 +11,12 @@ import Foundation
 class FrameRepository: ObservableObject {
 
     @Published var results: [[String]] = []
-    var fighterName: String = "mario"
 
-    func loadData() {
+    func loadData(fighterName: String) {
         
         results = []
 
-        guard let path = Bundle.main.path(forResource: "csv/\(fighterName)", ofType: "csv") else {
+        guard let path = Bundle.main.path(forResource: "csv/Frame/\(fighterName)", ofType: "csv") else {
             return
         }
 

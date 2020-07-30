@@ -15,6 +15,7 @@ struct FrameDetaleView: View {
     @ObservedObject var frameVM = FrameViewModel()
 
     @State  var isSheet: Bool = false
+    @State var fighterName: String
 
     var japName = { (name: String) -> String in
         switch name {
@@ -189,16 +190,12 @@ struct FrameDetaleView: View {
         }
     }
 
-    @State var fighterName: String
 
-//    init(fighterName: String) {
-//            frameVM.loadFrameData(fighterName: fighterName)
-//    }
     
     var body: some View {
         ZStack {
             List {
-                FighterPNG(name: frameVM.repository.fighterName)
+                FighterPNG(name: frameVM.fighterName)
                 ForEach(frameVM.frameDatas) { data in
                     Section(header: Text(data.name)) {
                         HStack {
@@ -223,7 +220,7 @@ struct FrameDetaleView: View {
             }
             if isSheet {
                 ZStack(alignment: .topLeading) {
-                    WebView(fighterName: self.frameVM.repository.fighterName)
+                    WebView(fighterName: self.frameVM.fighterName)
                 }
                 .zIndex(1)
                 .transition(.move(edge: .bottom))
@@ -232,7 +229,7 @@ struct FrameDetaleView: View {
             }
         }
         .navigationBarBackButtonHidden(isSheet)
-        .navigationBarTitle(isSheet ? Text("") : Text(japName(self.frameVM.repository.fighterName)), displayMode: isSheet ? .inline : .automatic)
+        .navigationBarTitle(isSheet ? Text("") : Text(japName(self.fighterName)), displayMode: isSheet ? .inline : .automatic)
         .navigationBarItems(
             leading:
             Button(action: {

@@ -24,7 +24,7 @@ struct NoteDetailView: View {
         ZStack(alignment: .bottomTrailing) {
             // 入力中ではなく、isIconSettingがtrueの時表示
             MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
-            // アイコン設
+            // アイコン設定
             Button(action: {
                 self.isIconSetting.toggle()
                 self.isBeginEditing = false

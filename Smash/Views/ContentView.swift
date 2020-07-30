@@ -20,14 +20,34 @@ struct ContentView: View {
             } else if self.index == 1 {
                 AnalysisView()
             } else if self.index == 2 {
-                NoteView(isTabbarHidden: $isTabbarHidden)
+                NoteView()
             } else {
-                FrameView(isTabbarHidden: $isTabbarHidden)
+                FrameView()
             }
             if !isTabbarHidden {
                 CustomTabs(index: $index)
             }
         }
+//        TabView {
+//            RecordView()
+//                .tabItem {
+//                    Image("battle")
+//                        .renderingMode(.template)
+//            }
+//            AnalysisView()
+//                .tabItem {
+//                    Image("analysis")
+//                        .renderingMode(.template)
+//            }
+//            NoteView(isTabbarHidden: $isTabbarHidden)
+//                .tabItem {
+//                    Image(systemName: "square.and.pencil")
+//            }
+//            FrameView(isTabbarHidden: $isTabbarHidden)
+//                .tabItem {
+//                    Image(systemName: "text.justify")
+//            }
+//        }
         .accentColor(.orange)
     }
 

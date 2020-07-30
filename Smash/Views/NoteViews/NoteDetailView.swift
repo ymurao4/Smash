@@ -7,11 +7,11 @@
 //
 
 import SwiftUI
-import ExytePopupView
 import WaterfallGrid
 
 struct NoteDetailView: View {
 
+    @Environment (\.colorScheme) var colorScheme:ColorScheme
     @ObservedObject var noteCellVM: NoteCellViewModel
 
     @State private var isBeginEditing: Bool = false
@@ -21,9 +21,22 @@ struct NoteDetailView: View {
     var onCommit: (Note) -> (Void) = { _ in }
 
     var body: some View {
-        ZStack(alignment: .bottomTrailing) {
+        ZStack(alignment: .top) {
             // 入力中ではなく、isIconSettingがtrueの時表示
             MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
+            // pop up icon
+            if isIconSetting && !isBeginEditing {
+                GeometryReader { _ in
+                    SelectFighterIcon(noteCellVM: self.noteCellVM, isIconSetting: self.$isIconSetting)
+                }
+                .background(Color.black.opacity(0.65))
+                .edgesIgnoringSafeArea(.all)
+                .onTapGesture {
+                    withAnimation {
+                        self.isIconSetting = false
+                    }
+                }
+            }
         }
         .padding(.horizontal, 10)
         .navigationBarTitle(Text(""), displayMode: .inline)
@@ -31,7 +44,9 @@ struct NoteDetailView: View {
             // 入力中の時は、”Done”, iconをタップ時、popup
             HStack {
                 Button(action: {
-                    self.isIconSetting.toggle()
+                    withAnimation {
+                        self.isIconSetting.toggle()
+                    }
                     self.isBeginEditing = false
                     UIApplication.shared.endEditing()
                 }) {
@@ -41,7 +56,7 @@ struct NoteDetailView: View {
                     } else {
                         Image(systemName: "plus")
                             .resizable()
-                            .frame(width: 15, height: 15)
+                            .frame(width: 20, height: 20)
                     }
                 }
                 if isBeginEditing {
@@ -57,13 +72,6 @@ struct NoteDetailView: View {
             .onDisappear {
                 self.onCommit(self.noteCellVM.note)
         }
-        .popup(isPresented: $isIconSetting, position: .bottom, closeOnTap: true, closeOnTapOutside: true) {
-            SelectFighterIcon(noteCellVM: self.noteCellVM, isIconSetting: self.$isIconSetting)
-                .frame(maxHeight: UIScreen.main.bounds.height / 2)
-                .background(Color(UIColor.systemGray2))
-                .cornerRadius(30)
-        }
-        .zIndex(1)
         .onAppear {
 
             // navigationbarの高さを取得
@@ -81,17 +89,42 @@ struct SelectFighterIcon: View {
     @Binding var isIconSetting: Bool
 
     var body: some View {
-        WaterfallGrid(S.fightersArray, id: \.self) { fighter in
-            Button(action: {
-                self.noteCellVM.note.fighterName = fighter[1]
-                self.isIconSetting = false
-            }) {
-                FighterPDF(name: fighter[1])
-                    .frame(width: 30, height: 30)
+        VStack {
+            WaterfallGrid(S.fightersArray, id: \.self) { fighter in
+                Button(action: {
+                    self.noteCellVM.note.fighterName = fighter[1]
+                    withAnimation {
+                        self.isIconSetting = false
+                    }
+                }) {
+                    FighterPDF(name: fighter[1])
+                        .frame(width: 30, height: 30)
+                }
             }
+            .gridStyle(columns: 8, spacing: 8, padding: EdgeInsets(top: 15, leading: 10, bottom: 15, trailing: 10))
+            .scrollOptions(direction: .vertical, showsIndicators: false)
+            .background(Color(UIColor.systemGray))
+            .frame(maxHeight: UIScreen.main.bounds.height / 2)
+            .cornerRadius(30)
+            .animation(.easeInOut(duration: 2))
+            .offset(y: 15)
+
+            // off button
+            Button(action: {
+                self.noteCellVM.note.fighterName = ""
+                withAnimation {
+                    self.isIconSetting = false
+                }
+            }) {
+                Image(systemName: "multiply")
+                    .resizable()
+                    .frame(width: 20, height: 20)
+                    .padding()
+            }
+            .background(Color(UIColor.systemGray))
+            .cornerRadius(30)
+            .padding(.top, 20)
         }
-        .gridStyle(columns: 8, spacing: 8, padding: EdgeInsets(top: 30, leading: 10, bottom: 0, trailing: 10))
-        .scrollOptions(direction: .vertical, showsIndicators: false)
     }
 
 }

@@ -202,9 +202,9 @@
 		04149A4924C7D50100F2AD6F /* Repositories */ = {
 			isa = PBXGroup;
 			children = (
-				0417B6C624C9689B00BBFF3B /* FrameRepository.swift */,
 				0491566024CE9BA8003D8E32 /* RecordRepository.swift */,
 				0447676424CEB9380019B5E9 /* NoteRepository.swift */,
+				0417B6C624C9689B00BBFF3B /* FrameRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";

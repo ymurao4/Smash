@@ -14,9 +14,9 @@ struct FrameDetaleView: View {
 
     @ObservedObject var frameVM = FrameViewModel()
 
-    @State var isSheet: Bool = false
+    @State  var isSheet: Bool = false
 
-    private var japName = { (name: String) -> String in
+    var japName = { (name: String) -> String in
         switch name {
         case "mario":
             return "マリオ"
@@ -189,10 +189,11 @@ struct FrameDetaleView: View {
         }
     }
 
+    @State var fighterName: String
 
-    init(fighterName: String) {
-        frameVM.loadFrameData(fighterName: fighterName)
-    }
+//    init(fighterName: String) {
+//            frameVM.loadFrameData(fighterName: fighterName)
+//    }
     
     var body: some View {
         ZStack {
@@ -254,6 +255,9 @@ struct FrameDetaleView: View {
                 }
             }
         )
+            .onAppear {
+                self.frameVM.loadFrameData(fighterName: self.fighterName)
+        }
     }
 }
 

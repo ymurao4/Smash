@@ -15,8 +15,9 @@ struct FrameDetaleView: View {
     @ObservedObject var frameVM = FrameViewModel()
 
     @State  var isSheet: Bool = false
+    @State var fighterName: String
 
-    var japName = { (name: String) -> String in
+    var jaName = { (name: String) -> String in
         switch name {
         case "mario":
             return "マリオ"
@@ -57,7 +58,7 @@ struct FrameDetaleView: View {
         case "zelda":
             return "ゼルダ"
         case "dr_mario":
-            return "ドクラーマリオ"
+            return "ドクターマリオ"
         case "pichu":
             return "ピチュー"
         case "falco":
@@ -159,7 +160,7 @@ struct FrameDetaleView: View {
         case "richter":
             return "リヒター"
         case "king_k_rool":
-            return "キングクルーる"
+            return "キングクルール"
         case "isabelle":
             return "しずえ"
         case "incineroar":
@@ -189,17 +190,13 @@ struct FrameDetaleView: View {
         }
     }
 
-    @State var fighterName: String
 
-//    init(fighterName: String) {
-//            frameVM.loadFrameData(fighterName: fighterName)
-//    }
     
     var body: some View {
         ZStack {
             List {
-                FighterPNG(name: frameVM.repository.fighterName)
-                ForEach(frameVM.frameDatas) { data in
+                FighterPNG(name: fighterName)
+                ForEach(frameVM.frameData) { data in
                     Section(header: Text(data.name)) {
                         HStack {
                             Text(data.frameStartup)
@@ -223,7 +220,7 @@ struct FrameDetaleView: View {
             }
             if isSheet {
                 ZStack(alignment: .topLeading) {
-                    WebView(fighterName: self.frameVM.repository.fighterName)
+                    WebView(fighterName: self.fighterName)
                 }
                 .zIndex(1)
                 .transition(.move(edge: .bottom))
@@ -232,7 +229,7 @@ struct FrameDetaleView: View {
             }
         }
         .navigationBarBackButtonHidden(isSheet)
-        .navigationBarTitle(isSheet ? Text("") : Text(japName(self.frameVM.repository.fighterName)), displayMode: isSheet ? .inline : .automatic)
+        .navigationBarTitle(isSheet ? Text("") : Text(jaName(self.fighterName)), displayMode: isSheet ? .inline : .automatic)
         .navigationBarItems(
             leading:
             Button(action: {

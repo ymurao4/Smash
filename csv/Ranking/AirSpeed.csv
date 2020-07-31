@@ -1,79 +1,79 @@
 ,0,1,2
-0,1,Yoshi,1.344
-1,2,Jigglypuff,1.332
-2,3,Mewtwo,1.313
-3,4-5,Roy,1.302
-4,4-5,Chrom,1.302
-5,6-7,Wolf,1.281
-6,6-7,Lucario,1.281
-7,8,Wario,1.271
-8,9,Zero Suit Samus,1.26
-9,10,Greninja,1.239
-10,11,Captain Falcon,1.218
-11,12-16,Mario,1.208
-12,12-16,Sonic,1.208
-13,12-16,Little Mac,1.208
-14,12-16,Inkling,1.208
-15,12-16,Donkey Kong,1.208
-16,17,Mr. Game & Watch,1.176
-17,18,Mii Swordfighter,1.17
-18,19-24,Sheik,1.155
-19,19-24,Cloud,1.155
-20,19-24,Bowser,1.155
-21,19-24,Duck Hunt,1.155
-22,19-24,Lucas,1.155
-23,19-24,Mega Man,1.155
-24,25,Mii Brawler,1.15
-25,26-28,R.O.B.,1.134
-26,26-28,Bowser Jr,1.134
-27,26-28,Ike,1.134
-28,29-30,Ken,1.12
-29,29-30,Ryu,1.12
-30,31,Shulk,1.113
-31,32,Fox,1.11
-32,33-35,Samus,1.103
-33,33-35,Dark Samus,1.103
-34,33-35,Charizard,1.103
-35,36-37,PAC-MAN,1.092
-36,36-37,Zelda,1.092
-37,38-39,Lucina,1.071
-38,38-39,Marth,1.071
-39,40-43,Ridley,1.05
-40,40-43,Toon Link,1.05
-41,40-43,Rosalina,1.05
-42,40-43,Robin,1.05
-43,44,Meta Knight,1.04
-44,45-47,Pichu,1.029
-45,45-47,Peach,1.029
-46,45-47,Daisy,1.029
-47,48,Isabelle,1.02
-48,49-51,Wii Fit Trainer,1.019
-49,49-51,Bayonetta,1.019
-50,49-51,Corrin,1.019
-51,52,Squirtle,1.01
-52,53,Ness,1.007
-53,54-55,Palutena,1
-54,54-55,Piranha Plant,1
-55,56,Ivysaur,0.998
-56,57-58,Snake,0.987
-57,57-58,Villager,0.987
-58,59,Falco,0.977
-59,60,Young Link,0.966
-60,61,Pikachu,0.957
-61,62,King K. Rool,0.945
-62,63-64,Simon,0.94
-63,63-64,Richter,0.94
-64,65-66,Pit,0.935
-65,65-66,Dark Pit,0.935
-66,67,Mii Gunner,0.93
-67,68-69,Link,0.924
-68,68-69,Diddy Kong,0.924
-69,70,Dr. Mario,0.9238784
-70,71,Incineroar,0.88
-71,72,Nana,0.8715
-72,73,Olimar,0.861
-73,74,Kirby,0.84
-74,75-76,Popo,0.83
-75,75-76,Ganondorf,0.83
-76,77,Luigi,0.77
-77,78,King Dedede,0.735
+0,1,yoshi,1.344
+1,2,jigglypuff,1.332
+2,3,mewtwo,1.313
+3,4-5,roy,1.302
+4,4-5,chrom,1.302
+5,6-7,wolf,1.281
+6,6-7,lucario,1.281
+7,8,wario,1.271
+8,9,zero_suit_samus,1.26
+9,10,greninja,1.239
+10,11,captain_falcon,1.218
+11,12-16,mario,1.208
+12,12-16,sonic,1.208
+13,12-16,little_mac,1.208
+14,12-16,inkling,1.208
+15,12-16,donkey_kong,1.208
+16,17,mr_game_and_watch,1.176
+17,18,mii_swordfighter,1.17
+18,19-24,sheik,1.155
+19,19-24,cloud,1.155
+20,19-24,bowser,1.155
+21,19-24,duck_hunt,1.155
+22,19-24,lucas,1.155
+23,19-24,mega_man,1.155
+24,25,mii_brawler,1.15
+25,26-28,rob,1.134
+26,26-28,bowser_jr,1.134
+27,26-28,ike,1.134
+28,29-30,ken,1.12
+29,29-30,ryu,1.12
+30,31,shulk,1.113
+31,32,fox,1.11
+32,33-35,samus,1.103
+33,33-35,dark_samus,1.103
+34,33-35,pt_charizard,1.103
+35,36-37,pac_man,1.092
+36,36-37,zelda,1.092
+37,38-39,lucina,1.071
+38,38-39,marth,1.071
+39,40-43,ridley,1.05
+40,40-43,toon_link,1.05
+41,40-43,rosalina_and_luma,1.05
+42,40-43,robin,1.05
+43,44,meta_knight,1.04
+44,45-47,pichu,1.029
+45,45-47,peach,1.029
+46,45-47,daisy,1.029
+47,48,isabelle,1.02
+48,49-51,wii_fit_trainer,1.019
+49,49-51,bayonetta,1.019
+50,49-51,corrin,1.019
+51,52,pt_squirtle,1.01
+52,53,ness,1.007
+53,54-55,palutena,1
+54,54-55,piranha_plant,1
+55,56,pt_ivysaur,0.998
+56,57-58,snake,0.987
+57,57-58,villager,0.987
+58,59,falco,0.977
+59,60,young_link,0.966
+60,61,pikachu,0.957
+61,62,king_k_rool,0.945
+62,63-64,simon,0.94
+63,63-64,richter,0.94
+64,65-66,pit,0.935
+65,65-66,dark_pit,0.935
+66,67,mii_gunner,0.93
+67,68-69,link,0.924
+68,68-69,diddy_kong,0.924
+69,70,dr_mario,0.9238784
+70,71,incineroar,0.88
+71,72,ice_climber,0.8715
+72,73,olimar,0.861
+73,74,kirby,0.84
+74,75-76,ice_climber,0.83
+75,75-76,ganondorf,0.83
+76,77,luigi,0.77
+77,78,king_dedede,0.735

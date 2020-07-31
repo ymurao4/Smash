@@ -11,28 +11,24 @@ import Combine
 
 class FrameViewModel: ObservableObject {
 
-    @Published var repository = FrameRepository()
-    @Published var frameDatas = [Frame]()
+    @Published var frameRepository = FrameRepository()
+    @Published var frameData = [Frame]()
 
     private var cancellables = Set<AnyCancellable>()
 
     init() {
-        repository.$results.map { results in
+        frameRepository.$frameResults.map { results in
             results.map { result in
-                guard result[0] != "" else {
-                    return Frame(name: "", frameStartup: "", totalFrames: "", onShield: "", activeOn: "")
-                }
             return  Frame(name: result[1], frameStartup: result[2], totalFrames: result[3], onShield: result[4], activeOn: result[5])
             }
         }
-        .assign(to: \.frameDatas, on: self)
+        .assign(to: \.frameData, on: self)
         .store(in: &cancellables)
     }
 
     func loadFrameData(fighterName: String) {
         DispatchQueue.main.async {
-            self.repository.fighterName = fighterName
-            self.repository.loadData()
+            self.frameRepository.loadData(fighterName: fighterName)
         }
     }
 

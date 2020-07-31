@@ -3,7 +3,7 @@ import csv
 import shutil
 from bs4 import BeautifulSoup
 
-urlNames = ['AirSpeed', 'FallSpeed', 'DashSpeed', 'RunSpeed', 'WalkSpeed', 'Weight']
+urlNames = ['AirSpeed', 'FallSpeed', 'DashSpeed', 'RunSpeed', 'WalkSpeed', 'Weight', 'AirAcceleration']
 
 for urlName in urlNames:
   url = requests.get('https://kuroganehammer.com/Ultimate/' + urlName)

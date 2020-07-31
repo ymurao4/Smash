@@ -1,5 +1,5 @@
 //
-//  FrameRepository.swift
+//  RankingRepository.swift
 //  Smash
 //
 //  Created by 村尾慶伸 on 2020/07/31.
@@ -8,17 +8,16 @@
 
 import Foundation
 
-import Foundation
+class RankingRepository: ObservableObject {
 
-class FrameRepository: ObservableObject {
+    @Published var rankingResults: [[String]] = []
 
-    @Published var frameResults: [[String]] = []
+    func loadData(rankingName: String) {
 
-    func loadData(fighterName: String) {
+        rankingResults = []
 
-        frameResults = []
+        guard let path = Bundle.main.path(forResource: "csv/Ranking/\(rankingName)", ofType: "csv") else {
 
-        guard let path = Bundle.main.path(forResource: "csv/Frame/\(fighterName)", ofType: "csv") else {
             return
         }
 
@@ -26,13 +25,13 @@ class FrameRepository: ObservableObject {
             let csvString = try String(contentsOfFile: path, encoding: String.Encoding.utf8)
 
             let rows = csvString.components(separatedBy: .newlines)
+
             for row in rows {
                 let columns = row.components(separatedBy: ",")
                 if columns[0] != "" {
-                    frameResults.append(columns)
+                    rankingResults.append(columns)
                 }
             }
-
         } catch {
             print("Error loading csv file: \(error.localizedDescription)")
         }

@@ -13,28 +13,27 @@ struct FrameView: View {
 
     var body: some View {
 
-        NavigationView {
-            VStack {
-                WaterfallGrid(0..<S.frameFighterArray.count, id: \.self) { index in
-                    NavigationLink(destination: FrameDetaleView(fighterName: S.frameFighterArray[index])) {
-                        FighterPNG(name: S.frameFighterArray[index])
-                            .frame(width: 100, height: 100)
-                            .background(Color.orange.opacity(0.8))
-                            .cornerRadius(5)
-                    }
+        VStack {
+            WaterfallGrid(0..<S.frameFighterArray.count, id: \.self) { index in
+                NavigationLink(destination: FrameDetaleView(fighterName: S.frameFighterArray[index])) {
+                    FighterPNG(name: S.frameFighterArray[index])
+                        .frame(width: 100, height: 100)
+                        .background(Color.orange.opacity(0.8))
+                        .cornerRadius(5)
                 }
-                .gridStyle(
-                    columns: 3,
-                    spacing: 20,
-                    padding: EdgeInsets(top: 10, leading: 10, bottom: 60, trailing: 10)
-                )
-                    .scrollOptions(
-                        direction: .vertical,
-                        showsIndicators: false
-                )
             }
-            .navigationBarTitle("一覧")
+            .gridStyle(
+                columns: 3,
+                spacing: 20,
+                padding: EdgeInsets(top: 10, leading: 10, bottom: 60, trailing: 10)
+            )
+                .scrollOptions(
+                    direction: .vertical,
+                    showsIndicators: false
+            )
         }
+        .navigationBarTitle("フレーム表")
+
     }
 }
 

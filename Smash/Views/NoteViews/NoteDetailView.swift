@@ -119,6 +119,7 @@ struct SelectFighterIcon: View {
                 Image(systemName: "multiply")
                     .resizable()
                     .frame(width: 20, height: 20)
+                    .foregroundColor(.white)
                     .padding()
             }
             .background(Color(UIColor.systemGray))

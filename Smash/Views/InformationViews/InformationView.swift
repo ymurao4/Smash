@@ -11,30 +11,36 @@ import WaterfallGrid
 
 struct InformationView: View {
 
-    private let kindRaniking = [["AirAcceleration", "空中加速", "victory_roselina"], ["AirSpeed", "空中移動", "victory_yoshi"], ["FallSpeed", "落下", "victory_greninja"], ["DashSpeed", "ダッシュ", "fox_illusion"], ["WalkSpeed", "歩行", "victory_luigi"], ["RunSpeed", "走行", "victory_sonic"], ["Weight", "重量", "bowser_bomb"], ["Frame", "フレーム表", "wario_bike"]]
+    private let kindRaniking = [["空中加速", "AirAcceleration"], ["空中移動", "AirSpeed"], ["落下", "FallSpeed"], ["ダッシュ", "DashSpeed"], ["歩行", "WalkSpeed"], ["走行", "RunSpeed"], ["重量", "Weight"], ["フレーム表", "Frame"]]
 
     var body: some View {
         NavigationView {
             WaterfallGrid(0..<kindRaniking.count, id: \.self) { index in
-                VStack {
-                    Button(action: {
-
-                    }) {
-                        Image(self.kindRaniking[index][0])
+                NavigationLink(destination: Group {
+                    if index != 7 {
+                        RankingView(rankingName: self.kindRaniking[index])
+                    } else {
+                        FrameView()
+                    }
+                }) {
+                    VStack {
+                        Image(self.kindRaniking[index][1])
                             .renderingMode(.original)
                             .resizable()
                             .scaledToFit()
+                            .mask(CustomShape(radius: 20))
+                        Text(self.kindRaniking[index][0])
+                            .font(.headline)
+                            .padding(.bottom, 5)
                     }
-                    .mask(CustomShape(radius: 20))
-                    Text(self.kindRaniking[index][1])
+                        // cornerradiusだと角が削れる
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 20)
+                            .stroke(Color.orange, lineWidth: 3)
+                    )
                 }
-                    // cornerradiusだと角が削れる
-                .overlay(
-                    RoundedRectangle(cornerRadius: 20)
-                        .stroke(Color.orange, lineWidth: 3)
-                )
             }
-            .gridStyle(columns: 2, spacing: 10, padding: EdgeInsets(top: 10, leading: 10, bottom: 30, trailing: 10))
+            .gridStyle(columns: 2, spacing: 10, padding: EdgeInsets(top: 10, leading: 10, bottom: 60, trailing: 10), animation: .easeOut(duration: 0.3))
             .scrollOptions(direction: .vertical, showsIndicators: false)
             .navigationBarTitle(Text("一覧"), displayMode: .large)
         }
@@ -47,7 +53,7 @@ struct InformationView_Previews: PreviewProvider {
     }
 }
 
-
+// 画像の上だけradius
 struct CustomShape: Shape {
     let radius: CGFloat
 

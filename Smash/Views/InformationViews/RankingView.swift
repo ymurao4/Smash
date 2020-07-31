@@ -1,23 +1,20 @@
 //
-//  FrameDetaleView.swift
+//  RankingView.swift
 //  Smash
 //
-//  Created by 村尾慶伸 on 2020/07/23.
+//  Created by 村尾慶伸 on 2020/07/31.
 //  Copyright © 2020 村尾慶伸. All rights reserved.
 //
 
 import SwiftUI
+import QGrid
 
-struct FrameDetaleView: View {
+struct RankingView: View {
 
-    @Environment (\.colorScheme) var colorScheme:ColorScheme
+    @ObservedObject var rankingVM = RankingViewModel()
+    @State var rankingName: [String] = []
 
-    @ObservedObject var frameVM = FrameViewModel()
-
-    @State  var isSheet: Bool = false
-    @State var fighterName: String
-
-    var japName = { (name: String) -> String in
+    var jaName = { (name: String) -> String in
         switch name {
         case "mario":
             return "マリオ"
@@ -190,71 +187,20 @@ struct FrameDetaleView: View {
         }
     }
 
-
-    
     var body: some View {
-        ZStack {
-            List {
-                FighterPNG(name: fighterName)
-                ForEach(frameVM.frameData) { data in
-                    Section(header: Text(data.name)) {
-                        HStack {
-                            Text(data.frameStartup)
-                            Text("Frame Startup")
-                        }
-                        HStack {
-                            Text(data.totalFrames)
-                            Text("Total Frames")
-                        }
-                        HStack {
-                            Text(data.onShield)
-                            Text("On Shield")
-                        }
-                        HStack {
-                            Text(data.activeOn)
-                            Text("Active On")
-                        }
-                    }
-                    .font(.headline)
-                }
-            }
-            if isSheet {
-                ZStack(alignment: .topLeading) {
-                    WebView(fighterName: self.fighterName)
-                }
-                .zIndex(1)
-                .transition(.move(edge: .bottom))
-                .animation(.default)
-                .edgesIgnoringSafeArea(.bottom)
+        QGrid(rankingVM.rankingData, columns: 5, vSpacing: 5, hSpacing: 5, vPadding: 5, hPadding: 5, isScrollable: true, showScrollIndicators: false) { data in
+            VStack {
+                FighterPNG(name: data.fighterName)
+                    .frame(width: 80, height: 80)
+                Text(data.rank)
+                Text(data.fighterName)
+                Text(data.value)
             }
         }
-        .navigationBarBackButtonHidden(isSheet)
-        .navigationBarTitle(isSheet ? Text("") : Text(japName(self.fighterName)), displayMode: isSheet ? .inline : .automatic)
-        .navigationBarItems(
-            leading:
-            Button(action: {
-                self.isSheet.toggle()
-            }) {
-                if isSheet {
-                    Image(systemName: "multiply")
-                        .resizable()
-                        .frame(width: 20, height: 20)
-                }
-            },
-            trailing:
-            Button(action: {
-                self.isSheet.toggle()
-            }) {
-                if !isSheet {
-                    Image(systemName: "link")
-                        .resizable()
-                        .frame(width: 20, height: 20)
-                }
-            }
-        )
-            .onAppear {
-                self.frameVM.loadFrameData(fighterName: self.fighterName)
+        .edgesIgnoringSafeArea(.bottom)
+        .navigationBarTitle(self.rankingName[0])
+        .onAppear {
+            self.rankingVM.loadRankingData(rankingName: self.rankingName[1])
         }
     }
 }
-

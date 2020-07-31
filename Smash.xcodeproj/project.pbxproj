@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,7 +16,6 @@
 		0409E4CC24C57582000038E1 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E4CB24C57582000038E1 /* RecordView.swift */; };
 		0409E4CE24C57588000038E1 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E4CD24C57588000038E1 /* NoteView.swift */; };
 		04149A4824C7C63400F2AD6F /* RecordCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04149A4724C7C63400F2AD6F /* RecordCellViewModel.swift */; };
-		0417B6C724C9689B00BBFF3B /* FrameRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B6C624C9689B00BBFF3B /* FrameRepository.swift */; };
 		0417B6C924C9A71400BBFF3B /* FrameDetaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B6C824C9A71400BBFF3B /* FrameDetaleView.swift */; };
 		042A465C24CC14FF003A594F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042A465B24CC14FF003A594F /* GoogleService-Info.plist */; };
 		043F629824CC06480005B13C /* NoteCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F629724CC06480005B13C /* NoteCellViewModel.swift */; };
@@ -26,6 +25,9 @@
 		043F62A324CC11BE0005B13C /* AnalysisStageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F62A224CC11BE0005B13C /* AnalysisStageView.swift */; };
 		0447676524CEB9380019B5E9 /* NoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0447676424CEB9380019B5E9 /* NoteRepository.swift */; };
 		044A268B24D394DB0059496C /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A268A24D394DB0059496C /* InformationView.swift */; };
+		044A268D24D3D76A0059496C /* RankingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A268C24D3D76A0059496C /* RankingView.swift */; };
+		044A268F24D3DC4C0059496C /* RankingRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A268E24D3DC4C0059496C /* RankingRepository.swift */; };
+		044A269124D3DD640059496C /* RankingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A269024D3DD640059496C /* RankingViewModel.swift */; };
 		04568CFA24CBC14900FE1841 /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04568CF924CBC14900FE1841 /* NoteDetailView.swift */; };
 		04568CFC24CBEA3C00FE1841 /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04568CFB24CBEA3C00FE1841 /* MultilineTextField.swift */; };
 		04568CFE24CBF19C00FE1841 /* Analysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04568CFD24CBF19C00FE1841 /* Analysis.swift */; };
@@ -44,6 +46,9 @@
 		04A2F9F724CE4813007A5316 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2F9F624CE4813007A5316 /* WebView.swift */; };
 		04A4861924D0F53A008C3C15 /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4861824D0F53A008C3C15 /* HideKeyboard.swift */; };
 		04AE235924CC0384005C8100 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE235824CC0383005C8100 /* NoteViewModel.swift */; };
+		04EDBB8024D3E283009B696B /* Ranking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDBB7F24D3E283009B696B /* Ranking.swift */; };
+		04EDBB8324D3F291009B696B /* QGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 04EDBB8224D3F291009B696B /* QGrid */; };
+		04EDBB8524D4010E009B696B /* FrameRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDBB8424D4010E009B696B /* FrameRepository.swift */; };
 		04F4F24E24C831BF006C2F20 /* FighterPNG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4F24D24C831BF006C2F20 /* FighterPNG.swift */; };
 		04F4F25024C84288006C2F20 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4F24F24C84288006C2F20 /* Frame.swift */; };
 		04F4F25224C8443F006C2F20 /* csv in Resources */ = {isa = PBXBuildFile; fileRef = 04F4F25124C8443E006C2F20 /* csv */; };
@@ -63,7 +68,6 @@
 		0409E4CB24C57582000038E1 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
 		0409E4CD24C57588000038E1 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
 		04149A4724C7C63400F2AD6F /* RecordCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCellViewModel.swift; sourceTree = "<group>"; };
-		0417B6C624C9689B00BBFF3B /* FrameRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameRepository.swift; sourceTree = "<group>"; };
 		0417B6C824C9A71400BBFF3B /* FrameDetaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameDetaleView.swift; sourceTree = "<group>"; };
 		042A465B24CC14FF003A594F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		043F629724CC06480005B13C /* NoteCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCellViewModel.swift; sourceTree = "<group>"; };
@@ -73,6 +77,9 @@
 		043F62A224CC11BE0005B13C /* AnalysisStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisStageView.swift; sourceTree = "<group>"; };
 		0447676424CEB9380019B5E9 /* NoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteRepository.swift; sourceTree = "<group>"; };
 		044A268A24D394DB0059496C /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
+		044A268C24D3D76A0059496C /* RankingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingView.swift; sourceTree = "<group>"; };
+		044A268E24D3DC4C0059496C /* RankingRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RankingRepository.swift; path = Smash/Views/InformationViews/RankingRepository.swift; sourceTree = SOURCE_ROOT; };
+		044A269024D3DD640059496C /* RankingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewModel.swift; sourceTree = "<group>"; };
 		04568CF924CBC14900FE1841 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
 		04568CFB24CBEA3C00FE1841 /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
 		04568CFD24CBF19C00FE1841 /* Analysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analysis.swift; sourceTree = "<group>"; };
@@ -91,6 +98,8 @@
 		04A2F9F624CE4813007A5316 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		04A4861824D0F53A008C3C15 /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
 		04AE235824CC0383005C8100 /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
+		04EDBB7F24D3E283009B696B /* Ranking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ranking.swift; sourceTree = "<group>"; };
+		04EDBB8424D4010E009B696B /* FrameRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameRepository.swift; sourceTree = "<group>"; };
 		04F4F24D24C831BF006C2F20 /* FighterPNG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterPNG.swift; sourceTree = "<group>"; };
 		04F4F24F24C84288006C2F20 /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 		04F4F25124C8443E006C2F20 /* csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = csv; sourceTree = SOURCE_ROOT; };
@@ -105,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EDBB8324D3F291009B696B /* QGrid in Frameworks */,
 				48E073D721060F2734D25D25 /* Pods_Smash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,6 +173,7 @@
 				049239A724C660E3009F301E /* Record.swift */,
 				04568CFD24CBF19C00FE1841 /* Analysis.swift */,
 				046B734224CBB0880093B454 /* Note.swift */,
+				04EDBB7F24D3E283009B696B /* Ranking.swift */,
 				04F4F24F24C84288006C2F20 /* Frame.swift */,
 			);
 			path = Models;
@@ -187,7 +198,7 @@
 				04A2F9F424CE4723007A5316 /* RecordVMs */,
 				049803A624CBF29B004FD1C2 /* AnalysisViewModel.swift */,
 				04A2F9F524CE4735007A5316 /* NoteVMs */,
-				04F4F25324C8445C006C2F20 /* FrameViewModel.swift */,
+				044A269224D3DD710059496C /* InfomationVMs */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -206,7 +217,8 @@
 			children = (
 				0491566024CE9BA8003D8E32 /* RecordRepository.swift */,
 				0447676424CEB9380019B5E9 /* NoteRepository.swift */,
-				0417B6C624C9689B00BBFF3B /* FrameRepository.swift */,
+				044A268E24D3DC4C0059496C /* RankingRepository.swift */,
+				04EDBB8424D4010E009B696B /* FrameRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -227,6 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				044A268A24D394DB0059496C /* InformationView.swift */,
+				044A268C24D3D76A0059496C /* RankingView.swift */,
 				049239B424C6A3AF009F301E /* FrameView.swift */,
 				0417B6C824C9A71400BBFF3B /* FrameDetaleView.swift */,
 				04A2F9F624CE4813007A5316 /* WebView.swift */,
@@ -241,6 +254,15 @@
 				04568CF924CBC14900FE1841 /* NoteDetailView.swift */,
 			);
 			path = NoteViews;
+			sourceTree = "<group>";
+		};
+		044A269224D3DD710059496C /* InfomationVMs */ = {
+			isa = PBXGroup;
+			children = (
+				04F4F25324C8445C006C2F20 /* FrameViewModel.swift */,
+				044A269024D3DD640059496C /* RankingViewModel.swift */,
+			);
+			path = InfomationVMs;
 			sourceTree = "<group>";
 		};
 		049239A924C66AE9009F301E /* Extensions */ = {
@@ -311,6 +333,7 @@
 			);
 			name = Smash;
 			packageProductDependencies = (
+				04EDBB8224D3F291009B696B /* QGrid */,
 			);
 			productName = Smash;
 			productReference = 0409E4B024C574B9000038E1 /* Smash.app */;
@@ -341,6 +364,7 @@
 			);
 			mainGroup = 0409E4A724C574B9000038E1;
 			packageReferences = (
+				04EDBB8124D3F291009B696B /* XCRemoteSwiftPackageReference "QGrid" */,
 			);
 			productRefGroup = 0409E4B124C574B9000038E1 /* Products */;
 			projectDirPath = "";
@@ -414,7 +438,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0409E4B424C574B9000038E1 /* AppDelegate.swift in Sources */,
+				044A268D24D3D76A0059496C /* RankingView.swift in Sources */,
 				0447676524CEB9380019B5E9 /* NoteRepository.swift in Sources */,
+				04EDBB8524D4010E009B696B /* FrameRepository.swift in Sources */,
 				04A2F9F724CE4813007A5316 /* WebView.swift in Sources */,
 				0409E4CE24C57588000038E1 /* NoteView.swift in Sources */,
 				04AE235924CC0384005C8100 /* NoteViewModel.swift in Sources */,
@@ -431,11 +457,11 @@
 				043F62A124CC11B40005B13C /* AnalysisOpponentFighterView.swift in Sources */,
 				04568CFC24CBEA3C00FE1841 /* MultilineTextField.swift in Sources */,
 				0409E4B624C574B9000038E1 /* SceneDelegate.swift in Sources */,
-				0417B6C724C9689B00BBFF3B /* FrameRepository.swift in Sources */,
 				049239B724C6C0A5009F301E /* AddRecordView.swift in Sources */,
 				043F629F24CC119E0005B13C /* AnalysisMyFighterView.swift in Sources */,
 				04568CFE24CBF19C00FE1841 /* Analysis.swift in Sources */,
 				049239A824C660E3009F301E /* Record.swift in Sources */,
+				044A268F24D3DC4C0059496C /* RankingRepository.swift in Sources */,
 				04F4F25024C84288006C2F20 /* Frame.swift in Sources */,
 				04F4F24E24C831BF006C2F20 /* FighterPNG.swift in Sources */,
 				04149A4824C7C63400F2AD6F /* RecordCellViewModel.swift in Sources */,
@@ -445,10 +471,12 @@
 				0409E4B824C574B9000038E1 /* ContentView.swift in Sources */,
 				049239AD24C67B84009F301E /* StagePDF.swift in Sources */,
 				049239AB24C66AFB009F301E /* FighterPDF.swift in Sources */,
+				04EDBB8024D3E283009B696B /* Ranking.swift in Sources */,
 				04F4F25424C8445C006C2F20 /* FrameViewModel.swift in Sources */,
 				044A268B24D394DB0059496C /* InformationView.swift in Sources */,
 				043F629824CC06480005B13C /* NoteCellViewModel.swift in Sources */,
 				049239A624C6608B009F301E /* RecordListViewMdoel.swift in Sources */,
+				044A269124D3DD640059496C /* RankingViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -646,6 +674,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04EDBB8124D3F291009B696B /* XCRemoteSwiftPackageReference "QGrid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Q-Mobile/QGrid";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04EDBB8224D3F291009B696B /* QGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04EDBB8124D3F291009B696B /* XCRemoteSwiftPackageReference "QGrid" */;
+			productName = QGrid;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0409E4A824C574B9000038E1 /* Project object */;
 }

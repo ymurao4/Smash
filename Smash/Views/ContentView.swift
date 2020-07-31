@@ -21,7 +21,7 @@ struct ContentView: View {
             } else if self.index == 2 {
                 NoteView()
             } else {
-                FrameView()
+                InformationView()
             }
             CustomTabs(index: $index)
         }

@@ -25,6 +25,7 @@
 		043F62A124CC11B40005B13C /* AnalysisOpponentFighterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F62A024CC11B40005B13C /* AnalysisOpponentFighterView.swift */; };
 		043F62A324CC11BE0005B13C /* AnalysisStageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F62A224CC11BE0005B13C /* AnalysisStageView.swift */; };
 		0447676524CEB9380019B5E9 /* NoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0447676424CEB9380019B5E9 /* NoteRepository.swift */; };
+		044A268B24D394DB0059496C /* InformationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A268A24D394DB0059496C /* InformationView.swift */; };
 		04568CFA24CBC14900FE1841 /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04568CF924CBC14900FE1841 /* NoteDetailView.swift */; };
 		04568CFC24CBEA3C00FE1841 /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04568CFB24CBEA3C00FE1841 /* MultilineTextField.swift */; };
 		04568CFE24CBF19C00FE1841 /* Analysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04568CFD24CBF19C00FE1841 /* Analysis.swift */; };
@@ -71,6 +72,7 @@
 		043F62A024CC11B40005B13C /* AnalysisOpponentFighterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisOpponentFighterView.swift; sourceTree = "<group>"; };
 		043F62A224CC11BE0005B13C /* AnalysisStageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisStageView.swift; sourceTree = "<group>"; };
 		0447676424CEB9380019B5E9 /* NoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteRepository.swift; sourceTree = "<group>"; };
+		044A268A24D394DB0059496C /* InformationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformationView.swift; sourceTree = "<group>"; };
 		04568CF924CBC14900FE1841 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
 		04568CFB24CBEA3C00FE1841 /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
 		04568CFD24CBF19C00FE1841 /* Analysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analysis.swift; sourceTree = "<group>"; };
@@ -174,7 +176,7 @@
 				0409E4CB24C57582000038E1 /* RecordView.swift */,
 				043F629924CC112B0005B13C /* AnalysisViews */,
 				043F629B24CC114D0005B13C /* NoteViews */,
-				043F629A24CC113D0005B13C /* FrameViews */,
+				043F629A24CC113D0005B13C /* InformationViews */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -221,14 +223,15 @@
 			path = AnalysisViews;
 			sourceTree = "<group>";
 		};
-		043F629A24CC113D0005B13C /* FrameViews */ = {
+		043F629A24CC113D0005B13C /* InformationViews */ = {
 			isa = PBXGroup;
 			children = (
+				044A268A24D394DB0059496C /* InformationView.swift */,
 				049239B424C6A3AF009F301E /* FrameView.swift */,
 				0417B6C824C9A71400BBFF3B /* FrameDetaleView.swift */,
 				04A2F9F624CE4813007A5316 /* WebView.swift */,
 			);
-			path = FrameViews;
+			path = InformationViews;
 			sourceTree = "<group>";
 		};
 		043F629B24CC114D0005B13C /* NoteViews */ = {
@@ -443,6 +446,7 @@
 				049239AD24C67B84009F301E /* StagePDF.swift in Sources */,
 				049239AB24C66AFB009F301E /* FighterPDF.swift in Sources */,
 				04F4F25424C8445C006C2F20 /* FrameViewModel.swift in Sources */,
+				044A268B24D394DB0059496C /* InformationView.swift in Sources */,
 				043F629824CC06480005B13C /* NoteCellViewModel.swift in Sources */,
 				049239A624C6608B009F301E /* RecordListViewMdoel.swift in Sources */,
 			);

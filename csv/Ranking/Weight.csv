@@ -1,5 +1,4 @@
 ,0,1,2
-0,SUPER HEAVYWEIGHT,,
 1,1,Bowser,135
 2,2,King K. Rool,133
 3,3-4,Donkey Kong,127
@@ -7,7 +6,6 @@
 5,5,Ganondorf,118
 6,6-7,Charizard,116
 7,6-7,Incineroar,116
-8,HEAVYWEIGHT,,
 9,8,Piranha Plant,112
 10,9-11,Samus,108
 11,9-11,Dark Samus,108
@@ -26,7 +24,6 @@
 24,23-24,Ken,103
 25,23-24,Ryu,103
 26,25,Mega Man,102
-27,MIDDLEWEIGHT,,
 28,26-27,Cloud,100
 29,26-27,Mii Swordfighter,100
 30,28-30,Corrin,98
@@ -55,7 +52,6 @@
 53,51-53,Lucina,90
 54,51-53,Marth,90
 55,51-53,Diddy Kong,90
-56,LIGHTWEIGHT,,
 57,54-55,Peach,89
 58,54-55,Daisy,89
 59,56-58,Isabelle,88
@@ -65,7 +61,6 @@
 63,60-61,Sonic,86
 64,60-61,Duck Hunt,86
 65,62,Zelda,85
-66,FEATHERWEIGHT,,
 67,63-64,Rosalina,82
 68,63-64,Falco,82
 69,65,Bayonetta,81
@@ -79,6 +74,5 @@
 77,72-73,Fox,77
 78,74-75,M. Game & Watch,75
 79,74-75,Squirtle,75
-80,BALLOONWEIGHT,,
 81,76,Jigglypuff,68
 82,77,Pichu,62

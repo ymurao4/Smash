@@ -23,6 +23,7 @@ struct NoteDetailView: View {
     var body: some View {
         ZStack(alignment: .top) {
             // 入力中ではなく、isIconSettingがtrueの時表示
+            // TODO: - paddingを入れるかどうか
             MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
             // pop up icon
             if isIconSetting && !isBeginEditing {
@@ -38,7 +39,6 @@ struct NoteDetailView: View {
                 }
             }
         }
-        .padding(.horizontal, 10)
         .navigationBarTitle(Text(""), displayMode: .inline)
         .navigationBarItems(trailing:
             // 入力中の時は、”Done”, iconをタップ時、popup

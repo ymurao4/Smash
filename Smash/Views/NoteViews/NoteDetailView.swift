@@ -9,6 +9,7 @@
 import SwiftUI
 import WaterfallGrid
 
+
 struct NoteDetailView: View {
 
     @Environment (\.colorScheme) var colorScheme:ColorScheme
@@ -26,18 +27,19 @@ struct NoteDetailView: View {
             // TODO: - paddingを入れるかどうか
             MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
             // pop up icon
-            if isIconSetting && !isBeginEditing {
-                GeometryReader { _ in
-                    SelectFighterIcon(noteCellVM: self.noteCellVM, isIconSetting: self.$isIconSetting)
-                }
-                .background(Color.black.opacity(0.65))
-                .edgesIgnoringSafeArea(.all)
-                .onTapGesture {
-                    withAnimation {
-                        self.isIconSetting = false
-                    }
-                }
-            }
+//            if isIconSetting && !isBeginEditing {
+//                GeometryReader { _ in
+//                    SelectFighterIcon(noteCellVM: self.noteCellVM, isIconSetting: self.$isIconSetting)
+//                }
+//                .background(Color.black.opacity(0.65))
+//                .edgesIgnoringSafeArea(.all)
+//                .onTapGesture {
+//                    withAnimation {
+//                        self.isIconSetting = false
+//                    }
+//                }
+//            }
+            
         }
         .navigationBarTitle(Text(""), displayMode: .inline)
         .navigationBarItems(trailing:

@@ -17,6 +17,7 @@
 		0409E4CE24C57588000038E1 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E4CD24C57588000038E1 /* NoteView.swift */; };
 		04149A4824C7C63400F2AD6F /* RecordCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04149A4724C7C63400F2AD6F /* RecordCellViewModel.swift */; };
 		0417B6C924C9A71400BBFF3B /* FrameDetaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B6C824C9A71400BBFF3B /* FrameDetaleView.swift */; };
+		04196AF524D4E5340098EA5C /* PartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 04196AF424D4E5340098EA5C /* PartialSheet */; };
 		042A465C24CC14FF003A594F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042A465B24CC14FF003A594F /* GoogleService-Info.plist */; };
 		043F629824CC06480005B13C /* NoteCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F629724CC06480005B13C /* NoteCellViewModel.swift */; };
 		043F629D24CC11780005B13C /* AnalysisMainFighterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F629C24CC11780005B13C /* AnalysisMainFighterView.swift */; };
@@ -47,7 +48,6 @@
 		04A4861924D0F53A008C3C15 /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4861824D0F53A008C3C15 /* HideKeyboard.swift */; };
 		04AE235924CC0384005C8100 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE235824CC0383005C8100 /* NoteViewModel.swift */; };
 		04EDBB8024D3E283009B696B /* Ranking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDBB7F24D3E283009B696B /* Ranking.swift */; };
-		04EDBB8324D3F291009B696B /* QGrid in Frameworks */ = {isa = PBXBuildFile; productRef = 04EDBB8224D3F291009B696B /* QGrid */; };
 		04EDBB8524D4010E009B696B /* FrameRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDBB8424D4010E009B696B /* FrameRepository.swift */; };
 		04F4F24E24C831BF006C2F20 /* FighterPNG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4F24D24C831BF006C2F20 /* FighterPNG.swift */; };
 		04F4F25024C84288006C2F20 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4F24F24C84288006C2F20 /* Frame.swift */; };
@@ -114,7 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04EDBB8324D3F291009B696B /* QGrid in Frameworks */,
+				04196AF524D4E5340098EA5C /* PartialSheet in Frameworks */,
 				48E073D721060F2734D25D25 /* Pods_Smash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,7 +333,7 @@
 			);
 			name = Smash;
 			packageProductDependencies = (
-				04EDBB8224D3F291009B696B /* QGrid */,
+				04196AF424D4E5340098EA5C /* PartialSheet */,
 			);
 			productName = Smash;
 			productReference = 0409E4B024C574B9000038E1 /* Smash.app */;
@@ -364,7 +364,7 @@
 			);
 			mainGroup = 0409E4A724C574B9000038E1;
 			packageReferences = (
-				04EDBB8124D3F291009B696B /* XCRemoteSwiftPackageReference "QGrid" */,
+				04196AF324D4E5340098EA5C /* XCRemoteSwiftPackageReference "PartialSheet" */,
 			);
 			productRefGroup = 0409E4B124C574B9000038E1 /* Products */;
 			projectDirPath = "";
@@ -676,21 +676,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		04EDBB8124D3F291009B696B /* XCRemoteSwiftPackageReference "QGrid" */ = {
+		04196AF324D4E5340098EA5C /* XCRemoteSwiftPackageReference "PartialSheet" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Q-Mobile/QGrid";
+			repositoryURL = "https://github.com/AndreaMiotto/PartialSheet";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 0.1.4;
+				minimumVersion = 2.1.6;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		04EDBB8224D3F291009B696B /* QGrid */ = {
+		04196AF424D4E5340098EA5C /* PartialSheet */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 04EDBB8124D3F291009B696B /* XCRemoteSwiftPackageReference "QGrid" */;
-			productName = QGrid;
+			package = 04196AF324D4E5340098EA5C /* XCRemoteSwiftPackageReference "PartialSheet" */;
+			productName = PartialSheet;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

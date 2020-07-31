@@ -21,35 +21,41 @@ struct RecordView: View {
 
     var body: some View {
         NavigationView{
-            List{
-                ForEach(recordListVM.recordCellViewModels) { recordCellVM in
-                    ResultCell(recordCellVM: recordCellVM)
-                }
-                .onDelete(perform: showDeleteAlert)
-                .alert(isPresented: $isAlert) {
-                    Alert(
-                        title: Text("本当に削除しますか？"),
-                        message: Text("この対戦記録を削除します。"),
-                        primaryButton: .default(Text("削除"),
-                                                action: {
-                                                    self.recordListVM.deleteRecord(recordID: self.recordID)
-                        }),
-                        secondaryButton: .cancel(Text("キャンセル"))
-                    )
-                }
-                // tabbarで隠れてしまうため
-                Text("")
-            }
-            .navigationBarTitle("対戦記録")
-            .navigationBarItems(trailing:
+            VStack(alignment: .leading) {
                 Button(action: {
                     self.isSheet.toggle()
                 }) {
-                    Image(systemName: "plus")
-                        .resizable()
-                        .frame(width: 20, height: 20)
+                    HStack {
+                        Image(systemName: "plus.circle.fill")
+                            .resizable()
+                            .frame(width: 20, height: 20)
+                        Text("記録を追加")
+                    }
                 }
-            )
+                .padding(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
+                List{
+                    ForEach(recordListVM.recordCellViewModels) { recordCellVM in
+                        ResultCell(recordCellVM: recordCellVM)
+                    }
+                    .onDelete(perform: showDeleteAlert)
+                    .alert(isPresented: $isAlert) {
+                        Alert(
+                            title: Text("本当に削除しますか？"),
+                            message: Text("この対戦記録を削除します。"),
+                            primaryButton: .default(Text("削除"),
+                                                    action: {
+                                                        self.recordListVM.deleteRecord(recordID: self.recordID)
+                            }),
+                            secondaryButton: .cancel(Text("キャンセル"))
+                        )
+                    }
+                    // tabbarで隠れてしまうため
+                    Text("")
+                }
+            }
+            .padding(.horizontal, 10)
+            .navigationBarTitle("対戦記録")
+            .navigationBarItems(trailing: EditButton())
         }
         .sheet(isPresented: $isSheet) {
             AddRecordView()
@@ -68,7 +74,7 @@ struct ResultCell: View {
 
     @ObservedObject var recordCellVM: RecordCelViewModel
 
-     var stageName = { (name: String) -> String in
+    var stageName = { (name: String) -> String in
         switch name {
         case "syuten":
             return "終点"
@@ -119,6 +125,5 @@ struct ResultCell: View {
                     .font(.caption)
             }
         }
-        .padding(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))
     }
 }

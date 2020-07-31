@@ -11,7 +11,7 @@ import WaterfallGrid
 
 struct InformationView: View {
 
-    private let kindRaniking = [["AirAcceleration", "空中加速", "victory_roselina"], ["AirSpeed", "空中移動", "victory_yoshi"], ["FallSpeed", "落下", "victory_greninja"], ["DashSpeed", "ダッシュ", "fox_illusion"], ["WalkSpeed", "歩行", "victory_luigi"], ["runSpeed", "走行", "victory_sonic"], ["Weight", "重量", "bowser_bomb"], ["", "フレーム表", "wario_bike"]]
+    private let kindRaniking = [["AirAcceleration", "空中加速", "victory_roselina"], ["AirSpeed", "空中移動", "victory_yoshi"], ["FallSpeed", "落下", "victory_greninja"], ["DashSpeed", "ダッシュ", "fox_illusion"], ["WalkSpeed", "歩行", "victory_luigi"], ["RunSpeed", "走行", "victory_sonic"], ["Weight", "重量", "bowser_bomb"], ["Frame", "フレーム表", "wario_bike"]]
 
     var body: some View {
         NavigationView {
@@ -20,7 +20,7 @@ struct InformationView: View {
                     Button(action: {
 
                     }) {
-                        Image(self.kindRaniking[index][2])
+                        Image(self.kindRaniking[index][0])
                             .renderingMode(.original)
                             .resizable()
                             .scaledToFit()

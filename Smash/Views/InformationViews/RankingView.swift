@@ -7,7 +7,6 @@
 //
 
 import SwiftUI
-import QGrid
 
 struct RankingView: View {
 
@@ -39,7 +38,7 @@ struct RankingView: View {
         case "ness":
             return "ネス"
         case "captain_falcon":
-            return "キャプテン・ファルコン"
+            return "キャプテン・\nファルコン"
         case "jigglypuff":
             return "プリン"
         case "peach":
@@ -55,7 +54,7 @@ struct RankingView: View {
         case "zelda":
             return "ゼルダ"
         case "dr_mario":
-            return "ドクラーマリオ"
+            return "ドクターマリオ"
         case "pichu":
             return "ピチュー"
         case "falco":
@@ -75,7 +74,7 @@ struct RankingView: View {
         case "chrom":
             return "クロム"
         case "mr_game_and_watch":
-            return "Mr.ゲーム&ウォッチ"
+            return "Mr.ゲーム&\nウォッチ"
         case "meta_knight":
             return "メタナイト"
         case "pit":
@@ -157,7 +156,7 @@ struct RankingView: View {
         case "richter":
             return "リヒター"
         case "king_k_rool":
-            return "キングクルーる"
+            return "キングクルール"
         case "isabelle":
             return "しずえ"
         case "incineroar":
@@ -188,14 +187,27 @@ struct RankingView: View {
     }
 
     var body: some View {
-        QGrid(rankingVM.rankingData, columns: 5, vSpacing: 5, hSpacing: 5, vPadding: 5, hPadding: 5, isScrollable: true, showScrollIndicators: false) { data in
-            VStack {
-                FighterPNG(name: data.fighterName)
-                    .frame(width: 80, height: 80)
-                Text(data.rank)
-                Text(data.fighterName)
-                Text(data.value)
+        List {
+            ForEach(rankingVM.rankingData) { data in
+                HStack(spacing: 20) {
+                    Text(data.rank)
+                        .frame(width: 50, height: 50)
+                        .background(Color.orange)
+                        .cornerRadius(25)
+                    FighterPNG(name: data.fighterName)
+                        .frame(width: 80, height: 80)
+                    Spacer()
+                    VStack(alignment: .trailing) {
+                        Text(self.jaName(data.fighterName))
+                            .font(.headline)
+                        Text(data.value)
+                            .font(.headline)
+                    }
+                }
             }
+            //tabbarで隠れる
+            Text("")
+            Text("")
         }
         .edgesIgnoringSafeArea(.bottom)
         .navigationBarTitle(self.rankingName[0])

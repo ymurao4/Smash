@@ -8,6 +8,7 @@
 
 import SwiftUI
 import WaterfallGrid
+import QGrid
 
 struct InformationView: View {
 
@@ -15,7 +16,7 @@ struct InformationView: View {
 
     var body: some View {
         NavigationView {
-            WaterfallGrid(0..<kindRaniking.count, id: \.self) { index in
+            WaterfallGrid(0..<self.kindRaniking.count, id: \.self) { index in
                 NavigationLink(destination: Group {
                     if index != 7 {
                         RankingView(rankingName: self.kindRaniking[index])
@@ -34,14 +35,13 @@ struct InformationView: View {
                             .padding(.bottom, 5)
                     }
                         // cornerradiusだと角が削れる
-                    .overlay(
-                        RoundedRectangle(cornerRadius: 20)
-                            .stroke(Color.orange, lineWidth: 3)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 20)
+                                .stroke(Color.orange, lineWidth: 3)
                     )
                 }
             }
-            .gridStyle(columns: 2, spacing: 10, padding: EdgeInsets(top: 10, leading: 10, bottom: 60, trailing: 10), animation: .easeOut(duration: 0.3))
-            .scrollOptions(direction: .vertical, showsIndicators: false)
+            .padding(.horizontal, 10)
             .navigationBarTitle(Text("一覧"), displayMode: .large)
         }
     }
@@ -68,7 +68,7 @@ struct CustomShape: Shape {
         let bl = CGPoint(x: rect.minX, y: rect.maxY)
 
 
-
+        
         // Do stuff here to draw the outline of the mask
         path.move(to: tls)
         path.addRelativeArc(center: tlc, radius: radius, startAngle: Angle.degrees(180), delta: Angle.degrees(90))

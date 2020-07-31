@@ -17,7 +17,7 @@ struct FrameDetaleView: View {
     @State  var isSheet: Bool = false
     @State var fighterName: String
 
-    var japName = { (name: String) -> String in
+    var jaName = { (name: String) -> String in
         switch name {
         case "mario":
             return "マリオ"
@@ -58,7 +58,7 @@ struct FrameDetaleView: View {
         case "zelda":
             return "ゼルダ"
         case "dr_mario":
-            return "ドクラーマリオ"
+            return "ドクターマリオ"
         case "pichu":
             return "ピチュー"
         case "falco":
@@ -160,7 +160,7 @@ struct FrameDetaleView: View {
         case "richter":
             return "リヒター"
         case "king_k_rool":
-            return "キングクルーる"
+            return "キングクルール"
         case "isabelle":
             return "しずえ"
         case "incineroar":
@@ -229,7 +229,7 @@ struct FrameDetaleView: View {
             }
         }
         .navigationBarBackButtonHidden(isSheet)
-        .navigationBarTitle(isSheet ? Text("") : Text(japName(self.fighterName)), displayMode: isSheet ? .inline : .automatic)
+        .navigationBarTitle(isSheet ? Text("") : Text(jaName(self.fighterName)), displayMode: isSheet ? .inline : .automatic)
         .navigationBarItems(
             leading:
             Button(action: {

@@ -16,9 +16,11 @@
 		0409E4CC24C57582000038E1 /* RecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E4CB24C57582000038E1 /* RecordView.swift */; };
 		0409E4CE24C57588000038E1 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E4CD24C57588000038E1 /* NoteView.swift */; };
 		04149A4824C7C63400F2AD6F /* RecordCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04149A4724C7C63400F2AD6F /* RecordCellViewModel.swift */; };
+		0414A55A24D54F6900475D33 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414A55924D54F6900475D33 /* Color.swift */; };
 		0417B6C924C9A71400BBFF3B /* FrameDetaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B6C824C9A71400BBFF3B /* FrameDetaleView.swift */; };
 		04196AF524D4E5340098EA5C /* PartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 04196AF424D4E5340098EA5C /* PartialSheet */; };
 		042A465C24CC14FF003A594F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042A465B24CC14FF003A594F /* GoogleService-Info.plist */; };
+		0437708124D537C000DCED8E /* AnalysisRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437708024D537C000DCED8E /* AnalysisRepository.swift */; };
 		043F629824CC06480005B13C /* NoteCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F629724CC06480005B13C /* NoteCellViewModel.swift */; };
 		043F629D24CC11780005B13C /* AnalysisMainFighterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F629C24CC11780005B13C /* AnalysisMainFighterView.swift */; };
 		043F629F24CC119E0005B13C /* AnalysisMyFighterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F629E24CC119E0005B13C /* AnalysisMyFighterView.swift */; };
@@ -68,8 +70,10 @@
 		0409E4CB24C57582000038E1 /* RecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordView.swift; sourceTree = "<group>"; };
 		0409E4CD24C57588000038E1 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
 		04149A4724C7C63400F2AD6F /* RecordCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCellViewModel.swift; sourceTree = "<group>"; };
+		0414A55924D54F6900475D33 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		0417B6C824C9A71400BBFF3B /* FrameDetaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameDetaleView.swift; sourceTree = "<group>"; };
 		042A465B24CC14FF003A594F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0437708024D537C000DCED8E /* AnalysisRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisRepository.swift; sourceTree = "<group>"; };
 		043F629724CC06480005B13C /* NoteCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCellViewModel.swift; sourceTree = "<group>"; };
 		043F629C24CC11780005B13C /* AnalysisMainFighterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisMainFighterView.swift; sourceTree = "<group>"; };
 		043F629E24CC119E0005B13C /* AnalysisMyFighterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisMyFighterView.swift; sourceTree = "<group>"; };
@@ -217,6 +221,7 @@
 			children = (
 				0491566024CE9BA8003D8E32 /* RecordRepository.swift */,
 				0447676424CEB9380019B5E9 /* NoteRepository.swift */,
+				0437708024D537C000DCED8E /* AnalysisRepository.swift */,
 				044A268E24D3DC4C0059496C /* RankingRepository.swift */,
 				04EDBB8424D4010E009B696B /* FrameRepository.swift */,
 			);
@@ -275,6 +280,7 @@
 				049239B024C68882009F301E /* EdgeBorder.swift */,
 				04568CFB24CBEA3C00FE1841 /* MultilineTextField.swift */,
 				04A4861824D0F53A008C3C15 /* HideKeyboard.swift */,
+				0414A55924D54F6900475D33 /* Color.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -457,8 +463,10 @@
 				043F62A124CC11B40005B13C /* AnalysisOpponentFighterView.swift in Sources */,
 				04568CFC24CBEA3C00FE1841 /* MultilineTextField.swift in Sources */,
 				0409E4B624C574B9000038E1 /* SceneDelegate.swift in Sources */,
+				0437708124D537C000DCED8E /* AnalysisRepository.swift in Sources */,
 				049239B724C6C0A5009F301E /* AddRecordView.swift in Sources */,
 				043F629F24CC119E0005B13C /* AnalysisMyFighterView.swift in Sources */,
+				0414A55A24D54F6900475D33 /* Color.swift in Sources */,
 				04568CFE24CBF19C00FE1841 /* Analysis.swift in Sources */,
 				049239A824C660E3009F301E /* Record.swift in Sources */,
 				044A268F24D3DC4C0059496C /* RankingRepository.swift in Sources */,

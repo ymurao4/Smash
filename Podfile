@@ -6,11 +6,10 @@ target 'Smash' do
   use_frameworks!
 
   # Pods for Smash
-  pod 'WaterfallGrid'
+  pod 'WaterfallGrid', '~> 0.4.0'
   pod 'IQKeyboardManagerSwift'
   pod 'Firebase/Analytics'
   pod 'Firebase/Firestore'
   pod 'Firebase/Auth'
   pod 'FirebaseFirestoreSwift'
-  pod 'ExytePopupView'
 end

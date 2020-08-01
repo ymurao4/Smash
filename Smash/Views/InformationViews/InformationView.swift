@@ -9,19 +9,36 @@
 import SwiftUI
 import WaterfallGrid
 
-struct InformationView: View {
+struct Kind: Hashable {
+    var id: Int
+    var jaName: String
+    var fileName: String
+}
 
-    private let kindRaniking = [["空中加速", "AirAcceleration"], ["空中移動", "AirSpeed"], ["落下", "FallSpeed"], ["ダッシュ", "DashSpeed"], ["歩行", "WalkSpeed"], ["走行", "RunSpeed"], ["重量", "Weight"], ["フレーム表", "Frame"]]
+struct InformationView: View {
+    private let kindRaniking = [["フレーム表", "Frame"], ["空中加速", "AirAcceleration"], ["空中移動", "AirSpeed"], ["落下", "FallSpeed"], ["ダッシュ", "DashSpeed"], ["歩行", "WalkSpeed"], ["走行", "RunSpeed"], ["重量", "Weight"]]
+
+    @State var kinds: [Kind] = [
+        Kind(id: 0, jaName: "フレーム", fileName: "Frame"),
+        Kind(id: 1, jaName: "空中加速", fileName: "AirAcceleration"),
+        Kind(id: 2, jaName: "空中移動", fileName: "AirSpeed"),
+        Kind(id: 3, jaName: "落下", fileName: "FallSpeed"),
+        Kind(id: 4, jaName: "ダッシュ", fileName: "DashSpeed"),
+        Kind(id: 5, jaName: "歩行", fileName: "WalkSpeed"),
+        Kind(id: 6, jaName: "走行", fileName: "RunSpeed"),
+        Kind(id: 7, jaName: "重量", fileName: "Weight")
+    ]
 
     var body: some View {
         NavigationView {
-            VStack {
-                WaterfallGrid(0..<self.kindRaniking.count, id: \.self) { index in
+
+            ScrollView(.vertical) {
+                ForEach(0..<self.kindRaniking.count, id: \.self) { index in
                     NavigationLink(destination: Group {
-                        if index != 7 {
-                            RankingView(rankingName: self.kindRaniking[index])
-                        } else {
+                        if index == 0 {
                             FrameView()
+                        } else {
+                            RankingView(rankingName: self.kindRaniking[index])
                         }
                     }) {
                         VStack {
@@ -40,16 +57,8 @@ struct InformationView: View {
                                     .stroke(Color.orange, lineWidth: 3)
                         )
                     }
+                    .padding(.horizontal, 20)
                 }
-                .gridStyle(
-                    columns: 3,
-                    spacing: 10, padding:
-                    EdgeInsets(top: 5, leading: 10, bottom: 5, trailing: 10)
-                )
-                .scrollOptions(
-                    direction: .vertical,
-                    showsIndicators: false
-                )
             }
             .navigationBarTitle(Text("一覧"), displayMode: .large)
         }
@@ -89,6 +98,3 @@ struct CustomShape: Shape {
         return path
     }
 }
-
-
-

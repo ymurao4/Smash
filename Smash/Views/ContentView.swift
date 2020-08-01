@@ -46,7 +46,7 @@ struct ContentView_Previews: PreviewProvider {
 
 struct CustomTabs: View {
 
-    @Environment (\.colorScheme) var colorScheme:ColorScheme
+    @Environment (\.colorScheme) var colorScheme: ColorScheme
     @Binding var index: Int
 
     var body: some View {
@@ -129,23 +129,4 @@ struct CustomTabs: View {
 
 }
 
-extension Color {
-    static let black = Color.black
-    static let white = Color.white
 
-    static func backgroundColor(for colorScheme: ColorScheme) -> Color {
-        if colorScheme == .dark {
-            return white
-        } else {
-            return black
-        }
-    }
-
-    static func reverseBackgroundColor(for colorScheme: ColorScheme) -> Color {
-        if colorScheme == .dark {
-            return black
-        } else {
-            return white
-        }
-    }
-}

@@ -218,29 +218,13 @@ struct FrameDetaleView: View {
                     .font(.headline)
                 }
             }
-            if isSheet {
-                ZStack(alignment: .topLeading) {
-                    WebView(fighterName: self.fighterName)
-                }
-                .zIndex(1)
-                .transition(.move(edge: .bottom))
-                .animation(.default)
-                .edgesIgnoringSafeArea(.bottom)
+            .sheet(isPresented: $isSheet) {
+                SarafiView(fighterName: self.fighterName)
             }
         }
         .navigationBarBackButtonHidden(isSheet)
         .navigationBarTitle(isSheet ? Text("") : Text(jaName(self.fighterName)), displayMode: isSheet ? .inline : .automatic)
         .navigationBarItems(
-            leading:
-            Button(action: {
-                self.isSheet.toggle()
-            }) {
-                if isSheet {
-                    Image(systemName: "multiply")
-                        .resizable()
-                        .frame(width: 20, height: 20)
-                }
-            },
             trailing:
             Button(action: {
                 self.isSheet.toggle()

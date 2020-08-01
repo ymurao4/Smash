@@ -17,7 +17,6 @@ struct NoteDetailView: View {
     @ObservedObject var noteCellVM: NoteCellViewModel
 
     @State private var isBeginEditing: Bool = false
-    @State private var navBarHeight: CGFloat? = 0
 
     var onCommit: (Note) -> (Void) = { _ in }
 
@@ -31,6 +30,7 @@ struct NoteDetailView: View {
         .navigationBarTitle(Text(""), displayMode: .inline)
         .navigationBarItems(trailing:
             // 入力中の時は、”Done”, iconをタップ時、popup
+            // TODO: リファクタリング
             HStack {
                 Button(action: {
                     // partial sheet
@@ -45,7 +45,7 @@ struct NoteDetailView: View {
                 }) {
                     if self.noteCellVM.note.fighterName != "" && self.noteCellVM.note.fighterName != nil {
                         FighterPDF(name: self.noteCellVM.note.fighterName!)
-                            .frame(width: 25, height: 25)
+                            .frame(width: 30, height: 30)
                     } else {
                         Image(systemName: "plus")
                             .resizable()
@@ -64,13 +64,6 @@ struct NoteDetailView: View {
         )
             .onDisappear {
                 self.onCommit(self.noteCellVM.note)
-        }
-        .onAppear {
-
-            // navigationbarの高さを取得
-            let window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
-            self.navBarHeight = window?.windowScene?.statusBarManager?.statusBarFrame.height
-
         }
     }
 }
@@ -100,6 +93,20 @@ struct SelectFighterIcon: View {
                 direction: .vertical,
                 showsIndicators: false
             )
+
+            Button(action: {
+                self.noteCellVM.note.fighterName = ""
+            }) {
+                HStack {
+                    Image(systemName: "trash")
+                    Text("削除")
+                        .font(.headline)
+                }
+                .padding(EdgeInsets(top: 10, leading: 15, bottom: 10, trailing: 15))
+                .foregroundColor(.white)
+                .background(LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing))
+                .cornerRadius(20)
+            }
         }
         .frame(maxHeight: UIScreen.main.bounds.size.height / 2)
 

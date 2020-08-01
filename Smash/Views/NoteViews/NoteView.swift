@@ -34,7 +34,6 @@ struct NoteView: View {
                     Text("")
                 }
             }
-
             .padding(.horizontal, 20)
             .navigationBarTitle("メモ")
             .navigationBarItems(trailing: EditButton())
@@ -57,8 +56,8 @@ struct NewNoteCell: View {
                     .frame(width: 20, height: 20)
                 Text("メモを追加")
             }
+            .padding(15)
         }
-        .padding(15)
     }
 
 }

@@ -5,7 +5,6 @@
 //  Created by 村尾慶伸 on 2020/07/23.
 //  Copyright © 2020 村尾慶伸. All rights reserved.
 //
-
 import SwiftUI
 
 struct FrameDetaleView: View {
@@ -220,6 +219,7 @@ struct FrameDetaleView: View {
             }
             .sheet(isPresented: $isSheet) {
                 SarafiView(fighterName: self.fighterName)
+                    .edgesIgnoringSafeArea(.bottom)
             }
         }
         .navigationBarBackButtonHidden(isSheet)

@@ -9,16 +9,16 @@
 import SwiftUI
 import WaterfallGrid
 
-struct Kind: Hashable {
+struct Kind: Identifiable {
     var id: Int
     var jaName: String
     var fileName: String
 }
 
 struct InformationView: View {
-    private let kindRaniking = [["フレーム表", "Frame"], ["空中加速", "AirAcceleration"], ["空中移動", "AirSpeed"], ["落下", "FallSpeed"], ["ダッシュ", "DashSpeed"], ["歩行", "WalkSpeed"], ["走行", "RunSpeed"], ["重量", "Weight"]]
 
-    @State var kinds: [Kind] = [
+    // あとで消す
+    @State private var kinds: [Kind] = [
         Kind(id: 0, jaName: "フレーム", fileName: "Frame"),
         Kind(id: 1, jaName: "空中加速", fileName: "AirAcceleration"),
         Kind(id: 2, jaName: "空中移動", fileName: "AirSpeed"),
@@ -31,34 +31,19 @@ struct InformationView: View {
 
     var body: some View {
         NavigationView {
-
-            ScrollView(.vertical) {
-                ForEach(0..<self.kindRaniking.count, id: \.self) { index in
-                    NavigationLink(destination: Group {
-                        if index == 0 {
-                            FrameView()
-                        } else {
-                            RankingView(rankingName: self.kindRaniking[index])
+            ScrollView(.vertical, showsIndicators: false) {
+                VStack {
+                    ForEach(kinds) { kind in
+                        GeometryReader { geometry in
+                            CardView(kind: kind)
+                            .rotation3DEffect(Angle(degrees:
+                                (Double(geometry.frame(in: .global).minY) - 350) / 12
+                            ), axis: (x: 0, y: 10.0, z: 0))
                         }
-                    }) {
-                        VStack {
-                            Image(self.kindRaniking[index][1])
-                                .renderingMode(.original)
-                                .resizable()
-                                .scaledToFit()
-                                .mask(CustomShape(radius: 20))
-                            Text(self.kindRaniking[index][0])
-                                .font(.headline)
-                                .padding(.bottom, 5)
-                        }
-                            // cornerradiusだと角が削れる
-                            .overlay(
-                                RoundedRectangle(cornerRadius: 20)
-                                    .stroke(Color.orange, lineWidth: 3)
-                        )
+                        .frame(width: UIScreen.main.bounds.width * 0.8, height: 220)
                     }
-                    .padding(.horizontal, 20)
                 }
+                .padding(40)
             }
             .navigationBarTitle(Text("一覧"), displayMode: .large)
         }
@@ -96,5 +81,37 @@ struct CustomShape: Shape {
         path.addLine(to: bl)
 
         return path
+    }
+}
+
+struct  CardView: View {
+
+    var kind: Kind
+
+    var body: some View {
+        NavigationLink(destination: Group {
+            if kind.id == 0 {
+                FrameView()
+            } else {
+                RankingView(kind: kind)
+            }
+        }) {
+            VStack {
+                Image(kind.fileName)
+                    .renderingMode(.original)
+                    .resizable()
+                    .scaledToFit()
+                    .mask(CustomShape(radius: 20))
+                Text(kind.jaName)
+                    .font(.headline)
+                    .padding(.bottom, 5)
+            }
+                // cornerradiusだと角が削れる
+                .overlay(
+                    RoundedRectangle(cornerRadius: 20)
+                        .stroke(Color.orange, lineWidth: 3)
+            )
+        }
+        .padding(.horizontal, 20)
     }
 }

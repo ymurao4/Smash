@@ -11,7 +11,8 @@ import SwiftUI
 struct RankingView: View {
 
     @ObservedObject var rankingVM = RankingViewModel()
-    @State var rankingName: [String] = []
+    @State var rankingName: String = ""
+    @State var kind: Kind
 
     var jaName = { (name: String) -> String in
         switch name {
@@ -205,9 +206,9 @@ struct RankingView: View {
             Text("")
         }
         .edgesIgnoringSafeArea(.bottom)
-        .navigationBarTitle(self.rankingName[0])
+        .navigationBarTitle(kind.jaName)
         .onAppear {
-            self.rankingVM.loadRankingData(rankingName: self.rankingName[1])
+            self.rankingVM.loadRankingData(rankingName: self.kind.fileName)
         }
     }
 }

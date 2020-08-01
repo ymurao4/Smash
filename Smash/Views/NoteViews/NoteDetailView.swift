@@ -8,15 +8,15 @@
 
 import SwiftUI
 import WaterfallGrid
-
+import PartialSheet
 
 struct NoteDetailView: View {
 
-    @Environment (\.colorScheme) var colorScheme:ColorScheme
+    @EnvironmentObject var partialSheetManager : PartialSheetManager
+    @Environment (\.colorScheme) var colorScheme: ColorScheme
     @ObservedObject var noteCellVM: NoteCellViewModel
 
     @State private var isBeginEditing: Bool = false
-    @State private var isIconSetting: Bool = false
     @State private var navBarHeight: CGFloat? = 0
 
     var onCommit: (Note) -> (Void) = { _ in }
@@ -26,29 +26,20 @@ struct NoteDetailView: View {
             // 入力中ではなく、isIconSettingがtrueの時表示
             // TODO: - paddingを入れるかどうか
             MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
-            // pop up icon
-//            if isIconSetting && !isBeginEditing {
-//                GeometryReader { _ in
-//                    SelectFighterIcon(noteCellVM: self.noteCellVM, isIconSetting: self.$isIconSetting)
-//                }
-//                .background(Color.black.opacity(0.65))
-//                .edgesIgnoringSafeArea(.all)
-//                .onTapGesture {
-//                    withAnimation {
-//                        self.isIconSetting = false
-//                    }
-//                }
-//            }
-            
+                .padding(10)
         }
         .navigationBarTitle(Text(""), displayMode: .inline)
         .navigationBarItems(trailing:
             // 入力中の時は、”Done”, iconをタップ時、popup
             HStack {
                 Button(action: {
-                    withAnimation {
-                        self.isIconSetting.toggle()
-                    }
+                    // partial sheet
+                    self.partialSheetManager.showPartialSheet({
+                         print("normal sheet dismissed")
+                     }) {
+                         SelectFighterIcon(noteCellVM: self.noteCellVM)
+                     }
+
                     self.isBeginEditing = false
                     UIApplication.shared.endEditing()
                 }) {
@@ -88,46 +79,31 @@ struct NoteDetailView: View {
 struct SelectFighterIcon: View {
 
     @ObservedObject var noteCellVM: NoteCellViewModel
-    @Binding var isIconSetting: Bool
 
     var body: some View {
         VStack {
             WaterfallGrid(S.fightersArray, id: \.self) { fighter in
                 Button(action: {
                     self.noteCellVM.note.fighterName = fighter[1]
-                    withAnimation {
-                        self.isIconSetting = false
-                    }
                 }) {
                     FighterPDF(name: fighter[1])
-                        .frame(width: 30, height: 30)
+                        .frame(width: 40, height: 40)
+                        .background(Color.orange)
+                        .cornerRadius(20)
                 }
             }
-            .gridStyle(columns: 8, spacing: 8, padding: EdgeInsets(top: 15, leading: 10, bottom: 15, trailing: 10))
-            .scrollOptions(direction: .vertical, showsIndicators: false)
-            .background(Color(UIColor.systemGray))
-            .frame(maxHeight: UIScreen.main.bounds.height / 2)
-            .cornerRadius(30)
-            .animation(.easeInOut(duration: 2))
-            .offset(y: 15)
-
-            // off button
-            Button(action: {
-                self.noteCellVM.note.fighterName = ""
-                withAnimation {
-                    self.isIconSetting = false
-                }
-            }) {
-                Image(systemName: "multiply")
-                    .resizable()
-                    .frame(width: 20, height: 20)
-                    .foregroundColor(.white)
-                    .padding()
-            }
-            .background(Color(UIColor.systemGray))
-            .cornerRadius(30)
-            .padding(.top, 20)
+            .gridStyle(
+                columns: 6,
+                spacing: 5
+            )
+            .scrollOptions(
+                direction: .vertical,
+                showsIndicators: false
+            )
         }
+        .frame(maxHeight: UIScreen.main.bounds.size.height / 2)
+
     }
 
 }
+

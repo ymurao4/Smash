@@ -34,6 +34,7 @@ struct NoteView: View {
                     Text("")
                 }
             }
+
             .padding(.horizontal, 20)
             .navigationBarTitle("メモ")
             .navigationBarItems(trailing: EditButton())

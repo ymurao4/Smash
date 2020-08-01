@@ -26,6 +26,8 @@ struct ContentView: View {
             CustomTabs(index: $index)
         }
         .accentColor(.orange)
+            //　ここで宣言すると、tabbarを覆う
+        .addPartialSheet()
     }
 
 }

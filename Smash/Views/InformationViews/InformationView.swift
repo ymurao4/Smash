@@ -41,7 +41,11 @@ struct InformationView: View {
                         )
                     }
                 }
-            .gridStyle(columns: 2, spacing: 10, padding: EdgeInsets(top: 5, leading: 10, bottom: 5, trailing: 10))
+                .gridStyle(
+                    columns: 2,
+                    spacing: 10, padding:
+                    EdgeInsets(top: 5, leading: 10, bottom: 5, trailing: 10)
+                )
             }
             .navigationBarTitle(Text("一覧"), displayMode: .large)
         }
@@ -60,7 +64,7 @@ struct CustomShape: Shape {
 
     func path(in rect: CGRect) -> Path {
         var path = Path()
-
+        
         let tls = CGPoint(x: rect.minX, y: rect.minY + radius)
         let tlc = CGPoint(x: rect.minX + radius, y: rect.minY + radius)
         let trs = CGPoint(x: rect.maxX - radius, y: rect.minY)

@@ -40,10 +40,10 @@ struct InformationView: View {
                                 (Double(geometry.frame(in: .global).minY) - 350) / 12
                             ), axis: (x: 0, y: 10.0, z: 0))
                         }
-                        .frame(width: UIScreen.main.bounds.width * 0.8, height: 220)
+                        .frame(width: UIScreen.main.bounds.width * 0.9, height: 200)
                     }
                 }
-                .padding(40)
+                .padding(EdgeInsets(top: 40, leading: 30, bottom: 70, trailing: 30))
             }
             .navigationBarTitle(Text("一覧"), displayMode: .large)
         }

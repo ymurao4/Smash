@@ -8,15 +8,15 @@
 
 import SwiftUI
 import WaterfallGrid
+import PartialSheet
 
 struct NoteDetailView: View {
 
-    @Environment (\.colorScheme) var colorScheme:ColorScheme
+    @EnvironmentObject var partialSheetManager : PartialSheetManager
+    @Environment (\.colorScheme) var colorScheme: ColorScheme
     @ObservedObject var noteCellVM: NoteCellViewModel
 
     @State private var isBeginEditing: Bool = false
-    @State private var isIconSetting: Bool = false
-    @State private var navBarHeight: CGFloat? = 0
 
     var onCommit: (Note) -> (Void) = { _ in }
 
@@ -25,34 +25,27 @@ struct NoteDetailView: View {
             // 入力中ではなく、isIconSettingがtrueの時表示
             // TODO: - paddingを入れるかどうか
             MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
-            // pop up icon
-            if isIconSetting && !isBeginEditing {
-                GeometryReader { _ in
-                    SelectFighterIcon(noteCellVM: self.noteCellVM, isIconSetting: self.$isIconSetting)
-                }
-                .background(Color.black.opacity(0.65))
-                .edgesIgnoringSafeArea(.all)
-                .onTapGesture {
-                    withAnimation {
-                        self.isIconSetting = false
-                    }
-                }
-            }
+                .padding(10)
         }
         .navigationBarTitle(Text(""), displayMode: .inline)
         .navigationBarItems(trailing:
             // 入力中の時は、”Done”, iconをタップ時、popup
+            // TODO: リファクタリング
             HStack {
                 Button(action: {
-                    withAnimation {
-                        self.isIconSetting.toggle()
-                    }
+                    // partial sheet
+                    self.partialSheetManager.showPartialSheet({
+                         print("normal sheet dismissed")
+                     }) {
+                         SelectFighterIcon(noteCellVM: self.noteCellVM)
+                     }
+
                     self.isBeginEditing = false
                     UIApplication.shared.endEditing()
                 }) {
                     if self.noteCellVM.note.fighterName != "" && self.noteCellVM.note.fighterName != nil {
                         FighterPDF(name: self.noteCellVM.note.fighterName!)
-                            .frame(width: 25, height: 25)
+                            .frame(width: 30, height: 30)
                     } else {
                         Image(systemName: "plus")
                             .resizable()
@@ -72,13 +65,6 @@ struct NoteDetailView: View {
             .onDisappear {
                 self.onCommit(self.noteCellVM.note)
         }
-        .onAppear {
-
-            // navigationbarの高さを取得
-            let window = UIApplication.shared.windows.filter {$0.isKeyWindow}.first
-            self.navBarHeight = window?.windowScene?.statusBarManager?.statusBarFrame.height
-
-        }
     }
 }
 
@@ -86,46 +72,45 @@ struct NoteDetailView: View {
 struct SelectFighterIcon: View {
 
     @ObservedObject var noteCellVM: NoteCellViewModel
-    @Binding var isIconSetting: Bool
 
     var body: some View {
         VStack {
             WaterfallGrid(S.fightersArray, id: \.self) { fighter in
                 Button(action: {
                     self.noteCellVM.note.fighterName = fighter[1]
-                    withAnimation {
-                        self.isIconSetting = false
-                    }
                 }) {
                     FighterPDF(name: fighter[1])
-                        .frame(width: 30, height: 30)
+                        .frame(width: 40, height: 40)
+                        .background(Color.orange)
+                        .cornerRadius(20)
                 }
             }
-            .gridStyle(columns: 8, spacing: 8, padding: EdgeInsets(top: 15, leading: 10, bottom: 15, trailing: 10))
-            .scrollOptions(direction: .vertical, showsIndicators: false)
-            .background(Color(UIColor.systemGray))
-            .frame(maxHeight: UIScreen.main.bounds.height / 2)
-            .cornerRadius(30)
-            .animation(.easeInOut(duration: 2))
-            .offset(y: 15)
+            .gridStyle(
+                columns: 6,
+                spacing: 5
+            )
+            .scrollOptions(
+                direction: .vertical,
+                showsIndicators: false
+            )
 
-            // off button
             Button(action: {
                 self.noteCellVM.note.fighterName = ""
-                withAnimation {
-                    self.isIconSetting = false
-                }
             }) {
-                Image(systemName: "multiply")
-                    .resizable()
-                    .frame(width: 20, height: 20)
-                    .foregroundColor(.white)
-                    .padding()
+                HStack {
+                    Image(systemName: "trash")
+                    Text("削除")
+                        .font(.headline)
+                }
+                .padding(EdgeInsets(top: 10, leading: 15, bottom: 10, trailing: 15))
+                .foregroundColor(.white)
+                .background(LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing))
+                .cornerRadius(20)
             }
-            .background(Color(UIColor.systemGray))
-            .cornerRadius(30)
-            .padding(.top, 20)
         }
+        .frame(maxHeight: UIScreen.main.bounds.size.height / 2)
+
     }
 
 }
+

@@ -24,15 +24,14 @@ struct AnalysisView: View {
                     }
                 }
                 .pickerStyle(SegmentedPickerStyle())
-                .padding(.horizontal, 20)
                 HStack {
                     ForEach(sortedName, id: \.self) { name in
                         Text(name)
                             .frame(maxWidth: .infinity)
                     }
+                    .font(.subheadline)
+                    .padding(EdgeInsets(top: 10, leading: 10, bottom: 0, trailing: 10))
                 }
-                .font(.subheadline)
-                .padding(EdgeInsets(top: 10, leading: 10, bottom: 0, trailing: 10))
                 if selectedIndex == 0 {
                     AnalysisMainFighterView()
                 } else if selectedIndex == 1 {
@@ -43,6 +42,7 @@ struct AnalysisView: View {
                     AnalysisStageView()
                 }
             }
+            .padding(.horizontal, 10)
             .navigationBarTitle("分析")
         }
     }

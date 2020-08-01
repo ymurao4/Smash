@@ -5,6 +5,7 @@
 //  Created by 村尾慶伸 on 2020/07/23.
 //  Copyright © 2020 村尾慶伸. All rights reserved.
 //
+
 import SwiftUI
 
 struct FrameDetaleView: View {
@@ -217,14 +218,29 @@ struct FrameDetaleView: View {
                     .font(.headline)
                 }
             }
-            .sheet(isPresented: $isSheet) {
-                SarafiView(fighterName: self.fighterName)
-                    .edgesIgnoringSafeArea(.bottom)
+            if isSheet {
+                ZStack(alignment: .topLeading) {
+                    WebView(fighterName: self.fighterName)
+                }
+                .zIndex(1)
+                .transition(.move(edge: .bottom))
+                .animation(.default)
+                .edgesIgnoringSafeArea(.bottom)
             }
         }
         .navigationBarBackButtonHidden(isSheet)
         .navigationBarTitle(isSheet ? Text("") : Text(jaName(self.fighterName)), displayMode: isSheet ? .inline : .automatic)
         .navigationBarItems(
+            leading:
+            Button(action: {
+                self.isSheet.toggle()
+            }) {
+                if isSheet {
+                    Image(systemName: "multiply")
+                        .resizable()
+                        .frame(width: 20, height: 20)
+                }
+            },
             trailing:
             Button(action: {
                 self.isSheet.toggle()

@@ -22,8 +22,15 @@ struct FrameView: View {
                         .cornerRadius(5)
                 }
             }
-            .gridStyle(columns: 3, spacing: 20, padding: EdgeInsets(top: 10, leading: 10, bottom: 60, trailing: 10))
-            .scrollOptions(direction: .vertical, showsIndicators: false)
+            .gridStyle(
+                columns: 3,
+                spacing: 20,
+                padding: EdgeInsets(top: 10, leading: 10, bottom: 60, trailing: 10)
+            )
+                .scrollOptions(
+                    direction: .vertical,
+                    showsIndicators: false
+            )
         }
         .navigationBarTitle("フレーム表")
 

@@ -34,7 +34,7 @@ struct NoteView: View {
                     Text("")
                 }
             }
-            .padding(.horizontal, 20)
+            .padding(.horizontal, 10)
             .navigationBarTitle("メモ")
             .navigationBarItems(trailing: EditButton())
         }
@@ -56,8 +56,8 @@ struct NewNoteCell: View {
                     .frame(width: 20, height: 20)
                 Text("メモを追加")
             }
+            .padding(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
         }
-        .padding(15)
     }
 
 }
@@ -68,7 +68,8 @@ struct NoteCell: View {
     @ObservedObject var noteCellVM: NoteCellViewModel
 
     var body: some View {
-        NavigationLink(destination: NoteDetailView(noteCellVM: noteCellVM)) {
+        // navigationlinkの>を消すため
+        ZStack(alignment: .leading) {
             HStack {
                 //fighterNameが nil と "" の時は else
                 if noteCellVM.note.fighterName != nil && noteCellVM.note.fighterName != "" {
@@ -91,8 +92,11 @@ struct NoteCell: View {
                         .font(.caption)
                 }
             }
-
+            NavigationLink(destination: NoteDetailView(noteCellVM: noteCellVM)) {
+                EmptyView()
+            }
         }
+        .padding(.vertical, 5)
     }
 
 }

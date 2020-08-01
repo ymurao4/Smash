@@ -1,20 +1,17 @@
 //
-//  FrameDetaleView.swift
+//  RankingView.swift
 //  Smash
 //
-//  Created by 村尾慶伸 on 2020/07/23.
+//  Created by 村尾慶伸 on 2020/07/31.
 //  Copyright © 2020 村尾慶伸. All rights reserved.
 //
+
 import SwiftUI
 
-struct FrameDetaleView: View {
+struct RankingView: View {
 
-    @Environment (\.colorScheme) var colorScheme:ColorScheme
-
-    @ObservedObject var frameVM = FrameViewModel()
-
-    @State  var isSheet: Bool = false
-    @State var fighterName: String
+    @ObservedObject var rankingVM = RankingViewModel()
+    @State var rankingName: [String] = []
 
     var jaName = { (name: String) -> String in
         switch name {
@@ -41,7 +38,7 @@ struct FrameDetaleView: View {
         case "ness":
             return "ネス"
         case "captain_falcon":
-            return "キャプテン・ファルコン"
+            return "キャプテン・\nファルコン"
         case "jigglypuff":
             return "プリン"
         case "peach":
@@ -77,7 +74,7 @@ struct FrameDetaleView: View {
         case "chrom":
             return "クロム"
         case "mr_game_and_watch":
-            return "Mr.ゲーム&ウォッチ"
+            return "Mr.ゲーム&\nウォッチ"
         case "meta_knight":
             return "メタナイト"
         case "pit":
@@ -189,56 +186,33 @@ struct FrameDetaleView: View {
         }
     }
 
-
-    
     var body: some View {
-        ZStack {
-            List {
-                FighterPNG(name: fighterName)
-                ForEach(frameVM.frameData) { data in
-                    Section(header: Text(data.name)) {
-                        HStack {
-                            Text(data.frameStartup)
-                            Text("Frame Startup")
-                        }
-                        HStack {
-                            Text(data.totalFrames)
-                            Text("Total Frames")
-                        }
-                        HStack {
-                            Text(data.onShield)
-                            Text("On Shield")
-                        }
-                        HStack {
-                            Text(data.activeOn)
-                            Text("Active On")
-                        }
+        List {
+            ForEach(rankingVM.rankingData) { data in
+                HStack(spacing: 20) {
+                    Text(data.rank)
+                        .frame(width: 50, height: 50)
+                        .background(Color.orange)
+                        .cornerRadius(25)
+                    FighterPNG(name: data.fighterName)
+                        .frame(width: 80, height: 80)
+                    Spacer()
+                    VStack(alignment: .trailing) {
+                        Text(self.jaName(data.fighterName))
+                            .font(.headline)
+                        Text(data.value)
+                            .font(.headline)
                     }
-                    .font(.headline)
                 }
             }
-            .sheet(isPresented: $isSheet) {
-                SarafiView(fighterName: self.fighterName)
-                    .edgesIgnoringSafeArea(.bottom)
-            }
+            //tabbarで隠れる
+            Text("")
+            Text("")
         }
-        .navigationBarBackButtonHidden(isSheet)
-        .navigationBarTitle(isSheet ? Text("") : Text(jaName(self.fighterName)), displayMode: isSheet ? .inline : .automatic)
-        .navigationBarItems(
-            trailing:
-            Button(action: {
-                self.isSheet.toggle()
-            }) {
-                if !isSheet {
-                    Image(systemName: "link")
-                        .resizable()
-                        .frame(width: 20, height: 20)
-                }
-            }
-        )
-            .onAppear {
-                self.frameVM.loadFrameData(fighterName: self.fighterName)
+        .edgesIgnoringSafeArea(.bottom)
+        .navigationBarTitle(self.rankingName[0])
+        .onAppear {
+            self.rankingVM.loadRankingData(rankingName: self.rankingName[1])
         }
     }
 }
-

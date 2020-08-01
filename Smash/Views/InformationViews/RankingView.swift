@@ -190,20 +190,15 @@ struct RankingView: View {
         List {
             ForEach(rankingVM.rankingData) { data in
                 HStack(spacing: 20) {
-                    Text(data.rank)
-                        .frame(width: 50, height: 50)
-                        .background(Color.orange)
-                        .cornerRadius(25)
                     FighterPNG(name: data.fighterName)
                         .frame(width: 80, height: 80)
+                    Text(self.jaName(data.fighterName))
+                        .font(.headline)
                     Spacer()
-                    VStack(alignment: .trailing) {
-                        Text(self.jaName(data.fighterName))
-                            .font(.headline)
-                        Text(data.value)
-                            .font(.headline)
-                    }
+                    Text(data.value)
+                        .font(.headline)
                 }
+                .padding(.trailing, 20)
             }
             //tabbarで隠れる
             Text("")

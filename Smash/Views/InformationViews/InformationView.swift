@@ -42,9 +42,13 @@ struct InformationView: View {
                     }
                 }
                 .gridStyle(
-                    columns: 2,
+                    columns: 3,
                     spacing: 10, padding:
                     EdgeInsets(top: 5, leading: 10, bottom: 5, trailing: 10)
+                )
+                .scrollOptions(
+                    direction: .vertical,
+                    showsIndicators: false
                 )
             }
             .navigationBarTitle(Text("一覧"), displayMode: .large)
@@ -85,3 +89,6 @@ struct CustomShape: Shape {
         return path
     }
 }
+
+
+

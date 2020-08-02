@@ -218,12 +218,12 @@ struct FrameDetaleView: View {
                 }
             }
             .sheet(isPresented: $isSheet) {
-                SarafiView(fighterName: self.fighterName)
+                SafariView(fighterName: self.fighterName)
                     .edgesIgnoringSafeArea(.bottom)
             }
         }
         .navigationBarBackButtonHidden(isSheet)
-        .navigationBarTitle(isSheet ? Text("") : Text(jaName(self.fighterName)), displayMode: isSheet ? .inline : .automatic)
+        .navigationBarTitle(jaName(self.fighterName))
         .navigationBarItems(
             trailing:
             Button(action: {

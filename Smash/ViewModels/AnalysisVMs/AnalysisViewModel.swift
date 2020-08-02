@@ -13,87 +13,87 @@ class AnalysisViewModel: ObservableObject {
 
     @Published var analysisRepository = AnalysisRepository()
     @Published var analysisCellViewModels = [AnalysisCellViewModel]()
-//    var resultRecords: [MainAnalysis] = [
-//        MainAnalysis(opponentFighter: "mario", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "donkey_kong", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "link", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "samus", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "dark_samus", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "yoshi", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "kirby", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "fox", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "pikachu", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "luigi", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "ness", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "captain_falcon", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "purin", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "peach", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "daisy", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "koopa", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "ice_climber", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "sheik", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "zelda", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "dr_mario", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "pichu", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "falco", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "marth", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "lucina", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "young_link", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "ganondorf", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "mewtwo", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "roy", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "chrom", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "mr_game_and_watch", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "meta_knight", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "pit", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "black_pit", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "zero_suit_samus", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "wario", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "snake", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "ike", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "pokemon_trainer", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "diddy_kong", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "lucas", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "sonic", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "dedede", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "pikmin_and_olimar", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "lucario", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "robot", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "toon_link", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "wolf", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "murabito", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "rockman", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "wii_fit_trainer", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "rosetta_and_chiko", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "little_mac", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "gekkouga", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "mii_fighter", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "palutena", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "pac_man", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "reflet", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "shulk", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "koopa_jr", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "duck_hunt", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "ryu", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "ken", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "cloud", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "kamui", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "bayonetta", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "inkling", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "ridley", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "simon", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "richter", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "king_k_rool", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "shizue", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "gaogaen", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "packun_flower", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "joker", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "dq_hero", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "banjo_and_kazooie", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "terry", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "byleth", game: 0, win: 0, lose: 0, winRate: 0),
-//        MainAnalysis(opponentFighter: "minmin", game: 0, win: 0, lose: 0, winRate: 0),
-//    ]
+    @Published var resultRecords: [[Any]] = [
+        ["mario", 0, 0, 0, 0],
+        ["donkey_kong", 0, 0, 0, 0],
+        ["link", 0, 0,0, 0],
+        ["samus", 0, 0, 0, 0],
+        ["dark_samus", 0, 0, 0, 0],
+        ["yoshi", 0, 0, 0, 0],
+        ["kirby", 0, 0, 0, 0],
+        ["fox", 0, 0, 0, 0],
+        ["pikachu", 0, 0, 0, 0],
+        ["luigi", 0, 0, 0, 0],
+        ["ness", 0, 0, 0, 0],
+        ["captain_falcon", 0, 0, 0, 0],
+        ["purin", 0, 0, 0, 0],
+        ["peach", 0, 0, 0, 0],
+        ["daisy", 0, 0, 0, 0],
+        ["koopa", 0, 0, 0, 0],
+        ["ice_climber", 0, 0, 0, 0],
+        ["sheik", 0, 0, 0, 0],
+        ["zelda", 0, 0, 0, 0],
+        ["dr_mario",0, 0, 0, 0],
+        ["pichu", 0, 0, 0, 0],
+        ["falco", 0, 0, 0, 0],
+        ["marth", 0, 0, 0, 0],
+        ["lucina", 0, 0, 0, 0],
+        ["young_link", 0, 0, 0, 0],
+        ["ganondorf", 0, 0, 0, 0],
+        ["mewtwo", 0, 0, 0, 0],
+        ["roy", 0, 0, 0, 0],
+        ["chrom", 0, 0, 0, 0],
+        ["mr_game_and_watch", 0, 0, 0, 0],
+        ["meta_knight", 0, 0, 0, 0],
+        ["pit", 0, 0, 0, 0],
+        ["black_pit", 0, 0, 0, 0],
+        ["zero_suit_samus", 0, 0, 0, 0],
+        ["wario", 0, 0, 0, 0],
+        ["snake", 0, 0, 0, 0],
+        ["ike", 0, 0, 0, 0],
+        ["pokemon_trainer", 0, 0, 0, 0],
+        ["diddy_kong", 0, 0, 0, 0],
+        ["lucas", 0, 0, 0, 0],
+        ["sonic", 0, 0, 0, 0],
+        ["dedede", 0, 0, 0, 0],
+        ["pikmin_and_olimar", 0, 0, 0, 0],
+        ["lucario", 0, 0, 0, 0],
+        ["robot", 0, 0, 0, 0],
+        ["toon_link", 0, 0, 0, 0],
+        ["wolf", 0, 0, 0, 0],
+        ["murabito", 0, 0, 0, 0],
+        ["rockman", 0, 0, 0, 0],
+        ["wii_fit_trainer", 0, 0, 0, 0],
+        ["rosetta_and_chiko", 0, 0, 0, 0],
+        ["little_mac", 0, 0, 0, 0],
+        ["gekkouga", 0, 0, 0, 0],
+        ["mii_fighter", 0, 0, 0, 0],
+        ["palutena", 0, 0, 0, 0],
+        ["pac_man", 0, 0, 0, 0],
+        ["reflet", 0, 0, 0, 0],
+        ["shulk", 0, 0, 0, 0],
+        ["koopa_jr", 0, 0, 0, 0],
+        ["duck_hunt", 0, 0, 0, 0],
+        ["ryu", 0, 0, 0, 0],
+        ["ken", 0, 0, 0, 0],
+        ["cloud", 0, 0, 0, 0],
+        ["kamui", 0, 0, 0, 0],
+        ["bayonetta", 0, 0, 0, 0],
+        ["inkling", 0, 0, 0, 0],
+        ["ridley", 0, 0, 0, 0],
+        ["simon", 0, 0, 0, 0],
+        ["richter", 0, 0, 0, 0],
+        ["king_k_rool", 0, 0, 0, 0],
+        ["shizue", 0, 0, 0, 0],
+        ["gaogaen", 0, 0, 0, 0],
+        ["packun_flower", 0, 0, 0, 0],
+        ["joker", 0, 0, 0, 0],
+        ["dq_hero", 0, 0, 0, 0],
+        ["banjo_and_kazooie", 0, 0, 0, 0],
+        ["terry", 0, 0, 0, 0],
+        ["byleth", 0, 0, 0, 0],
+        ["minmin", 0, 0, 0, 0],
+    ]
     var opponentFighterName = ""
     var loopInt = 0
 
@@ -106,36 +106,51 @@ class AnalysisViewModel: ObservableObject {
             for record in records {
 
 
-
-                /*
-                 self.loopInt = 0
+                self.loopInt = 0
                 for resultRecord in self.resultRecords {
 
-                    if record.opponentFighter == resultRecord.opponentFighter {
+                    if record.opponentFighter == resultRecord[0] as! String {
 
-                        self.opponentFighterName = record.opponentFighter
+                        var game = resultRecord[1] as! Int
+                        var win = resultRecord[2] as! Int
+                        var lose = resultRecord[3] as! Int
+
+                        game += 1
+                        if record.result == "win" {
+                            win += 1
+                        } else {
+                            lose += 1
+                        }
+                        let winRate = Float(win) / Float(game) * 100
+
+                        print(resultRecord)
 
                         break
                     }
-                    self.loopInt += 1
+//                    if record.opponentFighter == resultRecord.opponentFighter {
+//
+//                        self.opponentFighterName = record.opponentFighter
+//
+//                        break
+//                    }
+//                    self.loopInt += 1
                 }
 
-                var fighterResult = self.resultRecords[self.loopInt]
-
-                fighterResult.game += 1
-                if record.result == "win" {
-                    fighterResult.win += 1
-                } else {
-                    fighterResult.lose += 1
-                }
-                fighterResult.winRate = Float(fighterResult.win) / Float(fighterResult.game) * 100
-                 */
+//                var fighterResult = self.resultRecords[self.loopInt]
+//
+//                fighterResult.game += 1
+//                if record.result == "win" {
+//                    fighterResult.win += 1
+//                } else {
+//                    fighterResult.lose += 1
+//                }
+//                fighterResult.winRate = Float(fighterResult.win) / Float(fighterResult.game) * 100
 
             }
 
         }
         .store(in: &cancellables)
-
+        
     }
 
 }

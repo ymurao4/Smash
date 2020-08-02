@@ -17,10 +17,9 @@ class NoteViewModel: ObservableObject {
     private var cancellables = Set<AnyCancellable>()
 
     init() {
-        
         noteRepository.$notes.map { notes in
             notes.map { note in
-                NoteCellViewModel(note: note)
+                return NoteCellViewModel(note: note)
             }
         }
         .assign(to: \.noteCellViewModels, on: self)
@@ -28,6 +27,9 @@ class NoteViewModel: ObservableObject {
     }
 
     func addNote(note: Note) {
+        if note.text == "" {
+            return
+        }
         noteRepository.addNote(note: note)
     }
 

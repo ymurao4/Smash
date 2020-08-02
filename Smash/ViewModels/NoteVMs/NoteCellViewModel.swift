@@ -56,6 +56,5 @@ class NoteCellViewModel: ObservableObject, Identifiable {
         .store(in: &cancellables)
 
     }
-
 }
 

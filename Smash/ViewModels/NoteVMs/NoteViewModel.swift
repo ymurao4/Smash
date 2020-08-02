@@ -37,5 +37,13 @@ class NoteViewModel: ObservableObject {
         }
     }
 
+    func deleteEmptyNote(noteCell: NoteCellViewModel) {
+        if noteCell.note.text == "" {
+            if let id = noteCell.note.id {
+                self.noteRepository.deleteNote(noteID: id)
+            }
+        }
+    }
+
 
 }

@@ -9,7 +9,7 @@
 import SwiftUI
 import SafariServices
 
-struct SarafiView: UIViewControllerRepresentable {
+struct SafariView: UIViewControllerRepresentable {
 
     typealias UIViewControllerType = SFSafariViewController
 

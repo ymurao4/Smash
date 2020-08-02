@@ -10,6 +10,7 @@ import Foundation
 import Firebase
 import FirebaseFirestoreSwift
 import FirebaseFirestore
+import FirebaseAuth
 
 class RecordRepository: ObservableObject {
 

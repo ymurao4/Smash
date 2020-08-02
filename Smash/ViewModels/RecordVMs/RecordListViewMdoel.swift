@@ -24,6 +24,7 @@ class RecordListViewMdoel: ObservableObject {
         }
         .assign(to: \.recordCellViewModels, on: self)
         .store(in: &cancellables)
+
     }
 
     func addRecord(record: Record) {

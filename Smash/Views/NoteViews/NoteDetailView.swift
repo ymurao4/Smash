@@ -15,6 +15,7 @@ struct NoteDetailView: View {
     @EnvironmentObject var partialSheetManager : PartialSheetManager
     @Environment (\.colorScheme) var colorScheme: ColorScheme
     @ObservedObject var noteCellVM: NoteCellViewModel
+    @ObservedObject var noteVM = NoteViewModel()
 
     @State private var isBeginEditing: Bool = false
 
@@ -64,6 +65,7 @@ struct NoteDetailView: View {
         )
             .onDisappear {
                 self.onCommit(self.noteCellVM.note)
+                self.noteVM.deleteEmptyNote(noteCell: self.noteCellVM)
         }
     }
 }

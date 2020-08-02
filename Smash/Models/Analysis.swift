@@ -8,34 +8,38 @@
 
 import Foundation
 
-struct MainAnalysis: Identifiable {
+struct MainAnalysis: Codable, Identifiable {
     var id: String = UUID().uuidString
+    var opponentFighter: String
     var game: Int
     var win: Int
     var lose: Int
-    var winRate: Int
+    var winRate: Float
 }
 
-struct AllMyFightersAnalysis: Identifiable {
+struct AllMyFightersAnalysis: Codable, Identifiable {
     var id: String = UUID().uuidString
+    var myFighter: String
     var game: Int
     var win: Int
     var lose: Int
-    var winRate: Int
+    var winRate: Float
 }
 
-struct AllOpponentFightersAnalysis: Identifiable {
+struct AllOpponentFightersAnalysis: Codable, Identifiable {
     var id: String = UUID().uuidString
+    var opponentFignter: String
     var game: Int
     var win: Int
     var lose: Int
-    var winRate: Int
+    var winRate: Float
 }
 
-struct AllStageAnalysis: Identifiable {
+struct AllStageAnalysis: Codable, Identifiable {
     var id: String = UUID().uuidString
+    var stage: String
     var game: Int
     var win: Int
     var lose: Int
-    var winRate: Int
+    var winRate: Float
 }

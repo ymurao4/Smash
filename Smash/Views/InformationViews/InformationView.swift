@@ -19,13 +19,14 @@ struct InformationView: View {
 
     private var kinds: [Kind] = [
         Kind(id: 0, jaName: "フレーム", fileName: "Frame"),
-        Kind(id: 1, jaName: "空中加速", fileName: "AirAcceleration"),
-        Kind(id: 2, jaName: "空中移動", fileName: "AirSpeed"),
-        Kind(id: 3, jaName: "落下", fileName: "FallSpeed"),
-        Kind(id: 4, jaName: "ダッシュ", fileName: "DashSpeed"),
-        Kind(id: 5, jaName: "歩行", fileName: "WalkSpeed"),
-        Kind(id: 6, jaName: "走行", fileName: "RunSpeed"),
-        Kind(id: 7, jaName: "重量", fileName: "Weight")
+        Kind(id: 1, jaName: "重量", fileName: "Weight"),
+        Kind(id: 2, jaName: "空中加速", fileName: "AirAcceleration"),
+        Kind(id: 3, jaName: "空中移動", fileName: "AirSpeed"),
+        Kind(id: 4, jaName: "落下", fileName: "FallSpeed"),
+        Kind(id: 5, jaName: "ダッシュ", fileName: "DashSpeed"),
+        Kind(id: 6, jaName: "歩行", fileName: "WalkSpeed"),
+        Kind(id: 7, jaName: "走行", fileName: "RunSpeed")
+
     ]
 
     var body: some View {

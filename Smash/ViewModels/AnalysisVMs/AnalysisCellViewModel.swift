@@ -7,3 +7,28 @@
 //
 
 import Foundation
+import Combine
+
+class AnalysisCellViewModel: ObservableObject, Identifiable {
+
+    @Published var record: Record
+
+    var id: String = ""
+    private var cancellables = Set<AnyCancellable>()
+
+
+    init(record: Record) {
+        self.record = record
+
+        $record
+            .compactMap { record in
+                record.id
+        }
+        .assign(to: \.id, on: self)
+        .store(in: &cancellables)
+
+    }
+
+}
+
+

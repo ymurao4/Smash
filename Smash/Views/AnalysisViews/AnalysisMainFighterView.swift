@@ -9,6 +9,9 @@
 import SwiftUI
 
 struct AnalysisMainFighterView: View {
+
+    @ObservedObject var analysisVM = AnalysisViewModel()
+
     var body: some View {
         List {
             Section(header: Text("対戦相手")) {

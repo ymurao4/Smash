@@ -15,26 +15,29 @@ import FirebaseAuth
 class AnalysisRepository: ObservableObject {
 
     let db = Firestore.firestore()
-    @Published var mainAnalysisRecords = [MainAnalysis]()
+    @Published var mainAnalysisRecords = [Record]()
     //    @Published var allMyFightersAnalysisRecords = [AllMyFightersAnalysis]()
     //    @Published var allOpponentFightersAnalysisRecords = [AllOpponentFightersAnalysis]()
     //    @Published var allStageAnalysisRecords = [AllStageAnalysis]()
 
+
+    init() {
+        loadData()
+    }
 
     func loadData() {
 
         let userId = Auth.auth().currentUser?.uid
 
         db.collection("records")
-            .order(by: "createdTime", descending: true)
             .whereField("userId", isEqualTo: userId as Any)
-            .whereField("myFighter", isEqualTo: "wario")
+            .whereField("myFighter", isEqualTo: "mario")
             .addSnapshotListener { (querySnapshot, error) in
                 if let querySnapshot = querySnapshot {
                     DispatchQueue.main.async {
                         self.mainAnalysisRecords = querySnapshot.documents.compactMap { document in
                             do {
-                                let x = try document.data(as: MainAnalysis.self)
+                                let x = try document.data(as: Record.self)
                                 return x
                             } catch {
                                 print(error.localizedDescription)

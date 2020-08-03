@@ -15,10 +15,9 @@ struct ContentView: View {
     var body: some View {
         ZStack(alignment: .bottom) {
             if self.index == 0 {
-                AnalysisView()
-            } else if self.index == 1 {
                 RecordView()
-//                AnalysisView()
+            } else if self.index == 1 {
+                AnalysisView()
             } else if self.index == 2 {
                 NoteView()
             } else {

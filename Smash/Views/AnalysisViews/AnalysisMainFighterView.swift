@@ -10,11 +10,11 @@ import SwiftUI
 
 struct AnalysisMainFighterView: View {
 
-    @ObservedObject var analysisVM = AnalysisViewModel()
+    @ObservedObject var analysisVM = AnalysisViewModel(sortName: "opponentFighter")
 
     var body: some View {
         List {
-            ForEach(analysisVM.outputRecord, id: \.self) { array in
+            ForEach(analysisVM.outputMainRecord, id: \.self) { array in
                 HStack() {
                     FighterPDF(name: array[0])
                         .frame(width: 25, height: 25)
@@ -38,8 +38,3 @@ struct AnalysisMainFighterView: View {
     }
 }
 
-struct AnalysisMainViews_Previews: PreviewProvider {
-    static var previews: some View {
-        AnalysisMainFighterView()
-    }
-}

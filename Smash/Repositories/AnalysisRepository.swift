@@ -15,11 +15,10 @@ import FirebaseAuth
 class AnalysisRepository: ObservableObject {
 
     let db = Firestore.firestore()
-    @Published var mainAnalysisRecords = [Record]()
-    //    @Published var allMyFightersAnalysisRecords = [AllMyFightersAnalysis]()
-    //    @Published var allOpponentFightersAnalysisRecords = [AllOpponentFightersAnalysis]()
-    //    @Published var allStageAnalysisRecords = [AllStageAnalysis]()
+    @Published var records = [Record]()
+    @Published var mainRecords = [Record]()
 
+    @Published var mainFighter: String = "mario"
 
     init() {
         loadData()
@@ -29,13 +28,13 @@ class AnalysisRepository: ObservableObject {
 
         let userId = Auth.auth().currentUser?.uid
 
+        //その他レコード
         db.collection("records")
             .whereField("userId", isEqualTo: userId as Any)
-            .whereField("myFighter", isEqualTo: "mario")
             .addSnapshotListener { (querySnapshot, error) in
                 if let querySnapshot = querySnapshot {
                     DispatchQueue.main.async {
-                        self.mainAnalysisRecords = querySnapshot.documents.compactMap { document in
+                        self.records = querySnapshot.documents.compactMap { document in
                             do {
                                 let x = try document.data(as: Record.self)
                                 return x
@@ -47,6 +46,7 @@ class AnalysisRepository: ObservableObject {
                     }
                 }
         }
+
     }
 
 

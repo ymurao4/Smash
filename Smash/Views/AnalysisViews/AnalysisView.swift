@@ -10,9 +10,10 @@ import SwiftUI
 
 struct AnalysisView: View {
 
+    @ObservedObject var analysisVM = AnalysisViewModel(sortName: "opponentFighter")
     @State private var selectedIndex: Int = 0
     private let pickerName: [String] = ["メイン", "自分", "相手", "ステージ"]
-    private let sortedName: [String] = ["キャラ", "試合", "勝ち", "負け", "勝率"]
+    private let sortedName: [String] = ["", "試合", "勝ち", "負け", "勝率"]
 
     var body: some View {
         NavigationView {
@@ -30,7 +31,7 @@ struct AnalysisView: View {
                             .frame(maxWidth: .infinity)
                     }
                     .font(.subheadline)
-                    .padding(EdgeInsets(top: 10, leading: 10, bottom: 0, trailing: 10))
+                    .padding(EdgeInsets(top: 10, leading: 20, bottom: 0, trailing: 10))
                 }
                 if selectedIndex == 0 {
                     AnalysisMainFighterView()

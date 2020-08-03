@@ -10,59 +10,35 @@ import SwiftUI
 
 struct AnalysisMainFighterView: View {
 
-    @ObservedObject var analysisVM = AnalysisViewModel()
+    @ObservedObject var analysisVM = AnalysisViewModel(sortName: "opponentFighter")
+
+    init() {
+        analysisVM.isMain = true
+    }
 
     var body: some View {
         List {
-            Section(header: Text("対戦相手")) {
-                ForEach(0..<S.fightersArray.count) { index in
-                    HStack() {
-                        FighterPDF(name: S.fightersArray[index][1])
-                            .frame(width: 25, height: 25)
-                            .frame(maxWidth: .infinity)
-                        Text("5")
-                            .frame(maxWidth: .infinity)
-                        Text("3")
-                            .frame(maxWidth: .infinity)
-                        Text("2")
-                            .frame(maxWidth: .infinity)
-                        Text("60.0%")
-                            .lineLimit(1)
-                            .minimumScaleFactor(0.2)
-                            .frame(maxWidth: .infinity)
-                    }
-                }
-            }
-            Section(header: Text("ステージ")) {
-                ForEach(0..<S.stageArray.count) { index in
-                    HStack {
-                        VStack(spacing: 0) {
-                            StagePDF(name: S.stageArray[index][1])
-                                .frame(width: 60, height: 30)
-                                .cornerRadius(3)
-                                .frame(maxWidth: .infinity)
-                            Text(S.stageArray[index][0])
-                                .font(.caption)
-                        }
-                        Text("4")
-                            .frame(maxWidth: .infinity)
-                        Text("3")
-                            .frame(maxWidth: .infinity)
-                        Text("1")
-                            .frame(maxWidth: .infinity)
-                        Text("75.0%")
-                            .frame(maxWidth: .infinity)
-                    }
+            ForEach(analysisVM.outputRecord, id: \.self) { array in
+                HStack() {
+                    FighterPDF(name: array[0])
+                        .frame(width: 25, height: 25)
+                        .frame(maxWidth: .infinity)
+                    Text(array[1])
+                        .frame(maxWidth: .infinity)
+                    Text(array[2])
+                        .frame(maxWidth: .infinity)
+                    Text(array[3])
+                        .frame(maxWidth: .infinity)
+                    Text(array[4])
+                        .lineLimit(1)
+                        .minimumScaleFactor(0.2)
+                        .frame(maxWidth: .infinity)
                 }
             }
             // tabbarで隠れてしまうため
+            Text("")
             Text("")
         }
     }
 }
 
-struct AnalysisMainViews_Previews: PreviewProvider {
-    static var previews: some View {
-        AnalysisMainFighterView()
-    }
-}

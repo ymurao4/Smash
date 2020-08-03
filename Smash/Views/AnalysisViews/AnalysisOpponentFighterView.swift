@@ -31,6 +31,9 @@ struct AnalysisOpponentFighterView: View {
                         .frame(maxWidth: .infinity)
                 }
             }
+            // tabbarで隠れてしまうため
+            Text("")
+            Text("")
         }
     }
 }

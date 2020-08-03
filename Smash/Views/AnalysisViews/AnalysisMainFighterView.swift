@@ -12,9 +12,13 @@ struct AnalysisMainFighterView: View {
 
     @ObservedObject var analysisVM = AnalysisViewModel(sortName: "opponentFighter")
 
+    init() {
+        analysisVM.isMain = true
+    }
+
     var body: some View {
         List {
-            ForEach(analysisVM.outputMainRecord, id: \.self) { array in
+            ForEach(analysisVM.outputRecord, id: \.self) { array in
                 HStack() {
                     FighterPDF(name: array[0])
                         .frame(width: 25, height: 25)

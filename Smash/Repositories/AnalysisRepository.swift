@@ -18,7 +18,7 @@ class AnalysisRepository: ObservableObject {
     @Published var records = [Record]()
     @Published var mainRecords = [Record]()
 
-    @Published var sortName: String = "mario"
+    @Published var mainFighter: String = "mario"
 
     init() {
         loadData()
@@ -46,27 +46,6 @@ class AnalysisRepository: ObservableObject {
                     }
                 }
         }
-
-        // メインキャラ
-        db.collection("records")
-            .whereField("userId", isEqualTo: userId as Any)
-            .whereField("myFighter", isEqualTo: sortName)
-            .addSnapshotListener { (querySnapshot, error) in
-                if let querySnapshot = querySnapshot {
-                    DispatchQueue.main.async {
-                        self.mainRecords = querySnapshot.documents.compactMap { document in
-                            do {
-                                let x = try document.data(as: Record.self)
-                                return x
-                            } catch {
-                                print(error.localizedDescription)
-                            }
-                            return nil
-                        }
-                    }
-                }
-        }
-
 
     }
 

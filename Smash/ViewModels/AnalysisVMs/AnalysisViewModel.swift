@@ -93,101 +93,34 @@ class AnalysisViewModel: ObservableObject {
         ["byleth", "-", "-", "-", "-"],
         ["minmin", "-", "-", "-", "-"]
     ]
-    @Published var outputMainRecord: [[String]] = [
-        ["mario", "-", "-", "-", "-"],
-        ["donkey_kong", "-", "-", "-", "-"],
-        ["link", "-", "-","-", "-"],
-        ["samus", "-", "-", "-", "-"],
-        ["dark_samus", "-", "-", "-", "-"],
-        ["yoshi", "-", "-", "-", "-"],
-        ["kirby", "-", "-", "-", "-"],
-        ["fox", "-", "-", "-", "-"],
-        ["pikachu", "-", "-", "-", "-"],
-        ["luigi", "-", "-", "-", "-"],
-        ["ness", "-", "-", "-", "-"],
-        ["captain_falcon", "-", "-", "-", "-"],
-        ["purin", "-", "-", "-", "-"],
-        ["peach", "-", "-", "-", "-"],
-        ["daisy", "-", "-", "-", "-"],
-        ["koopa", "-", "-", "-", "-"],
-        ["ice_climber", "-", "-", "-", "-"],
-        ["sheik", "-", "-", "-", "-"],
-        ["zelda", "-", "-", "-", "-"],
-        ["dr_mario","-", "-", "-", "-"],
-        ["pichu", "-", "-", "-", "-"],
-        ["falco", "-", "-", "-", "-"],
-        ["marth", "-", "-", "-", "-"],
-        ["lucina", "-", "-", "-", "-"],
-        ["young_link", "-", "-", "-", "-"],
-        ["ganondorf", "-", "-", "-", "-"],
-        ["mewtwo", "-", "-", "-", "-"],
-        ["roy", "-", "-", "-", "-"],
-        ["chrom", "-", "-", "-", "-"],
-        ["mr_game_and_watch", "-", "-", "-", "-"],
-        ["meta_knight", "-", "-", "-", "-"],
-        ["pit", "-", "-", "-", "-"],
-        ["black_pit", "-", "-", "-", "-"],
-        ["zero_suit_samus", "-", "-", "-", "-"],
-        ["wario", "-", "-", "-", "-"],
-        ["snake", "-", "-", "-", "-"],
-        ["ike", "-", "-", "-", "-"],
-        ["pokemon_trainer", "-", "-", "-", "-"],
-        ["diddy_kong", "-", "-", "-", "-"],
-        ["lucas", "-", "-", "-", "-"],
-        ["sonic", "-", "-", "-", "-"],
-        ["dedede", "-", "-", "-", "-"],
-        ["pikmin_and_olimar", "-", "-", "-", "-"],
-        ["lucario", "-", "-", "-", "-"],
-        ["robot", "-", "-", "-", "-"],
-        ["toon_link", "-", "-", "-", "-"],
-        ["wolf", "-", "-", "-", "-"],
-        ["murabito", "-", "-", "-", "-"],
-        ["rockman", "-", "-", "-", "-"],
-        ["wii_fit_trainer", "-", "-", "-", "-"],
-        ["rosetta_and_chiko", "-", "-", "-", "-"],
-        ["little_mac", "-", "-", "-", "-"],
-        ["gekkouga", "-", "-", "-", "-"],
-        ["mii_fighter", "-", "-", "-", "-"],
-        ["palutena", "-", "-", "-", "-"],
-        ["pac_man", "-", "-", "-", "-"],
-        ["reflet", "-", "-", "-", "-"],
-        ["shulk", "-", "-", "-", "-"],
-        ["koopa_jr", "-", "-", "-", "-"],
-        ["duck_hunt", "-", "-", "-", "-"],
-        ["ryu", "-", "-", "-", "-"],
-        ["ken", "-", "-", "-", "-"],
-        ["cloud", "-", "-", "-", "-"],
-        ["kamui", "-", "-", "-", "-"],
-        ["bayonetta", "-", "-", "-", "-"],
-        ["inkling", "-", "-", "-", "-"],
-        ["ridley", "-", "-", "-", "-"],
-        ["simon", "-", "-", "-", "-"],
-        ["richter", "-", "-", "-", "-"],
-        ["king_k_rool", "-", "-", "-", "-"],
-        ["shizue", "-", "-", "-", "-"],
-        ["gaogaen", "-", "-", "-", "-"],
-        ["packun_flower", "-", "-", "-", "-"],
-        ["joker", "-", "-", "-", "-"],
-        ["dq_hero", "-", "-", "-", "-"],
-        ["banjo_and_kazooie", "-", "-", "-", "-"],
-        ["terry", "-", "-", "-", "-"],
-        ["byleth", "-", "-", "-", "-"],
-        ["minmin", "-", "-", "-", "-"]
+    @Published var outputStageRecord: [[String]] = [
+        ["syuten", "-", "-", "-", "-"],
+        ["senjou", "-", "-", "-", "-"],
+        ["pokesuta2", "-", "-", "-", "-"],
+        ["karosu", "-", "-", "-", "-"],
+        ["sumamura", "-", "-", "-", "-"],
+        ["muramati", "-", "-", "-", "-"],
+        ["lylat", "-", "-", "-", "-"]
     ]
-    @Published var ouputStageRecord: [[String]] = [
-        [""]
-    ]
+    @Published var isMain: Bool = false
 
     private var cancellables = Set<AnyCancellable>()
 
     init(sortName: String) {
 
-        // メインとステージ以外のレコード
+        // メイン以外のレコード
         analysisRepository.$records.sink { records in
 
             var resultRecords: [[Any]] = []
 
             for record in records {
+
+                if self.isMain {
+                    if record.myFighter != self.analysisRepository.mainFighter {
+                        continue
+                    }
+                }
+
                 // ここから
                 //newResult[Any] = [opponentFightername, game, win, lose, winRate]
 
@@ -255,108 +188,35 @@ class AnalysisViewModel: ObservableObject {
 
                 // outputRecordの中身を更新
                 var loopInt = 0
-                for output in self.outputRecord {
-                    if output[0] == name {
-                        break
-                    }
-                    loopInt += 1
-                }
-                let newOutput = [name, game, win, lose, winRate]
-                self.outputRecord.insert(newOutput, at: loopInt)
-                self.outputRecord.remove(at: loopInt + 1)
-            }
 
-        }
-        .store(in: &cancellables)
 
-        // メイン
-        analysisRepository.$mainRecords.sink { records in
-
-            var resultRecords: [[Any]] = []
-
-            for record in records {
-                // ここから
-                //newResult[Any] = [opponentFightername, game, win, lose, winRate]
-
-                let myFighterName = record.myFighter
-                let opponentFighterName = record.opponentFighter
-                let stageName = record.stage
-                var sort = ""
-
-                switch sortName {
-                case "myFighter":
-                    sort = myFighterName
-                case "opponentFighter":
-                    sort = opponentFighterName
-                case "stage":
-                    sort = stageName
-                default:
-                    sort = opponentFighterName
-                }
-
-                var newResult: [Any] = []
-                var game = 1
-                var win = 0
-                var lose = 0 // ここで定義する必要なないが、わかりやすいかと
-                var winRate: Float
-
-                if record.result == "win" {
-                    win = 1
-                }
-
-                // fighterチェック
-                var loopInt = 0 // resultRecordsをremoveするため
-                for result in resultRecords {
-                    // データの更新
-                    if result[0] as! String == sort {
-                        let existingGame = result[1] as! Int
-                        var existingWin = result[2] as! Int
-
-                        if record.result == "win" {
-                            existingWin += 1
+                //output先の分岐
+                if sortName == "stage" {
+                    for output in self.outputStageRecord {
+                        if output[0] == name {
+                            break
                         }
-
-                        game = existingGame + 1
-                        win = existingWin
-
-                        resultRecords.remove(at: loopInt)
-                        break
+                        loopInt += 1
                     }
-                    loopInt += 1
-                }
+                    let newOutput = [name, game, win, lose, winRate]
 
-                lose = game - win
-                winRate = roundf(Float(win) / Float(game) * 1000) / 10
-                newResult = [sort, game, win, lose ,winRate]
-                // ここまでで、完結させる
-                resultRecords.append(newResult)
-            }
-
-            for result in resultRecords {
-                // map や　as! String ではうまくいかなかった
-                let name = result[0] as! String
-                let game = "\(result[1])"
-                let win = "\(result[2])"
-                let lose = "\(result[3])"
-                let winRate = "\(result[4])%"
-
-                // outputRecordの中身を更新
-                var loopInt = 0
-                for output in self.outputMainRecord {
-                    if output[0] == name {
-                        break
+                    self.outputStageRecord.insert(newOutput, at: loopInt)
+                    self.outputStageRecord.remove(at: loopInt + 1)
+                } else {
+                    for output in self.outputRecord {
+                        if output[0] == name {
+                            break
+                        }
+                        loopInt += 1
                     }
-                    loopInt += 1
+                    let newOutput = [name, game, win, lose, winRate]
+                    self.outputRecord.insert(newOutput, at: loopInt)
+                    self.outputRecord.remove(at: loopInt + 1)
                 }
-                let newOutput = [name, game, win, lose, winRate]
-                self.outputMainRecord.insert(newOutput, at: loopInt)
-                self.outputMainRecord.remove(at: loopInt + 1)
             }
 
         }
         .store(in: &cancellables)
-
-        // ステージ
 
     }
 

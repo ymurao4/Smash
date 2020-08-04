@@ -1,5 +1,7 @@
 # Mac
 .DS_Store
 
-#CocoaPod
-Pods/*
+GoogleService-Info.plist
+*.xcworkspace/
+ja.lproj/
+Pods/

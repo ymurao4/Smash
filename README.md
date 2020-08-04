@@ -25,7 +25,7 @@ MVVMを意識して作ってみました。
 - Firebase/Firestore
 - Firebase/Auth
 - FirebaseFirestoreSwift
-- IQKeyboardManagerSwift（keyboardの上げ下げ、閉じる）    
+- IQKeyboardManagerSwift（keyboardの上げ下げ、閉じ）
 - WaterfallGrid（データの並び）  
 
 <img src="Images/IMG_1170.png" width=320px>

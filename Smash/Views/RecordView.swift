@@ -74,27 +74,6 @@ struct ResultCell: View {
 
     @ObservedObject var recordCellVM: RecordCelViewModel
 
-    var stageName = { (name: String) -> String in
-        switch name {
-        case "syuten":
-            return "終点"
-        case "senjou":
-            return "戦場"
-        case "pokesuta2":
-            return "ポケ2"
-        case "karosu":
-            return "カロス"
-        case "sumamura":
-            return "スマ村"
-        case "muramati":
-            return "村と街"
-        case "lylat":
-            return "ライ"
-        default:
-            return ""
-        }
-    }
-
     var borderColor = { (record: Record) -> Color in
         if record.result == "win" {
             return .orange
@@ -121,7 +100,7 @@ struct ResultCell: View {
                 StagePDF(name: recordCellVM.record.stage)
                     .frame(width: 60, height: 30)
                     .cornerRadius(3)
-                Text(self.stageName(recordCellVM.record.stage))
+                Text(T.translateStageName(name: recordCellVM.record.stage))
                     .font(.caption)
             }
         }

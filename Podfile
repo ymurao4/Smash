@@ -12,5 +12,4 @@ target 'Smash' do
   pod 'Firebase/Firestore'
   pod 'Firebase/Auth'
   pod 'FirebaseFirestoreSwift'
-  pod 'CardSlider'
 end

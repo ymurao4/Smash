@@ -113,6 +113,5 @@ struct SelectFighterIcon: View {
         .frame(maxHeight: UIScreen.main.bounds.size.height / 2)
 
     }
-
 }
 

@@ -104,9 +104,15 @@ class AnalysisViewModel: ObservableObject {
     ]
     @Published var isMain: Bool = false
 
+    @Published var mainFighter = ""
+
     private var cancellables = Set<AnyCancellable>()
 
+    private let userDefaults = UserDefaults.standard
+
     init(sortName: String) {
+
+        loadMainFighter()
 
         // メイン以外のレコード
         analysisRepository.$records.sink { records in
@@ -114,9 +120,9 @@ class AnalysisViewModel: ObservableObject {
             var resultRecords: [[Any]] = []
 
             for record in records {
-
+                // メインキャラの分析時、メインキャラ以外のレコードはスキップ
                 if self.isMain {
-                    if record.myFighter != self.analysisRepository.mainFighter {
+                    if record.myFighter != self.mainFighter {
                         continue
                     }
                 }
@@ -220,7 +226,20 @@ class AnalysisViewModel: ObservableObject {
 
     }
 
+    func loadMainFighter() {
+        userDefaults.register(defaults: ["MainFighter": "mario"])
+
+        mainFighter = userDefaults.object(forKey: "MainFighter") as! String
+    }
+
+    func updateMainFighter(fighterName: String) {
+        userDefaults.set(fighterName, forKey: "MainFighter")
+
+        mainFighter = fighterName
+    }
+
 }
+
 
 /*
  ["mario", "0", "0", "0", "0"],

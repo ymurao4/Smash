@@ -8,8 +8,7 @@
 
 import Foundation
 
-struct MainFighter {
-
+struct MainFighter: Codable {
     var fighterName: String
     var userId: String?
 }

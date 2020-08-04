@@ -18,7 +18,6 @@ class AnalysisRepository: ObservableObject {
     @Published var records = [Record]()
     @Published var mainRecords = [Record]()
 
-    @Published var mainFighter: String = "mario"
 
     init() {
         loadData()
@@ -28,7 +27,6 @@ class AnalysisRepository: ObservableObject {
 
         let userId = Auth.auth().currentUser?.uid
 
-        //その他レコード
         db.collection("records")
             .whereField("userId", isEqualTo: userId as Any)
             .addSnapshotListener { (querySnapshot, error) in
@@ -48,6 +46,25 @@ class AnalysisRepository: ObservableObject {
         }
 
     }
+
+//    func loadMainFighter() {
+//
+//        let userId = Auth.auth().currentUser?.uid
+//
+//        let docRef = db.collection("mainFighter").whereField("userId", isEqualTo: userId as Any)
+//        docRef.getDocuments { (querySnapshot, error) in
+//            if let error = error {
+//                print("Error getting documents: \(error)")
+//            } else {
+//                for document in querySnapshot!.documents {
+//                    let value = document.data()
+//                    let fighterName = value["fighterName"] as? String ?? "mario"
+//                    self.mainFighter = fighterName
+//                }
+//            }
+//        }
+//
+//    }
 
 
 }

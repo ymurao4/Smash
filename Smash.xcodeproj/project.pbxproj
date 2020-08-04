@@ -33,7 +33,6 @@
 		044A269124D3DD640059496C /* RankingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044A269024D3DD640059496C /* RankingViewModel.swift */; };
 		04568CFA24CBC14900FE1841 /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04568CF924CBC14900FE1841 /* NoteDetailView.swift */; };
 		04568CFC24CBEA3C00FE1841 /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04568CFB24CBEA3C00FE1841 /* MultilineTextField.swift */; };
-		04568CFE24CBF19C00FE1841 /* Analysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04568CFD24CBF19C00FE1841 /* Analysis.swift */; };
 		046B734324CBB0880093B454 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B734224CBB0880093B454 /* Note.swift */; };
 		0491566124CE9BA8003D8E32 /* RecordRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491566024CE9BA8003D8E32 /* RecordRepository.swift */; };
 		049239A624C6608B009F301E /* RecordListViewMdoel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239A524C6608B009F301E /* RecordListViewMdoel.swift */; };
@@ -49,6 +48,9 @@
 		04A2F9F724CE4813007A5316 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2F9F624CE4813007A5316 /* SafariView.swift */; };
 		04A4861924D0F53A008C3C15 /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4861824D0F53A008C3C15 /* HideKeyboard.swift */; };
 		04AE235924CC0384005C8100 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE235824CC0383005C8100 /* NoteViewModel.swift */; };
+		04D80C2B24D8F0960097BA55 /* CornerRadiusOnlyTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D80C2A24D8F0960097BA55 /* CornerRadiusOnlyTop.swift */; };
+		04ED6BDA24D8D615004BC5D8 /* MainFighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED6BD924D8D615004BC5D8 /* MainFighter.swift */; };
+		04ED6BDC24D8EF39004BC5D8 /* TranslateNameIntoJapanese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED6BDB24D8EF39004BC5D8 /* TranslateNameIntoJapanese.swift */; };
 		04EDBB8024D3E283009B696B /* Ranking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDBB7F24D3E283009B696B /* Ranking.swift */; };
 		04EDBB8524D4010E009B696B /* FrameRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDBB8424D4010E009B696B /* FrameRepository.swift */; };
 		04F4F24E24C831BF006C2F20 /* FighterPNG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4F24D24C831BF006C2F20 /* FighterPNG.swift */; };
@@ -86,7 +88,6 @@
 		044A269024D3DD640059496C /* RankingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewModel.swift; sourceTree = "<group>"; };
 		04568CF924CBC14900FE1841 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
 		04568CFB24CBEA3C00FE1841 /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
-		04568CFD24CBF19C00FE1841 /* Analysis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analysis.swift; sourceTree = "<group>"; };
 		046B734224CBB0880093B454 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		0491566024CE9BA8003D8E32 /* RecordRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordRepository.swift; sourceTree = "<group>"; };
 		049239A524C6608B009F301E /* RecordListViewMdoel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecordListViewMdoel.swift; path = Smash/ViewModels/RecordVMs/RecordListViewMdoel.swift; sourceTree = SOURCE_ROOT; };
@@ -102,6 +103,9 @@
 		04A2F9F624CE4813007A5316 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		04A4861824D0F53A008C3C15 /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
 		04AE235824CC0383005C8100 /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
+		04D80C2A24D8F0960097BA55 /* CornerRadiusOnlyTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CornerRadiusOnlyTop.swift; path = Smash/Views/InformationViews/CornerRadiusOnlyTop.swift; sourceTree = SOURCE_ROOT; };
+		04ED6BD924D8D615004BC5D8 /* MainFighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFighter.swift; sourceTree = "<group>"; };
+		04ED6BDB24D8EF39004BC5D8 /* TranslateNameIntoJapanese.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateNameIntoJapanese.swift; sourceTree = "<group>"; };
 		04EDBB7F24D3E283009B696B /* Ranking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ranking.swift; sourceTree = "<group>"; };
 		04EDBB8424D4010E009B696B /* FrameRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameRepository.swift; sourceTree = "<group>"; };
 		04F4F24D24C831BF006C2F20 /* FighterPNG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FighterPNG.swift; sourceTree = "<group>"; };
@@ -175,7 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				049239A724C660E3009F301E /* Record.swift */,
-				04568CFD24CBF19C00FE1841 /* Analysis.swift */,
+				04ED6BD924D8D615004BC5D8 /* MainFighter.swift */,
 				046B734224CBB0880093B454 /* Note.swift */,
 				04EDBB7F24D3E283009B696B /* Ranking.swift */,
 				04F4F24F24C84288006C2F20 /* Frame.swift */,
@@ -281,6 +285,8 @@
 				04568CFB24CBEA3C00FE1841 /* MultilineTextField.swift */,
 				04A4861824D0F53A008C3C15 /* HideKeyboard.swift */,
 				0414A55924D54F6900475D33 /* Color.swift */,
+				04ED6BDB24D8EF39004BC5D8 /* TranslateNameIntoJapanese.swift */,
+				04D80C2A24D8F0960097BA55 /* CornerRadiusOnlyTop.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -473,10 +479,11 @@
 				0409E4B624C574B9000038E1 /* SceneDelegate.swift in Sources */,
 				0437708124D537C000DCED8E /* AnalysisRepository.swift in Sources */,
 				049239B724C6C0A5009F301E /* AddRecordView.swift in Sources */,
+				04ED6BDA24D8D615004BC5D8 /* MainFighter.swift in Sources */,
 				043F629F24CC119E0005B13C /* AnalysisMyFighterView.swift in Sources */,
 				0414A55A24D54F6900475D33 /* Color.swift in Sources */,
-				04568CFE24CBF19C00FE1841 /* Analysis.swift in Sources */,
 				049239A824C660E3009F301E /* Record.swift in Sources */,
+				04ED6BDC24D8EF39004BC5D8 /* TranslateNameIntoJapanese.swift in Sources */,
 				044A268F24D3DC4C0059496C /* RankingRepository.swift in Sources */,
 				04F4F25024C84288006C2F20 /* Frame.swift in Sources */,
 				04F4F24E24C831BF006C2F20 /* FighterPNG.swift in Sources */,
@@ -492,6 +499,7 @@
 				044A268B24D394DB0059496C /* InformationView.swift in Sources */,
 				043F629824CC06480005B13C /* NoteCellViewModel.swift in Sources */,
 				049239A624C6608B009F301E /* RecordListViewMdoel.swift in Sources */,
+				04D80C2B24D8F0960097BA55 /* CornerRadiusOnlyTop.swift in Sources */,
 				044A269124D3DD640059496C /* RankingViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

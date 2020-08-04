@@ -18,8 +18,11 @@ struct FrameView: View {
                 NavigationLink(destination: FrameDetaleView(fighterName: S.frameFighterArray[index])) {
                     FighterPNG(name: S.frameFighterArray[index])
                         .frame(width: 100, height: 100)
-                        .background(Color.orange.opacity(0.8))
-                        .cornerRadius(5)
+                        .padding(10)
+                        .overlay(
+                            RoundedRectangle(cornerRadius: 20)
+                                .stroke(Color.orange, lineWidth: 3)
+                    )
                 }
             }
             .gridStyle(columns: 3, spacing: 20, padding: EdgeInsets(top: 10, leading: 10, bottom: 60, trailing: 10))

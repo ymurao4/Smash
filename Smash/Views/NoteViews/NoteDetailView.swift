@@ -23,49 +23,50 @@ struct NoteDetailView: View {
 
     var body: some View {
         ZStack(alignment: .top) {
-            // 入力中ではなく、isIconSettingがtrueの時表示
-            // TODO: - paddingを入れるかどうか
             MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
                 .padding(10)
         }
         .navigationBarTitle(Text(""), displayMode: .inline)
         .navigationBarItems(trailing:
-            // 入力中の時は、”Done”, iconをタップ時、popup
-            // TODO: リファクタリング
-            HStack {
-                Button(action: {
-                    // partial sheet
-                    self.partialSheetManager.showPartialSheet({
-                         print("normal sheet dismissed")
-                     }) {
-                         SelectFighterIcon(noteCellVM: self.noteCellVM)
-                     }
-
-                    self.isBeginEditing = false
-                    UIApplication.shared.endEditing()
-                }) {
-                    if self.noteCellVM.note.fighterName != "" && self.noteCellVM.note.fighterName != nil {
-                        FighterPDF(name: self.noteCellVM.note.fighterName!)
-                            .frame(width: 30, height: 30)
-                    } else {
-                        Image(systemName: "plus")
-                            .resizable()
-                            .frame(width: 20, height: 20)
-                    }
-                }
-                if isBeginEditing {
-                    Button(action: {
-                        self.isBeginEditing.toggle()
-                        UIApplication.shared.endEditing()
-                    }) {
-                        Text("Done")
-                    }
-                }
-            }
+            navigationBarTrailingItem()
         )
             .onDisappear {
                 self.onCommit(self.noteCellVM.note)
                 self.noteVM.deleteEmptyNote(noteCell: self.noteCellVM)
+        }
+    }
+
+    func navigationBarTrailingItem() -> some View {
+        // 入力中の時は、”Done”, iconをタップ時、popup
+        HStack {
+            Button(action: {
+                // partial sheet
+                self.partialSheetManager.showPartialSheet({
+                     print("normal sheet dismissed")
+                 }) {
+                     SelectFighterIcon(noteCellVM: self.noteCellVM)
+                 }
+
+                self.isBeginEditing = false
+                UIApplication.shared.endEditing()
+            }) {
+                if self.noteCellVM.note.fighterName != "" && self.noteCellVM.note.fighterName != nil {
+                    FighterPDF(name: self.noteCellVM.note.fighterName!)
+                        .frame(width: 30, height: 30)
+                } else {
+                    Image(systemName: "plus")
+                        .resizable()
+                        .frame(width: 20, height: 20)
+                }
+            }
+            if isBeginEditing {
+                Button(action: {
+                    self.isBeginEditing.toggle()
+                    UIApplication.shared.endEditing()
+                }) {
+                    Text("Done")
+                }
+            }
         }
     }
 }

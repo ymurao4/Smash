@@ -20,7 +20,7 @@ struct AnalysisStageView: View {
                         StagePDF(name: array[0])
                             .frame(width: 60, height: 30)
                             .cornerRadius(3)
-                        Text(array[0])
+                        Text(T.translateStageName(name: array[0]))
                             .font(.caption)
                     }
                     .frame(maxWidth: .infinity)

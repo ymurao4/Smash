@@ -126,7 +126,6 @@ class AnalysisViewModel: ObservableObject {
                         continue
                     }
                 }
-
                 // ここから
                 //newResult[Any] = [opponentFightername, game, win, lose, winRate]
 
@@ -184,46 +183,50 @@ class AnalysisViewModel: ObservableObject {
                 resultRecords.append(newResult)
             }
 
-            for result in resultRecords {
-                // map や　as! String ではうまくいかなかった
-                let name = result[0] as! String
-                let game = "\(result[1])"
-                let win = "\(result[2])"
-                let lose = "\(result[3])"
-                let winRate = "\(result[4])%"
-
-                // outputRecordの中身を更新
-                var loopInt = 0
-
-
-                //output先の分岐
-                if sortName == "stage" {
-                    for output in self.outputStageRecord {
-                        if output[0] == name {
-                            break
-                        }
-                        loopInt += 1
-                    }
-                    let newOutput = [name, game, win, lose, winRate]
-
-                    self.outputStageRecord.insert(newOutput, at: loopInt)
-                    self.outputStageRecord.remove(at: loopInt + 1)
-                } else {
-                    for output in self.outputRecord {
-                        if output[0] == name {
-                            break
-                        }
-                        loopInt += 1
-                    }
-                    let newOutput = [name, game, win, lose, winRate]
-                    self.outputRecord.insert(newOutput, at: loopInt)
-                    self.outputRecord.remove(at: loopInt + 1)
-                }
-            }
+            self.insertOutputRecord(resultRecords: resultRecords, sortName: sortName)
 
         }
         .store(in: &cancellables)
 
+    }
+
+
+    func insertOutputRecord(resultRecords: [[Any]], sortName: String) {
+        for result in resultRecords {
+            // map や　as! String ではうまくいかなかった
+            let name = result[0] as! String
+            let game = "\(result[1])"
+            let win = "\(result[2])"
+            let lose = "\(result[3])"
+            let winRate = "\(result[4])%"
+
+            // outputRecordの中身を更新
+            var loopInt = 0
+
+            //output先の分岐
+            if sortName == "stage" {
+                for output in self.outputStageRecord {
+                    if output[0] == name {
+                        break
+                    }
+                    loopInt += 1
+                }
+                let newOutput = [name, game, win, lose, winRate]
+
+                self.outputStageRecord.insert(newOutput, at: loopInt)
+                self.outputStageRecord.remove(at: loopInt + 1)
+            } else {
+                for output in self.outputRecord {
+                    if output[0] == name {
+                        break
+                    }
+                    loopInt += 1
+                }
+                let newOutput = [name, game, win, lose, winRate]
+                self.outputRecord.insert(newOutput, at: loopInt)
+                self.outputRecord.remove(at: loopInt + 1)
+            }
+        }
     }
 
     func loadMainFighter() {

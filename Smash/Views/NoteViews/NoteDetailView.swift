@@ -36,7 +36,7 @@ struct NoteDetailView: View {
         }
     }
 
-    func navigationBarTrailingItem() -> some View {
+    private func navigationBarTrailingItem() -> some View {
         // 入力中の時は、”Done”, iconをタップ時、popup
         HStack {
             Button(action: {

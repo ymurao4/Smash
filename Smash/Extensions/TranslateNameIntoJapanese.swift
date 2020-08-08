@@ -31,7 +31,7 @@ struct T {
         }
     }
 
-    static func tranlateFighterName(name: String) -> String {
+    static func translateFighterName(name: String) -> String {
         switch name {
         case "mario":
             return "マリオ"
@@ -199,6 +199,179 @@ struct T {
             return "射撃Mii"
         case "mii_swordfighter":
             return "剣術Mii"
+        default:
+            return ""
+        }
+    }
+
+    static func translateFrameFighterName(name: String) -> String {
+        switch name {
+        case "mario":
+            return "MARIO"
+        case "donkey_kong":
+            return "DONKEY KONG"
+        case "link":
+            return "LINK"
+        case "samus":
+            return "SAMUS"
+        case "dark_samus":
+            return "DARK SAMUS"
+        case "yoshi":
+            return "YOSHI"
+        case "kirby":
+            return "KIRBY"
+        case "fox":
+            return "FOX"
+        case "pikachu":
+            return "PIKACHU"
+        case "luigi":
+            return "LUIGI"
+        case "ness":
+            return "NESS"
+        case "captain_falcon":
+            return "CAPTAIN FALCON"
+        case "jigglypuff":
+            return "PURIN"
+        case "peach":
+            return "PEACH"
+        case "daisy":
+            return "DAISY"
+        case "bowser":
+            return "KOOPA"
+        case "ice_climber":
+            return "ICE CLIMBER"
+        case "sheik":
+            return "SHEIK"
+        case "zelda":
+            return "ZELDA"
+        case "dr_mario":
+            return "Dr MARIO"
+        case "pichu":
+            return "PICHU"
+        case "falco":
+            return "FALCO"
+        case "marth":
+            return "MARTH"
+        case "lucina":
+            return "LUCINA"
+        case "young_link":
+            return "YOUNG LINKリンク"
+        case "ganondorf":
+            return "GANONDROF"
+        case "mewtwo":
+            return "MEWTWO"
+        case "roy":
+            return "ROY"
+        case "chrom":
+            return "CHROM"
+        case "mr_game_and_watch":
+            return "Mr. GAME & WATCH"
+        case "meta_knight":
+            return "META KNIGHT"
+        case "pit":
+            return "PIT"
+        case "dark_pit":
+            return "BLACK PIT"
+        case "zero_suit_samus":
+            return "ZERO SUIT SAMUS"
+        case "wario":
+            return "WARIO"
+        case "snake":
+            return "SNAKE"
+        case "ike":
+            return "IKE"
+        case "pt_squirtle":
+            return "ZENIGAME"
+        case "pt_ivysaur":
+            return "HUSHIGISOU"
+        case "pt_charizard":
+            return "RIZARDON"
+        case "diddy_kong":
+            return "DODOY KONG"
+        case "lucas":
+            return "LUCAS"
+        case "sonic":
+            return "SONIC"
+        case "king_dedede":
+            return "DEDEDE"
+        case "olimar":
+            return "PIKMIN & OKIMER"
+        case "lucario":
+            return "LUCARIO"
+        case "rob":
+            return "ROBOT"
+        case "toon_link":
+            return "TOONLINK"
+        case "wolf":
+            return "WOLF"
+        case "villager":
+            return "MURABITO"
+        case "mega_man":
+            return "ROCKMAN"
+        case "wii_fit_trainer":
+            return "WII FIT TRAINER"
+        case "rosalina_and_luma":
+            return "ROSSETA & CHIKO"
+        case "little_mac":
+            return "LITTLE MAC"
+        case "greninja":
+            return "GEKKOUGA"
+        case "palutena":
+            return "PALUTENA"
+        case "pac_man":
+            return "PAC MAN"
+        case "robin":
+            return "REFLET"
+        case "shulk":
+            return "SHULK"
+        case "bowser_jr":
+            return "KOOPA Jr."
+        case "duck_hunt":
+            return "DUCK HUNT"
+        case "ryu":
+            return "RYU"
+        case "ken":
+            return "KEN"
+        case "cloud":
+            return "CLOUD"
+        case "corrin":
+            return "KAMUI"
+        case "bayonetta":
+            return "BEONETTA"
+        case "inkling":
+            return "INKLING"
+        case "ridley":
+            return "RIDLEY"
+        case "simon":
+            return "SIMON"
+        case "richter":
+            return "RICHTER"
+        case "king_k_rool":
+            return "KING K. ROOL"
+        case "isabelle":
+            return "SHIZUE"
+        case "incineroar":
+            return "GAOGAEN"
+        case "piranha_plant":
+            return "PACKUN FLOWER"
+        case "joker":
+            return "JOKER"
+        case "hero":
+            return "HERO"
+        case "banjo_and_kazooie":
+            return "BANJO & KAZOOIE"
+        case "terry":
+            return "TERRY"
+        case "byleth":
+            return "BYLETH"
+        case "minmin":
+            return "MINMIN"
+        case "mii_brawler":
+            return "BRAWLER"
+        case "mii_gunner":
+            return "GANNER"
+        case "mii_swordfighter":
+            return "SWORD"
         default:
             return ""
         }

@@ -48,7 +48,7 @@ struct FrameDetaleView: View {
             }
         }
         .navigationBarBackButtonHidden(isSheet)
-        .navigationBarTitle(T.tranlateFighterName(name: self.fighterName))
+        .navigationBarTitle(T.translateFighterName(name: self.fighterName))
         .navigationBarItems(
             trailing:
             Button(action: {

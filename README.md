@@ -2,7 +2,8 @@
 
 # 紹介
 スマブラ用のアプリです。
-MVVMを意識して作ってみました。
+MVVMを意識しました。
+また、PythonでWebスクレイピングにも挑戦してみました。
 
 # 機能
 - 対戦結果の記録、削除
@@ -19,6 +20,7 @@ MVVMを意識して作ってみました。
 - ユーザー認証 : 匿名認証
 - パッケージ管理 : Cocoapods  
 - バージョン管理 : Git  
+- スクレイピング : Python, Beautiful Soup, Requests, Pandas
 
 # オープンソースライブラリ
 - Firebase/Analytic

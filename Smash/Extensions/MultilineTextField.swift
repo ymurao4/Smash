@@ -21,6 +21,18 @@ struct MultilineTextField: UIViewRepresentable {
         view.isEditable = true
         view.isUserInteractionEnabled = true
         view.font = UIFont.systemFont(ofSize: 18)
+
+        // toolbar
+        let toolBar = UIToolbar()
+        let doneButton = UIBarButtonItem(title: "Done", style: .plain, target: self, action: nil)
+        let flexSpace = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
+        let cancelButton = UIBarButtonItem(title: "Cancel", style: .plain, target: self, action: nil)
+        let items = [cancelButton, flexSpace, doneButton]
+        toolBar.items = items
+        toolBar.barStyle = UIBarStyle.default
+        toolBar.sizeToFit()
+        view.inputAccessoryView = toolBar
+
         return view
     }
 

@@ -12,6 +12,7 @@ struct NoteView: View {
 
     @ObservedObject var noteVM = NoteViewModel()
     @State private var noteID: String?
+    @Binding var isHideTabbar: Bool
 
     private func delete(index: IndexSet) {
         self.noteID = self.noteVM.noteCellViewModels[index.first!].id

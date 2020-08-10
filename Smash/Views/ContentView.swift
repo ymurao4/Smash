@@ -25,6 +25,30 @@ struct ContentView: View {
             }
             CustomTabs(index: $index)
         }
+//        VStack {
+//            TabView {
+//                RecordView()
+//                    .tabItem {
+//                        Image("battle")
+//                            .renderingMode(.template)
+//                }
+//                AnalysisView()
+//                    .tabItem {
+//                        Image("analysis")
+//                            .renderingMode(.template)
+//                }
+//                NoteView()
+//                    .tabItem {
+//                        Image(systemName: "square.and.pencil")
+//                            .font(.system(size: 22))
+//                }
+//                FrameView()
+//                    .tabItem {
+//                        Image(systemName: "text.justify")
+//                            .font(.system(size: 22))
+//                }
+//            }
+//        }
         .accentColor(.orange)
             //　ここで宣言すると、tabbarを覆う
         .addPartialSheet()

@@ -10,7 +10,8 @@ import SwiftUI
 
 struct ContentView: View {
 
-    @State private var index = 0
+    @State private var index: Int = 0
+    @State var isHideTabbar: Bool = false
 
     var body: some View {
         ZStack(alignment: .bottom) {
@@ -19,36 +20,12 @@ struct ContentView: View {
             } else if self.index == 1 {
                 AnalysisView()
             } else if self.index == 2 {
-                NoteView()
+                NoteView(isHideTabbar: $isHideTabbar)
             } else {
                 FrameView()
             }
             CustomTabs(index: $index)
         }
-//        VStack {
-//            TabView {
-//                RecordView()
-//                    .tabItem {
-//                        Image("battle")
-//                            .renderingMode(.template)
-//                }
-//                AnalysisView()
-//                    .tabItem {
-//                        Image("analysis")
-//                            .renderingMode(.template)
-//                }
-//                NoteView()
-//                    .tabItem {
-//                        Image(systemName: "square.and.pencil")
-//                            .font(.system(size: 22))
-//                }
-//                FrameView()
-//                    .tabItem {
-//                        Image(systemName: "text.justify")
-//                            .font(.system(size: 22))
-//                }
-//            }
-//        }
         .accentColor(.orange)
             //　ここで宣言すると、tabbarを覆う
         .addPartialSheet()

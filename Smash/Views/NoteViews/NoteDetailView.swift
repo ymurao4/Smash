@@ -37,35 +37,24 @@ struct NoteDetailView: View {
     }
 
     private func navigationBarTrailingItem() -> some View {
-        // 入力中の時は、”Done”, iconをタップ時、popup
-        HStack {
-            Button(action: {
-                // partial sheet
-                self.partialSheetManager.showPartialSheet({
-                     print("normal sheet dismissed")
-                 }) {
-                     SelectFighterIcon(noteCellVM: self.noteCellVM)
-                 }
-
-                self.isBeginEditing = false
-                UIApplication.shared.endEditing()
+        Button(action: {
+            // partial sheet
+            self.partialSheetManager.showPartialSheet({
+                print("normal sheet dismissed")
             }) {
-                if self.noteCellVM.note.fighterName != "" && self.noteCellVM.note.fighterName != nil {
-                    FighterPDF(name: self.noteCellVM.note.fighterName!)
-                        .frame(width: 30, height: 30)
-                } else {
-                    Image(systemName: "plus")
-                        .resizable()
-                        .frame(width: 20, height: 20)
-                }
+                SelectFighterIcon(noteCellVM: self.noteCellVM)
             }
-            if isBeginEditing {
-                Button(action: {
-                    self.isBeginEditing.toggle()
-                    UIApplication.shared.endEditing()
-                }) {
-                    Text("Done")
-                }
+
+            self.isBeginEditing = false
+            UIApplication.shared.endEditing()
+        }) {
+            if self.noteCellVM.note.fighterName != "" && self.noteCellVM.note.fighterName != nil {
+                FighterPDF(name: self.noteCellVM.note.fighterName!)
+                    .frame(width: 30, height: 30)
+            } else {
+                Image(systemName: "plus")
+                    .resizable()
+                    .frame(width: 20, height: 20)
             }
         }
     }

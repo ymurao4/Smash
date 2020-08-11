@@ -8,11 +8,13 @@
 
 import Foundation
 import Combine
+import SwiftUI
 
 class NoteViewModel: ObservableObject {
 
     @Published var noteRepository = NoteRepository()
     @Published var noteCellViewModels = [NoteCellViewModel]()
+    @Published var imageURL = ""
 
     private var cancellables = Set<AnyCancellable>()
 
@@ -47,5 +49,12 @@ class NoteViewModel: ObservableObject {
         }
     }
 
+    func uploadImages(images: [UIImage]) {
+        noteRepository.saveImages(imagesArray: images)
+    }
+
+    func loadImages() {
+        noteRepository.loadImages()
+    }
 
 }

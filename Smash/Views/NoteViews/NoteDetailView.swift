@@ -20,26 +20,22 @@ struct NoteDetailView: View {
     @State private var isBeginEditing: Bool = false
     // photo
     @State private var isShowPhotoLibrary = false
-    @State private var image = UIImage()
+    @State private var images = [UIImage]()
 
     var onCommit: (Note) -> (Void) = { _ in }
 
     var body: some View {
         ZStack(alignment: .top) {
             VStack(alignment: .leading) {
-                if image.size.width != 0 {
-                    Image(uiImage: image)
-                        .resizable()
-                        .frame(width: 80, height: 80)
-                        .scaledToFill()
-                        .cornerRadius(10)
+                if images.count != 0 {
+                    ShowSelectedPhotos(images: images)
                 }
                 MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
             }
             .padding(10)
         }
         .sheet(isPresented: $isShowPhotoLibrary) {
-            ImagePicker(selectedImage: self.$image, sourceType: .photoLibrary)
+            ImagePicker(selectedImages: self.$images, sourceType: .photoLibrary)
                 .edgesIgnoringSafeArea(.all)
         }
         .navigationBarTitle(Text(""), displayMode: .inline)
@@ -86,6 +82,24 @@ struct NoteDetailView: View {
         }
     }
 }
+
+// photo
+struct ShowSelectedPhotos: View {
+    var images: [UIImage]
+
+    var body: some View {
+        ScrollView(.horizontal) {
+            ForEach(images, id: \.self) { image in
+                Image(uiImage: image)
+                    .resizable()
+                    .frame(width: 80, height: 80)
+                    .scaledToFill()
+                    .cornerRadius(10)
+            }
+        }
+    }
+}
+
 
 // popup
 struct SelectFighterIcon: View {

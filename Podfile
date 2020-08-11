@@ -12,4 +12,5 @@ target 'Smash' do
   pod 'Firebase/Firestore'
   pod 'Firebase/Auth'
   pod 'FirebaseFirestoreSwift'
+  pod 'Firebase/Storage'
 end

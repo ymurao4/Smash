@@ -76,4 +76,8 @@ class NoteRepository: ObservableObject {
         }
     }
 
+    func uploadImage() {
+        
+    }
+
 }

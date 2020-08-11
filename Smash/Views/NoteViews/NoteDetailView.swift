@@ -89,7 +89,7 @@ struct NoteDetailView: View {
 // photo
 struct ShowSelectedPhotos: View {
     var images: [UIImage]
-    
+
     var body: some View {
         ScrollView(.horizontal) {
             HStack {

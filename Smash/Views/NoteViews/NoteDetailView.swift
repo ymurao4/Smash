@@ -42,11 +42,14 @@ struct NoteDetailView: View {
         .navigationBarItems(trailing:
             navigationBarTrailingItem()
         )
+            .onAppear {
+                self.noteVM.loadImages(imagesIdentification: self.noteCellVM.note.imagesIdentification)
+        }
             .onDisappear {
                 self.onCommit(self.noteCellVM.note)
                 self.noteVM.deleteEmptyNote(noteCell: self.noteCellVM)
                 if self.images.count != 0 {
-                    self.noteVM.uploadImages(images: self.images)
+                    self.noteVM.uploadImages(images: self.images, identification: self.noteCellVM.note.imagesIdentification)
                 }
         }
     }

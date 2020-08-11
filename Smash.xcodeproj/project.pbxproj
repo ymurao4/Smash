@@ -245,9 +245,9 @@
 		043F629A24CC113D0005B13C /* FrameViews */ = {
 			isa = PBXGroup;
 			children = (
-				044A268C24D3D76A0059496C /* RankingView.swift */,
 				049239B424C6A3AF009F301E /* FrameView.swift */,
 				0417B6C824C9A71400BBFF3B /* FrameDetaleView.swift */,
+				044A268C24D3D76A0059496C /* RankingView.swift */,
 				04A2F9F624CE4813007A5316 /* SafariView.swift */,
 			);
 			path = FrameViews;

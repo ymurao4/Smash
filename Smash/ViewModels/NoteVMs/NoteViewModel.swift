@@ -48,8 +48,12 @@ class NoteViewModel: ObservableObject {
         }
     }
 
-    func uploadImages(images: [UIImage]) {
-        noteRepository.saveImages(imagesArray: images)
+    func uploadImages(images: [UIImage], identification: String) {
+        noteRepository.saveImages(imagesArray: images, identification: identification)
+    }
+
+    func loadImages(imagesIdentification: String) {
+        noteRepository.loadImages(imagesIdentification: imagesIdentification)
     }
 
 }

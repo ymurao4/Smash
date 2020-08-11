@@ -78,17 +78,17 @@ class NoteRepository: ObservableObject {
         }
     }
 
-    func saveImages(imagesArray: [UIImage]) {
+    // images methods
+    func saveImages(imagesArray: [UIImage], identification: String) {
 
         guard let userId = userId else { return }
-        uploadImages(userId: userId, imagesArray: imagesArray) { (uploadedImageUrlsArray) in
+        uploadImages(userId: userId, imagesArray: imagesArray, identification: identification) { (uploadedImageUrlsArray) in
             print("uploadedImageUrlsArray: \(uploadedImageUrlsArray)")
         }
 
     }
 
-    func uploadImages(userId: String, imagesArray: [UIImage], completionHandler: @escaping ([String]) -> ()) {
-        let storage = Storage.storage()
+    func uploadImages(userId: String, imagesArray: [UIImage], identification: String, completionHandler: @escaping ([String]) -> ()) {
 
         var uploadedImageUrlsArray = [String]()
         var uploadCount = 0
@@ -97,7 +97,7 @@ class NoteRepository: ObservableObject {
         for image in imagesArray {
             let imageName = NSUUID().uuidString // Unique string to reference
 
-            let storageRef = storage.reference(forURL: "gs://smash-80661.appspot.com").child("\(userId)").child("\(imageName).png")
+            let storageRef = storage.child("\(userId)").child("\(identification)").child("\(imageName).png")
 
             guard let uploadData = image.pngData() else { return }
 
@@ -126,7 +126,7 @@ class NoteRepository: ObservableObject {
 
     }
 
-    func observeUploadTaskFailureCases(uploadTask : StorageUploadTask){
+    func observeUploadTaskFailureCases(uploadTask : StorageUploadTask) {
         uploadTask.observe(.failure) { snapshot in
             if let error = snapshot.error as NSError? {
                 switch (StorageErrorCode(rawValue: error.code)!) {
@@ -149,6 +149,11 @@ class NoteRepository: ObservableObject {
                 }
             }
         }
+    }
+
+    func loadImages(imagesIdentification: String) {
+        let storageRef = storage.child("\(userId)").child("\(imagesIdentification)")
+        print(storageRef)
     }
 
 }

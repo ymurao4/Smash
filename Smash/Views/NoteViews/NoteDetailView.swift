@@ -18,13 +18,29 @@ struct NoteDetailView: View {
     @ObservedObject var noteVM = NoteViewModel()
 
     @State private var isBeginEditing: Bool = false
+    // photo
+    @State private var isShowPhotoLibrary = false
+    @State private var image = UIImage()
 
     var onCommit: (Note) -> (Void) = { _ in }
 
     var body: some View {
         ZStack(alignment: .top) {
-            MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
-                .padding(10)
+            VStack(alignment: .leading) {
+                if image.size.width != 0 {
+                    Image(uiImage: image)
+                        .resizable()
+                        .frame(width: 80, height: 80)
+                        .scaledToFill()
+                        .cornerRadius(10)
+                }
+                MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
+            }
+            .padding(10)
+        }
+        .sheet(isPresented: $isShowPhotoLibrary) {
+            ImagePicker(selectedImage: self.$image, sourceType: .photoLibrary)
+                .edgesIgnoringSafeArea(.all)
         }
         .navigationBarTitle(Text(""), displayMode: .inline)
         .navigationBarItems(trailing:
@@ -37,24 +53,35 @@ struct NoteDetailView: View {
     }
 
     private func navigationBarTrailingItem() -> some View {
-        Button(action: {
-            // partial sheet
-            self.partialSheetManager.showPartialSheet({
-                print("normal sheet dismissed")
+        HStack(spacing: 30) {
+            // imagePicker
+            Button(action: {
+                self.isShowPhotoLibrary.toggle()
+                self.isBeginEditing = false
+                UIApplication.shared.endEditing()
             }) {
-                SelectFighterIcon(noteCellVM: self.noteCellVM)
+                Image(systemName: "photo")
             }
 
-            self.isBeginEditing = false
-            UIApplication.shared.endEditing()
-        }) {
-            if self.noteCellVM.note.fighterName != "" && self.noteCellVM.note.fighterName != nil {
-                FighterPDF(name: self.noteCellVM.note.fighterName!)
-                    .frame(width: 30, height: 30)
-            } else {
-                Image(systemName: "plus")
-                    .resizable()
-                    .frame(width: 20, height: 20)
+            // fighter button
+            Button(action: {
+                // partial sheet
+                self.partialSheetManager.showPartialSheet({
+                    print("normal sheet dismissed")
+                }) {
+                    SelectFighterIcon(noteCellVM: self.noteCellVM)
+                }
+                self.isBeginEditing = false
+                UIApplication.shared.endEditing()
+            }) {
+                if self.noteCellVM.note.fighterName != "" && self.noteCellVM.note.fighterName != nil {
+                    FighterPDF(name: self.noteCellVM.note.fighterName!)
+                        .frame(width: 25, height: 25)
+                } else {
+                    Image(systemName: "plus")
+                        .resizable()
+                        .frame(width: 20, height: 20)
+                }
             }
         }
     }
@@ -81,9 +108,9 @@ struct SelectFighterIcon: View {
                 columns: 6,
                 spacing: 5
             )
-            .scrollOptions(
-                direction: .vertical,
-                showsIndicators: false
+                .scrollOptions(
+                    direction: .vertical,
+                    showsIndicators: false
             )
 
             Button(action: {

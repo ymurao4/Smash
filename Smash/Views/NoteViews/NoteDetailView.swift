@@ -45,6 +45,9 @@ struct NoteDetailView: View {
             .onDisappear {
                 self.onCommit(self.noteCellVM.note)
                 self.noteVM.deleteEmptyNote(noteCell: self.noteCellVM)
+                if self.images.count != 0 {
+                    self.noteVM.uploadImages(images: self.images)
+                }
         }
     }
 
@@ -86,15 +89,17 @@ struct NoteDetailView: View {
 // photo
 struct ShowSelectedPhotos: View {
     var images: [UIImage]
-
+    
     var body: some View {
         ScrollView(.horizontal) {
-            ForEach(images, id: \.self) { image in
-                Image(uiImage: image)
-                    .resizable()
-                    .frame(width: 80, height: 80)
-                    .scaledToFill()
-                    .cornerRadius(10)
+            HStack {
+                ForEach(images, id: \.self) { image in
+                    Image(uiImage: image)
+                        .resizable()
+                        .frame(width: 80, height: 80)
+                        .scaledToFill()
+                        .cornerRadius(10)
+                }
             }
         }
     }

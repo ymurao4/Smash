@@ -8,6 +8,7 @@
 
 import Foundation
 import Combine
+import SwiftUI
 
 class NoteViewModel: ObservableObject {
 
@@ -47,5 +48,8 @@ class NoteViewModel: ObservableObject {
         }
     }
 
+    func uploadImages(images: [UIImage]) {
+        noteRepository.saveImages(imagesArray: images)
+    }
 
 }

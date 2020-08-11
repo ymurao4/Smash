@@ -19,8 +19,8 @@ class NoteRepository: ObservableObject {
     let db = Firestore.firestore()
     let storage = Storage.storage().reference(forURL: "gs://smash-80661.appspot.com")
 
-    @Published var notes = [Note]()
-    @Published var storageRef: StorageReference? = nil
+    @Published var notes: [Note] = []
+    private var imageURLs: [URL] = []
 
     init() {
         loadDate()
@@ -80,16 +80,15 @@ class NoteRepository: ObservableObject {
     }
 
     // images methods
-    func saveImages(imagesArray: [UIImage], identification: String) {
-
+    func saveImages(imagesArray: [UIImage]) {
         guard let userId = userId else { return }
-        uploadImages(userId: userId, imagesArray: imagesArray, identification: identification) { (uploadedImageUrlsArray) in
+        uploadImages(userId: userId, imagesArray: imagesArray) { (uploadedImageUrlsArray) in
             print("uploadedImageUrlsArray: \(uploadedImageUrlsArray)")
         }
 
     }
 
-    func uploadImages(userId: String, imagesArray: [UIImage], identification: String, completionHandler: @escaping ([String]) -> ()) {
+    func uploadImages(userId: String, imagesArray: [UIImage], completionHandler: @escaping ([String]) -> ()) {
 
         var uploadedImageUrlsArray = [String]()
         var uploadCount = 0
@@ -98,7 +97,7 @@ class NoteRepository: ObservableObject {
         for image in imagesArray {
             let imageName = NSUUID().uuidString // Unique string to reference
 
-            let storageRef = storage.child("\(userId)").child("\(identification)").child("\(imageName).png")
+            let storageRef = storage.child("\(userId)").child("").child("\(imageName).png")
 
             guard let uploadData = image.pngData() else { return }
 
@@ -111,6 +110,7 @@ class NoteRepository: ObservableObject {
                 storageRef.downloadURL { (url, error) in
                     if let url = url {
                         let urlString = url.absoluteString
+                        self.imageURLs.append(url)
                         uploadedImageUrlsArray.append(urlString)
                     }
 
@@ -152,8 +152,13 @@ class NoteRepository: ObservableObject {
         }
     }
 
-    func loadImages(imagesIdentification: String) {
-        let storageRef = storage.child("\(userId)").child("\(imagesIdentification)")
+    func loadImages() {
+
+        if let userId = userId {
+            storage.child("\(userId)").child("").downloadURL { (url, error) in
+
+            }
+        }
     }
 
 }

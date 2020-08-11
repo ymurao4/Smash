@@ -9,6 +9,7 @@
 import SwiftUI
 import WaterfallGrid
 import PartialSheet
+import SDWebImageSwiftUI
 
 struct NoteDetailView: View {
 
@@ -18,9 +19,9 @@ struct NoteDetailView: View {
     @ObservedObject var noteVM = NoteViewModel()
 
     @State private var isBeginEditing: Bool = false
-    // photo
     @State private var isShowPhotoLibrary = false
-    @State private var images = [UIImage]()
+    // for upload
+    @State var images = [UIImage]()
 
     var onCommit: (Note) -> (Void) = { _ in }
 
@@ -28,7 +29,7 @@ struct NoteDetailView: View {
         ZStack(alignment: .top) {
             VStack(alignment: .leading) {
                 if images.count != 0 {
-                    ShowSelectedPhotos(images: images)
+                    ShowSelectedPhotos(images: images, noteVM: self.noteVM)
                 }
                 MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
             }
@@ -43,13 +44,13 @@ struct NoteDetailView: View {
             navigationBarTrailingItem()
         )
             .onAppear {
-                self.noteVM.loadImages(imagesIdentification: self.noteCellVM.note.imagesIdentification)
+                self.noteVM.loadImages()
         }
             .onDisappear {
                 self.onCommit(self.noteCellVM.note)
                 self.noteVM.deleteEmptyNote(noteCell: self.noteCellVM)
                 if self.images.count != 0 {
-                    self.noteVM.uploadImages(images: self.images, identification: self.noteCellVM.note.imagesIdentification)
+                    self.noteVM.uploadImages(images: self.images)
                 }
         }
     }
@@ -92,6 +93,7 @@ struct NoteDetailView: View {
 // photo
 struct ShowSelectedPhotos: View {
     var images: [UIImage]
+    var noteVM: NoteViewModel
 
     var body: some View {
         ScrollView(.horizontal) {
@@ -103,6 +105,13 @@ struct ShowSelectedPhotos: View {
                         .scaledToFill()
                         .cornerRadius(10)
                 }
+//                if self.noteVM.imageURL != "" {
+//                    AnimatedImage(url: URL(string: self.noteVM.imageURL))
+//                        .frame(width: 80, height: 80)
+//                        .cornerRadius(10)
+//                } else {
+//                    Loader()
+//                }
             }
         }
     }
@@ -154,3 +163,14 @@ struct SelectFighterIcon: View {
     }
 }
 
+
+struct Loader: UIViewRepresentable {
+    func makeUIView(context: UIViewRepresentableContext<Loader>) -> UIActivityIndicatorView {
+        let indicator = UIActivityIndicatorView(style: .large)
+        indicator.startAnimating()
+        return indicator
+    }
+    func updateUIView(_ uiView: UIActivityIndicatorView, context: UIViewRepresentableContext<Loader>) {
+
+    }
+}

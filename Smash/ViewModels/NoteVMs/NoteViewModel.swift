@@ -14,6 +14,7 @@ class NoteViewModel: ObservableObject {
 
     @Published var noteRepository = NoteRepository()
     @Published var noteCellViewModels = [NoteCellViewModel]()
+    @Published var imageURL = ""
 
     private var cancellables = Set<AnyCancellable>()
 
@@ -48,12 +49,12 @@ class NoteViewModel: ObservableObject {
         }
     }
 
-    func uploadImages(images: [UIImage], identification: String) {
-        noteRepository.saveImages(imagesArray: images, identification: identification)
+    func uploadImages(images: [UIImage]) {
+        noteRepository.saveImages(imagesArray: images)
     }
 
-    func loadImages(imagesIdentification: String) {
-        noteRepository.loadImages(imagesIdentification: imagesIdentification)
+    func loadImages() {
+        noteRepository.loadImages()
     }
 
 }

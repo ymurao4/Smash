@@ -20,6 +20,7 @@ class NoteRepository: ObservableObject {
     let storage = Storage.storage().reference(forURL: "gs://smash-80661.appspot.com")
 
     @Published var notes = [Note]()
+    @Published var storageRef: StorageReference? = nil
 
     init() {
         loadDate()
@@ -153,7 +154,6 @@ class NoteRepository: ObservableObject {
 
     func loadImages(imagesIdentification: String) {
         let storageRef = storage.child("\(userId)").child("\(imagesIdentification)")
-        print(storageRef)
     }
 
 }

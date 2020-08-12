@@ -212,12 +212,16 @@ PODS:
     - abseil/base/base_internal
     - abseil/base/config
     - abseil/meta/type_traits
+  - AssetsPickerViewController (2.9.3):
+    - Device
+    - SnapKit
   - BoringSSL-GRPC (0.0.7):
     - BoringSSL-GRPC/Implementation (= 0.0.7)
     - BoringSSL-GRPC/Interface (= 0.0.7)
   - BoringSSL-GRPC/Implementation (0.0.7):
     - BoringSSL-GRPC/Interface (= 0.0.7)
   - BoringSSL-GRPC/Interface (0.0.7)
+  - Device (3.2.1)
   - Firebase/Analytics (6.28.0):
     - Firebase/Core
   - Firebase/Auth (6.28.0):
@@ -344,9 +348,11 @@ PODS:
   - SDWebImage/Core (5.8.4)
   - SDWebImageSwiftUI (1.5.0):
     - SDWebImage (~> 5.7)
+  - SnapKit (5.0.1)
   - WaterfallGrid (0.4.0)
 
 DEPENDENCIES:
+  - AssetsPickerViewController (~> 2.0)
   - Firebase/Analytics
   - Firebase/Auth
   - Firebase/Firestore
@@ -359,7 +365,9 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - abseil
+    - AssetsPickerViewController
     - BoringSSL-GRPC
+    - Device
     - Firebase
     - FirebaseAnalytics
     - FirebaseAuth
@@ -381,11 +389,14 @@ SPEC REPOS:
     - PromisesObjC
     - SDWebImage
     - SDWebImageSwiftUI
+    - SnapKit
     - WaterfallGrid
 
 SPEC CHECKSUMS:
   abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
+  AssetsPickerViewController: 85f41a74b74f072c89d69a6f41aacc3def51ea7d
   BoringSSL-GRPC: 8edf627ee524575e2f8d19d56f068b448eea3879
+  Device: 0738862dd8a30856b4bd9e21cb9b728873d21392
   Firebase: dc81c6c4701aa965eda3b1433d1b993e3f291e7b
   FirebaseAnalytics: 5fa308e1b13f838d0f6dc74719ac2a72e8c5afc4
   FirebaseAuth: 06feef26ff3a98323677c76c4102146b872cd6b7
@@ -407,8 +418,9 @@ SPEC CHECKSUMS:
   PromisesObjC: b48e0338dbbac2207e611750777895f7a5811b75
   SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
   SDWebImageSwiftUI: 43687ffe232ddd33fe0659498b7ca9884fdd6b35
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   WaterfallGrid: 568881d69470c0ffe635732dfafd859db1365989
 
-PODFILE CHECKSUM: 7d04537652c960c661a90af7d2ac8d1a18e29c3d
+PODFILE CHECKSUM: 97636026f3b8846a967dc32be234d24c95a018ce
 
 COCOAPODS: 1.9.3

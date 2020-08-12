@@ -20,7 +20,7 @@ class NoteRepository: ObservableObject {
     let storage = Storage.storage().reference(forURL: "gs://smash-80661.appspot.com")
 
     @Published var notes: [Note] = []
-    private var imageURLs: [URL] = []
+    @Published var imageURL: [URL] = []
 
     init() {
         loadDate()
@@ -110,7 +110,7 @@ class NoteRepository: ObservableObject {
                 storageRef.downloadURL { (url, error) in
                     if let url = url {
                         let urlString = url.absoluteString
-                        self.imageURLs.append(url)
+                        self.imageURL.append(url)
                         uploadedImageUrlsArray.append(urlString)
                     }
 

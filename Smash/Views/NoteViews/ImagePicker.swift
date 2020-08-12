@@ -11,8 +11,9 @@ import SwiftUI
 
 struct ImagePicker: UIViewControllerRepresentable {
 
-    @Binding var selectedImages: [UIImage]
     @Environment(\.presentationMode) private var presentationMode
+    @Binding var selectedImages: [UIImage]
+    @ObservedObject var noteVM: NoteViewModel
 
     var sourceType: UIImagePickerController.SourceType = .photoLibrary
 
@@ -43,6 +44,7 @@ struct ImagePicker: UIViewControllerRepresentable {
         func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
             if let image = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
                 self.parent.selectedImages.append(image)
+                self.parent.noteVM.uploadImages(images: self.parent.selectedImages)
             }
             parent.presentationMode.wrappedValue.dismiss()
         }

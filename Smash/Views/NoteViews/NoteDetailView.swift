@@ -28,15 +28,13 @@ struct NoteDetailView: View {
     var body: some View {
         ZStack(alignment: .top) {
             VStack(alignment: .leading) {
-                if images.count != 0 {
-                    ShowSelectedPhotos(images: images, noteVM: self.noteVM)
-                }
+                ShowSelectedPhotos(images: images, noteVM: self.noteVM)
                 MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
             }
             .padding(10)
         }
         .sheet(isPresented: $isShowPhotoLibrary) {
-            ImagePicker(selectedImages: self.$images, sourceType: .photoLibrary)
+            ImagePicker(selectedImages: self.$images, noteVM: self.noteVM, sourceType: .photoLibrary)
                 .edgesIgnoringSafeArea(.all)
         }
         .navigationBarTitle(Text(""), displayMode: .inline)
@@ -49,9 +47,6 @@ struct NoteDetailView: View {
             .onDisappear {
                 self.onCommit(self.noteCellVM.note)
                 self.noteVM.deleteEmptyNote(noteCell: self.noteCellVM)
-                if self.images.count != 0 {
-                    self.noteVM.uploadImages(images: self.images)
-                }
         }
     }
 

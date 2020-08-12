@@ -212,16 +212,12 @@ PODS:
     - abseil/base/base_internal
     - abseil/base/config
     - abseil/meta/type_traits
-  - AssetsPickerViewController (2.9.3):
-    - Device
-    - SnapKit
   - BoringSSL-GRPC (0.0.7):
     - BoringSSL-GRPC/Implementation (= 0.0.7)
     - BoringSSL-GRPC/Interface (= 0.0.7)
   - BoringSSL-GRPC/Implementation (0.0.7):
     - BoringSSL-GRPC/Interface (= 0.0.7)
   - BoringSSL-GRPC/Interface (0.0.7)
-  - Device (3.2.1)
   - Firebase/Analytics (6.28.0):
     - Firebase/Core
   - Firebase/Auth (6.28.0):
@@ -283,7 +279,6 @@ PODS:
   - FirebaseStorage (3.8.0):
     - FirebaseCore (~> 6.8)
     - GTMSessionFetcher/Core (~> 1.1)
-  - Fusuma (1.3.3)
   - GoogleAppMeasurement (6.6.2):
     - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
     - GoogleUtilities/MethodSwizzler (~> 6.0)
@@ -349,17 +344,14 @@ PODS:
   - SDWebImage/Core (5.8.4)
   - SDWebImageSwiftUI (1.5.0):
     - SDWebImage (~> 5.7)
-  - SnapKit (5.0.1)
   - WaterfallGrid (0.4.0)
 
 DEPENDENCIES:
-  - AssetsPickerViewController (~> 2.0)
   - Firebase/Analytics
   - Firebase/Auth
   - Firebase/Firestore
   - Firebase/Storage
   - FirebaseFirestoreSwift
-  - Fusuma
   - IQKeyboardManagerSwift
   - SDWebImageSwiftUI
   - WaterfallGrid (~> 0.4.0)
@@ -367,9 +359,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - abseil
-    - AssetsPickerViewController
     - BoringSSL-GRPC
-    - Device
     - Firebase
     - FirebaseAnalytics
     - FirebaseAuth
@@ -379,7 +369,6 @@ SPEC REPOS:
     - FirebaseFirestoreSwift
     - FirebaseInstallations
     - FirebaseStorage
-    - Fusuma
     - GoogleAppMeasurement
     - GoogleDataTransport
     - GoogleUtilities
@@ -392,14 +381,11 @@ SPEC REPOS:
     - PromisesObjC
     - SDWebImage
     - SDWebImageSwiftUI
-    - SnapKit
     - WaterfallGrid
 
 SPEC CHECKSUMS:
   abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
-  AssetsPickerViewController: 85f41a74b74f072c89d69a6f41aacc3def51ea7d
   BoringSSL-GRPC: 8edf627ee524575e2f8d19d56f068b448eea3879
-  Device: 0738862dd8a30856b4bd9e21cb9b728873d21392
   Firebase: dc81c6c4701aa965eda3b1433d1b993e3f291e7b
   FirebaseAnalytics: 5fa308e1b13f838d0f6dc74719ac2a72e8c5afc4
   FirebaseAuth: 06feef26ff3a98323677c76c4102146b872cd6b7
@@ -409,7 +395,6 @@ SPEC CHECKSUMS:
   FirebaseFirestoreSwift: 0cda93628782ca5a817cfecd2a8c0187436c0ae5
   FirebaseInstallations: 3c520c951305cbf9ca54eb891ff9e6d1fd384881
   FirebaseStorage: 3ef81ca5fa7817f85451ca09d516a34d2c7542a7
-  Fusuma: 3bd08c8c5341ec60c0074fa28570fea8765966f0
   GoogleAppMeasurement: 8cd1f289d60e629cf16ab03363b9e89c776b9651
   GoogleDataTransport: 8a40cb194ad242b6f6dfe72c14fe40fc67c4dcd7
   GoogleUtilities: 23ad5d79794b8ded1954466d5be6f8f694d3f7f3
@@ -422,9 +407,8 @@ SPEC CHECKSUMS:
   PromisesObjC: b48e0338dbbac2207e611750777895f7a5811b75
   SDWebImage: cf6922231e95550934da2ada0f20f2becf2ceba9
   SDWebImageSwiftUI: 43687ffe232ddd33fe0659498b7ca9884fdd6b35
-  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   WaterfallGrid: 568881d69470c0ffe635732dfafd859db1365989
 
-PODFILE CHECKSUM: fb13e3b50c8f0458b853c0c6e697cc8c708ffa45
+PODFILE CHECKSUM: 7d04537652c960c661a90af7d2ac8d1a18e29c3d
 
 COCOAPODS: 1.9.3

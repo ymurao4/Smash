@@ -279,6 +279,7 @@ PODS:
   - FirebaseStorage (3.8.0):
     - FirebaseCore (~> 6.8)
     - GTMSessionFetcher/Core (~> 1.1)
+  - Fusuma (1.3.3)
   - GoogleAppMeasurement (6.6.2):
     - GoogleUtilities/AppDelegateSwizzler (~> 6.0)
     - GoogleUtilities/MethodSwizzler (~> 6.0)
@@ -352,6 +353,7 @@ DEPENDENCIES:
   - Firebase/Firestore
   - Firebase/Storage
   - FirebaseFirestoreSwift
+  - Fusuma
   - IQKeyboardManagerSwift
   - SDWebImageSwiftUI
   - WaterfallGrid (~> 0.4.0)
@@ -369,6 +371,7 @@ SPEC REPOS:
     - FirebaseFirestoreSwift
     - FirebaseInstallations
     - FirebaseStorage
+    - Fusuma
     - GoogleAppMeasurement
     - GoogleDataTransport
     - GoogleUtilities
@@ -395,6 +398,7 @@ SPEC CHECKSUMS:
   FirebaseFirestoreSwift: 0cda93628782ca5a817cfecd2a8c0187436c0ae5
   FirebaseInstallations: 3c520c951305cbf9ca54eb891ff9e6d1fd384881
   FirebaseStorage: 3ef81ca5fa7817f85451ca09d516a34d2c7542a7
+  Fusuma: 3bd08c8c5341ec60c0074fa28570fea8765966f0
   GoogleAppMeasurement: 8cd1f289d60e629cf16ab03363b9e89c776b9651
   GoogleDataTransport: 8a40cb194ad242b6f6dfe72c14fe40fc67c4dcd7
   GoogleUtilities: 23ad5d79794b8ded1954466d5be6f8f694d3f7f3
@@ -409,6 +413,6 @@ SPEC CHECKSUMS:
   SDWebImageSwiftUI: 43687ffe232ddd33fe0659498b7ca9884fdd6b35
   WaterfallGrid: 568881d69470c0ffe635732dfafd859db1365989
 
-PODFILE CHECKSUM: 7d04537652c960c661a90af7d2ac8d1a18e29c3d
+PODFILE CHECKSUM: d5495163cca814fbd430767e15603299088228a8
 
 COCOAPODS: 1.9.3

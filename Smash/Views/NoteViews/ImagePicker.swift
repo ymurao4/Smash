@@ -8,7 +8,11 @@
 
 import UIKit
 import SwiftUI
+import AssetsPickerViewController
+import Photos
 
+
+/*
 struct ImagePicker: UIViewControllerRepresentable {
 
     @Environment(\.presentationMode) private var presentationMode
@@ -48,6 +52,46 @@ struct ImagePicker: UIViewControllerRepresentable {
             }
             parent.presentationMode.wrappedValue.dismiss()
         }
+
+    }
+
+}
+ */
+
+struct MultipleImagePicker: UIViewControllerRepresentable {
+
+    @Environment(\.presentationMode) private var presentationMode
+    @Binding var selectedImages: [UIImage]
+    @ObservedObject var noteVM: NoteViewModel
+
+    func makeUIViewController(context: Context) -> AssetsPickerViewController {
+        let picker = AssetsPickerViewController()
+        picker.delegate = context.coordinator
+
+        return picker
+    }
+
+    func updateUIViewController(_ uiViewController: AssetsPickerViewController, context: Context) {
+
+    }
+
+    func makeCoordinator() -> Coordinator {
+        Coordinator(self)
+    }
+
+    class Coordinator: NSObject, AssetsPickerViewControllerDelegate, UINavigationControllerDelegate {
+
+        var parent: MultipleImagePicker
+
+        init(_ parent: MultipleImagePicker) {
+            self.parent = parent
+        }
+
+        func assetsPicker(controller: AssetsPickerViewController, selected assets: [PHAsset]) {
+            print(assets)
+        }
+
+        
 
     }
 

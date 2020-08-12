@@ -34,8 +34,9 @@ struct NoteDetailView: View {
             .padding(10)
         }
         .sheet(isPresented: $isShowPhotoLibrary) {
-            ImagePicker(selectedImages: self.$images, noteVM: self.noteVM, sourceType: .photoLibrary)
-                .edgesIgnoringSafeArea(.all)
+//            ImagePicker(selectedImages: self.$images, noteVM: self.noteVM, sourceType: .photoLibrary)
+//                .edgesIgnoringSafeArea(.all)
+            MultipleImagePicker(selectedImages: self.$images, noteVM: self.noteVM)
         }
         .navigationBarTitle(Text(""), displayMode: .inline)
         .navigationBarItems(trailing:

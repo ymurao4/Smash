@@ -15,4 +15,5 @@ target 'Smash' do
   pod 'Firebase/Storage'
   pod 'SDWebImageSwiftUI'
   pod 'AssetsPickerViewController', '~> 2.0'
+  pod 'Fusuma'
 end

@@ -14,7 +14,7 @@ struct Note: Codable, Identifiable {
     @DocumentID var id: String?
     var text: String
     var fighterName: String?
-    var imageURLs: [URL]?
+    var imageURL: String?
     @ServerTimestamp var createdTime: Timestamp?
     var userId: String?
 }

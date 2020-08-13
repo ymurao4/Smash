@@ -7,20 +7,23 @@
 //
 
 import Foundation
+import Combine
 import Firebase
 import FirebaseFirestoreSwift
 import FirebaseFirestore
 import FirebaseStorage
+import FirebaseAuth
 
 class NoteRepository: ObservableObject {
 
-    let userId = Auth.auth().currentUser?.uid
 
     let db = Firestore.firestore()
     let storage = Storage.storage().reference(forURL: "gs://smash-80661.appspot.com")
+    let userId = Auth.auth().currentUser?.uid
 
     @Published var notes: [Note] = []
-    @Published var imageURL: [URL] = []
+
+    private var cancellables = Set<AnyCancellable>()
 
     init() {
         loadDate()
@@ -80,6 +83,53 @@ class NoteRepository: ObservableObject {
     }
 
     // images methods
+
+    func uploadImage(image: UIImage) -> String {
+        let data = image.jpegData(compressionQuality: 1.0)! as Data
+        let imageName = NSUUID().uuidString
+
+        guard let userId = userId else { return "" }
+        let imageRef = storage.child("\(userId)").child("\(imageName).jpg")
+
+        let uploadTask = imageRef.putData(data, metadata: nil) { (metadata, error) in
+            guard (metadata != nil) else { return }
+
+            imageRef.downloadURL { (url, error) in
+                guard let downloadURL = url else { return }
+
+            }
+        }
+        observeUploadTaskFailureCases(uploadTask: uploadTask)
+
+        return "\(imageRef)"
+    }
+
+    func observeUploadTaskFailureCases(uploadTask : StorageUploadTask) {
+        uploadTask.observe(.failure) { snapshot in
+            if let error = snapshot.error as NSError? {
+                switch (StorageErrorCode(rawValue: error.code)!) {
+                case .objectNotFound:
+                    NSLog("File doesn't exist")
+                    break
+                case .unauthorized:
+                    NSLog("User doesn't have permission to access file")
+                    break
+                case .cancelled:
+                    NSLog("User canceled the upload")
+                    break
+
+                case .unknown:
+                    NSLog("Unknown error occurred, inspect the server response")
+                    break
+                default:
+                    NSLog("A separate error occurred, This is a good place to retry the upload.")
+                    break
+                }
+            }
+        }
+    }
+
+    /*
     func saveImages(imagesArray: [UIImage]) {
         guard let userId = userId else { return }
         uploadImages(userId: userId, imagesArray: imagesArray) { (uploadedImageUrlsArray) in
@@ -151,6 +201,7 @@ class NoteRepository: ObservableObject {
             }
         }
     }
+ */
 
     func loadImages() {
 

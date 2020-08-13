@@ -14,7 +14,6 @@ class NoteViewModel: ObservableObject {
 
     @Published var noteRepository = NoteRepository()
     @Published var noteCellViewModels = [NoteCellViewModel]()
-    @Published var imageURL = ""
 
     private var cancellables = Set<AnyCancellable>()
 
@@ -29,7 +28,7 @@ class NoteViewModel: ObservableObject {
     }
 
     func addNote(note: Note) {
-        if note.text == "" {
+        if note.text == "" && note.imageURL == "" {
             return
         }
         noteRepository.addNote(note: note)
@@ -42,15 +41,16 @@ class NoteViewModel: ObservableObject {
     }
 
     func deleteEmptyNote(noteCell: NoteCellViewModel) {
-        if noteCell.note.text == "" {
+        if noteCell.note.text == "" && noteCell.note.imageURL == "" {
             if let id = noteCell.note.id {
                 self.noteRepository.deleteNote(noteID: id)
             }
         }
     }
 
-    func uploadImages(images: [UIImage]) {
-        noteRepository.saveImages(imagesArray: images)
+    func uploadImages(image: UIImage) -> String {
+        let url = noteRepository.uploadImage(image: image)
+        return url
     }
 
     func loadImages() {

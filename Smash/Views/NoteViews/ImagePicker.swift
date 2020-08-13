@@ -14,13 +14,16 @@ import AssetsPickerViewController
 struct ImagePicker: UIViewControllerRepresentable {
 
     @Environment(\.presentationMode) private var presentationMode
-    @Binding var selectedImages: [UIImage]
+    @Binding var selectedImage: UIImage
     @ObservedObject var noteVM: NoteViewModel
+    @ObservedObject var noteCellVM: NoteCellViewModel
 
     func makeUIViewController(context: UIViewControllerRepresentableContext<ImagePicker>) -> UIImagePickerController {
         let imagePicker = UIImagePickerController()
-        
+        imagePicker.delegate = context.coordinator
+        imagePicker.sourceType = .photoLibrary
 
+        return imagePicker
     }
 
     func updateUIViewController(_ uiViewController: UIImagePickerController, context: UIViewControllerRepresentableContext<ImagePicker>) {
@@ -31,22 +34,22 @@ struct ImagePicker: UIViewControllerRepresentable {
         Coordinator(self)
     }
 
-    class Coordinator: NSObject, AssetsPickerViewControllerDelegate, UINavigationControllerDelegate {
+    class Coordinator: NSObject, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
 
         var parent: ImagePicker
 
         init(_ parent: ImagePicker) {
             self.parent = parent
         }
-
-        func assetsPicker(controller: AssetsPickerViewController, selected assets: [PHAsset]) {
-            for asset in assets {
-                let image = getAssetThumbnail(asset: asset)
-                self.parent.selectedImages.append(image)
+        
+        func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+            if let image = info[.originalImage] as? UIImage {
+                self.parent.selectedImage = image
+                let url = self.parent.noteVM.uploadImages(image: image)
+                self.parent.noteCellVM.note.imageURL = url
             }
+            parent.presentationMode.wrappedValue.dismiss()
         }
-
-
 
     }
 

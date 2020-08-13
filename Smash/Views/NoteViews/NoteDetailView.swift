@@ -21,20 +21,22 @@ struct NoteDetailView: View {
     @State private var isBeginEditing: Bool = false
     @State private var isShowPhotoLibrary = false
     // for upload
-    @State var images = [UIImage]()
+    @State var image = UIImage()
 
     var onCommit: (Note) -> (Void) = { _ in }
 
     var body: some View {
         ZStack(alignment: .top) {
             VStack(alignment: .leading) {
-                ShowSelectedPhotos(images: $images, noteVM: self.noteVM)
+                if image.size.width != 0 {
+                    ShowSelectedPhotos(image: $image, noteVM: self.noteVM)
+                }
                 MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
             }
             .padding(10)
         }
         .sheet(isPresented: $isShowPhotoLibrary) {
-            MultipleImagePicker(selectedImages: self.$images, noteVM: self.noteVM)
+            ImagePicker(selectedImage: self.$image, noteVM: self.noteVM, noteCellVM: self.noteCellVM)
         }
         .navigationBarTitle(Text(""), displayMode: .inline)
         .navigationBarItems(trailing:
@@ -83,19 +85,10 @@ struct NoteDetailView: View {
 
 // photo
 struct ShowSelectedPhotos: View {
-    @Binding var images: [UIImage]
+    @Binding var image: UIImage
     @ObservedObject var noteVM: NoteViewModel
 
     var body: some View {
-        ScrollView(.horizontal) {
-            HStack {
-                ForEach(images, id: \.self) { image in
-                    Image(uiImage: image)
-                        .resizable()
-                        .frame(width: 80, height: 80)
-                        .scaledToFill()
-                        .cornerRadius(10)
-                }
 //                if self.noteVM.imageURL != "" {
 //                    AnimatedImage(url: URL(string: self.noteVM.imageURL))
 //                        .frame(width: 80, height: 80)
@@ -103,7 +96,12 @@ struct ShowSelectedPhotos: View {
 //                } else {
 //                    Loader()
 //                }
-            }
+        HStack {
+            Image(uiImage: image)
+                .resizable()
+                .frame(width: 80, height: 80)
+                .scaledToFit()
+                .cornerRadius(10)
         }
     }
 }

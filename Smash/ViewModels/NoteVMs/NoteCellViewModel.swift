@@ -14,6 +14,7 @@ class NoteCellViewModel: ObservableObject, Identifiable {
     @Published var noteRepository = NoteRepository()
     @Published var note: Note
     @Published var date: String = ""
+    @Published var imageURL: String = ""
 
     var id: String = ""
 
@@ -35,7 +36,6 @@ class NoteCellViewModel: ObservableObject, Identifiable {
                 dateFormatter.timeStyle = .none
                 let date = dateFormatter.string(from: dateValue)
                 return date
-
         }
         .assign(to: \.date, on: self)
         .store(in: &cancellables)
@@ -54,6 +54,13 @@ class NoteCellViewModel: ObservableObject, Identifiable {
                 self.noteRepository.updateNote(note: note)
         }
         .store(in: &cancellables)
+
+//        noteRepository.$imageURLString
+//            .sink { url in
+//                self.imageURL = url
+//                print(self.imageURL)
+//        }
+//        .store(in: &cancellables)
 
     }
 }

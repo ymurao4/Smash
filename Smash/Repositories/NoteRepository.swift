@@ -132,22 +132,6 @@ class NoteRepository: ObservableObject {
         }
     }
 
-    /*
-    func loadImage(urlString: String?) -> Data? {
-        guard let urlString = urlString else { return nil }
-
-        var outputData: Data?
-
-        let imageStorageRef = storage.reference(forURL: "gs://smash-80661.appspot.com").child(userId!).child(urlString)
-        imageStorageRef.getData(maxSize: 1 * 1024 * 1024) { (data, error) in
-            if let error = error {
-                print(error)
-            } else {
-                outputData = data
-            }
-        }
-    }
-     */
 
     /*
     func saveImages(imagesArray: [UIImage]) {
@@ -226,6 +210,7 @@ class NoteRepository: ObservableObject {
 
 }
 
+// fetch image data from firebase storage
 extension UIImage {
     static func contentOfFIRStorage(path: String?, callback: @escaping (UIImage?) -> Void) {
         guard let path = path else { return }
@@ -245,22 +230,5 @@ extension UIImage {
                     callback(image)
                 }
         }
-    }
-
-    func resizeUIImageRatio(ratio: CGFloat) -> UIImage! {
-
-        // 指定された画像の大きさのコンテキストを用意.
-        UIGraphicsBeginImageContextWithOptions(CGSize(width: ratio, height: ratio), false, 0.0)
-
-        // コンテキストに自身に設定された画像を描画する.
-        self.draw(in: CGRect(x: 0, y: 0, width: ratio, height: ratio))
-
-        // コンテキストからUIImageを作る.
-        let newImage = UIGraphicsGetImageFromCurrentImageContext()
-
-        // コンテキストを閉じる.
-        UIGraphicsEndImageContext()
-
-        return newImage
     }
 }

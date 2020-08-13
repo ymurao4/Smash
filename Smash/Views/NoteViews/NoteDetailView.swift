@@ -29,9 +29,9 @@ struct NoteDetailView: View {
     var body: some View {
         ZStack(alignment: .top) {
             VStack(alignment: .leading) {
-
+                if image.size.width != 0 || callbackImage?.size.width != 0 {
                     ShowSelectedPhotos(image: $image, callbackImage: $callbackImage, noteCellVM: self.noteCellVM)
-                
+                }
                 MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
             }
             .padding(10)
@@ -44,7 +44,6 @@ struct NoteDetailView: View {
             navigationBarTrailingItem()
         )
             .onAppear {
-//                self.data = self.noteVM.loadImage(urlString: self.noteCellVM.note.imageURL)
                 UIImage.contentOfFIRStorage(path: self.noteCellVM.note.imageURL) { image in
                     self.callbackImage = image
                 }
@@ -105,7 +104,6 @@ struct ShowSelectedPhotos: View {
                     .scaledToFit()
                     .cornerRadius(10)
             } else {
-
                 if callbackImage != nil {
                     Image(uiImage: callbackImage!)
                         .resizable()
@@ -115,7 +113,6 @@ struct ShowSelectedPhotos: View {
                 } else {
                     Loader()
                 }
-
             }
         }
     }
@@ -163,18 +160,6 @@ struct SelectFighterIcon: View {
             }
         }
         .frame(maxHeight: UIScreen.main.bounds.size.height / 2)
-
     }
 }
 
-
-struct Loader: UIViewRepresentable {
-    func makeUIView(context: UIViewRepresentableContext<Loader>) -> UIActivityIndicatorView {
-        let indicator = UIActivityIndicatorView(style: .large)
-        indicator.startAnimating()
-        return indicator
-    }
-    func updateUIView(_ uiView: UIActivityIndicatorView, context: UIViewRepresentableContext<Loader>) {
-
-    }
-}

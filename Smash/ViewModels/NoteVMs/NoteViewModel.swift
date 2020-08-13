@@ -54,8 +54,5 @@ class NoteViewModel: ObservableObject {
         return url
     }
 
-//    func loadImage(urlString: String?) -> Data? {
-//        noteRepository.loadImage(urlString: urlString)
-//    }
 
 }

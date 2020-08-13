@@ -9,6 +9,7 @@
 import Foundation
 import Combine
 import SwiftUI
+import FirebaseStorage
 
 class NoteViewModel: ObservableObject {
 
@@ -48,13 +49,13 @@ class NoteViewModel: ObservableObject {
         }
     }
 
-    func uploadImages(image: UIImage) -> String {
+    func uploadImage(image: UIImage) -> String {
         let url = noteRepository.uploadImage(image: image)
         return url
     }
 
-    func loadImages() {
-        noteRepository.loadImages()
-    }
+//    func loadImage(urlString: String?) -> Data? {
+//        noteRepository.loadImage(urlString: urlString)
+//    }
 
 }

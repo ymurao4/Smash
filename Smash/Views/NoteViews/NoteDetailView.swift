@@ -22,15 +22,16 @@ struct NoteDetailView: View {
     @State private var isShowPhotoLibrary = false
     // for upload
     @State var image = UIImage()
+    @State var callbackImage: UIImage?
 
     var onCommit: (Note) -> (Void) = { _ in }
 
     var body: some View {
         ZStack(alignment: .top) {
             VStack(alignment: .leading) {
-                if image.size.width != 0 {
-                    ShowSelectedPhotos(image: $image, noteVM: self.noteVM)
-                }
+
+                    ShowSelectedPhotos(image: $image, callbackImage: $callbackImage, noteCellVM: self.noteCellVM)
+                
                 MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
             }
             .padding(10)
@@ -42,6 +43,12 @@ struct NoteDetailView: View {
         .navigationBarItems(trailing:
             navigationBarTrailingItem()
         )
+            .onAppear {
+//                self.data = self.noteVM.loadImage(urlString: self.noteCellVM.note.imageURL)
+                UIImage.contentOfFIRStorage(path: self.noteCellVM.note.imageURL) { image in
+                    self.callbackImage = image
+                }
+        }
             .onDisappear {
                 self.onCommit(self.noteCellVM.note)
                 self.noteVM.deleteEmptyNote(noteCell: self.noteCellVM)
@@ -86,22 +93,30 @@ struct NoteDetailView: View {
 // photo
 struct ShowSelectedPhotos: View {
     @Binding var image: UIImage
-    @ObservedObject var noteVM: NoteViewModel
+    @Binding var callbackImage: UIImage?
+    @ObservedObject var noteCellVM: NoteCellViewModel
 
     var body: some View {
-//                if self.noteVM.imageURL != "" {
-//                    AnimatedImage(url: URL(string: self.noteVM.imageURL))
-//                        .frame(width: 80, height: 80)
-//                        .cornerRadius(10)
-//                } else {
-//                    Loader()
-//                }
         HStack {
-            Image(uiImage: image)
-                .resizable()
-                .frame(width: 80, height: 80)
-                .scaledToFit()
-                .cornerRadius(10)
+            if self.noteCellVM.note.id == nil {
+                Image(uiImage: image)
+                    .resizable()
+                    .frame(width: 80, height: 80)
+                    .scaledToFit()
+                    .cornerRadius(10)
+            } else {
+
+                if callbackImage != nil {
+                    Image(uiImage: callbackImage!)
+                        .resizable()
+                        .frame(width: 80, height: 80)
+                        .scaledToFit()
+                        .cornerRadius(10)
+                } else {
+                    Loader()
+                }
+
+            }
         }
     }
 }

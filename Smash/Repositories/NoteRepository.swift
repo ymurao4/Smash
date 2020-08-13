@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import Combine
 import Firebase
 import FirebaseFirestoreSwift
 import FirebaseFirestore
@@ -18,12 +17,10 @@ class NoteRepository: ObservableObject {
 
 
     let db = Firestore.firestore()
-    let storage = Storage.storage().reference(forURL: "gs://smash-80661.appspot.com")
+    let storage = Storage.storage()
     let userId = Auth.auth().currentUser?.uid
 
     @Published var notes: [Note] = []
-
-    private var cancellables = Set<AnyCancellable>()
 
     init() {
         loadDate()
@@ -85,23 +82,29 @@ class NoteRepository: ObservableObject {
     // images methods
 
     func uploadImage(image: UIImage) -> String {
-        let data = image.jpegData(compressionQuality: 1.0)! as Data
-        let imageName = NSUUID().uuidString
-
         guard let userId = userId else { return "" }
-        let imageRef = storage.child("\(userId)").child("\(imageName).jpg")
+        let data = image.jpegData(compressionQuality: 0.5)! as Data
+        let imageName = NSUUID().uuidString
+        let outputData = imageName + ".jpg"
 
-        let uploadTask = imageRef.putData(data, metadata: nil) { (metadata, error) in
-            guard (metadata != nil) else { return }
+        let imageRef = storage.reference(forURL: "gs://smash-80661.appspot.com").child("\(userId)").child("\(imageName).jpg")
+        let meta = StorageMetadata()
+        meta.contentType = "image/jpeg"
 
+        let uploadTask = imageRef.putData(data, metadata: meta) { (metadata, error) in
+            if error != nil {
+                print(error.debugDescription)
+                return
+            }
             imageRef.downloadURL { (url, error) in
-                guard let downloadURL = url else { return }
-
+                if error != nil {
+                    return
+                }
             }
         }
-        observeUploadTaskFailureCases(uploadTask: uploadTask)
+        self.observeUploadTaskFailureCases(uploadTask: uploadTask)
 
-        return "\(imageRef)"
+        return "\(outputData)"
     }
 
     func observeUploadTaskFailureCases(uploadTask : StorageUploadTask) {
@@ -128,6 +131,23 @@ class NoteRepository: ObservableObject {
             }
         }
     }
+
+    /*
+    func loadImage(urlString: String?) -> Data? {
+        guard let urlString = urlString else { return nil }
+
+        var outputData: Data?
+
+        let imageStorageRef = storage.reference(forURL: "gs://smash-80661.appspot.com").child(userId!).child(urlString)
+        imageStorageRef.getData(maxSize: 1 * 1024 * 1024) { (data, error) in
+            if let error = error {
+                print(error)
+            } else {
+                outputData = data
+            }
+        }
+    }
+     */
 
     /*
     func saveImages(imagesArray: [UIImage]) {
@@ -203,14 +223,44 @@ class NoteRepository: ObservableObject {
     }
  */
 
-    func loadImages() {
-
-        if let userId = userId {
-            storage.child("\(userId)").child("").downloadURL { (url, error) in
-
-            }
-        }
-    }
 
 }
 
+extension UIImage {
+    static func contentOfFIRStorage(path: String?, callback: @escaping (UIImage?) -> Void) {
+        guard let path = path else { return }
+
+        let storage = Storage.storage()
+        let host = "gs://smash-80661.appspot.com"
+        let userId = Auth.auth().currentUser?.uid
+
+        storage.reference(forURL: host).child(userId!).child(path)
+            .getData(maxSize: 1 * 1024 * 1024) { (data, error) in
+                if error != nil {
+                    callback(nil)
+                    return
+                }
+                if let data = data {
+                    let image = UIImage(data: data)
+                    callback(image)
+                }
+        }
+    }
+
+    func resizeUIImageRatio(ratio: CGFloat) -> UIImage! {
+
+        // 指定された画像の大きさのコンテキストを用意.
+        UIGraphicsBeginImageContextWithOptions(CGSize(width: ratio, height: ratio), false, 0.0)
+
+        // コンテキストに自身に設定された画像を描画する.
+        self.draw(in: CGRect(x: 0, y: 0, width: ratio, height: ratio))
+
+        // コンテキストからUIImageを作る.
+        let newImage = UIGraphicsGetImageFromCurrentImageContext()
+
+        // コンテキストを閉じる.
+        UIGraphicsEndImageContext()
+
+        return newImage
+    }
+}

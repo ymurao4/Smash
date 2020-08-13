@@ -45,7 +45,7 @@ struct ImagePicker: UIViewControllerRepresentable {
         func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
             if let image = info[.originalImage] as? UIImage {
                 self.parent.selectedImage = image
-                let url = self.parent.noteVM.uploadImages(image: image)
+                let url = self.parent.noteVM.uploadImage(image: image)
                 self.parent.noteCellVM.note.imageURL = url
             }
             parent.presentationMode.wrappedValue.dismiss()

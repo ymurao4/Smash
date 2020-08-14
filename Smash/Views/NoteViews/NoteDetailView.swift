@@ -45,14 +45,7 @@ struct NoteDetailView: View {
             navigationBarTrailingItem()
         )
             .onAppear {
-                for url in self.noteCellVM.note.imageURL {
-                    print(url)
-                    UIImage.contentOfFIRStorage(path: url) { image in
-                        if let image = image {
-                            self.callbackImages.append(image)
-                        }
-                    }
-                }
+                self.fetchImagesFromStorage()
         }
             .onDisappear {
                 self.onCommit(self.noteCellVM.note)
@@ -93,6 +86,17 @@ struct NoteDetailView: View {
             }
         }
     }
+
+    private func fetchImagesFromStorage() -> Void {
+        for url in self.noteCellVM.note.imageURL {
+            UIImage.contentOfFIRStorage(path: url) { image in
+                if let image = image {
+                    self.callbackImages.append(image)
+                }
+            }
+        }
+    }
+
 }
 
 // photo

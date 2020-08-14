@@ -15,24 +15,26 @@ struct NoteDetailView: View {
 
     @EnvironmentObject var partialSheetManager : PartialSheetManager
     @Environment (\.colorScheme) var colorScheme: ColorScheme
-    @ObservedObject var noteCellVM: NoteCellViewModel
     @ObservedObject var noteVM = NoteViewModel()
+    @ObservedObject var noteCellVM: NoteCellViewModel
 
     @State private var isBeginEditing: Bool = false
     @State private var isShowPhotoLibrary = false
     // for upload
-    @State var image = UIImage()
-    @State var callbackImage: UIImage?
+    @State private var image = UIImage()
+    @State private var callbackImage: UIImage?
 
     var onCommit: (Note) -> (Void) = { _ in }
 
     var body: some View {
         ZStack(alignment: .top) {
-            VStack(alignment: .leading) {
-                if image.size.width != 0 || callbackImage?.size.width != 0 {
-                    ShowSelectedPhotos(image: $image, callbackImage: $callbackImage, noteCellVM: self.noteCellVM)
+            ScrollView(.vertical, showsIndicators: false) {
+                VStack(alignment: .center) {
+                    if image.size.width != 0 || callbackImage?.size.width != 0 {
+                        ShowSelectedPhotos(image: $image, callbackImage: $callbackImage, noteCellVM: self.noteCellVM)
+                    }
+                    MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
                 }
-                MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
             }
             .padding(10)
         }
@@ -96,19 +98,21 @@ struct ShowSelectedPhotos: View {
     @ObservedObject var noteCellVM: NoteCellViewModel
 
     var body: some View {
-        HStack {
+        VStack {
             if self.noteCellVM.note.id == nil {
                 Image(uiImage: image)
                     .resizable()
-                    .frame(width: 80, height: 80)
-                    .scaledToFit()
+                    .renderingMode(.original)
+                    .scaledToFill()
+                    .frame(maxWidth: UIScreen.main.bounds.width * 0.9, maxHeight: UIScreen.main.bounds.height * 0.8)
                     .cornerRadius(10)
             } else {
                 if callbackImage != nil {
                     Image(uiImage: callbackImage!)
                         .resizable()
-                        .frame(width: 80, height: 80)
-                        .scaledToFit()
+                        .renderingMode(.original)
+                        .scaledToFill()
+                        .frame(maxWidth: UIScreen.main.bounds.width * 0.9, maxHeight: UIScreen.main.bounds.height * 0.8)
                         .cornerRadius(10)
                 } else {
                     Loader()

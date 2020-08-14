@@ -55,13 +55,6 @@ class NoteCellViewModel: ObservableObject, Identifiable {
         }
         .store(in: &cancellables)
 
-//        noteRepository.$imageURLString
-//            .sink { url in
-//                self.imageURL = url
-//                print(self.imageURL)
-//        }
-//        .store(in: &cancellables)
-
     }
 }
 

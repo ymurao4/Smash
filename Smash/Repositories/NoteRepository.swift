@@ -15,7 +15,6 @@ import FirebaseAuth
 
 class NoteRepository: ObservableObject {
 
-
     let db = Firestore.firestore()
     let storage = Storage.storage()
     let userId = Auth.auth().currentUser?.uid
@@ -95,11 +94,6 @@ class NoteRepository: ObservableObject {
             if error != nil {
                 print(error.debugDescription)
                 return
-            }
-            imageRef.downloadURL { (url, error) in
-                if error != nil {
-                    return
-                }
             }
         }
         self.observeUploadTaskFailureCases(uploadTask: uploadTask)
@@ -209,6 +203,7 @@ class NoteRepository: ObservableObject {
 
 
 }
+
 
 // fetch image data from firebase storage
 extension UIImage {

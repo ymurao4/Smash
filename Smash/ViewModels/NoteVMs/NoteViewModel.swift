@@ -29,7 +29,7 @@ class NoteViewModel: ObservableObject {
     }
 
     func addNote(note: Note) {
-        if note.text == "" && note.imageURL == "" {
+        if note.text == "" && note.imageURL.count == 0 {
             return
         }
         noteRepository.addNote(note: note)
@@ -42,7 +42,7 @@ class NoteViewModel: ObservableObject {
     }
 
     func deleteEmptyNote(noteCell: NoteCellViewModel) {
-        if noteCell.note.text == "" && noteCell.note.imageURL == "" {
+        if noteCell.note.text == "" && noteCell.note.imageURL.count == 0 {
             if let id = noteCell.note.id {
                 self.noteRepository.deleteNote(noteID: id)
             }

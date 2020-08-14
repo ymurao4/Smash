@@ -15,38 +15,37 @@ struct NoteDetailView: View {
 
     @EnvironmentObject var partialSheetManager : PartialSheetManager
     @Environment (\.colorScheme) var colorScheme: ColorScheme
-    @ObservedObject var noteCellVM: NoteCellViewModel
     @ObservedObject var noteVM = NoteViewModel()
+    @ObservedObject var noteCellVM: NoteCellViewModel
 
     @State private var isBeginEditing: Bool = false
     @State private var isShowPhotoLibrary = false
     // for upload
-    @State var image = UIImage()
-    @State var callbackImage: UIImage?
+    @State private var image = UIImage()
+    @State private var callbackImages: [UIImage] = []
+    @State private var showImages: [UIImage] = []
 
     var onCommit: (Note) -> (Void) = { _ in }
 
     var body: some View {
         ZStack(alignment: .top) {
             VStack(alignment: .leading) {
-                if image.size.width != 0 || callbackImage?.size.width != 0 {
-                    ShowSelectedPhotos(image: $image, callbackImage: $callbackImage, noteCellVM: self.noteCellVM)
+                if image.size.width != 0 || callbackImages.count != 0 {
+                    ShowSelectedPhotos(images: $showImages, callbackImages: $callbackImages, noteCellVM: self.noteCellVM)
                 }
                 MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
             }
             .padding(10)
         }
         .sheet(isPresented: $isShowPhotoLibrary) {
-            ImagePicker(selectedImage: self.$image, noteVM: self.noteVM, noteCellVM: self.noteCellVM)
+            ImagePicker(selectedImage: self.$image, showImages: self.$showImages, noteVM: self.noteVM, noteCellVM: self.noteCellVM)
         }
         .navigationBarTitle(Text(""), displayMode: .inline)
         .navigationBarItems(trailing:
             navigationBarTrailingItem()
         )
             .onAppear {
-                UIImage.contentOfFIRStorage(path: self.noteCellVM.note.imageURL) { image in
-                    self.callbackImage = image
-                }
+                self.fetchImagesFromStorage()
         }
             .onDisappear {
                 self.onCommit(self.noteCellVM.note)
@@ -87,29 +86,44 @@ struct NoteDetailView: View {
             }
         }
     }
+
+    private func fetchImagesFromStorage() -> Void {
+        for url in self.noteCellVM.note.imageURL {
+            UIImage.contentOfFIRStorage(path: url) { image in
+                if let image = image {
+                    self.callbackImages.append(image)
+                }
+            }
+        }
+    }
+
 }
 
 // photo
 struct ShowSelectedPhotos: View {
-    @Binding var image: UIImage
-    @Binding var callbackImage: UIImage?
+    @Binding var images: [UIImage]
+    @Binding var callbackImages: [UIImage]
     @ObservedObject var noteCellVM: NoteCellViewModel
 
     var body: some View {
         HStack {
             if self.noteCellVM.note.id == nil {
-                Image(uiImage: image)
-                    .resizable()
-                    .frame(width: 80, height: 80)
-                    .scaledToFit()
-                    .cornerRadius(10)
-            } else {
-                if callbackImage != nil {
-                    Image(uiImage: callbackImage!)
+                ForEach(images, id: \.self) { image in
+                    Image(uiImage: image)
                         .resizable()
+                        .scaledToFill()
                         .frame(width: 80, height: 80)
-                        .scaledToFit()
                         .cornerRadius(10)
+                }
+            } else {
+                if callbackImages.count != 0 {
+                    ForEach(callbackImages, id: \.self) { image in
+                        Image(uiImage: image)
+                            .resizable()
+                            .scaledToFill()
+                            .frame(width: 80, height: 80)
+                            .cornerRadius(10)
+                    }
                 } else {
                     Loader()
                 }

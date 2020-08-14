@@ -126,7 +126,20 @@ class NoteRepository: ObservableObject {
         }
     }
 
+    func deleteImage(urls: [String]?) {
+        guard let urls = urls else { return }
+        for url in urls {
+            let deleteRef = storage.reference(forURL: "gs://smash-80661.appspot.com").child(userId!).child(url)
+            deleteRef.delete { (error) in
+                if let error = error {
+                    print(error)
+                } else {
+                    print("Image successfully deleted")
+                }
+            }
+        }
 
+    }
 }
 
 

@@ -11,12 +11,11 @@ import SwiftUI
 struct NoteView: View {
 
     @ObservedObject var noteVM = NoteViewModel()
-    @State private var noteID: String?
     @Binding var isHideTabbar: Bool
 
     private func delete(index: IndexSet) {
-        self.noteID = self.noteVM.noteCellViewModels[index.first!].id
-        self.noteVM.deleteNote(noteID: self.noteID)
+        let note = self.noteVM.noteCellViewModels[index.first!].note
+        self.noteVM.deleteNote(note: note)
     }
 
     var body: some View {

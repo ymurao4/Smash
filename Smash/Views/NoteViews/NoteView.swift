@@ -48,7 +48,7 @@ struct NewNoteCell: View {
 
     var body: some View {
 
-        NavigationLink(destination: NoteDetailView(noteCellVM: NoteCellViewModel(note: Note(text: ""))) { note in
+        NavigationLink(destination: NoteDetailView(noteCellVM: NoteCellViewModel(note: Note(text: "", imageURL: []))) { note in
             self.noteVM.addNote(note: note)
         }) {
             HStack {

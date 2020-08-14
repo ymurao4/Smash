@@ -82,7 +82,7 @@ class NoteRepository: ObservableObject {
 
     func uploadImage(image: UIImage) -> String {
         guard let userId = userId else { return "" }
-        let data = image.jpegData(compressionQuality: 0.5)! as Data
+        let data = image.jpegData(compressionQuality: 0.01)! as Data
         let imageName = NSUUID().uuidString
         let outputData = imageName + ".jpg"
 
@@ -125,81 +125,6 @@ class NoteRepository: ObservableObject {
             }
         }
     }
-
-
-    /*
-    func saveImages(imagesArray: [UIImage]) {
-        guard let userId = userId else { return }
-        uploadImages(userId: userId, imagesArray: imagesArray) { (uploadedImageUrlsArray) in
-            print("uploadedImageUrlsArray: \(uploadedImageUrlsArray)")
-        }
-
-    }
-
-    func uploadImages(userId: String, imagesArray: [UIImage], completionHandler: @escaping ([String]) -> ()) {
-
-        var uploadedImageUrlsArray = [String]()
-        var uploadCount = 0
-        let imagesCount = imagesArray.count
-
-        for image in imagesArray {
-            let imageName = NSUUID().uuidString // Unique string to reference
-
-            let storageRef = storage.child("\(userId)").child("").child("\(imageName).png")
-
-            guard let uploadData = image.pngData() else { return }
-
-            let uploadTask = storageRef.putData(uploadData, metadata: nil) { (metaData, error) in
-                if error != nil {
-                    print(error as Any)
-                    return
-                }
-
-                storageRef.downloadURL { (url, error) in
-                    if let url = url {
-                        let urlString = url.absoluteString
-                        self.imageURL.append(url)
-                        uploadedImageUrlsArray.append(urlString)
-                    }
-
-                    uploadCount += 1
-                    if uploadCount == imagesCount {
-                        NSLog("All Images are uploaded successfully, uploadedImageUrlsArray: \(uploadedImageUrlsArray)")
-                        completionHandler(uploadedImageUrlsArray)
-                    }
-                }
-            }
-
-            observeUploadTaskFailureCases(uploadTask: uploadTask)
-        }
-
-    }
-
-    func observeUploadTaskFailureCases(uploadTask : StorageUploadTask) {
-        uploadTask.observe(.failure) { snapshot in
-            if let error = snapshot.error as NSError? {
-                switch (StorageErrorCode(rawValue: error.code)!) {
-                case .objectNotFound:
-                    NSLog("File doesn't exist")
-                    break
-                case .unauthorized:
-                    NSLog("User doesn't have permission to access file")
-                    break
-                case .cancelled:
-                    NSLog("User canceled the upload")
-                    break
-
-                case .unknown:
-                    NSLog("Unknown error occurred, inspect the server response")
-                    break
-                default:
-                    NSLog("A separate error occurred, This is a good place to retry the upload.")
-                    break
-                }
-            }
-        }
-    }
- */
 
 
 }

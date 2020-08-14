@@ -22,32 +22,36 @@ struct NoteDetailView: View {
     @State private var isShowPhotoLibrary = false
     // for upload
     @State private var image = UIImage()
-    @State private var callbackImage: UIImage?
+    @State private var callbackImages: [UIImage] = []
+    @State private var showImages: [UIImage] = []
 
     var onCommit: (Note) -> (Void) = { _ in }
 
     var body: some View {
         ZStack(alignment: .top) {
-            ScrollView(.vertical, showsIndicators: false) {
-                VStack(alignment: .center) {
-                    if image.size.width != 0 || callbackImage?.size.width != 0 {
-                        ShowSelectedPhotos(image: $image, callbackImage: $callbackImage, noteCellVM: self.noteCellVM)
-                    }
-                    MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
+            VStack(alignment: .leading) {
+                if image.size.width != 0 || callbackImages.count != 0 {
+                    ShowSelectedPhotos(images: $showImages, callbackImages: $callbackImages, noteCellVM: self.noteCellVM)
                 }
+                MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
             }
             .padding(10)
         }
         .sheet(isPresented: $isShowPhotoLibrary) {
-            ImagePicker(selectedImage: self.$image, noteVM: self.noteVM, noteCellVM: self.noteCellVM)
+            ImagePicker(selectedImage: self.$image, showImages: self.$showImages, noteVM: self.noteVM, noteCellVM: self.noteCellVM)
         }
         .navigationBarTitle(Text(""), displayMode: .inline)
         .navigationBarItems(trailing:
             navigationBarTrailingItem()
         )
             .onAppear {
-                UIImage.contentOfFIRStorage(path: self.noteCellVM.note.imageURL) { image in
-                    self.callbackImage = image
+                for url in self.noteCellVM.note.imageURL {
+                    print(url)
+                    UIImage.contentOfFIRStorage(path: url) { image in
+                        if let image = image {
+                            self.callbackImages.append(image)
+                        }
+                    }
                 }
         }
             .onDisappear {
@@ -93,27 +97,29 @@ struct NoteDetailView: View {
 
 // photo
 struct ShowSelectedPhotos: View {
-    @Binding var image: UIImage
-    @Binding var callbackImage: UIImage?
+    @Binding var images: [UIImage]
+    @Binding var callbackImages: [UIImage]
     @ObservedObject var noteCellVM: NoteCellViewModel
 
     var body: some View {
-        VStack {
+        HStack {
             if self.noteCellVM.note.id == nil {
-                Image(uiImage: image)
-                    .resizable()
-                    .renderingMode(.original)
-                    .scaledToFill()
-                    .frame(maxWidth: UIScreen.main.bounds.width * 0.9, maxHeight: UIScreen.main.bounds.height * 0.8)
-                    .cornerRadius(10)
-            } else {
-                if callbackImage != nil {
-                    Image(uiImage: callbackImage!)
+                ForEach(images, id: \.self) { image in
+                    Image(uiImage: image)
                         .resizable()
-                        .renderingMode(.original)
                         .scaledToFill()
-                        .frame(maxWidth: UIScreen.main.bounds.width * 0.9, maxHeight: UIScreen.main.bounds.height * 0.8)
+                        .frame(width: 80, height: 80)
                         .cornerRadius(10)
+                }
+            } else {
+                if callbackImages.count != 0 {
+                    ForEach(callbackImages, id: \.self) { image in
+                        Image(uiImage: image)
+                            .resizable()
+                            .scaledToFill()
+                            .frame(width: 80, height: 80)
+                            .cornerRadius(10)
+                    }
                 } else {
                     Loader()
                 }

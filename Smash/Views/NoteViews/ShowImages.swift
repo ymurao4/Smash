@@ -7,20 +7,23 @@
 //
 
 import SwiftUI
+import Pages
 
 struct ShowImages: View {
+
     let imagesArray: [UIImage]
+    @Environment(\.presentationMode) var presentationMode
+    @Binding var selectedIndex: Int
 
     var body: some View {
-        ScrollView(.horizontal) {
-            HStack(alignment: .center) {
-                ForEach(imagesArray.indices, id: \.self) { i in
-                    Image(uiImage: self.imagesArray[i])
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height * 0.9)
-                }
+        VStack {
+            ModelPages(imagesArray, currentPage: $selectedIndex) { _, image in
+                Image(uiImage: image)
+                    .resizable()
+                    .scaledToFit()
+                .gesture(MagnificationGesture())
             }
+            .padding()
         }
     }
 }

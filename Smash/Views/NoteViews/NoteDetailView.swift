@@ -32,7 +32,7 @@ struct NoteDetailView: View {
                 if imagesArray.count != 0 {
                     ShowSelectedPhotos(imagesArray: $imagesArray, isImageSelected: $isImageSelected, selectedIndex: $selectedIndex)
                         .sheet(isPresented: $isImageSelected) {
-                            ShowImages(imagesArray: self.imagesArray)
+                            ShowImages(imagesArray: self.imagesArray, selectedIndex: self.$selectedIndex)
                     }
                 }
                 MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)

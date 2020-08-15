@@ -19,7 +19,9 @@ struct NoteDetailView: View {
     @ObservedObject var noteCellVM: NoteCellViewModel
 
     @State private var isBeginEditing: Bool = false
-    @State private var isShowPhotoLibrary = false
+    @State private var isShowPhotoLibrary: Bool = false
+    @State private var isImageSelected: Bool = false
+    @State private var selectedIndex: Int = 0
     @State private var imagesArray: [UIImage] = []
 
     var onCommit: (Note) -> (Void) = { _ in }
@@ -28,11 +30,21 @@ struct NoteDetailView: View {
         ZStack(alignment: .top) {
             VStack(alignment: .leading) {
                 if imagesArray.count != 0 {
-                    ShowSelectedPhotos(imagesArray: $imagesArray, noteCellVM: self.noteCellVM)
+                    ShowSelectedPhotos(imagesArray: $imagesArray, isImageSelected: $isImageSelected, selectedIndex: $selectedIndex)
                 }
                 MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
             }
             .padding(10)
+
+            if isImageSelected {
+                Image(uiImage: imagesArray[selectedIndex])
+                    .resizable()
+                    .frame(width: 200, height: 200)
+                    .onTapGesture {
+                        self.isImageSelected = false
+                }
+            }
+
         }
         .sheet(isPresented: $isShowPhotoLibrary) {
             ImagePicker(imagesArray: self.$imagesArray, noteVM: self.noteVM, noteCellVM: self.noteCellVM)
@@ -99,16 +111,23 @@ struct NoteDetailView: View {
 // photo
 struct ShowSelectedPhotos: View {
     @Binding var imagesArray: [UIImage]
-    @ObservedObject var noteCellVM: NoteCellViewModel
+    @Binding var isImageSelected: Bool
+    @Binding var selectedIndex: Int
 
     var body: some View {
-        HStack {
-            ForEach(imagesArray, id: \.self) { image in
-                Image(uiImage: image)
-                    .resizable()
-                    .scaledToFill()
-                    .frame(width: 80, height: 80)
-                    .cornerRadius(10)
+        ScrollView(.horizontal, showsIndicators: false) {
+            HStack {
+                ForEach(imagesArray.indices, id: \.self) { i in
+                    Image(uiImage: self.imagesArray[i])
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 80, height: 80)
+                        .cornerRadius(10)
+                        .onTapGesture {
+                            self.isImageSelected.toggle()
+                            self.selectedIndex = i
+                    }
+                }
             }
         }
     }

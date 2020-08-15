@@ -48,6 +48,8 @@
 		049803A724CBF29B004FD1C2 /* AnalysisViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049803A624CBF29B004FD1C2 /* AnalysisViewModel.swift */; };
 		04A2F9F724CE4813007A5316 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2F9F624CE4813007A5316 /* SafariView.swift */; };
 		04A4861924D0F53A008C3C15 /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4861824D0F53A008C3C15 /* HideKeyboard.swift */; };
+		04ACEE9A24E76845007574A6 /* ShowImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACEE9924E76845007574A6 /* ShowImages.swift */; };
+		04ACEE9D24E77343007574A6 /* Pages in Frameworks */ = {isa = PBXBuildFile; productRef = 04ACEE9C24E77343007574A6 /* Pages */; };
 		04AE235924CC0384005C8100 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE235824CC0383005C8100 /* NoteViewModel.swift */; };
 		04ED6BDA24D8D615004BC5D8 /* MainFighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED6BD924D8D615004BC5D8 /* MainFighter.swift */; };
 		04ED6BDC24D8EF39004BC5D8 /* TranslateNameIntoJapanese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED6BDB24D8EF39004BC5D8 /* TranslateNameIntoJapanese.swift */; };
@@ -103,6 +105,7 @@
 		049803A624CBF29B004FD1C2 /* AnalysisViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisViewModel.swift; sourceTree = "<group>"; };
 		04A2F9F624CE4813007A5316 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		04A4861824D0F53A008C3C15 /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
+		04ACEE9924E76845007574A6 /* ShowImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImages.swift; sourceTree = "<group>"; };
 		04AE235824CC0383005C8100 /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
 		04ED6BD924D8D615004BC5D8 /* MainFighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFighter.swift; sourceTree = "<group>"; };
 		04ED6BDB24D8EF39004BC5D8 /* TranslateNameIntoJapanese.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateNameIntoJapanese.swift; sourceTree = "<group>"; };
@@ -122,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04ACEE9D24E77343007574A6 /* Pages in Frameworks */,
 				04196AF524D4E5340098EA5C /* PartialSheet in Frameworks */,
 				48E073D721060F2734D25D25 /* Pods_Smash.framework in Frameworks */,
 			);
@@ -260,6 +264,7 @@
 			children = (
 				0409E4CD24C57588000038E1 /* NoteView.swift */,
 				04568CF924CBC14900FE1841 /* NoteDetailView.swift */,
+				04ACEE9924E76845007574A6 /* ShowImages.swift */,
 				044A742B24E2150D00A60E7F /* ImagePicker.swift */,
 			);
 			path = NoteViews;
@@ -354,6 +359,7 @@
 			name = Smash;
 			packageProductDependencies = (
 				04196AF424D4E5340098EA5C /* PartialSheet */,
+				04ACEE9C24E77343007574A6 /* Pages */,
 			);
 			productName = Smash;
 			productReference = 0409E4B024C574B9000038E1 /* Smash.app */;
@@ -385,6 +391,7 @@
 			mainGroup = 0409E4A724C574B9000038E1;
 			packageReferences = (
 				04196AF324D4E5340098EA5C /* XCRemoteSwiftPackageReference "PartialSheet" */,
+				04ACEE9B24E77343007574A6 /* XCRemoteSwiftPackageReference "Pages" */,
 			);
 			productRefGroup = 0409E4B124C574B9000038E1 /* Products */;
 			projectDirPath = "";
@@ -475,6 +482,7 @@
 				049803A724CBF29B004FD1C2 /* AnalysisViewModel.swift in Sources */,
 				049239B324C6A306009F301E /* AnalysisView.swift in Sources */,
 				043F62A124CC11B40005B13C /* AnalysisOpponentFighterView.swift in Sources */,
+				04ACEE9A24E76845007574A6 /* ShowImages.swift in Sources */,
 				04568CFC24CBEA3C00FE1841 /* MultilineTextField.swift in Sources */,
 				0409E4B624C574B9000038E1 /* SceneDelegate.swift in Sources */,
 				0437708124D537C000DCED8E /* AnalysisRepository.swift in Sources */,
@@ -708,6 +716,14 @@
 				minimumVersion = 2.1.6;
 			};
 		};
+		04ACEE9B24E77343007574A6 /* XCRemoteSwiftPackageReference "Pages" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nachonavarro/Pages";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.5;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -715,6 +731,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 04196AF324D4E5340098EA5C /* XCRemoteSwiftPackageReference "PartialSheet" */;
 			productName = PartialSheet;
+		};
+		04ACEE9C24E77343007574A6 /* Pages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04ACEE9B24E77343007574A6 /* XCRemoteSwiftPackageReference "Pages" */;
+			productName = Pages;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

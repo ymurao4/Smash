@@ -31,23 +31,14 @@ struct NoteDetailView: View {
             VStack(alignment: .leading) {
                 if imagesArray.count != 0 {
                     ShowSelectedPhotos(imagesArray: $imagesArray, isImageSelected: $isImageSelected, selectedIndex: $selectedIndex)
+                        .sheet(isPresented: $isImageSelected) {
+                            ShowImages(imagesArray: self.imagesArray)
+                    }
                 }
                 MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
             }
             .padding(10)
 
-            if isImageSelected {
-                Image(uiImage: imagesArray[selectedIndex])
-                    .resizable()
-                    .frame(width: 200, height: 200)
-                    .onTapGesture {
-                        self.isImageSelected = false
-                }
-            }
-
-        }
-        .sheet(isPresented: $isShowPhotoLibrary) {
-            ImagePicker(imagesArray: self.$imagesArray, noteVM: self.noteVM, noteCellVM: self.noteCellVM)
         }
         .navigationBarTitle(Text(""), displayMode: .inline)
         .navigationBarItems(trailing:
@@ -71,6 +62,9 @@ struct NoteDetailView: View {
                 UIApplication.shared.endEditing()
             }) {
                 Image(systemName: "photo")
+            }
+            .sheet(isPresented: $isShowPhotoLibrary) {
+                ImagePicker(imagesArray: self.$imagesArray, noteVM: self.noteVM, noteCellVM: self.noteCellVM)
             }
 
             // fighter button

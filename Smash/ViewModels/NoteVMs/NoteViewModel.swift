@@ -35,10 +35,11 @@ class NoteViewModel: ObservableObject {
         noteRepository.addNote(note: note)
     }
 
-    func deleteNote(noteID: String?) {
-        if let noteID = noteID {
+    func deleteNote(note: Note) {
+        if let noteID = note.id {
             noteRepository.deleteNote(noteID: noteID)
         }
+        noteRepository.deleteImage(urls: note.imageURL)
     }
 
     func deleteEmptyNote(noteCell: NoteCellViewModel) {

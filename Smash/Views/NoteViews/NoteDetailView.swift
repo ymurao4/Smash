@@ -19,26 +19,26 @@ struct NoteDetailView: View {
     @ObservedObject var noteCellVM: NoteCellViewModel
 
     @State private var isBeginEditing: Bool = false
-    @State private var isShowPhotoLibrary = false
-    // for upload
-    @State private var image = UIImage()
-    @State private var callbackImages: [UIImage] = []
-    @State private var showImages: [UIImage] = []
+    @State private var isShowPhotoLibrary: Bool = false
+    @State private var isImageSelected: Bool = false
+    @State private var selectedIndex: Int = 0
+    @State private var imagesArray: [UIImage] = []
 
     var onCommit: (Note) -> (Void) = { _ in }
 
     var body: some View {
         ZStack(alignment: .top) {
             VStack(alignment: .leading) {
-                if image.size.width != 0 || callbackImages.count != 0 {
-                    ShowSelectedPhotos(images: $showImages, callbackImages: $callbackImages, noteCellVM: self.noteCellVM)
+                if imagesArray.count != 0 {
+                    ShowSelectedPhotos(imagesArray: $imagesArray, isImageSelected: $isImageSelected, selectedIndex: $selectedIndex)
+                        .sheet(isPresented: $isImageSelected) {
+                            ShowImages(imagesArray: self.imagesArray, selectedIndex: self.$selectedIndex)
+                    }
                 }
                 MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
             }
             .padding(10)
-        }
-        .sheet(isPresented: $isShowPhotoLibrary) {
-            ImagePicker(selectedImage: self.$image, showImages: self.$showImages, noteVM: self.noteVM, noteCellVM: self.noteCellVM)
+
         }
         .navigationBarTitle(Text(""), displayMode: .inline)
         .navigationBarItems(trailing:
@@ -62,6 +62,9 @@ struct NoteDetailView: View {
                 UIApplication.shared.endEditing()
             }) {
                 Image(systemName: "photo")
+            }
+            .sheet(isPresented: $isShowPhotoLibrary) {
+                ImagePicker(imagesArray: self.$imagesArray, noteVM: self.noteVM, noteCellVM: self.noteCellVM)
             }
 
             // fighter button
@@ -91,7 +94,7 @@ struct NoteDetailView: View {
         for url in self.noteCellVM.note.imageURL {
             UIImage.contentOfFIRStorage(path: url) { image in
                 if let image = image {
-                    self.callbackImages.append(image)
+                    self.imagesArray.append(image)
                 }
             }
         }
@@ -101,31 +104,23 @@ struct NoteDetailView: View {
 
 // photo
 struct ShowSelectedPhotos: View {
-    @Binding var images: [UIImage]
-    @Binding var callbackImages: [UIImage]
-    @ObservedObject var noteCellVM: NoteCellViewModel
+    @Binding var imagesArray: [UIImage]
+    @Binding var isImageSelected: Bool
+    @Binding var selectedIndex: Int
 
     var body: some View {
-        HStack {
-            if self.noteCellVM.note.id == nil {
-                ForEach(images, id: \.self) { image in
-                    Image(uiImage: image)
+        ScrollView(.horizontal, showsIndicators: false) {
+            HStack {
+                ForEach(imagesArray.indices, id: \.self) { i in
+                    Image(uiImage: self.imagesArray[i])
                         .resizable()
                         .scaledToFill()
                         .frame(width: 80, height: 80)
                         .cornerRadius(10)
-                }
-            } else {
-                if callbackImages.count != 0 {
-                    ForEach(callbackImages, id: \.self) { image in
-                        Image(uiImage: image)
-                            .resizable()
-                            .scaledToFill()
-                            .frame(width: 80, height: 80)
-                            .cornerRadius(10)
+                        .onTapGesture {
+                            self.isImageSelected.toggle()
+                            self.selectedIndex = i
                     }
-                } else {
-                    Loader()
                 }
             }
         }

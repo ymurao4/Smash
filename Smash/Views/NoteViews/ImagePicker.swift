@@ -14,8 +14,7 @@ import AssetsPickerViewController
 struct ImagePicker: UIViewControllerRepresentable {
 
     @Environment(\.presentationMode) private var presentationMode
-    @Binding var selectedImage: UIImage
-    @Binding var showImages: [UIImage]
+    @Binding var imagesArray: [UIImage]
     @ObservedObject var noteVM: NoteViewModel
     @ObservedObject var noteCellVM: NoteCellViewModel
 
@@ -45,8 +44,7 @@ struct ImagePicker: UIViewControllerRepresentable {
         
         func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
             if let image = info[.originalImage] as? UIImage {
-                self.parent.selectedImage = image
-                self.parent.showImages.append(image)
+                self.parent.imagesArray.append(image)
                 let url = self.parent.noteVM.uploadImage(image: image)
                 self.parent.noteCellVM.note.imageURL.append(url)
             }

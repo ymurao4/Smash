@@ -14,7 +14,7 @@ class NoteCellViewModel: ObservableObject, Identifiable {
     @Published var noteRepository = NoteRepository()
     @Published var note: Note
     @Published var date: String = ""
-    @Published var imageURL: String = ""
+    @Published var firstLineText: String = ""
 
     var id: String = ""
 
@@ -53,6 +53,14 @@ class NoteCellViewModel: ObservableObject, Identifiable {
             .sink { note in
                 self.noteRepository.updateNote(note: note)
         }
+        .store(in: &cancellables)
+
+        $note
+            .compactMap { note in
+                let dividedText = note.text.components(separatedBy: .newlines)
+                return dividedText.first
+        }
+        .assign(to: \.firstLineText, on: self)
         .store(in: &cancellables)
 
     }

@@ -85,7 +85,7 @@ struct NoteCell: View {
                 }
                 VStack(alignment: .leading) {
                     // メモの内容を表示
-                    Text(noteCellVM.note.text)
+                    Text(noteCellVM.firstLineText)
                         .lineLimit(1)
                     // 日付を表示
                     Text(self.noteCellVM.date)

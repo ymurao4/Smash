@@ -39,7 +39,7 @@ MVVMを意識しました。
 <img src="Images/IMG_1176.png" width=320px>
 <img src="Images/IMG_1197.PNG" width=320px>
 <img src="Images/IMG_1193.PNG" width=320px>
-<img src="Images/IMG_1194.PNG" width=320px>
 <img src="Images/IMG_1180.png" width=320px>
 <img src="Images/IMG_1181.png" width=320px>
+<img src="Images/IMG_1194.PNG" width=320px>
 <img src="Images/IMG_1182.png" width=320px>

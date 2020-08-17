@@ -8,7 +8,7 @@ MVVMを意識しました。
 # 機能
 - 対戦結果の記録、削除
 - 対戦結果の分析（メインキャラ、自分のキャラクター、相手のキャラクター、ステージ）
-- キャラクター対策メモ
+- キャラクター対策メモ、画像アップロード
 - キャラクターごとのフレーム表の確認
 - 重量、空中加速、空中移動、落下、ダッシュ、歩行、走行それぞれのランキングを確認
 
@@ -27,6 +27,7 @@ MVVMを意識しました。
 - Firebase/Firestore
 - Firebase/Auth
 - FirebaseFirestoreSwift
+- Firebase/Storage
 - IQKeyboardManagerSwift（keyboardの上げ下げ、閉じ）
 - WaterfallGrid（データの並び）  
 

@@ -130,6 +130,8 @@ struct ShowSelectedPhotos: View {
                     }
                     .onLongPressGesture {
                         self.isAlert.toggle()
+                        self.selectedIndex = i
+                        print(self.imagesArray, self.paths, self.selectedIndex)
                     }
                 }
             }
@@ -147,6 +149,7 @@ struct ShowSelectedPhotos: View {
                                     action: {
                                         self.noteVM.deleteImage(path: self.paths[self.selectedIndex], note: &self.noteCellVM.note)
                                         self.imagesArray.remove(at: self.selectedIndex)
+                                        self.paths.remove(at: self.selectedIndex)
             }),
             secondaryButton: .cancel(Text("キャンセル"))
         )

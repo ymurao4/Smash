@@ -21,7 +21,6 @@ struct ShowImages: View {
                 Image(uiImage: image)
                     .resizable()
                     .scaledToFit()
-                .gesture(MagnificationGesture())
             }
             .padding()
         }

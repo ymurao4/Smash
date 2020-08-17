@@ -39,15 +39,7 @@ struct RecordView: View {
                     }
                     .onDelete(perform: showDeleteAlert)
                     .alert(isPresented: $isAlert) {
-                        Alert(
-                            title: Text("本当に削除しますか？"),
-                            message: Text("この対戦記録を削除します。"),
-                            primaryButton: .default(Text("削除"),
-                                                    action: {
-                                                        self.recordListVM.deleteRecord(recordID: self.recordID)
-                            }),
-                            secondaryButton: .cancel(Text("キャンセル"))
-                        )
+                        showAlert()
                     }
                     // tabbarで隠れてしまうため
                     Text("")
@@ -60,6 +52,18 @@ struct RecordView: View {
         .sheet(isPresented: $isSheet) {
             AddRecordView()
         }
+    }
+
+    private func showAlert() -> Alert {
+        Alert(
+            title: Text("本当に削除しますか？"),
+            message: Text("この対戦記録を削除します。"),
+            primaryButton: .default(Text("削除"),
+                                    action: {
+                                        self.recordListVM.deleteRecord(recordID: self.recordID)
+            }),
+            secondaryButton: .cancel(Text("キャンセル"))
+        )
     }
 }
 

@@ -19,7 +19,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         IQKeyboardManager.shared.enable = true
         IQKeyboardManager.shared.keyboardDistanceFromTextField = 15
         IQKeyboardManager.shared.toolbarTintColor = .orange
-//        IQKeyboardManager.shared.enableAutoToolbar = false
 
         FirebaseApp.configure()
 

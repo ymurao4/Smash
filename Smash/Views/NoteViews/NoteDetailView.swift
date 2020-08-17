@@ -9,7 +9,6 @@
 import SwiftUI
 import WaterfallGrid
 import PartialSheet
-import SDWebImageSwiftUI
 
 struct NoteDetailView: View {
 
@@ -59,7 +58,7 @@ struct NoteDetailView: View {
         HStack(spacing: 30) {
             // imagePicker
             Button(action: {
-                self.isShowPhotoLibrary.toggle()
+                self.isShowPhotoLibrary = true
                 self.isBeginEditing = false
                 UIApplication.shared.endEditing()
             }) {
@@ -147,9 +146,13 @@ struct ShowSelectedPhotos: View {
             message: Text("この画像を削除します。"),
             primaryButton: .default(Text("削除"),
                                     action: {
-                                        self.noteVM.deleteImage(path: self.paths[self.selectedIndex], note: &self.noteCellVM.note)
-                                        self.imagesArray.remove(at: self.selectedIndex)
-                                        self.paths.remove(at: self.selectedIndex)
+                                        if self.imagesArray.count != 0, self.paths.count != 0 {
+                                            self.noteVM.deleteImage(path: self.paths[self.selectedIndex], note: &self.noteCellVM.note)
+                                            self.imagesArray.remove(at: self.selectedIndex)
+                                            self.paths.remove(at: self.selectedIndex)
+                                        } else {
+                                            
+                                        }
             }),
             secondaryButton: .cancel(Text("キャンセル"))
         )

@@ -21,8 +21,10 @@ struct NoteDetailView: View {
     @State private var isBeginEditing: Bool = false
     @State private var isShowPhotoLibrary: Bool = false
     @State private var isImageSelected: Bool = false
+
     @State private var selectedIndex: Int = 0
     @State private var imagesArray: [UIImage] = []
+    @State private var paths: [String] = []
 
     var onCommit: (Note) -> (Void) = { _ in }
 
@@ -30,7 +32,7 @@ struct NoteDetailView: View {
         ZStack(alignment: .top) {
             VStack(alignment: .leading) {
                 if imagesArray.count != 0 {
-                    ShowSelectedPhotos(imagesArray: $imagesArray, isImageSelected: $isImageSelected, selectedIndex: $selectedIndex)
+                    ShowSelectedPhotos(noteVM: noteVM, noteCellVM: noteCellVM, imagesArray: $imagesArray, paths: $paths, isImageSelected: $isImageSelected, selectedIndex: $selectedIndex)
                         .sheet(isPresented: $isImageSelected) {
                             ShowImages(imagesArray: self.imagesArray, selectedIndex: self.$selectedIndex)
                     }
@@ -47,9 +49,9 @@ struct NoteDetailView: View {
             .onAppear {
                 self.fetchImagesFromStorage()
         }
-            .onDisappear {
-                self.onCommit(self.noteCellVM.note)
-                self.noteVM.deleteEmptyNote(noteCell: self.noteCellVM)
+        .onDisappear {
+            self.onCommit(self.noteCellVM.note)
+            self.noteVM.deleteEmptyNote(noteCell: self.noteCellVM)
         }
     }
 
@@ -92,9 +94,10 @@ struct NoteDetailView: View {
 
     private func fetchImagesFromStorage() -> Void {
         for url in self.noteCellVM.note.imageURL {
-            UIImage.contentOfFIRStorage(path: url) { image in
+            UIImage.contentOfFIRStorage(path: url) { image, path in
                 if let image = image {
                     self.imagesArray.append(image)
+                    self.paths.append(path)
                 }
             }
         }
@@ -104,9 +107,13 @@ struct NoteDetailView: View {
 
 // photo
 struct ShowSelectedPhotos: View {
+    @ObservedObject var noteVM: NoteViewModel
+    @ObservedObject var noteCellVM: NoteCellViewModel
     @Binding var imagesArray: [UIImage]
+    @Binding var paths: [String]
     @Binding var isImageSelected: Bool
     @Binding var selectedIndex: Int
+    @State private var isAlert: Bool = false
 
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
@@ -121,9 +128,28 @@ struct ShowSelectedPhotos: View {
                             self.isImageSelected.toggle()
                             self.selectedIndex = i
                     }
+                    .onLongPressGesture {
+                        self.isAlert.toggle()
+                    }
                 }
             }
+            .alert(isPresented: $isAlert) { () -> Alert in
+                showAlert()
+            }
         }
+    }
+
+    private func showAlert() -> Alert {
+        Alert(
+            title: Text("本当に削除しますか？"),
+            message: Text("この画像を削除します。"),
+            primaryButton: .default(Text("削除"),
+                                    action: {
+                                        self.noteVM.deleteImage(path: self.paths[self.selectedIndex], note: &self.noteCellVM.note)
+                                        self.imagesArray.remove(at: self.selectedIndex)
+            }),
+            secondaryButton: .cancel(Text("キャンセル"))
+        )
     }
 }
 

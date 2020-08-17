@@ -55,5 +55,16 @@ class NoteViewModel: ObservableObject {
         return url
     }
 
+    func deleteImage(path: String, note: inout Note) {
+        let pathArray = [path]
+        noteRepository.deleteImage(urls: pathArray)
+        for (i, url) in note.imageURL.enumerated() {
+            if url == path {
+                note.imageURL.remove(at: i)
+                self.noteRepository.updateNote(note: note)
+            }
+        }
+    }
+
 
 }

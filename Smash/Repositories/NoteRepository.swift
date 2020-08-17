@@ -145,7 +145,7 @@ class NoteRepository: ObservableObject {
 
 // fetch image data from firebase storage
 extension UIImage {
-    static func contentOfFIRStorage(path: String?, callback: @escaping (UIImage?) -> Void) {
+    static func contentOfFIRStorage(path: String?, callback: @escaping (UIImage?, String) -> Void) {
         guard let path = path else { return }
 
         let storage = Storage.storage()
@@ -155,12 +155,12 @@ extension UIImage {
         storage.reference(forURL: host).child(userId!).child(path)
             .getData(maxSize: 1 * 1024 * 1024) { (data, error) in
                 if error != nil {
-                    callback(nil)
+                    callback(nil, "")
                     return
                 }
                 if let data = data {
                     let image = UIImage(data: data)
-                    callback(image)
+                    callback(image, path)
                 }
         }
     }

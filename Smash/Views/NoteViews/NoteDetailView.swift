@@ -58,7 +58,7 @@ struct NoteDetailView: View {
         HStack(spacing: 30) {
             // imagePicker
             Button(action: {
-                self.isShowPhotoLibrary = true
+                self.isShowPhotoLibrary.toggle()
                 self.isBeginEditing = false
                 UIApplication.shared.endEditing()
             }) {

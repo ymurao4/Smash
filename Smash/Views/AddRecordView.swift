@@ -43,6 +43,7 @@ struct AddRecordView: View {
                     }
                 }
                 .pickerStyle(SegmentedPickerStyle())
+                .padding(.bottom, 10)
 
                 if selectedIndex == 0 {
                     MyFighterView(fighterName: $myFighterName)
@@ -51,11 +52,9 @@ struct AddRecordView: View {
                 } else if selectedIndex == 2 {
                     StageView(stageName: $stageName)
                 }
-
-                Spacer()
             }
             .padding(20)
-            .navigationBarTitle("対戦結果")
+            .navigationBarTitle(Text("対戦結果"), displayMode: .inline)
             .navigationBarItems(
                 leading:
                 Button(action: {
@@ -229,8 +228,9 @@ struct StageView: View {
                     self.stageName = S.stageArray[index][1]
                 }) {
                     StagePDF(name: S.stageArray[index][1])
-                        .frame(width: 100, height: 80)
+                        .frame(width: self.imageWidth(), height: self.imageWidth() / 1.78)
                         .cornerRadius(10)
+                        .scaledToFill()
                 }
                 Text(S.stageArray[index][0])
                     .font(.footnote)
@@ -240,6 +240,11 @@ struct StageView: View {
             columns: 3,
             spacing: 10,
             animation: .easeInOut(duration: 0.5))
+    }
+
+    private func imageWidth() -> CGFloat {
+        let currentWidth = UIScreen.main.bounds.width
+        return (currentWidth) / 4
     }
 }
 

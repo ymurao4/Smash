@@ -229,8 +229,9 @@ struct StageView: View {
                     self.stageName = S.stageArray[index][1]
                 }) {
                     StagePDF(name: S.stageArray[index][1])
-                        .frame(width: 100, height: 80)
+                        .frame(width: self.imageWidth(), height: self.imageWidth() / 1.5)
                         .cornerRadius(10)
+                        .scaledToFill()
                 }
                 Text(S.stageArray[index][0])
                     .font(.footnote)
@@ -240,6 +241,11 @@ struct StageView: View {
             columns: 3,
             spacing: 10,
             animation: .easeInOut(duration: 0.5))
+    }
+
+    private func imageWidth() -> CGFloat {
+        let currentWidth = UIScreen.main.bounds.width
+        return (currentWidth) / 4
     }
 }
 

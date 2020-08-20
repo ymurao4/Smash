@@ -9,7 +9,6 @@
 import UIKit
 import SwiftUI
 import Photos
-import AssetsPickerViewController
 
 struct ImagePicker: UIViewControllerRepresentable {
 

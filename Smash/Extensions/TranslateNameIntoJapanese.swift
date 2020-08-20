@@ -16,6 +16,8 @@ struct T {
             return "終点"
         case "senjou":
             return "戦場"
+        case "syousenjou":
+            return "小戦場"
         case "pokesuta2":
             return "ポケ2"
         case "karosu":

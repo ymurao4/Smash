@@ -31,16 +31,9 @@ MVVMを意識しました。
 - IQKeyboardManagerSwift（keyboardの上げ下げ、閉じ）
 - WaterfallGrid（データの並び）  
 
-<img src="Images/IMG_1170.png" width=320px>
-<img src="Images/IMG_1171.png" width=320px>
-<img src="Images/IMG_1172.png" width=320px>
-<img src="Images/IMG_1173.png" width=320px>
-<img src="Images/IMG_1174.png" width=320px>
-<img src="Images/IMG_1175.png" width=320px>
-<img src="Images/IMG_1176.png" width=320px>
-<img src="Images/IMG_1197.PNG" width=320px>
-<img src="Images/IMG_1193.PNG" width=320px>
-<img src="Images/IMG_1180.png" width=320px>
-<img src="Images/IMG_1181.png" width=320px>
-<img src="Images/IMG_1194.PNG" width=320px>
-<img src="Images/IMG_1182.png" width=320px>
+<img src="gif/battle.gif" width=320px>
+<img src="gif/analysis.gif" width=320px>
+<img src="gif/note.gif" width=320px>
+<img src="gif/frame.gif" width=320px>
+
+

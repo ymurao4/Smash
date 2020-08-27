@@ -41,8 +41,6 @@ struct RecordView: View {
                     .alert(isPresented: $isAlert) {
                         showAlert()
                     }
-                    // tabbarで隠れてしまうため
-                    Text("")
                 }
             }
             .padding(.horizontal, 10)

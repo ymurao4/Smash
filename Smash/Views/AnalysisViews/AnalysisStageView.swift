@@ -36,9 +36,6 @@ struct AnalysisStageView: View {
                         .frame(maxWidth: .infinity)
                 }
             }
-            // tabbarで隠れてしまうため
-            Text("")
-            Text("")
         }
     }
 }

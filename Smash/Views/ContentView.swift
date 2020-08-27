@@ -11,24 +11,61 @@ import SwiftUI
 struct ContentView: View {
 
     @State private var index: Int = 0
-    @State var isHideTabbar: Bool = false
 
     var body: some View {
+        /*
         ZStack(alignment: .bottom) {
             if self.index == 0 {
                 RecordView()
             } else if self.index == 1 {
                 AnalysisView()
             } else if self.index == 2 {
-                NoteView(isHideTabbar: $isHideTabbar)
+                NoteView()
             } else {
                 FrameView()
             }
             CustomTabs(index: $index)
+                .edgesIgnoringSafeArea(.horizontal)
+                .edgesIgnoringSafeArea(.bottom)
+        }
+        */
+        TabView() {
+            RecordView()
+                .tabItem {
+                    VStack {
+                        Image("battle")
+                            .renderingMode(.template)
+                        Text("記録")
+                    }
+            }
+            AnalysisView()
+                .tabItem {
+                    VStack {
+                        Image("analysis")
+                            .renderingMode(.template)
+                        Text("分析")
+                    }
+            }
+            NoteView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "square.and.pencil")
+                            .font(.system(size: 22))
+                        Text("メモ")
+                    }
+            }
+            FrameView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "text.justify")
+                            .font(.system(size: 22))
+                        Text("情報")
+                    }
+            }
         }
         .accentColor(.orange)
             //　ここで宣言すると、tabbarを覆う
-        .addPartialSheet()
+            .addPartialSheet()
     }
 
 }

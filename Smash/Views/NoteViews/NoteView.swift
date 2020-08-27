@@ -11,7 +11,6 @@ import SwiftUI
 struct NoteView: View {
 
     @ObservedObject var noteVM = NoteViewModel()
-    @Binding var isHideTabbar: Bool
 
     private func delete(index: IndexSet) {
         let note = self.noteVM.noteCellViewModels[index.first!].note
@@ -30,8 +29,6 @@ struct NoteView: View {
                     .onDelete { index in
                         self.delete(index: index)
                     }
-                    // tabbarで隠れてしまうため
-                    Text("")
                 }
             }
             .padding(.horizontal, 10)

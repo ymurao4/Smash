@@ -18,7 +18,7 @@ MVVMを意識しました。
 - 設計 : MVVM + Combine  
 - データベース : Firebase(Cloud FireStore, FireStorage), UserDefaults
 - ユーザー認証 : 匿名認証
-- パッケージ管理 : Cocoapods  
+- パッケージ管理 : CocoaPods  
 - バージョン管理 : Git  
 - スクレイピング : Python, Beautiful Soup, Requests, Pandas
 

@@ -23,7 +23,7 @@ MVVMを意識しました。
 - スクレイピング : Python, Beautiful Soup, Requests, Pandas
 
 # オープンソースライブラリ
-- Firebase/Analytic
+- Firebase/Analytics
 - Firebase/Firestore
 - Firebase/Auth
 - FirebaseFirestoreSwift

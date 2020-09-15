@@ -22,12 +22,14 @@ MVVMを意識しました。
 - バージョン管理 : Git  
 - スクレイピング : Python, Beautiful Soup, Requests, Pandas
 
-# オープンソースライブラリ
+# mBaaS
 - Firebase/Analytics
 - Firebase/Firestore
 - Firebase/Auth
 - FirebaseFirestoreSwift
 - Firebase/Storage
+
+# ライブラリ
 - IQKeyboardManagerSwift
 - WaterfallGrid 
 

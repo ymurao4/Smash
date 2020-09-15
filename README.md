@@ -14,8 +14,8 @@
 
 # 開発環境
 - 開発言語 : Swift  
-- フレームワーク : SwiftUI  
-- 設計 : MVVM + Combine  
+- フレームワーク : SwiftUI, Combine 
+- 設計 : MVVM 
 - データベース : Firebase(Cloud FireStore, FireStorage), UserDefaults
 - ユーザー認証 : 匿名認証
 - パッケージ管理 : CocoaPods  

@@ -11,6 +11,8 @@
 - キャラクター対策メモ、画像アップロード
 - キャラクターごとのフレーム表の確認
 - 重量、空中加速、空中移動、落下、ダッシュ、歩行、走行それぞれのランキングを確認
+- ローカライズ
+- ダークモード 
 
 # 開発環境
 - 開発言語 : Swift  
@@ -33,9 +35,13 @@
 - IQKeyboardManagerSwift
 - WaterfallGrid 
 
+#　追記(2020/9/17)
+- ios14に対応しました。
+- ローカライズに対応しました。
+
 <img src="gif/battle.gif" width=320px>
 <img src="gif/analysis.gif" width=320px>
 <img src="gif/note.gif" width=320px>
 <img src="gif/frame.gif" width=320px>
-
+<img src="gif/localize.gif" width=320px>
 

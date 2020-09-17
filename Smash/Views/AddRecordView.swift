@@ -7,7 +7,6 @@
 //
 
 import SwiftUI
-import WaterfallGrid
 
 struct AddRecordView: View {
 
@@ -20,7 +19,7 @@ struct AddRecordView: View {
     @State private var stageName: String = "syuten"
     @State private var result: Bool = true
 
-    private let pickerNames = ["自分", "相手", "ステージ"]
+    private let pickerNames = ["Me", "Opponent", "Stage"]
     
     var stringResult = { (result: Bool) -> String in
         if result {
@@ -45,7 +44,7 @@ struct AddRecordView: View {
 
                     ForEach(0..<self.pickerNames.count) { index in
 
-                        Text(self.pickerNames[index])
+                        Text(self.pickerNames[index].localized)
                             .tag(index)
                     }
                 }
@@ -64,7 +63,7 @@ struct AddRecordView: View {
                 }
             }
             .padding(20)
-            .navigationBarTitle(Text("対戦結果"), displayMode: .inline)
+            .navigationBarTitle(Text("Result".localized), displayMode: .inline)
             .navigationBarItems(
 
                 leading:
@@ -74,7 +73,7 @@ struct AddRecordView: View {
                         self.presentatinoMode.wrappedValue.dismiss()
                     }) {
 
-                        Text("Cancel")
+                        Text("Cancel".localized)
                             .foregroundColor(.orange)
                     },
 
@@ -87,8 +86,10 @@ struct AddRecordView: View {
                         self.presentatinoMode.wrappedValue.dismiss()
                     }) {
 
-                        Text("Done")
-                            .foregroundColor(.orange)
+                        Image(systemName: "checkmark")
+                            .resizable()
+                            .frame(width: 20, height: 20)
+                            .foregroundColor(Color.orange)
                     }
             )
         }
@@ -118,14 +119,14 @@ struct FormCell: View {
 
         HStack(alignment: .top, spacing: 20) {
             VStack {
-                Text("勝敗")
+                Text("Result".localized)
                     .padding(.bottom, 30)
 
                 HStack {
 
                     Button(action: { self.result.toggle() }) {
 
-                        Text("Win")
+                        Text("Win".localized)
                             .font(.subheadline)
                     }
                     .frame(width: 40, height: 30)
@@ -136,7 +137,7 @@ struct FormCell: View {
 
                     Button(action: { self.result.toggle() }) {
 
-                        Text("Lose")
+                        Text("Lose".localized)
                             .font(.subheadline)
                     }
                     .frame(width: 40, height: 30)
@@ -147,7 +148,7 @@ struct FormCell: View {
             }
             VStack {
 
-                Text("自分")
+                Text("Me".localized)
 
                 Button(action: {
 
@@ -162,7 +163,10 @@ struct FormCell: View {
             }
             VStack {
 
-                Text("相手")
+                Text("Opponent".localized)
+                    .scaledToFill()
+                    .minimumScaleFactor(0.5)
+                    .lineLimit(1)
 
                 Button(action: {
 
@@ -177,7 +181,7 @@ struct FormCell: View {
             }
             VStack {
 
-                Text("ステージ")
+                Text("Stage".localized)
                     .padding(.bottom, 8)
 
                 Button(action: {
@@ -261,8 +265,6 @@ struct StageView: View {
         return (currentWidth) / 4
     }
 }
-
-
 
 struct IconSetting: View {
 

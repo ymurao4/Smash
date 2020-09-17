@@ -94,7 +94,7 @@ struct T {
         case "chrom":
             return "クロム"
         case "mr_game_and_watch":
-            return "Mr.ゲーム&\nウォッチ"
+            return "Mr.ゲーム&ウォッチ"
         case "meta_knight":
             return "メタナイト"
         case "pit":

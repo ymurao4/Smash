@@ -7,11 +7,10 @@
 //
 
 import SwiftUI
-import WaterfallGrid
 
 struct Kind: Identifiable {
     var id: Int
-    var jaName: String
+    var name: String
     var fileName: String
 }
 
@@ -21,45 +20,44 @@ struct FrameView: View {
     @State private var isActionSheet: Bool = false
     @State private var isSheet: Bool = false
     @State private var selectedIndex: Int = 0
+    let column = GridItem(.flexible(minimum: 60, maximum: 80))
 
     private var kinds: [Kind] = [
-        Kind(id: 0, jaName: "重量", fileName: "Weight"),
-        Kind(id: 1, jaName: "空中加速", fileName: "AirAcceleration"),
-        Kind(id: 2, jaName: "空中移動", fileName: "AirSpeed"),
-        Kind(id: 3, jaName: "落下", fileName: "FallSpeed"),
-        Kind(id: 4, jaName: "ダッシュ", fileName: "DashSpeed"),
-        Kind(id: 5, jaName: "歩行", fileName: "WalkSpeed"),
-        Kind(id: 6, jaName: "走行", fileName: "RunSpeed")
+        Kind(id: 0, name: "Weight", fileName: "Weight"),
+        Kind(id: 1, name: "Air Accel", fileName: "AirAcceleration"),
+        Kind(id: 2, name: "Air Speed", fileName: "AirSpeed"),
+        Kind(id: 3, name: "Fall Speed", fileName: "FallSpeed"),
+        Kind(id: 4, name: "Dash Speed", fileName: "DashSpeed"),
+        Kind(id: 5, name: "Walk Speed", fileName: "WalkSpeed"),
+        Kind(id: 6, name: "Run Speed", fileName: "RunSpeed")
 
     ]
 
     var body: some View {
+
         NavigationView{
-            VStack {
-                WaterfallGrid(0..<S.frameFighterArray.count, id: \.self) { index in
-                    NavigationLink(destination: FrameDetaleView(fighterName: S.frameFighterArray[index])) {
-                        ZStack(alignment: .bottom) {
-                            FighterPNG(name: S.frameFighterArray[index])
-                                .frame(width: 70, height: 70)
-                                .overlay(
-                                    Rectangle()
-                                        .stroke(Color.orange, lineWidth: 1)
-                            )
-                            Text(T.translateFrameFighterName(name: S.frameFighterArray[index]))
-                                .font(Font.system(size: 10))
-                                .foregroundColor(Color.backgroundColor(for: self.colorScheme))
+
+            ScrollView(showsIndicators: false) {
+
+                LazyVGrid(columns: Array(repeating: column, count: 5), spacing: 20) {
+
+                    ForEach(S.frameFighterArray, id: \.self) { item in
+
+                        NavigationLink(destination: FrameDetaleView(fighterName: item)) {
+
+                            FighterPNG(name: item)
+                                .frame(width: 60, height: 60)
                         }
                     }
                 }
-                .gridStyle(columns: 5, spacing: 0, padding: EdgeInsets(top: 10, leading: 10, bottom: 60, trailing: 10))
-                .scrollOptions(direction: .vertical, showsIndicators: false)
             }
-            .navigationBarTitle("フレーム表")
+            .padding(.horizontal)
+            .navigationBarTitle("Frame".localized)
             .navigationBarItems(trailing:
-                Button(action: {
-                    self.isActionSheet.toggle()
-                }) {
-                    Image(systemName: "text.aligncenter")
+
+                Button(action: { self.isActionSheet.toggle() }) {
+
+                    Image(systemName: "line.horizontal.3")
                         .resizable()
                         .frame(width: 20, height: 20)
                 }
@@ -74,34 +72,36 @@ struct FrameView: View {
     }
 
     private func actionSheet() -> ActionSheet {
+
         ActionSheet(
-            title: Text("ランキング"),
+
+            title: Text("Ranking".localized),
             buttons: [
-                .default(Text("重量")) {
+                .default(Text(kinds[0].name.localized)) {
                     self.selectedIndex = 0
                     self.isSheet.toggle()
                 },
-                .default(Text("空中加速")) {
+                .default(Text(kinds[1].name.localized)) {
                     self.selectedIndex = 1
                     self.isSheet.toggle()
                 },
-                .default(Text("空中移動")) {
+                .default(Text(kinds[2].name.localized)) {
                     self.selectedIndex = 2
                     self.isSheet.toggle()
                 },
-                .default(Text("落下")) {
+                .default(Text(kinds[3].name.localized)) {
                     self.selectedIndex = 3
                     self.isSheet.toggle()
                 },
-                .default(Text("ダッシュ")) {
+                .default(Text(kinds[4].name.localized)) {
                     self.selectedIndex = 4
                     self.isSheet.toggle()
                 },
-                .default(Text("歩行")) {
+                .default(Text(kinds[5].name.localized)) {
                     self.selectedIndex = 5
                     self.isSheet.toggle()
                 },
-                .default(Text("走行")) {
+                .default(Text(kinds[6].name.localized)) {
                     self.selectedIndex = 6
                     self.isSheet.toggle()
                 },
@@ -116,13 +116,4 @@ struct FrameView_Previews: PreviewProvider {
         FrameView()
     }
 }
-/*
-Kind(id: 0, jaName: "フレーム", fileName: "Frame"),
-Kind(id: 1, jaName: "重量", fileName: "Weight"),
-Kind(id: 2, jaName: "空中加速", fileName: "AirAcceleration"),
-Kind(id: 3, jaName: "空中移動", fileName: "AirSpeed"),
-Kind(id: 4, jaName: "落下", fileName: "FallSpeed"),
-Kind(id: 5, jaName: "ダッシュ", fileName: "DashSpeed"),
-Kind(id: 6, jaName: "歩行", fileName: "WalkSpeed"),
-Kind(id: 7, jaName: "走行", fileName: "RunSpeed")
-*/
+

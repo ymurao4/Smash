@@ -39,7 +39,7 @@ struct ContentView: View {
                         Image("battle")
                             .renderingMode(.template)
 
-                        Text("記録")
+                        Text("Record".localized)
                     }
             }
             AnalysisView()
@@ -50,7 +50,7 @@ struct ContentView: View {
                         Image("analysis")
                             .renderingMode(.template)
 
-                        Text("分析")
+                        Text("Analysis".localized)
                     }
             }
             NoteView()
@@ -61,7 +61,7 @@ struct ContentView: View {
                         Image(systemName: "square.and.pencil")
                             .font(.system(size: 22))
 
-                        Text("メモ")
+                        Text("Note".localized)
                     }
             }
             FrameView()
@@ -72,7 +72,7 @@ struct ContentView: View {
                         Image(systemName: "text.justify")
                             .font(.system(size: 22))
 
-                        Text("情報")
+                        Text("Info".localized)
                     }
             }
         }

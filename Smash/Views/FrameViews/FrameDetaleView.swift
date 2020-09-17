@@ -17,24 +17,35 @@ struct FrameDetaleView: View {
     @State var fighterName: String
     
     var body: some View {
+
         ZStack {
+
             List {
+
                 FighterPNG(name: fighterName)
+
                 ForEach(frameVM.frameData) { data in
+
                     Section(header: Text(data.name)) {
+
                         HStack {
+
                             Text(data.frameStartup)
                             Text("Frame Startup")
                         }
+
                         HStack {
+
                             Text(data.totalFrames)
                             Text("Total Frames")
                         }
                         HStack {
+
                             Text(data.onShield)
                             Text("On Shield")
                         }
                         HStack {
+
                             Text(data.activeOn)
                             Text("Active On")
                         }
@@ -50,10 +61,9 @@ struct FrameDetaleView: View {
         .navigationBarBackButtonHidden(isSheet)
         .navigationBarTitle(T.translateFighterName(name: self.fighterName))
         .navigationBarItems(
+
             trailing:
-            Button(action: {
-                self.isSheet.toggle()
-            }) {
+            Button(action: { self.isSheet.toggle() }) {
                 if !isSheet {
                     Image(systemName: "link")
                         .resizable()

@@ -14,8 +14,8 @@ struct AnalysisView: View {
     @EnvironmentObject var partialSheetManager : PartialSheetManager
     @ObservedObject var analysisVM = AnalysisViewModel(sortName: "opponentFighter")
     @State private var selectedIndex: Int = 0
-    private let pickerName: [String] = ["メイン", "自分", "相手", "ステージ"]
-    private let sortedName: [String] = ["", "試合", "勝ち", "負け", "勝率"]
+    private let pickerName: [String] = ["Main", "Me", "Opponent", "Stage"]
+    private let sortedName: [String] = ["", "Game", "Win", "Lose", "Rate"]
 
     var body: some View {
 
@@ -27,7 +27,7 @@ struct AnalysisView: View {
 
                     ForEach(0..<self.pickerName.count) { index in
 
-                        Text(self.pickerName[index])
+                        Text(self.pickerName[index].localized)
                             .tag(index)
                     }
                 }
@@ -37,7 +37,7 @@ struct AnalysisView: View {
 
                     ForEach(sortedName, id: \.self) { name in
 
-                        Text(name)
+                        Text(name.localized)
                             .frame(maxWidth: .infinity)
                     }
                     .font(.subheadline)
@@ -59,7 +59,7 @@ struct AnalysisView: View {
                 }
             }
             .padding(.horizontal, 10)
-            .navigationBarTitle("分析")
+            .navigationBarTitle("Analysis")
             .navigationBarItems(trailing:
                 Button(action: {
 

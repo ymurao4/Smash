@@ -29,7 +29,7 @@ struct RecordView: View {
                         Image(systemName: "plus.circle.fill")
                             .resizable()
                             .frame(width: 20, height: 20)
-                        Text("記録を追加")
+                        Text("Add a record".localized)
                     }
                 }
                 .padding(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
@@ -44,7 +44,7 @@ struct RecordView: View {
                 }
             }
             .padding(.horizontal, 10)
-            .navigationBarTitle("対戦記録")
+            .navigationBarTitle("Battle Record".localized)
             .navigationBarItems(trailing: EditButton())
         }
         .sheet(isPresented: $isSheet) {
@@ -54,13 +54,13 @@ struct RecordView: View {
 
     private func showAlert() -> Alert {
         Alert(
-            title: Text("本当に削除しますか？"),
-            message: Text("この対戦記録を削除します。"),
-            primaryButton: .default(Text("削除"),
+            title: Text("Are you sure？".localized),
+            message: Text("Do you want to delete this record?".localized),
+            primaryButton: .default(Text("Delete".localized),
                                     action: {
                                         self.recordListVM.deleteRecord(recordID: self.recordID)
             }),
-            secondaryButton: .cancel(Text("キャンセル"))
+            secondaryButton: .cancel(Text("Cancel".localized))
         )
     }
 }
@@ -85,23 +85,33 @@ struct ResultCell: View {
     }
 
     var body: some View {
+
         HStack(spacing: 30) {
+
             VStack(alignment: .center, spacing: 5) {
+
                 Text(recordCellVM.record.result)
+
                 EdgeBorder(width: 5, edge: .top)
                     .foregroundColor(self.borderColor(recordCellVM.record))
                     .frame(maxWidth: .infinity)
             }
+
             FighterPDF(name: recordCellVM.record.myFighter)
                 .frame(width: 40, height: 40)
+
             Text("vs")
                 .font(.headline)
+
             FighterPDF(name: recordCellVM.record.opponentFighter)
                 .frame(width: 40, height: 40)
+
             VStack(spacing: 0) {
+
                 StagePDF(name: recordCellVM.record.stage)
                     .frame(width: 60, height: 30)
                     .cornerRadius(3)
+                
                 Text(T.translateStageName(name: recordCellVM.record.stage))
                     .font(.caption)
             }

@@ -12,27 +12,31 @@ struct NoteView: View {
 
     @ObservedObject var noteVM = NoteViewModel()
 
-    private func delete(index: IndexSet) {
-        let note = self.noteVM.noteCellViewModels[index.first!].note
+    private func delete(offset: IndexSet) {
+
+        let note = self.noteVM.noteCellViewModels[offset.first!].note
         self.noteVM.deleteNote(note: note)
     }
 
     var body: some View {
+
         NavigationView {
+
             VStack(alignment: .leading) {
                 // Listの中に入れない！！！！！！！
                 NewNoteCell(noteVM: noteVM)
+
                 List {
+
                     ForEach(noteVM.noteCellViewModels) { noteCellVM in
+
                         NoteCell(noteCellVM: noteCellVM)
                     }
-                    .onDelete { index in
-                        self.delete(index: index)
-                    }
+                    .onDelete(perform: delete)
                 }
             }
             .padding(.horizontal, 10)
-            .navigationBarTitle("メモ")
+            .navigationBarTitle("Note".localized)
             .navigationBarItems(trailing: EditButton())
         }
     }
@@ -45,13 +49,17 @@ struct NewNoteCell: View {
     var body: some View {
 
         NavigationLink(destination: NoteDetailView(noteCellVM: NoteCellViewModel(note: Note(text: "", imageURL: []))) { note in
+
             self.noteVM.addNote(note: note)
         }) {
+
             HStack {
+
                 Image(systemName: "plus.circle.fill")
                     .resizable()
                     .frame(width: 20, height: 20)
-                Text("メモを追加")
+
+                Text("Add new note".localized)
             }
             .padding(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
         }
@@ -67,19 +75,23 @@ struct NoteCell: View {
     var body: some View {
         // navigationlinkの>を消すため
         ZStack(alignment: .leading) {
+
             HStack {
                 //fighterNameが nil と "" の時は else
                 if noteCellVM.note.fighterName != nil && noteCellVM.note.fighterName != "" {
+
                     FighterPDF(name: noteCellVM.note.fighterName!)
                         .frame(width: 25, height: 25)
                         .padding(.trailing, 5)
                 } else {
+
                     Image(systemName: "scribble")
                         .resizable()
                         .frame(width: 25, height: 25)
                         .cornerRadius(22.5)
                         .padding(.trailing, 5)
                 }
+
                 VStack(alignment: .leading) {
                     // メモの内容を表示
                     Text(noteCellVM.firstLineText)
@@ -89,13 +101,11 @@ struct NoteCell: View {
                         .font(.caption)
                 }
             }
-            NavigationLink(destination: NoteDetailView(noteCellVM: noteCellVM)) {
-                EmptyView()
-            }
+
+            NavigationLink(destination: NoteDetailView(noteCellVM: noteCellVM)) { EmptyView() }
         }
         .padding(.vertical, 5)
     }
-
 }
 
 

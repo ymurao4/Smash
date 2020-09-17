@@ -7,7 +7,6 @@
 //
 
 import SwiftUI
-import WaterfallGrid
 
 struct AddRecordView: View {
 
@@ -20,7 +19,7 @@ struct AddRecordView: View {
     @State private var stageName: String = "syuten"
     @State private var result: Bool = true
 
-    private let pickerNames = ["自分", "相手", "ステージ"]
+    private let pickerNames = ["Me", "Opponent", "Stage"]
     
     var stringResult = { (result: Bool) -> String in
         if result {
@@ -31,14 +30,21 @@ struct AddRecordView: View {
     }
     
     var body: some View {
+
         NavigationView {
+
             VStack {
+
                 FormCell(myFighterName: $myFighterName, opponentFighterName: $opponentFighterName, stageName: $stageName, result: $result, selectedIndex: $selectedIndex)
+
                 Spacer()
                     .frame(height: 20)
+
                 Picker("", selection: $selectedIndex) {
+
                     ForEach(0..<self.pickerNames.count) { index in
-                        Text(self.pickerNames[index])
+
+                        Text(self.pickerNames[index].localized)
                             .tag(index)
                     }
                 }
@@ -46,31 +52,45 @@ struct AddRecordView: View {
                 .padding(.bottom, 10)
 
                 if selectedIndex == 0 {
+
                     MyFighterView(fighterName: $myFighterName)
                 } else if selectedIndex == 1 {
+
                     OpponentFighterView(opponentFighterName: $opponentFighterName)
                 } else if selectedIndex == 2 {
+
                     StageView(stageName: $stageName)
                 }
             }
             .padding(20)
-            .navigationBarTitle(Text("対戦結果"), displayMode: .inline)
+            .navigationBarTitle(Text("Result".localized), displayMode: .inline)
             .navigationBarItems(
+
                 leading:
-                Button(action: {
-                    self.presentatinoMode.wrappedValue.dismiss()
-                }) {
-                    Text("Cancel")
-                        .foregroundColor(.orange)
-                },
+
+                    Button(action: {
+
+                        self.presentatinoMode.wrappedValue.dismiss()
+                    }) {
+
+                        Text("Cancel".localized)
+                            .foregroundColor(.orange)
+                    },
+
                 trailing:
-                Button(action: {
-                    self.recordListVM.addRecord(record: Record(result: self.stringResult(self.result), myFighter: self.myFighterName, opponentFighter: self.opponentFighterName, stage: self.stageName))
-                    self.presentatinoMode.wrappedValue.dismiss()
-                }) {
-                    Text("Done")
-                        .foregroundColor(.orange)
-                }
+
+                    Button(action: {
+
+                        self.recordListVM.addRecord(record: Record(result: self.stringResult(self.result), myFighter: self.myFighterName, opponentFighter: self.opponentFighterName, stage: self.stageName))
+
+                        self.presentatinoMode.wrappedValue.dismiss()
+                    }) {
+
+                        Image(systemName: "checkmark")
+                            .resizable()
+                            .frame(width: 20, height: 20)
+                            .foregroundColor(Color.orange)
+                    }
             )
         }
     }
@@ -96,13 +116,17 @@ struct FormCell: View {
     @Binding var selectedIndex: Int
 
     var body: some View {
+
         HStack(alignment: .top, spacing: 20) {
             VStack {
-                Text("勝敗")
+                Text("Result".localized)
                     .padding(.bottom, 30)
+
                 HStack {
+
                     Button(action: { self.result.toggle() }) {
-                        Text("Win")
+
+                        Text("Win".localized)
                             .font(.subheadline)
                     }
                     .frame(width: 40, height: 30)
@@ -112,7 +136,8 @@ struct FormCell: View {
                     .padding(.trailing, 7)
 
                     Button(action: { self.result.toggle() }) {
-                        Text("Lose")
+
+                        Text("Lose".localized)
                             .font(.subheadline)
                     }
                     .frame(width: 40, height: 30)
@@ -122,11 +147,14 @@ struct FormCell: View {
                 }
             }
             VStack {
-                Text("自分")
+
+                Text("Me".localized)
 
                 Button(action: {
+
                     self.selectedIndex = 0
                 }) {
+
                     FighterPDF(name: myFighterName)
                         .frame(width: 50, height: 50)
                         .background(Color.orange)
@@ -134,10 +162,17 @@ struct FormCell: View {
                 }
             }
             VStack {
-                Text("相手")
+
+                Text("Opponent".localized)
+                    .scaledToFill()
+                    .minimumScaleFactor(0.5)
+                    .lineLimit(1)
+
                 Button(action: {
+
                     self.selectedIndex = 1
                 }) {
+
                     FighterPDF(name: opponentFighterName)
                         .frame(width: 50, height: 50)
                         .background(Color.accentColor)
@@ -145,11 +180,15 @@ struct FormCell: View {
                 }
             }
             VStack {
-                Text("ステージ")
+
+                Text("Stage".localized)
                     .padding(.bottom, 8)
+
                 Button(action: {
+
                     self.selectedIndex = 2
                 }) {
+
                     StagePDF(name: stageName)
                         .frame(width: 60, height: 40)
                         .cornerRadius(3)
@@ -162,90 +201,95 @@ struct FormCell: View {
 }
 
 
-// waterFallGrid
+
 struct MyFighterView: View {
 
     @Binding var fighterName: String
+    let column = GridItem(.flexible(minimum: 40, maximum: 60))
+    let i = "fighterName"
 
     var body: some View {
-        WaterfallGrid((0..<S.fightersArray.count), id: \.self) { index in
-            Button(action: {
-                self.fighterName = S.fightersArray[index][1]
-            }) {
-                FighterPDF(name: S.fightersArray[index][1])
-                    .frame(width: 40, height: 40)
-                    .background(Color.orange)
-                    .cornerRadius(20)
-            }
-        }
-        .gridStyle(
-            columns: 6,
-            spacing: 5,
-            animation: .easeInOut(duration: 0.5)
-        )
-            .scrollOptions(
-                direction: .vertical,
-                showsIndicators: false
-        )
+
+        IconSetting(name: $fighterName, identifier: i, array: S.fightersArray)
     }
 }
 
 struct OpponentFighterView: View {
 
     @Binding var opponentFighterName: String
+    let i = "opponentFighterName"
 
     var body: some View {
-        WaterfallGrid((0..<S.fightersArray.count), id: \.self) { index in
-            Button(action: {
-                self.opponentFighterName = S.fightersArray[index][1]
-            }) {
-                FighterPDF(name: S.fightersArray[index][1])
-                    .frame(width: 40, height: 40)
-                    .background(Color.accentColor)
-                    .cornerRadius(20)
-            }
-        }
-        .gridStyle(
-            columns: 6,
-            spacing: 5,
-            animation: .easeInOut(duration: 0.5)
-        )
-            .scrollOptions(
-                direction: .vertical,
-                showsIndicators: false
-        )
+
+        IconSetting(name: $opponentFighterName, identifier: i, array: S.fightersArray)
     }
 }
 
 struct StageView: View {
 
     @Binding var stageName: String
+    let column = GridItem(.flexible(minimum: 80, maximum: 150))
+    var imageWidth: CGFloat {
 
-    var body: some View {
-        WaterfallGrid((0..<S.stageArray.count), id: \.self) { index in
-            VStack(spacing: 0) {
-                Button(action: {
-                    self.stageName = S.stageArray[index][1]
-                }) {
-                    StagePDF(name: S.stageArray[index][1])
-                        .frame(width: self.imageWidth(), height: self.imageWidth() / 1.78)
-                        .cornerRadius(10)
-                        .scaledToFill()
-                }
-                Text(S.stageArray[index][0])
-                    .font(.footnote)
-            }
-        }
-        .gridStyle(
-            columns: 3,
-            spacing: 10,
-            animation: .easeInOut(duration: 0.5))
+        calImageWidth()
     }
 
-    private func imageWidth() -> CGFloat {
+    var body: some View {
+
+        ScrollView(showsIndicators: false) {
+
+            LazyVGrid(columns: Array(repeating: column, count: 3), spacing: 40) {
+
+                ForEach(S.stageArray, id: \.self) { item in
+
+                    VStack(spacing: 5) {
+
+                        Button(action: { self.stageName = item[1] }) {
+
+                            StagePDF(name: item[1])
+                                .frame(width: self.imageWidth, height: self.imageWidth / 1.78)
+                                .cornerRadius(10)
+                                .scaledToFill()
+                        }
+
+                        Text(item[0])
+                            .font(.footnote)
+                    }
+                }
+            }
+        }
+    }
+
+    private func calImageWidth() -> CGFloat {
         let currentWidth = UIScreen.main.bounds.width
         return (currentWidth) / 4
     }
 }
 
+struct IconSetting: View {
 
+    @Binding var name: String
+    var identifier: String
+    var array: [[String]]
+    let column = GridItem(.flexible(minimum: 40, maximum: 60))
+
+    var body: some View {
+
+        ScrollView(showsIndicators: false) {
+
+            LazyVGrid(columns: Array(repeating: column, count: 7), spacing: 20) {
+
+                ForEach(array, id: \.self) { item in
+
+                    Button(action: { name = item[1] }) {
+
+                        FighterPDF(name: item[1])
+                            .frame(width: 40, height: 40)
+                            .background(self.identifier == "fighterName" ? Color.orange : Color.blue)
+                            .cornerRadius(20)
+                    }
+                }
+            }
+        }
+    }
+}

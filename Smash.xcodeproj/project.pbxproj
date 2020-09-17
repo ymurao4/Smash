@@ -51,6 +51,8 @@
 		04ACEE9A24E76845007574A6 /* ShowImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACEE9924E76845007574A6 /* ShowImages.swift */; };
 		04ACEE9D24E77343007574A6 /* Pages in Frameworks */ = {isa = PBXBuildFile; productRef = 04ACEE9C24E77343007574A6 /* Pages */; };
 		04AE235924CC0384005C8100 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE235824CC0383005C8100 /* NoteViewModel.swift */; };
+		04D1FA372513056F0075F697 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04D1FA392513056F0075F697 /* Localizable.strings */; };
+		04D1FA3F251306E10075F697 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D1FA3E251306E10075F697 /* String.swift */; };
 		04ED6BDA24D8D615004BC5D8 /* MainFighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED6BD924D8D615004BC5D8 /* MainFighter.swift */; };
 		04ED6BDC24D8EF39004BC5D8 /* TranslateNameIntoJapanese.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED6BDB24D8EF39004BC5D8 /* TranslateNameIntoJapanese.swift */; };
 		04EDBB8024D3E283009B696B /* Ranking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EDBB7F24D3E283009B696B /* Ranking.swift */; };
@@ -59,10 +61,11 @@
 		04F4F25024C84288006C2F20 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4F24F24C84288006C2F20 /* Frame.swift */; };
 		04F4F25224C8443F006C2F20 /* csv in Resources */ = {isa = PBXBuildFile; fileRef = 04F4F25124C8443E006C2F20 /* csv */; };
 		04F4F25424C8445C006C2F20 /* FrameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4F25324C8445C006C2F20 /* FrameViewModel.swift */; };
-		48E073D721060F2734D25D25 /* Pods_Smash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88C2B775041D29DF66221E7D /* Pods_Smash.framework */; };
+		45CB54E7CBA292FEB32A92F7 /* Pods_Smash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42F82393D0C4BA612F952D9 /* Pods_Smash.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02BB0371C9C66D3259F75981 /* Pods-Smash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smash.debug.xcconfig"; path = "Target Support Files/Pods-Smash/Pods-Smash.debug.xcconfig"; sourceTree = "<group>"; };
 		0409E4B024C574B9000038E1 /* Smash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0409E4B324C574B9000038E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0409E4B524C574B9000038E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +110,10 @@
 		04A4861824D0F53A008C3C15 /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
 		04ACEE9924E76845007574A6 /* ShowImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImages.swift; sourceTree = "<group>"; };
 		04AE235824CC0383005C8100 /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
+		04D1FA382513056F0075F697 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		04D1FA3B2513058D0075F697 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		04D1FA3C2513058D0075F697 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		04D1FA3E251306E10075F697 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		04ED6BD924D8D615004BC5D8 /* MainFighter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFighter.swift; sourceTree = "<group>"; };
 		04ED6BDB24D8EF39004BC5D8 /* TranslateNameIntoJapanese.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateNameIntoJapanese.swift; sourceTree = "<group>"; };
 		04EDBB7F24D3E283009B696B /* Ranking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ranking.swift; sourceTree = "<group>"; };
@@ -115,9 +122,8 @@
 		04F4F24F24C84288006C2F20 /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 		04F4F25124C8443E006C2F20 /* csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = csv; sourceTree = SOURCE_ROOT; };
 		04F4F25324C8445C006C2F20 /* FrameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameViewModel.swift; sourceTree = "<group>"; };
-		4AC027C60C1B5F94053909E2 /* Pods-Smash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smash.release.xcconfig"; path = "Target Support Files/Pods-Smash/Pods-Smash.release.xcconfig"; sourceTree = "<group>"; };
-		64853352686FFC6A5060929B /* Pods-Smash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smash.debug.xcconfig"; path = "Target Support Files/Pods-Smash/Pods-Smash.debug.xcconfig"; sourceTree = "<group>"; };
-		88C2B775041D29DF66221E7D /* Pods_Smash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B565A0A8530B20729AD64986 /* Pods-Smash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smash.release.xcconfig"; path = "Target Support Files/Pods-Smash/Pods-Smash.release.xcconfig"; sourceTree = "<group>"; };
+		D42F82393D0C4BA612F952D9 /* Pods_Smash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +133,7 @@
 			files = (
 				04ACEE9D24E77343007574A6 /* Pages in Frameworks */,
 				04196AF524D4E5340098EA5C /* PartialSheet in Frameworks */,
-				48E073D721060F2734D25D25 /* Pods_Smash.framework in Frameworks */,
+				45CB54E7CBA292FEB32A92F7 /* Pods_Smash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,7 +146,7 @@
 				0409E4B224C574B9000038E1 /* Smash */,
 				0409E4B124C574B9000038E1 /* Products */,
 				6DA842E88DDE30E34BE8AC52 /* Pods */,
-				79E7A372309743DA948D7EDC /* Frameworks */,
+				2B63370684BE3A9D9F20581B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,6 +172,7 @@
 				0409E4BE24C574BA000038E1 /* LaunchScreen.storyboard */,
 				0409E4C124C574BA000038E1 /* Info.plist */,
 				042A465B24CC14FF003A594F /* GoogleService-Info.plist */,
+				04D1FA392513056F0075F697 /* Localizable.strings */,
 				0409E4BB24C574BA000038E1 /* Preview Content */,
 			);
 			path = Smash;
@@ -292,6 +299,7 @@
 				0414A55924D54F6900475D33 /* Color.swift */,
 				04ED6BDB24D8EF39004BC5D8 /* TranslateNameIntoJapanese.swift */,
 				0446B49524E52253007C8F64 /* Loader.swift */,
+				04D1FA3E251306E10075F697 /* String.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -322,21 +330,21 @@
 			path = AnalysisVMs;
 			sourceTree = "<group>";
 		};
+		2B63370684BE3A9D9F20581B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D42F82393D0C4BA612F952D9 /* Pods_Smash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6DA842E88DDE30E34BE8AC52 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				64853352686FFC6A5060929B /* Pods-Smash.debug.xcconfig */,
-				4AC027C60C1B5F94053909E2 /* Pods-Smash.release.xcconfig */,
+				02BB0371C9C66D3259F75981 /* Pods-Smash.debug.xcconfig */,
+				B565A0A8530B20729AD64986 /* Pods-Smash.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		79E7A372309743DA948D7EDC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				88C2B775041D29DF66221E7D /* Pods_Smash.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,11 +354,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0409E4C424C574BA000038E1 /* Build configuration list for PBXNativeTarget "Smash" */;
 			buildPhases = (
-				EAA147E247DC8383B239DBA1 /* [CP] Check Pods Manifest.lock */,
+				F37B378CD9C8B0DFFEF71EC6 /* [CP] Check Pods Manifest.lock */,
 				0409E4AC24C574B9000038E1 /* Sources */,
 				0409E4AD24C574B9000038E1 /* Frameworks */,
 				0409E4AE24C574B9000038E1 /* Resources */,
-				44F97EA83450D0A6D09A7384 /* [CP] Embed Pods Frameworks */,
+				157A066DFE01DCE6B9E89121 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -372,7 +380,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "村尾慶伸";
 				TargetAttributes = {
 					0409E4AF24C574B9000038E1 = {
@@ -387,6 +395,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 0409E4A724C574B9000038E1;
 			packageReferences = (
@@ -408,6 +417,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0409E4C024C574BA000038E1 /* LaunchScreen.storyboard in Resources */,
+				04D1FA372513056F0075F697 /* Localizable.strings in Resources */,
 				0409E4BD24C574BA000038E1 /* Preview Assets.xcassets in Resources */,
 				042A465C24CC14FF003A594F /* GoogleService-Info.plist in Resources */,
 				0409E4BA24C574BA000038E1 /* Assets.xcassets in Resources */,
@@ -418,7 +428,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		44F97EA83450D0A6D09A7384 /* [CP] Embed Pods Frameworks */ = {
+		157A066DFE01DCE6B9E89121 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -435,7 +445,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Smash/Pods-Smash-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EAA147E247DC8383B239DBA1 /* [CP] Check Pods Manifest.lock */ = {
+		F37B378CD9C8B0DFFEF71EC6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -466,6 +476,7 @@
 			files = (
 				0409E4B424C574B9000038E1 /* AppDelegate.swift in Sources */,
 				044A268D24D3D76A0059496C /* RankingView.swift in Sources */,
+				04D1FA3F251306E10075F697 /* String.swift in Sources */,
 				0447676524CEB9380019B5E9 /* NoteRepository.swift in Sources */,
 				04EDBB8524D4010E009B696B /* FrameRepository.swift in Sources */,
 				04A2F9F724CE4813007A5316 /* SafariView.swift in Sources */,
@@ -519,8 +530,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				0409E4BF24C574BA000038E1 /* Base */,
+				04D1FA3B2513058D0075F697 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		04D1FA392513056F0075F697 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04D1FA382513056F0075F697 /* en */,
+				04D1FA3C2513058D0075F697 /* ja */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -553,6 +574,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -577,7 +599,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -614,6 +636,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -632,7 +655,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -644,7 +667,7 @@
 		};
 		0409E4C524C574BA000038E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64853352686FFC6A5060929B /* Pods-Smash.debug.xcconfig */;
+			baseConfigurationReference = 02BB0371C9C66D3259F75981 /* Pods-Smash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -659,13 +682,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yoshinobu.Smash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0409E4C624C574BA000038E1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4AC027C60C1B5F94053909E2 /* Pods-Smash.release.xcconfig */;
+			baseConfigurationReference = B565A0A8530B20729AD64986 /* Pods-Smash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -680,7 +703,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yoshinobu.Smash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

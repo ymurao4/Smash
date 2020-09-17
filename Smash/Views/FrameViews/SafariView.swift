@@ -16,6 +16,7 @@ struct SafariView: UIViewControllerRepresentable {
     let fighterName: String
 
     func makeUIViewController(context: Context) -> SFSafariViewController {
+        
         let urlString: String = "https://ultimateframedata.com/\(fighterName).php"
         let url = URL(string: urlString)
         return SFSafariViewController(url: url!)

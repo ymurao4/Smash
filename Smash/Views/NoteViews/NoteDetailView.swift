@@ -7,7 +7,6 @@
 //
 
 import SwiftUI
-import WaterfallGrid
 import PartialSheet
 
 struct NoteDetailView: View {
@@ -28,14 +27,19 @@ struct NoteDetailView: View {
     var onCommit: (Note) -> (Void) = { _ in }
 
     var body: some View {
+
         ZStack(alignment: .top) {
+
             VStack(alignment: .leading) {
+
                 if imagesArray.count != 0 {
+
                     ShowSelectedPhotos(noteVM: noteVM, noteCellVM: noteCellVM, imagesArray: $imagesArray, paths: $paths, isImageSelected: $isImageSelected, selectedIndex: $selectedIndex)
                         .sheet(isPresented: $isImageSelected) {
                             ShowImages(imagesArray: self.imagesArray, selectedIndex: self.$selectedIndex)
                     }
                 }
+
                 MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
             }
             .padding(10)
@@ -43,25 +47,32 @@ struct NoteDetailView: View {
         }
         .navigationBarTitle(Text(""), displayMode: .inline)
         .navigationBarItems(trailing:
+
             navigationBarTrailingItem()
         )
             .onAppear {
+
                 self.fetchImagesFromStorage()
         }
         .onDisappear {
+
             self.onCommit(self.noteCellVM.note)
             self.noteVM.deleteEmptyNote(noteCell: self.noteCellVM)
         }
     }
 
     private func navigationBarTrailingItem() -> some View {
+
         HStack(spacing: 30) {
+
             // imagePicker
             Button(action: {
+
                 self.isShowPhotoLibrary.toggle()
                 self.isBeginEditing = false
                 UIApplication.shared.endEditing()
             }) {
+
                 Image(systemName: "photo")
             }
             .sheet(isPresented: $isShowPhotoLibrary) {
@@ -70,6 +81,7 @@ struct NoteDetailView: View {
 
             // fighter button
             Button(action: {
+
                 // partial sheet
                 self.partialSheetManager.showPartialSheet({
                     print("normal sheet dismissed")
@@ -79,6 +91,7 @@ struct NoteDetailView: View {
                 self.isBeginEditing = false
                 UIApplication.shared.endEditing()
             }) {
+
                 if self.noteCellVM.note.fighterName != "" && self.noteCellVM.note.fighterName != nil {
                     FighterPDF(name: self.noteCellVM.note.fighterName!)
                         .frame(width: 25, height: 25)
@@ -92,9 +105,13 @@ struct NoteDetailView: View {
     }
 
     private func fetchImagesFromStorage() -> Void {
+
         for url in self.noteCellVM.note.imageURL {
+
             UIImage.contentOfFIRStorage(path: url) { image, path in
+
                 if let image = image {
+
                     self.imagesArray.append(image)
                     self.paths.append(path)
                 }
@@ -115,9 +132,13 @@ struct ShowSelectedPhotos: View {
     @State private var isAlert: Bool = false
 
     var body: some View {
+
         ScrollView(.horizontal, showsIndicators: false) {
+
             HStack {
+
                 ForEach(imagesArray.indices, id: \.self) { i in
+
                     Image(uiImage: self.imagesArray[i])
                         .resizable()
                         .scaledToFill()
@@ -128,6 +149,7 @@ struct ShowSelectedPhotos: View {
                             self.selectedIndex = i
                     }
                     .onLongPressGesture {
+
                         self.isAlert.toggle()
                         self.selectedIndex = i
                         print(self.imagesArray, self.paths, self.selectedIndex)
@@ -135,13 +157,16 @@ struct ShowSelectedPhotos: View {
                 }
             }
             .alert(isPresented: $isAlert) { () -> Alert in
+
                 showAlert()
             }
         }
     }
 
     private func showAlert() -> Alert {
+
         Alert(
+
             title: Text("本当に削除しますか？"),
             message: Text("この画像を削除します。"),
             primaryButton: .default(Text("削除"),
@@ -164,43 +189,41 @@ struct ShowSelectedPhotos: View {
 struct SelectFighterIcon: View {
 
     @ObservedObject var noteCellVM: NoteCellViewModel
+    let column = GridItem(.flexible(minimum: 40, maximum: 60))
 
     var body: some View {
-        VStack {
-            WaterfallGrid(S.fightersArray, id: \.self) { fighter in
-                Button(action: {
-                    self.noteCellVM.note.fighterName = fighter[1]
-                }) {
-                    FighterPDF(name: fighter[1])
-                        .frame(width: 40, height: 40)
-                        .background(Color.orange)
-                        .cornerRadius(20)
+
+        ScrollView(showsIndicators: false) {
+
+            LazyVGrid(columns: Array(repeating: column, count: 7), spacing: 20) {
+
+                ForEach(S.fightersArray, id: \.self) { item in
+
+                    Button(action: { self.noteCellVM.note.fighterName = item[1] }) {
+
+                        FighterPDF(name: item[1])
+                            .frame(width: 40, height: 40)
+                            .background(Color.orange)
+                            .cornerRadius(20)
+                    }
                 }
             }
-            .gridStyle(
-                columns: 6,
-                spacing: 5
-            )
-                .scrollOptions(
-                    direction: .vertical,
-                    showsIndicators: false
-            )
 
-            Button(action: {
-                self.noteCellVM.note.fighterName = ""
-            }) {
+            Button(action: { self.noteCellVM.note.fighterName = "" }) {
+
                 HStack {
+
                     Image(systemName: "trash")
+
                     Text("削除")
                         .font(.headline)
                 }
-                .padding(EdgeInsets(top: 10, leading: 15, bottom: 10, trailing: 15))
+                .padding(EdgeInsets(top: 10, leading: 30, bottom: 10, trailing: 30))
                 .foregroundColor(.white)
                 .background(LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing))
                 .cornerRadius(20)
             }
         }
-        .frame(maxHeight: UIScreen.main.bounds.size.height / 2)
     }
 }
 

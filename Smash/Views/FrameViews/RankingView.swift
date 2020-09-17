@@ -15,15 +15,23 @@ struct RankingView: View {
     @State var kind: Kind
 
     var body: some View {
+
         NavigationView {
+
             List {
+
                 ForEach(rankingVM.rankingData) { data in
+
                     HStack(spacing: 20) {
+
                         FighterPNG(name: data.fighterName)
                             .frame(width: 80, height: 80)
+
                         Text(T.translateFighterName(name: data.fighterName))
                             .font(.headline)
+
                         Spacer()
+
                         Text(data.value)
                             .font(.headline)
                     }
@@ -31,8 +39,9 @@ struct RankingView: View {
                 }
             }
             .edgesIgnoringSafeArea(.bottom)
-            .navigationBarTitle(kind.jaName)
+            .navigationBarTitle(kind.name.localized)
             .onAppear {
+                
                 self.rankingVM.loadRankingData(rankingName: self.kind.fileName)
             }
         }

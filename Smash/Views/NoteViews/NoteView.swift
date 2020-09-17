@@ -35,7 +35,6 @@ struct NoteView: View {
                     .onDelete(perform: delete)
                 }
             }
-            .padding(.horizontal, 10)
             .navigationBarTitle("Note".localized)
             .navigationBarItems(trailing: EditButton())
         }

@@ -81,6 +81,7 @@ class NoteRepository: ObservableObject {
     // images methods
 
     func uploadImage(image: UIImage) -> String {
+        
         guard let userId = userId else { return "" }
         let data = image.jpegData(compressionQuality: 0.01)! as Data
         let imageName = NSUUID().uuidString
@@ -90,21 +91,29 @@ class NoteRepository: ObservableObject {
         let meta = StorageMetadata()
         meta.contentType = "image/jpeg"
 
+
         let uploadTask = imageRef.putData(data, metadata: meta) { (metadata, error) in
+
             if error != nil {
-                print(error.debugDescription)
+
+                print(error!.localizedDescription)
                 return
             }
         }
         self.observeUploadTaskFailureCases(uploadTask: uploadTask)
 
+
         return "\(outputData)"
     }
 
     func observeUploadTaskFailureCases(uploadTask : StorageUploadTask) {
+
         uploadTask.observe(.failure) { snapshot in
+
             if let error = snapshot.error as NSError? {
+
                 switch (StorageErrorCode(rawValue: error.code)!) {
+
                 case .objectNotFound:
                     NSLog("File doesn't exist")
                     break

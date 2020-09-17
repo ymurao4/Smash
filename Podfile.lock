@@ -339,7 +339,6 @@ PODS:
   - nanopb/decode (1.30906.0)
   - nanopb/encode (1.30906.0)
   - PromisesObjC (1.2.10)
-  - WaterfallGrid (0.4.0)
 
 DEPENDENCIES:
   - Firebase/Analytics
@@ -348,7 +347,6 @@ DEPENDENCIES:
   - Firebase/Storage
   - FirebaseFirestoreSwift
   - IQKeyboardManagerSwift
-  - WaterfallGrid (~> 0.4.0)
 
 SPEC REPOS:
   trunk:
@@ -373,7 +371,6 @@ SPEC REPOS:
     - leveldb-library
     - nanopb
     - PromisesObjC
-    - WaterfallGrid
 
 SPEC CHECKSUMS:
   abseil: 6c8eb7892aefa08d929b39f9bb108e5367e3228f
@@ -397,8 +394,7 @@ SPEC CHECKSUMS:
   leveldb-library: 55d93ee664b4007aac644a782d11da33fba316f7
   nanopb: 59317e09cf1f1a0af72f12af412d54edf52603fc
   PromisesObjC: b14b1c6b68e306650688599de8a45e49fae81151
-  WaterfallGrid: 568881d69470c0ffe635732dfafd859db1365989
 
-PODFILE CHECKSUM: dd7ea725d027f578d675431775ed0d92ca47ba0d
+PODFILE CHECKSUM: 26a52f2e08daf97afa81a6624074cb21a163cc7d
 
 COCOAPODS: 1.10.0.rc.1

@@ -21,6 +21,7 @@
 		04196AF524D4E5340098EA5C /* PartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 04196AF424D4E5340098EA5C /* PartialSheet */; };
 		042A465C24CC14FF003A594F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042A465B24CC14FF003A594F /* GoogleService-Info.plist */; };
 		0437708124D537C000DCED8E /* AnalysisRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437708024D537C000DCED8E /* AnalysisRepository.swift */; };
+		043AEE8225133EF300CD5562 /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043AEE8125133EF300CD5562 /* ImageView.swift */; };
 		043F629824CC06480005B13C /* NoteCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F629724CC06480005B13C /* NoteCellViewModel.swift */; };
 		043F629D24CC11780005B13C /* AnalysisMainFighterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F629C24CC11780005B13C /* AnalysisMainFighterView.swift */; };
 		043F629F24CC119E0005B13C /* AnalysisMyFighterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F629E24CC119E0005B13C /* AnalysisMyFighterView.swift */; };
@@ -48,8 +49,6 @@
 		049803A724CBF29B004FD1C2 /* AnalysisViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049803A624CBF29B004FD1C2 /* AnalysisViewModel.swift */; };
 		04A2F9F724CE4813007A5316 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2F9F624CE4813007A5316 /* SafariView.swift */; };
 		04A4861924D0F53A008C3C15 /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4861824D0F53A008C3C15 /* HideKeyboard.swift */; };
-		04ACEE9A24E76845007574A6 /* ShowImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACEE9924E76845007574A6 /* ShowImages.swift */; };
-		04ACEE9D24E77343007574A6 /* Pages in Frameworks */ = {isa = PBXBuildFile; productRef = 04ACEE9C24E77343007574A6 /* Pages */; };
 		04AE235924CC0384005C8100 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE235824CC0383005C8100 /* NoteViewModel.swift */; };
 		04D1FA372513056F0075F697 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04D1FA392513056F0075F697 /* Localizable.strings */; };
 		04D1FA3F251306E10075F697 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D1FA3E251306E10075F697 /* String.swift */; };
@@ -61,11 +60,10 @@
 		04F4F25024C84288006C2F20 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4F24F24C84288006C2F20 /* Frame.swift */; };
 		04F4F25224C8443F006C2F20 /* csv in Resources */ = {isa = PBXBuildFile; fileRef = 04F4F25124C8443E006C2F20 /* csv */; };
 		04F4F25424C8445C006C2F20 /* FrameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4F25324C8445C006C2F20 /* FrameViewModel.swift */; };
-		45CB54E7CBA292FEB32A92F7 /* Pods_Smash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D42F82393D0C4BA612F952D9 /* Pods_Smash.framework */; };
+		2A3D2531BD7653633FAF7228 /* Pods_Smash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9144AB34B8288F77432059E3 /* Pods_Smash.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		02BB0371C9C66D3259F75981 /* Pods-Smash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smash.debug.xcconfig"; path = "Target Support Files/Pods-Smash/Pods-Smash.debug.xcconfig"; sourceTree = "<group>"; };
 		0409E4B024C574B9000038E1 /* Smash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0409E4B324C574B9000038E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0409E4B524C574B9000038E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +79,7 @@
 		0417B6C824C9A71400BBFF3B /* FrameDetaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameDetaleView.swift; sourceTree = "<group>"; };
 		042A465B24CC14FF003A594F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0437708024D537C000DCED8E /* AnalysisRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisRepository.swift; sourceTree = "<group>"; };
+		043AEE8125133EF300CD5562 /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
 		043F629724CC06480005B13C /* NoteCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCellViewModel.swift; sourceTree = "<group>"; };
 		043F629C24CC11780005B13C /* AnalysisMainFighterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisMainFighterView.swift; sourceTree = "<group>"; };
 		043F629E24CC119E0005B13C /* AnalysisMyFighterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisMyFighterView.swift; sourceTree = "<group>"; };
@@ -108,7 +107,6 @@
 		049803A624CBF29B004FD1C2 /* AnalysisViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisViewModel.swift; sourceTree = "<group>"; };
 		04A2F9F624CE4813007A5316 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		04A4861824D0F53A008C3C15 /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
-		04ACEE9924E76845007574A6 /* ShowImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowImages.swift; sourceTree = "<group>"; };
 		04AE235824CC0383005C8100 /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
 		04D1FA382513056F0075F697 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		04D1FA3B2513058D0075F697 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -122,8 +120,9 @@
 		04F4F24F24C84288006C2F20 /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 		04F4F25124C8443E006C2F20 /* csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = csv; sourceTree = SOURCE_ROOT; };
 		04F4F25324C8445C006C2F20 /* FrameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameViewModel.swift; sourceTree = "<group>"; };
-		B565A0A8530B20729AD64986 /* Pods-Smash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smash.release.xcconfig"; path = "Target Support Files/Pods-Smash/Pods-Smash.release.xcconfig"; sourceTree = "<group>"; };
-		D42F82393D0C4BA612F952D9 /* Pods_Smash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9144AB34B8288F77432059E3 /* Pods_Smash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C8EA3EF807274334AFC61B /* Pods-Smash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smash.release.xcconfig"; path = "Target Support Files/Pods-Smash/Pods-Smash.release.xcconfig"; sourceTree = "<group>"; };
+		BAA0CFD1643CC667833F0E07 /* Pods-Smash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smash.debug.xcconfig"; path = "Target Support Files/Pods-Smash/Pods-Smash.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,9 +130,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04ACEE9D24E77343007574A6 /* Pages in Frameworks */,
 				04196AF524D4E5340098EA5C /* PartialSheet in Frameworks */,
-				45CB54E7CBA292FEB32A92F7 /* Pods_Smash.framework in Frameworks */,
+				2A3D2531BD7653633FAF7228 /* Pods_Smash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +144,7 @@
 				0409E4B224C574B9000038E1 /* Smash */,
 				0409E4B124C574B9000038E1 /* Products */,
 				6DA842E88DDE30E34BE8AC52 /* Pods */,
-				2B63370684BE3A9D9F20581B /* Frameworks */,
+				A09DBFFAB154549CD6D5B123 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -271,7 +269,7 @@
 			children = (
 				0409E4CD24C57588000038E1 /* NoteView.swift */,
 				04568CF924CBC14900FE1841 /* NoteDetailView.swift */,
-				04ACEE9924E76845007574A6 /* ShowImages.swift */,
+				043AEE8125133EF300CD5562 /* ImageView.swift */,
 				044A742B24E2150D00A60E7F /* ImagePicker.swift */,
 			);
 			path = NoteViews;
@@ -330,21 +328,21 @@
 			path = AnalysisVMs;
 			sourceTree = "<group>";
 		};
-		2B63370684BE3A9D9F20581B /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D42F82393D0C4BA612F952D9 /* Pods_Smash.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		6DA842E88DDE30E34BE8AC52 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				02BB0371C9C66D3259F75981 /* Pods-Smash.debug.xcconfig */,
-				B565A0A8530B20729AD64986 /* Pods-Smash.release.xcconfig */,
+				BAA0CFD1643CC667833F0E07 /* Pods-Smash.debug.xcconfig */,
+				A7C8EA3EF807274334AFC61B /* Pods-Smash.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		A09DBFFAB154549CD6D5B123 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9144AB34B8288F77432059E3 /* Pods_Smash.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,11 +352,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0409E4C424C574BA000038E1 /* Build configuration list for PBXNativeTarget "Smash" */;
 			buildPhases = (
-				F37B378CD9C8B0DFFEF71EC6 /* [CP] Check Pods Manifest.lock */,
+				851377336362F2C1672F44CD /* [CP] Check Pods Manifest.lock */,
 				0409E4AC24C574B9000038E1 /* Sources */,
 				0409E4AD24C574B9000038E1 /* Frameworks */,
 				0409E4AE24C574B9000038E1 /* Resources */,
-				157A066DFE01DCE6B9E89121 /* [CP] Embed Pods Frameworks */,
+				423B2E461568FA87A47BDB59 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -367,7 +365,6 @@
 			name = Smash;
 			packageProductDependencies = (
 				04196AF424D4E5340098EA5C /* PartialSheet */,
-				04ACEE9C24E77343007574A6 /* Pages */,
 			);
 			productName = Smash;
 			productReference = 0409E4B024C574B9000038E1 /* Smash.app */;
@@ -400,7 +397,6 @@
 			mainGroup = 0409E4A724C574B9000038E1;
 			packageReferences = (
 				04196AF324D4E5340098EA5C /* XCRemoteSwiftPackageReference "PartialSheet" */,
-				04ACEE9B24E77343007574A6 /* XCRemoteSwiftPackageReference "Pages" */,
 			);
 			productRefGroup = 0409E4B124C574B9000038E1 /* Products */;
 			projectDirPath = "";
@@ -428,7 +424,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		157A066DFE01DCE6B9E89121 /* [CP] Embed Pods Frameworks */ = {
+		423B2E461568FA87A47BDB59 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -445,7 +441,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Smash/Pods-Smash-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F37B378CD9C8B0DFFEF71EC6 /* [CP] Check Pods Manifest.lock */ = {
+		851377336362F2C1672F44CD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -486,6 +482,7 @@
 				0417B6C924C9A71400BBFF3B /* FrameDetaleView.swift in Sources */,
 				0491566124CE9BA8003D8E32 /* RecordRepository.swift in Sources */,
 				049239B524C6A3AF009F301E /* FrameView.swift in Sources */,
+				043AEE8225133EF300CD5562 /* ImageView.swift in Sources */,
 				049239B124C68882009F301E /* EdgeBorder.swift in Sources */,
 				04A4861924D0F53A008C3C15 /* HideKeyboard.swift in Sources */,
 				0409E4CC24C57582000038E1 /* RecordView.swift in Sources */,
@@ -493,7 +490,6 @@
 				049803A724CBF29B004FD1C2 /* AnalysisViewModel.swift in Sources */,
 				049239B324C6A306009F301E /* AnalysisView.swift in Sources */,
 				043F62A124CC11B40005B13C /* AnalysisOpponentFighterView.swift in Sources */,
-				04ACEE9A24E76845007574A6 /* ShowImages.swift in Sources */,
 				04568CFC24CBEA3C00FE1841 /* MultilineTextField.swift in Sources */,
 				0409E4B624C574B9000038E1 /* SceneDelegate.swift in Sources */,
 				0437708124D537C000DCED8E /* AnalysisRepository.swift in Sources */,
@@ -667,7 +663,7 @@
 		};
 		0409E4C524C574BA000038E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02BB0371C9C66D3259F75981 /* Pods-Smash.debug.xcconfig */;
+			baseConfigurationReference = BAA0CFD1643CC667833F0E07 /* Pods-Smash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -688,7 +684,7 @@
 		};
 		0409E4C624C574BA000038E1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B565A0A8530B20729AD64986 /* Pods-Smash.release.xcconfig */;
+			baseConfigurationReference = A7C8EA3EF807274334AFC61B /* Pods-Smash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -739,14 +735,6 @@
 				minimumVersion = 2.1.6;
 			};
 		};
-		04ACEE9B24E77343007574A6 /* XCRemoteSwiftPackageReference "Pages" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/nachonavarro/Pages";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.1.5;
-			};
-		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -754,11 +742,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 04196AF324D4E5340098EA5C /* XCRemoteSwiftPackageReference "PartialSheet" */;
 			productName = PartialSheet;
-		};
-		04ACEE9C24E77343007574A6 /* Pages */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 04ACEE9B24E77343007574A6 /* XCRemoteSwiftPackageReference "Pages" */;
-			productName = Pages;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

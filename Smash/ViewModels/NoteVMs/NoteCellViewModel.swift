@@ -21,6 +21,7 @@ class NoteCellViewModel: ObservableObject, Identifiable {
     private var cancellables = Set<AnyCancellable>()
 
     init(note: Note) {
+
         self.note = note
 
         $note

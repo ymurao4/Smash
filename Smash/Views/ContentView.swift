@@ -30,35 +30,48 @@ struct ContentView: View {
         }
         */
         TabView() {
+
             RecordView()
                 .tabItem {
+
                     VStack {
+
                         Image("battle")
                             .renderingMode(.template)
+
                         Text("記録")
                     }
             }
             AnalysisView()
                 .tabItem {
+
                     VStack {
+
                         Image("analysis")
                             .renderingMode(.template)
+
                         Text("分析")
                     }
             }
             NoteView()
                 .tabItem {
+                    
                     VStack {
+
                         Image(systemName: "square.and.pencil")
                             .font(.system(size: 22))
+
                         Text("メモ")
                     }
             }
             FrameView()
                 .tabItem {
+
                     VStack {
+
                         Image(systemName: "text.justify")
                             .font(.system(size: 22))
+
                         Text("情報")
                     }
             }
@@ -71,10 +84,14 @@ struct ContentView: View {
 }
 
 struct ContentView_Previews: PreviewProvider {
+
     static var previews: some View {
+
         Group {
+
             ContentView()
                 .environment(\.colorScheme, .light)
+
             ContentView()
                 .environment(\.colorScheme, .dark)
         }

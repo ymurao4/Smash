@@ -38,6 +38,7 @@
 #　追記(2020/9/17)
 - ios14に対応しました。
 - ローカライズに対応しました。
+- 画像の複数選択に対応しました。
 
 <img src="gif/battle.gif" width=320px>
 <img src="gif/analysis.gif" width=320px>

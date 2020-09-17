@@ -39,10 +39,13 @@ struct AnalysisView: View {
 
                         Text(name.localized)
                             .frame(maxWidth: .infinity)
+                            .minimumScaleFactor(0.5)
+                            .lineLimit(1)
                     }
                     .font(.subheadline)
-                    .padding(EdgeInsets(top: 10, leading: 20, bottom: 0, trailing: 10))
                 }
+                .padding(.top, 10)
+                .padding(.horizontal)
 
                 if selectedIndex == 0 {
 

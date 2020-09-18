@@ -131,36 +131,62 @@ struct ShowSelectedPhotos: View {
     @Binding var isImageSelected: Bool
     @State var selectedIndex: Int = 0
     @State private var isAlert: Bool = false
-    @State private var isImageView: Bool = false
 
-    let column = GridItem(.adaptive(minimum: 100, maximum: (UIScreen.main.bounds.width / 2)))
+    @State private var x: CGFloat = 0
+    @State private var count: CGFloat = 0
+    @State private var screen: CGFloat = UIScreen.main.bounds.width - 30
 
     var body: some View {
 
-        LazyVGrid(columns: Array(repeating: column, count: 2), spacing: 10) {
+        HStack(spacing: 15) {
 
-            ForEach(images.indices, id: \.self) { i in
+            ForEach(images, id: \.self) { image in
 
-                Image(uiImage: self.images[i])
-                    .resizable()
-                    .scaledToFill()
-                    .frame(width: UIScreen.main.bounds.width / 2, height: 100)
-                    .cornerRadius(10)
-                    .padding(.horizontal, 5)
-                    .onLongPressGesture {
+                CardView(image: image)
+                    .offset(x: self.x)
+                    .highPriorityGesture(DragGesture()
+                        .onChanged({ (value) in
 
-                        self.isAlert.toggle()
-                        self.selectedIndex = i
-                    }
+                            if value.translation.width > 0 {
+
+                                self.x = value.location.x
+                            } else {
+
+                                self.x = value.location.x - screen
+                            }
+                        })
+                        .onEnded({ (value) in
+
+                            if value.translation.width > 0 {
+
+                                if value.translation.width > ((screen - 80) / 2) && Int(self.count) != self.getMid() {
+
+                                    self.count += 1
+                                    self.x = (screen + 15) * self.count // spacingが15だから
+                                } else {
+
+                                    self.x = (screen + 15) * self.count
+                                }
+                            } else {
+
+                                if -value.translation.width > ((screen - 80) / 2) && -Int(self.count) != self.getMid() {
+
+                                    self.count -= 1
+                                    self.x = (screen + 15) * self.count
+                                } else {
+
+                                    self.x = (screen + 15) * self.count
+                                }
+                            }
+                        })
+                    )
             }
         }
+        .frame(width: screen + 30, height: 460)
+        .animation(.spring())
         .alert(isPresented: $isAlert) { () -> Alert in
 
             showAlert()
-        }
-        .sheet(isPresented: $isImageView) {
-
-            ImageView(image: self.images[self.selectedIndex])
         }
     }
 
@@ -182,6 +208,11 @@ struct ShowSelectedPhotos: View {
                                     }),
             secondaryButton: .cancel(Text("Cancel".localized))
         )
+    }
+
+    private func getMid() -> Int {
+
+        return images.count / 2
     }
 }
 
@@ -227,3 +258,18 @@ struct SelectFighterIcon: View {
     }
 }
 
+struct CardView: View {
+
+    var image: UIImage
+
+    var body: some View {
+
+        VStack(alignment: .leading, spacing: 0) {
+
+            Image(uiImage: image)
+                .resizable()
+                .frame(width: UIScreen.main.bounds.width - 30, height: 460)
+        }
+        .cornerRadius(25)
+    }
+}

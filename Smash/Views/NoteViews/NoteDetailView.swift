@@ -147,11 +147,6 @@ struct ShowSelectedPhotos: View {
                     .frame(width: UIScreen.main.bounds.width / 2, height: 100)
                     .cornerRadius(10)
                     .padding(.horizontal, 5)
-                    .onTapGesture {
-
-                        self.selectedIndex = i
-                        self.isImageView.toggle()
-                    }
                     .onLongPressGesture {
 
                         self.isAlert.toggle()

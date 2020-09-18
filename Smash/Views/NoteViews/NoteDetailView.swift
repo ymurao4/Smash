@@ -17,7 +17,6 @@ struct NoteDetailView: View {
     @ObservedObject var noteCellVM: NoteCellViewModel
 
     @State private var isBeginEditing: Bool = false
-    @State private var isImageSelected: Bool = false
     @State private var isShowPhotoLibrary: Bool = false
     @State private var paths: [String] = []
 
@@ -34,7 +33,7 @@ struct NoteDetailView: View {
 
                 if !images.isEmpty {
 
-                    ShowSelectedPhotos(noteVM: noteVM, noteCellVM: noteCellVM, images: $images, paths: $paths, isImageSelected: $isImageSelected)
+                    ShowSelectedPhotos(noteVM: noteVM, noteCellVM: noteCellVM, images: $images, paths: $paths)
                 }
 
                 MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
@@ -128,17 +127,33 @@ struct ShowSelectedPhotos: View {
     @ObservedObject var noteCellVM: NoteCellViewModel
     @Binding var images: [UIImage]
     @Binding var paths: [String]
-    @Binding var isImageSelected: Bool
     @State var selectedIndex: Int = 0
-    @State private var isAlert: Bool = false
+    @State var isAlert: Bool = false
 
     var body: some View {
 
-        ListView(images: images)
-        .alert(isPresented: $isAlert) { () -> Alert in
+        GeometryReader { proxy in
 
-            showAlert()
+            UIScrollViewWrapper {
+
+                HStack(spacing: 0) {
+
+                    ForEach(images.indices, id: \.self) { i in
+
+                        CardView(image: images[i], width: proxy.size.width)
+                            .onTapGesture {
+
+                                self.selectedIndex = i
+                                self.isAlert.toggle()
+                            }
+                    }
+                }
+            }
         }
+            .alert(isPresented: $isAlert) { () -> Alert in
+
+                showAlert()
+            }
     }
 
     private func showAlert() -> Alert {
@@ -209,28 +224,6 @@ struct SelectFighterIcon: View {
     }
 }
 
-struct ListView: View {
-
-    var images: [UIImage]
-
-    var body: some View {
-
-        GeometryReader { proxy in
-
-            UIScrollViewWrapper {
-
-                HStack(spacing: 0) {
-
-                    ForEach(images, id: \.self) { image in
-
-                        CardView(image: image, width: proxy.size.width)
-                    }
-                }
-            }
-        }
-    }
-}
-
 struct CardView: View {
 
     var image: UIImage
@@ -242,9 +235,9 @@ struct CardView: View {
 
             Image(uiImage: image)
                 .resizable()
-                .frame(width: self.width, height: 400)
+                .frame(width: self.width, height: 300)
+                .scaledToFit()
         }
-        .frame(width: self.width, height: 400)
     }
 }
 

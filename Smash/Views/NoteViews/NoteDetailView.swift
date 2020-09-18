@@ -132,58 +132,9 @@ struct ShowSelectedPhotos: View {
     @State var selectedIndex: Int = 0
     @State private var isAlert: Bool = false
 
-    @State private var x: CGFloat = 0
-    @State private var count: CGFloat = 0
-    @State private var screen: CGFloat = UIScreen.main.bounds.width - 30
-
     var body: some View {
 
-        HStack(spacing: 15) {
-
-            ForEach(images, id: \.self) { image in
-
-                CardView(image: image)
-                    .offset(x: self.x)
-                    .highPriorityGesture(DragGesture()
-                        .onChanged({ (value) in
-
-                            if value.translation.width > 0 {
-
-                                self.x = value.location.x
-                            } else {
-
-                                self.x = value.location.x - screen
-                            }
-                        })
-                        .onEnded({ (value) in
-
-                            if value.translation.width > 0 {
-
-                                if value.translation.width > ((screen - 80) / 2) && Int(self.count) != self.getMid() {
-
-                                    self.count += 1
-                                    self.x = (screen + 15) * self.count // spacingが15だから
-                                } else {
-
-                                    self.x = (screen + 15) * self.count
-                                }
-                            } else {
-
-                                if -value.translation.width > ((screen - 80) / 2) && -Int(self.count) != self.getMid() {
-
-                                    self.count -= 1
-                                    self.x = (screen + 15) * self.count
-                                } else {
-
-                                    self.x = (screen + 15) * self.count
-                                }
-                            }
-                        })
-                    )
-            }
-        }
-        .frame(width: screen + 30, height: 460)
-        .animation(.spring())
+        ListView(images: images)
         .alert(isPresented: $isAlert) { () -> Alert in
 
             showAlert()
@@ -216,7 +167,7 @@ struct ShowSelectedPhotos: View {
     }
 }
 
-// popup
+
 struct SelectFighterIcon: View {
 
     @ObservedObject var noteCellVM: NoteCellViewModel
@@ -258,18 +209,97 @@ struct SelectFighterIcon: View {
     }
 }
 
-struct CardView: View {
+struct ListView: View {
 
-    var image: UIImage
+    var images: [UIImage]
 
     var body: some View {
 
-        VStack(alignment: .leading, spacing: 0) {
+        GeometryReader { proxy in
+
+            UIScrollViewWrapper {
+
+                HStack(spacing: 0) {
+
+                    ForEach(images, id: \.self) { image in
+
+                        CardView(image: image, width: proxy.size.width)
+                    }
+                }
+            }
+        }
+    }
+}
+
+struct CardView: View {
+
+    var image: UIImage
+    var width: CGFloat
+
+    var body: some View {
+
+        VStack {
 
             Image(uiImage: image)
                 .resizable()
-                .frame(width: UIScreen.main.bounds.width - 30, height: 460)
+                .frame(width: self.width, height: 400)
         }
-        .cornerRadius(25)
+        .frame(width: self.width, height: 400)
+    }
+}
+
+
+class UIScrollViewViewController: UIViewController {
+
+    lazy var scrollView: UIScrollView = {
+        let v = UIScrollView()
+        v.isPagingEnabled = true
+        v.showsVerticalScrollIndicator = false
+        v.showsHorizontalScrollIndicator = false
+        return v
+    }()
+
+    var hostingController: UIHostingController<AnyView> = UIHostingController(rootView: AnyView(EmptyView()))
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.view.addSubview(self.scrollView)
+        self.pinEdges(of: self.scrollView, to: self.view)
+
+        self.hostingController.willMove(toParent: self)
+        self.scrollView.addSubview(self.hostingController.view)
+        self.pinEdges(of: self.hostingController.view, to: self.scrollView)
+        self.hostingController.didMove(toParent: self)
+
+    }
+
+    func pinEdges(of viewA: UIView, to viewB: UIView) {
+        viewA.translatesAutoresizingMaskIntoConstraints = false
+        viewB.addConstraints([
+            viewA.leadingAnchor.constraint(equalTo: viewB.leadingAnchor),
+            viewA.trailingAnchor.constraint(equalTo: viewB.trailingAnchor),
+            viewA.topAnchor.constraint(equalTo: viewB.topAnchor),
+            viewA.bottomAnchor.constraint(equalTo: viewB.bottomAnchor),
+        ])
+    }
+
+}
+
+struct UIScrollViewWrapper<Content: View>: UIViewControllerRepresentable {
+
+    var content: () -> Content
+
+    init(@ViewBuilder content: @escaping () -> Content) {
+        self.content = content
+    }
+
+    func makeUIViewController(context: Context) -> UIScrollViewViewController {
+        let vc = UIScrollViewViewController()
+        vc.hostingController.rootView = AnyView(self.content())
+        return vc
+    }
+
+    func updateUIViewController(_ viewController: UIScrollViewViewController, context: Context) {
+        viewController.hostingController.rootView = AnyView(self.content())
     }
 }

@@ -17,7 +17,6 @@ struct NoteDetailView: View {
     @ObservedObject var noteCellVM: NoteCellViewModel
 
     @State private var isBeginEditing: Bool = false
-    @State private var isImageSelected: Bool = false
     @State private var isShowPhotoLibrary: Bool = false
     @State private var paths: [String] = []
 
@@ -34,7 +33,7 @@ struct NoteDetailView: View {
 
                 if !images.isEmpty {
 
-                    ShowSelectedPhotos(noteVM: noteVM, noteCellVM: noteCellVM, images: $images, paths: $paths, isImageSelected: $isImageSelected)
+                    ShowSelectedPhotos(noteVM: noteVM, noteCellVM: noteCellVM, images: $images, paths: $paths)
                 }
 
                 MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
@@ -128,45 +127,33 @@ struct ShowSelectedPhotos: View {
     @ObservedObject var noteCellVM: NoteCellViewModel
     @Binding var images: [UIImage]
     @Binding var paths: [String]
-    @Binding var isImageSelected: Bool
     @State var selectedIndex: Int = 0
-    @State private var isAlert: Bool = false
-    @State private var isImageView: Bool = false
-
-    let column = GridItem(.adaptive(minimum: 100, maximum: (UIScreen.main.bounds.width / 2)))
+    @State var isAlert: Bool = false
 
     var body: some View {
 
-        LazyVGrid(columns: Array(repeating: column, count: 2), spacing: 10) {
+        GeometryReader { proxy in
 
-            ForEach(images.indices, id: \.self) { i in
+            UIScrollViewWrapper {
 
-                Image(uiImage: self.images[i])
-                    .resizable()
-                    .scaledToFill()
-                    .frame(width: UIScreen.main.bounds.width / 2, height: 100)
-                    .cornerRadius(10)
-                    .padding(.horizontal, 5)
-                    .onTapGesture {
+                HStack(spacing: 0) {
 
-                        self.selectedIndex = i
-                        self.isImageView.toggle()
+                    ForEach(images.indices, id: \.self) { i in
+
+                        CardView(image: images[i], width: proxy.size.width)
+                            .onTapGesture {
+
+                                self.selectedIndex = i
+                                self.isAlert.toggle()
+                            }
                     }
-                    .onLongPressGesture {
-
-                        self.isAlert.toggle()
-                        self.selectedIndex = i
-                    }
+                }
             }
         }
-        .alert(isPresented: $isAlert) { () -> Alert in
+            .alert(isPresented: $isAlert) { () -> Alert in
 
-            showAlert()
-        }
-        .sheet(isPresented: $isImageView) {
-
-            ImageView(image: self.images[self.selectedIndex])
-        }
+                showAlert()
+            }
     }
 
     private func showAlert() -> Alert {
@@ -188,9 +175,14 @@ struct ShowSelectedPhotos: View {
             secondaryButton: .cancel(Text("Cancel".localized))
         )
     }
+
+    private func getMid() -> Int {
+
+        return images.count / 2
+    }
 }
 
-// popup
+
 struct SelectFighterIcon: View {
 
     @ObservedObject var noteCellVM: NoteCellViewModel
@@ -232,3 +224,75 @@ struct SelectFighterIcon: View {
     }
 }
 
+struct CardView: View {
+
+    var image: UIImage
+    var width: CGFloat
+
+    var body: some View {
+
+        VStack {
+
+            Image(uiImage: image)
+                .resizable()
+                .frame(width: self.width, height: 300)
+                .scaledToFit()
+        }
+    }
+}
+
+
+class UIScrollViewViewController: UIViewController {
+
+    lazy var scrollView: UIScrollView = {
+        let v = UIScrollView()
+        v.isPagingEnabled = true
+        v.showsVerticalScrollIndicator = false
+        v.showsHorizontalScrollIndicator = false
+        return v
+    }()
+
+    var hostingController: UIHostingController<AnyView> = UIHostingController(rootView: AnyView(EmptyView()))
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        self.view.addSubview(self.scrollView)
+        self.pinEdges(of: self.scrollView, to: self.view)
+
+        self.hostingController.willMove(toParent: self)
+        self.scrollView.addSubview(self.hostingController.view)
+        self.pinEdges(of: self.hostingController.view, to: self.scrollView)
+        self.hostingController.didMove(toParent: self)
+
+    }
+
+    func pinEdges(of viewA: UIView, to viewB: UIView) {
+        viewA.translatesAutoresizingMaskIntoConstraints = false
+        viewB.addConstraints([
+            viewA.leadingAnchor.constraint(equalTo: viewB.leadingAnchor),
+            viewA.trailingAnchor.constraint(equalTo: viewB.trailingAnchor),
+            viewA.topAnchor.constraint(equalTo: viewB.topAnchor),
+            viewA.bottomAnchor.constraint(equalTo: viewB.bottomAnchor),
+        ])
+    }
+
+}
+
+struct UIScrollViewWrapper<Content: View>: UIViewControllerRepresentable {
+
+    var content: () -> Content
+
+    init(@ViewBuilder content: @escaping () -> Content) {
+        self.content = content
+    }
+
+    func makeUIViewController(context: Context) -> UIScrollViewViewController {
+        let vc = UIScrollViewViewController()
+        vc.hostingController.rootView = AnyView(self.content())
+        return vc
+    }
+
+    func updateUIViewController(_ viewController: UIScrollViewViewController, context: Context) {
+        viewController.hostingController.rootView = AnyView(self.content())
+    }
+}

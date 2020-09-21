@@ -7,17 +7,16 @@
 //
 
 import SwiftUI
-import PartialSheet
 
 struct NoteDetailView: View {
-
-    @EnvironmentObject var partialSheetManager : PartialSheetManager
+    
     @Environment (\.colorScheme) var colorScheme: ColorScheme
     @ObservedObject var noteVM = NoteViewModel()
     @ObservedObject var noteCellVM: NoteCellViewModel
 
     @State private var isBeginEditing: Bool = false
     @State private var isShowPhotoLibrary: Bool = false
+    @State private var isShowFighterIcon: Bool  = false
     @State private var paths: [String] = []
 
     @State private var images: [UIImage] = []
@@ -26,7 +25,7 @@ struct NoteDetailView: View {
 
     var body: some View {
 
-        ZStack(alignment: .top) {
+        ZStack(alignment: .bottom) {
 
             VStack(alignment: .leading) {
 
@@ -36,11 +35,28 @@ struct NoteDetailView: View {
                     ShowSelectedPhotos(noteVM: noteVM, noteCellVM: noteCellVM, images: $images, paths: $paths)
                 }
 
-                MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
-                    .padding(.horizontal, 10)
+//                MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
+//                    .padding(.horizontal, 10)
+                TextEditor(text: $noteCellVM.note.text)
+                    .lineSpacing(5)
             }
             .padding(10)
 
+            VStack {
+
+                Spacer()
+
+                SelectFighterIcon(noteCellVM: self.noteCellVM)
+                    .offset(y: isShowFighterIcon ? 0 : UIScreen.main.bounds.height)
+            }
+            .background((isShowFighterIcon ? Color.black.opacity(0.3) : Color.clear)
+            .edgesIgnoringSafeArea(.all)
+            .onTapGesture {
+
+                self.isShowFighterIcon.toggle()
+                }
+            )
+            .ignoresSafeArea(.all, edges: .bottom)
         }
         .navigationBarTitle(Text(""), displayMode: .inline)
         .navigationBarItems(trailing:
@@ -80,12 +96,7 @@ struct NoteDetailView: View {
             // fighter button
             Button(action: {
 
-                // partial sheet
-                self.partialSheetManager.showPartialSheet({
-                    print("normal sheet dismissed")
-                }) {
-                    SelectFighterIcon(noteCellVM: self.noteCellVM)
-                }
+                self.isShowFighterIcon.toggle()
                 self.isBeginEditing = false
                 UIApplication.shared.endEditing()
             }) {
@@ -192,35 +203,45 @@ struct SelectFighterIcon: View {
 
         ScrollView(showsIndicators: false) {
 
-            LazyVGrid(columns: Array(repeating: column, count: 7), spacing: 20) {
+            VStack {
 
-                ForEach(S.fightersArray, id: \.self) { item in
+                LazyVGrid(columns: Array(repeating: column, count: 7), spacing: 20) {
 
-                    Button(action: { self.noteCellVM.note.fighterName = item[1] }) {
+                    ForEach(S.fightersArray, id: \.self) { item in
 
-                        FighterPDF(name: item[1])
-                            .frame(width: 40, height: 40)
-                            .background(Color.orange)
-                            .cornerRadius(20)
+                        Button(action: { self.noteCellVM.note.fighterName = item[1] }) {
+
+                            FighterPDF(name: item[1])
+                                .frame(width: 40, height: 40)
+                                .background(Color.orange)
+                                .cornerRadius(20)
+                        }
                     }
                 }
-            }
 
-            Button(action: { self.noteCellVM.note.fighterName = "" }) {
+                Button(action: { self.noteCellVM.note.fighterName = "" }) {
 
-                HStack {
+                    HStack {
 
-                    Image(systemName: "trash")
+                        Image(systemName: "trash")
 
-                    Text("Delete".localized)
-                        .font(.headline)
+                        Text("Delete".localized)
+                            .font(.headline)
+                    }
+                    .padding(EdgeInsets(top: 10, leading: 30, bottom: 10, trailing: 30))
+                    .foregroundColor(.white)
+                    .background(LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing))
+                    .cornerRadius(20)
                 }
-                .padding(EdgeInsets(top: 10, leading: 30, bottom: 10, trailing: 30))
-                .foregroundColor(.white)
-                .background(LinearGradient(gradient: Gradient(colors: [Color.red, Color.blue]), startPoint: .leading, endPoint: .trailing))
-                .cornerRadius(20)
             }
+            .padding(.top)
+            .padding(.bottom, 50)
+            .padding(.horizontal, 5)
         }
+        .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 200)
+        .background(BlurView(style: .systemMaterial))
+        .padding(.bottom, (UIApplication.shared.windows.last?.safeAreaInsets.bottom)! + 10)
+        .cornerRadius(25)
     }
 }
 

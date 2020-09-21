@@ -8,7 +8,6 @@
 
 import UIKit
 import SwiftUI
-import PartialSheet
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -16,10 +15,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
 
-        // noteViewで使用
-        let sheetManager: PartialSheetManager = PartialSheetManager()
         let contentView = ContentView()
-            .environmentObject(sheetManager)
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {

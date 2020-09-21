@@ -128,7 +128,6 @@ class AnalysisViewModel: ObservableObject {
                     }
                 }
                 // ここから
-                //newResult[Any] = [opponentFightername, game, win, lose, winRate]
 
                 let myFighterName = record.myFighter
                 let opponentFighterName = record.opponentFighter

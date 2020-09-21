@@ -77,8 +77,6 @@ struct ContentView: View {
             }
         }
         .accentColor(.orange)
-            //　ここで宣言すると、tabbarを覆う
-            .addPartialSheet()
     }
 
 }

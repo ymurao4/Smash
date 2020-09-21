@@ -7,13 +7,12 @@
 //
 
 import SwiftUI
-import PartialSheet
 
 struct AnalysisView: View {
 
-    @EnvironmentObject var partialSheetManager : PartialSheetManager
     @ObservedObject var analysisVM = AnalysisViewModel(sortName: "opponentFighter")
     @State private var selectedIndex: Int = 0
+    @State private var isFighterIcon: Bool = false
     private let pickerName: [String] = ["Main", "Me", "Opponent", "Stage"]
     private let sortedName: [String] = ["", "Game", "Win", "Lose", "Rate"]
 
@@ -21,57 +20,72 @@ struct AnalysisView: View {
 
         NavigationView {
 
-            VStack {
+            ZStack(alignment: .bottom) {
 
-                Picker("", selection: $selectedIndex) {
+                VStack {
 
-                    ForEach(0..<self.pickerName.count) { index in
+                    Picker("", selection: $selectedIndex) {
 
-                        Text(self.pickerName[index].localized)
-                            .tag(index)
+                        ForEach(0..<self.pickerName.count) { index in
+
+                            Text(self.pickerName[index].localized)
+                                .tag(index)
+                        }
+                    }
+                    .pickerStyle(SegmentedPickerStyle())
+
+                    HStack {
+
+                        ForEach(sortedName, id: \.self) { name in
+
+                            Text(name.localized)
+                                .frame(maxWidth: .infinity)
+                                .minimumScaleFactor(0.5)
+                                .lineLimit(1)
+                        }
+                        .font(.subheadline)
+                    }
+//                    .padding(.top, 10)
+                    .padding(.horizontal)
+
+                    if selectedIndex == 0 {
+
+                        AnalysisMainFighterView()
+                    } else if selectedIndex == 1 {
+
+                        AnalysisMyFighterView()
+                    } else if selectedIndex == 2 {
+
+                        AnalysisOpponentFighterView()
+                    } else if selectedIndex == 3 {
+
+                        AnalysisStageView()
                     }
                 }
-                .pickerStyle(SegmentedPickerStyle())
+                .padding(.top, 50)
+                .padding(.horizontal, 10)
 
-                HStack {
+                VStack {
 
-                    ForEach(sortedName, id: \.self) { name in
+                    Spacer()
 
-                        Text(name.localized)
-                            .frame(maxWidth: .infinity)
-                            .minimumScaleFactor(0.5)
-                            .lineLimit(1)
+                    SelectMainFighterIcon(analysisVM: self.analysisVM)
+                        .offset(y: isFighterIcon ? 0 : UIScreen.main.bounds.height)
+                }
+                .background((isFighterIcon ? Color.black.opacity(0.3) : Color.clear)
+                .edgesIgnoringSafeArea(.all)
+                .onTapGesture {
+
+                    self.isFighterIcon.toggle()
                     }
-                    .font(.subheadline)
-                }
-                .padding(.top, 10)
-                .padding(.horizontal)
-
-                if selectedIndex == 0 {
-
-                    AnalysisMainFighterView()
-                } else if selectedIndex == 1 {
-
-                    AnalysisMyFighterView()
-                } else if selectedIndex == 2 {
-
-                    AnalysisOpponentFighterView()
-                } else if selectedIndex == 3 {
-
-                    AnalysisStageView()
-                }
+                )
+                .ignoresSafeArea(.all, edges: .bottom)
             }
-            .padding(.horizontal, 10)
-            .navigationBarTitle("Analysis")
+            .navigationBarTitle(Text("Analysis".localized))
             .navigationBarItems(trailing:
                 Button(action: {
 
-                    self.partialSheetManager.showPartialSheet( {
-                        print("normal sheet dismissed")
-                    }) {
-
-                        SelectMainFighterIcon(analysisVM: self.analysisVM)
-                    }
+                    self.isFighterIcon.toggle()
                 }) {
                     
                     FighterPDF(name: self.analysisVM.mainFighter)
@@ -97,19 +111,29 @@ struct SelectMainFighterIcon: View {
 
         ScrollView(showsIndicators: false) {
 
-            LazyVGrid(columns: Array(repeating: column, count: 7), spacing: 20) {
+            VStack {
 
-                ForEach(S.fightersArray, id: \.self) { item in
+                LazyVGrid(columns: Array(repeating: column, count: 7), spacing: 20) {
 
-                    Button(action: { self.analysisVM.updateMainFighter(fighterName: item[1]) }) {
+                    ForEach(S.fightersArray, id: \.self) { item in
 
-                        FighterPDF(name: item[1])
-                            .frame(width: 40, height: 40)
-                            .background(Color.orange)
-                            .cornerRadius(20)
+                        Button(action: { self.analysisVM.updateMainFighter(fighterName: item[1]) }) {
+
+                            FighterPDF(name: item[1])
+                                .frame(width: 40, height: 40)
+                                .background(Color.orange)
+                                .cornerRadius(20)
+                        }
                     }
                 }
             }
+            .padding(.top)
+            .padding(.bottom, 50)
+            .padding(.horizontal, 5)
         }
+        .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height - 200)
+        .background(BlurView(style: .systemMaterial))
+        .padding(.bottom, (UIApplication.shared.windows.last?.safeAreaInsets.bottom)! + 10)
+        .cornerRadius(25)
     }
 }

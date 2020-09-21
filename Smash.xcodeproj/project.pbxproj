@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,7 +18,6 @@
 		04149A4824C7C63400F2AD6F /* RecordCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04149A4724C7C63400F2AD6F /* RecordCellViewModel.swift */; };
 		0414A55A24D54F6900475D33 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414A55924D54F6900475D33 /* Color.swift */; };
 		0417B6C924C9A71400BBFF3B /* FrameDetaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B6C824C9A71400BBFF3B /* FrameDetaleView.swift */; };
-		04196AF524D4E5340098EA5C /* PartialSheet in Frameworks */ = {isa = PBXBuildFile; productRef = 04196AF424D4E5340098EA5C /* PartialSheet */; };
 		042A465C24CC14FF003A594F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042A465B24CC14FF003A594F /* GoogleService-Info.plist */; };
 		0437708124D537C000DCED8E /* AnalysisRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437708024D537C000DCED8E /* AnalysisRepository.swift */; };
 		043F629824CC06480005B13C /* NoteCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F629724CC06480005B13C /* NoteCellViewModel.swift */; };
@@ -35,6 +34,7 @@
 		04568CFA24CBC14900FE1841 /* NoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04568CF924CBC14900FE1841 /* NoteDetailView.swift */; };
 		04568CFC24CBEA3C00FE1841 /* MultilineTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04568CFB24CBEA3C00FE1841 /* MultilineTextField.swift */; };
 		046B734324CBB0880093B454 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046B734224CBB0880093B454 /* Note.swift */; };
+		048EA26A251963F5000185FA /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048EA269251963F5000185FA /* BlurView.swift */; };
 		0491566124CE9BA8003D8E32 /* RecordRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0491566024CE9BA8003D8E32 /* RecordRepository.swift */; };
 		049239A624C6608B009F301E /* RecordListViewMdoel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239A524C6608B009F301E /* RecordListViewMdoel.swift */; };
 		049239A824C660E3009F301E /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049239A724C660E3009F301E /* Record.swift */; };
@@ -92,6 +92,7 @@
 		04568CF924CBC14900FE1841 /* NoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailView.swift; sourceTree = "<group>"; };
 		04568CFB24CBEA3C00FE1841 /* MultilineTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultilineTextField.swift; sourceTree = "<group>"; };
 		046B734224CBB0880093B454 /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		048EA269251963F5000185FA /* BlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
 		0491566024CE9BA8003D8E32 /* RecordRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordRepository.swift; sourceTree = "<group>"; };
 		049239A524C6608B009F301E /* RecordListViewMdoel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RecordListViewMdoel.swift; path = Smash/ViewModels/RecordVMs/RecordListViewMdoel.swift; sourceTree = SOURCE_ROOT; };
 		049239A724C660E3009F301E /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
@@ -128,7 +129,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04196AF524D4E5340098EA5C /* PartialSheet in Frameworks */,
 				2A3D2531BD7653633FAF7228 /* Pods_Smash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +295,7 @@
 				04ED6BDB24D8EF39004BC5D8 /* TranslateNameIntoJapanese.swift */,
 				0446B49524E52253007C8F64 /* Loader.swift */,
 				04D1FA3E251306E10075F697 /* String.swift */,
+				048EA269251963F5000185FA /* BlurView.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -361,7 +362,6 @@
 			);
 			name = Smash;
 			packageProductDependencies = (
-				04196AF424D4E5340098EA5C /* PartialSheet */,
 			);
 			productName = Smash;
 			productReference = 0409E4B024C574B9000038E1 /* Smash.app */;
@@ -393,7 +393,6 @@
 			);
 			mainGroup = 0409E4A724C574B9000038E1;
 			packageReferences = (
-				04196AF324D4E5340098EA5C /* XCRemoteSwiftPackageReference "PartialSheet" */,
 			);
 			productRefGroup = 0409E4B124C574B9000038E1 /* Products */;
 			projectDirPath = "";
@@ -492,6 +491,7 @@
 				049239B724C6C0A5009F301E /* AddRecordView.swift in Sources */,
 				044A742A24E1221200A60E7F /* RankingRepository.swift in Sources */,
 				04ED6BDA24D8D615004BC5D8 /* MainFighter.swift in Sources */,
+				048EA26A251963F5000185FA /* BlurView.swift in Sources */,
 				043F629F24CC119E0005B13C /* AnalysisMyFighterView.swift in Sources */,
 				0414A55A24D54F6900475D33 /* Color.swift in Sources */,
 				049239A824C660E3009F301E /* Record.swift in Sources */,
@@ -721,25 +721,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		04196AF324D4E5340098EA5C /* XCRemoteSwiftPackageReference "PartialSheet" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/AndreaMiotto/PartialSheet";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.1.6;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		04196AF424D4E5340098EA5C /* PartialSheet */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 04196AF324D4E5340098EA5C /* XCRemoteSwiftPackageReference "PartialSheet" */;
-			productName = PartialSheet;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 0409E4A824C574B9000038E1 /* Project object */;
 }

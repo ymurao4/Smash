@@ -49,6 +49,8 @@
 		04A2F9F724CE4813007A5316 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2F9F624CE4813007A5316 /* SafariView.swift */; };
 		04A4861924D0F53A008C3C15 /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4861824D0F53A008C3C15 /* HideKeyboard.swift */; };
 		04AE235924CC0384005C8100 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE235824CC0383005C8100 /* NoteViewModel.swift */; };
+		04D16C322519E875000E13DF /* SignInWithAppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D16C312519E875000E13DF /* SignInWithAppleButton.swift */; };
+		04D16C382519E913000E13DF /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D16C372519E913000E13DF /* SignInView.swift */; };
 		04D1FA372513056F0075F697 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04D1FA392513056F0075F697 /* Localizable.strings */; };
 		04D1FA3F251306E10075F697 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D1FA3E251306E10075F697 /* String.swift */; };
 		04ED6BDA24D8D615004BC5D8 /* MainFighter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED6BD924D8D615004BC5D8 /* MainFighter.swift */; };
@@ -107,6 +109,8 @@
 		04A2F9F624CE4813007A5316 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		04A4861824D0F53A008C3C15 /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
 		04AE235824CC0383005C8100 /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
+		04D16C312519E875000E13DF /* SignInWithAppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton.swift; sourceTree = "<group>"; };
+		04D16C372519E913000E13DF /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		04D1FA382513056F0075F697 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		04D1FA3B2513058D0075F697 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		04D1FA3C2513058D0075F697 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -203,6 +207,7 @@
 				043F629924CC112B0005B13C /* AnalysisViews */,
 				043F629B24CC114D0005B13C /* NoteViews */,
 				043F629A24CC113D0005B13C /* FrameViews */,
+				04D16C342519E878000E13DF /* SignInViews */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -324,6 +329,15 @@
 				049803A624CBF29B004FD1C2 /* AnalysisViewModel.swift */,
 			);
 			path = AnalysisVMs;
+			sourceTree = "<group>";
+		};
+		04D16C342519E878000E13DF /* SignInViews */ = {
+			isa = PBXGroup;
+			children = (
+				04D16C372519E913000E13DF /* SignInView.swift */,
+				04D16C312519E875000E13DF /* SignInWithAppleButton.swift */,
+			);
+			path = SignInViews;
 			sourceTree = "<group>";
 		};
 		6DA842E88DDE30E34BE8AC52 /* Pods */ = {
@@ -496,8 +510,10 @@
 				0414A55A24D54F6900475D33 /* Color.swift in Sources */,
 				049239A824C660E3009F301E /* Record.swift in Sources */,
 				04ED6BDC24D8EF39004BC5D8 /* TranslateNameIntoJapanese.swift in Sources */,
+				04D16C382519E913000E13DF /* SignInView.swift in Sources */,
 				04F4F25024C84288006C2F20 /* Frame.swift in Sources */,
 				04F4F24E24C831BF006C2F20 /* FighterPNG.swift in Sources */,
+				04D16C322519E875000E13DF /* SignInWithAppleButton.swift in Sources */,
 				0446B49624E52253007C8F64 /* Loader.swift in Sources */,
 				044A742C24E2150D00A60E7F /* ImagePicker.swift in Sources */,
 				04149A4824C7C63400F2AD6F /* RecordCellViewModel.swift in Sources */,

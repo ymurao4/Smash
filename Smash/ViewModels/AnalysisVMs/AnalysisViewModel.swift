@@ -94,13 +94,13 @@ class AnalysisViewModel: ObservableObject {
         ["minmin", "-", "-", "-", "-"]
     ]
     @Published var outputStageRecord: [[String]] = [
-        ["syuten", "-", "-", "-", "-"],
-        ["senjou", "-", "-", "-", "-"],
-        ["syousenjou", "-", "-", "-", "-"],
-        ["pokesuta2", "-", "-", "-", "-"],
-        ["karosu", "-", "-", "-", "-"],
-        ["sumamura", "-", "-", "-", "-"],
-        ["muramati", "-", "-", "-", "-"],
+        ["final", "-", "-", "-", "-"],
+        ["battleField", "-", "-", "-", "-"],
+        ["smallBattleField", "-", "-", "-", "-"],
+        ["pokemonStadium2", "-", "-", "-", "-"],
+        ["kalos", "-", "-", "-", "-"],
+        ["smashVille", "-", "-", "-", "-"],
+        ["townAndCity", "-", "-", "-", "-"],
         ["lylat", "-", "-", "-", "-"]
     ]
     @Published var isMain: Bool = false

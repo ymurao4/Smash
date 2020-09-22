@@ -12,19 +12,19 @@ struct T {
 
     static func translateStageName(name: String) -> String {
         switch name {
-        case "syuten":
+        case "final":
             return "終点"
-        case "senjou":
+        case "battleField":
             return "戦場"
-        case "syousenjou":
+        case "smallBattleField":
             return "小戦場"
-        case "pokesuta2":
+        case "pokemonStadium2":
             return "ポケ2"
-        case "karosu":
+        case "kalos":
             return "カロス"
-        case "sumamura":
+        case "smashVille":
             return "スマ村"
-        case "muramati":
+        case "townAndCity":
             return "村と街"
         case "lylat":
             return "ライ"

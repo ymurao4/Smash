@@ -16,7 +16,7 @@ struct AddRecordView: View {
     @State private var selectedIndex: Int = 0
     @State private var myFighterName: String = "mario"
     @State private var opponentFighterName: String = "mario"
-    @State private var stageName: String = "syuten"
+    @State private var stageName: String = "final"
     @State private var result: Bool = true
 
     private let pickerNames = ["Me", "Opponent", "Stage"]

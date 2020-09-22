@@ -12,6 +12,7 @@ struct RecordView: View {
     @ObservedObject var recordListVM = RecordListViewMdoel()
     @State private var isSheet: Bool = false
     @State private var isAlert: Bool = false
+    @State private var isActionSheet: Bool = false
     @State private var recordID: String?
 
     private func showDeleteAlert(index: IndexSet) {
@@ -21,7 +22,7 @@ struct RecordView: View {
 
     var body: some View {
 
-        NavigationView{
+        NavigationView {
 
             VStack(alignment: .leading) {
 
@@ -29,6 +30,7 @@ struct RecordView: View {
 
                     self.isSheet.toggle()
                 }) {
+
                     HStack {
 
                         Image(systemName: "plus.circle.fill")
@@ -38,6 +40,11 @@ struct RecordView: View {
                     }
                 }
                 .padding(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
+                .sheet(isPresented: $isSheet) {
+
+                    AddRecordView()
+                }
+
                 List{
 
                     ForEach(recordListVM.recordCellViewModels) { recordCellVM in
@@ -53,10 +60,29 @@ struct RecordView: View {
             }
             .padding(.horizontal, 10)
             .navigationBarTitle("Battle Record".localized)
-            .navigationBarItems(trailing: EditButton())
-        }
-        .sheet(isPresented: $isSheet) {
-            AddRecordView()
+            .navigationBarItems(
+                leading:
+
+                    Button(action: { self.isActionSheet.toggle() }) {
+
+                        Image(systemName: "gear")
+                            .resizable()
+                            .frame(width: 20, height: 20)
+                    },
+                trailing: EditButton()
+            )
+            .actionSheet(isPresented: $isActionSheet) {
+
+                ActionSheet(
+                    title: Text("Settings".localized),
+                    message: Text(""),
+                    buttons: [
+                                .default(Text("Log Out".localized)),
+                                .default(Text("Language".localized)),
+                                .default(Text("App Version".localized)),
+                                .cancel()
+                            ])
+                }
         }
     }
 
@@ -69,7 +95,7 @@ struct RecordView: View {
             primaryButton: .default(Text("Delete".localized),
                                     action: {
                                         self.recordListVM.deleteRecord(recordID: self.recordID)
-            }),
+                                    }),
             secondaryButton: .cancel(Text("Cancel".localized))
         )
     }

@@ -20,12 +20,17 @@ struct RecordView: View {
     }
 
     var body: some View {
+
         NavigationView{
+
             VStack(alignment: .leading) {
+
                 Button(action: {
+
                     self.isSheet.toggle()
                 }) {
                     HStack {
+
                         Image(systemName: "plus.circle.fill")
                             .resizable()
                             .frame(width: 20, height: 20)
@@ -34,11 +39,14 @@ struct RecordView: View {
                 }
                 .padding(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
                 List{
+
                     ForEach(recordListVM.recordCellViewModels) { recordCellVM in
+
                         ResultCell(recordCellVM: recordCellVM)
                     }
                     .onDelete(perform: showDeleteAlert)
                     .alert(isPresented: $isAlert) {
+
                         showAlert()
                     }
                 }
@@ -53,7 +61,9 @@ struct RecordView: View {
     }
 
     private func showAlert() -> Alert {
+
         Alert(
+
             title: Text("Are you sure？".localized),
             message: Text("Do you want to delete this record?".localized),
             primaryButton: .default(Text("Delete".localized),
@@ -66,7 +76,9 @@ struct RecordView: View {
 }
 
 struct RecordVIew_Previews: PreviewProvider {
+
     static var previews: some View {
+
         RecordView()
     }
 }
@@ -77,20 +89,24 @@ struct ResultCell: View {
     @ObservedObject var recordCellVM: RecordCelViewModel
 
     var borderColor = { (record: Record) -> Color in
+
         if record.result == "win" {
+
             return .orange
         } else {
+            
             return .blue
         }
     }
 
     var body: some View {
 
-        HStack(spacing: 30) {
+        HStack(spacing: 20) {
 
             VStack(alignment: .center, spacing: 5) {
 
                 Text(recordCellVM.record.result)
+                    .minimumScaleFactor(0.5)
 
                 EdgeBorder(width: 5, edge: .top)
                     .foregroundColor(self.borderColor(recordCellVM.record))

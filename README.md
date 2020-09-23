@@ -35,13 +35,12 @@
 - IQKeyboardManagerSwift
 - WaterfallGrid 
 
-#　追記
-(2020/9/17)
+#　追記 (2020/9/17)
 - ios14に対応しました。
 - ローカライズに対応しました。
 - 画像の複数選択に対応しました。
 
-(2020/9/23)
+# 追記(2020/9/23)
 - Sign In With Appleを実装しました。
 
 <img src="gif/battle.gif" width=320px>

@@ -6,7 +6,6 @@
 //  Copyright © 2020 村尾慶伸. All rights reserved.
 
 import SwiftUI
-import Firebase
 
 struct RecordView: View {
 
@@ -14,7 +13,7 @@ struct RecordView: View {
     @State private var isSheet: Bool = false
     @State private var isAlert: Bool = false
     @State private var isActionSheet: Bool = false
-    @State private var isLogoutAlert: Bool = false
+    @State private var isAccount: Bool = false
     @State private var recordID: String?
 
     private func showDeleteAlert(index: IndexSet) {
@@ -41,7 +40,7 @@ struct RecordView: View {
                         Text("Add a record".localized)
                     }
                 }
-                .padding(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
+                .padding(EdgeInsets(top: 10, leading: 20, bottom: 0, trailing: 20))
                 .sheet(isPresented: $isSheet) {
 
                     AddRecordView()
@@ -58,6 +57,10 @@ struct RecordView: View {
 
                         showAlert()
                     }
+                }
+                .sheet(isPresented: $isAccount) {
+
+                    SignInView()
                 }
             }
             .padding(.horizontal, 10)
@@ -79,26 +82,22 @@ struct RecordView: View {
                     title: Text("Settings".localized),
                     message: Text(""),
                     buttons: [
-                        .default(Text("Log Out".localized),
+                        .default(Text("Account".localized),
                                  action: {
-                                    self.isLogoutAlert.toggle()
+                                    self.isAccount.toggle()
                                  }),
                         .default(Text("Language".localized)),
                         .default(Text("App Version".localized)),
                         .cancel()
                     ])
                 }
-            .alert(isPresented: self.$isLogoutAlert) {
-
-                logOutAlert()
-            }
         }
     }
 
     private func showAlert() -> Alert {
 
         Alert(
-            title: Text("Log Out".localized),
+            title: Text("Are you sure?".localized),
             message: Text("Do you want to delete this record?".localized),
             primaryButton: .default(Text("Delete".localized),
                                     action: {
@@ -107,34 +106,6 @@ struct RecordView: View {
                                     }),
             secondaryButton: .cancel(Text("Cancel".localized))
         )
-    }
-
-    private func logOutAlert() -> Alert {
-
-        Alert(
-            title: Text("Log Out"),
-            message: Text("Are you sure you want to log out?"),
-            primaryButton: .default(Text("Log Out".localized),
-                                    action: {
-
-                                        logout()
-                                    }),
-            secondaryButton: .cancel(Text("Cancel".localized))
-            )
-    }
-
-    private func logout() {
-
-        let auth = Auth.auth()
-
-        do {
-
-            try auth.signOut()
-            print("successfully logout")
-        } catch let signOutError as NSError {
-
-            print("Error signing out: %@", signOutError)
-        }
     }
 }
 

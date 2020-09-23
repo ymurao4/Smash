@@ -19,7 +19,7 @@
 - フレームワーク : SwiftUI, Combine 
 - 設計 : MVVM 
 - データベース : Firebase(Cloud FireStore, FireStorage), UserDefaults
-- ユーザー認証 : 匿名認証
+- ユーザー認証 : 匿名認証, Sign In With Apple
 - パッケージ管理 : CocoaPods  
 - バージョン管理 : Git  
 - スクレイピング : Python, Beautiful Soup, Requests, Pandas
@@ -35,10 +35,14 @@
 - IQKeyboardManagerSwift
 - WaterfallGrid 
 
-#　追記(2020/9/17)
+#　追記
+(2020/9/17)
 - ios14に対応しました。
 - ローカライズに対応しました。
 - 画像の複数選択に対応しました。
+
+(2020/9/23)
+- Sign In With Appleを実装しました。
 
 <img src="gif/battle.gif" width=320px>
 <img src="gif/analysis.gif" width=320px>

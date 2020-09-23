@@ -13,6 +13,7 @@ struct RecordView: View {
     @State private var isSheet: Bool = false
     @State private var isAlert: Bool = false
     @State private var isActionSheet: Bool = false
+    @State private var isAccount: Bool = false
     @State private var recordID: String?
 
     private func showDeleteAlert(index: IndexSet) {
@@ -39,7 +40,7 @@ struct RecordView: View {
                         Text("Add a record".localized)
                     }
                 }
-                .padding(EdgeInsets(top: 10, leading: 20, bottom: 10, trailing: 20))
+                .padding(EdgeInsets(top: 10, leading: 20, bottom: 0, trailing: 20))
                 .sheet(isPresented: $isSheet) {
 
                     AddRecordView()
@@ -56,6 +57,10 @@ struct RecordView: View {
 
                         showAlert()
                     }
+                }
+                .sheet(isPresented: $isAccount) {
+
+                    SignInView()
                 }
             }
             .padding(.horizontal, 10)
@@ -77,11 +82,14 @@ struct RecordView: View {
                     title: Text("Settings".localized),
                     message: Text(""),
                     buttons: [
-                                .default(Text("Log Out".localized)),
-                                .default(Text("Language".localized)),
-                                .default(Text("App Version".localized)),
-                                .cancel()
-                            ])
+                        .default(Text("Account".localized),
+                                 action: {
+                                    self.isAccount.toggle()
+                                 }),
+                        .default(Text("Language".localized)),
+                        .default(Text("App Version".localized)),
+                        .cancel()
+                    ])
                 }
         }
     }
@@ -89,11 +97,11 @@ struct RecordView: View {
     private func showAlert() -> Alert {
 
         Alert(
-
-            title: Text("Are you sure？".localized),
+            title: Text("Are you sure?".localized),
             message: Text("Do you want to delete this record?".localized),
             primaryButton: .default(Text("Delete".localized),
                                     action: {
+
                                         self.recordListVM.deleteRecord(recordID: self.recordID)
                                     }),
             secondaryButton: .cancel(Text("Cancel".localized))
@@ -127,17 +135,21 @@ struct ResultCell: View {
 
     var body: some View {
 
-        HStack(spacing: 20) {
+        HStack(alignment: .center, spacing: 10) {
+
+            Rectangle()
+                .frame(width: 5)
+                .foregroundColor(self.borderColor(recordCellVM.record))
 
             VStack(alignment: .center, spacing: 5) {
 
                 Text(recordCellVM.record.result)
                     .minimumScaleFactor(0.5)
 
-                EdgeBorder(width: 5, edge: .top)
-                    .foregroundColor(self.borderColor(recordCellVM.record))
-                    .frame(maxWidth: .infinity)
+                Text(recordCellVM.date)
+                    .font(.caption)
             }
+            .frame(maxWidth: .infinity)
 
             FighterPDF(name: recordCellVM.record.myFighter)
                 .frame(width: 40, height: 40)
@@ -157,6 +169,7 @@ struct ResultCell: View {
                 Text(T.translateStageName(name: recordCellVM.record.stage))
                     .font(.caption)
             }
+            .frame(maxWidth: .infinity)
         }
     }
 }

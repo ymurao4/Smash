@@ -18,6 +18,7 @@
 		04149A4824C7C63400F2AD6F /* RecordCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04149A4724C7C63400F2AD6F /* RecordCellViewModel.swift */; };
 		0414A55A24D54F6900475D33 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414A55924D54F6900475D33 /* Color.swift */; };
 		0417B6C924C9A71400BBFF3B /* FrameDetaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B6C824C9A71400BBFF3B /* FrameDetaleView.swift */; };
+		042987C1251AC84F00CE141C /* SignInWithAppleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042987C0251AC84F00CE141C /* SignInWithAppleCoordinator.swift */; };
 		042A465C24CC14FF003A594F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042A465B24CC14FF003A594F /* GoogleService-Info.plist */; };
 		0437708124D537C000DCED8E /* AnalysisRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437708024D537C000DCED8E /* AnalysisRepository.swift */; };
 		043F629824CC06480005B13C /* NoteCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043F629724CC06480005B13C /* NoteCellViewModel.swift */; };
@@ -78,6 +79,8 @@
 		04149A4724C7C63400F2AD6F /* RecordCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCellViewModel.swift; sourceTree = "<group>"; };
 		0414A55924D54F6900475D33 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		0417B6C824C9A71400BBFF3B /* FrameDetaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameDetaleView.swift; sourceTree = "<group>"; };
+		042987C0251AC84F00CE141C /* SignInWithAppleCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleCoordinator.swift; sourceTree = "<group>"; };
+		042987C9251ACA3E00CE141C /* Smash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Smash.entitlements; sourceTree = "<group>"; };
 		042A465B24CC14FF003A594F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0437708024D537C000DCED8E /* AnalysisRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisRepository.swift; sourceTree = "<group>"; };
 		043F629724CC06480005B13C /* NoteCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCellViewModel.swift; sourceTree = "<group>"; };
@@ -161,7 +164,9 @@
 		0409E4B224C574B9000038E1 /* Smash */ = {
 			isa = PBXGroup;
 			children = (
+				042987C9251ACA3E00CE141C /* Smash.entitlements */,
 				0409E4CA24C574D5000038E1 /* Apps */,
+				042987C3251AC85400CE141C /* Services */,
 				04149A4924C7D50100F2AD6F /* Repositories */,
 				0409E4C724C574C1000038E1 /* Models */,
 				0409E4C824C574CA000038E1 /* Views */,
@@ -242,6 +247,14 @@
 				044A742924E1221200A60E7F /* RankingRepository.swift */,
 			);
 			path = Repositories;
+			sourceTree = "<group>";
+		};
+		042987C3251AC85400CE141C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				042987C0251AC84F00CE141C /* SignInWithAppleCoordinator.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		043F629924CC112B0005B13C /* AnalysisViews */ = {
@@ -481,6 +494,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0409E4B424C574B9000038E1 /* AppDelegate.swift in Sources */,
+				042987C1251AC84F00CE141C /* SignInWithAppleCoordinator.swift in Sources */,
 				044A268D24D3D76A0059496C /* RankingView.swift in Sources */,
 				04D1FA3F251306E10075F697 /* String.swift in Sources */,
 				0447676524CEB9380019B5E9 /* NoteRepository.swift in Sources */,
@@ -678,6 +692,7 @@
 			baseConfigurationReference = BAA0CFD1643CC667833F0E07 /* Pods-Smash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Smash/Smash.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Smash/Preview Content\"";
 				DEVELOPMENT_TEAM = 479D88RPDD;
@@ -699,6 +714,7 @@
 			baseConfigurationReference = A7C8EA3EF807274334AFC61B /* Pods-Smash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Smash/Smash.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Smash/Preview Content\"";
 				DEVELOPMENT_TEAM = 479D88RPDD;

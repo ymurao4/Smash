@@ -10,7 +10,7 @@ import SwiftUI
 
 struct AddRecordView: View {
 
-    @ObservedObject var recordListVM = RecordListViewMdoel()
+    @ObservedObject var recordListVM: RecordListViewMdoel
 
     @Environment(\.presentationMode) var presentatinoMode
     @State private var selectedIndex: Int = 0
@@ -20,6 +20,8 @@ struct AddRecordView: View {
     @State private var result: Bool = true
 
     private let pickerNames = ["Me", "Opponent", "Stage"]
+
+    private let userDefaults = UserDefaults.standard
     
     var stringResult = { (result: Bool) -> String in
         if result {
@@ -62,6 +64,10 @@ struct AddRecordView: View {
                     StageView(stageName: $stageName)
                 }
             }
+            .onAppear {
+
+                self.loadMainFighter()
+            }
             .padding(20)
             .navigationBarTitle(Text("Result".localized), displayMode: .inline)
             .navigationBarItems(
@@ -95,16 +101,13 @@ struct AddRecordView: View {
         }
     }
 
-}
+    func loadMainFighter() {
+        userDefaults.register(defaults: ["MainFighter": "mario"])
 
-
-#if DEBUG
-struct AddRecordView_Previews: PreviewProvider {
-    static var previews: some View {
-        AddRecordView()
+        myFighterName = userDefaults.object(forKey: "MainFighter") as! String
     }
+
 }
-#endif
 
 
 struct FormCell: View {

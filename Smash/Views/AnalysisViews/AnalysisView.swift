@@ -45,7 +45,6 @@ struct AnalysisView: View {
                         }
                         .font(.subheadline)
                     }
-//                    .padding(.top, 10)
                     .padding(.horizontal)
 
                     if selectedIndex == 0 {

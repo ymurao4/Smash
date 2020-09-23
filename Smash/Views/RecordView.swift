@@ -43,7 +43,7 @@ struct RecordView: View {
                 .padding(EdgeInsets(top: 10, leading: 20, bottom: 0, trailing: 20))
                 .sheet(isPresented: $isSheet) {
 
-                    AddRecordView()
+                    AddRecordView(recordListVM: recordListVM)
                 }
 
                 List{

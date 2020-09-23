@@ -104,7 +104,6 @@ class AnalysisViewModel: ObservableObject {
         ["lylat", "-", "-", "-", "-"]
     ]
     @Published var isMain: Bool = false
-
     @Published var mainFighter = ""
 
     private var cancellables = Set<AnyCancellable>()

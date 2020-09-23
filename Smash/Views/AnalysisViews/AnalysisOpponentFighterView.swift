@@ -13,18 +13,26 @@ struct AnalysisOpponentFighterView: View {
     @ObservedObject var analysisVM = AnalysisViewModel(sortName: "opponentFighter")
 
     var body: some View {
+
         List {
+
             ForEach(analysisVM.outputRecord, id: \.self) { array in
-                HStack() {
+
+                HStack {
+
                     FighterPDF(name: array[0])
                         .frame(width: 25, height: 25)
                         .frame(maxWidth: .infinity)
+
                     Text(array[1])
                         .frame(maxWidth: .infinity)
+
                     Text(array[2])
                         .frame(maxWidth: .infinity)
+
                     Text(array[3])
                         .frame(maxWidth: .infinity)
+                    
                     Text(array[4])
                         .lineLimit(1)
                         .minimumScaleFactor(0.2)

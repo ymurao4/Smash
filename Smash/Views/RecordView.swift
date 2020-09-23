@@ -135,17 +135,21 @@ struct ResultCell: View {
 
     var body: some View {
 
-        HStack(spacing: 20) {
+        HStack(alignment: .center, spacing: 10) {
+
+            Rectangle()
+                .frame(width: 5)
+                .foregroundColor(self.borderColor(recordCellVM.record))
 
             VStack(alignment: .center, spacing: 5) {
 
                 Text(recordCellVM.record.result)
                     .minimumScaleFactor(0.5)
 
-                EdgeBorder(width: 5, edge: .top)
-                    .foregroundColor(self.borderColor(recordCellVM.record))
-                    .frame(maxWidth: .infinity)
+                Text(recordCellVM.date)
+                    .font(.caption)
             }
+            .frame(maxWidth: .infinity)
 
             FighterPDF(name: recordCellVM.record.myFighter)
                 .frame(width: 40, height: 40)
@@ -165,6 +169,7 @@ struct ResultCell: View {
                 Text(T.translateStageName(name: recordCellVM.record.stage))
                     .font(.caption)
             }
+            .frame(maxWidth: .infinity)
         }
     }
 }

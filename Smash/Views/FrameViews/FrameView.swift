@@ -17,6 +17,7 @@ struct Kind: Identifiable {
 struct FrameView: View {
 
     @Environment (\.colorScheme) var colorScheme: ColorScheme
+    @ObservedObject var frameVM = FrameViewModel()
     @State private var isActionSheet: Bool = false
     @State private var isSheet: Bool = false
     @State private var selectedIndex: Int = 0
@@ -43,7 +44,7 @@ struct FrameView: View {
 
                     ForEach(S.frameFighterArray, id: \.self) { item in
 
-                        NavigationLink(destination: FrameDetaleView(fighterName: item)) {
+                        NavigationLink(destination: FrameDetaleView(frameVM: frameVM, fighterName: item)) {
 
                             FighterPNG(name: item)
                                 .frame(width: 60, height: 60)

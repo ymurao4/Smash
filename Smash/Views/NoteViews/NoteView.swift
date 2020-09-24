@@ -30,7 +30,7 @@ struct NoteView: View {
 
                     ForEach(noteVM.noteCellViewModels) { noteCellVM in
 
-                        NoteCell(noteCellVM: noteCellVM)
+                        NoteCell(noteVM: noteVM, noteCellVM: noteCellVM)
                     }
                     .onDelete(perform: delete)
                 }
@@ -47,7 +47,7 @@ struct NewNoteCell: View {
 
     var body: some View {
 
-        NavigationLink(destination: NoteDetailView(noteCellVM: NoteCellViewModel(note: Note(text: "", imageURL: []))) { note in
+        NavigationLink(destination: NoteDetailView(noteVM: noteVM, noteCellVM: NoteCellViewModel(note: Note(text: "", imageURL: []))) { note in
 
             self.noteVM.addNote(note: note)
         }) {
@@ -69,6 +69,7 @@ struct NewNoteCell: View {
 
 struct NoteCell: View {
 
+    @ObservedObject var noteVM: NoteViewModel
     @ObservedObject var noteCellVM: NoteCellViewModel
 
     var body: some View {
@@ -101,7 +102,7 @@ struct NoteCell: View {
                 }
             }
 
-            NavigationLink(destination: NoteDetailView(noteCellVM: noteCellVM)) { EmptyView() }
+            NavigationLink(destination: NoteDetailView(noteVM: noteVM, noteCellVM: noteCellVM)) { EmptyView() }
         }
         .padding(.vertical, 5)
     }

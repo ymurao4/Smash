@@ -18,7 +18,9 @@ class RankingViewModel: ObservableObject {
 
     init() {
         rankingRepository.$rankingResults.map { results in
+
             results.map { result in
+
                 return Ranking(rank: result[1], fighterName: result[2], value: result[3])
             }
         }
@@ -27,6 +29,7 @@ class RankingViewModel: ObservableObject {
     }
 
     func loadRankingData(rankingName: String) {
+        
         DispatchQueue.main.async {
             self.rankingRepository.loadData(rankingName: rankingName)
         }

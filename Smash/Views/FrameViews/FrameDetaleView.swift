@@ -11,7 +11,7 @@ struct FrameDetaleView: View {
 
     @Environment (\.colorScheme) var colorScheme:ColorScheme
 
-    @ObservedObject var frameVM = FrameViewModel()
+    @ObservedObject var frameVM: FrameViewModel
 
     @State  var isSheet: Bool = false
     @State var fighterName: String

@@ -11,14 +11,13 @@ import SwiftUI
 struct NoteDetailView: View {
     
     @Environment (\.colorScheme) var colorScheme: ColorScheme
-    @ObservedObject var noteVM = NoteViewModel()
+    @ObservedObject var noteVM: NoteViewModel
     @ObservedObject var noteCellVM: NoteCellViewModel
 
     @State private var isBeginEditing: Bool = false
     @State private var isShowPhotoLibrary: Bool = false
-    @State private var isShowFighterIcon: Bool  = false
+    @State private var isShowFighterIcon: Bool = false
     @State private var paths: [String] = []
-
     @State private var images: [UIImage] = []
 
     var onCommit: (Note) -> (Void) = { _ in }
@@ -35,8 +34,6 @@ struct NoteDetailView: View {
                     ShowSelectedPhotos(noteVM: noteVM, noteCellVM: noteCellVM, images: $images, paths: $paths)
                 }
 
-//                MultilineTextField(text: $noteCellVM.note.text, isBeginEditing: $isBeginEditing)
-//                    .padding(.horizontal, 10)
                 TextEditor(text: $noteCellVM.note.text)
                     .lineSpacing(5)
             }
@@ -46,7 +43,7 @@ struct NoteDetailView: View {
 
                 Spacer()
 
-                SelectFighterIcon(noteCellVM: self.noteCellVM)
+                SelectFighterIcon(isShowFighterIcon: $isShowFighterIcon, noteCellVM: self.noteCellVM)
                     .offset(y: isShowFighterIcon ? 0 : UIScreen.main.bounds.height)
             }
             .background((isShowFighterIcon ? Color.black.opacity(0.3) : Color.clear)
@@ -196,6 +193,7 @@ struct ShowSelectedPhotos: View {
 
 struct SelectFighterIcon: View {
 
+    @Binding var isShowFighterIcon: Bool
     @ObservedObject var noteCellVM: NoteCellViewModel
     let column = GridItem(.flexible(minimum: 40, maximum: 60))
 
@@ -209,7 +207,11 @@ struct SelectFighterIcon: View {
 
                     ForEach(S.fightersArray, id: \.self) { item in
 
-                        Button(action: { self.noteCellVM.note.fighterName = item[1] }) {
+                        Button(action: {
+
+                            self.noteCellVM.note.fighterName = item[1]
+                            self.isShowFighterIcon = false
+                        }) {
 
                             FighterPDF(name: item[1])
                                 .frame(width: 40, height: 40)
@@ -219,7 +221,11 @@ struct SelectFighterIcon: View {
                     }
                 }
 
-                Button(action: { self.noteCellVM.note.fighterName = "" }) {
+                Button(action: {
+
+                    self.noteCellVM.note.fighterName = ""
+                    self.isShowFighterIcon = false
+                }) {
 
                     HStack {
 

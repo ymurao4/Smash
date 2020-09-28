@@ -12,7 +12,7 @@ struct AnalysisView: View {
 
     @ObservedObject var analysisVM = AnalysisViewModel(sortName: "opponentFighter")
     @State private var selectedIndex: Int = 0
-    @State private var isFighterIcon: Bool = false
+    @State var isFighterIcon: Bool = false
     private let pickerName: [String] = ["Main", "Me", "Opponent", "Stage"]
     private let sortedName: [String] = ["", "Game", "Win", "Lose", "Rate"]
 
@@ -62,13 +62,12 @@ struct AnalysisView: View {
                     }
                 }
                 .padding(.top, 50)
-                .padding(.horizontal, 10)
 
                 VStack {
 
                     Spacer()
 
-                    SelectMainFighterIcon(analysisVM: self.analysisVM)
+                    SelectMainFighterIcon(analysisVM: analysisVM)
                         .offset(y: isFighterIcon ? 0 : UIScreen.main.bounds.height)
                 }
                 .background((isFighterIcon ? Color.black.opacity(0.3) : Color.clear)
@@ -104,6 +103,7 @@ struct AnalysisView_Previews: PreviewProvider {
 struct SelectMainFighterIcon: View {
 
     @ObservedObject var analysisVM: AnalysisViewModel
+//    @Binding var isFighterIcon: Bool
     let column = GridItem(.flexible(minimum: 40, maximum: 60))
 
     var body: some View {
@@ -116,7 +116,11 @@ struct SelectMainFighterIcon: View {
 
                     ForEach(S.fightersArray, id: \.self) { item in
 
-                        Button(action: { self.analysisVM.updateMainFighter(fighterName: item[1]) }) {
+                        Button(action: {
+
+                            self.analysisVM.updateMainFighter(fighterName: item[1])
+//                            self.isFighterIcon = false
+                        }) {
 
                             FighterPDF(name: item[1])
                                 .frame(width: 40, height: 40)

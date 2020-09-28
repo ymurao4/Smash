@@ -63,7 +63,6 @@ struct RecordView: View {
                     SignInView()
                 }
             }
-            .padding(.horizontal, 10)
             .navigationBarTitle("Battle Record".localized)
             .navigationBarItems(
                 leading:

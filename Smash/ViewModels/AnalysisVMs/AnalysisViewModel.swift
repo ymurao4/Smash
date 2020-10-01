@@ -12,6 +12,7 @@ import Combine
 class AnalysisViewModel: ObservableObject {
 
     @Published var analysisRepository = AnalysisRepository()
+    @Published var totalRecord: [String] = ["total", "-", "-", "-", "-"]
     @Published var outputRecord: [[String]] = [
         ["mario", "-", "-", "-", "-"],
         ["donkey_kong", "-", "-", "-", "-"],
@@ -122,12 +123,12 @@ class AnalysisViewModel: ObservableObject {
             for record in records {
                 // メインキャラの分析時、メインキャラ以外のレコードはスキップ
                 if self.isMain {
+
                     if record.myFighter != self.mainFighter {
                         continue
                     }
                 }
                 // ここから
-
                 let myFighterName = record.myFighter
                 let opponentFighterName = record.opponentFighter
                 let stageName = record.stage
@@ -151,6 +152,7 @@ class AnalysisViewModel: ObservableObject {
                 var winRate: Float
 
                 if record.result == "win" {
+                    
                     win = 1
                 }
 
@@ -159,10 +161,12 @@ class AnalysisViewModel: ObservableObject {
                 for result in resultRecords {
                     // データの更新
                     if result[0] as! String == sort {
+
                         let existingGame = result[1] as! Int
                         var existingWin = result[2] as! Int
 
                         if record.result == "win" {
+
                             existingWin += 1
                         }
 
@@ -172,6 +176,7 @@ class AnalysisViewModel: ObservableObject {
                         resultRecords.remove(at: loopInt)
                         break
                     }
+
                     loopInt += 1
                 }
 
@@ -187,10 +192,11 @@ class AnalysisViewModel: ObservableObject {
         }
         .store(in: &cancellables)
 
+        calculateTotalRecord()
     }
 
 
-    func insertOutputRecord(resultRecords: [[Any]], sortName: String) {
+    private func insertOutputRecord(resultRecords: [[Any]], sortName: String) {
         for result in resultRecords {
             // map や　as! String ではうまくいかなかった
             let name = result[0] as! String
@@ -204,23 +210,32 @@ class AnalysisViewModel: ObservableObject {
 
             //output先の分岐
             if sortName == "stage" {
+
                 for output in self.outputStageRecord {
+
                     if output[0] == name {
+
                         break
                     }
+
                     loopInt += 1
                 }
+
                 let newOutput = [name, game, win, lose, winRate]
 
                 self.outputStageRecord.insert(newOutput, at: loopInt)
                 self.outputStageRecord.remove(at: loopInt + 1)
             } else {
+
                 for output in self.outputRecord {
+
                     if output[0] == name {
+
                         break
                     }
                     loopInt += 1
                 }
+
                 let newOutput = [name, game, win, lose, winRate]
                 self.outputRecord.insert(newOutput, at: loopInt)
                 self.outputRecord.remove(at: loopInt + 1)
@@ -228,18 +243,55 @@ class AnalysisViewModel: ObservableObject {
         }
     }
 
-    func loadMainFighter() {
+    private func loadMainFighter() {
+
         userDefaults.register(defaults: ["MainFighter": "mario"])
 
         mainFighter = userDefaults.object(forKey: "MainFighter") as! String
     }
 
     func updateMainFighter(fighterName: String) {
+
         userDefaults.set(fighterName, forKey: "MainFighter")
 
         mainFighter = fighterName
     }
 
+    private func calculateTotalRecord() {
+
+        analysisRepository.$records.map { records in
+
+            var game: Int = 0
+            var win: Int = 0
+            var lose: Int = 0
+            var winRate: Float
+
+            records.filter { record in
+
+                record.myFighter == self.mainFighter
+            }
+            .map { record in
+
+                game += 1
+
+                if record.result == "win" {
+
+                    win += 1
+                } else {
+
+                    lose += 1
+                }
+            }
+
+            winRate = roundf(Float(win) / Float(game) * 1000) / 10
+
+            let output: [String] = ["Total", "\(game)", "\(win)", "\(lose)", "\(winRate)%"]
+
+            return output
+        }
+        .assign(to: \.totalRecord, on: self)
+        .store(in: &cancellables)
+    }
 }
 
 

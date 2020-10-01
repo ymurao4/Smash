@@ -13,12 +13,25 @@ struct AnalysisMainFighterView: View {
     @ObservedObject var analysisVM = AnalysisViewModel(sortName: "opponentFighter")
 
     init() {
+        
         analysisVM.isMain = true
     }
 
     var body: some View {
 
         List {
+
+            HStack {
+
+                ForEach(analysisVM.totalRecord, id: \.self) { item in
+
+                    HStack {
+
+                        Text(item.localized)
+                            .frame(maxWidth: .infinity)
+                    }
+                }
+            }
 
             ForEach(analysisVM.outputRecord, id: \.self) { array in
 

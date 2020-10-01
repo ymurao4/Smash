@@ -16,8 +16,6 @@ class AnalysisRepository: ObservableObject {
 
     let db = Firestore.firestore()
     @Published var records = [Record]()
-    @Published var mainRecords = [Record]()
-
 
     init() {
         loadData()
@@ -44,7 +42,5 @@ class AnalysisRepository: ObservableObject {
                     }
                 }
         }
-
     }
-
 }

@@ -46,6 +46,7 @@ struct AnalysisView: View {
                         .font(.subheadline)
                     }
                     .padding(.horizontal)
+                    .padding(.top, 5)
 
                     if selectedIndex == 0 {
 
@@ -119,7 +120,6 @@ struct SelectMainFighterIcon: View {
                         Button(action: {
 
                             self.analysisVM.updateMainFighter(fighterName: item[1])
-//                            self.isFighterIcon = false
                         }) {
 
                             FighterPDF(name: item[1])

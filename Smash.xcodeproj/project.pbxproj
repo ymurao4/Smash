@@ -50,6 +50,7 @@
 		04A2F9F724CE4813007A5316 /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A2F9F624CE4813007A5316 /* SafariView.swift */; };
 		04A4861924D0F53A008C3C15 /* HideKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A4861824D0F53A008C3C15 /* HideKeyboard.swift */; };
 		04AE235924CC0384005C8100 /* NoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AE235824CC0383005C8100 /* NoteViewModel.swift */; };
+		04CAA19425269F57002D54CD /* Smash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04CAA19325269F57002D54CD /* Smash.swift */; };
 		04D16C322519E875000E13DF /* SignInWithAppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D16C312519E875000E13DF /* SignInWithAppleButton.swift */; };
 		04D16C382519E913000E13DF /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D16C372519E913000E13DF /* SignInView.swift */; };
 		04D1FA372513056F0075F697 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 04D1FA392513056F0075F697 /* Localizable.strings */; };
@@ -112,6 +113,7 @@
 		04A2F9F624CE4813007A5316 /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 		04A4861824D0F53A008C3C15 /* HideKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HideKeyboard.swift; sourceTree = "<group>"; };
 		04AE235824CC0383005C8100 /* NoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewModel.swift; sourceTree = "<group>"; };
+		04CAA19325269F57002D54CD /* Smash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smash.swift; sourceTree = "<group>"; };
 		04D16C312519E875000E13DF /* SignInWithAppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton.swift; sourceTree = "<group>"; };
 		04D16C372519E913000E13DF /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		04D1FA382513056F0075F697 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 			children = (
 				0409E4B324C574B9000038E1 /* AppDelegate.swift */,
 				0409E4B524C574B9000038E1 /* SceneDelegate.swift */,
+				04CAA19325269F57002D54CD /* Smash.swift */,
 			);
 			path = Apps;
 			sourceTree = "<group>";
@@ -499,6 +502,7 @@
 				04D1FA3F251306E10075F697 /* String.swift in Sources */,
 				0447676524CEB9380019B5E9 /* NoteRepository.swift in Sources */,
 				04EDBB8524D4010E009B696B /* FrameRepository.swift in Sources */,
+				04CAA19425269F57002D54CD /* Smash.swift in Sources */,
 				04A2F9F724CE4813007A5316 /* SafariView.swift in Sources */,
 				0409E4CE24C57588000038E1 /* NoteView.swift in Sources */,
 				04AE235924CC0384005C8100 /* NoteViewModel.swift in Sources */,

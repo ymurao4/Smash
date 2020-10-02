@@ -36,7 +36,7 @@ class Delegate: NSObject, UIApplicationDelegate {
         }
 
         
-        IQKeyboardManager.shared.enable = true
+//        IQKeyboardManager.shared.enable = true
         IQKeyboardManager.shared.toolbarTintColor = .orange
 
         return true

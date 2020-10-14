@@ -195,6 +195,8 @@ struct T {
             return "べレト/べレス"
         case "minmin":
             return "ミェンミェン"
+        case "steve":
+            return "スティーブ"
         case "mii_brawler":
             return "格闘Mii"
         case "mii_gunner":
@@ -368,6 +370,8 @@ struct T {
             return "BYLETH"
         case "minmin":
             return "MINMIN"
+        case "steve":
+            return "STEVE"
         case "mii_brawler":
             return "BRAWLER"
         case "mii_gunner":

@@ -18,7 +18,7 @@ class FrameRepository: ObservableObject {
 
         frameResults = []
 
-        guard let path = Bundle.main.path(forResource: "csv/Frame/\(fighterName)", ofType: "csv") else {
+        guard let path = Bundle.main.path(forResource: "csv/frame/\(fighterName)", ofType: "csv") else {
             return
         }
 

@@ -27,9 +27,13 @@ class FrameRepository: ObservableObject {
 
             let rows = csvString.components(separatedBy: .newlines)
             for row in rows {
+                
                 let columns = row.components(separatedBy: ",")
+
                 if columns[0] != "" {
-                    frameResults.append(columns)
+                        
+                    print(columns)
+//                    frameResults.append(columns)
                 }
             }
 

@@ -18,8 +18,9 @@ class FrameViewModel: ObservableObject {
 
     init() {
         frameRepository.$frameResults.map { results in
+            
             results.map { result in
-            return  Frame(name: result[1], frameStartup: result[2], totalFrames: result[3], onShield: result[4], activeOn: result[5])
+                return  Frame(name: result[1], frameStartup: result[2], totalFrames: result[3], onShield: result[4], activeOn: result[5])
             }
         }
         .assign(to: \.frameData, on: self)

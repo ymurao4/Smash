@@ -13,7 +13,7 @@ struct SafariView: UIViewControllerRepresentable {
 
     typealias UIViewControllerType = SFSafariViewController
 
-    let fighterName: String
+    @Binding var fighterName: String
 
     func makeUIViewController(context: Context) -> SFSafariViewController {
         

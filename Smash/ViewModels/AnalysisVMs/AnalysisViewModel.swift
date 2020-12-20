@@ -93,7 +93,8 @@ class AnalysisViewModel: ObservableObject {
         ["terry", "-", "-", "-", "-"],
         ["byleth", "-", "-", "-", "-"],
         ["minmin", "-", "-", "-", "-"],
-        ["steve", "-", "-", "-", "-"]
+        ["steve", "-", "-", "-", "-"],
+        ["sephiroth", "-", "-", "-", "-"]
     ]
     @Published var outputStageRecord: [[String]] = [
         ["final", "-", "-", "-", "-"],

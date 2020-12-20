@@ -53,10 +53,10 @@ struct FrameDetaleView: View {
                     .font(.headline)
                 }
             }
-            .sheet(isPresented: $isSheet) {
-                SafariView(fighterName: self.fighterName)
-                    .edgesIgnoringSafeArea(.bottom)
-            }
+//            .sheet(isPresented: $isSheet) {
+//                SafariView(fighterName: self.fighterName)
+//                    .edgesIgnoringSafeArea(.bottom)
+//            }
         }
         .navigationBarBackButtonHidden(isSheet)
         .navigationBarTitle(T.translateFighterName(name: self.fighterName))

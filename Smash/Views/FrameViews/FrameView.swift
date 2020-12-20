@@ -17,11 +17,13 @@ struct Kind: Identifiable {
 struct FrameView: View {
 
     @Environment (\.colorScheme) var colorScheme: ColorScheme
-    @ObservedObject var frameVM = FrameViewModel()
+//    @ObservedObject var frameVM = FrameViewModel()
     @State private var isActionSheet: Bool = false
     @State private var isSheet: Bool = false
     @State private var selectedIndex: Int = 0
     let column = GridItem(.flexible(minimum: 60, maximum: 80))
+    @State private var isPresented: Bool = false
+    @State private var fighterName: String = ""
 
     private var kinds: [Kind] = [
         Kind(id: 0, name: "Weight", fileName: "Weight"),
@@ -44,8 +46,12 @@ struct FrameView: View {
 
                     ForEach(S.frameFighterArray, id: \.self) { item in
 
-                        NavigationLink(destination: FrameDetaleView(frameVM: frameVM, fighterName: item)) {
-
+                        Button(action: {
+                            
+                            self.fighterName = item
+                            self.isPresented = true
+                        }) {
+                            
                             FighterPNG(name: item)
                                 .frame(width: 60, height: 60)
                         }
@@ -68,6 +74,10 @@ struct FrameView: View {
             }
             .sheet(isPresented: $isSheet) {
                 RankingView(kind: self.kinds[self.selectedIndex])
+            }
+            .fullScreenCover(isPresented: $isPresented) {
+                
+                SafariView(fighterName: self.$fighterName)
             }
         }
     }

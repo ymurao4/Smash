@@ -18,7 +18,7 @@ class FrameRepository: ObservableObject {
 
         frameResults = []
 
-        guard let path = Bundle.main.path(forResource: "csv/frame/\(fighterName)", ofType: "csv") else {
+        guard let path = Bundle.main.path(forResource: "csv/Frame/\(fighterName)", ofType: "csv") else {
             return
         }
 
@@ -27,9 +27,13 @@ class FrameRepository: ObservableObject {
 
             let rows = csvString.components(separatedBy: .newlines)
             for row in rows {
+                
                 let columns = row.components(separatedBy: ",")
+
                 if columns[0] != "" {
-                    frameResults.append(columns)
+                        
+                    print(columns)
+//                    frameResults.append(columns)
                 }
             }
 

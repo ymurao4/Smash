@@ -15,16 +15,16 @@ struct Kind: Identifiable {
 }
 
 struct FrameView: View {
-
+    
     @Environment (\.colorScheme) var colorScheme: ColorScheme
-//    @ObservedObject var frameVM = FrameViewModel()
+    //    @ObservedObject var frameVM = FrameViewModel()
     @State private var isActionSheet: Bool = false
     @State private var isSheet: Bool = false
     @State private var selectedIndex: Int = 0
     let column = GridItem(.flexible(minimum: 60, maximum: 80))
     @State private var isPresented: Bool = false
     @State private var fighterName: String = ""
-
+    
     private var kinds: [Kind] = [
         Kind(id: 0, name: "Weight", fileName: "Weight"),
         Kind(id: 1, name: "Air Accel", fileName: "AirAcceleration"),
@@ -33,19 +33,19 @@ struct FrameView: View {
         Kind(id: 4, name: "Dash Speed", fileName: "DashSpeed"),
         Kind(id: 5, name: "Walk Speed", fileName: "WalkSpeed"),
         Kind(id: 6, name: "Run Speed", fileName: "RunSpeed")
-
+        
     ]
-
+    
     var body: some View {
-
+        
         NavigationView{
-
-            ScrollView(showsIndicators: false) {
-
-                LazyVGrid(columns: Array(repeating: column, count: 5), spacing: 20) {
-
-                    ForEach(S.frameFighterArray, id: \.self) { item in
-
+            
+            List {
+                
+                ForEach(S.frameFighterArray, id: \.self) { item in
+                    
+                    HStack(spacing: 30) {
+                        
                         Button(action: {
                             
                             self.fighterName = item
@@ -53,24 +53,26 @@ struct FrameView: View {
                         }) {
                             
                             FighterPNG(name: item)
-                                .frame(width: 60, height: 60)
+                                .frame(width: 70, height: 70)
                         }
+                        
+                        Text(item)
+                            .font(.title2)
                     }
                 }
             }
-            .padding(.horizontal)
             .navigationBarTitle("Frame".localized)
             .navigationBarItems(trailing:
-
-                Button(action: { self.isActionSheet.toggle() }) {
-
-                    Image(systemName: "line.horizontal.3")
-                        .resizable()
-                        .frame(width: 20, height: 20)
-                }
+                                    
+                                    Button(action: { self.isActionSheet.toggle() }) {
+                                        
+                                        Image(systemName: "line.horizontal.3")
+                                            .resizable()
+                                            .frame(width: 20, height: 20)
+                                    }
             )
-                .actionSheet(isPresented: $isActionSheet) {
-                    actionSheet()
+            .actionSheet(isPresented: $isActionSheet) {
+                actionSheet()
             }
             .sheet(isPresented: $isSheet) {
                 RankingView(kind: self.kinds[self.selectedIndex])
@@ -81,11 +83,11 @@ struct FrameView: View {
             }
         }
     }
-
+    
     private func actionSheet() -> ActionSheet {
-
+        
         ActionSheet(
-
+            
             title: Text("Ranking".localized),
             buttons: [
                 .default(Text(kinds[0].name.localized)) {

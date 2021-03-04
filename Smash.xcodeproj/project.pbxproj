@@ -63,7 +63,6 @@
 		04F4F25024C84288006C2F20 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4F24F24C84288006C2F20 /* Frame.swift */; };
 		04F4F25224C8443F006C2F20 /* csv in Resources */ = {isa = PBXBuildFile; fileRef = 04F4F25124C8443E006C2F20 /* csv */; };
 		04F4F25424C8445C006C2F20 /* FrameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F4F25324C8445C006C2F20 /* FrameViewModel.swift */; };
-		6140789FF762D73B618025C3 /* Pods_Smash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 109E6D426AF2F5DB11E3B5B0 /* Pods_Smash.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -128,9 +127,6 @@
 		04F4F24F24C84288006C2F20 /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
 		04F4F25124C8443E006C2F20 /* csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = folder; path = csv; sourceTree = SOURCE_ROOT; };
 		04F4F25324C8445C006C2F20 /* FrameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameViewModel.swift; sourceTree = "<group>"; };
-		109E6D426AF2F5DB11E3B5B0 /* Pods_Smash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F98E32258BA395F84CB5F66 /* Pods-Smash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smash.debug.xcconfig"; path = "Target Support Files/Pods-Smash/Pods-Smash.debug.xcconfig"; sourceTree = "<group>"; };
-		B1B35CF18FE17A61BB8DA469 /* Pods-Smash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smash.release.xcconfig"; path = "Target Support Files/Pods-Smash/Pods-Smash.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +134,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6140789FF762D73B618025C3 /* Pods_Smash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +146,6 @@
 				0409E4B224C574B9000038E1 /* Smash */,
 				0409E4B124C574B9000038E1 /* Products */,
 				6DA842E88DDE30E34BE8AC52 /* Pods */,
-				3F2A6C0807B70D409D09EAC2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -356,19 +350,9 @@
 			path = SignInViews;
 			sourceTree = "<group>";
 		};
-		3F2A6C0807B70D409D09EAC2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				109E6D426AF2F5DB11E3B5B0 /* Pods_Smash.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		6DA842E88DDE30E34BE8AC52 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5F98E32258BA395F84CB5F66 /* Pods-Smash.debug.xcconfig */,
-				B1B35CF18FE17A61BB8DA469 /* Pods-Smash.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -380,11 +364,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0409E4C424C574BA000038E1 /* Build configuration list for PBXNativeTarget "Smash" */;
 			buildPhases = (
-				127D39509EE2B258D525736F /* [CP] Check Pods Manifest.lock */,
 				0409E4AC24C574B9000038E1 /* Sources */,
 				0409E4AD24C574B9000038E1 /* Frameworks */,
 				0409E4AE24C574B9000038E1 /* Resources */,
-				069F79519E673D5E5375D9BF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -444,48 +426,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		069F79519E673D5E5375D9BF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Smash/Pods-Smash-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Smash/Pods-Smash-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Smash/Pods-Smash-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		127D39509EE2B258D525736F /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Smash-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0409E4AC24C574B9000038E1 /* Sources */ = {
@@ -689,7 +629,6 @@
 		};
 		0409E4C524C574BA000038E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F98E32258BA395F84CB5F66 /* Pods-Smash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Smash/Smash.entitlements;
@@ -713,7 +652,6 @@
 		};
 		0409E4C624C574BA000038E1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1B35CF18FE17A61BB8DA469 /* Pods-Smash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Smash/Smash.entitlements;

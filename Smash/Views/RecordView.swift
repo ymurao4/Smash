@@ -172,3 +172,11 @@ struct ResultCell: View {
         }
     }
 }
+
+extension View {
+    
+    func border(width: CGFloat, edges: [Edge], color: Color) -> some View {
+        
+        overlay(EdgeBorder(width: width, edge: edges))
+    }
+}

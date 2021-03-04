@@ -41,8 +41,8 @@ struct RecordView: View {
                     }
                 }
                 .padding(EdgeInsets(top: 10, leading: 20, bottom: 0, trailing: 20))
-                .sheet(isPresented: $isSheet) {
-
+                .fullScreenCover(isPresented: $isSheet) {
+                    
                     AddRecordView(recordListVM: recordListVM)
                 }
 
@@ -136,9 +136,9 @@ struct ResultCell: View {
 
         HStack(alignment: .center, spacing: 10) {
 
-            Rectangle()
-                .frame(width: 5)
-                .foregroundColor(self.borderColor(recordCellVM.record))
+//            Rectangle()
+//                .frame(width: 5)
+//                .foregroundColor(self.borderColor(recordCellVM.record))
 
             VStack(alignment: .center, spacing: 5) {
 
@@ -170,5 +170,15 @@ struct ResultCell: View {
             }
             .frame(maxWidth: .infinity)
         }
+        .border(width: 5, edge: .leading, color: self.borderColor(recordCellVM.record))
     }
 }
+
+extension View {
+    
+    func border(width: CGFloat, edge: Edge, color: Color) -> some View {
+        
+        overlay(EdgeBorder(width: width, edge: edge).foregroundColor(color))
+    }
+}
+

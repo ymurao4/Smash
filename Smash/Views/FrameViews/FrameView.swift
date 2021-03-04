@@ -56,7 +56,7 @@ struct FrameView: View {
                                 .frame(width: 70, height: 70)
                         }
                         
-                        Text(item)
+                        Text(T.translateFighterName(name: item))
                             .font(.title2)
                     }
                 }

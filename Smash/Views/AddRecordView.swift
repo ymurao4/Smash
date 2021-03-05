@@ -24,6 +24,7 @@ struct AddRecordView: View {
     private let userDefaults = UserDefaults.standard
     
     var stringResult = { (result: Bool) -> String in
+        
         if result {
             return "win"
         } else {
@@ -66,7 +67,7 @@ struct AddRecordView: View {
             }
             .onAppear {
 
-                self.loadMainFighter()
+                self.loadPreviousFighterName()
             }
             .padding(20)
             .navigationBarTitle(Text("Result".localized), displayMode: .inline)
@@ -88,6 +89,8 @@ struct AddRecordView: View {
                     Button(action: {
 
                         self.recordListVM.addRecord(record: Record(result: self.stringResult(self.result), myFighter: self.myFighterName, opponentFighter: self.opponentFighterName, stage: self.stageName))
+                        
+                        savePrevFighterName()
 
                         self.presentatinoMode.wrappedValue.dismiss()
                     }) {
@@ -101,12 +104,18 @@ struct AddRecordView: View {
         }
     }
 
-    func loadMainFighter() {
-        userDefaults.register(defaults: ["MainFighter": "mario"])
+    func loadPreviousFighterName() {
+        userDefaults.register(defaults: ["PrevFighter": "mario"])
 
-        myFighterName = userDefaults.object(forKey: "MainFighter") as! String
+        myFighterName = userDefaults.object(forKey: "PrevFighter") as! String
     }
-
+    
+    func savePrevFighterName() {
+        
+        userDefaults.register(defaults: ["PrevFighter": "mario"])
+        
+        userDefaults.set(myFighterName, forKey: "PrevFighter")
+    }
 }
 
 

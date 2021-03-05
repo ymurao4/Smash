@@ -36,5 +36,4 @@ class RecordListViewMdoel: ObservableObject {
             recordRepository.deleteRecord(recordID: recordID)
         }
     }
-
 }

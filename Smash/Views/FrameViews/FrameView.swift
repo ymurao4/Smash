@@ -21,15 +21,30 @@ struct FrameView: View {
             
             VStack {
                 
-//                ListView(fighterName: $fighterName, isPresented: $isPresented)
-                GridView()
-                    .fullScreenCover(isPresented: $isPresented) {
-                        
-                        SafariView(fighterName: self.$fighterName)
-                    }
+                if isGrid {
+                    
+                    GridView(fighterName: $fighterName, isPresented: $isPresented)
+                } else {
+                    
+                    ListView(fighterName: $fighterName, isPresented: $isPresented)
+                }
+            }
+            .fullScreenCover(isPresented: $isPresented) {
+                
+                SafariView(fighterName: self.$fighterName)
             }
             .navigationBarTitle("Frame".localized)
-
+            .navigationBarItems(
+                trailing:
+                    
+                    Button(action: {
+                        
+                        self.isGrid.toggle()
+                    }) {
+                        
+                        Image(systemName: self.isGrid ? "list.bullet" : "square.grid.3x3.fill")
+                    }
+            )
         }
     }
 }
@@ -73,18 +88,28 @@ struct ListView: View {
 
 struct GridView: View {
     
+    @Binding var fighterName: String
+    @Binding var isPresented: Bool
     let column = GridItem(.flexible(minimum: 60, maximum: 80))
     
     var body: some View {
         
-        ScrollView(showsIndicators: false) {
+        ScrollView {
             
             LazyVGrid(columns: Array(repeating: column, count: 4), spacing: 10) {
                 
                 ForEach(S.frameFighterArray, id: \.self) { item in
                     
-                    FighterPNG(name: item)
-                        .frame(width: 80, height: 80)
+                    Button(action: {
+                        
+                        self.fighterName = item
+                        self.isPresented = true
+                    }) {
+                        
+                        FighterPNG(name: item)
+                            .frame(width: 70, height: 70)
+                    }
+                    .listStyle(PlainListStyle())
                 }
             }
         }

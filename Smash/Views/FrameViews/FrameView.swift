@@ -80,6 +80,7 @@ struct ListView: View {
                     
                     Text(T.translateFighterName(name: item))
                         .font(.title2)
+                        .bold()
                 }
             }
         }
@@ -113,5 +114,6 @@ struct GridView: View {
                 }
             }
         }
+        .padding(.bottom, 10)
     }
 }

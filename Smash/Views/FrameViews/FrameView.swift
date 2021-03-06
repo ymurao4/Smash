@@ -8,51 +8,28 @@
 
 import SwiftUI
 
-struct Kind: Identifiable {
-    var id: Int
-    var name: String
-    var fileName: String
-}
-
 struct FrameView: View {
     
     @Environment (\.colorScheme) var colorScheme: ColorScheme
-    @State private var isSheet: Bool = false
-    @State private var selectedIndex: Int = 0
-    let column = GridItem(.flexible(minimum: 60, maximum: 80))
     @State private var isPresented: Bool = false
+    @State private var isGrid: Bool = false
     @State private var fighterName: String = ""
     
     var body: some View {
         
         NavigationView{
             
-            List {
+            VStack {
                 
-                ForEach(S.frameFighterArray, id: \.self) { item in
-                    
-                    HStack(spacing: 30) {
+//                ListView(fighterName: $fighterName, isPresented: $isPresented)
+                GridView()
+                    .fullScreenCover(isPresented: $isPresented) {
                         
-                        Button(action: {
-                            
-                            self.fighterName = item
-                            self.isPresented = true
-                        }) {
-                            
-                            FighterPNG(name: item)
-                                .frame(width: 70, height: 70)
-                        }
-                        
-                        Text(T.translateFighterName(name: item))
-                            .font(.title2)
+                        SafariView(fighterName: self.$fighterName)
                     }
-                }
             }
             .navigationBarTitle("Frame".localized)
-            .fullScreenCover(isPresented: $isPresented) {
-                
-                SafariView(fighterName: self.$fighterName)
-            }
+
         }
     }
 }
@@ -63,3 +40,53 @@ struct FrameView_Previews: PreviewProvider {
     }
 }
 
+struct ListView: View {
+    
+    @Binding var fighterName: String
+    @Binding var isPresented: Bool
+    
+    var body: some View {
+        
+        List {
+            
+            ForEach(S.frameFighterArray, id: \.self) { item in
+                
+                HStack(spacing: 30) {
+                    
+                    Button(action: {
+                        
+                        self.fighterName = item
+                        self.isPresented = true
+                    }) {
+                        
+                        FighterPNG(name: item)
+                            .frame(width: 70, height: 70)
+                    }
+                    
+                    Text(T.translateFighterName(name: item))
+                        .font(.title2)
+                }
+            }
+        }
+    }
+}
+
+struct GridView: View {
+    
+    let column = GridItem(.flexible(minimum: 60, maximum: 80))
+    
+    var body: some View {
+        
+        ScrollView(showsIndicators: false) {
+            
+            LazyVGrid(columns: Array(repeating: column, count: 4), spacing: 10) {
+                
+                ForEach(S.frameFighterArray, id: \.self) { item in
+                    
+                    FighterPNG(name: item)
+                        .frame(width: 80, height: 80)
+                }
+            }
+        }
+    }
+}

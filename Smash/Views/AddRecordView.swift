@@ -130,7 +130,9 @@ struct FormCell: View {
     var body: some View {
 
         HStack(alignment: .top, spacing: 20) {
+            
             VStack {
+                
                 Text("Result".localized)
                     .padding(.bottom, 30)
 

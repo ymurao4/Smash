@@ -62,25 +62,28 @@ struct ListView: View {
     
     var body: some View {
         
-        List {
+        GeometryReader { geometry in
             
-            ForEach(S.frameFighterArray, id: \.self) { item in
+            List {
                 
-                HStack(spacing: 30) {
+                ForEach(S.frameFighterArray, id: \.self) { item in
                     
-                    Button(action: {
+                    HStack(spacing: 30) {
                         
-                        self.fighterName = item
-                        self.isPresented = true
-                    }) {
+                        Button(action: {
+                            
+                            self.fighterName = item
+                            self.isPresented = true
+                        }) {
+                            
+                            FighterPNG(name: item)
+                                .frame(width: 70, height: 70)
+                        }
                         
-                        FighterPNG(name: item)
-                            .frame(width: 70, height: 70)
+                        Text(T.translateFighterName(name: item))
+                            .font(.title2)
+                            .bold()
                     }
-                    
-                    Text(T.translateFighterName(name: item))
-                        .font(.title2)
-                        .bold()
                 }
             }
         }

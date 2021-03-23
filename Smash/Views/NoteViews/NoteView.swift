@@ -10,7 +10,7 @@ import SwiftUI
 
 struct NoteView: View {
 
-    @ObservedObject var noteVM = NoteViewModel()
+    @StateObject var noteVM = NoteViewModel()
 
     private func delete(offset: IndexSet) {
 

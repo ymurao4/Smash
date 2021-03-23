@@ -10,7 +10,7 @@ import SwiftUI
 
 struct AnalysisView: View {
 
-    @ObservedObject var analysisVM = AnalysisViewModel(sortName: "opponentFighter")
+    @StateObject var analysisVM = AnalysisViewModel(sortName: "opponentFighter")
     @State private var selectedIndex: Int = 0
     @State var isFighterIcon: Bool = false
     private let pickerName: [String] = ["Main", "Me", "Opponent", "Stage"]

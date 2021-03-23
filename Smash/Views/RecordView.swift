@@ -9,7 +9,7 @@ import SwiftUI
 
 struct RecordView: View {
 
-    @ObservedObject var recordListVM = RecordListViewMdoel()
+    @StateObject var recordListVM = RecordListViewMdoel()
     @State private var isSheet: Bool = false
     @State private var isAlert: Bool = false
     @State private var isActionSheet: Bool = false

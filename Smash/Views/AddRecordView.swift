@@ -10,7 +10,7 @@ import SwiftUI
 
 struct AddRecordView: View {
 
-    @ObservedObject var recordListVM: RecordListViewMdoel
+    @StateObject var recordListVM: RecordListViewMdoel
 
     @Environment(\.presentationMode) var presentatinoMode
     @State private var selectedIndex: Int = 0

@@ -202,8 +202,8 @@
 			isa = PBXGroup;
 			children = (
 				0409E4B724C574B9000038E1 /* ContentView.swift */,
-				049239B624C6C0A5009F301E /* AddRecordView.swift */,
 				0409E4CB24C57582000038E1 /* RecordView.swift */,
+				049239B624C6C0A5009F301E /* AddRecordView.swift */,
 				043F629924CC112B0005B13C /* AnalysisViews */,
 				043F629B24CC114D0005B13C /* NoteViews */,
 				043F629A24CC113D0005B13C /* FrameViews */,
@@ -638,7 +638,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -661,7 +661,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

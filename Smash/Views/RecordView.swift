@@ -65,14 +65,14 @@ struct RecordView: View {
             }
             .navigationBarTitle("Battle Record".localized)
             .navigationBarItems(
-                leading:
-
-                    Button(action: { self.isActionSheet.toggle() }) {
-
-                        Image(systemName: "gear")
-                            .resizable()
-                            .frame(width: 20, height: 20)
-                    },
+//                leading:
+//
+//                    Button(action: { self.isActionSheet.toggle() }) {
+//
+//                        Image(systemName: "gear")
+//                            .resizable()
+//                            .frame(width: 20, height: 20)
+//                    },
                 trailing: EditButton()
             )
             .actionSheet(isPresented: $isActionSheet) {

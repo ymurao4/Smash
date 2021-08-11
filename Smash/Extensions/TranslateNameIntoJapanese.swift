@@ -199,8 +199,10 @@ struct T {
             return "スティーブ"
         case "sephiroth":
             return "セフィロス"
-        case "pyra-mythra":
+        case "mythra":
             return "ホムラ/ヒカリ"
+        case "kazuya":
+            return "カズヤ"
         case "mii_brawler":
             return "格闘Mii"
         case "mii_gunner":

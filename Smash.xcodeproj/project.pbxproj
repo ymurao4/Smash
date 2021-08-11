@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0409E4B424C574B9000038E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E4B324C574B9000038E1 /* AppDelegate.swift */; };
-		0409E4B624C574B9000038E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E4B524C574B9000038E1 /* SceneDelegate.swift */; };
 		0409E4B824C574B9000038E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E4B724C574B9000038E1 /* ContentView.swift */; };
 		0409E4BA24C574BA000038E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0409E4B924C574BA000038E1 /* Assets.xcassets */; };
 		0409E4BD24C574BA000038E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0409E4BC24C574BA000038E1 /* Preview Assets.xcassets */; };
@@ -17,7 +15,6 @@
 		0409E4CE24C57588000038E1 /* NoteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0409E4CD24C57588000038E1 /* NoteView.swift */; };
 		04149A4824C7C63400F2AD6F /* RecordCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04149A4724C7C63400F2AD6F /* RecordCellViewModel.swift */; };
 		0414A55A24D54F6900475D33 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0414A55924D54F6900475D33 /* Color.swift */; };
-		0417B6C924C9A71400BBFF3B /* FrameDetaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417B6C824C9A71400BBFF3B /* FrameDetaleView.swift */; };
 		042987C1251AC84F00CE141C /* SignInWithAppleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042987C0251AC84F00CE141C /* SignInWithAppleCoordinator.swift */; };
 		042A465C24CC14FF003A594F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 042A465B24CC14FF003A594F /* GoogleService-Info.plist */; };
 		0437708124D537C000DCED8E /* AnalysisRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0437708024D537C000DCED8E /* AnalysisRepository.swift */; };
@@ -70,8 +67,6 @@
 
 /* Begin PBXFileReference section */
 		0409E4B024C574B9000038E1 /* Smash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smash.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0409E4B324C574B9000038E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0409E4B524C574B9000038E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0409E4B724C574B9000038E1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0409E4B924C574BA000038E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0409E4BC24C574BA000038E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -81,7 +76,6 @@
 		0409E4CD24C57588000038E1 /* NoteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteView.swift; sourceTree = "<group>"; };
 		04149A4724C7C63400F2AD6F /* RecordCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordCellViewModel.swift; sourceTree = "<group>"; };
 		0414A55924D54F6900475D33 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
-		0417B6C824C9A71400BBFF3B /* FrameDetaleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameDetaleView.swift; sourceTree = "<group>"; };
 		042987C0251AC84F00CE141C /* SignInWithAppleCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleCoordinator.swift; sourceTree = "<group>"; };
 		042987C9251ACA3E00CE141C /* Smash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Smash.entitlements; sourceTree = "<group>"; };
 		042A465B24CC14FF003A594F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -232,8 +226,6 @@
 		0409E4CA24C574D5000038E1 /* Apps */ = {
 			isa = PBXGroup;
 			children = (
-				0409E4B324C574B9000038E1 /* AppDelegate.swift */,
-				0409E4B524C574B9000038E1 /* SceneDelegate.swift */,
 				04CAA19325269F57002D54CD /* Smash.swift */,
 			);
 			path = Apps;
@@ -274,7 +266,6 @@
 			isa = PBXGroup;
 			children = (
 				049239B424C6A3AF009F301E /* FrameView.swift */,
-				0417B6C824C9A71400BBFF3B /* FrameDetaleView.swift */,
 				04A2F9F624CE4813007A5316 /* SafariView.swift */,
 			);
 			path = FrameViews;
@@ -439,7 +430,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0409E4B424C574B9000038E1 /* AppDelegate.swift in Sources */,
 				042987C1251AC84F00CE141C /* SignInWithAppleCoordinator.swift in Sources */,
 				04D1FA3F251306E10075F697 /* String.swift in Sources */,
 				0447676524CEB9380019B5E9 /* NoteRepository.swift in Sources */,
@@ -449,7 +439,6 @@
 				0409E4CE24C57588000038E1 /* NoteView.swift in Sources */,
 				04AE235924CC0384005C8100 /* NoteViewModel.swift in Sources */,
 				046B734324CBB0880093B454 /* Note.swift in Sources */,
-				0417B6C924C9A71400BBFF3B /* FrameDetaleView.swift in Sources */,
 				0491566124CE9BA8003D8E32 /* RecordRepository.swift in Sources */,
 				049239B524C6A3AF009F301E /* FrameView.swift in Sources */,
 				049239B124C68882009F301E /* EdgeBorder.swift in Sources */,
@@ -460,7 +449,6 @@
 				049239B324C6A306009F301E /* AnalysisView.swift in Sources */,
 				043F62A124CC11B40005B13C /* AnalysisOpponentFighterView.swift in Sources */,
 				04568CFC24CBEA3C00FE1841 /* MultilineTextField.swift in Sources */,
-				0409E4B624C574B9000038E1 /* SceneDelegate.swift in Sources */,
 				0437708124D537C000DCED8E /* AnalysisRepository.swift in Sources */,
 				049239B724C6C0A5009F301E /* AddRecordView.swift in Sources */,
 				04ED6BDA24D8D615004BC5D8 /* MainFighter.swift in Sources */,

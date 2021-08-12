@@ -15,6 +15,8 @@ struct RecordView: View {
     @State private var isActionSheet: Bool = false
     @State private var isAccount: Bool = false
     @State private var recordID: String?
+    
+    var device = UIDevice.current.userInterfaceIdiom
 
     private func showDeleteAlert(index: IndexSet) {
         isAlert.toggle()
@@ -25,72 +27,138 @@ struct RecordView: View {
 
         NavigationView {
 
-            VStack(alignment: .leading) {
+            //MARK: iPHONE
+            if device == .phone {
+                
+                VStack(alignment: .leading) {
 
-                Button(action: {
+                    Button(action: {
 
-                    self.isSheet.toggle()
-                }) {
+                        self.isSheet.toggle()
+                    }) {
 
-                    HStack {
+                        HStack {
 
-                        Image(systemName: "plus.circle.fill")
-                            .resizable()
-                            .frame(width: 20, height: 20)
-                        Text("Add a record".localized)
+                            Image(systemName: "plus.circle.fill")
+                                .resizable()
+                                .frame(width: 20, height: 20)
+                            Text("Add a record".localized)
+                        }
+                    }
+                    .padding(EdgeInsets(top: 10, leading: 20, bottom: 0, trailing: 20))
+                    .fullScreenCover(isPresented: $isSheet) {
+                        
+                        AddRecordView(recordListVM: recordListVM)
+                    }
+
+                    List{
+
+                        ForEach(recordListVM.recordCellViewModels) { recordCellVM in
+
+                            ResultCell(recordCellVM: recordCellVM)
+                        }
+                        .onDelete(perform: showDeleteAlert)
+                        .alert(isPresented: $isAlert) {
+
+                            showAlert()
+                        }
+                    }
+                    .sheet(isPresented: $isAccount) {
+
+                        SignInView()
                     }
                 }
-                .padding(EdgeInsets(top: 10, leading: 20, bottom: 0, trailing: 20))
-                .fullScreenCover(isPresented: $isSheet) {
+                .navigationBarTitle("Battle Record".localized)
+                .navigationBarItems(
+                    leading:
+    
+                        Button(action: { self.isActionSheet.toggle() }) {
+    
+                            Image(systemName: "gear")
+                                .resizable()
+                                .frame(width: 20, height: 20)
+                        },
+                    trailing: EditButton()
+                )
+                .actionSheet(isPresented: $isActionSheet) {
+
+                    ActionSheet(
+                        title: Text("Settings".localized),
+                        message: Text(""),
+                        buttons: [
+                            .default(Text("Account".localized),
+                                     action: {
+                                        self.isAccount.toggle()
+                                     }),
+                            .default(Text("Language".localized)),
+                            .default(Text("App Version".localized)),
+                            .cancel()
+                        ])
+                    }
+            }
+            
+            //MARK: iPAD
+            else {
+                
+                HStack {
+                    
+                    // Left Side
+                    VStack(alignment: .leading) {
+
+                        List{
+
+                            ForEach(recordListVM.recordCellViewModels) { recordCellVM in
+
+                                ResultCell(recordCellVM: recordCellVM)
+                            }
+                            .onDelete(perform: showDeleteAlert)
+                            .alert(isPresented: $isAlert) {
+
+                                showAlert()
+                            }
+                        }
+                        .sheet(isPresented: $isAccount) {
+
+                            SignInView()
+                        }
+                    }
+                    
+                    EdgeBorder(width: 2, edge: .trailing)
+                        .frame(width: 2)
+                        .foregroundColor(.gray.opacity(0.5))
                     
                     AddRecordView(recordListVM: recordListVM)
                 }
+                .navigationBarTitle("Battle Record".localized)
+                .navigationBarItems(
+                    leading:
+    
+                        Button(action: { self.isActionSheet.toggle() }) {
+    
+                            Image(systemName: "gear")
+                                .resizable()
+                                .frame(width: 20, height: 20)
+                        },
+                    trailing: EditButton()
+                )
+                .actionSheet(isPresented: $isActionSheet) {
 
-                List{
-
-                    ForEach(recordListVM.recordCellViewModels) { recordCellVM in
-
-                        ResultCell(recordCellVM: recordCellVM)
+                    ActionSheet(
+                        title: Text("Settings".localized),
+                        message: Text(""),
+                        buttons: [
+                            .default(Text("Account".localized),
+                                     action: {
+                                        self.isAccount.toggle()
+                                     }),
+                            .default(Text("Language".localized)),
+                            .default(Text("App Version".localized)),
+                            .cancel()
+                        ])
                     }
-                    .onDelete(perform: showDeleteAlert)
-                    .alert(isPresented: $isAlert) {
-
-                        showAlert()
-                    }
-                }
-                .sheet(isPresented: $isAccount) {
-
-                    SignInView()
-                }
             }
-            .navigationBarTitle("Battle Record".localized)
-            .navigationBarItems(
-//                leading:
-//
-//                    Button(action: { self.isActionSheet.toggle() }) {
-//
-//                        Image(systemName: "gear")
-//                            .resizable()
-//                            .frame(width: 20, height: 20)
-//                    },
-                trailing: EditButton()
-            )
-            .actionSheet(isPresented: $isActionSheet) {
-
-                ActionSheet(
-                    title: Text("Settings".localized),
-                    message: Text(""),
-                    buttons: [
-                        .default(Text("Account".localized),
-                                 action: {
-                                    self.isAccount.toggle()
-                                 }),
-                        .default(Text("Language".localized)),
-                        .default(Text("App Version".localized)),
-                        .cancel()
-                    ])
-                }
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 
     private func showAlert() -> Alert {
@@ -113,6 +181,12 @@ struct RecordVIew_Previews: PreviewProvider {
     static var previews: some View {
 
         RecordView()
+            .previewDevice(PreviewDevice(rawValue: "iPhone 12 Pro"))
+            .previewDisplayName("iPhone 12 Pro")
+        
+        RecordView()
+            .previewDevice("iPad Pro (12.9-inch) (5th generation)")
+            .previewDisplayName("iPad Pro 12.9")
     }
 }
 

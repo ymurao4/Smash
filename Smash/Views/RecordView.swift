@@ -210,10 +210,6 @@ struct ResultCell: View {
 
         HStack(alignment: .center, spacing: 10) {
 
-//            Rectangle()
-//                .frame(width: 5)
-//                .foregroundColor(self.borderColor(recordCellVM.record))
-
             VStack(alignment: .center, spacing: 5) {
 
                 Text(recordCellVM.record.result)

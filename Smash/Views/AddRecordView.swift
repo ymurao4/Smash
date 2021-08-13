@@ -109,11 +109,28 @@ struct AddRecordView: View {
             }
         }
         
+        //MARK: iPAD
         else {
             
             VStack {
                 
-                FormCell(myFighterName: $myFighterName, opponentFighterName: $opponentFighterName, stageName: $stageName, result: $result, selectedIndex: $selectedIndex)
+                HStack {
+                    
+                    FormCell(myFighterName: $myFighterName, opponentFighterName: $opponentFighterName, stageName: $stageName, result: $result, selectedIndex: $selectedIndex)
+                    
+                    Button(action: {
+
+                        self.recordListVM.addRecord(record: Record(result: self.stringResult(self.result), myFighter: self.myFighterName, opponentFighter: self.opponentFighterName, stage: self.stageName))
+
+                        savePrevFighterName()
+                    }) {
+
+                        Image(systemName: "checkmark")
+                            .resizable()
+                            .frame(width: 20, height: 20)
+                            .foregroundColor(Color.orange)
+                    }
+                }
                 
                 Spacer()
                     .frame(height: 20)
@@ -144,38 +161,6 @@ struct AddRecordView: View {
                 
                 self.loadPreviousFighterName()
             }
-//            .navigationBarTitle(Text("Result".localized), displayMode: .inline)
-//            .navigationBarItems(
-//
-//                leading:
-//
-//                    Button(action: {
-//
-//                        self.presentatinoMode.wrappedValue.dismiss()
-//                    }) {
-//
-//                        Text("Cancel".localized)
-//                            .foregroundColor(.orange)
-//                    },
-//
-//                trailing:
-//
-//                    Button(action: {
-//
-//                        self.recordListVM.addRecord(record: Record(result: self.stringResult(self.result), myFighter: self.myFighterName, opponentFighter: self.opponentFighterName, stage: self.stageName))
-//
-//                        savePrevFighterName()
-//
-//                        self.presentatinoMode.wrappedValue.dismiss()
-//                    }) {
-//
-//                        Image(systemName: "checkmark")
-//                            .resizable()
-//                            .frame(width: 20, height: 20)
-//                            .foregroundColor(Color.orange)
-//                    }
-//            )
-            
         }
     }
     
@@ -209,7 +194,7 @@ struct FormCell: View {
             VStack {
                 
                 Text("Result".localized)
-                    .padding(.bottom, 30)
+                    .padding(.bottom, 15)
                 
                 HStack {
                     

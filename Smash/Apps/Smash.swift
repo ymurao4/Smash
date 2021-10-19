@@ -19,7 +19,6 @@ struct Smash: App {
 
         WindowGroup {
 
-            //start
             ContentView()
         }
     }

@@ -20,6 +20,7 @@ struct RecordView: View {
 
     private func showDeleteAlert(index: IndexSet) {
         isAlert.toggle()
+
         self.recordID = self.recordListVM.recordCellViewModels[index.first!].id
     }
 
@@ -100,7 +101,7 @@ struct RecordView: View {
             //MARK: iPAD
             else {
                 
-                HStack {
+                HStack 
                     
                     // Left Side
                     VStack(alignment: .leading) {

@@ -203,6 +203,8 @@ struct T {
             return "ホムラ/ヒカリ"
         case "kazuya":
             return "カズヤ"
+        case "sora":
+            return "ソラ"
         case "mii_brawler":
             return "格闘Mii"
         case "mii_gunner":

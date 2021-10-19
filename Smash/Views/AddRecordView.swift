@@ -37,7 +37,7 @@ struct AddRecordView: View {
     var body: some View {
         
         // MARK: iPHONE
-        if device == .phone {
+//        if device == .phone {
             
             NavigationView {
                 
@@ -107,61 +107,61 @@ struct AddRecordView: View {
                         }
                 )
             }
-        }
+//        }
         
         //MARK: iPAD
-        else {
-            
-            VStack {
-                
-                HStack {
-                    
-                    FormCell(myFighterName: $myFighterName, opponentFighterName: $opponentFighterName, stageName: $stageName, result: $result, selectedIndex: $selectedIndex)
-                    
-                    Button(action: {
-
-                        self.recordListVM.addRecord(record: Record(result: self.stringResult(self.result), myFighter: self.myFighterName, opponentFighter: self.opponentFighterName, stage: self.stageName))
-
-                        savePrevFighterName()
-                    }) {
-
-                        Image(systemName: "checkmark")
-                            .resizable()
-                            .frame(width: 20, height: 20)
-                            .foregroundColor(Color.orange)
-                    }
-                }
-                
-                Spacer()
-                    .frame(height: 20)
-                
-                Picker("", selection: $selectedIndex) {
-                    
-                    ForEach(0..<self.pickerNames.count) { index in
-                        
-                        Text(self.pickerNames[index].localized)
-                            .tag(index)
-                    }
-                }
-                .pickerStyle(SegmentedPickerStyle())
-                .padding(.bottom, 10)
-                
-                if selectedIndex == 0 {
-                    
-                    MyFighterView(fighterName: $myFighterName)
-                } else if selectedIndex == 1 {
-                    
-                    OpponentFighterView(opponentFighterName: $opponentFighterName)
-                } else if selectedIndex == 2 {
-                    
-                    StageView(stageName: $stageName)
-                }
-            }
-            .onAppear {
-                
-                self.loadPreviousFighterName()
-            }
-        }
+//        else {
+//
+//            VStack {
+//
+//                HStack {
+//
+//                    FormCell(myFighterName: $myFighterName, opponentFighterName: $opponentFighterName, stageName: $stageName, result: $result, selectedIndex: $selectedIndex)
+//
+//                    Button(action: {
+//
+//                        self.recordListVM.addRecord(record: Record(result: self.stringResult(self.result), myFighter: self.myFighterName, opponentFighter: self.opponentFighterName, stage: self.stageName))
+//
+//                        savePrevFighterName()
+//                    }) {
+//
+//                        Image(systemName: "checkmark")
+//                            .resizable()
+//                            .frame(width: 20, height: 20)
+//                            .foregroundColor(Color.orange)
+//                    }
+//                }
+//
+//                Spacer()
+//                    .frame(height: 20)
+//
+//                Picker("", selection: $selectedIndex) {
+//
+//                    ForEach(0..<self.pickerNames.count) { index in
+//
+//                        Text(self.pickerNames[index].localized)
+//                            .tag(index)
+//                    }
+//                }
+//                .pickerStyle(SegmentedPickerStyle())
+//                .padding(.bottom, 10)
+//
+//                if selectedIndex == 0 {
+//
+//                    MyFighterView(fighterName: $myFighterName)
+//                } else if selectedIndex == 1 {
+//
+//                    OpponentFighterView(opponentFighterName: $opponentFighterName)
+//                } else if selectedIndex == 2 {
+//
+//                    StageView(stageName: $stageName)
+//                }
+//            }
+//            .onAppear {
+//
+//                self.loadPreviousFighterName()
+//            }
+//        }
     }
     
     func loadPreviousFighterName() {

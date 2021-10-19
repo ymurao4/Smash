@@ -16,6 +16,7 @@ class SignInWithAppleCoordinator: NSObject, ASAuthorizationControllerPresentatio
     private var onSignedIn: (() -> Void)?
 
     func presentationAnchor(for controller: ASAuthorizationController) -> ASPresentationAnchor {
+        
       return UIApplication.shared.windows.first!
     }
 

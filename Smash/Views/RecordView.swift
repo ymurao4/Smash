@@ -117,12 +117,8 @@ struct RecordVIew_Previews: PreviewProvider {
     static var previews: some View {
         
         RecordView()
-            .previewDevice(PreviewDevice(rawValue: "iPhone 12 Pro"))
-            .previewDisplayName("iPhone 12 Pro")
-        
-        RecordView()
-            .previewDevice("iPad Pro (12.9-inch) (5th generation)")
-            .previewDisplayName("iPad Pro 12.9")
+            .previewDevice(PreviewDevice(rawValue: "iPhone 13 Pro"))
+            .previewDisplayName("iPhone 13 Pro")
     }
 }
 
@@ -148,8 +144,10 @@ struct ResultCell: View {
             
             VStack(alignment: .center, spacing: 5) {
                 
-                Text(recordCellVM.record.result)
-                    .minimumScaleFactor(0.5)
+//                Text(recordCellVM.record.result)
+//                    .minimumScaleFactor(0.5)
+                
+                Text(recordCellVM.record.whoFightWith)
                 
                 Text(recordCellVM.date)
                     .font(.caption)
